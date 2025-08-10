@@ -1,0 +1,47 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Cursor Project Rules: Clinic Static Website
+
+## General Coding Standards
+- Use **semantic HTML5** elements (`<header>`, `<main>`, `<section>`, `<footer>`) for structure.
+- All CSS should follow **BEM naming convention**.
+- Use **responsive design** with mobile-first approach (CSS `min-width` media queries).
+- Prefer **vanilla CSS** or a lightweight framework (Tailwind, PicoCSS). No heavy UI libraries unless explicitly approved.
+- Keep JavaScript minimal; only use when necessary for interactivity.
+- All assets (CSS, JS, images) must be loaded from the local `/assets` directory unless otherwise approved.
+
+## Accessibility (WCAG 2.1 AA)
+- All images must have **descriptive alt text**; decorative images should use empty `alt=""`.
+- Ensure **sufficient color contrast** for text and backgrounds.
+- Use **aria-labels** or semantic tags for all interactive elements.
+- Form inputs must have **associated `<label>` elements**.
+- All pages must be navigable via **keyboard only**.
+
+## SEO Optimization
+- Each page must have a unique `<title>` and `<meta name="description">`.
+- Use `<h1>` once per page for the primary headline.
+- Include **structured data (JSON-LD)** for "LocalBusiness" with clinic details.
+- Optimize images using **WebP** or compressed formats.
+- Generate a sitemap.xml and robots.txt.
+
+## Performance
+- Optimize images to be under **200 KB** where possible.
+- Minimize CSS and JS; bundle and minify before deployment.
+- Use async/defer for non-critical JS.
+- Inline critical CSS for above-the-fold content.
+
+## Content & Layout
+- Site wireframes can be found in `.project/wireframe`
+   - `landing.png`: is the landing page of the clinic website.
+   - `about.png`: is the about page of the site, listing an overview of the clinic and its staff
+   - `services.png`: expands on the services that are presented in the landing page
+
+## Testing & Review
+- Run HTML validation (W3C) before merge.
+- Check Lighthouse scores for:
+- Performance: ≥ 90
+- Accessibility: ≥ 90
+- SEO: ≥ 90
