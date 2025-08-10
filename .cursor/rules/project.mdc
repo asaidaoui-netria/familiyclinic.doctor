@@ -38,10 +38,16 @@ alwaysApply: true
    - `landing.png`: is the landing page of the clinic website.
    - `about.png`: is the about page of the site, listing an overview of the clinic and its staff
    - `services.png`: expands on the services that are presented in the landing page
+- Use Inner typography 
 
-## Testing & Review
+## Memory & Context
+- Refer to `.cursor/memory.md` file for guidance during all coding sessions with this project.
+- `.cursor/memory.md` can be freely updated with any lessons or principles discovered about this project which in any way may help you in future coding sessions.
+- After each prompt review `.cursor/memory.md` and perform any necessary modifications in this file
+
+<!-- ## Testing & Review
 - Run HTML validation (W3C) before merge.
 - Check Lighthouse scores for:
 - Performance: ≥ 90
 - Accessibility: ≥ 90
-- SEO: ≥ 90
+- SEO: ≥ 90 -->
