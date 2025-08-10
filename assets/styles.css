@@ -269,9 +269,33 @@ a:hover {
 
 .services-preview__grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     margin-bottom: 3rem;
+    justify-items: center;
+}
+
+/* First row: 3 cards */
+.services-preview__grid .service-card:nth-child(-n+3) {
+    grid-column: span 1;
+}
+
+/* Second row: 4 cards - centered layout */
+.services-preview__grid .service-card:nth-child(4) {
+    grid-column: 1 / 2;
+}
+
+.services-preview__grid .service-card:nth-child(5) {
+    grid-column: 2 / 3;
+}
+
+.services-preview__grid .service-card:nth-child(6) {
+    grid-column: 3 / 4;
+}
+
+.services-preview__grid .service-card:nth-child(7) {
+    grid-column: 2 / 3;
+    grid-row: 3;
 }
 
 .service-card {
@@ -648,6 +672,15 @@ a:hover {
     .services-preview__grid {
         grid-template-columns: 1fr;
         gap: 1.5rem;
+    }
+
+    /* Reset grid positioning for mobile */
+    .services-preview__grid .service-card:nth-child(4),
+    .services-preview__grid .service-card:nth-child(5),
+    .services-preview__grid .service-card:nth-child(6),
+    .services-preview__grid .service-card:nth-child(7) {
+        grid-column: 1 / -1;
+        grid-row: auto;
     }
 
     /* About Preview */

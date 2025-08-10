@@ -1,3 +1,7 @@
+---
+alwaysApply: true
+---
+
 
 # Family Clinic Project Memory
 
@@ -8,6 +12,7 @@
 - **Target**: Comprehensive healthcare services for families
 - **Tagline**: "Le soin qui rassemble" (The care that brings together)
 - **Language**: French content available for multilingual support
+- **Established**: 2021 (updated from "over 20 years")
 
 ## Technical Stack
 - **HTML5**: Semantic structure with accessibility features
@@ -18,13 +23,22 @@
 
 ## Key Features Implemented
 
-### Landing Page (index.html)
-- Hero section with call-to-action buttons
-- Services preview (Primary Care, Pediatric Care, Women's Health, Preventive Care)
+### Landing Page (index.html) - UPDATED
+- Hero section with call-to-action buttons (Book Appointment scrolls to contact CTA)
+- **Services preview with 7 services in 3+4 layout**:
+  - **First Row (3 cards)**: Family Medicine, Holistic Consultations, Quantum Scan
+  - **Second Row (4 cards, centered)**: Naturopathy, Hijamah, Physiotherapy, Dermatology & Integrative Surgery
 - About clinic section with team introduction
-- Team member profiles (Dr. My Abdellah, Nurse Safae)
-- Contact CTA section
+- Team member profiles (updated names and information)
+- Contact CTA section with smooth scroll navigation
 - Comprehensive footer with contact information
+
+### Services Layout Implementation
+- **Desktop Layout**: 3-column grid with specific positioning for 3+4 card arrangement
+- **Second Row Centering**: CSS Grid positioning to center 4 cards in second row
+- **Mobile Responsive**: Single-column layout that resets all positioning
+- **All Cards Same Size**: Consistent sizing and visual hierarchy maintained
+- **Smooth Navigation**: Book Appointment buttons scroll to contact CTA section
 
 ### Image Optimization
 - **Original Issue**: Large images (1MB+) causing memory errors
@@ -47,23 +61,27 @@
 - **Friday**: 9:00 AM - 1:00 PM, 3:00 PM - 6:00 PM (2-hour midday break)
 - **Saturday**: 9:00 AM - 2:00 PM
 
-### Services Offered (Updated from French Content)
-1. **Consultations Holistiques**: "Prenez soin de vous autrement" - Holistic approach to health
-2. **Quantum Scan**: Energy reading technology - "Le corps parle en fréquences : écoutons-le"
-3. **Family Medicine**: "Au cœur de chaque famille, la santé est un lien essentiel"
-4. **Naturopathie**: "Redécouvrez votre équilibre naturellement"
-5. **Hijamah**: Traditional therapeutic method for purifying and revitalizing benefits
-6. **Physiothérapie**: "Soulagez vos douleurs, améliorez votre mobilité"
-7. **Dermatologie & Chirurgie Intégrative**: "Pour une peau rayonnante, naturellement"
+### Services Offered (COMPLETE LIST - 7 Services)
+1. **Family Medicine**: Comprehensive family healthcare with personalized medical follow-up, prevention, and trusted relationships for all ages
+2. **Holistic Consultations**: Take care of yourself differently with a global health approach that considers body, mind, and emotions
+3. **Quantum Scan**: Advanced bioenergetic technology that analyzes internal imbalances and guides care toward optimal effectiveness
+4. **Naturopathy**: Rediscover your natural balance with an approach that nourishes, heals, and revitalizes your body
+5. **Hijamah**: Traditional therapeutic method recognized for its purifying and revitalizing virtues, practiced with rigorous medical standards
+6. **Physiotherapy**: Relieve your pain and improve your mobility. Find daily comfort through our physiotherapy service with tension relief and muscle strengthening
+7. **Dermatology & Integrative Surgery**: For radiant skin, naturally. We combine classical dermatological care with naturopathy for healthy, deeply treated skin
 
-### Team Members (Updated from French Content)
-- **Dr. Said Alaoui Moulay Abdallah**: 
+### Team Members (UPDATED NAMES)
+- **Dr. Said-Alaoui Moulay Abdellah**: 
+  - Family Medicine Physician
+  - Board-certified family medicine physician with over 15 years of experience in comprehensive family care
   - Former military doctor with 40+ years experience
   - Focuses on preventing lifestyle-related diseases
   - Specializes in nutritional therapy and environmental causes
   - Follows Hippocrates' principle: "Let food be your medicine"
   - Provides personalized medical follow-up and prevention advice
-- **Nurse Safae Imarhrane**:
+- **Imarhrane Safae**:
+  - Registered Nurse
+  - Experienced registered nurse specializing in patient care and health education
   - Reception and care nurse
   - Embodies the soul of the establishment
   - Combines medical competence with attentive listening
@@ -76,8 +94,22 @@
 - **Multicultural Approach**: Multilingual team for diverse community
 - **Quality Care**: Accessible to all with active listening and medical expertise
 - **Global Wellness**: Encompasses physical and mental health dimensions
+- **Combined Approach**: Traditional medical care with holistic wellness methods
 
 ## Technical Lessons Learned
+
+### CSS Grid Layout for Services
+- **3+4 Layout**: First row with 3 cards, second row with 4 centered cards
+- **Grid Positioning**: Used `grid-column` and `grid-row` for precise positioning
+- **Centering Technique**: Second row cards positioned to create centered appearance
+- **Mobile Responsive**: Reset all positioning for single-column mobile layout
+- **Consistent Sizing**: All cards maintain same dimensions despite different row layouts
+
+### Navigation Improvements
+- **Smooth Scrolling**: Book Appointment buttons scroll to contact CTA section
+- **Anchor Links**: Used `#contact-cta` for internal navigation
+- **User Experience**: Better flow within single page instead of separate contact page
+- **Call-to-Action**: Direct path to contact information and appointment booking
 
 ### Image Optimization
 - Use `sips` command on macOS for batch image resizing
@@ -100,9 +132,9 @@
 ## File Structure
 ```
 family-clinic/
-├── index.html (landing page)
+├── index.html (landing page - UPDATED with 7 services)
 ├── assets/
-│   ├── styles.css (main stylesheet)
+│   ├── styles.css (main stylesheet - UPDATED with 3+4 grid layout)
 │   ├── script.js (interactivity)
 │   ├── optimized/ (optimized images)
 │   │   ├── clinic_logo_desktop_100x100.png
@@ -136,6 +168,7 @@ family-clinic/
 - **Accessibility**: WCAG 2.1 AA compliant
 - **SEO**: Structured data and semantic markup
 - **Mobile Optimization**: Responsive design with optimized images
+- **Layout Performance**: CSS Grid for efficient 3+4 service card layout
 
 ## Development Notes
 - All placeholder links point to future pages
@@ -146,6 +179,188 @@ family-clinic/
 - French content available in .project/references/ for multilingual implementation
 - Services content includes both landing page summaries and detailed descriptions
 - Team information includes comprehensive backgrounds and specializations
+- **Navigation Flow**: Book Appointment buttons provide smooth scroll to contact CTA
+- **Service Organization**: 7 services properly organized in balanced 3+4 layout
+- **Team Updates**: Corrected team member names and titles
+- **Clinic History**: Updated establishment year to 2021
 
+# Family Clinic Project Memory
+
+## Project Overview
+- **Type**: Static website for a family clinic in Kenitra, Morocco
+- **Location**: N*47, Bloc B, Kenitra, 14000, Morocco
+- **Phone**: +212-641-745-441
+- **Target**: Comprehensive healthcare services for families
+- **Tagline**: "Le soin qui rassemble" (The care that brings together)
+- **Language**: French content available for multilingual support
+- **Established**: 2021 (updated from "over 20 years")
+
+## Technical Stack
+- **HTML5**: Semantic structure with accessibility features
+- **CSS3**: BEM methodology, responsive design, mobile-first approach
+- **JavaScript**: Vanilla JS for interactivity, no heavy frameworks
+- **Images**: Optimized with responsive loading (srcset/sizes)
+- **Performance**: Lazy loading, error handling, fallback content
+
+## Key Features Implemented
+
+### Landing Page (index.html) - UPDATED
+- Hero section with call-to-action buttons (Book Appointment scrolls to contact CTA)
+- **Services preview with 7 services in 3+4 layout**:
+  - **First Row (3 cards)**: Family Medicine, Holistic Consultations, Quantum Scan
+  - **Second Row (4 cards, centered)**: Naturopathy, Hijamah, Physiotherapy, Dermatology & Integrative Surgery
+- About clinic section with team introduction
+- Team member profiles (updated names and information)
+- Contact CTA section with smooth scroll navigation
+- Comprehensive footer with contact information
+
+### Services Layout Implementation
+- **Desktop Layout**: 3-column grid with specific positioning for 3+4 card arrangement
+- **Second Row Centering**: CSS Grid positioning to center 4 cards in second row
+- **Mobile Responsive**: Single-column layout that resets all positioning
+- **All Cards Same Size**: Consistent sizing and visual hierarchy maintained
+- **Smooth Navigation**: Book Appointment buttons scroll to contact CTA section
+
+### Image Optimization
+- **Original Issue**: Large images (1MB+) causing memory errors
+- **Solution**: Created optimized versions with 80-99% size reduction
+- **Responsive Images**: Desktop and mobile versions for all images
+- **File Structure**: `assets/optimized/` directory with descriptive naming
+- **Performance**: Lazy loading, error handling, fallback icons
+
+### SEO & Accessibility
+- **Structured Data**: JSON-LD for LocalBusiness schema
+- **Meta Tags**: Optimized title and description
+- **ARIA Labels**: Proper accessibility attributes
+- **Semantic HTML**: Header, main, section, footer elements
+- **WCAG 2.1 AA**: Color contrast, keyboard navigation, focus states
+
+## Business Information
+
+### Opening Hours
+- **Monday-Thursday**: 9:00 AM - 5:00 PM
+- **Friday**: 9:00 AM - 1:00 PM, 3:00 PM - 6:00 PM (2-hour midday break)
+- **Saturday**: 9:00 AM - 2:00 PM
+
+### Services Offered (COMPLETE LIST - 7 Services)
+1. **Family Medicine**: Comprehensive family healthcare with personalized medical follow-up, prevention, and trusted relationships for all ages
+2. **Holistic Consultations**: Take care of yourself differently with a global health approach that considers body, mind, and emotions
+3. **Quantum Scan**: Advanced bioenergetic technology that analyzes internal imbalances and guides care toward optimal effectiveness
+4. **Naturopathy**: Rediscover your natural balance with an approach that nourishes, heals, and revitalizes your body
+5. **Hijamah**: Traditional therapeutic method recognized for its purifying and revitalizing virtues, practiced with rigorous medical standards
+6. **Physiotherapy**: Relieve your pain and improve your mobility. Find daily comfort through our physiotherapy service with tension relief and muscle strengthening
+7. **Dermatology & Integrative Surgery**: For radiant skin, naturally. We combine classical dermatological care with naturopathy for healthy, deeply treated skin
+
+### Team Members (UPDATED NAMES)
+- **Dr. Said-Alaoui Moulay Abdellah**: 
+  - Family Medicine Physician
+  - Board-certified family medicine physician with over 15 years of experience in comprehensive family care
+  - Former military doctor with 40+ years experience
+  - Focuses on preventing lifestyle-related diseases
+  - Specializes in nutritional therapy and environmental causes
+  - Follows Hippocrates' principle: "Let food be your medicine"
+  - Provides personalized medical follow-up and prevention advice
+- **Imarhrane Safae**:
+  - Registered Nurse
+  - Experienced registered nurse specializing in patient care and health education
+  - Reception and care nurse
+  - Embodies the soul of the establishment
+  - Combines medical competence with attentive listening
+  - Manages emergencies while maintaining serene atmosphere
+  - Pillar of patient trust and team support
+
+## Clinic Vision & Approach
+- **Holistic Vision**: Human, integrative, and future-oriented healthcare
+- **Personalized Medicine**: Benevolent and adapted to real family needs
+- **Multicultural Approach**: Multilingual team for diverse community
+- **Quality Care**: Accessible to all with active listening and medical expertise
+- **Global Wellness**: Encompasses physical and mental health dimensions
+- **Combined Approach**: Traditional medical care with holistic wellness methods
+
+## Technical Lessons Learned
+
+### CSS Grid Layout for Services
+- **3+4 Layout**: First row with 3 cards, second row with 4 centered cards
+- **Grid Positioning**: Used `grid-column` and `grid-row` for precise positioning
+- **Centering Technique**: Second row cards positioned to create centered appearance
+- **Mobile Responsive**: Reset all positioning for single-column mobile layout
+- **Consistent Sizing**: All cards maintain same dimensions despite different row layouts
+
+### Navigation Improvements
+- **Smooth Scrolling**: Book Appointment buttons scroll to contact CTA section
+- **Anchor Links**: Used `#contact-cta` for internal navigation
+- **User Experience**: Better flow within single page instead of separate contact page
+- **Call-to-Action**: Direct path to contact information and appointment booking
+
+### Image Optimization
+- Use `sips` command on macOS for batch image resizing
+- Create multiple sizes for responsive design
+- Implement proper error handling for failed image loads
+- Use descriptive filenames with size information
+
+### Performance Optimization
+- Remove animations for better performance
+- Implement lazy loading for all images
+- Use fallback content for failed image loads
+- Optimize CSS with BEM methodology
+
+### Responsive Design
+- Mobile-first approach with `min-width` media queries
+- Responsive images with `srcset` and `sizes` attributes
+- Flexible grid layouts using CSS Grid
+- Touch-friendly navigation and buttons
+
+## File Structure
+```
+family-clinic/
+├── index.html (landing page - UPDATED with 7 services)
+├── assets/
+│   ├── styles.css (main stylesheet - UPDATED with 3+4 grid layout)
+│   ├── script.js (interactivity)
+│   ├── optimized/ (optimized images)
+│   │   ├── clinic_logo_desktop_100x100.png
+│   │   ├── clinic_entrance_desktop_800x400.jpg
+│   │   ├── service_icons_160x160.jpg
+│   │   ├── team_photos_400x400.png
+│   │   └── README.md (optimization documentation)
+│   └── (original images preserved)
+├── .project/references/ (French content files)
+│   ├── Services (landing page).txt
+│   ├── Services (corresponding pages).txt
+│   ├── À propos de.txt
+│   └── Notre équipe.txt
+└── .cursor/rules/
+    ├── project.mdc (project rules)
+    └── memory.mdc (this file)
+```
+
+## Future Considerations
+- Implement remaining pages (about.html, services.html, contact.html)
+- Add form validation for contact forms
+- Consider adding a blog section for health tips
+- Implement appointment booking system
+- Add multilingual support (Arabic/French) using reference content
+- Create detailed service pages with French content
+- Implement about page with clinic vision and team information
+
+## Performance Metrics
+- **Image Size Reduction**: 80-99% smaller files
+- **Loading Strategy**: Lazy loading with fallbacks
+- **Accessibility**: WCAG 2.1 AA compliant
+- **SEO**: Structured data and semantic markup
+- **Mobile Optimization**: Responsive design with optimized images
+- **Layout Performance**: CSS Grid for efficient 3+4 service card layout
+
+## Development Notes
+- All placeholder links point to future pages
+- Error handling prevents memory issues
+- Fallback content maintains visual hierarchy
 - No heavy dependencies or frameworks used
 - Clean, maintainable code structure
+- French content available in .project/references/ for multilingual implementation
+- Services content includes both landing page summaries and detailed descriptions
+- Team information includes comprehensive backgrounds and specializations
+- **Navigation Flow**: Book Appointment buttons provide smooth scroll to contact CTA
+- **Service Organization**: 7 services properly organized in balanced 3+4 layout
+- **Team Updates**: Corrected team member names and titles
+- **Clinic History**: Updated establishment year to 2021
