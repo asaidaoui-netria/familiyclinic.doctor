@@ -41,13 +41,9 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    // Enhanced image loading with error handling
+    // Basic image error handling without animations
     const images = document.querySelectorAll('img');
     images.forEach(img => {
-        // Set initial opacity for smooth loading
-        img.style.opacity = '0';
-        img.style.transition = 'opacity 0.3s ease';
-
         // Add error handling
         img.addEventListener('error', function () {
             console.warn('Failed to load image:', this.src);
@@ -61,43 +57,10 @@ document.addEventListener('DOMContentLoaded', function () {
                 parent.innerHTML = '<div class="team-member__photo-fallback">👨‍⚕️</div>';
             }
         });
-
-        // Add load success handling
-        img.addEventListener('load', function () {
-            this.style.opacity = '1';
-        });
-
-        // Add timeout for images that take too long
-        setTimeout(() => {
-            if (img.style.opacity === '0') {
-                console.warn('Image loading timeout:', img.src);
-                img.style.opacity = '1';
-            }
-        }, 5000);
-    });
-
-    // Intersection Observer for animations
-    const observerOptions = {
-        threshold: 0.1,
-        rootMargin: '0px 0px -50px 0px'
-    };
-
-    const observer = new IntersectionObserver(function (entries) {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('animate-in');
-            }
-        });
-    }, observerOptions);
-
-    // Observe elements for animation
-    const animateElements = document.querySelectorAll('.service-card, .team-member, .about-preview__content');
-    animateElements.forEach(el => {
-        observer.observe(el);
     });
 });
 
-// Add CSS for mobile menu, animations, and fallback styles
+// Add CSS for mobile menu and fallback styles only
 const style = document.createElement('style');
 style.textContent = `
     .nav--open {
@@ -114,21 +77,6 @@ style.textContent = `
     .nav--open .nav__list {
         flex-direction: column;
         gap: 1rem;
-    }
-    
-    .animate-in {
-        animation: fadeInUp 0.6s ease forwards;
-    }
-    
-    @keyframes fadeInUp {
-        from {
-            opacity: 0;
-            transform: translateY(30px);
-        }
-        to {
-            opacity: 1;
-            transform: translateY(0);
-        }
     }
     
     .service-card__icon-fallback {
