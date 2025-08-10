@@ -38,7 +38,8 @@ alwaysApply: true
    - `landing.png`: is the landing page of the clinic website.
    - `about.png`: is the about page of the site, listing an overview of the clinic and its staff
    - `services.png`: expands on the services that are presented in the landing page
-- Use Inner typography 
+- Use Inner typography
+- All text should be in english, with internationalization to be tackled seperatly
 
 ## Memory & Context
 - Refer to `.cursor/memory.mdc` file for guidance during all coding sessions with this project.
