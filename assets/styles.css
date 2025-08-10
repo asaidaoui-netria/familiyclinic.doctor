@@ -456,6 +456,8 @@ a:hover {
     margin-top: 2rem;
 }
 
+
+
 /* Contact CTA Section */
 .contact-cta {
     padding: 5rem 0;
@@ -719,6 +721,8 @@ a:hover {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
+
+
 
     /* Contact CTA */
     .contact-cta {

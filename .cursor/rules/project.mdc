@@ -12,6 +12,7 @@ alwaysApply: true
 - Prefer **vanilla CSS** or a lightweight framework (Tailwind, PicoCSS). No heavy UI libraries unless explicitly approved.
 - Keep JavaScript minimal; only use when necessary for interactivity.
 - All assets (CSS, JS, images) must be loaded from the local `/assets` directory unless otherwise approved.
+- CSS and JS assets should be named after the HTML file they are applied to, unless they are considered as shared across multiple HTML files.
 
 ## Accessibility (WCAG 2.1 AA)
 - All images must have **descriptive alt text**; decorative images should use empty `alt=""`.

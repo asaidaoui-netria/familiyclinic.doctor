@@ -1,0 +1,259 @@
+/* About Page Specific Styles */
+
+/* About Clinic Section */
+.about-clinic {
+    padding: 4rem 0;
+    background-color: #f8fafc;
+}
+
+.about-clinic__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.about-clinic__title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #1e293b;
+}
+
+.about-clinic__content {
+    display: grid;
+    gap: 3rem;
+}
+
+.about-clinic__text {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-clinic__description {
+    font-size: 1.125rem;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+    color: #475569;
+}
+
+.about-clinic__features {
+    display: grid;
+    gap: 2rem;
+}
+
+.about-clinic__feature {
+    background: white;
+    padding: 2rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border-left: 4px solid #2563eb;
+}
+
+.about-clinic__feature h3 {
+    color: #1e293b;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+.about-clinic__feature p {
+    color: #64748b;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+/* Team Section */
+.team {
+    padding: 4rem 0;
+}
+
+.team__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.team__title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #1e293b;
+}
+
+.team__subtitle {
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 3rem;
+    color: #64748b;
+}
+
+.team__grid {
+    display: grid;
+    gap: 3rem;
+}
+
+.team-member--detailed {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 2rem;
+    align-items: start;
+    background: white;
+    padding: 2rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.team-member__info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.team-member__name {
+    font-size: 1.5rem;
+    color: #1e293b;
+    margin-bottom: 0.5rem;
+}
+
+.team-member__title {
+    font-size: 1.125rem;
+    color: #2563eb;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.team-member__description {
+    color: #475569;
+    line-height: 1.7;
+    text-align: left;
+}
+
+.team-member__description p {
+    margin-bottom: 1rem;
+}
+
+.team-member__description p:last-child {
+    margin-bottom: 0;
+}
+
+/* Values Section */
+.values {
+    padding: 4rem 0;
+    background-color: #f8fafc;
+}
+
+.values__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.values__title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #1e293b;
+}
+
+.values__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.value-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.value-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.value-card h3 {
+    color: #1e293b;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+.value-card p {
+    color: #64748b;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    .about-clinic__title {
+        font-size: 2rem;
+    }
+
+    .about-clinic__description {
+        font-size: 1rem;
+    }
+
+    .about-clinic__features {
+        gap: 1.5rem;
+    }
+
+    .about-clinic__feature {
+        padding: 1.5rem;
+    }
+
+    .team__title {
+        font-size: 2rem;
+    }
+
+    .team__subtitle {
+        font-size: 1.125rem;
+    }
+
+    .team-member--detailed {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        padding: 1.5rem;
+    }
+
+    .values__title {
+        font-size: 2rem;
+    }
+
+    .values__grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .value-card {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-clinic__title {
+        font-size: 1.75rem;
+    }
+
+    .team__title {
+        font-size: 1.75rem;
+    }
+
+    .values__title {
+        font-size: 1.75rem;
+    }
+
+    .team-member--detailed {
+        padding: 1rem;
+    }
+
+    .about-clinic__feature {
+        padding: 1rem;
+    }
+
+    .value-card {
+        padding: 1rem;
+    }
+}
