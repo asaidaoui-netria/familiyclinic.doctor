@@ -1,3 +1,119 @@
 ---
 alwaysApply: true
 ---
+
+# Family Clinic Project Memory
+
+## Project Overview
+- **Type**: Static website for a family clinic in Kenitra, Morocco
+- **Location**: N*47, Bloc B, Kenitra, 14000, Morocco
+- **Phone**: +212-641-745-441
+- **Target**: Comprehensive healthcare services for families
+
+## Technical Stack
+- **HTML5**: Semantic structure with accessibility features
+- **CSS3**: BEM methodology, responsive design, mobile-first approach
+- **JavaScript**: Vanilla JS for interactivity, no heavy frameworks
+- **Images**: Optimized with responsive loading (srcset/sizes)
+- **Performance**: Lazy loading, error handling, fallback content
+
+## Key Features Implemented
+
+### Landing Page (index.html)
+- Hero section with call-to-action buttons
+- Services preview (Primary Care, Pediatric Care, Women's Health, Preventive Care)
+- About clinic section with team introduction
+- Team member profiles (Dr. My Abdellah, Nurse Safae)
+- Contact CTA section
+- Comprehensive footer with contact information
+
+### Image Optimization
+- **Original Issue**: Large images (1MB+) causing memory errors
+- **Solution**: Created optimized versions with 80-99% size reduction
+- **Responsive Images**: Desktop and mobile versions for all images
+- **File Structure**: `assets/optimized/` directory with descriptive naming
+- **Performance**: Lazy loading, error handling, fallback icons
+
+### SEO & Accessibility
+- **Structured Data**: JSON-LD for LocalBusiness schema
+- **Meta Tags**: Optimized title and description
+- **ARIA Labels**: Proper accessibility attributes
+- **Semantic HTML**: Header, main, section, footer elements
+- **WCAG 2.1 AA**: Color contrast, keyboard navigation, focus states
+
+## Business Information
+
+### Opening Hours
+- **Monday-Thursday**: 9:00 AM - 5:00 PM
+- **Friday**: 9:00 AM - 1:00 PM, 3:00 PM - 6:00 PM (2-hour midday break)
+- **Saturday**: 9:00 AM - 2:00 PM
+
+### Services Offered
+1. **Primary Care**: Health checkups, preventive care, common illnesses
+2. **Pediatric Care**: Specialized healthcare for children
+3. **Women's Health**: Gynecology and wellness services
+4. **Preventive Care**: Vaccinations, screenings, health education
+
+### Team Members
+- **Dr. My Abdellah**: Family Medicine Physician (15+ years experience)
+- **Nurse Safae**: Registered Nurse (patient care specialist)
+
+## Technical Lessons Learned
+
+### Image Optimization
+- Use `sips` command on macOS for batch image resizing
+- Create multiple sizes for responsive design
+- Implement proper error handling for failed image loads
+- Use descriptive filenames with size information
+
+### Performance Optimization
+- Remove animations for better performance
+- Implement lazy loading for all images
+- Use fallback content for failed image loads
+- Optimize CSS with BEM methodology
+
+### Responsive Design
+- Mobile-first approach with `min-width` media queries
+- Responsive images with `srcset` and `sizes` attributes
+- Flexible grid layouts using CSS Grid
+- Touch-friendly navigation and buttons
+
+## File Structure
+```
+family-clinic/
+├── index.html (landing page)
+├── assets/
+│   ├── styles.css (main stylesheet)
+│   ├── script.js (interactivity)
+│   ├── optimized/ (optimized images)
+│   │   ├── clinic_logo_desktop_100x100.png
+│   │   ├── clinic_entrance_desktop_800x400.jpg
+│   │   ├── service_icons_160x160.jpg
+│   │   ├── team_photos_400x400.png
+│   │   └── README.md (optimization documentation)
+│   └── (original images preserved)
+└── .cursor/rules/
+    ├── project.mdc (project rules)
+    └── memory.mdc (this file)
+```
+
+## Future Considerations
+- Implement remaining pages (about.html, services.html, contact.html)
+- Add form validation for contact forms
+- Consider adding a blog section for health tips
+- Implement appointment booking system
+- Add multilingual support (Arabic/French)
+
+## Performance Metrics
+- **Image Size Reduction**: 80-99% smaller files
+- **Loading Strategy**: Lazy loading with fallbacks
+- **Accessibility**: WCAG 2.1 AA compliant
+- **SEO**: Structured data and semantic markup
+- **Mobile Optimization**: Responsive design with optimized images
+
+## Development Notes
+- All placeholder links point to future pages
+- Error handling prevents memory issues
+- Fallback content maintains visual hierarchy
+- No heavy dependencies or frameworks used
+- Clean, maintainable code structure

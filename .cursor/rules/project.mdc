@@ -41,9 +41,9 @@ alwaysApply: true
 - Use Inner typography 
 
 ## Memory & Context
-- Refer to `.cursor/memory.md` file for guidance during all coding sessions with this project.
-- `.cursor/memory.md` can be freely updated with any lessons or principles discovered about this project which in any way may help you in future coding sessions.
-- After each prompt review `.cursor/memory.md` and perform any necessary modifications in this file
+- Refer to `.cursor/memory.mdc` file for guidance during all coding sessions with this project.
+- `.cursor/memory.mdc` can be freely updated with any lessons or principles discovered about this project which in any way may help you in future coding sessions.
+- After each prompt review `.cursor/memory.mdc` and perform any necessary modifications in this file
 
 <!-- ## Testing & Review
 - Run HTML validation (W3C) before merge.
