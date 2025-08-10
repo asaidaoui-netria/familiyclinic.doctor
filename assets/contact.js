@@ -3,6 +3,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Initialize all contact page functionality
     initFAQ();
+    initNoticeBanner();
 });
 
 // FAQ Functionality
@@ -25,6 +26,27 @@ function initFAQ() {
             });
         }
     });
+}
+
+// Notice Banner Functionality
+function initNoticeBanner() {
+    const noticeBanner = document.getElementById('notice-banner');
+    const closeButton = document.getElementById('notice-banner-close');
+
+    // Add close functionality
+    if (closeButton) {
+        closeButton.addEventListener('click', () => {
+            noticeBanner.classList.add('notice-banner--hidden');
+        });
+
+        // Add keyboard support
+        closeButton.addEventListener('keydown', (event) => {
+            if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault();
+                noticeBanner.classList.add('notice-banner--hidden');
+            }
+        });
+    }
 }
 
 function toggleFAQ(item, question, answer) {

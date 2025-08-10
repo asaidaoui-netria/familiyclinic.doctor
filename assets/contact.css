@@ -28,6 +28,81 @@
     margin: 0 auto;
 }
 
+/* Notice Banner Section */
+.notice-banner {
+    background-color: #fff3cd;
+    border: 1px solid #ffeaa7;
+    padding: 1.5rem 0;
+    position: relative;
+}
+
+.notice-banner__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.notice-banner__content {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.notice-banner__icon {
+    font-size: 1.5rem;
+    flex-shrink: 0;
+}
+
+.notice-banner__text {
+    flex: 1;
+}
+
+.notice-banner__title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0 0 0.5rem 0;
+    color: #856404;
+}
+
+.notice-banner__message {
+    font-size: 1rem;
+    margin: 0;
+    color: #856404;
+    line-height: 1.5;
+}
+
+.notice-banner__close {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    flex-shrink: 0;
+}
+
+.notice-banner__close:hover {
+    background-color: rgba(133, 100, 4, 0.1);
+}
+
+.notice-banner__close-icon {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #856404;
+    line-height: 1;
+}
+
+.notice-banner--hidden {
+    display: none;
+}
+
 /* Contact Information Section */
 .contact-info {
     padding: 4rem 0;
@@ -337,6 +412,21 @@
 
     .contact-hero__description {
         font-size: 1.1rem;
+    }
+
+    .notice-banner {
+        padding: 1rem 0;
+    }
+
+    .notice-banner__content {
+        flex-direction: column;
+        text-align: center;
+        gap: 0.75rem;
+    }
+
+    .notice-banner__close {
+        align-self: flex-end;
+        margin-top: -0.5rem;
     }
 
     .contact-info__grid {
