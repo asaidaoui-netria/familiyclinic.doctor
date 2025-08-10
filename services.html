@@ -92,6 +92,12 @@
 
     <link rel="stylesheet" href="assets/styles.css">
     <link rel="stylesheet" href="assets/services.css">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
 </head>
 
 <body>
@@ -99,11 +105,13 @@
     <header class="header">
         <div class="header__container">
             <div class="header__logo">
-                <img src="assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
-                    srcset="assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
-                    sizes="(max-width: 768px) 80px, 100px" alt="Family Clinic Logo" class="header__logo-img"
-                    loading="lazy" onerror="this.style.display='none'">
-                <h1 class="header__logo-text">Family Clinic</h1>
+                <a href="index.html" class="header__logo-link" aria-label="Go to Family Clinic homepage">
+                    <img src="assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
+                        srcset="assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
+                        sizes="(max-width: 768px) 80px, 100px" alt="Family Clinic Logo" class="header__logo-img"
+                        loading="lazy" onerror="this.style.display='none'">
+                    <h1 class="header__logo-text">Family Clinic</h1>
+                </a>
             </div>
 
             <nav class="nav" aria-label="Main navigation">
@@ -558,11 +566,13 @@
             <div class="footer__content">
                 <div class="footer__section">
                     <div class="footer__logo">
-                        <img src="assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
-                            srcset="assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
-                            sizes="(max-width: 768px) 80px, 100px" alt="Family Clinic Logo" class="footer__logo-img"
-                            loading="lazy" onerror="this.style.display='none'">
-                        <h3 class="footer__logo-text">Family Clinic</h3>
+                        <a href="index.html" class="footer__logo-link" aria-label="Go to Family Clinic homepage">
+                            <img src="assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
+                                srcset="assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
+                                sizes="(max-width: 768px) 80px, 100px" alt="Family Clinic Logo" class="footer__logo-img"
+                                loading="lazy" onerror="this.style.display='none'">
+                            <h3 class="footer__logo-text">Family Clinic</h3>
+                        </a>
                     </div>
                     <p class="footer__description">
                         Providing comprehensive healthcare services for families in a welcoming and compassionate
@@ -627,6 +637,10 @@
             <div class="footer__bottom">
                 <p class="footer__copyright">
                     &copy; 2025 Family Clinic. All rights reserved.
+                </p>
+                <p class="footer__powered-by">
+                    Powered by ⚡ <a href="https://netria.dev" class="footer__link" target="_blank"
+                        rel="noopener noreferrer">netria.dev</a>
                 </p>
             </div>
         </div>
