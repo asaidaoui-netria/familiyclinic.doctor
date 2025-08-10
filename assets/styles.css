@@ -458,59 +458,7 @@ a:hover {
 
 
 
-/* Contact CTA Section */
-.contact-cta {
-    padding: 5rem 0;
-    background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
-    color: white;
-    text-align: center;
-}
 
-.contact-cta__container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 1rem;
-}
-
-.contact-cta__title {
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem;
-    color: white;
-}
-
-.contact-cta__description {
-    font-size: 1.25rem;
-    margin-bottom: 2rem;
-    opacity: 0.9;
-}
-
-.contact-cta__actions {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.contact-cta .btn--primary {
-    background-color: white;
-    color: #2563eb;
-}
-
-.contact-cta .btn--primary:hover {
-    background-color: #f8fafc;
-    color: #2563eb;
-}
-
-.contact-cta .btn--secondary {
-    background-color: transparent;
-    color: white;
-    border-color: white;
-}
-
-.contact-cta .btn--secondary:hover {
-    background-color: white;
-    color: #2563eb;
-}
 
 /* Footer */
 .footer {
@@ -725,22 +673,7 @@ a:hover {
 
 
     /* Contact CTA */
-    .contact-cta {
-        padding: 3rem 0;
-    }
 
-    .contact-cta__title {
-        font-size: 2rem;
-    }
-
-    .contact-cta__description {
-        font-size: 1.125rem;
-    }
-
-    .contact-cta__actions {
-        flex-direction: column;
-        align-items: center;
-    }
 
     /* Footer */
     .footer {
