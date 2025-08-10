@@ -1,6 +1,3 @@
----
-alwaysApply: true
----
 
 # Family Clinic Project Memory
 
@@ -9,6 +6,8 @@ alwaysApply: true
 - **Location**: N*47, Bloc B, Kenitra, 14000, Morocco
 - **Phone**: +212-641-745-441
 - **Target**: Comprehensive healthcare services for families
+- **Tagline**: "Le soin qui rassemble" (The care that brings together)
+- **Language**: French content available for multilingual support
 
 ## Technical Stack
 - **HTML5**: Semantic structure with accessibility features
@@ -48,15 +47,35 @@ alwaysApply: true
 - **Friday**: 9:00 AM - 1:00 PM, 3:00 PM - 6:00 PM (2-hour midday break)
 - **Saturday**: 9:00 AM - 2:00 PM
 
-### Services Offered
-1. **Primary Care**: Health checkups, preventive care, common illnesses
-2. **Pediatric Care**: Specialized healthcare for children
-3. **Women's Health**: Gynecology and wellness services
-4. **Preventive Care**: Vaccinations, screenings, health education
+### Services Offered (Updated from French Content)
+1. **Consultations Holistiques**: "Prenez soin de vous autrement" - Holistic approach to health
+2. **Quantum Scan**: Energy reading technology - "Le corps parle en fréquences : écoutons-le"
+3. **Family Medicine**: "Au cœur de chaque famille, la santé est un lien essentiel"
+4. **Naturopathie**: "Redécouvrez votre équilibre naturellement"
+5. **Hijamah**: Traditional therapeutic method for purifying and revitalizing benefits
+6. **Physiothérapie**: "Soulagez vos douleurs, améliorez votre mobilité"
+7. **Dermatologie & Chirurgie Intégrative**: "Pour une peau rayonnante, naturellement"
 
-### Team Members
-- **Dr. My Abdellah**: Family Medicine Physician (15+ years experience)
-- **Nurse Safae**: Registered Nurse (patient care specialist)
+### Team Members (Updated from French Content)
+- **Dr. Said Alaoui Moulay Abdallah**: 
+  - Former military doctor with 40+ years experience
+  - Focuses on preventing lifestyle-related diseases
+  - Specializes in nutritional therapy and environmental causes
+  - Follows Hippocrates' principle: "Let food be your medicine"
+  - Provides personalized medical follow-up and prevention advice
+- **Nurse Safae Imarhrane**:
+  - Reception and care nurse
+  - Embodies the soul of the establishment
+  - Combines medical competence with attentive listening
+  - Manages emergencies while maintaining serene atmosphere
+  - Pillar of patient trust and team support
+
+## Clinic Vision & Approach
+- **Holistic Vision**: Human, integrative, and future-oriented healthcare
+- **Personalized Medicine**: Benevolent and adapted to real family needs
+- **Multicultural Approach**: Multilingual team for diverse community
+- **Quality Care**: Accessible to all with active listening and medical expertise
+- **Global Wellness**: Encompasses physical and mental health dimensions
 
 ## Technical Lessons Learned
 
@@ -92,6 +111,11 @@ family-clinic/
 │   │   ├── team_photos_400x400.png
 │   │   └── README.md (optimization documentation)
 │   └── (original images preserved)
+├── .project/references/ (French content files)
+│   ├── Services (landing page).txt
+│   ├── Services (corresponding pages).txt
+│   ├── À propos de.txt
+│   └── Notre équipe.txt
 └── .cursor/rules/
     ├── project.mdc (project rules)
     └── memory.mdc (this file)
@@ -102,7 +126,9 @@ family-clinic/
 - Add form validation for contact forms
 - Consider adding a blog section for health tips
 - Implement appointment booking system
-- Add multilingual support (Arabic/French)
+- Add multilingual support (Arabic/French) using reference content
+- Create detailed service pages with French content
+- Implement about page with clinic vision and team information
 
 ## Performance Metrics
 - **Image Size Reduction**: 80-99% smaller files
@@ -115,5 +141,11 @@ family-clinic/
 - All placeholder links point to future pages
 - Error handling prevents memory issues
 - Fallback content maintains visual hierarchy
+- No heavy dependencies or frameworks used
+- Clean, maintainable code structure
+- French content available in .project/references/ for multilingual implementation
+- Services content includes both landing page summaries and detailed descriptions
+- Team information includes comprehensive backgrounds and specializations
+
 - No heavy dependencies or frameworks used
 - Clean, maintainable code structure
