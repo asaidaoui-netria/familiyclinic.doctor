@@ -50,11 +50,6 @@
     margin: 0 auto;
 }
 
-.notice-banner__icon {
-    font-size: 1.5rem;
-    flex-shrink: 0;
-}
-
 .notice-banner__text {
     flex: 1;
 }
