@@ -97,7 +97,9 @@ alwaysApply: true
 - **Direct Navigation**: All buttons link directly to contact page
 
 ### Blog Section - NEWLY IMPLEMENTED
-- **Blog Landing Page (blog.html)**: Comprehensive blog listing with modern, responsive design
+- **Blog Landing Page (catalog.html)**: Comprehensive blog listing with modern, responsive design
+- **Blog Article Template (template-blog.html)**: Standardized template for all blog articles
+- **Blog Article Structure Requirements**: ALL new blog articles MUST strictly follow template-blog.html structure
 - **Pinned Welcome Article**: Always-featured welcome article at the top of the blog
 - **Blog Grid Layout**: Responsive grid displaying 6 dummy articles with service-specific content
 - **Article Cards**: Modern card design with images, meta information, excerpts, and call-to-action buttons
@@ -107,7 +109,7 @@ alwaysApply: true
 - **Accessibility**: WCAG 2.1 AA compliant with proper semantic structure and ARIA labels
 - **Navigation Integration**: Blog link added to all page navigation menus and footers
 
-### Blog Article Template (blog-welcome-to-family-clinic.html) - NEWLY IMPLEMENTED
+### Blog Article Template (template-blog.html) - NEWLY IMPLEMENTED
 - **Comprehensive Article Structure**: Full-featured blog article template with proper typography and layout
 - **Article Header**: Hero section with breadcrumb navigation, meta information, and article title
 - **Article Content**: Well-structured content with proper heading hierarchy and readable typography
@@ -116,6 +118,7 @@ alwaysApply: true
 - **Responsive Layout**: Two-column layout on desktop, single-column on mobile
 - **SEO Optimized**: Article-specific structured data with author and publisher information
 - **Professional Presentation**: Clean, readable design that enhances content credibility
+- **MANDATORY TEMPLATE COMPLIANCE**: ALL new blog articles MUST use exact HTML structure and CSS classes from template-blog.html
 
 ### Contact Page (contact.html) - COMPREHENSIVELY IMPLEMENTED
 - **Comprehensive Contact Information**: Complete contact details with address, phone, email, and business hours
@@ -446,6 +449,20 @@ family-clinic/
 - **Footer Layout**: Professional footer bottom with proper attribution and responsive design
 
 ## Recent Major Updates
+- **Blog Template Compliance Enforcement**: Established mandatory template structure for all blog articles
+  - **Template Standardization**: All new blog articles MUST strictly follow template-blog.html structure
+  - **CSS Requirements**: Include both blog.css AND blog-article.css in all blog articles
+  - **HTML Structure**: Use exact class names and structure from template-blog.html
+  - **Sidebar Layout**: Follow template sidebar with author card, related articles, and "Get in Touch" section
+  - **Article Footer**: Use `<div class="article-footer">` with proper tag links to catalog.html
+  - **Author Card Structure**: Use commented wrapper and author-card__content div as per template
+  - **Related Articles**: Use `<article>` elements with proper date formatting
+- **Breakfast Article Implementation**: Created blog entry from French DOCX content with template compliance
+  - **Content Translation**: Successfully translated French content about breakfast myths to professional English
+  - **Template Structure**: Strictly followed template-blog.html structure and CSS classes
+  - **Image Optimization**: Optimized breakfast banner image (1.9MB → 112KB desktop, 73KB mobile, 94-96% reduction)
+  - **SEO Integration**: Updated structured data with correct image URL and metadata
+  - **Catalog Integration**: Added breakfast article as first entry in blog catalog
 - **First Blog Entry Implementation**: Created actual blog entry from French welcome message
   - **Content Translation**: Successfully translated French DOCX content to professional English
   - **New Blog File**: Created `2025-08-17-welcome-to-family-clinic.html` with translated content from "00-Mot de bienvenue.docx"
@@ -902,6 +919,13 @@ family-clinic/
 - **Structured Data**: Update both `datePublished` and `dateModified` in JSON-LD
 - **Consistency**: Apply same date format across catalog, articles, and related content
 - **Chronological Sorting**: Date-first naming enables proper blog organization
+- **MANDATORY TEMPLATE COMPLIANCE**: ALL new blog articles MUST strictly follow template-blog.html structure
+- **CSS Files**: Include blog.css AND blog-article.css in all blog articles
+- **HTML Structure**: Use exact class names and structure from template-blog.html
+- **Sidebar Structure**: Follow template sidebar layout with author card, related articles, and "Get in Touch" section
+- **Article Footer**: Use `<div class="article-footer">` with proper tag links to catalog.html
+- **Author Card**: Use commented wrapper structure and author-card__content div
+- **Related Articles**: Use `<article>` elements with proper date formatting
 
 ## Performance Metrics
 - **Image Size Reduction**: 80-99% smaller files
