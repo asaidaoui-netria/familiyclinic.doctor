@@ -322,6 +322,7 @@ family-clinic/
 ├── contact.html (contact page - COMPREHENSIVELY IMPLEMENTED with form and contact information)
 ├── blog/ (blog section directory)
 │   ├── catalog.html (blog landing page - RENAMED from blog.html)
+│   ├── 2025-08-17-welcome-to-family-clinic.html (first blog entry - translated from French welcome message)
 │   └── template-blog.html (blog article template - RENAMED from blog-welcome-to-family-clinic.html)
 ├── assets/
 │   ├── styles.css (main stylesheet - UPDATED with 3+4 grid layout)
@@ -445,6 +446,17 @@ family-clinic/
 - **Footer Layout**: Professional footer bottom with proper attribution and responsive design
 
 ## Recent Major Updates
+- **First Blog Entry Implementation**: Created actual blog entry from French welcome message
+  - **Content Translation**: Successfully translated French DOCX content to professional English
+  - **New Blog File**: Created `2025-08-17-welcome-to-family-clinic.html` with translated content from "00-Mot de bienvenue.docx"
+  - **Date Standardization**: Implemented DD MMM YYYY format (17 Aug 2025) throughout all blog entries
+  - **File Naming Convention**: Blog files now use date-first naming format (YYYY-MM-DD-filename.html)
+  - **Welcome Banner Image**: Optimized and integrated new welcome banner image (2.4MB → 132KB desktop, 87KB mobile, 94-96% reduction)
+  - **Catalog Integration**: Updated catalog page to link to new blog entry instead of template
+  - **Content Structure**: Maintained professional blog structure with proper headings, meta information, and SEO optimization
+  - **French Source**: Original French content focused on holistic health approach and three secrets to health empowerment
+  - **English Translation**: Preserved original meaning while adapting to English-speaking audience
+  - **Template Usage**: Used existing blog template structure for consistent design and functionality
 - **Blog Directory Reorganization**: Moved blog files to dedicated directory structure
   - **Directory Structure**: Created `/blog/` directory for all blog-related files
   - **File Renaming**: `blog.html` → `catalog.html`, `blog-welcome-to-family-clinic.html` → `template-blog.html`
@@ -882,6 +894,14 @@ family-clinic/
 - Implement appointment booking system
 - Add multilingual support (Arabic/French) using reference content
 - Consider adding individual service detail pages for even more comprehensive information
+
+## Blog Standards & Conventions
+- **Date Format**: DD MMM YYYY (e.g., "17 Aug 2025") - standard across all blog entries
+- **File Naming**: YYYY-MM-DD-filename.html format for chronological organization
+- **Publication Dates**: Use actual publication date, never placeholder dates
+- **Structured Data**: Update both `datePublished` and `dateModified` in JSON-LD
+- **Consistency**: Apply same date format across catalog, articles, and related content
+- **Chronological Sorting**: Date-first naming enables proper blog organization
 
 ## Performance Metrics
 - **Image Size Reduction**: 80-99% smaller files
