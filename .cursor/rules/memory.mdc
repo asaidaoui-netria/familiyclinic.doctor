@@ -245,6 +245,17 @@ alwaysApply: true
 - **File Cleanup**: Remove temporary TXT file after content extraction
 - **Use Case**: Successfully used for French DOCX content translation to English blog articles
 
+### Translation Fidelity Requirements - CRITICAL
+- **High Fidelity Translation**: ALWAYS maintain maximum fidelity to the original French text
+- **Preserve Original Structure**: Keep the same sentence structure, flow, and logical progression
+- **Maintain Author's Voice**: Preserve the author's tone, style, and way of expressing ideas
+- **Exact Content Translation**: Translate the exact content without adding, removing, or significantly expanding ideas
+- **Medical Accuracy**: Ensure medical and nutritional information is translated precisely without interpretation
+- **Cultural Context**: Preserve cultural references and context while making them accessible to English readers
+- **No Creative Expansion**: Do not add content that wasn't in the original text unless specifically requested
+- **Faithful Rendering**: The English version should be a faithful representation of the French original
+- **Quality Control**: Always review translations to ensure they capture the original meaning and intent
+
 ### Favicon Implementation - NEW
 - **Image Processing**: Use macOS `sips` command for efficient image conversion and resizing
 - **Multiple Formats**: Generate various sizes for cross-platform compatibility
