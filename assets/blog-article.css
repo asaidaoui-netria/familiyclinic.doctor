@@ -401,7 +401,26 @@
     }
 
     .article-sidebar {
-        order: -1;
+        order: 1;
+        /* Keep sidebar after main content */
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Reorder sidebar elements on mobile */
+    .author-card {
+        order: 3;
+        /* Author card last */
+    }
+
+    .sidebar-section:nth-of-type(1) {
+        order: 2;
+        /* Related Articles second */
+    }
+
+    .sidebar-section:nth-of-type(2) {
+        order: 1;
+        /* Get in Touch first */
     }
 }
 

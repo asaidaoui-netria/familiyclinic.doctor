@@ -2,8 +2,11 @@
 .blog-hero {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
-    padding: 4rem 0;
+    padding: calc(4rem + 80px) 0 4rem 0;
+    /* Add header height to top padding */
     text-align: center;
+    margin-top: -80px;
+    /* Negative margin to align with header */
 }
 
 .blog-hero__content {
@@ -34,6 +37,8 @@
 /* Pinned Article */
 .blog-pinned {
     margin-bottom: 4rem;
+    margin-top: 2rem;
+    /* Add some space after hero section */
 }
 
 .blog-pinned__title {
@@ -95,6 +100,8 @@
     position: relative;
     overflow: hidden;
     aspect-ratio: 16/9;
+    z-index: 1;
+    /* Ensure proper layering */
 }
 
 .blog-card--pinned .blog-card__image {
@@ -214,7 +221,10 @@
 /* Responsive Design */
 @media (max-width: 768px) {
     .blog-hero {
-        padding: 3rem 0;
+        padding: calc(3rem + 70px) 0 3rem 0;
+        /* Add mobile header height to top padding */
+        margin-top: -70px;
+        /* Negative margin to align with mobile header */
     }
 
     .blog-hero__title {
@@ -229,6 +239,11 @@
         padding: 2rem 0;
     }
 
+    .blog-pinned {
+        margin-top: 1rem;
+        /* Reduced spacing on mobile */
+    }
+
     .blog-pinned__title,
     .blog-grid__title {
         font-size: 1.5rem;
@@ -236,6 +251,8 @@
 
     .blog-card--pinned {
         grid-template-columns: 1fr;
+        height: auto;
+        /* Allow natural height on mobile */
     }
 
     .blog-card--pinned .blog-card__content {
