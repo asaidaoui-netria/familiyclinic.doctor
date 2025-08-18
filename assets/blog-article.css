@@ -333,6 +333,66 @@
     color: #6b7280;
 }
 
+/* Article Tables */
+.article-table {
+    margin: 2rem 0;
+    overflow-x: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.article-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.article-table thead {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.article-table th {
+    padding: 1.25rem 1.5rem;
+    text-align: left;
+    font-weight: 600;
+    font-size: 1rem;
+    border-bottom: 2px solid #e5e7eb;
+    white-space: nowrap;
+}
+
+.article-table th:first-child {
+    border-top-left-radius: 8px;
+}
+
+.article-table th:last-child {
+    border-top-right-radius: 8px;
+}
+
+.article-table td {
+    padding: 1.25rem 1.5rem;
+    border-bottom: 1px solid #f3f4f6;
+    vertical-align: top;
+}
+
+.article-table tbody tr:hover {
+    background-color: #f8fafc;
+}
+
+.article-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.article-table tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 8px;
+}
+
+.article-table tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 8px;
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
     .article-layout {
@@ -379,6 +439,19 @@
 
     .sidebar-section {
         padding: 1.5rem;
+    }
+
+    .article-table {
+        margin: 1.5rem 0;
+    }
+
+    .article-table table {
+        font-size: 0.875rem;
+    }
+
+    .article-table th,
+    .article-table td {
+        padding: 1rem 0.75rem;
     }
 }
 
