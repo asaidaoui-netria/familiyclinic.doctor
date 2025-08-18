@@ -1168,3 +1168,24 @@ blog/
 - **Configurable**: Articles per page easily adjustable via `articlesPerPage` property
 - **Extensible**: Pagination class can be extended for additional features
 - **URL-friendly**: Ready for future URL parameter integration for bookmarkable pages
+
+
+## Blog Table Styling Standards - NEWLY ADDED
+
+### CSS Class Implementation
+- **Required Pattern**: Always use `<div class="article-table"><table>` wrapper structure
+- **No Inline Styles**: Never use inline CSS styles in table elements
+- **Consistent Markup**: All blog articles must follow this exact pattern for uniform appearance
+
+### Professional Styling Features
+- **Gradient Headers**: Purple/blue gradient background on table headers
+- **Hover Effects**: Row highlighting on mouse hover for better UX
+- **Rounded Corners**: Modern design with rounded table corners and shadows
+- **Responsive Design**: Tables automatically adapt to mobile devices with proper spacing
+- **Typography**: Consistent font sizing and line height for optimal readability
+
+### Implementation Details
+- **CSS Location**: Defined in `assets/blog-article.css` lines 336-395
+- **Template Compliance**: Follow existing blog articles pattern for table markup
+- **Cross-References**: Used in hyperinsulinism, bread-milk-jam, and cooking oils articles
+- **Migration**: Updated cooking oils article from inline styles to CSS class pattern
