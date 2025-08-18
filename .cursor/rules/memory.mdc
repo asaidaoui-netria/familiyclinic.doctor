@@ -242,8 +242,10 @@ alwaysApply: true
 - **Output**: Creates `filename.txt` in same directory as source file
 - **Content Preservation**: Maintains text content while removing formatting
 - **Translation Workflow**: Convert DOCX → TXT → Translate to English → Create blog article
-- **File Cleanup**: Remove temporary TXT file after content extraction
+- **File Cleanup**: ALWAYS remove both temporary TXT file AND original DOCX file after content extraction and blog creation
+- **Cleanup Commands**: `rm "filename.txt"` and `rm "filename.docx"` or move DOCX to archive folder
 - **Use Case**: Successfully used for French DOCX content translation to English blog articles
+- **Best Practice**: Keep workspace clean by removing source files once blog article is published
 
 ### Translation Fidelity Requirements - CRITICAL
 - **High Fidelity Translation**: ALWAYS maintain maximum fidelity to the original French text
@@ -829,8 +831,10 @@ blog/
 - **Output**: Creates `filename.txt` in same directory as source file
 - **Content Preservation**: Maintains text content while removing formatting
 - **Translation Workflow**: Convert DOCX → TXT → Translate to English → Create blog article
-- **File Cleanup**: Remove temporary TXT file after content extraction
+- **File Cleanup**: ALWAYS remove both temporary TXT file AND original DOCX file after content extraction and blog creation
+- **Cleanup Commands**: `rm "filename.txt"` and `rm "filename.docx"` or move DOCX to archive folder
 - **Use Case**: Successfully used for French DOCX content translation to English blog articles
+- **Best Practice**: Keep workspace clean by removing source files once blog article is published
 
 ### Favicon Implementation - NEW
 - **Image Processing**: Use macOS `sips` command for efficient image conversion and resizing
