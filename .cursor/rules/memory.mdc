@@ -430,7 +430,8 @@ family-clinic/
 - **Article Footer**: Use `<div class="article-footer">` with proper tag links to catalog.html
 - **Author Card**: Use commented wrapper structure and author-card__content div
 - **Related Articles**: Use `<article>` elements with proper date formatting
-- **Catalog Article Ordering**: NEW articles should be placed at the TOP of the blog grid list in catalog.html, with existing articles moved down in order. This ensures the most recent content appears first for better user experience and content discovery.
+- **Catalog Article Ordering**: NEW articles should be placed at the TOP of the blog grid list in catalog.html, with existing articles moved down in order. This ensures the most recent content appears first for better user experience and content discovery
+- **Article Closing Statement**: ALL blog articles MUST end with the standard closing statement: "Warm regards, Dr. Said-Alaoui Moulay Abdellah and the Family Clinic Team" in italics format
 
 ## Performance Metrics
 - **Image Size Reduction**: 80-99% smaller files
