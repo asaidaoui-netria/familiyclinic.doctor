@@ -247,6 +247,25 @@ alwaysApply: true
 - **Use Case**: Successfully used for French DOCX content translation to English blog articles
 - **Best Practice**: Keep workspace clean by removing source files once blog article is published
 
+### Blog Date Management - CRITICAL
+- **System Date Requirement**: ALWAYS use current system date for new blog entries - never use placeholder or arbitrary dates
+- **Date Command Usage**: Use `date +"%Y-%m-%d"` for filename format (e.g., "2025-08-19")
+- **Display Date Format**: Use `date +"%d %b %Y"` for human-readable format (e.g., "19 Aug 2025")
+- **Automated Dating**: Retrieve dates programmatically to ensure accuracy and consistency
+- **Date Consistency**: All date references (filename, structured data, article meta, catalog entry) must match system date
+- **Quality Control**: Verify all date fields are updated when creating new blog articles
+
+### New Blog Entry Creation Workflow - CRITICAL
+- **Source Material**: ALWAYS use the latest DOCX file provided for content creation
+- **Image Selection**: Find and use latest added image from `assets/images/original/` directory when creating new blog entries
+- **Image Optimization**: Create optimized desktop (800x400) and mobile (600x300) versions in `assets/images/optimized/blog/`
+- **Template Reference**: ALWAYS refer to `@template-blog.html` as the base reference for page structure
+- **Structure Compliance**: Follow template-blog.html HTML structure, CSS classes, and layout exactly
+- **Content Workflow**: Convert DOCX → TXT → Translate to English → Create blog article using template structure
+- **Asset Integration**: Integrate optimized images with proper responsive loading and alt text
+- **Catalog Integration**: Add new article to TOP of blog grid in catalog.html with current system date
+- **File Management**: Clean up temporary files after successful blog creation
+
 ### Translation Fidelity Requirements - CRITICAL
 - **High Fidelity Translation**: ALWAYS maintain maximum fidelity to the original French text
 - **Preserve Original Structure**: Keep the same sentence structure, flow, and logical progression
@@ -1011,7 +1030,9 @@ family-clinic/
 - **Date Format**: DD MMM YYYY (e.g., "17 Aug 2025") - standard across all blog entries
 - **File Naming**: YYYY-MM-DD-filename.html format for chronological organization
 - **Publication Dates**: Use actual publication date, never placeholder dates
-- **Structured Data**: Update both `datePublished` and `dateModified` in JSON-LD
+- **CRITICAL DATE REQUIREMENT**: ALWAYS use today's current system date for new blog entries - retrieve using `date` command or system date functions
+- **Date Sources**: Pull publication date from system using `date +"%Y-%m-%d"` for filename and `date +"%d %b %Y"` for display format
+- **Structured Data**: Update both `datePublished` and `dateModified` in JSON-LD with current system date
 - **Consistency**: Apply same date format across catalog, articles, and related content
 - **Chronological Sorting**: Date-first naming enables proper blog organization
 - **MANDATORY TEMPLATE COMPLIANCE**: ALL new blog articles MUST strictly follow template-blog.html structure
@@ -1021,7 +1042,8 @@ family-clinic/
 - **Article Footer**: Use `<div class="article-footer">` with proper tag links to catalog.html
 - **Author Card**: Use commented wrapper structure and author-card__content div
 - **Related Articles**: Use `<article>` elements with proper date formatting
-- **Catalog Article Ordering**: NEW articles should be placed at the TOP of the blog grid list in catalog.html, with existing articles moved down in order. This ensures the most recent content appears first for better user experience and content discovery.
+- **Catalog Article Ordering**: NEW articles should be placed at the TOP of the blog grid list in catalog.html, with existing articles moved down in order. This ensures the most recent content appears first for better user experience and content discovery
+- **Article Closing Statement**: ALL blog articles MUST end with the standard closing statement: "Warm regards, Dr. Said-Alaoui Moulay Abdellah and the Family Clinic Team" in italics format
 
 ## Performance Metrics
 - **Image Size Reduction**: 80-99% smaller files
