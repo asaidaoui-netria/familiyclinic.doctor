@@ -257,7 +257,8 @@ alwaysApply: true
 
 ### New Blog Entry Creation Workflow - CRITICAL
 - **Source Material**: ALWAYS use the latest DOCX file provided for content creation
-- **Image Selection**: Find and use latest added image from `assets/images/original/` directory when creating new blog entries
+- **Image Selection**: CRITICAL - ALWAYS identify and use the MOST RECENTLY ADDED image from `assets/images/original/` directory for new blog entries. Check file modification times or look for the newest image that corresponds to the blog topic. DO NOT assume which image to use - always verify the latest addition.
+- **Image Verification**: Before optimizing, confirm you're using the correct image by checking recent file additions and matching content themes
 - **Image Optimization**: Create optimized desktop (800x400) and mobile (600x300) versions in `assets/images/optimized/blog/`
 - **Template Reference**: ALWAYS refer to `@template-blog.html` as the base reference for page structure
 - **Structure Compliance**: Follow template-blog.html HTML structure, CSS classes, and layout exactly
