@@ -1212,3 +1212,37 @@ blog/
 - **Template Compliance**: Follow existing blog articles pattern for table markup
 - **Cross-References**: Used in hyperinsulinism, bread-milk-jam, and cooking oils articles
 - **Migration**: Updated cooking oils article from inline styles to CSS class pattern
+
+## Image Aspect Ratio Requirements - CRITICAL NEW REQUIREMENT
+
+### Mandatory Aspect Ratio Preservation
+- **ALWAYS Maintain Aspect Ratio**: NEVER force images into arbitrary dimensions that distort the original proportions
+- **Aspect Ratio Calculation**: Use Python or manual calculation: `new_height = target_width / original_aspect_ratio`
+- **Natural Proportions**: Avoid forcing images into standard ratios (like 2:1) if original has different proportions
+- **Example Implementation**: Original 3830x3074 (1.246:1 ratio) → Desktop 800x642, Mobile 600x481 (maintaining 1.246:1)
+- **Quality Control**: Always verify optimized images don't appear squashed or stretched compared to original
+- **Professional Appearance**: Natural aspect ratios maintain image composition and prevent distortion
+
+### Implementation Process
+- **Step 1**: Check original image dimensions with `file "image.jpg"` command
+- **Step 2**: Calculate aspect ratio: `original_width / original_height`
+- **Step 3**: Calculate target dimensions: `new_height = target_width / aspect_ratio`
+- **Step 4**: Use calculated dimensions with sips: `sips -z height width input.jpg --out output.jpg`
+- **Step 5**: Update all references (article images, catalog entries, structured data dimensions)
+
+### Calculation Command Template
+```bash
+python3 -c "
+w, h = original_width, original_height
+ratio = w / h
+desktop_w = 800
+desktop_h = int(desktop_w / ratio)
+mobile_w = 600
+mobile_h = int(mobile_w / ratio)
+print(f'Desktop: {desktop_w}x{desktop_h}')
+print(f'Mobile: {mobile_w}x{mobile_h}')
+"
+```
+
+### Critical Reminder
+This requirement was added after discovering that forcing images into 2:1 aspect ratios (800x400, 600x300) caused significant distortion and unprofessional appearance when the original images had different natural proportions.
