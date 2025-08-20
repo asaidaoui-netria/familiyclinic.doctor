@@ -229,6 +229,7 @@ a:hover {
     font-weight: 700;
     color: #1e293b;
     margin-bottom: 1.5rem;
+    text-align: center;
 }
 
 .hero__description {
@@ -272,6 +273,7 @@ a:hover {
     font-size: 2.5rem;
     color: #1e293b;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 .services-preview__subtitle {
@@ -380,6 +382,7 @@ a:hover {
     font-size: 2.5rem;
     color: #1e293b;
     margin-bottom: 1.5rem;
+    text-align: center;
 }
 
 .about-preview__description {
@@ -417,6 +420,7 @@ a:hover {
     font-size: 2.5rem;
     color: #1e293b;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 .team-preview__subtitle {
