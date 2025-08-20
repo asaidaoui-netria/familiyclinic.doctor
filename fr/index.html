@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinique Familiale - Soins de santé complets pour votre famille</title>
+    <meta name="description"
+        content="La Clinique Familiale offre des services de santé complets pour tous les âges. Notre équipe expérimentée propose des soins personnalisés dans un environnement accueillant.">
+
+    <!-- Hreflang Links -->
+    <link rel="alternate" href="https://familyclinic.doctor/index.html" hreflang="en" />
+    <link rel="alternate" href="https://familyclinic.doctor/fr/index.html" hreflang="fr" />
+    <link rel="alternate" href="https://familyclinic.doctor/index.html" hreflang="x-default" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Clinique Familiale",
+        "description": "Services de santé complets pour les familles",
+        "inLanguage": "fr",
+        "url": "https://familyclinic.doctor/fr/",
+        "telephone": "+212-641-745-441",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "N°47, Bloc B, Ouled Oujih",
+            "addressLocality": "Kenitra",
+            "addressRegion": "Rabat-Salé-Kenitra",
+            "postalCode": "14080",
+            "addressCountry": "MA"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "34.2611",
+            "longitude": "-6.5802"
+        },
+        "openingHours": "Mo-Th 09:00-17:00, Fr 09:00-13:00 15:00-18:00, Sa 09:00-14:00",
+        "priceRange": "$$",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Services de santé",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Médecine familiale"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Consultations holistiques"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Quantum Scan"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Naturopathie"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Hijamah"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Physiothérapie"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Dermatologie & chirurgie intégrative"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Expertise médicale judiciaire"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Perte de poids"
+                    }
+                }
+            ]
+        }
+    }
+    </script>
+
+    <link rel="stylesheet" href="../assets/styles.css">
+    <link rel="stylesheet" href="../assets/localization.css">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../assets/favicon/site.webmanifest">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <a href="index.html" class="header__logo-link"
+                    aria-label="Aller à la page d'accueil de la Clinique Familiale">
+                    <img src="../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
+                        srcset="../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
+                        sizes="(max-width: 768px) 80px, 100px" alt="Logo Clinique Familiale" class="header__logo-img"
+                        loading="lazy" onerror="this.style.display='none'">
+                    <h1 class="header__logo-text">Clinique Familiale</h1>
+                </a>
+            </div>
+
+            <nav class="nav" aria-label="Navigation principale">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link nav__link--active" aria-current="page">Accueil</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="about.html" class="nav__link">À propos</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="services.html" class="nav__link">Services</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contact.html" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Language Switcher -->
+            <div class="language-switcher">
+                <button class="language-switcher__toggle" aria-label="Choisir la langue" aria-expanded="false">
+                    <span class="language-switcher__current">FR</span>
+                    <svg class="language-switcher__icon" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </button>
+                <ul class="language-switcher__menu">
+                    <li><a href="../index.html" data-lang="en">English</a></li>
+                    <li><a href="index.html" data-lang="fr" class="active">Français</a></li>
+                </ul>
+            </div>
+
+            <button class="header__mobile-menu" aria-label="Basculer le menu mobile" aria-expanded="false">
+                <span class="header__mobile-menu-line"></span>
+                <span class="header__mobile-menu-line"></span>
+                <span class="header__mobile-menu-line"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero__container">
+                <div class="hero__content">
+                    <h2 class="hero__title">Soins de santé complets pour votre famille</h2>
+                    <p class="hero__description">
+                        Découvrez des soins personnalisés dans un environnement accueillant. Notre équipe expérimentée
+                        offre des services de santé complets pour les patients de tous âges.
+                    </p>
+                    <div class="hero__actions">
+                        <a href="contact.html" class="btn btn--primary">Prendre rendez-vous</a>
+                    </div>
+                </div>
+                <div class="hero__image">
+                    <img src="../assets/images/optimized/clinic/clinic_entrance_desktop_800x400.jpg"
+                        srcset="../assets/images/optimized/clinic/clinic_entrance_mobile_600x300.jpg 600w, ../assets/images/optimized/clinic/clinic_entrance_desktop_800x400.jpg 800w"
+                        sizes="(max-width: 768px) 100vw, 50vw"
+                        alt="Entrée de la Clinique Familiale avec établissement de santé moderne" class="hero__img"
+                        loading="lazy" onerror="this.style.display='none'">
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Preview Section -->
+        <section class="services-preview">
+            <div class="services-preview__container">
+                <h2 class="services-preview__title">Nos Services</h2>
+                <p class="services-preview__subtitle">Solutions de santé complètes combinant approches traditionnelles
+                    et holistiques</p>
+
+                <div class="services-preview__grid">
+                    <!-- First Row: 3 cards -->
+                    <div class="service-card">
+                        <div class="service-card__icon">
+                            <img src="../assets/images/optimized/services/primary_care_icon_desktop_160x160.jpg"
+                                alt="Icône Médecine familiale" class="service-card__icon-img" loading="lazy"
+                                onerror="this.style.display='none'">
+                        </div>
+                        <h3 class="service-card__title">Médecine familiale</h3>
+                        <p class="service-card__description">
+                            Au cœur de chaque famille, la santé est un lien essentiel. Soins de santé familiaux complets
+                            avec suivi médical personnalisé, prévention et relations de confiance pour tous les âges.
+                        </p>
+                        <a href="services.html#family-medicine" class="service-card__link">En savoir plus</a>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-card__icon">
+                            <img src="../assets/images/optimized/services/holistic_consultation_desktop_800x400.jpg"
+                                srcset="../assets/images/optimized/services/holistic_consultation_mobile_600x300.jpg 600w, ../assets/images/optimized/services/holistic_consultation_desktop_800x400.jpg 800w"
+                                sizes="(max-width: 768px) 600px, 800px" alt="Icône Consultations holistiques"
+                                class="service-card__icon-img" loading="lazy" onerror="this.style.display='none'">
+                        </div>
+                        <h3 class="service-card__title">Consultations holistiques</h3>
+                        <p class="service-card__description">
+                            Prenez soin de vous autrement. Explorez une approche globale de la santé qui prend en compte
+                            le corps, l'esprit et l'émotion.
+                        </p>
+                        <a href="services.html#holistic-consultations" class="service-card__link">En savoir plus</a>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-card__icon">
+                            <img src="../assets/images/optimized/services/quantum_scan_desktop_800x400.jpg"
+                                srcset="../assets/images/optimized/services/quantum_scan_mobile_600x300.jpg 600w, ../assets/images/optimized/services/quantum_scan_desktop_800x400.jpg 800w"
+                                sizes="(max-width: 768px) 600px, 800px" alt="Icône Quantum Scan"
+                                class="service-card__icon-img" loading="lazy" onerror="this.style.display='none'">
+                        </div>
+                        <h3 class="service-card__title">Quantum Scan</h3>
+                        <p class="service-card__description">
+                            "Le corps parle en fréquences : écoutons-le." Explorez votre santé autrement grâce au
+                            Quantum Scan.
+                            Technologie bioénergétique avancée qui analyse les déséquilibres internes.
+                        </p>
+                        <a href="services.html#quantum-scan" class="service-card__link">En savoir plus</a>
+                    </div>
+
+                    <!-- Second Row: 3 cards -->
+                    <div class="service-card">
+                        <div class="service-card__icon">
+                            <img src="../assets/images/optimized/services/naturopathy_desktop_800x400.jpg"
+                                srcset="../assets/images/optimized/services/naturopathy_mobile_600x300.jpg 600w, ../assets/images/optimized/services/naturopathy_desktop_800x400.jpg 800w"
+                                sizes="(max-width: 768px) 600px, 800px" alt="Icône Naturopathie"
+                                class="service-card__icon-img" loading="lazy" onerror="this.style.display='none'">
+                        </div>
+                        <h3 class="service-card__title">Naturopathie</h3>
+                        <p class="service-card__description">
+                            Redécouvrez votre équilibre naturellement. Offrez à votre corps ce qu'il mérite :
+                            une approche qui nourrit, soigne et revitalise.
+                        </p>
+                        <a href="services.html#naturopathy" class="service-card__link">En savoir plus</a>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-card__icon">
+                            <img src="../assets/images/optimized/services/vaccum_cupping_desktop_800x400.jpg"
+                                srcset="../assets/images/optimized/services/vaccum_cupping_mobile_600x300.jpg 600w, ../assets/images/optimized/services/vaccum_cupping_desktop_800x400.jpg 800w"
+                                sizes="(max-width: 768px) 600px, 800px" alt="Icône Hijamah"
+                                class="service-card__icon-img" loading="lazy" onerror="this.style.display='none'">
+                        </div>
+                        <h3 class="service-card__title">Hijamah</h3>
+                        <p class="service-card__description">
+                            Découvrez les bienfaits de la hijamah, une méthode thérapeutique traditionnelle reconnue
+                            pour ses vertus purifiantes et revitalisantes.
+                        </p>
+                        <a href="services.html#hijamah" class="service-card__link">En savoir plus</a>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-card__icon">
+                            <img src="../assets/images/optimized/services/physiotherapy_desktop_800x400.jpg"
+                                srcset="../assets/images/optimized/services/physiotherapy_mobile_600x300.jpg 600w, ../assets/images/optimized/services/physiotherapy_desktop_800x400.jpg 800w"
+                                sizes="(max-width: 768px) 600px, 800px" alt="Icône Physiothérapie"
+                                class="service-card__icon-img" loading="lazy" onerror="this.style.display='none'">
+                        </div>
+                        <h3 class="service-card__title">Physiothérapie</h3>
+                        <p class="service-card__description">
+                            Soulagez vos douleurs, améliorez votre mobilité. Retrouvez le confort au quotidien
+                            grâce à notre service de physiothérapie.
+                        </p>
+                        <a href="services.html#physiotherapy" class="service-card__link">En savoir plus</a>
+                    </div>
+
+                    <!-- Third Row: 3 cards -->
+                    <div class="service-card">
+                        <div class="service-card__icon">
+                            <img src="../assets/images/optimized/services/dermatology_desktop_800x400.jpg"
+                                srcset="../assets/images/optimized/services/dermatology_mobile_600x300.jpg 600w, ../assets/images/optimized/services/dermatology_desktop_800x400.jpg 800w"
+                                sizes="(max-width: 768px) 600px, 800px" alt="Icône Dermatologie"
+                                class="service-card__icon-img" loading="lazy" onerror="this.style.display='none'">
+                        </div>
+                        <h3 class="service-card__title">Dermatologie & chirurgie intégrative</h3>
+                        <p class="service-card__description">
+                            Pour une peau rayonnante, naturellement. Nous associons les soins dermatologiques
+                            classiques à la naturopathie pour une peau saine.
+                        </p>
+                        <a href="services.html#dermatology" class="service-card__link">En savoir plus</a>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-card__icon">
+                            <img src="../assets/images/optimized/services/judiciary_medical_expertise_desktop_800x533.jpg"
+                                srcset="../assets/images/optimized/services/judiciary_medical_expertise_mobile_600x400.jpg 600w, ../assets/images/optimized/services/judiciary_medical_expertise_desktop_800x533.jpg 800w"
+                                sizes="(max-width: 768px) 600px, 800px"
+                                alt="Expertise médicale judiciaire - Marteau professionnel représentant l'expertise médicale légale"
+                                class="service-card__icon-img" loading="lazy" onerror="this.style.display='none'">
+                        </div>
+                        <h3 class="service-card__title">Expertise médicale judiciaire</h3>
+                        <p class="service-card__description">
+                            Expertise médicale professionnelle pour les procédures légales et judiciaires.
+                            Services de témoin expert et rapports médicaux complets pour les affaires judiciaires.
+                        </p>
+                        <a href="services.html#judiciary-medical-expertise" class="service-card__link">En savoir
+                            plus</a>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-card__icon">
+                            <img src="../assets/images/optimized/services/weight_loss_desktop_800x533.jpg"
+                                srcset="../assets/images/optimized/services/weight_loss_mobile_600x399.jpg 600w, ../assets/images/optimized/services/weight_loss_desktop_800x533.jpg 800w"
+                                sizes="(max-width: 768px) 600px, 800px"
+                                alt="Perte de poids - Céleri frais avec mètre ruban représentant la gestion du poids santé"
+                                class="service-card__icon-img" loading="lazy" onerror="this.style.display='none'">
+                        </div>
+                        <h3 class="service-card__title">Perte de poids</h3>
+                        <p class="service-card__description">
+                            Programmes complets de gestion du poids combinant expertise médicale avec conseils
+                            nutritionnels personnalisés et orientation lifestyle pour des résultats durables.
+                        </p>
+                        <a href="services.html#weight-loss" class="service-card__link">En savoir plus</a>
+                    </div>
+                </div>
+
+                <div class="services-preview__cta">
+                    <a href="services.html" class="btn btn--primary">Voir tous les services</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Preview Section -->
+        <section class="about-preview">
+            <div class="about-preview__container">
+                <div class="about-preview__content">
+                    <h2 class="about-preview__title">À propos de notre clinique</h2>
+                    <p class="about-preview__description">
+                        Family Clinic incarne une nouvelle façon de vivre la santé : humaine, intégrative et tournée
+                        vers l'avenir.
+                        Nous mettons l'accent sur une médecine personnalisée et bienveillante, adaptée aux besoins réels
+                        des familles.
+                    </p>
+                    <p class="about-preview__description">
+                        Notre approche combine expertise médicale, écoute active et ouverture multiculturelle pour
+                        garantir
+                        une prise en charge de qualité, accessible à tous.
+                    </p>
+                    <a href="about.html" class="btn btn--secondary">En savoir plus sur nous</a>
+                </div>
+                <div class="about-preview__image">
+                    <img src="../assets/images/optimized/clinic/about_clinic_desktop_800x400.jpg"
+                        srcset="../assets/images/optimized/clinic/about_clinic_mobile_600x300.jpg 600w, ../assets/images/optimized/clinic/about_clinic_desktop_800x400.jpg 800w"
+                        sizes="(max-width: 768px) 100vw, 50vw"
+                        alt="Professionnels de santé dans un environnement clinique moderne" class="about-preview__img"
+                        loading="lazy" onerror="this.style.display='none'">
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Preview Section -->
+        <section class="team-preview">
+            <div class="team-preview__container">
+                <h2 class="team-preview__title">Rencontrez notre équipe</h2>
+                <p class="team-preview__subtitle">Professionnels de santé expérimentés dédiés à la santé de votre
+                    famille</p>
+
+                <div class="team-preview__grid">
+                    <div class="team-member">
+                        <div class="team-member__photo">
+                            <img src="../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png"
+                                srcset="../assets/images/optimized/team/dr_my_abdellah_mobile_300x300.png 300w, ../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png 400w"
+                                sizes="(max-width: 768px) 300px, 400px"
+                                alt="Dr. Said-Alaoui Moulay Abdellah - Médecin de famille" class="team-member__img"
+                                loading="lazy" onerror="this.style.display='none'">
+                        </div>
+                        <h3 class="team-member__name">Dr. Said-Alaoui Moulay Abdellah</h3>
+                        <p class="team-member__title">Médecin de famille</p>
+                        <p class="team-member__description">
+                            Médecin de famille certifié avec plus de 40 ans d'expérience dans les soins familiaux
+                            complets.
+                        </p>
+                    </div>
+
+                    <div class="team-member">
+                        <div class="team-member__photo">
+                            <img src="../assets/images/optimized/team/nurse_safae_desktop_400x400.png"
+                                srcset="../assets/images/optimized/team/nurse_safae_mobile_300x300.png 300w, ../assets/images/optimized/team/nurse_safae_desktop_400x400.png 400w"
+                                sizes="(max-width: 768px) 300px, 400px" alt="Mme Imarhrane Safae - Infirmière diplômée"
+                                class="team-member__img" loading="lazy" onerror="this.style.display='none'">
+                        </div>
+                        <h3 class="team-member__name">Mme Imarhrane Safae</h3>
+                        <p class="team-member__title">Infirmière diplômée</p>
+                        <p class="team-member__description">
+                            Infirmière expérimentée spécialisée dans les soins aux patients et l'éducation à la santé.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="team-preview__cta">
+                    <a href="about.html#team" class="btn btn--secondary">Rencontrer toute notre équipe</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <div class="footer__logo">
+                        <a href="index.html" class="footer__logo-link"
+                            aria-label="Aller à la page d'accueil de la Clinique Familiale">
+                            <img src="../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
+                                srcset="../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
+                                sizes="(max-width: 768px) 80px, 100px" alt="Logo Clinique Familiale"
+                                class="footer__logo-img" loading="lazy" onerror="this.style.display='none'">
+                            <h3 class="footer__logo-text">Clinique Familiale</h3>
+                        </a>
+                    </div>
+                    <p class="footer__description">
+                        Offrir des services de santé complets aux familles dans un environnement accueillant et
+                        compatissant.
+                    </p>
+                </div>
+
+                <div class="footer__section">
+                    <h4 class="footer__section-title">Liens rapides</h4>
+                    <ul class="footer__links">
+                        <li><a href="index.html" class="footer__link">Accueil</a></li>
+                        <li><a href="about.html" class="footer__link">À propos</a></li>
+                        <li><a href="services.html" class="footer__link">Services</a></li>
+                        <li><a href="contact.html" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__section">
+                    <h4 class="footer__section-title">Services</h4>
+                    <ul class="footer__links">
+                        <li><a href="services.html#family-medicine" class="footer__link">Médecine familiale</a></li>
+                        <li><a href="services.html#holistic-consultations" class="footer__link">Consultations
+                                holistiques</a></li>
+                        <li><a href="services.html#quantum-scan" class="footer__link">Quantum Scan</a></li>
+                        <li><a href="services.html#naturopathy" class="footer__link">Naturopathie</a></li>
+                        <li><a href="services.html#hijamah" class="footer__link">Hijamah</a></li>
+                        <li><a href="services.html#physiotherapy" class="footer__link">Physiothérapie</a></li>
+                        <li><a href="services.html#dermatology" class="footer__link">Dermatologie & chirurgie</a></li>
+                        <li><a href="services.html#judiciary-medical-expertise" class="footer__link">Expertise médicale
+                                judiciaire</a></li>
+                        <li><a href="services.html#weight-loss" class="footer__link">Perte de poids</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__section">
+                    <h4 class="footer__section-title">Informations de contact</h4>
+                    <div class="footer__contact">
+                        <p class="footer__contact-item">
+                            <strong>Adresse :</strong><br>
+                            <a href="https://maps.app.goo.gl/sPxKYDMUdsN9dVV2A" class="footer__link" target="_blank"
+                                rel="noopener noreferrer">
+                                N°47, Bloc B, Ouled Oujih<br>
+                                Kenitra, Maroc<br>
+                                14080
+                            </a>
+                        </p>
+                        <p class="footer__contact-item">
+                            <strong>Téléphone :</strong><br>
+                            <a href="tel:+212-641-745-441" class="footer__link">+212-641-745-441</a>
+                        </p>
+                        <p class="footer__contact-item">
+                            <strong>Email :</strong><br>
+                            <a href="mailto:saidalaoui.m.a@gmail.com" class="footer__link">saidalaoui.m.a@gmail.com</a>
+                        </p>
+                        <p class="footer__contact-item">
+                            <strong>Heures d'ouverture :</strong><br>
+                            Lun-Jeu : 9h00 - 17h00<br>
+                            Ven : 9h00 - 13h00, 15h00 - 18h00<br>
+                            Sam : 9h00 - 14h00
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p class="footer__copyright">
+                    &copy; 2025 Clinique Familiale. Tous droits réservés.
+                </p>
+                <p class="footer__powered-by">
+                    Propulsé par <img src="../assets/images/optimized/netria/netria-logo-footer-transparent.png"
+                        alt="Logo Netria" class="footer__netria-logo" loading="lazy"> <a href="https://netria.dev"
+                        class="footer__link" target="_blank" rel="noopener noreferrer">netria.dev</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/script.js"></script>
+    <script src="../assets/localization.js"></script>
+</body>
+
+</html>
