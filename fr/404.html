@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page non trouvée - Family Clinic | Services de santé</title>
+    <meta name="description" content="La page que vous recherchez est introuvable. Retournez à la page d'accueil de Family Clinic pour accéder à nos services de santé complets.">
+    <meta name="robots" content="noindex, nofollow">
+
+    <!-- Hreflang Links -->
+    <link rel="alternate" href="https://familyclinic.doctor/404.html" hreflang="en" />
+    <link rel="alternate" href="https://familyclinic.doctor/fr/404.html" hreflang="fr" />
+    <link rel="alternate" href="https://familyclinic.doctor/404.html" hreflang="x-default" />
+
+    <link rel="stylesheet" href="../assets/styles.css">
+    <link rel="stylesheet" href="../assets/localization.css">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../assets/favicon/site.webmanifest">
+
+    <style>
+        .error-page {
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem 1rem;
+        }
+
+        .error-content {
+            text-align: center;
+            max-width: 600px;
+        }
+
+        .error-code {
+            font-size: 8rem;
+            font-weight: 700;
+            color: #2563eb;
+            margin-bottom: 1rem;
+            line-height: 1;
+        }
+
+        .error-title {
+            font-size: 2.5rem;
+            color: #1e293b;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .error-message {
+            font-size: 1.25rem;
+            color: #64748b;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+
+        .error-actions {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .error-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 3rem;
+        }
+
+        .error-link {
+            display: block;
+            padding: 1rem;
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            color: #475569;
+            transition: all 0.2s ease;
+        }
+
+        .error-link:hover {
+            background: #eff6ff;
+            border-color: #2563eb;
+            color: #2563eb;
+            transform: translateY(-2px);
+        }
+
+        .error-link-title {
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #1e293b;
+        }
+
+        .error-link-desc {
+            font-size: 0.875rem;
+            color: #64748b;
+        }
+
+        @media (max-width: 768px) {
+            .error-code {
+                font-size: 6rem;
+            }
+
+            .error-title {
+                font-size: 2rem;
+            }
+
+            .error-message {
+                font-size: 1.125rem;
+            }
+
+            .error-actions {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .error-links {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <a href="index.html" class="header__logo-link" aria-label="Aller à la page d'accueil de Family Clinic">
+                    <img src="../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
+                        srcset="../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
+                        sizes="(max-width: 768px) 80px, 100px" alt="Logo Family Clinic" class="header__logo-img"
+                        loading="lazy" onerror="this.style.display='none'">
+                    <h1 class="header__logo-text">Family Clinic</h1>
+                </a>
+            </div>
+
+            <nav class="nav" aria-label="Navigation principale">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Accueil</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="about.html" class="nav__link">À propos</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="services.html" class="nav__link">Services</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contact.html" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Language Switcher -->
+            <div class="language-switcher">
+                <button class="language-switcher__toggle" aria-label="Choisir la langue" aria-expanded="false">
+                    <span class="language-switcher__current">FR</span>
+                    <svg class="language-switcher__icon" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </button>
+                <ul class="language-switcher__menu">
+                    <li><a href="../404.html" data-lang="en">English</a></li>
+                    <li><a href="404.html" data-lang="fr" class="active">Français</a></li>
+                </ul>
+            </div>
+
+            <button class="header__mobile-menu" aria-label="Basculer le menu mobile" aria-expanded="false">
+                <span class="header__mobile-menu-line"></span>
+                <span class="header__mobile-menu-line"></span>
+                <span class="header__mobile-menu-line"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="error-page">
+            <div class="error-content">
+                <div class="error-code">404</div>
+                <h2 class="error-title">Page non trouvée</h2>
+                <p class="error-message">
+                    Nous sommes désolés, mais la page que vous recherchez n'existe pas. Elle a peut-être été déplacée, supprimée, ou vous avez saisi une URL incorrecte.
+                </p>
+                
+                <div class="error-actions">
+                    <a href="index.html" class="btn btn--primary">Retour à l'accueil</a>
+                    <a href="contact.html" class="btn btn--secondary">Nous contacter</a>
+                </div>
+
+                <div class="error-links">
+                    <a href="about.html" class="error-link">
+                        <div class="error-link-title">À propos de notre clinique</div>
+                        <div class="error-link-desc">Découvrez notre mission de santé et notre équipe expérimentée</div>
+                    </a>
+                    <a href="services.html" class="error-link">
+                        <div class="error-link-title">Nos services</div>
+                        <div class="error-link-desc">Explorez nos services de santé complets</div>
+                    </a>
+                    <a href="contact.html" class="error-link">
+                        <div class="error-link-title">Informations de contact</div>
+                        <div class="error-link-desc">Trouvez notre emplacement, horaires et coordonnées</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <div class="footer__logo">
+                        <a href="index.html" class="footer__logo-link" aria-label="Aller à la page d'accueil de Family Clinic">
+                            <img src="../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
+                                srcset="../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
+                                sizes="(max-width: 768px) 80px, 100px" alt="Logo Family Clinic" class="footer__logo-img"
+                                loading="lazy" onerror="this.style.display='none'">
+                            <h3 class="footer__logo-text">Family Clinic</h3>
+                        </a>
+                    </div>
+                    <p class="footer__description">
+                        Offrir des services de santé complets aux familles dans un environnement accueillant et compatissant.
+                    </p>
+                </div>
+
+                <div class="footer__section">
+                    <h4 class="footer__section-title">Liens rapides</h4>
+                    <ul class="footer__links">
+                        <li><a href="index.html" class="footer__link">Accueil</a></li>
+                        <li><a href="about.html" class="footer__link">À propos</a></li>
+                        <li><a href="services.html" class="footer__link">Services</a></li>
+                        <li><a href="contact.html" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__section">
+                    <h4 class="footer__section-title">Services</h4>
+                    <ul class="footer__links">
+                        <li><a href="services.html#family-medicine" class="footer__link">Médecine familiale</a></li>
+                        <li><a href="services.html#holistic-consultations" class="footer__link">Consultations holistiques</a></li>
+                        <li><a href="services.html#quantum-scan" class="footer__link">Quantum Scan</a></li>
+                        <li><a href="services.html#naturopathy" class="footer__link">Naturopathie</a></li>
+                        <li><a href="services.html#hijamah" class="footer__link">Hijamah</a></li>
+                        <li><a href="services.html#physiotherapy" class="footer__link">Physiothérapie</a></li>
+                        <li><a href="services.html#dermatology" class="footer__link">Dermatologie & chirurgie</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__section">
+                    <h4 class="footer__section-title">Informations de contact</h4>
+                    <div class="footer__contact">
+                        <p class="footer__contact-item">
+                            <strong>Adresse :</strong><br>
+                            <a href="https://maps.app.goo.gl/sPxKYDMUdsN9dVV2A" class="footer__link" target="_blank" rel="noopener noreferrer">
+                                N°47, Bloc B, Ouled Oujih<br>
+                                Kenitra, Maroc<br>
+                                14080
+                            </a>
+                        </p>
+                        <p class="footer__contact-item">
+                            <strong>Téléphone :</strong><br>
+                            <a href="tel:+212-641-745-441" class="footer__link">+212-641-745-441</a>
+                        </p>
+                        <p class="footer__contact-item">
+                            <strong>Email :</strong><br>
+                            <a href="mailto:saidalaoui.m.a@gmail.com" class="footer__link">saidalaoui.m.a@gmail.com</a>
+                        </p>
+                        <p class="footer__contact-item">
+                            <strong>Heures d'ouverture :</strong><br>
+                            Lun-Jeu : 9h00 - 17h00<br>
+                            Ven : 9h00 - 13h00, 15h00 - 18h00<br>
+                            Sam : 9h00 - 14h00
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p class="footer__copyright">
+                    &copy; 2025 Family Clinic. Tous droits réservés.
+                </p>
+                <p class="footer__powered-by">
+                    Propulsé par <img src="../assets/images/optimized/netria/netria-logo-footer-transparent.png"
+                        alt="Logo Netria" class="footer__netria-logo" loading="lazy"> <a href="https://netria.dev"
+                        class="footer__link" target="_blank" rel="noopener noreferrer">netria.dev</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/script.js"></script>
+    <script src="../assets/localization.js"></script>
+</body>
+
+</html>
