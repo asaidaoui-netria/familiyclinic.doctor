@@ -23,6 +23,372 @@
     <link rel="manifest" href="assets/favicon/site.webmanifest">
 
     <style>
+        /* CSS Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff;
+        }
+
+        /* Typography */
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: 600;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+        }
+
+        h1 { font-size: 2.5rem; }
+        h2 { font-size: 2rem; }
+        h3 { font-size: 1.5rem; }
+        h4 { font-size: 1.25rem; }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        a {
+            color: #2563eb;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #1d4ed8;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            font-weight: 500;
+            text-align: center;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            line-height: 1.5;
+            text-decoration: none;
+        }
+
+        .btn--primary {
+            background-color: #2563eb;
+            color: white;
+        }
+
+        .btn--primary:hover {
+            background-color: #1d4ed8;
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+        }
+
+        .btn--secondary {
+            background-color: transparent;
+            color: #2563eb;
+            border: 2px solid #2563eb;
+        }
+
+        .btn--secondary:hover {
+            background-color: #2563eb;
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        /* Header Styles */
+        .header {
+            background: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header__container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 80px;
+        }
+
+        .header__logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .header__logo-link {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .header__logo-img {
+            width: 50px;
+            height: 50px;
+            margin-right: 0.75rem;
+        }
+
+        .header__logo-text {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #2563eb;
+            margin: 0;
+        }
+
+        .nav__list {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav__link {
+            font-weight: 500;
+            color: #475569;
+            transition: color 0.3s ease;
+        }
+
+        .nav__link:hover {
+            color: #2563eb;
+        }
+
+        .nav__link--active {
+            color: #2563eb;
+        }
+
+        /* Language Switcher */
+        .language-switcher {
+            position: relative;
+            margin-left: 1rem;
+        }
+
+        .language-switcher__toggle {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 0.75rem;
+            background: transparent;
+            border: 1px solid #e5e7eb;
+            border-radius: 0.375rem;
+            cursor: pointer;
+            font-size: 0.875rem;
+            color: #374151;
+            transition: all 0.2s ease;
+        }
+
+        .language-switcher__toggle:hover {
+            background-color: #f9fafb;
+            border-color: #d1d5db;
+        }
+
+        .language-switcher__current {
+            font-weight: 500;
+            min-width: 2rem;
+            text-align: center;
+        }
+
+        .language-switcher__icon {
+            width: 1rem;
+            height: 1rem;
+            transition: transform 0.2s ease;
+        }
+
+        .language-switcher__menu {
+            position: absolute;
+            top: 100%;
+            right: 0;
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            min-width: 120px;
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-8px);
+            transition: all 0.2s ease;
+            list-style: none;
+            padding: 0.5rem 0;
+            margin: 0.25rem 0 0 0;
+        }
+
+        .language-switcher__menu.show {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .language-switcher__menu li {
+            margin: 0;
+        }
+
+        .language-switcher__menu a {
+            display: block;
+            padding: 0.5rem 1rem;
+            color: #374151;
+            text-decoration: none;
+            font-size: 0.875rem;
+            transition: background-color 0.2s ease;
+        }
+
+        .language-switcher__menu a:hover {
+            background-color: #f3f4f6;
+            color: #1f2937;
+        }
+
+        .language-switcher__menu a.active {
+            background-color: #eff6ff;
+            color: #2563eb;
+            font-weight: 500;
+        }
+
+        /* Mobile Menu Button */
+        .header__mobile-menu {
+            display: none;
+            flex-direction: column;
+            gap: 4px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 8px;
+        }
+
+        .header__mobile-menu-line {
+            width: 20px;
+            height: 2px;
+            background-color: #374151;
+            transition: all 0.3s ease;
+        }
+
+        /* Footer Styles */
+        .footer {
+            background-color: #1e293b;
+            color: white;
+            padding: 3rem 0 1rem;
+        }
+
+        .footer__container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        .footer__content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer__logo {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .footer__logo-link {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .footer__logo-img {
+            width: 40px;
+            height: 40px;
+            margin-right: 0.75rem;
+        }
+
+        .footer__logo-text {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #3b82f6;
+            margin: 0;
+        }
+
+        .footer__description {
+            color: #94a3b8;
+            margin-bottom: 1rem;
+        }
+
+        .footer__section-title {
+            color: white;
+            margin-bottom: 1rem;
+            font-size: 1.125rem;
+        }
+
+        .footer__links {
+            list-style: none;
+        }
+
+        .footer__links li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer__link {
+            color: #94a3b8;
+            transition: color 0.3s ease;
+        }
+
+        .footer__link:hover {
+            color: #3b82f6;
+        }
+
+        .footer__contact-item {
+            margin-bottom: 1rem;
+            color: #94a3b8;
+        }
+
+        .footer__contact-item strong {
+            color: white;
+        }
+
+        .footer__bottom {
+            border-top: 1px solid #334155;
+            padding-top: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .footer__copyright {
+            color: #94a3b8;
+            font-size: 0.875rem;
+        }
+
+        .footer__powered-by {
+            color: #94a3b8;
+            font-size: 0.875rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .footer__netria-logo {
+            height: 20px;
+            width: auto;
+        }
+
+        /* Error Page Specific Styles */
         .error-page {
             min-height: 80vh;
             display: flex;
@@ -101,7 +467,30 @@
             color: #64748b;
         }
 
+        /* Responsive Design */
         @media (max-width: 768px) {
+            .nav {
+                display: none;
+            }
+
+            .header__mobile-menu {
+                display: flex;
+            }
+
+            .language-switcher {
+                margin-left: 0.5rem;
+            }
+
+            .footer__content {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .footer__bottom {
+                flex-direction: column;
+                text-align: center;
+            }
+
             .error-code {
                 font-size: 6rem;
             }
@@ -121,6 +510,20 @@
 
             .error-links {
                 grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header__container {
+                padding: 0 0.5rem;
+            }
+
+            .header__logo-text {
+                font-size: 1.25rem;
+            }
+
+            .error-code {
+                font-size: 4rem;
             }
         }
     </style>
