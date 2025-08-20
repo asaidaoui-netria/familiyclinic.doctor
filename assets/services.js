@@ -72,7 +72,9 @@ document.addEventListener('DOMContentLoaded', function () {
         'naturopathy',
         'hijamah',
         'physiotherapy',
-        'dermatology'
+        'dermatology',
+        'judiciary-medical-expertise',
+        'weight-loss'
     ];
 
     // Service navigation is now in HTML, no need to create dynamically
