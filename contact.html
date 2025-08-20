@@ -8,6 +8,11 @@
     <meta name="description"
         content="Contact Family Clinic for appointments, inquiries, or general questions. Located in Kenitra, Morocco. Call +212-641-745-441 or use our contact form.">
 
+    <!-- Hreflang Tags -->
+    <link rel="alternate" href="https://familyclinic.doctor/contact.html" hreflang="en" />
+    <link rel="alternate" href="https://familyclinic.doctor/fr/contact.html" hreflang="fr" />
+    <link rel="alternate" href="https://familyclinic.doctor/contact.html" hreflang="x-default" />
+
     <!-- Structured Data -->
     <script type="application/ld+json">
     {
@@ -43,6 +48,7 @@
 
     <link rel="stylesheet" href="assets/styles.css">
     <link rel="stylesheet" href="assets/contact.css">
+    <link rel="stylesheet" href="assets/localization.css">
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
@@ -84,6 +90,22 @@
                     </li>
                 </ul>
             </nav>
+
+            <!-- Language Switcher -->
+            <div class="language-switcher">
+                <button class="language-switcher__toggle" aria-label="Choose language" aria-expanded="false">
+                    <span class="language-switcher__current">EN</span>
+                    <svg class="language-switcher__icon" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </button>
+                <ul class="language-switcher__menu">
+                    <li><a href="contact.html" data-lang="en" class="active">English</a></li>
+                    <li><a href="fr/contact.html" data-lang="fr">Français</a></li>
+                </ul>
+            </div>
 
             <button class="header__mobile-menu" aria-label="Toggle mobile menu" aria-expanded="false">
                 <span class="header__mobile-menu-line"></span>
@@ -409,6 +431,7 @@
     </footer>
 
     <script src="assets/script.js"></script>
+    <script src="assets/localization.js"></script>
     <script src="assets/contact.js"></script>
 </body>
 

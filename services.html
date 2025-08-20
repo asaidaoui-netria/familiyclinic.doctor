@@ -8,6 +8,11 @@
     <meta name="description"
         content="Discover our comprehensive healthcare services including family medicine, holistic consultations, quantum scan, naturopathy, hijamah, physiotherapy, and dermatology.">
 
+    <!-- Hreflang Tags -->
+    <link rel="alternate" href="https://familyclinic.doctor/services.html" hreflang="en" />
+    <link rel="alternate" href="https://familyclinic.doctor/fr/services.html" hreflang="fr" />
+    <link rel="alternate" href="https://familyclinic.doctor/services.html" hreflang="x-default" />
+
     <!-- Structured Data -->
     <script type="application/ld+json">
     {
@@ -106,6 +111,7 @@
 
     <link rel="stylesheet" href="assets/styles.css">
     <link rel="stylesheet" href="assets/services.css">
+    <link rel="stylesheet" href="assets/localization.css">
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
@@ -147,6 +153,22 @@
                     </li>
                 </ul>
             </nav>
+
+            <!-- Language Switcher -->
+            <div class="language-switcher">
+                <button class="language-switcher__toggle" aria-label="Choose language" aria-expanded="false">
+                    <span class="language-switcher__current">EN</span>
+                    <svg class="language-switcher__icon" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </button>
+                <ul class="language-switcher__menu">
+                    <li><a href="services.html" data-lang="en" class="active">English</a></li>
+                    <li><a href="fr/services.html" data-lang="fr">Français</a></li>
+                </ul>
+            </div>
 
             <button class="header__mobile-menu" aria-label="Toggle mobile menu" aria-expanded="false">
                 <span class="header__mobile-menu-line"></span>
@@ -784,6 +806,7 @@
     </footer>
 
     <script src="assets/script.js"></script>
+    <script src="assets/localization.js"></script>
     <script src="assets/services.js"></script>
 </body>
 
