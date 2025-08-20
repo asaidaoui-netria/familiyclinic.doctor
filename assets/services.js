@@ -65,7 +65,20 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     // Service navigation (if needed for future enhancements)
-    const serviceIds = [
+    // Detect language and use appropriate service IDs
+    const currentLang = document.documentElement.lang || 'en';
+
+    const serviceIds = currentLang === 'fr' ? [
+        'medecine-familiale',
+        'consultations-holistiques',
+        'quantum-scan',
+        'naturopathie',
+        'hijamah',
+        'physiotherapie',
+        'dermatologie',
+        'expertise-medicale-judiciaire',
+        'perte-de-poids'
+    ] : [
         'family-medicine',
         'holistic-consultations',
         'quantum-scan',
@@ -109,6 +122,7 @@ document.addEventListener('DOMContentLoaded', function () {
     updateActiveNavigation();
 
     // Enhanced accessibility
+    const serviceCards = document.querySelectorAll('.service-detail');
     serviceCards.forEach(card => {
         // Add keyboard navigation
         card.setAttribute('tabindex', '0');
