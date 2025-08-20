@@ -127,7 +127,7 @@
 }
 
 /* Ensure proper text flow for French content */
-[lang="fr"] p {
+[lang="fr"] p:not(.team-member__title) {
     text-align: left;
     hyphens: auto;
 }
