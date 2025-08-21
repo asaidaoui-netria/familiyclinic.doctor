@@ -1249,6 +1249,15 @@ This requirement was added after discovering that forcing images into 2:1 aspect
 
 ## 404 Page Implementation - NEWLY ADDED
 
+### Single 404 Page Strategy
+- **English Only 404**: Use single English 404.html page for all language versions
+- **Language Switcher Redirect**: Language switcher redirects to home page of selected language (not 404 page)
+- **Home Page Navigation**: Language options in 404 page navigate to respective home pages:
+  - English: `/index.html`
+  - French: `/fr/index.html`
+  - Arabic: `/ar/index.html`
+- **No Localized 404s**: Do not create separate 404 pages for `/fr/` or `/ar/` directories
+
 ### Self-Contained CSS Strategy
 - **GitHub Pages Compatibility**: External CSS files may fail to load on GitHub Pages for 404 pages
 - **Inline CSS Solution**: Embed all necessary styles directly in HTML for reliable rendering
@@ -1260,21 +1269,21 @@ This requirement was added after discovering that forcing images into 2:1 aspect
 - **Complete Site Integration**: Full header, navigation, footer matching main site exactly
 - **Navigation Completeness**: All navigation links including Blog link for consistency
 - **Footer Service Links**: All 9 service links must be included (common oversight to miss recent additions)
-- **Language Switcher**: Functional switcher with proper relative paths for subdirectory structure
+- **Language Switcher to Home**: Language switcher options redirect to home pages, not 404 pages
 - **Professional Design**: Large error code, helpful messages, quick actions, and recovery links
-- **SEO Considerations**: noindex/nofollow meta tags, hreflang tags for language versions
+- **SEO Considerations**: noindex/nofollow meta tags, single English hreflang only
 
 ### Key Implementation Lessons
 - **Logo Images**: Require `object-fit: contain` for proper scaling and display
 - **CSS Specificity**: Inline styles take precedence, ensure all component styles are included
-- **Relative Paths**: French version requires `../` prefix for asset paths from subdirectory
+- **Single 404 Strategy**: Maintain only English 404 page, remove localized versions
 - **Service Links Consistency**: Always verify footer service links match latest main site structure
 - **Error Recovery UX**: Provide multiple navigation options (buttons, links, helpful sections)
 
 ## French Localization Implementation - PHASE 1 COMPLETED
 
 ### Current Localization Status
-- **Completed Pages**: index.html, about.html, 404.html in `/fr/` subdirectory
+- **Completed Pages**: index.html, about.html, services.html, contact.html in `/fr/` subdirectory
 - **Language Switcher**: Implemented and functional across all pages
 - **Brand Requirements**: "Family Clinic" name preserved (not translated to "Clinique Familiale")
 - **Content Approach**: High-fidelity translation maintaining professional tone and structure
@@ -1294,9 +1303,50 @@ This requirement was added after discovering that forcing images into 2:1 aspect
 - **CSS Integration**: Localization.css contains language-specific typography rules
 - **JavaScript Compatibility**: Language switcher working with proper path handling
 
-### Future Implementation Priority
-1. **Complete Main Pages**: Add Blog links to all French main page navigation/footer
-2. **Services Page**: Translate and implement French services.html
-3. **Contact Page**: Translate and implement French contact.html  
-4. **Blog Localization**: Implement French blog structure and selected article translations
-5. **Cross-Page Consistency**: Ensure all pages have identical navigation and footer structure
+## Arabic Localization Implementation - PHASE 2 COMPLETED
+
+### Arabic Localization Status
+- **Completed Pages**: index.html, about.html, services.html, contact.html in `/ar/` subdirectory
+- **RTL Framework**: Comprehensive Right-to-Left CSS implementation with Arabic typography
+- **Language Switcher**: Integrated Arabic option across all pages with proper navigation
+- **404 Strategy**: Single English 404 page redirects to appropriate language home pages
+- **SEO Implementation**: Hreflang tags, localized structured data, Arabic meta tags
+- **Typography**: Arabic fonts (Noto Sans Arabic, Amiri, Cairo, Tajawal) with proper line spacing
+
+### Technical Implementation Notes
+- **URL Structure**: `/ar/` subdirectory approach working correctly
+- **Asset Paths**: Relative path handling (`../assets/`) functioning properly
+- **RTL CSS**: Comprehensive RTL adjustments for all layout components
+- **Content Translation**: Professional Arabic translation with medical accuracy
+- **Cross-browser Testing**: RTL layout compatibility verified
+- **Visual Consistency**: Arabic pages maintain identical visual design to English/French versions (no different bullets or styling)
+
+### Pending French Localization Tasks (Updated)
+1. **Blog Localization**: Implement French blog structure and selected article translations
+2. **Cross-Page Consistency**: Verify all pages have identical navigation and footer structure
+
+### Next Phase: Blog Localization
+Blog localization for French and Arabic languages remains as future implementation phase.
+
+## Visual Consistency Across Languages - CRITICAL LESSON
+
+### Consistency Requirements
+- **No Language-Specific Styling**: Avoid adding unique visual styles for different languages that break consistency
+- **List Styling**: All languages must use same list appearance (custom CSS pseudo-elements, not browser defaults)
+- **Component Structure**: Maintain identical HTML structure and CSS classes across language versions
+- **Quality Control**: Always verify localized pages look identical to original design
+- **User Experience**: Language should only change text content, never visual design or layout
+
+### Implementation Rule
+When adding RTL or language-specific CSS, only adjust:
+- **Text Direction**: `direction: rtl`, `text-align: right`
+- **Padding/Margins**: Flip left/right values for RTL
+- **Typography**: Font family and line-height for readability
+- **Layout Flow**: Flex direction and positioning
+
+NEVER override:
+- List styling (`list-style-type`)
+- Component visual design
+- Colors, borders, shadows
+- Button appearances
+- Card layouts

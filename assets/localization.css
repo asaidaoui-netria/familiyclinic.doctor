@@ -135,3 +135,231 @@
 [lang="fr"] .btn {
     white-space: nowrap;
 }
+
+/* Arabic Typography and RTL Support */
+[lang="ar"] {
+    font-family: 'Noto Sans Arabic', 'Amiri', 'Cairo', 'Tajawal', sans-serif;
+    line-height: 1.8;
+    /* Increased for Arabic readability */
+    direction: rtl;
+    text-align: right;
+}
+
+/* RTL Layout Adjustments */
+[dir="rtl"] {
+    direction: rtl;
+    text-align: right;
+}
+
+/* Header RTL Adjustments */
+[dir="rtl"] .header__container {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .nav__list {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .nav__link {
+    text-align: right;
+}
+
+[dir="rtl"] .language-switcher {
+    margin-right: 1rem;
+    margin-left: 0;
+}
+
+[dir="rtl"] .language-switcher__menu {
+    left: 0;
+    right: auto;
+}
+
+/* Hero Section RTL */
+[dir="rtl"] .hero__content {
+    text-align: right;
+}
+
+[dir="rtl"] .hero__buttons {
+    justify-content: flex-start;
+}
+
+/* Services Grid RTL */
+[dir="rtl"] .services-grid {
+    text-align: right;
+}
+
+[dir="rtl"] .service-card {
+    text-align: right;
+}
+
+[dir="rtl"] .service-card__icon {
+    margin-left: 1rem;
+    margin-right: 0;
+}
+
+/* Team Section RTL */
+[dir="rtl"] .team-member {
+    text-align: right;
+}
+
+[dir="rtl"] .team-member__content {
+    text-align: right;
+}
+
+[dir="rtl"] .team-preview__grid {
+    direction: rtl;
+}
+
+/* About Page RTL */
+[dir="rtl"] .mission__grid {
+    direction: rtl;
+}
+
+[dir="rtl"] .values__grid {
+    direction: rtl;
+}
+
+[dir="rtl"] .value-card {
+    text-align: right;
+}
+
+/* Services Page RTL */
+[dir="rtl"] .services-page__layout {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .services-sidebar {
+    border-left: 1px solid #e5e7eb;
+    border-right: none;
+    padding-left: 2rem;
+    padding-right: 0;
+}
+
+[dir="rtl"] .services-nav__link {
+    text-align: right;
+    padding: 0.75rem 0 0.75rem 1rem;
+}
+
+[dir="rtl"] .service-section {
+    text-align: right;
+}
+
+[dir="rtl"] .service-section ul {
+    padding-right: 1.5rem;
+    padding-left: 0;
+}
+
+/* Contact Page RTL */
+[dir="rtl"] .contact__grid {
+    direction: rtl;
+}
+
+[dir="rtl"] .contact-info {
+    text-align: right;
+}
+
+[dir="rtl"] .contact-info__item {
+    text-align: right;
+}
+
+[dir="rtl"] .faq__item {
+    text-align: right;
+}
+
+/* Footer RTL */
+[dir="rtl"] .footer__content {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .footer__section {
+    text-align: right;
+}
+
+[dir="rtl"] .footer__links {
+    text-align: right;
+}
+
+[dir="rtl"] .footer__social {
+    justify-content: flex-start;
+}
+
+[dir="rtl"] .footer__bottom {
+    text-align: right;
+}
+
+/* Mobile RTL Adjustments */
+@media (max-width: 768px) {
+    [dir="rtl"] .header__mobile-menu {
+        left: 1rem;
+        right: auto;
+    }
+
+    [dir="rtl"] .services-sidebar {
+        border: none;
+        padding: 0;
+    }
+
+    [dir="rtl"] .services-nav {
+        justify-content: flex-start;
+    }
+
+    [dir="rtl"] .language-switcher {
+        margin-right: 0.5rem;
+        margin-left: 0;
+    }
+}
+
+/* Arabic-specific content adjustments */
+[lang="ar"] .hero__title {
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+[lang="ar"] .service-card__title {
+    line-height: 1.4;
+    font-weight: 600;
+}
+
+[lang="ar"] .team-member__name {
+    line-height: 1.3;
+    font-weight: 600;
+}
+
+/* Ensure proper text flow for Arabic content */
+[lang="ar"] p {
+    text-align: right;
+    hyphens: auto;
+    word-spacing: 0.1em;
+}
+
+[lang="ar"] .btn {
+    white-space: nowrap;
+    font-weight: 500;
+}
+
+/* Arabic button text adjustments */
+[lang="ar"] .btn--primary,
+[lang="ar"] .btn--secondary {
+    letter-spacing: 0.02em;
+}
+
+/* Arabic list styling - inherit from main styles for consistency */
+[lang="ar"] ul,
+[lang="ar"] ol {
+    padding-right: 1.5rem;
+    padding-left: 0;
+}
+
+/* Arabic form inputs */
+[lang="ar"] input,
+[lang="ar"] textarea,
+[lang="ar"] select {
+    text-align: right;
+    direction: rtl;
+}
+
+/* Flip icons for RTL where appropriate */
+[dir="rtl"] .service-card__icon.flip-rtl,
+[dir="rtl"] .value-card__icon.flip-rtl {
+    transform: scaleX(-1);
+}
