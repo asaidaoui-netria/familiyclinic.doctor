@@ -183,477 +183,500 @@
 
     <!-- Main Content -->
     <main class="main">
-        <!-- Hero Section -->
-        <section class="hero">
-            <div class="hero__container">
-                <div class="hero__content">
-                    <h2 class="hero__title">خدماتنا الطبية الشاملة</h2>
-                    <p class="hero__description">
-                        اكتشف مجموعة واسعة من خدمات الرعاية الصحية المصممة لتلبية احتياجات عائلتك. نحن نجمع بين الطب
-                        التقليدي والأساليب الشمولية لتوفير رعاية شخصية وفعالة.
+        <!-- Services Hero Section -->
+        <section class="services-hero">
+            <div class="container">
+                <div class="services-hero__content">
+                    <h1 class="services-hero__title">خدماتنا الطبية</h1>
+                    <p class="services-hero__description">
+                        اكتشف مجموعة واسعة من خدمات الرعاية الصحية المصممة لتلبية احتياجات عائلتك المتنوعة.
+                        من الطب التقليدي إلى الأساليب الشمولية، نحن نقدم رعاية شخصية لتحقيق الصحة والرفاهية المثلى.
                     </p>
-                    <div class="hero__actions">
-                        <a href="contact.html" class="btn btn--primary">احجز استشارة</a>
-                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Services Layout -->
-        <div class="services-page__layout">
-            <!-- Services Sidebar -->
-            <aside class="services-sidebar">
-                <nav class="services-nav" aria-label="تنقل الخدمات">
-                    <ul class="services-nav__list">
-                        <li class="services-nav__item">
-                            <a href="#family-medicine" class="services-nav__link">طب الأسرة</a>
-                        </li>
-                        <li class="services-nav__item">
-                            <a href="#holistic-consultations" class="services-nav__link">الاستشارات الشمولية</a>
-                        </li>
-                        <li class="services-nav__item">
-                            <a href="#quantum-scan" class="services-nav__link">المسح الكمي</a>
-                        </li>
-                        <li class="services-nav__item">
-                            <a href="#naturopathy" class="services-nav__link">الطب الطبيعي</a>
-                        </li>
-                        <li class="services-nav__item">
-                            <a href="#hijamah" class="services-nav__link">الحجامة</a>
-                        </li>
-                        <li class="services-nav__item">
-                            <a href="#physiotherapy" class="services-nav__link">العلاج الطبيعي</a>
-                        </li>
-                        <li class="services-nav__item">
-                            <a href="#dermatology" class="services-nav__link">طب الجلدية</a>
-                        </li>
-                        <li class="services-nav__item">
-                            <a href="#judiciary-medical-expertise" class="services-nav__link">الخبرة الطبية القضائية</a>
-                        </li>
-                        <li class="services-nav__item">
-                            <a href="#travel-medicine" class="services-nav__link">فقدان الوزن</a>
-                        </li>
-                    </ul>
-                </nav>
-            </aside>
-
-            <!-- Services Content -->
-            <div class="services-content">
-                <!-- Family Medicine -->
-                <section id="family-medicine" class="service-section">
-                    <div class="service-section__header">
-                        <h2 class="service-section__title">طب الأسرة</h2>
-                        <img src="../assets/images/optimized/services/primary_care_icon_desktop_160x160.jpg"
-                            alt="أيقونة طب الأسرة" class="service-section__icon" loading="lazy"
-                            onerror="this.style.display='none'">
+        <!-- Services Layout with Sidebar -->
+        <div class="services-layout">
+            <!-- Services Sidebar Navigation -->
+            <nav class="services-nav">
+                <div class="services-nav__container">
+                    <h3 class="services-nav__title">خدماتنا</h3>
+                    <div class="services-nav__links">
+                        <a href="#family-medicine" class="services-nav__link">طب الأسرة</a>
+                        <a href="#holistic-consultations" class="services-nav__link">الاستشارات الشمولية</a>
+                        <a href="#quantum-scan" class="services-nav__link">المسح الكمي</a>
+                        <a href="#naturopathy" class="services-nav__link">الطب الطبيعي</a>
+                        <a href="#hijamah" class="services-nav__link">الحجامة</a>
+                        <a href="#physiotherapy" class="services-nav__link">العلاج الطبيعي</a>
+                        <a href="#dermatology" class="services-nav__link">طب الجلدية</a>
+                        <a href="#judiciary-medical-expertise" class="services-nav__link">الخبرة الطبية القضائية</a>
+                        <a href="#weight-loss" class="services-nav__link">فقدان الوزن</a>
                     </div>
+                </div>
+            </nav>
 
-                    <div class="service-section__content">
-                        <p class="service-section__description">
-                            رعاية صحية شاملة للأسرة مع متابعة طبية شخصية والوقاية وعلاقات موثوقة لجميع الأعمار. نحن نؤمن
-                            ببناء علاقات طويلة الأمد مع عائلاتنا لفهم تاريخهم الصحي وتقديم رعاية مستمرة ومنسقة.
-                        </p>
+            <!-- Services Main Content -->
+            <main class="services-main">
+                <section class="services-grid">
+                    <div class="container">
+                        <!-- Family Medicine -->
+                        <article class="service-detail" id="family-medicine">
+                            <div class="service-detail__content">
+                                <div class="service-detail__header">
+                                    <h2 class="service-detail__title">طب الأسرة</h2>
+                                    <p class="service-detail__subtitle">في قلب كل عائلة، الصحة هي رابطة أساسية.</p>
+                                </div>
+                                <div class="service-detail__body">
+                                    <p class="service-detail__description">
+                                        استشارات طب الأسرة لدينا ترافقكم في كل مرحلة من مراحل الحياة مع الاستماع الواعي
+                                        والرعاية الشخصية والرؤية التكاملية للرفاهية. نحن نقدم رعاية صحية شاملة للعائلة
+                                        بأكملها، من الأطفال حديثي الولادة إلى كبار السن، مما يضمن استمرارية الرعاية
+                                        وبناء علاقات دائمة.
+                                    </p>
+                                    <div class="service-detail__mission">
+                                        <h3>نهجنا في طب الأسرة</h3>
+                                        <p>نحن نؤمن بمعاملة العائلة بأكملها كوحدة واحدة، مع فهم أن الصحة الفردية مترابطة
+                                            مع ديناميكيات الأسرة ونمط الحياة. نهجنا يجمع بين الخبرة الطبية التقليدية
+                                            والفلسفة الرحيمة التي تركز على الأسرة والتي تعطي الأولوية للوقاية والتعليم
+                                            والرفاهية طويلة الأمد.</p>
+                                    </div>
+                                    <div class="service-detail__services">
+                                        <h3>خدمات الرعاية الأسرية الشاملة:</h3>
+                                        <ul class="service-detail__list">
+                                            <li>الرعاية الوقائية وفحوصات العافية لجميع الأعمار</li>
+                                            <li>علاج الأمراض الحادة وإدارة الأمراض المزمنة</li>
+                                            <li>رعاية الأطفال ومراقبة نمو الطفل</li>
+                                            <li>صحة المرأة ودعم الرعاية قبل الولادة</li>
+                                            <li>صحة الرجال والفحوصات الوقائية</li>
+                                            <li>صحة كبار السن والرعاية الطبية للمسنين</li>
+                                            <li>التثقيف الصحي للأسرة والاستشارة حول نمط الحياة</li>
+                                            <li>برامج التطعيم والتحصين</li>
+                                            <li>فحص الصحة النفسية والدعم</li>
+                                            <li>تنسيق الإحالات وإدارة رعاية المتخصصين</li>
+                                        </ul>
+                                    </div>
+                                    <div class="service-detail__approach">
+                                        <h3>لماذا تختار طب الأسرة؟</h3>
+                                        <p>طب الأسرة يوفر ميزة فريدة من استمرارية الرعاية عبر الأجيال. طبيب العائلة يصبح
+                                            شريكاً موثوقاً يعرف تاريخ عائلتك الصحي، ويفهم قيمكم، ويمكنه تقديم رعاية
+                                            شخصية تتطور مع احتياجات عائلتك المتغيرة مع مرور الوقت.</p>
+                                    </div>
+                                    <p class="service-detail__cta-text">
+                                        ابنوا شراكة دائمة مع مقدم رعاية صحية يعرف ويهتم حقاً بعائلتكم بأكملها.
+                                    </p>
+                                </div>
+                                <div class="service-detail__actions">
+                                    <a href="contact.html" class="btn btn--primary">اتصل بنا</a>
+                                </div>
+                            </div>
+                        </article>
 
-                        <h3 class="service-section__subtitle">منهجنا</h3>
-                        <p class="service-section__text">
-                            في عيادة الأسرة، نتبع نهجاً شاملاً لطب الأسرة يركز على الوقاية والتشخيص المبكر والعلاج
-                            الشخصي. نحن نعتبر كل عائلة وحدة متماسكة ونعمل على بناء علاقات ثقة طويلة الأمد.
-                        </p>
+                        <!-- Holistic Consultations -->
+                        <article class="service-detail" id="holistic-consultations">
+                            <div class="service-detail__content">
+                                <div class="service-detail__header">
+                                    <h2 class="service-detail__title">الاستشارات الشمولية</h2>
+                                    <p class="service-detail__subtitle">اعتنِ بنفسك بطريقة مختلفة.</p>
+                                </div>
+                                <div class="service-detail__body">
+                                    <p class="service-detail__description">
+                                        استكشف نهجاً شاملاً للصحة يأخذ في الاعتبار الجسم والعقل والعواطف. الاستشارات
+                                        الشمولية تدرك أن الرفاهية الحقيقية تأتي من معالجة جميع جوانب كيانك - الجسدية
+                                        والعقلية والعاطفية والروحية. كل استشارة هي لحظة استماع وفهم ودعم شخصي.
+                                    </p>
+                                    <div class="service-detail__mission">
+                                        <h3>فلسفتنا الشمولية</h3>
+                                        <p>لمساعدتك على إعادة اكتشاف رفاهيتك الطبيعية من خلال الأدوات المناسبة والنصائح
+                                            المخصصة والرؤية التكاملية للصحة. نحن نؤمن أن كل فرد فريد ويتطلب نهجاً شخصياً
+                                            يكرم رحلته الصحية الكاملة.</p>
+                                    </div>
+                                    <div class="service-detail__services">
+                                        <h3>ما تشمله استشاراتنا الشمولية:</h3>
+                                        <ul class="service-detail__list">
+                                            <li>تقييم صحي شامل وتقييم نمط الحياة</li>
+                                            <li>تحليل الربط بين العقل والجسم وإدارة الإجهاد</li>
+                                            <li>العافية العاطفية ودعم الصحة النفسية</li>
+                                            <li>خطط العافية الشخصية ووضع الأهداف</li>
+                                            <li>توازن الطاقة وتحسين الحيوية</li>
+                                            <li>العافية الروحية وتوجيه الهدف من الحياة</li>
+                                            <li>توصيات الصحة التكاملية والإحالات</li>
+                                            <li>الدعم المستمر ومراقبة التقدم</li>
+                                        </ul>
+                                    </div>
+                                    <div class="service-detail__approach">
+                                        <h3>لماذا تختار الاستشارات الشمولية؟</h3>
+                                        <p>على عكس الأساليب الطبية التقليدية التي تركز فقط على الأعراض، تتناول
+                                            استشاراتنا الشمولية الأسباب الجذرية لاختلالات الصحة. نحن نعمل معك لإحداث
+                                            تغييرات مستدامة في نمط الحياة التي تعزز الرفاهية الدائمة وتساعدك على تحقيق
+                                            حالتك المثلى من الصحة.</p>
+                                    </div>
+                                    <p class="service-detail__cta-text">
+                                        ابدأ رحلتك نحو الرفاهية الكاملة مع استشارة تكرم كيانك كاملاً.
+                                    </p>
+                                </div>
+                                <div class="service-detail__actions">
+                                    <a href="contact.html" class="btn btn--primary">اتصل بنا</a>
+                                </div>
+                            </div>
+                        </article>
 
-                        <h3 class="service-section__subtitle">خدماتنا</h3>
-                        <ul class="service-section__list">
-                            <li>فحوصات دورية شاملة لجميع أفراد الأسرة</li>
-                            <li>تطعيمات وقائية للأطفال والبالغين</li>
-                            <li>إدارة الأمراض المزمنة (السكري، ضغط الدم، الكوليسترول)</li>
-                            <li>فحوصات صحية سنوية ومتابعة طبية</li>
-                            <li>رعاية صحة المرأة والاستشارات النسائية</li>
-                            <li>رعاية طب الأطفال والمراهقين</li>
-                            <li>رعاية كبار السن والشيخوخة الصحية</li>
-                            <li>إدارة الألم الحاد والمزمن</li>
-                            <li>استشارات التغذية وإدارة الوزن</li>
-                            <li>التنسيق مع المتخصصين والإحالات الطبية</li>
-                        </ul>
+                        <!-- Quantum Scan -->
+                        <article class="service-detail" id="quantum-scan">
+                            <div class="service-detail__content">
+                                <div class="service-detail__header">
+                                    <h2 class="service-detail__title">المسح الكمي - قراءة طاقة شخصية</h2>
+                                    <p class="service-detail__subtitle">الجسم يتحدث بالترددات: فلنستمع إليه.</p>
+                                </div>
+                                <div class="service-detail__body">
+                                    <p class="service-detail__description">
+                                        استكشف صحتك بطريقة مختلفة من خلال المسح الكمي. تقنية طاقة حيوية متقدمة تحلل
+                                        الاختلالات الداخلية وتوجه الرعاية نحو الفعالية المثلى.
+                                    </p>
+                                    <div class="service-detail__mission">
+                                        <h3>نهجنا في المسح الكمي</h3>
+                                        <p>نحن نستخدم تقنية الطاقة الحيوية المتطورة لتوفير رؤى صحية شاملة تكمل التقييمات
+                                            الطبية التقليدية. نهجنا يجمع بين تقنية المسح المتقدمة والتفسير الخبير لتحديد
+                                            الاختلالات الصحية المحتملة وتوجيه استراتيجيات العافية الشخصية.</p>
+                                    </div>
+                                    <div class="service-detail__scan-reveals">
+                                        <h3>ما يكشفه المسح:</h3>
+                                        <ul class="service-detail__list">
+                                            <li>الحالة الطاقية العامة للجسم</li>
+                                            <li>النقص الوظيفي أو الغذائي</li>
+                                            <li>مناطق الضغط أو الالتهاب</li>
+                                            <li>الاستعدادات المتعلقة بتضاريسك البيولوجية</li>
+                                        </ul>
+                                    </div>
+                                    <div class="service-detail__approach">
+                                        <h3>لماذا تختار المسح الكمي؟</h3>
+                                        <p>المسح الكمي يوفر نهجاً ثورياً لتقييم الصحة يتجاوز الطرق التشخيصية التقليدية.
+                                            هذه التقنية المتقدمة توفر رؤى حول أنماط جسمك الطاقية، مما يساعد في تحديد
+                                            الاختلالات قبل أن تظهر كأعراض جسدية. إنه نهج استباقي للصحة يمكّنك من اتخاذ
+                                            قرارات مدروسة حول رحلة عافيتك.</p>
+                                    </div>
+                                    <p class="service-detail__cta-text">
+                                        احجز تقييم المسح الكمي الخاص بك وادخل بُعداً جديداً من الرعاية.
+                                    </p>
+                                </div>
+                                <div class="service-detail__actions">
+                                    <a href="contact.html" class="btn btn--primary">اتصل بنا</a>
+                                </div>
+                            </div>
+                        </article>
 
-                        <h3 class="service-section__subtitle">لماذا تختارنا</h3>
-                        <p class="service-section__text">
-                            فريقنا ذو الخبرة يقدم رعاية شاملة ومنسقة لجميع أفراد الأسرة. نحن نؤمن بالطب الوقائي ونعمل
-                            معكم لوضع خطط صحية شخصية تلبي احتياجاتكم الفريدة. استمرارية الرعاية وبناء الثقة هما أساس
-                            نهجنا في طب الأسرة.
-                        </p>
+                        <!-- Naturopathy -->
+                        <article class="service-detail" id="naturopathy">
+                            <div class="service-detail__content">
+                                <div class="service-detail__header">
+                                    <h2 class="service-detail__title">الطب الطبيعي</h2>
+                                    <p class="service-detail__subtitle">أعد اكتشاف توازنك بشكل طبيعي.</p>
+                                </div>
+                                <div class="service-detail__body">
+                                    <p class="service-detail__description">
+                                        أعط جسمك ما يستحقه: نهج يغذي ويشفي وينشط. الطب الطبيعي هو نهج شمولي للصحة يؤكد
+                                        على قدرة الجسم الطبيعية على شفاء نفسه.
+                                    </p>
+                                    <div class="service-detail__mission">
+                                        <h3>نهجنا في الطب الطبيعي</h3>
+                                        <p>نحن نجمع بين حكمة الشفاء التقليدية والفهم العلمي الحديث لدعم عمليات الشفاء
+                                            الطبيعية لجسمك وتعزيز الرفاهية المثلى.</p>
+                                    </div>
+                                    <div class="service-detail__services">
+                                        <h3>ما نقدمه:</h3>
+                                        <ul class="service-detail__list">
+                                            <li>التغذية الشخصية والإرشاد الغذائي</li>
+                                            <li>الطب العشبي والمكملات الطبيعية</li>
+                                            <li>استشارة نمط الحياة وإدارة الإجهاد</li>
+                                            <li>برامج التخلص من السموم والتطهير</li>
+                                            <li>العلاجات الطبيعية للمشاكل الصحية الشائعة</li>
+                                            <li>استراتيجيات الصحة الوقائية</li>
+                                        </ul>
+                                    </div>
+                                    <div class="service-detail__approach">
+                                        <h3>لماذا تختار الطب الطبيعي؟</h3>
+                                        <p>الطب الطبيعي يوفر نهجاً لطيفاً وطبيعياً للصحة يعمل مع قدرات جسمك الشافية
+                                            الكامنة. على عكس الطب التقليدي الذي غالباً ما يركز على قمع الأعراض، يتناول
+                                            الطب الطبيعي الأسباب الجذرية للمشاكل الصحية ويعزز الرفاهية طويلة الأمد من
+                                            خلال الطرق الطبيعية. هذا النهج يمكّنك من أخذ دور نشط في رحلة صحتك مع احترام
+                                            إيقاعات جسمك الطبيعية وعمليات الشفاء.</p>
+                                    </div>
+                                    <p class="service-detail__cta-text">
+                                        اختبر قوة الشفاء الطبيعي وأعد اكتشاف قدرة جسمك الفطرية على الازدهار.
+                                    </p>
+                                </div>
+                                <div class="service-detail__actions">
+                                    <a href="contact.html" class="btn btn--primary">اتصل بنا</a>
+                                </div>
+                            </div>
+                        </article>
 
-                        <a href="contact.html" class="btn btn--primary">احجز استشارة طب الأسرة</a>
+
+
+
+                        <!-- Hijamah -->
+                        <article class="service-detail" id="hijamah">
+                            <div class="service-detail__content">
+                                <div class="service-detail__header">
+                                    <h2 class="service-detail__title">الحجامة</h2>
+                                    <p class="service-detail__subtitle">اكتشف فوائد الحجامة</p>
+                                </div>
+                                <div class="service-detail__body">
+                                    <p class="service-detail__description">
+                                        طريقة علاجية تقليدية معترف بها لفضائلها المطهرة والمنشطة. الحجامة، المعروفة
+                                        أيضاً بالعلاج بالكؤوس، هي ممارسة شفاء قديمة تم استخدامها لقرون لتعزيز الصحة
+                                        والرفاهية من خلال التخلص من السموم الطبيعي وتحسين الدورة الدموية.
+                                    </p>
+                                    <div class="service-detail__mission">
+                                        <h3>نهجنا في الحجامة</h3>
+                                        <p>نحن نمارس الحجامة وفقاً لمعايير طبية صارمة وحكمة تقليدية، مما يضمن السلامة
+                                            والفعالية. نهجنا يجمع بين الفوائد المجربة زمنياً لهذا العلاج القديم مع
+                                            بروتوكولات النظافة والطب الحديثة.</p>
+                                    </div>
+                                    <div class="service-detail__services">
+                                        <h3>فوائد علاج الحجامة:</h3>
+                                        <ul class="service-detail__list">
+                                            <li>تحفيز الدورة الدموية وتحسين تدفق الأكسجين</li>
+                                            <li>تخفيف آلام العضلات والمفاصل والتوتر</li>
+                                            <li>تقوية المناعة بشكل طبيعي وزيادة الطاقة</li>
+                                            <li>التخلص من السموم وتنقية الدم</li>
+                                            <li>تقليل الالتهاب وتعزيز الشفاء</li>
+                                            <li>تحسين صحة الجلد والبشرة</li>
+                                            <li>تعزيز الوضوح الذهني وتقليل التوتر</li>
+                                            <li>دعم صحة الجهاز الهضمي والتمثيل الغذائي</li>
+                                        </ul>
+                                    </div>
+                                    <div class="service-detail__approach">
+                                        <h3>لماذا تختار الحجامة؟</h3>
+                                        <p>الحجامة توفر نهجاً طبيعياً وغير جراحي للصحة يعمل مع آليات الشفاء الخاصة
+                                            بجسمك. هذا العلاج التقليدي يمكن أن يكمل العلاجات الطبية الحديثة ويوفر الراحة
+                                            لحالات صحية مختلفة مع تعزيز الرفاهية العامة والحيوية.</p>
+                                    </div>
+                                    <p class="service-detail__cta-text">
+                                        اختبر الحكمة القديمة للحجامة وأعد اكتشاف حيويتك الطبيعية وتوازنك الداخلي.
+                                    </p>
+                                </div>
+                                <div class="service-detail__actions">
+                                    <a href="contact.html" class="btn btn--primary">اتصل بنا</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Physiotherapy -->
+                        <article class="service-detail" id="physiotherapy">
+                            <div class="service-detail__content">
+                                <div class="service-detail__header">
+                                    <h2 class="service-detail__title">العلاج الطبيعي</h2>
+                                    <p class="service-detail__subtitle">خفف ألمك، حسّن حركتك.</p>
+                                </div>
+                                <div class="service-detail__body">
+                                    <p class="service-detail__description">
+                                        اعثر على الراحة اليومية من خلال خدمة العلاج الطبيعي لدينا. نهجنا الشامل لإعادة
+                                        التأهيل البدني يساعدك على التعافي من الإصابات، وإدارة الحالات المزمنة، والحفاظ
+                                        على الوظيفة البدنية المثلى من خلال التقنيات العلاجية القائمة على الأدلة.
+                                    </p>
+                                    <div class="service-detail__mission">
+                                        <h3>نهجنا في العلاج الطبيعي</h3>
+                                        <p>نحن نجمع بين تقنيات العلاج الطبيعي التقليدية وطرق إعادة التأهيل الحديثة
+                                            لتوفير خطط علاج شخصية تتناول احتياجاتك المحددة. هدفنا هو مساعدتك على تحقيق
+                                            تخفيف الألم، واستعادة الوظيفة، ومنع الإصابات المستقبلية من خلال التدخلات
+                                            العلاجية المستهدفة.</p>
+                                    </div>
+                                    <div class="service-detail__services">
+                                        <h3>خدمات العلاج الطبيعي الشاملة:</h3>
+                                        <ul class="service-detail__list">
+                                            <li>إدارة الألم والراحة من الحالات المزمنة</li>
+                                            <li>إعادة التأهيل ما بعد الجراحة والتعافي</li>
+                                            <li>علاج ومنع الإصابات الرياضية</li>
+                                            <li>تقوية العضلات وتدريب المرونة</li>
+                                            <li>تحسين حركة المفاصل ونطاق الحركة</li>
+                                            <li>تصحيح الوضعية والتقييم المريح</li>
+                                            <li>إعادة التأهيل العصبي وتعافي السكتة الدماغية</li>
+                                            <li>العلاج الطبيعي لكبار السن ومنع السقوط</li>
+                                            <li>إعادة تأهيل الإصابات المرتبطة بالعمل</li>
+                                            <li>الرعاية الوقائية وبرامج العافية</li>
+                                        </ul>
+                                    </div>
+                                    <div class="service-detail__approach">
+                                        <h3>لماذا تختار العلاج الطبيعي؟</h3>
+                                        <p>العلاج الطبيعي يوفر نهجاً غير جراحي وخالي من الأدوية لتخفيف الألم والتحسين
+                                            الوظيفي. علاجاتنا مصممة لتناول السبب الجذري لمشاكلك الجسدية، وتعزيز الشفاء
+                                            الطبيعي، وتزويدك بالأدوات والمعرفة للحفاظ على صحتك ومنع المشاكل المستقبلية.
+                                        </p>
+                                    </div>
+                                    <p class="service-detail__cta-text">
+                                        اتخذ الخطوة الأولى نحو الحياة الخالية من الألم وتحسين الوظيفة البدنية مع رعاية
+                                        العلاج الطبيعي الخبيرة لدينا.
+                                    </p>
+                                </div>
+                                <div class="service-detail__actions">
+                                    <a href="contact.html" class="btn btn--primary">اتصل بنا</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Dermatology & Integrative Surgery -->
+                        <article class="service-detail" id="dermatology">
+                            <div class="service-detail__content">
+                                <div class="service-detail__header">
+                                    <h2 class="service-detail__title">طب الجلدية والجراحة التكاملية</h2>
+                                    <p class="service-detail__subtitle">من أجل بشرة مشرقة، بشكل طبيعي.</p>
+                                </div>
+                                <div class="service-detail__body">
+                                    <p class="service-detail__description">
+                                        في عيادة الأسرة، نجمع بين الرعاية الجلدية الكلاسيكية والطب الطبيعي للحصول على
+                                        بشرة صحية، معالجة في العمق ومحترمة في توازنها الطبيعي. نهجنا التكاملي يتناول
+                                        الجوانب الطبية والشمولية لصحة الجلد، مما يضمن رعاية شاملة لجميع احتياجاتك
+                                        الجلدية.
+                                    </p>
+                                    <div class="service-detail__mission">
+                                        <h3>نهجنا في طب الجلدية التكاملي</h3>
+                                        <p>نحن نؤمن بعلاج حالات الجلد من منظورين طبي وشمولي، مع تناول ليس فقط الأعراض
+                                            ولكن أيضاً الأسباب الكامنة. نهجنا يجمع بين التقنيات الجلدية المتقدمة وطرق
+                                            الشفاء الطبيعية لتوفير حلول رعاية الجلد الشاملة.</p>
+                                    </div>
+                                    <div class="service-detail__services">
+                                        <h3>الخدمات الجلدية الشاملة:</h3>
+                                        <ul class="service-detail__list">
+                                            <li>علاج حب الشباب، والأكزيما، والصدفية، وحالات الجلد الأخرى</li>
+                                            <li>علاج الندبات وعلاجات تجديد الجلد</li>
+                                            <li>العلاجات المضادة للشيخوخة والعناية الوقائية بالبشرة</li>
+                                            <li>فحص سرطان الجلد والكشف المبكر</li>
+                                            <li>طب الجلدية التجميلي والإجراءات الجمالية</li>
+                                            <li>حلول العناية بالبشرة الطبيعية والتكاملية</li>
+                                            <li>الجراحة الجلدية المستهدفة والإجراءات</li>
+                                            <li>تثقيف صحة الجلد والعناية الوقائية</li>
+                                            <li>علاج حالات الشعر وفروة الرأس</li>
+                                            <li>صحة الأظافر وعلاج العدوى الفطرية</li>
+                                        </ul>
+                                    </div>
+                                    <div class="service-detail__approach">
+                                        <h3>لماذا تختار طب الجلدية التكاملي؟</h3>
+                                        <p>نهجنا التكاملي يوفر أفضل ما في العالمين - طب الجلدية الطبي المتقدم مدموج مع
+                                            طرق الشفاء الطبيعية. هذا النهج الشامل يضمن أننا نتناول الأسباب الجذرية
+                                            لمشاكل الجلد مع توفير علاجات فعالة تعزز صحة الجلد طويلة الأمد والجمال
+                                            الطبيعي.</p>
+                                    </div>
+                                    <p class="service-detail__cta-text">
+                                        اختبر المزج المثالي بين الخبرة الطبية والرعاية الطبيعية للحصول على بشرة صحية
+                                        ومشرقة تعكس رفاهيتك الداخلية.
+                                    </p>
+                                </div>
+                                <div class="service-detail__actions">
+                                    <a href="contact.html" class="btn btn--primary">اتصل بنا</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Judiciary Medical Expertise -->
+                        <article class="service-detail" id="judiciary-medical-expertise">
+                            <div class="service-detail__content">
+                                <div class="service-detail__header">
+                                    <h2 class="service-detail__title">الخبرة الطبية القضائية</h2>
+                                    <p class="service-detail__subtitle">شهادة طبية خبيرة للإجراءات القانونية.</p>
+                                </div>
+                                <div class="service-detail__body">
+                                    <p class="service-detail__description">
+                                        خدمة الخبرة الطبية القضائية لدينا توفر تقييماً طبياً مهنياً وشهادة للإجراءات
+                                        القانونية والقضائية. نحن نقدم تقييمات طبية شاملة، وخدمات الشاهد الخبير، وتقارير
+                                        طبية مفصلة تلبي أعلى معايير الدقة القانونية والطبية.
+                                    </p>
+                                    <div class="service-detail__mission">
+                                        <h3>نهجنا الطبي الخبير</h3>
+                                        <p>نحن نقدم خبرة طبية موضوعية وشاملة وسليمة علمياً للقضايا القانونية. محترفونا
+                                            الطبيون ذوو الخبرة يجمعون بين المعرفة السريرية ومبادئ الطب الشرعي لتقديم
+                                            آراء واضحة وقائمة على الأدلة يمكنها تحمل التدقيق القانوني.</p>
+                                    </div>
+                                    <div class="service-detail__services">
+                                        <h3>خدمات الطب القانوني الشاملة:</h3>
+                                        <ul class="service-detail__list">
+                                            <li>شهادة الشاهد الطبي الخبير لقضايا المحكمة</li>
+                                            <li>تقارير طبية شاملة للإجراءات القانونية</li>
+                                            <li>تقييمات الإصابة الشخصية وسوء الممارسة الطبية</li>
+                                            <li>تقييمات طبية لتعويض العمال</li>
+                                            <li>تقييمات الإعاقة ومطالبات التأمين</li>
+                                            <li>الفحوصات الطبية الشرعية والتوثيق</li>
+                                            <li>مراجعة وتحليل السجلات الطبية</li>
+                                            <li>الفحوصات الطبية المستقلة (IME)</li>
+                                            <li>تقييمات السببية الطبية والتشخيص</li>
+                                            <li>استشارة ما قبل المحاكمة وإعداد القضية</li>
+                                        </ul>
+                                    </div>
+                                    <div class="service-detail__approach">
+                                        <h3>لماذا تختار خبرتنا الطبية القضائية؟</h3>
+                                        <p>فريقنا يجلب عقوداً من الخبرة الطبية والشرعية المدمجة لكل قضية. نحن نفهم
+                                            الأهمية البالغة للشهادة الطبية الواضحة والموضوعية في الإجراءات القانونية
+                                            ونقدم تقييمات شاملة يمكن للمحامين والمحاكم الاعتماد عليها للحصول على رؤى
+                                            طبية دقيقة.</p>
+                                    </div>
+                                    <p class="service-detail__cta-text">
+                                        ثق بمحترفينا الطبيين ذوي الخبرة لتقديم الشهادة الخبيرة والتوثيق الذي تتطلبه
+                                        قضيتك القانونية.
+                                    </p>
+                                </div>
+                                <div class="service-detail__actions">
+                                    <a href="contact.html" class="btn btn--primary">اتصل بنا</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Weight Loss -->
+                        <article class="service-detail" id="weight-loss">
+                            <div class="service-detail__content">
+                                <div class="service-detail__header">
+                                    <h2 class="service-detail__title">فقدان الوزن</h2>
+                                    <p class="service-detail__subtitle">إدارة الوزن المستدامة لحياة أصح.</p>
+                                </div>
+                                <div class="service-detail__body">
+                                    <p class="service-detail__description">
+                                        برامج فقدان الوزن الشاملة لدينا تجمع بين الخبرة الطبية والإرشاد الغذائي المخصص
+                                        وتدريب نمط الحياة. نحن نركز على حلول إدارة الوزن المستدامة وطويلة الأمد التي
+                                        تتناول الأسباب الجذرية لمشاكل الوزن وتعزز الصحة والرفاهية العامة.
+                                    </p>
+                                    <div class="service-detail__mission">
+                                        <h3>نهجنا الشامل لإدارة الوزن</h3>
+                                        <p>نحن نؤمن أن فقدان الوزن الناجح يتجاوز مجرد الحمية - إنه يتطلب نهجاً شاملاً
+                                            يتناول العوامل الطبية والغذائية والنفسية ونمط الحياة. برامجنا مصممة لمساعدتك
+                                            على تحقيق والحفاظ على وزن صحي مع تحسين جودة حياتك العامة.</p>
+                                    </div>
+                                    <div class="service-detail__services">
+                                        <h3>خدمات فقدان الوزن الشاملة:</h3>
+                                        <ul class="service-detail__list">
+                                            <li>التقييم الطبي وتقييم الصحة المرتبطة بالوزن</li>
+                                            <li>التخطيط الغذائي المخصص وإرشاد الوجبات</li>
+                                            <li>اختبار التمثيل الغذائي وتحليل تكوين الجسم</li>
+                                            <li>وصف التمارين وتخطيط النشاط البدني</li>
+                                            <li>العلاج السلوكي واستشارة تعديل نمط الحياة</li>
+                                            <li>إدارة أدوية فقدان الوزن عند الاقتضاء</li>
+                                            <li>مراقبة التقدم المنتظمة وتعديل الخطط</li>
+                                            <li>برامج الدعم الجماعي وورش العمل التعليمية</li>
+                                            <li>برامج الصيانة للنجاح طويل الأمد</li>
+                                            <li>تحسين الهرمونات وتقييم وظيفة الغدة الدرقية</li>
+                                        </ul>
+                                    </div>
+                                    <div class="service-detail__approach">
+                                        <h3>لماذا تختار برامج فقدان الوزن لدينا؟</h3>
+                                        <p>على عكس الحميات السريعة التي غالباً ما تفشل، برامج فقدان الوزن تحت الإشراف
+                                            الطبي لدينا مصممة للحصول على نتائج مستدامة. نحن نتناول العوامل الطبية ونمط
+                                            الحياة الكامنة التي تساهم في مشاكل الوزن، ونوفر لك الأدوات والمعرفة والدعم
+                                            اللازم لتحقيق فقدان الوزن الدائم وتحسين الصحة.</p>
+                                    </div>
+                                    <p class="service-detail__cta-text">
+                                        ابدأ رحلتك نحو وزن أصح مع برامج فقدان الوزن الشاملة تحت الإشراف الطبي المصممة
+                                        للنجاح الدائم.
+                                    </p>
+                                </div>
+                                <div class="service-detail__actions">
+                                    <a href="contact.html" class="btn btn--primary">اتصل بنا</a>
+                                </div>
+                            </div>
+                        </article>
                     </div>
                 </section>
-
-                <!-- Holistic Consultations -->
-                <section id="holistic-consultations" class="service-section">
-                    <div class="service-section__header">
-                        <h2 class="service-section__title">الاستشارات الشمولية</h2>
-                        <img src="../assets/images/optimized/services/holistic_consultation_desktop_800x400.jpg"
-                            srcset="../assets/images/optimized/services/holistic_consultation_mobile_600x300.jpg 600w, ../assets/images/optimized/services/holistic_consultation_desktop_800x400.jpg 800w"
-                            sizes="(max-width: 768px) 600px, 800px" alt="أيقونة الاستشارات الشمولية"
-                            class="service-section__icon" loading="lazy" onerror="this.style.display='none'">
-                    </div>
-
-                    <div class="service-section__content">
-                        <p class="service-section__description">
-                            اعتنِ بنفسك بطريقة مختلفة مع نهج صحي شامل يراعي الجسم والعقل والعواطف. استشاراتنا الشمولية
-                            تتجاوز الأعراض للبحث في الأسباب الجذرية وتعزيز الشفاء الطبيعي والرفاهية الشاملة.
-                        </p>
-
-                        <h3 class="service-section__subtitle">نهجنا الشمولي</h3>
-                        <p class="service-section__text">
-                            نؤمن أن الصحة الحقيقية تتطلب توازناً بين جميع جوانب الحياة. استشاراتنا الشمولية تدمج الطب
-                            التقليدي مع العلاجات الطبيعية والتقنيات الشمولية لمعالجة الشخص ككل، وليس فقط المرض.
-                        </p>
-
-                        <h3 class="service-section__subtitle">عناصر الاستشارة</h3>
-                        <ul class="service-section__list">
-                            <li>تقييم شامل لنمط الحياة والعادات الصحية</li>
-                            <li>تحليل الحالة الغذائية والتوصيات الغذائية</li>
-                            <li>إدارة الإجهاد وتقنيات الاسترخاء</li>
-                            <li>تقييم التوازن الهرموني والطاقة الحيوية</li>
-                            <li>استشارات الصحة العقلية والرفاهية النفسية</li>
-                            <li>برامج التخلص من السموم والتطهير</li>
-                            <li>العلاج بالأعشاب والمكملات الطبيعية</li>
-                            <li>الرفاهية الروحية والتوازن الداخلي</li>
-                        </ul>
-
-                        <h3 class="service-section__subtitle">لماذا تختارنا</h3>
-                        <p class="service-section__text">
-                            نحن نتميز بنهجنا الفردي والشخصي لكل مريض. استشاراتنا الشمولية تستغرق وقتاً كافياً لفهم
-                            احتياجاتك الفريدة وتطوير خطة علاج شاملة تعالج الأسباب الجذرية وليس فقط الأعراض. نحن نرافقك
-                            في رحلتك نحو الصحة المثلى والرفاهية الشاملة.
-                        </p>
-
-                        <a href="contact.html" class="btn btn--primary">احجز استشارة شمولية</a>
-                    </div>
-                </section>
-
-                <!-- Quantum Scan -->
-                <section id="quantum-scan" class="service-section">
-                    <div class="service-section__header">
-                        <h2 class="service-section__title">المسح الكمي</h2>
-                        <img src="../assets/images/optimized/services/quantum_scan_desktop_800x400.jpg"
-                            srcset="../assets/images/optimized/services/quantum_scan_mobile_600x300.jpg 600w, ../assets/images/optimized/services/quantum_scan_desktop_800x400.jpg 800w"
-                            sizes="(max-width: 768px) 600px, 800px" alt="أيقونة المسح الكمي"
-                            class="service-section__icon" loading="lazy" onerror="this.style.display='none'">
-                    </div>
-
-                    <div class="service-section__content">
-                        <p class="service-section__description">
-                            تقنية طاقة حيوية متقدمة تحلل الاختلالات الداخلية وتوجه الرعاية نحو الفعالية المثلى. المسح
-                            الكمي يوفر رؤى عميقة حول الأنماط الطاقية والتضاريس البيولوجية لجسمك لتحديد نقاط الضعف
-                            والقوة.
-                        </p>
-
-                        <h3 class="service-section__subtitle">التكنولوجيا المتطورة</h3>
-                        <p class="service-section__text">
-                            نستخدم تقنية المسح الكمي المتطورة لتحليل الترددات الطاقية في جسمك وتحديد الاختلالات قبل ظهور
-                            الأعراض الجسدية. هذا النهج الوقائي يساعد في الكشف المبكر عن المشاكل الصحية المحتملة ووضع خطط
-                            علاج مخصصة.
-                        </p>
-
-                        <h3 class="service-section__subtitle">ما يوفره المسح</h3>
-                        <ul class="service-section__list">
-                            <li>تحليل شامل للأنظمة الحيوية في الجسم</li>
-                            <li>تقييم مستويات الطاقة والحيوية</li>
-                            <li>كشف الاختلالات الهرمونية والغذائية</li>
-                            <li>تحديد حساسيات الطعام والبيئة</li>
-                            <li>تقييم حالة الجهاز المناعي</li>
-                            <li>تحليل مستويات الإجهاد والتوتر</li>
-                            <li>توصيات مخصصة للعلاج والمكملات</li>
-                            <li>متابعة التقدم وتقييم فعالية العلاج</li>
-                        </ul>
-
-                        <h3 class="service-section__subtitle">لماذا تختارنا</h3>
-                        <p class="service-section__text">
-                            نحن من الرواد في تطبيق تقنية المسح الكمي في المنطقة. فريقنا مدرب على أحدث التقنيات ويتميز
-                            بخبرة واسعة في تفسير النتائج ووضع خطط علاج شاملة. نحن نجمع بين التكنولوجيا المتطورة والخبرة
-                            الطبية لتوفير رعاية دقيقة وفعالة.
-                        </p>
-
-                        <a href="contact.html" class="btn btn--primary">احجز مسحاً كمياً</a>
-                    </div>
-                </section>
-
-                <!-- Naturopathy -->
-                <section id="naturopathy" class="service-section">
-                    <div class="service-section__header">
-                        <h2 class="service-section__title">الطب الطبيعي</h2>
-                        <img src="../assets/images/optimized/services/naturopathy_desktop_800x400.jpg"
-                            srcset="../assets/images/optimized/services/naturopathy_mobile_600x300.jpg 600w, ../assets/images/optimized/services/naturopathy_desktop_800x400.jpg 800w"
-                            sizes="(max-width: 768px) 600px, 800px" alt="أيقونة الطب الطبيعي"
-                            class="service-section__icon" loading="lazy" onerror="this.style.display='none'">
-                    </div>
-
-                    <div class="service-section__content">
-                        <p class="service-section__description">
-                            نهج شفاء طبيعي يركز على قدرات الجسم الفطرية على الشفاء باستخدام العلاجات الطبيعية. الطب
-                            الطبيعي يعمل على معالجة الأسباب الجذرية للمرض وتعزيز الصحة الطبيعية والوقاية من خلال أساليب
-                            آمنة وفعالة.
-                        </p>
-
-                        <h3 class="service-section__subtitle">فلسفة الشفاء الطبيعي</h3>
-                        <p class="service-section__text">
-                            نؤمن بقدرة الجسم الطبيعية على الشفاء عند توفير البيئة والدعم المناسبين. الطب الطبيعي يركز
-                            على تعزيز هذه القدرات باستخدام العلاجات الطبيعية الآمنة والفعالة، مع التركيز على الوقاية
-                            والعلاج الشامل.
-                        </p>
-
-                        <h3 class="service-section__subtitle">خدماتنا الطبيعية</h3>
-                        <ul class="service-section__list">
-                            <li>استشارات غذائية وبرامج تغذية علاجية</li>
-                            <li>العلاج بالأعشاب الطبية والمستخلصات الطبيعية</li>
-                            <li>برامج التخلص من السموم والتطهير الطبيعي</li>
-                            <li>العلاج بالمكملات الغذائية الطبيعية</li>
-                            <li>العلاج بالماء والعلاجات الحرارية</li>
-                            <li>تقنيات إدارة الإجهاد والاسترخاء الطبيعي</li>
-                        </ul>
-
-                        <h3 class="service-section__subtitle">لماذا تختارنا</h3>
-                        <p class="service-section__text">
-                            نحن نتميز بنهجنا الشخصي والشامل في الطب الطبيعي. فريقنا مدرب على أحدث تقنيات الطب الطبيعي
-                            ويتمتع بخبرة واسعة في التعامل مع مختلف الحالات الصحية. نحن نعمل معكم لوضع خطة علاج طبيعية
-                            مخصصة تناسب احتياجاتكم الفردية ونمط حياتكم.
-                        </p>
-
-                        <a href="contact.html" class="btn btn--primary">احجز استشارة طب طبيعي</a>
-                    </div>
-                </section>
-
-                <!-- Hijamah -->
-                <section id="hijamah" class="service-section">
-                    <div class="service-section__header">
-                        <h2 class="service-section__title">الحجامة</h2>
-                        <img src="../assets/images/optimized/services/vaccum_cupping_desktop_800x400.jpg"
-                            srcset="../assets/images/optimized/services/vaccum_cupping_mobile_600x300.jpg 600w, ../assets/images/optimized/services/vaccum_cupping_desktop_800x400.jpg 800w"
-                            sizes="(max-width: 768px) 600px, 800px" alt="أيقونة الحجامة" class="service-section__icon"
-                            loading="lazy" onerror="this.style.display='none'">
-                    </div>
-
-                    <div class="service-section__content">
-                        <p class="service-section__description">
-                            علاج تقليدي بالكؤوس يجمع بين الحكمة القديمة والبروتوكولات الطبية الحديثة لتحسين الصحة.
-                            الحجامة تعمل على تحسين الدورة الدموية وتخفيف الألم وتقوية المناعة من خلال تقنيات آمنة ومجربة
-                            عبر القرون.
-                        </p>
-
-                        <h3 class="service-section__subtitle">العلاج التقليدي الأصيل</h3>
-                        <p class="service-section__text">
-                            الحجامة هي علاج تقليدي عريق يستخدم الكؤوس لخلق شفط على نقاط محددة من الجسم. هذا العلاج
-                            الطبيعي يحفز تدفق الدم ويساعد في إزالة السموم وتحسين وظائف الأعضاء الحيوية، مع التزامنا
-                            بأعلى معايير النظافة والسلامة.
-                        </p>
-
-                        <h3 class="service-section__subtitle">الفوائد الصحية</h3>
-                        <ul class="service-section__list">
-                            <li>تحسين الدورة الدموية وتدفق الدم</li>
-                            <li>تخفيف الألم المزمن والعضلي</li>
-                            <li>تقوية جهاز المناعة الطبيعي</li>
-                            <li>إزالة السموم من الجسم</li>
-                            <li>تقليل الالتهابات والتورم</li>
-                            <li>تحسين مستويات الطاقة والحيوية</li>
-                            <li>تخفيف التوتر والإجهاد</li>
-                            <li>تحسين جودة النوم والراحة</li>
-                        </ul>
-
-                        <h3 class="service-section__subtitle">لماذا تختارنا</h3>
-                        <p class="service-section__text">
-                            نحن نقدم خدمات الحجامة وفقاً لأعلى المعايير المهنية والطبية. فريقنا مدرب ومعتمد في تقنيات
-                            الحجامة التقليدية والحديثة. نحن نستخدم أدوات معقمة وآمنة ونتبع بروتوكولات صارمة لضمان
-                            سلامتكم وراحتكم. كل جلسة مخصصة وفقاً لاحتياجاتكم الصحية الفردية.
-                        </p>
-
-                        <a href="contact.html" class="btn btn--primary">احجز جلسة حجامة</a>
-                    </div>
-                </section>
-
-                <!-- Physiotherapy -->
-                <section id="physiotherapy" class="service-section">
-                    <div class="service-section__header">
-                        <h2 class="service-section__title">العلاج الطبيعي</h2>
-                        <img src="../assets/images/optimized/services/physiotherapy_desktop_800x400.jpg"
-                            srcset="../assets/images/optimized/services/physiotherapy_mobile_600x300.jpg 600w, ../assets/images/optimized/services/physiotherapy_desktop_800x400.jpg 800w"
-                            sizes="(max-width: 768px) 600px, 800px" alt="أيقونة العلاج الطبيعي"
-                            class="service-section__icon" loading="lazy" onerror="this.style.display='none'">
-                    </div>
-
-                    <div class="service-section__content">
-                        <p class="service-section__description">
-                            إعادة تأهيل بدنية شاملة باستخدام تقنيات قائمة على الأدلة لاستعادة الوظيفة وتحسين الرفاهية.
-                            العلاج الطبيعي يساعد في استعادة الحركة الطبيعية وتقليل الألم وتحسين جودة الحياة من خلال
-                            برامج مخصصة ومدروسة.
-                        </p>
-
-                        <h3 class="service-section__subtitle">إعادة التأهيل المتخصصة</h3>
-                        <p class="service-section__text">
-                            نحن نقدم خدمات العلاج الطبيعي الشاملة باستخدام أحدث التقنيات والأساليب العلاجية. فريقنا من
-                            المعالجين الطبيعيين المؤهلين يعمل معكم لوضع برامج علاج مخصصة تهدف إلى استعادة الوظائف
-                            الطبيعية وتحسين الأداء البدني.
-                        </p>
-
-                        <h3 class="service-section__subtitle">خدماتنا الشاملة</h3>
-                        <ul class="service-section__list">
-                            <li>تقييم وعلاج اضطرابات الجهاز العضلي الهيكلي</li>
-                            <li>إعادة تأهيل الإصابات الرياضية</li>
-                            <li>علاج آلام الظهر والرقبة المزمنة</li>
-                            <li>إعادة تأهيل ما بعد الجراحة</li>
-                            <li>العلاج العصبي وإعادة التأهيل</li>
-                            <li>علاج اضطرابات الحركة والتوازن</li>
-                            <li>برامج التمارين العلاجية المخصصة</li>
-                            <li>العلاج الطبيعي لكبار السن</li>
-                            <li>برامج الوقاية من الإصابات</li>
-                            <li>التعليم والتدريب على الوضعيات الصحيحة</li>
-                        </ul>
-
-                        <h3 class="service-section__subtitle">لماذا تختارنا</h3>
-                        <p class="service-section__text">
-                            نحن نتميز بنهجنا الشامل والشخصي في العلاج الطبيعي. فريقنا مؤهل ومدرب على أحدث تقنيات العلاج
-                            الطبيعي ويتمتع بخبرة واسعة في التعامل مع مختلف الحالات. نحن نستخدم أحدث المعدات والأجهزة
-                            العلاجية لضمان أفضل النتائج لمرضانا.
-                        </p>
-
-                        <a href="contact.html" class="btn btn--primary">احجز جلسة علاج طبيعي</a>
-                    </div>
-                </section>
-
-                <!-- Dermatology -->
-                <section id="dermatology" class="service-section">
-                    <div class="service-section__header">
-                        <h2 class="service-section__title">طب الجلدية والجراحة التكاملية</h2>
-                        <img src="../assets/images/optimized/services/dermatology_desktop_800x400.jpg"
-                            srcset="../assets/images/optimized/services/dermatology_mobile_600x300.jpg 600w, ../assets/images/optimized/services/dermatology_desktop_800x400.jpg 800w"
-                            sizes="(max-width: 768px) 600px, 800px" alt="أيقونة طب الجلدية"
-                            class="service-section__icon" loading="lazy" onerror="this.style.display='none'">
-                    </div>
-
-                    <div class="service-section__content">
-                        <p class="service-section__description">
-                            رعاية متكاملة للبشرة تجمع بين طب الجلدية الطبي وطرق الشفاء الطبيعية. نحن نقدم حلولاً شاملة
-                            لصحة البشرة تراعي الجوانب الطبية والجمالية والصحية العامة لتحقيق بشرة صحية ومشرقة.
-                        </p>
-
-                        <h3 class="service-section__subtitle">النهج التكاملي</h3>
-                        <p class="service-section__text">
-                            نحن نتبع نهجاً تكاملياً في طب الجلدية يجمع بين التشخيص الطبي الدقيق والعلاجات الطبيعية
-                            الآمنة. هذا النهج يساعد في معالجة مشاكل البشرة من الجذور وتعزيز الصحة العامة للبشرة على
-                            المدى الطويل.
-                        </p>
-
-                        <h3 class="service-section__subtitle">خدماتنا الجلدية</h3>
-                        <ul class="service-section__list">
-                            <li>تشخيص وعلاج الأمراض الجلدية العامة</li>
-                            <li>علاج حب الشباب والندبات</li>
-                            <li>علاج الأكزيما والصدفية</li>
-                            <li>فحص الشامات والوقاية من سرطان الجلد</li>
-                            <li>علاج الحساسية الجلدية</li>
-                            <li>العلاجات التجميلية الطبيعية</li>
-                            <li>إزالة الآفات الجلدية الحميدة</li>
-                            <li>علاج الالتهابات الفطرية والبكتيرية</li>
-                            <li>استشارات العناية بالبشرة الطبيعية</li>
-                            <li>الجراحة التكاملية البسيطة</li>
-                        </ul>
-
-                        <h3 class="service-section__subtitle">لماذا تختارنا</h3>
-                        <p class="service-section__text">
-                            نحن نقدم خدمات طب الجلدية بنهج شامل يراعي الصحة العامة للمريض وليس فقط مشكلة البشرة. فريقنا
-                            مدرب على أحدث تقنيات التشخيص والعلاج ويتمتع بخبرة في دمج العلاجات الطبيعية مع الطب التقليدي.
-                            نحن نؤمن بأن البشرة الصحية تعكس الصحة الداخلية العامة.
-                        </p>
-
-                        <a href="contact.html" class="btn btn--primary">احجز استشارة جلدية</a>
-                    </div>
-                </section>
-
-                <!-- Judiciary Medical Expertise -->
-                <section id="judiciary-medical-expertise" class="service-section">
-                    <div class="service-section__header">
-                        <h2 class="service-section__title">الخبرة الطبية القضائية</h2>
-                        <img src="../assets/images/optimized/services/judiciary_medical_expertise_desktop_800x533.jpg"
-                            srcset="../assets/images/optimized/services/judiciary_medical_expertise_mobile_600x400.jpg 600w, ../assets/images/optimized/services/judiciary_medical_expertise_desktop_800x533.jpg 800w"
-                            sizes="(max-width: 768px) 600px, 800px" alt="أيقونة الخبرة الطبية القضائية"
-                            class="service-section__icon" loading="lazy" onerror="this.style.display='none'">
-                    </div>
-
-                    <div class="service-section__content">
-                        <p class="service-section__description">
-                            خدمات الخبرة الطبية المتخصصة للنظام القضائي والقانوني. نقدم تقييمات طبية مهنية ودقيقة لدعم
-                            العدالة والإنصاف في القضايا التي تتطلب رأياً طبياً متخصصاً وموثوقاً.
-                        </p>
-
-                        <h3 class="service-section__subtitle">الخبرة المهنية</h3>
-                        <p class="service-section__text">
-                            فريقنا من الأطباء المؤهلين يقدم خدمات الخبرة الطبية القضائية وفقاً لأعلى المعايير المهنية
-                            والأخلاقية. نحن نتمتع بخبرة واسعة في إعداد التقارير الطبية القانونية والشهادة أمام المحاكم
-                            عند الحاجة.
-                        </p>
-
-                        <h3 class="service-section__subtitle">خدماتنا المتخصصة</h3>
-                        <ul class="service-section__list">
-                            <li>تقييم الإعاقة والعجز الطبي</li>
-                            <li>فحص إصابات العمل والحوادث</li>
-                            <li>تقارير طبية لقضايا التأمين</li>
-                            <li>خبرة طبية في قضايا سوء الممارسة</li>
-                            <li>تقييم الأضرار الجسدية والنفسية</li>
-                            <li>فحوصات طبية لتقييم الأهلية</li>
-                        </ul>
-
-                        <h3 class="service-section__subtitle">لماذا تختارنا</h3>
-                        <p class="service-section__text">
-                            نحن نتميز بالدقة والموضوعية والمهنية في جميع تقاريرنا الطبية القضائية. فريقنا مدرب على
-                            المعايير القانونية والطبية المطلوبة ويتمتع بخبرة واسعة في هذا المجال المتخصص. نحن نلتزم
-                            بأعلى مستويات الأمانة والدقة في جميع أعمالنا.
-                        </p>
-
-                        <a href="contact.html" class="btn btn--primary">اطلب خبرة طبية قضائية</a>
-                    </div>
-                </section>
-
-                <!-- Travel Medicine -->
-                <section id="travel-medicine" class="service-section">
-                    <div class="service-section__header">
-                        <h2 class="service-section__title">فقدان الوزن</h2>
-                        <img src="../assets/images/optimized/services/travel_medicine_desktop_800x400.jpg"
-                            srcset="../assets/images/optimized/services/travel_medicine_mobile_600x300.jpg 600w, ../assets/images/optimized/services/travel_medicine_desktop_800x400.jpg 800w"
-                            sizes="(max-width: 768px) 600px, 800px" alt="أيقونة فقدان الوزن"
-                            class="service-section__icon" loading="lazy" onerror="this.style.display='none'">
-                    </div>
-
-                    <div class="service-section__content">
-                        <p class="service-section__description">
-                            خدمات طبية متخصصة للمسافرين تشمل التطعيمات والوقاية والاستشارات قبل وبعد السفر. نحن نساعدكم
-                            على السفر بأمان وصحة من خلال التحضير الطبي المناسب والنصائح الوقائية المخصصة لوجهتكم.
-                        </p>
-
-                        <h3 class="service-section__subtitle">التحضير للسفر الآمن</h3>
-                        <p class="service-section__text">
-                            نحن نقدم استشارات شاملة قبل السفر تتضمن تقييم المخاطر الصحية لوجهتكم وتوفير التطعيمات
-                            المطلوبة والأدوية الوقائية. فريقنا محدث بآخر التوصيات الدولية لفقدان الوزن ويقدم نصائح مخصصة
-                            لكل مسافر.
-                        </p>
-
-                        <h3 class="service-section__subtitle">خدماتنا للمسافرين</h3>
-                        <ul class="service-section__list">
-                            <li>استشارات ما قبل السفر وتقييم المخاطر</li>
-                            <li>تطعيمات السفر المطلوبة والموصى بها</li>
-                            <li>وصف الأدوية الوقائية (ملاريا، إسهال المسافرين)</li>
-                            <li>نصائح صحية مخصصة حسب الوجهة</li>
-                            <li>حقيبة إسعافات أولية للسفر</li>
-                            <li>استشارات ما بعد السفر وعلاج الأمراض المدارية</li>
-                        </ul>
-
-                        <h3 class="service-section__subtitle">لماذا تختارنا</h3>
-                        <p class="service-section__text">
-                            نحن نتابع آخر التطورات في مجال فقدان الوزن ونحافظ على معرفة محدثة بالمخاطر الصحية العالمية.
-                            فريقنا مدرب على توفير أحدث التطعيمات والأدوية الوقائية. نحن نقدم خدمة شاملة ومخصصة لضمان
-                            سفركم بأمان وصحة.
-                        </p>
-
-                        <a href="contact.html" class="btn btn--primary">احجز استشارة فقدان الوزن</a>
-                    </div>
-                </section>
-            </div>
+            </main>
         </div>
+
+
     </main>
 
     <!-- Footer -->

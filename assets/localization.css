@@ -427,6 +427,17 @@
     padding-left: 0;
 }
 
+/* Service detail lists - RTL bullet positioning */
+[dir="rtl"] .service-detail__list li {
+    padding-left: 0;
+    padding-right: 1.5rem;
+}
+
+[dir="rtl"] .service-detail__list li::before {
+    left: auto;
+    right: 0;
+}
+
 /* Arabic form inputs */
 [lang="ar"] input,
 [lang="ar"] textarea,
