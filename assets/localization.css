@@ -288,7 +288,49 @@
     text-align: right;
 }
 
+[dir="rtl"] .contact-details__grid {
+    direction: rtl;
+}
+
+[dir="rtl"] .contact-details__item {
+    text-align: right;
+}
+
+[dir="rtl"] .map-section__info {
+    text-align: right;
+}
+
+[dir="rtl"] .map-section__directions-list {
+    padding-right: 1.5rem;
+    padding-left: 0;
+    text-align: right;
+}
+
+[dir="rtl"] .map-section__directions-list li {
+    text-align: right;
+    padding-right: 1.5rem !important;
+    padding-left: 0 !important;
+}
+
+[dir="rtl"] .map-section__directions-list li::before {
+    right: 0 !important;
+    left: auto !important;
+}
+
 [dir="rtl"] .faq__item {
+    text-align: right;
+}
+
+[dir="rtl"] .faq-item {
+    text-align: right;
+}
+
+[dir="rtl"] .faq-item__question {
+    text-align: right;
+    justify-content: space-between;
+}
+
+[dir="rtl"] .faq-item__answer {
     text-align: right;
 }
 
