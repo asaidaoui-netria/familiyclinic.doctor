@@ -309,7 +309,17 @@ a:hover {
 }
 
 .services-preview__grid .service-card:nth-child(7) {
+    grid-column: 1 / 2;
+    grid-row: 3;
+}
+
+.services-preview__grid .service-card:nth-child(8) {
     grid-column: 2 / 3;
+    grid-row: 3;
+}
+
+.services-preview__grid .service-card:nth-child(9) {
+    grid-column: 3 / 4;
     grid-row: 3;
 }
 
@@ -427,6 +437,7 @@ a:hover {
     font-size: 1.25rem;
     color: #64748b;
     margin-bottom: 3rem;
+    text-align: center;
 }
 
 .team-preview__grid {
@@ -440,8 +451,14 @@ a:hover {
     text-align: center;
 }
 
-.team-member__photo {
+.team-member__photo,
+.team-member__image {
     margin-bottom: 1.5rem;
+}
+
+.team-member__content {
+    /* Ensure proper text alignment and spacing for team member content wrapper */
+    text-align: center;
 }
 
 .team-member__img {
@@ -463,10 +480,12 @@ a:hover {
     color: #2563eb;
     font-weight: 500;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 .team-member__description {
     color: #64748b;
+    text-align: center;
 }
 
 .team-preview__cta {
@@ -673,7 +692,9 @@ a:hover {
     .services-preview__grid .service-card:nth-child(4),
     .services-preview__grid .service-card:nth-child(5),
     .services-preview__grid .service-card:nth-child(6),
-    .services-preview__grid .service-card:nth-child(7) {
+    .services-preview__grid .service-card:nth-child(7),
+    .services-preview__grid .service-card:nth-child(8),
+    .services-preview__grid .service-card:nth-child(9) {
         grid-column: 1 / -1;
         grid-row: auto;
     }

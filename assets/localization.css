@@ -156,6 +156,19 @@
     flex-direction: row-reverse;
 }
 
+/* Header Logo RTL - Logo on left side of Arabic text */
+[dir="rtl"] .header__logo {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .header__logo-link {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .footer__logo-link {
+    flex-direction: row-reverse;
+}
+
 [dir="rtl"] .nav__list {
     flex-direction: row-reverse;
 }
@@ -189,7 +202,7 @@
 }
 
 [dir="rtl"] .service-card {
-    text-align: right;
+    text-align: center;
 }
 
 [dir="rtl"] .service-card__icon {
@@ -199,15 +212,28 @@
 
 /* Team Section RTL */
 [dir="rtl"] .team-member {
-    text-align: right;
+    text-align: center;
+    /* Keep team members centered for visual consistency */
 }
 
 [dir="rtl"] .team-member__content {
-    text-align: right;
+    text-align: center;
+    /* Keep team member content centered for visual consistency */
 }
 
 [dir="rtl"] .team-preview__grid {
     direction: rtl;
+}
+
+/* Ensure team preview subtitle stays centered in RTL */
+[dir="rtl"] .team-preview__subtitle {
+    text-align: center;
+}
+
+/* Ensure team member elements stay centered in RTL */
+[dir="rtl"] .team-member__title,
+[dir="rtl"] .team-member__description {
+    text-align: center;
 }
 
 /* About Page RTL */
@@ -275,8 +301,26 @@
     text-align: right;
 }
 
+/* Ensure footer section titles are right-aligned in RTL */
+[dir="rtl"] .footer__section-title {
+    text-align: right;
+}
+
 [dir="rtl"] .footer__links {
     text-align: right;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/* Ensure footer links are properly aligned under their section titles */
+[dir="rtl"] .footer__links li {
+    text-align: right;
+}
+
+[dir="rtl"] .footer__link {
+    text-align: right;
+    display: inline-block;
+    width: 100%;
 }
 
 [dir="rtl"] .footer__social {
@@ -285,6 +329,22 @@
 
 [dir="rtl"] .footer__bottom {
     text-align: right;
+    flex-direction: row-reverse;
+    /* Ensure proper RTL flex order */
+}
+
+/* Ensure footer powered-by section doesn't wrap in RTL */
+[dir="rtl"] .footer__powered-by {
+    white-space: nowrap;
+    text-align: right;
+    flex-shrink: 0;
+    /* Prevent shrinking that could cause wrapping */
+}
+
+/* Fix phone number formatting in RTL - keep + sign on left */
+[dir="rtl"] a[href^="tel:"] {
+    direction: ltr;
+    unicode-bidi: embed;
 }
 
 /* Mobile RTL Adjustments */
@@ -306,6 +366,13 @@
     [dir="rtl"] .language-switcher {
         margin-right: 0.5rem;
         margin-left: 0;
+    }
+
+    /* Ensure footer powered-by doesn't wrap on mobile in RTL */
+    [dir="rtl"] .footer__powered-by {
+        white-space: nowrap;
+        font-size: 0.75rem;
+        /* Slightly smaller on mobile if needed */
     }
 }
 
@@ -341,6 +408,16 @@
 [lang="ar"] .btn--primary,
 [lang="ar"] .btn--secondary {
     letter-spacing: 0.02em;
+}
+
+/* Services preview section - maintain center alignment for consistency */
+[lang="ar"] .services-preview__title,
+[lang="ar"] .services-preview__subtitle {
+    text-align: center;
+}
+
+[lang="ar"] .services-preview__container {
+    text-align: center;
 }
 
 /* Arabic list styling - inherit from main styles for consistency */
