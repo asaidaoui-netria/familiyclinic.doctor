@@ -393,7 +393,7 @@
 }
 
 /* Ensure proper text flow for Arabic content */
-[lang="ar"] p {
+[lang="ar"] p:not(.team__subtitle) {
     text-align: right;
     hyphens: auto;
     word-spacing: 0.1em;
