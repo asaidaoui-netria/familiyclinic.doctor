@@ -1,5 +1,6 @@
 // Language Switcher and Localization JavaScript
 
+
 class LanguageSwitcher {
     constructor(options = {}) {
         this.currentLang = document.documentElement.lang || 'en';
