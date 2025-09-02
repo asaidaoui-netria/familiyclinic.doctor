@@ -435,7 +435,7 @@
 }
 
 /* Ensure proper text flow for Arabic content */
-[lang="ar"] p:not(.team__subtitle) {
+[lang="ar"] p:not(.team__subtitle):not(.author-card__title) {
     text-align: right;
     hyphens: auto;
     word-spacing: 0.1em;
@@ -486,6 +486,69 @@
 [lang="ar"] select {
     text-align: right;
     direction: rtl;
+}
+
+[lang="ar"] .article-breadcrumb__list {
+    padding-right: 0;
+}
+
+[lang="ar"] .author-card__title {
+    text-align: center;
+}
+
+[lang="ar"] .article-breadcrumb__link {
+    text-align: right;
+}
+
+/* Blog Article RTL Adjustments */
+[dir="rtl"] .article-header__content {
+    text-align: right;
+}
+
+[dir="rtl"] .article-breadcrumb__item:not(:last-child)::after {
+    content: "‹";
+    margin-right: 0.5rem;
+    margin-left: 0;
+}
+
+[dir="rtl"] .article-title {
+    text-align: right;
+}
+
+[dir="rtl"] .article-excerpt {
+    text-align: right;
+}
+
+/* Article content RTL */
+[dir="rtl"] .article-body {
+    text-align: right;
+}
+
+[dir="rtl"] .article-body h2,
+[dir="rtl"] .article-body h3,
+[dir="rtl"] .article-body h4 {
+    text-align: right;
+}
+
+[dir="rtl"] .article-tags {
+    justify-content: flex-start;
+}
+
+[dir="rtl"] .article-tags__label {
+    margin-left: 0.75rem;
+    margin-right: 0;
+}
+
+[dir="rtl"] .sidebar-section__title {
+    text-align: right;
+}
+
+[dir="rtl"] .related-article__title {
+    text-align: right;
+}
+
+[dir="rtl"] .related-article__date {
+    text-align: right;
 }
 
 /* Flip icons for RTL where appropriate */
