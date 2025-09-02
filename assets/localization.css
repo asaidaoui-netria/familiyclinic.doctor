@@ -187,6 +187,14 @@
     right: auto;
 }
 
+/* RTL Language Switcher Menu Items Fix */
+[dir="rtl"] .language-switcher__menu a {
+    text-align: right;
+    direction: rtl;
+    width: 100%;
+    box-sizing: border-box;
+}
+
 /* Hero Section RTL */
 [dir="rtl"] .hero__content {
     text-align: right;
@@ -435,7 +443,7 @@
 }
 
 /* Ensure proper text flow for Arabic content */
-[lang="ar"] p:not(.team__subtitle):not(.author-card__title) {
+[lang="ar"] p:not(.team__subtitle):not(.author-card__title):not(.team-member__title) {
     text-align: right;
     hyphens: auto;
     word-spacing: 0.1em;
@@ -463,7 +471,7 @@
 }
 
 /* Arabic list styling - inherit from main styles for consistency */
-[lang="ar"] ul,
+[lang="ar"] ul p:not(.language-switcher),
 [lang="ar"] ol {
     padding-right: 1.5rem;
     padding-left: 0;
