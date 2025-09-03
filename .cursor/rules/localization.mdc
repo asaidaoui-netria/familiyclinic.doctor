@@ -347,7 +347,7 @@ ar/
      - Moroccan date format ("17 غشت 2025" using Western numerals and Moroccan month names)
      - RTL-compatible breadcrumb and layout structure
      - Proper Arabic typography and text direction
-   - **Implementation Rule**: When translating any English blog article to Arabic, copy the entire structure from the breakfast template and replace only the content sections (title, excerpt, body text) while preserving all technical implementation details
+   - **Implementation Rule**: When translating any English blog article to Arabic, copy the entire structure from the breakfast template and replace only the content sections (title, excerpt, body text) while preserving all technical implementation details. Do not create a new article, the provided article should be modified from english to the target language
    - **Quality Assurance**: Every Arabic blog article must match the technical standards established in this template file
 
 #### Phase 3: Cross-Language Integration

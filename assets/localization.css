@@ -442,6 +442,14 @@
     font-weight: 600;
 }
 
+[lang="ar"] .article-table th {
+    text-align: right;
+}
+
+[lang="ar"] .contact-details__day-time {
+    text-align: left;
+}
+
 /* Ensure proper text flow for Arabic content */
 [lang="ar"] p:not(.team__subtitle):not(.author-card__title):not(.team-member__title) {
     text-align: right;
