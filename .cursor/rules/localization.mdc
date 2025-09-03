@@ -336,6 +336,20 @@ ar/
    - Cultural adaptation for Moroccan context
    - Maintain same article structure and flow
 
+4. **Arabic Blog Article Template Requirements - CRITICAL**
+   - **MANDATORY TEMPLATE**: ALWAYS use `ar/blog/2025-08-17-breakfast-most-important-meal.html` as the reference template for all Arabic blog article translations
+   - **Template Components**: This file contains the correct Arabic implementation for:
+     - HTML structure with `lang="ar" dir="rtl"` attributes
+     - Proper hreflang tags for cross-language SEO
+     - Correct asset paths (`../../assets/`) for subdirectory structure
+     - Standardized language switcher with `data-lang` attributes
+     - Arabic navigation and UI elements translation
+     - Moroccan date format ("17 غشت 2025" using Western numerals and Moroccan month names)
+     - RTL-compatible breadcrumb and layout structure
+     - Proper Arabic typography and text direction
+   - **Implementation Rule**: When translating any English blog article to Arabic, copy the entire structure from the breakfast template and replace only the content sections (title, excerpt, body text) while preserving all technical implementation details
+   - **Quality Assurance**: Every Arabic blog article must match the technical standards established in this template file
+
 #### Phase 3: Cross-Language Integration
 
 ##### Language Switcher Enhancement
@@ -595,6 +609,8 @@ For each localized blog article, verify:
 - [ ] RTL support included for Arabic articles (localization.css)
 - [ ] Date formatting appropriate for target language
 - [ ] Author information and UI elements translated
+- [ ] **Arabic articles**: Template structure matches `ar/blog/2025-08-17-breakfast-most-important-meal.html`
+- [ ] **Arabic articles**: Moroccan date format using "غشت" and Western numerals
 
 #### 📊 **Current Implementation Status**
 
