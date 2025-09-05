@@ -1,20 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sardines: What Health Benefits? Complete Nutritional Guide - Family Clinic</title>
+    <title>Sardines : Quels Bénéfices Santé ? Guide Nutritionnel Complet - Family Clinic</title>
     <meta name="description"
-        content="Discover the remarkable health benefits of sardines. Rich in omega-3, complete proteins, calcium, and vitamin D, these small fish offer powerful nutritional advantages for cardiovascular health, brain function, and bone strength.">
+        content="Découvrez les remarquables bénéfices santé des sardines. Riches en oméga-3, protéines complètes, calcium et vitamine D, ces petits poissons offrent de puissants avantages nutritionnels pour la santé cardiovasculaire, la fonction cérébrale et la solidité osseuse.">
+
+    <!-- Hreflang Tags -->
+    <link rel="alternate" href="https://familyclinic.doctor/blog/2025-08-18-sardines-health-benefits-nutrition.html"
+        hreflang="en" />
+    <link rel="alternate" href="https://familyclinic.doctor/fr/blog/2025-08-18-sardines-health-benefits-nutrition.html"
+        hreflang="fr" />
+    <link rel="alternate" href="https://familyclinic.doctor/ar/blog/2025-08-18-sardines-health-benefits-nutrition.html"
+        hreflang="ar" />
+    <link rel="alternate" href="https://familyclinic.doctor/blog/2025-08-18-sardines-health-benefits-nutrition.html"
+        hreflang="x-default" />
 
     <!-- Structured Data -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "Sardines: What Health Benefits? Complete Nutritional Guide",
-        "description": "Discover the remarkable health benefits of sardines. Rich in omega-3, complete proteins, calcium, and vitamin D, these small fish offer powerful nutritional advantages for cardiovascular health, brain function, and bone strength.",
+        "headline": "Sardines : Quels Bénéfices Santé ? Guide Nutritionnel Complet",
+        "description": "Découvrez les remarquables bénéfices santé des sardines. Riches en oméga-3, protéines complètes, calcium et vitamine D, ces petits poissons offrent de puissants avantages nutritionnels pour la santé cardiovasculaire, la fonction cérébrale et la solidité osseuse.",
         "image": "https://www.familyclinic.doctor/assets/images/optimized/blog/sardines_banner_desktop_800x400.jpg",
         "author": {
             "@type": "Person",
@@ -33,15 +43,16 @@
     }
     </script>
 
-    <link rel="stylesheet" href="../assets/styles.css">
-    <link rel="stylesheet" href="../assets/blog.css">
-    <link rel="stylesheet" href="../assets/blog-article.css">
+    <link rel="stylesheet" href="../../assets/styles.css">
+    <link rel="stylesheet" href="../../assets/localization.css">
+    <link rel="stylesheet" href="../../assets/blog.css">
+    <link rel="stylesheet" href="../../assets/blog-article.css">
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="../assets/favicon/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../../assets/favicon/site.webmanifest">
 </head>
 
 <body>
@@ -49,22 +60,23 @@
     <header class="header">
         <div class="header__container">
             <div class="header__logo">
-                <a href="../index.html" class="header__logo-link" aria-label="Go to Family Clinic homepage">
-                    <img src="../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
-                        srcset="../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
-                        sizes="(max-width: 768px) 80px, 100px" alt="Family Clinic Logo" class="header__logo-img"
+                <a href="../index.html" class="header__logo-link"
+                    aria-label="Aller à la page d'accueil de Family Clinic">
+                    <img src="../../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
+                        srcset="../../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
+                        sizes="(max-width: 768px) 80px, 100px" alt="Logo Family Clinic" class="header__logo-img"
                         loading="lazy" onerror="this.style.display='none'">
                     <h1 class="header__logo-text">Family Clinic</h1>
                 </a>
             </div>
 
-            <nav class="nav" aria-label="Main navigation">
+            <nav class="nav" aria-label="Navigation principale">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="../index.html" class="nav__link">Home</a>
+                        <a href="../index.html" class="nav__link">Accueil</a>
                     </li>
                     <li class="nav__item">
-                        <a href="../about.html" class="nav__link">About</a>
+                        <a href="../about.html" class="nav__link">À propos</a>
                     </li>
                     <li class="nav__item">
                         <a href="../services.html" class="nav__link">Services</a>
@@ -78,7 +90,27 @@
                 </ul>
             </nav>
 
-            <button class="header__mobile-menu" aria-label="Toggle mobile menu" aria-expanded="false">
+            <!-- Language Switcher -->
+            <div class="language-switcher">
+                <button class="language-switcher__toggle" aria-label="Choisir la langue" aria-expanded="false">
+                    <span class="language-switcher__current">FR</span>
+                    <svg class="language-switcher__icon" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </button>
+                <ul class="language-switcher__menu">
+                    <li><a href="../../blog/2025-08-18-sardines-health-benefits-nutrition.html"
+                            data-lang="en">English</a></li>
+                    <li><a href="2025-08-18-sardines-health-benefits-nutrition.html" data-lang="fr"
+                            class="active">Français</a></li>
+                    <li><a href="../../ar/blog/2025-08-18-sardines-health-benefits-nutrition.html"
+                            data-lang="ar">العربية</a></li>
+                </ul>
+            </div>
+
+            <button class="header__mobile-menu" aria-label="Basculer le menu mobile" aria-expanded="false">
                 <span class="header__mobile-menu-line"></span>
                 <span class="header__mobile-menu-line"></span>
                 <span class="header__mobile-menu-line"></span>
@@ -92,31 +124,32 @@
         <section class="article-header">
             <div class="container">
                 <div class="article-header__content">
-                    <nav class="article-breadcrumb" aria-label="Breadcrumb">
+                    <nav class="article-breadcrumb" aria-label="Fil d'ariane">
                         <ol class="article-breadcrumb__list">
                             <li class="article-breadcrumb__item">
-                                <a href="../index.html" class="article-breadcrumb__link">Home</a>
+                                <a href="../index.html" class="article-breadcrumb__link">Accueil</a>
                             </li>
                             <li class="article-breadcrumb__item">
                                 <a href="catalog.html" class="article-breadcrumb__link">Blog</a>
                             </li>
                             <li class="article-breadcrumb__item" aria-current="page">
-                                <span class="article-breadcrumb__current">Sardines: What Health Benefits?</span>
+                                <span class="article-breadcrumb__current">Sardines : Quels Bénéfices Santé ?</span>
                             </li>
                         </ol>
                     </nav>
 
                     <div class="article-meta">
-                        <span class="article-meta__date">18 Aug 2025</span>
-                        <!-- <span class="article-meta__author">By Dr. Said-Alaoui Moulay Abdellah</span> -->
+                        <span class="article-meta__date">18 Août 2025</span>
+                        <!-- <span class="article-meta__author">Par Dr. Said-Alaoui Moulay Abdellah</span> -->
                     </div>
 
-                    <h1 class="article-title">Sardines: What Health Benefits? Complete Nutritional Guide</h1>
+                    <h1 class="article-title">Sardines : Quels Bénéfices Santé ? Guide Nutritionnel Complet</h1>
 
                     <p class="article-excerpt">
-                        "Small fish, big effects." Sardines, often overlooked, are true nutrient powerhouses. Rich in
-                        proteins, omega-3, vitamins, and minerals, they deserve a regular place in a balanced diet.
-                        Discover their remarkable health benefits for your family's wellness.
+                        "Petit poisson, grands effets." Les sardines, souvent négligées, sont de véritables centrales
+                        nutritionnelles. Riches en protéines, oméga-3, vitamines et minéraux, elles méritent une place
+                        régulière dans une alimentation équilibrée. Découvrez leurs remarquables bénéfices santé pour le
+                        bien-être de votre famille.
                     </p>
                 </div>
             </div>
@@ -128,216 +161,235 @@
                 <div class="article-layout">
                     <article class="article-main">
                         <div class="article-image">
-                            <img src="../assets/images/optimized/blog/sardines_banner_desktop_800x400.jpg"
-                                srcset="../assets/images/optimized/blog/sardines_banner_mobile_600x300.jpg 600w, ../assets/images/optimized/blog/sardines_banner_desktop_800x400.jpg 800w"
+                            <img src="../../assets/images/optimized/blog/sardines_banner_desktop_800x400.jpg"
+                                srcset="../../assets/images/optimized/blog/sardines_banner_mobile_600x300.jpg 600w, ../../assets/images/optimized/blog/sardines_banner_desktop_800x400.jpg 800w"
                                 sizes="(max-width: 768px) 600px, 800px"
-                                alt="Fresh sardines rich in omega-3 and nutrients" loading="lazy"
+                                alt="Sardines fraîches riches en oméga-3 et nutriments" loading="lazy"
                                 onerror="this.style.display='none'">
                         </div>
 
                         <div class="article-body">
                             <p>
-                                "Small fish, big effects." Sardines, often overlooked, are true nutrient powerhouses.
-                                Rich in proteins, omega-3, vitamins, and minerals, they deserve a regular place in a
-                                balanced diet. Let's explore why these humble fish offer such remarkable health benefits
-                                for your family's wellness.
+                                "Petit poisson, grands effets." Les sardines, souvent négligées, sont de véritables
+                                centrales
+                                nutritionnelles. Riches en protéines, oméga-3, vitamines et minéraux, elles méritent une
+                                place
+                                régulière dans une alimentation équilibrée. Explorons pourquoi ces humbles poissons
+                                offrent de
+                                si remarquables bénéfices santé pour le bien-être de votre famille.
                             </p>
 
-                            <h2>1. Complete Proteins</h2>
+                            <h2>1. Protéines Complètes</h2>
 
                             <p>
-                                Sardines contain all 9 essential amino acids, indispensable for the formation of
-                                enzymes, hormones, and tissues (skin, bones, muscles). With approximately 25 grams of
-                                protein per 100 grams of sardines, they provide an excellent source of high-quality,
-                                complete protein that your body can readily use for repair and growth.
+                                Les sardines contiennent les 9 acides aminés essentiels, indispensables pour la
+                                formation des
+                                enzymes, hormones et tissus (peau, os, muscles). Avec environ 25 grammes de
+                                protéines pour 100 grammes de sardines, elles fournissent une excellente source de
+                                protéines complètes de haute qualité que votre corps peut facilement utiliser pour la
+                                réparation et la croissance.
                             </p>
 
-                            <h2>2. Calcium and Vitamin D</h2>
+                            <h2>2. Calcium et Vitamine D</h2>
 
                             <p>
-                                When consumed with their bones, sardines are an exceptional source of calcium. The
-                                vitamin D also present facilitates calcium absorption and supports bone and dental
-                                health. This powerful combination makes sardines particularly valuable for maintaining
-                                strong bones throughout life, especially important for growing children and aging
-                                adults.
+                                Consommées avec leurs arêtes, les sardines sont une source exceptionnelle de calcium. La
+                                vitamine D également présente facilite l'absorption du calcium et soutient la santé
+                                osseuse et dentaire. Cette puissante combinaison rend les sardines particulièrement
+                                précieuses pour maintenir des os solides tout au long de la vie, surtout important
+                                pour les enfants en croissance et les adultes vieillissants.
                             </p>
 
-                            <h2>3. Pregnancy Benefits</h2>
+                            <h2>3. Bénéfices pour la Grossesse</h2>
 
                             <p>
-                                During pregnancy, micronutrient needs increase significantly. Sardines provide:
-                            </p>
-
-                            <ul>
-                                <li>Complete proteins for fetal development</li>
-                                <li>Calcium and vitamin D for bone formation</li>
-                                <li>Bioavailable iron to prevent anemia</li>
-                                <li>Essential omega-3 fatty acids crucial for fetal brain development</li>
-                            </ul>
-
-                            <p>
-                                These nutrients work together to support both maternal health and optimal fetal
-                                development, making sardines an excellent choice for expectant mothers.
-                            </p>
-
-                            <h2>4. Cardiovascular Protection</h2>
-
-                            <p>
-                                The omega-3 fatty acids present in sardines offer significant cardiovascular benefits:
+                                Pendant la grossesse, les besoins en micronutriments augmentent considérablement. Les
+                                sardines fournissent :
                             </p>
 
                             <ul>
-                                <li>Reduce triglyceride levels</li>
-                                <li>Lower blood pressure</li>
-                                <li>Protect against blood clots</li>
+                                <li>Des protéines complètes pour le développement fœtal</li>
+                                <li>Du calcium et de la vitamine D pour la formation osseuse</li>
+                                <li>Du fer biodisponible pour prévenir l'anémie</li>
+                                <li>Des acides gras oméga-3 essentiels cruciaux pour le développement cérébral fœtal
+                                </li>
                             </ul>
 
                             <p>
-                                Regular consumption decreases the risk of cardiovascular diseases, making sardines a
-                                heart-healthy choice that can be easily incorporated into your weekly meal planning.
+                                Ces nutriments travaillent ensemble pour soutenir à la fois la santé maternelle et le
+                                développement fœtal optimal, faisant des sardines un excellent choix pour les futures
+                                mères.
                             </p>
 
-                            <h2>5. Anti-Inflammatory Effects</h2>
+                            <h2>4. Protection Cardiovasculaire</h2>
 
                             <p>
-                                Omega-3 fatty acids have anti-inflammatory properties that are beneficial for various
-                                conditions:
+                                Les acides gras oméga-3 présents dans les sardines offrent des bénéfices
+                                cardiovasculaires significatifs :
                             </p>
 
                             <ul>
-                                <li>Asthma management</li>
-                                <li>Arthritis pain reduction</li>
-                                <li>Psoriasis symptom relief</li>
-                                <li>Inflammatory bowel disease support</li>
+                                <li>Réduisent les niveaux de triglycérides</li>
+                                <li>Abaissent la tension artérielle</li>
+                                <li>Protègent contre les caillots sanguins</li>
                             </ul>
 
                             <p>
-                                These anti-inflammatory effects can help manage chronic conditions and support overall
-                                health by reducing systemic inflammation in the body.
+                                La consommation régulière diminue le risque de maladies cardiovasculaires, faisant des
+                                sardines un
+                                choix bon pour le cœur qui peut être facilement intégré dans votre planification de
+                                repas hebdomadaire.
                             </p>
 
-                            <h2>6. Brain, Mood, and Cognitive Function</h2>
+                            <h2>5. Effets Anti-inflammatoires</h2>
 
                             <p>
-                                Omega-3 fatty acids play crucial roles in:
+                                Les acides gras oméga-3 ont des propriétés anti-inflammatoires bénéfiques pour diverses
+                                conditions :
                             </p>
 
                             <ul>
-                                <li>Brain development and function</li>
-                                <li>Depression prevention and mood regulation</li>
-                                <li>Maintaining cognitive functions and vision</li>
+                                <li>Gestion de l'asthme</li>
+                                <li>Réduction de la douleur arthritique</li>
+                                <li>Soulagement des symptômes du psoriasis</li>
+                                <li>Soutien des maladies inflammatoires de l'intestin</li>
                             </ul>
 
                             <p>
-                                Regular consumption of sardines can support mental clarity, emotional well-being, and
-                                long-term brain health, making them particularly valuable for children's development and
-                                adult cognitive maintenance.
+                                Ces effets anti-inflammatoires peuvent aider à gérer les conditions chroniques et
+                                soutenir la santé
+                                globale en réduisant l'inflammation systémique dans le corps.
                             </p>
 
-                            <h2>7. Selenium and Antioxidants</h2>
+                            <h2>6. Cerveau, Humeur et Fonction Cognitive</h2>
 
                             <p>
-                                The selenium contained in sardines helps to:
+                                Les acides gras oméga-3 jouent des rôles cruciaux dans :
                             </p>
 
                             <ul>
-                                <li>Neutralize free radicals</li>
-                                <li>Prevent cellular aging</li>
+                                <li>Le développement et la fonction cérébrale</li>
+                                <li>La prévention de la dépression et la régulation de l'humeur</li>
+                                <li>Le maintien des fonctions cognitives et de la vision</li>
                             </ul>
 
                             <p>
-                                This powerful antioxidant protection supports your body's natural defense systems
-                                against oxidative stress and age-related cellular damage.
+                                La consommation régulière de sardines peut soutenir la clarté mentale, le bien-être
+                                émotionnel et
+                                la santé cérébrale à long terme, les rendant particulièrement précieuses pour le
+                                développement
+                                des enfants et le maintien cognitif des adultes.
                             </p>
 
-                            <h2>Incorporating Sardines into Your Health-Focused Diet</h2>
+                            <h2>7. Sélénium et Antioxydants</h2>
 
                             <p>
-                                Ready to integrate sardines into your healthy eating plan? Whether fresh, canned, or
-                                prepared in various culinary styles, sardines offer versatile options for every family's
-                                taste preferences and dietary needs.
+                                Le sélénium contenu dans les sardines aide à :
+                            </p>
+
+                            <ul>
+                                <li>Neutraliser les radicaux libres</li>
+                                <li>Prévenir le vieillissement cellulaire</li>
+                            </ul>
+
+                            <p>
+                                Cette puissante protection antioxydante soutient les systèmes de défense naturels de
+                                votre corps
+                                contre le stress oxydatif et les dommages cellulaires liés à l'âge.
+                            </p>
+
+                            <h2>Intégrer les Sardines dans Votre Alimentation Axée sur la Santé</h2>
+
+                            <p>
+                                Prêt à intégrer les sardines dans votre plan d'alimentation saine ? Qu'elles soient
+                                fraîches, en
+                                conserve ou préparées dans divers styles culinaires, les sardines offrent des options
+                                polyvalentes pour les préférences gustatives et les besoins alimentaires de chaque
+                                famille.
                             </p>
 
                             <p>
-                                At Family Clinic, we support you in adopting nutrition adapted to your needs,
-                                objectives, and life context. Our protocols are personalized and designed to be simple
-                                to follow in daily life. We are here to guide you on your journey to optimal health
-                                through nutrition.
+                                Chez Family Clinic, nous vous soutenons dans l'adoption d'une nutrition adaptée à vos
+                                besoins,
+                                objectifs et contexte de vie. Nos protocoles sont personnalisés et conçus pour être
+                                simples
+                                à suivre dans la vie quotidienne. Nous sommes là pour vous guider dans votre parcours
+                                vers
+                                une santé optimale grâce à la nutrition.
                             </p>
 
                             <p>
-                                Contact Family Clinic today for personalized nutritional support tailored to your
-                                family's unique health goals and dietary preferences.
+                                Contactez Family Clinic aujourd'hui pour un soutien nutritionnel personnalisé adapté aux
+                                objectifs de santé uniques et aux préférences alimentaires de votre famille.
                             </p>
 
                             <p>
-                                Warm regards,<br>
-                                <em>Dr. Said-Alaoui Moulay Abdellah and the Family Clinic Team</em>
+                                Cordialement,<br>
+                                <em>Dr. Said-Alaoui Moulay Abdellah et l'équipe de Family Clinic</em>
                             </p>
                         </div>
 
                         <div class="article-footer">
                             <div class="article-tags">
-                                <span class="article-tags__label">Tags:</span>
+                                <span class="article-tags__label">Tags :</span>
                                 <a href="catalog.html" class="article-tags__tag">Nutrition</a>
-                                <a href="catalog.html" class="article-tags__tag">Omega-3</a>
-                                <a href="catalog.html" class="article-tags__tag">Heart Health</a>
-                                <a href="catalog.html" class="article-tags__tag">Brain Health</a>
-                                <a href="catalog.html" class="article-tags__tag">Fish</a>
+                                <a href="catalog.html" class="article-tags__tag">Oméga-3</a>
+                                <a href="catalog.html" class="article-tags__tag">Santé Cardiaque</a>
+                                <a href="catalog.html" class="article-tags__tag">Santé Cérébrale</a>
+                                <a href="catalog.html" class="article-tags__tag">Poisson</a>
                             </div>
                         </div>
                     </article>
 
                     <aside class="article-sidebar">
-                        <!-- <div class="sidebar-section"> -->
-                        <!-- <h3 class="sidebar-section__title">About the Author</h3> -->
                         <a href="../about.html#dr-said-alaoui" class="author-card">
-                            <img src="../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png"
-                                srcset="../assets/images/optimized/team/dr_my_abdellah_mobile_300x300.png 300w, ../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png 400w"
+                            <img src="../../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png"
+                                srcset="../../assets/images/optimized/team/dr_my_abdellah_mobile_300x300.png 300w, ../../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png 400w"
                                 sizes="(max-width: 768px) 300px, 400px" alt="Dr. Said-Alaoui Moulay Abdellah"
                                 loading="lazy" onerror="this.style.display='none'" class="author-card__image">
                             <div class="author-card__content">
                                 <h4 class="author-card__name">Dr. Said-Alaoui Moulay Abdellah</h4>
-                                <p class="author-card__title">Family Medicine Physician</p>
+                                <p class="author-card__title">Médecin de Famille</p>
                                 <p class="author-card__bio">
-                                    Family medicine physician and former military doctor with 40+ years experience,
-                                    specializing in nutritional therapy and environmental causes.
+                                    Médecin de famille et ancien médecin militaire avec plus de 40 ans d'expérience,
+                                    spécialisé dans la thérapie nutritionnelle et les causes environnementales.
                                 </p>
                             </div>
                         </a>
-                        <!-- </div> -->
 
                         <div class="sidebar-section">
-                            <h3 class="sidebar-section__title">Related Articles</h3>
+                            <h3 class="sidebar-section__title">Articles Connexes</h3>
                             <div class="related-articles">
                                 <article class="related-article">
                                     <h4 class="related-article__title">
-                                        <a href="2025-08-18-food-as-medicine-therapeutic-nutrition.html">Food as
-                                            Medicine: Therapeutic Nutrition</a>
+                                        <a href="2025-08-18-food-as-medicine-therapeutic-nutrition.html">L'Alimentation
+                                            comme
+                                            Médecine : Nutrition Thérapeutique</a>
                                     </h4>
-                                    <span class="related-article__date">18 Aug 2025</span>
+                                    <span class="related-article__date">18 Août 2025</span>
                                 </article>
                                 <article class="related-article">
                                     <h4 class="related-article__title">
-                                        <a href="2025-08-18-proteins-breakfast-good-choice.html">Proteins for Breakfast:
-                                            A Good Choice?</a>
+                                        <a href="2025-08-18-proteins-breakfast-good-choice.html">Protéines au
+                                            Petit-Déjeuner :
+                                            Un Bon Choix ?</a>
                                     </h4>
-                                    <span class="related-article__date">18 Aug 2025</span>
+                                    <span class="related-article__date">18 Août 2025</span>
                                 </article>
                                 <article class="related-article">
                                     <h4 class="related-article__title">
-                                        <a href="2025-08-18-secret-to-mastering-hunger.html">The Secret to Mastering
-                                            Hunger</a>
+                                        <a href="2025-08-18-secret-to-mastering-hunger.html">Le Secret pour Maîtriser
+                                            la Faim</a>
                                     </h4>
-                                    <span class="related-article__date">18 Aug 2025</span>
+                                    <span class="related-article__date">18 Août 2025</span>
                                 </article>
                             </div>
                         </div>
 
                         <div class="sidebar-section">
-                            <h3 class="sidebar-section__title">Get in Touch</h3>
-                            <p>Have questions about your health? We're here to help.</p>
-                            <a href="../contact.html" class="btn btn--primary">Book an Appointment</a>
+                            <h3 class="sidebar-section__title">Contactez-nous</h3>
+                            <p>Des questions sur votre santé ? Nous sommes là pour vous aider.</p>
+                            <a href="../contact.html" class="btn btn--primary">Prendre un Rendez-vous</a>
                         </div>
                     </aside>
                 </div>
@@ -351,28 +403,29 @@
             <div class="footer__content">
                 <div class="footer__section">
                     <div class="footer__logo">
-                        <a href="../index.html" class="footer__logo-link" aria-label="Go to Family Clinic homepage">
-                            <img src="../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
-                                srcset="../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
-                                sizes="(max-width: 768px) 80px, 100px" alt="Family Clinic Logo" class="footer__logo-img"
+                        <a href="../index.html" class="footer__logo-link"
+                            aria-label="Aller à la page d'accueil de Family Clinic">
+                            <img src="../../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
+                                srcset="../../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
+                                sizes="(max-width: 768px) 80px, 100px" alt="Logo Family Clinic" class="footer__logo-img"
                                 loading="lazy" onerror="this.style.display='none'">
                             <h3 class="footer__logo-text">Family Clinic</h3>
                         </a>
                     </div>
                     <p class="footer__description">
-                        Providing comprehensive healthcare services for families in a welcoming and compassionate
-                        environment.
+                        Fournissant des services de soins de santé complets pour les familles dans un environnement
+                        accueillant et compatissant.
                     </p>
                 </div>
 
                 <div class="footer__section">
-                    <h4 class="footer__section-title">Quick Links</h4>
+                    <h4 class="footer__section-title">Liens Rapides</h4>
                     <ul class="footer__links">
                         <li class="footer__item">
-                            <a href="../index.html" class="footer__link">Home</a>
+                            <a href="../index.html" class="footer__link">Accueil</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../about.html" class="footer__link">About Us</a>
+                            <a href="../about.html" class="footer__link">À Propos</a>
                         </li>
                         <li class="footer__item">
                             <a href="../services.html" class="footer__link">Services</a>
@@ -390,74 +443,74 @@
                     <h4 class="footer__section-title">Services</h4>
                     <ul class="footer__links">
                         <li class="footer__item">
-                            <a href="../services.html#family-medicine" class="footer__link">Family Medicine</a>
+                            <a href="../services.html#family-medicine" class="footer__link">Médecine Familiale</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#holistic-consultations" class="footer__link">Holistic
-                                Consultations</a>
+                            <a href="../services.html#holistic-consultations" class="footer__link">Consultations
+                                Holistiques</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#quantum-scan" class="footer__link">Quantum Scan</a>
+                            <a href="../services.html#quantum-scan" class="footer__link">Scan Quantique</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#naturopathy" class="footer__link">Naturopathy</a>
+                            <a href="../services.html#naturopathy" class="footer__link">Naturopathie</a>
                         </li>
                         <li class="footer__item">
                             <a href="../services.html#hijamah" class="footer__link">Hijamah</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#physiotherapy" class="footer__link">Physiotherapy</a>
+                            <a href="../services.html#physiotherapy" class="footer__link">Physiothérapie</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#dermatology" class="footer__link">Dermatology</a>
+                            <a href="../services.html#dermatology" class="footer__link">Dermatologie</a>
                         <li class="footer__item">
-                            <a href="../services.html#judiciary-medical-expertise" class="footer__link">Judiciary
-                                Medical Expertise</a>
+                            <a href="../services.html#judiciary-medical-expertise" class="footer__link">Expertise
+                                Médicale Judiciaire</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#weight-loss" class="footer__link">Weight Loss</a>
+                            <a href="../services.html#weight-loss" class="footer__link">Perte de Poids</a>
                         </li>
                         </li>
                     </ul>
                 </div>
 
                 <div class="footer__section">
-                    <h4 class="footer__section-title">Contact Info</h4>
+                    <h4 class="footer__section-title">Informations de Contact</h4>
                     <div class="footer__contact">
                         <div class="footer__contact-item">
-                            <strong>Address:</strong>
+                            <strong>Adresse :</strong>
                             <a href="https://maps.app.goo.gl/sPxKYDMUdsN9dVV2A" target="_blank"
                                 rel="noopener noreferrer" class="footer__link">
                                 N*47, Bloc B, Ouled Oujih<br>
-                                Kenitra, 14080, Morocco
+                                Kenitra, 14080, Maroc
                             </a>
                         </div>
                         <div class="footer__contact-item">
-                            <strong>Phone:</strong>
+                            <strong>Téléphone :</strong>
                             <a href="tel:+212-641-745-441" class="footer__link">+212-641-745-441</a>
                         </div>
                         <div class="footer__contact-item">
-                            <strong>Email:</strong>
+                            <strong>Email :</strong>
                             <a href="mailto:saidalaoui.m.a@gmail.com" class="footer__link">saidalaoui.m.a@gmail.com</a>
                         </div>
                     </div>
 
                     <p class="footer__contact-item">
-                        <strong>Hours:</strong><br>
-                        Mon-Thu: 9:00 - 17:00<br>
-                        Fri: 9:00 - 13:00, 15:00 - 18:00<br>
-                        Sat: 9:00 - 13:00
+                        <strong>Horaires :</strong><br>
+                        Lun-Jeu : 9h00 - 17h00<br>
+                        Ven : 9h00 - 13h00, 15h00 - 18h00<br>
+                        Sam : 9h00 - 13h00
                     </p>
                 </div>
             </div>
 
             <div class="footer__bottom">
                 <p class="footer__copyright">
-                    &copy; 2025 Family Clinic. All rights reserved.
+                    &copy; 2025 Family Clinic. Tous droits réservés.
                 </p>
                 <p class="footer__powered-by">
-                    Powered by <img src="../assets/images/optimized/netria/netria-logo-footer-transparent.png"
-                        alt="Netria Logo" class="footer__netria-logo" loading="lazy"> <a
+                    Propulsé par <img src="../../assets/images/optimized/netria/netria-logo-footer-transparent.png"
+                        alt="Logo Netria" class="footer__netria-logo" loading="lazy"> <a
                         href="https://netria.dev?utm_source=familyclinic&utm_medium=website&utm_campaign=footer_attribution"
                         class="footer__link" target="_blank" rel="noopener noreferrer">netria.dev</a>
                 </p>
@@ -465,7 +518,8 @@
         </div>
     </footer>
 
-    <script src="../assets/script.js"></script>
+    <script src="../../assets/script.js"></script>
+    <script src="../../assets/localization.js"></script>
 </body>
 
 </html>

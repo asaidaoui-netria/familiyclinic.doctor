@@ -1,20 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Savory Breakfast: The Health Benefits of Starting Your Day Right - Family Clinic</title>
+    <title>Petit-Déjeuner Salé : Les Bénéfices Santé de Bien Commencer Votre Journée - Family Clinic</title>
     <meta name="description"
-        content="Discover why savory breakfast options like eggs, nuts, and lean proteins are excellent choices for your morning meal. Learn about the health benefits and nutritional advantages.">
+        content="Découvrez pourquoi les options de petit-déjeuner salé comme les œufs, les noix et les protéines maigres sont d'excellents choix pour votre repas matinal. Apprenez les bénéfices santé et avantages nutritionnels.">
+
+    <!-- Hreflang Tags -->
+    <link rel="alternate" href="https://familyclinic.doctor/blog/2025-08-18-savory-breakfast-health-benefits.html"
+        hreflang="en" />
+    <link rel="alternate" href="https://familyclinic.doctor/fr/blog/2025-08-18-savory-breakfast-health-benefits.html"
+        hreflang="fr" />
+    <link rel="alternate" href="https://familyclinic.doctor/ar/blog/2025-08-18-savory-breakfast-health-benefits.html"
+        hreflang="ar" />
+    <link rel="alternate" href="https://familyclinic.doctor/blog/2025-08-18-savory-breakfast-health-benefits.html"
+        hreflang="x-default" />
 
     <!-- Structured Data -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "Savory Breakfast: The Health Benefits of Starting Your Day Right",
-        "description": "Discover why savory breakfast options like eggs, nuts, and lean proteins are excellent choices for your morning meal. Learn about the health benefits and nutritional advantages.",
+        "headline": "Petit-Déjeuner Salé : Les Bénéfices Santé de Bien Commencer Votre Journée",
+        "description": "Découvrez pourquoi les options de petit-déjeuner salé comme les œufs, les noix et les protéines maigres sont d'excellents choix pour votre repas matinal. Apprenez les bénéfices santé et avantages nutritionnels.",
         "image": "https://www.familyclinic.doctor/assets/images/optimized/blog/eggs_breakfast_banner_desktop_800x400.jpg",
         "author": {
             "@type": "Person",
@@ -33,15 +43,16 @@
     }
     </script>
 
-    <link rel="stylesheet" href="../assets/styles.css">
-    <link rel="stylesheet" href="../assets/blog.css">
-    <link rel="stylesheet" href="../assets/blog-article.css">
+    <link rel="stylesheet" href="../../assets/styles.css">
+    <link rel="stylesheet" href="../../assets/localization.css">
+    <link rel="stylesheet" href="../../assets/blog.css">
+    <link rel="stylesheet" href="../../assets/blog-article.css">
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="../assets/favicon/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../../assets/favicon/site.webmanifest">
 </head>
 
 <body>
@@ -49,22 +60,23 @@
     <header class="header">
         <div class="header__container">
             <div class="header__logo">
-                <a href="../index.html" class="header__logo-link" aria-label="Go to Family Clinic homepage">
-                    <img src="../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
-                        srcset="../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
-                        sizes="(max-width: 768px) 80px, 100px" alt="Family Clinic Logo" class="header__logo-img"
+                <a href="../index.html" class="header__logo-link"
+                    aria-label="Aller à la page d'accueil de Family Clinic">
+                    <img src="../../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
+                        srcset="../../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
+                        sizes="(max-width: 768px) 80px, 100px" alt="Logo Family Clinic" class="header__logo-img"
                         loading="lazy" onerror="this.style.display='none'">
                     <h1 class="header__logo-text">Family Clinic</h1>
                 </a>
             </div>
 
-            <nav class="nav" aria-label="Main navigation">
+            <nav class="nav" aria-label="Navigation principale">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="../index.html" class="nav__link">Home</a>
+                        <a href="../index.html" class="nav__link">Accueil</a>
                     </li>
                     <li class="nav__item">
-                        <a href="../about.html" class="nav__link">About</a>
+                        <a href="../about.html" class="nav__link">À propos</a>
                     </li>
                     <li class="nav__item">
                         <a href="../services.html" class="nav__link">Services</a>
@@ -78,7 +90,27 @@
                 </ul>
             </nav>
 
-            <button class="header__mobile-menu" aria-label="Toggle mobile menu" aria-expanded="false">
+            <!-- Language Switcher -->
+            <div class="language-switcher">
+                <button class="language-switcher__toggle" aria-label="Choisir la langue" aria-expanded="false">
+                    <span class="language-switcher__current">FR</span>
+                    <svg class="language-switcher__icon" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </button>
+                <ul class="language-switcher__menu">
+                    <li><a href="../../blog/2025-08-18-savory-breakfast-health-benefits.html" data-lang="en">English</a>
+                    </li>
+                    <li><a href="2025-08-18-savory-breakfast-health-benefits.html" data-lang="fr"
+                            class="active">Français</a></li>
+                    <li><a href="../../ar/blog/2025-08-18-savory-breakfast-health-benefits.html"
+                            data-lang="ar">العربية</a></li>
+                </ul>
+            </div>
+
+            <button class="header__mobile-menu" aria-label="Basculer le menu mobile" aria-expanded="false">
                 <span class="header__mobile-menu-line"></span>
                 <span class="header__mobile-menu-line"></span>
                 <span class="header__mobile-menu-line"></span>
@@ -92,33 +124,35 @@
         <section class="article-header">
             <div class="container">
                 <div class="article-header__content">
-                    <nav class="article-breadcrumb" aria-label="Breadcrumb">
+                    <nav class="article-breadcrumb" aria-label="Fil d'ariane">
                         <ol class="article-breadcrumb__list">
                             <li class="article-breadcrumb__item">
-                                <a href="../index.html" class="article-breadcrumb__link">Home</a>
+                                <a href="../index.html" class="article-breadcrumb__link">Accueil</a>
                             </li>
                             <li class="article-breadcrumb__item">
                                 <a href="catalog.html" class="article-breadcrumb__link">Blog</a>
                             </li>
                             <li class="article-breadcrumb__item" aria-current="page">
-                                <span class="article-breadcrumb__current">Savory Breakfast Health Benefits</span>
+                                <span class="article-breadcrumb__current">Bénéfices Santé du Petit-Déjeuner Salé</span>
                             </li>
                         </ol>
                     </nav>
 
                     <div class="article-meta">
-                        <span class="article-meta__date">18 Aug 2025</span>
-                        <!-- <span class="article-meta__author">By Dr. Said-Alaoui Moulay Abdellah</span> -->
+                        <span class="article-meta__date">18 Août 2025</span>
+                        <!-- <span class="article-meta__author">Par Dr. Said-Alaoui Moulay Abdellah</span> -->
                     </div>
 
-                    <h1 class="article-title">Are Savory Meals Good for Breakfast?</h1>
+                    <h1 class="article-title">Les Repas Salés Sont-ils Bons pour le Petit-Déjeuner ?</h1>
 
                     <p class="article-excerpt">
-                        Eggs, nuts, dried meat, or fatty fish (sardines, anchovies, mackerel) and, if you have time,
-                        vegetables.
-                        Here are real health ingredients. Yes, eggs, every morning. It's not just a treat for the taste
-                        buds,
-                        it's also one of the best health foods that exists.
+                        Œufs, noix, viande séchée, ou poissons gras (sardines, anchois, maquereau) et, si vous avez le
+                        temps,
+                        des légumes.
+                        Voici de vrais ingrédients santé. Oui, des œufs, tous les matins. Ce n'est pas seulement un
+                        régal pour les papilles
+                        gustatives,
+                        c'est aussi l'un des meilleurs aliments santé qui existe.
                     </p>
                 </div>
             </div>
@@ -130,110 +164,117 @@
                 <div class="article-layout">
                     <article class="article-main">
                         <div class="article-image">
-                            <img src="../assets/images/optimized/blog/eggs_breakfast_banner_desktop_800x400.jpg"
-                                srcset="../assets/images/optimized/blog/eggs_breakfast_banner_mobile_600x300.jpg 600w, ../assets/images/optimized/blog/eggs_breakfast_banner_desktop_800x400.jpg 800w"
+                            <img src="../../assets/images/optimized/blog/eggs_breakfast_banner_desktop_800x400.jpg"
+                                srcset="../../assets/images/optimized/blog/eggs_breakfast_banner_mobile_600x300.jpg 600w, ../../assets/images/optimized/blog/eggs_breakfast_banner_desktop_800x400.jpg 800w"
                                 sizes="(max-width: 768px) 600px, 800px"
-                                alt="Person cooking sunny-side-up eggs on a stovetop with steam rising" loading="lazy"
-                                onerror="this.style.display='none'">
+                                alt="Personne cuisinant des œufs au plat sur une cuisinière avec de la vapeur qui s'élève"
+                                loading="lazy" onerror="this.style.display='none'">
                         </div>
 
                         <div class="article-body">
                             <p>
-                                Eggs, nuts, dried meat, or fatty fish (sardines, anchovies, mackerel) and, if you have
-                                time, vegetables.
-                                Here are real health ingredients. Yes, eggs, every morning. It's not just a treat for
-                                the taste buds,
-                                it's also one of the best health foods that exists.
+                                Œufs, noix, viande séchée, ou poissons gras (sardines, anchois, maquereau) et, si vous
+                                avez
+                                le temps, des légumes.
+                                Voici de vrais ingrédients santé. Oui, des œufs, tous les matins. Ce n'est pas seulement
+                                un régal pour
+                                les papilles gustatives,
+                                c'est aussi l'un des meilleurs aliments santé qui existe.
                             </p>
 
                             <p>
-                                They contain cholesterol? No problem. Unless you have specific health issues, you're not
-                                taking any risk
-                                by consuming two (organic) eggs every day. We now know that the majority of your
-                                cholesterol is produced
-                                by your liver, which acts as a "thermostat": if you ingest dietary cholesterol, your
-                                liver will naturally
-                                reduce its own production.
+                                Ils contiennent du cholestérol ? Pas de problème. À moins d'avoir des problèmes de santé
+                                spécifiques, vous ne
+                                prenez aucun risque
+                                en consommant deux œufs (bio) tous les jours. Nous savons maintenant que la majorité de
+                                votre
+                                cholestérol est produite
+                                par votre foie, qui agit comme un "thermostat" : si vous ingérez du cholestérol
+                                alimentaire, votre
+                                foie réduira naturellement
+                                sa propre production.
                             </p>
 
                             <p>
-                                Eggs are marvels of nature. The egg yolk is filled with vitamins and nutrients
-                                indispensable to your health.
-                                It's rich in choline, a nutrient that protects the brain against Alzheimer's, and
-                                lutein, which protects
-                                your eyes from age-related degeneration. As for the egg white (the best type of food to
-                                have for breakfast),
-                                it's composed of 100% protein!
+                                Les œufs sont des merveilles de la nature. Le jaune d'œuf est rempli de vitamines et de
+                                nutriments
+                                indispensables à votre santé.
+                                Il est riche en choline, un nutriment qui protège le cerveau contre la maladie
+                                d'Alzheimer, et
+                                en lutéine, qui protège
+                                vos yeux de la dégénérescence liée à l'âge. Quant au blanc d'œuf (le meilleur type
+                                d'aliment à
+                                avoir au petit-déjeuner),
+                                il est composé à 100% de protéines !
                             </p>
 
                             <p>
-                                Warm regards,<br>
-                                <em>Dr. Said-Alaoui Moulay Abdellah and the Family Clinic Team</em>
+                                Cordialement,<br>
+                                <em>Dr. Said-Alaoui Moulay Abdellah et l'équipe de Family Clinic</em>
                             </p>
                         </div>
 
                         <div class="article-footer">
                             <div class="article-tags">
-                                <span class="article-tags__label">Tags:</span>
+                                <span class="article-tags__label">Tags :</span>
                                 <a href="catalog.html" class="article-tags__tag">Nutrition</a>
-                                <a href="catalog.html" class="article-tags__tag">Breakfast</a>
-                                <a href="catalog.html" class="article-tags__tag">Healthy Eating</a>
-                                <a href="catalog.html" class="article-tags__tag">Protein</a>
-                                <a href="catalog.html" class="article-tags__tag">Wellness</a>
+                                <a href="catalog.html" class="article-tags__tag">Petit-Déjeuner</a>
+                                <a href="catalog.html" class="article-tags__tag">Alimentation Saine</a>
+                                <a href="catalog.html" class="article-tags__tag">Protéines</a>
+                                <a href="catalog.html" class="article-tags__tag">Bien-être</a>
                             </div>
                         </div>
                     </article>
 
                     <aside class="article-sidebar">
-                        <!-- <div class="sidebar-section"> -->
-                        <!-- <h3 class="sidebar-section__title">About the Author</h3> -->
                         <a href="../about.html#dr-said-alaoui" class="author-card">
-                            <img src="../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png"
-                                srcset="../assets/images/optimized/team/dr_my_abdellah_mobile_300x300.png 300w, ../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png 400w"
+                            <img src="../../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png"
+                                srcset="../../assets/images/optimized/team/dr_my_abdellah_mobile_300x300.png 300w, ../../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png 400w"
                                 sizes="(max-width: 768px) 300px, 400px" alt="Dr. Said-Alaoui Moulay Abdellah"
                                 loading="lazy" onerror="this.style.display='none'" class="author-card__image">
                             <div class="author-card__content">
                                 <h4 class="author-card__name">Dr. Said-Alaoui Moulay Abdellah</h4>
-                                <p class="author-card__title">Family Medicine Physician</p>
+                                <p class="author-card__title">Médecin de Famille</p>
                                 <p class="author-card__bio">
-                                    Family medicine physician and former military doctor with 40+ years experience,
-                                    specializing in nutritional therapy and environmental causes.
+                                    Médecin de famille et ancien médecin militaire avec plus de 40 ans d'expérience,
+                                    spécialisé dans la thérapie nutritionnelle et les causes environnementales.
                                 </p>
                             </div>
                         </a>
-                        <!-- </div> -->
 
                         <div class="sidebar-section">
-                            <h3 class="sidebar-section__title">Related Articles</h3>
+                            <h3 class="sidebar-section__title">Articles Connexes</h3>
                             <div class="related-articles">
                                 <article class="related-article">
                                     <h4 class="related-article__title">
-                                        <a href="2025-08-17-breakfast-most-important-meal.html">Breakfast: The Most
-                                            Important Meal of the Day</a>
+                                        <a href="2025-08-17-breakfast-most-important-meal.html">Petit-Déjeuner : Le
+                                            Repas le
+                                            Plus Important de la Journée</a>
                                     </h4>
-                                    <span class="related-article__date">17 Aug 2025</span>
+                                    <span class="related-article__date">17 Août 2025</span>
                                 </article>
                                 <article class="related-article">
                                     <h4 class="related-article__title">
-                                        <a href="2025-08-17-breakfast-myth-or-vital-need.html">Breakfast: Myth or Vital
-                                            Need?</a>
+                                        <a href="2025-08-17-breakfast-myth-or-vital-need.html">Petit-Déjeuner : Mythe ou
+                                            Besoin Vital ?</a>
                                     </h4>
-                                    <span class="related-article__date">17 Aug 2025</span>
+                                    <span class="related-article__date">17 Août 2025</span>
                                 </article>
                                 <article class="related-article">
                                     <h4 class="related-article__title">
-                                        <a href="2025-08-18-bread-milk-jam-health-foods.html">Bread, Milk, and Jam: Are
-                                            They Really Health Foods?</a>
+                                        <a href="2025-08-18-bread-milk-jam-health-foods.html">Pain, Lait et Confiture :
+                                            Sont-ils
+                                            Vraiment des Aliments Santé ?</a>
                                     </h4>
-                                    <span class="related-article__date">18 Aug 2025</span>
+                                    <span class="related-article__date">18 Août 2025</span>
                                 </article>
                             </div>
                         </div>
 
                         <div class="sidebar-section">
-                            <h3 class="sidebar-section__title">Get in Touch</h3>
-                            <p>Have questions about nutrition and health? We're here to help.</p>
-                            <a href="../contact.html" class="btn btn--primary">Book an Appointment</a>
+                            <h3 class="sidebar-section__title">Contactez-nous</h3>
+                            <p>Des questions sur la nutrition et la santé ? Nous sommes là pour vous aider.</p>
+                            <a href="../contact.html" class="btn btn--primary">Prendre un Rendez-vous</a>
                         </div>
                     </aside>
                 </div>
@@ -247,28 +288,29 @@
             <div class="footer__content">
                 <div class="footer__section">
                     <div class="footer__logo">
-                        <a href="../index.html" class="footer__logo-link" aria-label="Go to Family Clinic homepage">
-                            <img src="../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
-                                srcset="../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
-                                sizes="(max-width: 768px) 80px, 100px" alt="Family Clinic Logo" class="footer__logo-img"
+                        <a href="../index.html" class="footer__logo-link"
+                            aria-label="Aller à la page d'accueil de Family Clinic">
+                            <img src="../../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
+                                srcset="../../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
+                                sizes="(max-width: 768px) 80px, 100px" alt="Logo Family Clinic" class="footer__logo-img"
                                 loading="lazy" onerror="this.style.display='none'">
                             <h3 class="footer__logo-text">Family Clinic</h3>
                         </a>
                     </div>
                     <p class="footer__description">
-                        Providing comprehensive healthcare services for families in a welcoming and compassionate
-                        environment.
+                        Fournissant des services de soins de santé complets pour les familles dans un environnement
+                        accueillant et compatissant.
                     </p>
                 </div>
 
                 <div class="footer__section">
-                    <h4 class="footer__section-title">Quick Links</h4>
+                    <h4 class="footer__section-title">Liens Rapides</h4>
                     <ul class="footer__links">
                         <li class="footer__item">
-                            <a href="../index.html" class="footer__link">Home</a>
+                            <a href="../index.html" class="footer__link">Accueil</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../about.html" class="footer__link">About Us</a>
+                            <a href="../about.html" class="footer__link">À Propos</a>
                         </li>
                         <li class="footer__item">
                             <a href="../services.html" class="footer__link">Services</a>
@@ -286,74 +328,74 @@
                     <h4 class="footer__section-title">Services</h4>
                     <ul class="footer__links">
                         <li class="footer__item">
-                            <a href="../services.html#family-medicine" class="footer__link">Family Medicine</a>
+                            <a href="../services.html#family-medicine" class="footer__link">Médecine Familiale</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#holistic-consultations" class="footer__link">Holistic
-                                Consultations</a>
+                            <a href="../services.html#holistic-consultations" class="footer__link">Consultations
+                                Holistiques</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#quantum-scan" class="footer__link">Quantum Scan</a>
+                            <a href="../services.html#quantum-scan" class="footer__link">Scan Quantique</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#naturopathy" class="footer__link">Naturopathy</a>
+                            <a href="../services.html#naturopathy" class="footer__link">Naturopathie</a>
                         </li>
                         <li class="footer__item">
                             <a href="../services.html#hijamah" class="footer__link">Hijamah</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#physiotherapy" class="footer__link">Physiotherapy</a>
+                            <a href="../services.html#physiotherapy" class="footer__link">Physiothérapie</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#dermatology" class="footer__link">Dermatology</a>
+                            <a href="../services.html#dermatology" class="footer__link">Dermatologie</a>
                         <li class="footer__item">
-                            <a href="../services.html#judiciary-medical-expertise" class="footer__link">Judiciary
-                                Medical Expertise</a>
+                            <a href="../services.html#judiciary-medical-expertise" class="footer__link">Expertise
+                                Médicale Judiciaire</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#weight-loss" class="footer__link">Weight Loss</a>
+                            <a href="../services.html#weight-loss" class="footer__link">Perte de Poids</a>
                         </li>
                         </li>
                     </ul>
                 </div>
 
                 <div class="footer__section">
-                    <h4 class="footer__section-title">Contact Info</h4>
+                    <h4 class="footer__section-title">Informations de Contact</h4>
                     <div class="footer__contact">
                         <div class="footer__contact-item">
-                            <strong>Address:</strong>
+                            <strong>Adresse :</strong>
                             <a href="https://maps.app.goo.gl/sPxKYDMUdsN9dVV2A" target="_blank"
                                 rel="noopener noreferrer" class="footer__link">
                                 N*47, Bloc B, Ouled Oujih<br>
-                                Kenitra, 14080, Morocco
+                                Kenitra, 14080, Maroc
                             </a>
                         </div>
                         <div class="footer__contact-item">
-                            <strong>Phone:</strong>
+                            <strong>Téléphone :</strong>
                             <a href="tel:+212-641-745-441" class="footer__link">+212-641-745-441</a>
                         </div>
                         <div class="footer__contact-item">
-                            <strong>Email:</strong>
+                            <strong>Email :</strong>
                             <a href="mailto:saidalaoui.m.a@gmail.com" class="footer__link">saidalaoui.m.a@gmail.com</a>
                         </div>
                     </div>
 
                     <p class="footer__contact-item">
-                        <strong>Hours:</strong><br>
-                        Mon-Thu: 9:00 - 17:00<br>
-                        Fri: 9:00 - 13:00, 15:00 - 18:00<br>
-                        Sat: 9:00 - 13:00
+                        <strong>Horaires :</strong><br>
+                        Lun-Jeu : 9h00 - 17h00<br>
+                        Ven : 9h00 - 13h00, 15h00 - 18h00<br>
+                        Sam : 9h00 - 13h00
                     </p>
                 </div>
             </div>
 
             <div class="footer__bottom">
                 <p class="footer__copyright">
-                    &copy; 2025 Family Clinic. All rights reserved.
+                    &copy; 2025 Family Clinic. Tous droits réservés.
                 </p>
                 <p class="footer__powered-by">
-                    Powered by <img src="../assets/images/optimized/netria/netria-logo-footer-transparent.png"
-                        alt="Netria Logo" class="footer__netria-logo" loading="lazy"> <a
+                    Propulsé par <img src="../../assets/images/optimized/netria/netria-logo-footer-transparent.png"
+                        alt="Logo Netria" class="footer__netria-logo" loading="lazy"> <a
                         href="https://netria.dev?utm_source=familyclinic&utm_medium=website&utm_campaign=footer_attribution"
                         class="footer__link" target="_blank" rel="noopener noreferrer">netria.dev</a>
                 </p>
@@ -361,7 +403,8 @@
         </div>
     </footer>
 
-    <script src="../assets/script.js"></script>
+    <script src="../../assets/script.js"></script>
+    <script src="../../assets/localization.js"></script>
 </body>
 
 </html>

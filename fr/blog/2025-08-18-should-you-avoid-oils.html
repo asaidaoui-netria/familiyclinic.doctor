@@ -1,20 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Should You Deliberately Avoid Oils? - Family Clinic</title>
+    <title>Devriez-vous délibérément éviter les huiles? - Family Clinic</title>
     <meta name="description"
-        content="What nutritional science tells us about fats and what popular culture has misunderstood. Learn about good vs. bad oils and their impact on your health.">
+        content="Ce que la science nutritionnelle nous dit sur les graisses et ce que la culture populaire a mal compris. Apprenez à distinguer les bonnes et mauvaises huiles et leur impact sur votre santé.">
+
+    <!-- Hreflang Tags -->
+    <link rel="alternate" href="https://familyclinic.doctor/blog/2025-08-18-should-you-avoid-oils.html" hreflang="en" />
+    <link rel="alternate" href="https://familyclinic.doctor/fr/blog/2025-08-18-should-you-avoid-oils.html"
+        hreflang="fr" />
+    <link rel="alternate" href="https://familyclinic.doctor/ar/blog/2025-08-18-should-you-avoid-oils.html"
+        hreflang="ar" />
+    <link rel="alternate" href="https://familyclinic.doctor/blog/2025-08-18-should-you-avoid-oils.html"
+        hreflang="x-default" />
 
     <!-- Structured Data -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "Should You Deliberately Avoid Oils?",
-        "description": "What nutritional science tells us about fats and what popular culture has misunderstood. Learn about good vs. bad oils and their impact on your health.",
+        "headline": "Devriez-vous délibérément éviter les huiles?",
+        "description": "Ce que la science nutritionnelle nous dit sur les graisses et ce que la culture populaire a mal compris. Apprenez à distinguer les bonnes et mauvaises huiles et leur impact sur votre santé.",
         "image": "https://www.familyclinic.doctor/assets/images/optimized/blog/oil_cooking_banner_desktop_800x400.jpg",
         "author": {
             "@type": "Person",
@@ -33,15 +42,16 @@
     }
     </script>
 
-    <link rel="stylesheet" href="../assets/styles.css">
-    <link rel="stylesheet" href="../assets/blog.css">
-    <link rel="stylesheet" href="../assets/blog-article.css">
+    <link rel="stylesheet" href="../../assets/styles.css">
+    <link rel="stylesheet" href="../../assets/localization.css">
+    <link rel="stylesheet" href="../../assets/blog.css">
+    <link rel="stylesheet" href="../../assets/blog-article.css">
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="../assets/favicon/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../../assets/favicon/site.webmanifest">
 </head>
 
 <body>
@@ -49,22 +59,23 @@
     <header class="header">
         <div class="header__container">
             <div class="header__logo">
-                <a href="../index.html" class="header__logo-link" aria-label="Go to Family Clinic homepage">
-                    <img src="../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
-                        srcset="../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
-                        sizes="(max-width: 768px) 80px, 100px" alt="Family Clinic Logo" class="header__logo-img"
+                <a href="../index.html" class="header__logo-link"
+                    aria-label="Aller à la page d'accueil de Family Clinic">
+                    <img src="../../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
+                        srcset="../../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
+                        sizes="(max-width: 768px) 80px, 100px" alt="Logo Family Clinic" class="header__logo-img"
                         loading="lazy" onerror="this.style.display='none'">
                     <h1 class="header__logo-text">Family Clinic</h1>
                 </a>
             </div>
 
-            <nav class="nav" aria-label="Main navigation">
+            <nav class="nav" aria-label="Navigation principale">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="../index.html" class="nav__link">Home</a>
+                        <a href="../index.html" class="nav__link">Accueil</a>
                     </li>
                     <li class="nav__item">
-                        <a href="../about.html" class="nav__link">About</a>
+                        <a href="../about.html" class="nav__link">À propos</a>
                     </li>
                     <li class="nav__item">
                         <a href="../services.html" class="nav__link">Services</a>
@@ -78,7 +89,24 @@
                 </ul>
             </nav>
 
-            <button class="header__mobile-menu" aria-label="Toggle mobile menu" aria-expanded="false">
+            <!-- Language Switcher -->
+            <div class="language-switcher">
+                <button class="language-switcher__toggle" aria-label="Choisir la langue" aria-expanded="false">
+                    <span class="language-switcher__current">FR</span>
+                    <svg class="language-switcher__icon" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </button>
+                <ul class="language-switcher__menu">
+                    <li><a href="../../blog/2025-08-18-should-you-avoid-oils.html" data-lang="en">English</a></li>
+                    <li><a href="2025-08-18-should-you-avoid-oils.html" data-lang="fr" class="active">Français</a></li>
+                    <li><a href="../../ar/blog/2025-08-18-should-you-avoid-oils.html" data-lang="ar">العربية</a></li>
+                </ul>
+            </div>
+
+            <button class="header__mobile-menu" aria-label="Basculer le menu mobile" aria-expanded="false">
                 <span class="header__mobile-menu-line"></span>
                 <span class="header__mobile-menu-line"></span>
                 <span class="header__mobile-menu-line"></span>
@@ -92,31 +120,33 @@
         <section class="article-header">
             <div class="container">
                 <div class="article-header__content">
-                    <nav class="article-breadcrumb" aria-label="Breadcrumb">
+                    <nav class="article-breadcrumb" aria-label="Fil d'ariane">
                         <ol class="article-breadcrumb__list">
                             <li class="article-breadcrumb__item">
-                                <a href="../index.html" class="article-breadcrumb__link">Home</a>
+                                <a href="../index.html" class="article-breadcrumb__link">Accueil</a>
                             </li>
                             <li class="article-breadcrumb__item">
                                 <a href="catalog.html" class="article-breadcrumb__link">Blog</a>
                             </li>
                             <li class="article-breadcrumb__item" aria-current="page">
-                                <span class="article-breadcrumb__current">Should You Deliberately Avoid Oils?</span>
+                                <span class="article-breadcrumb__current">Devriez-vous délibérément éviter les huiles
+                                    ?</span>
                             </li>
                         </ol>
                     </nav>
 
                     <div class="article-meta">
-                        <span class="article-meta__date">18 Aug 2025</span>
-                        <!-- <span class="article-meta__author">By Dr. Said-Alaoui Moulay Abdellah</span> -->
+                        <span class="article-meta__date">18 Août 2025</span>
+                        <span class="article-meta__author">Par Dr. Said-Alaoui Moulay Abdellah</span>
                     </div>
 
-                    <h1 class="article-title">Should You Deliberately Avoid Oils?</h1>
+                    <h1 class="article-title">Devriez-vous délibérément éviter les huiles?</h1>
 
                     <p class="article-excerpt">
-                        What nutritional science tells us about fats... and what popular culture has misunderstood.
-                        Discover the truth about oils and learn which ones support your health versus those
-                        that may harm it.
+                        Ce que la science nutritionnelle nous dit sur les graisses... et ce que la culture populaire a
+                        mal compris.
+                        Découvrez la vérité sur les huiles et apprenez lesquelles soutiennent votre santé versus celles
+                        qui peuvent lui nuire.
                     </p>
                 </div>
             </div>
@@ -128,248 +158,257 @@
                 <div class="article-layout">
                     <article class="article-main">
                         <div class="article-image">
-                            <img src="../assets/images/optimized/blog/oil_cooking_banner_desktop_800x400.jpg"
-                                srcset="../assets/images/optimized/blog/oil_cooking_banner_mobile_600x300.jpg 600w, ../assets/images/optimized/blog/oil_cooking_banner_desktop_800x400.jpg 800w"
+                            <img src="../../assets/images/optimized/blog/oil_cooking_banner_desktop_800x400.jpg"
+                                srcset="../../assets/images/optimized/blog/oil_cooking_banner_mobile_600x300.jpg 600w, ../../assets/images/optimized/blog/oil_cooking_banner_desktop_800x400.jpg 800w"
                                 sizes="(max-width: 768px) 600px, 800px"
-                                alt="Hand pouring golden olive oil from bottle into cooking pan on stovetop"
+                                alt="Main versant de l'huile d'olive dorée d'une bouteille dans une poêle de cuisson sur la cuisinière"
                                 loading="lazy" onerror="this.style.display='none'">
                         </div>
 
                         <div class="article-body">
-                            <h2>A Persistent Misconception: "Fats Make You Fat"</h2>
+                            <h2>Une idée reçue tenace : "Les graisses font grossir"</h2>
 
                             <p>
-                                For decades, fats have been blamed for all ills: weight gain, cholesterol,
-                                cardiovascular disease...
-                                As a result, millions of people have adopted "light" diets, low in lipids but rich in
-                                sugars
-                                and processed products.
+                                Depuis des décennies, les graisses sont accusées de tous les maux : prise de poids,
+                                cholestérol,
+                                maladies cardiovasculaires...
+                                Résultat : des millions de personnes ont adopté des régimes "light", pauvres en lipides
+                                mais riches en
+                                sucres
+                                et produits transformés.
                             </p>
 
-                            <p>And yet, the results are clear:</p>
+                            <p>Et pourtant, les résultats sont clairs :</p>
 
                             <ul>
-                                <li>Global obesity has exploded</li>
-                                <li>Type 2 diabetes has become an epidemic</li>
-                                <li>Digestive and inflammatory disorders have multiplied</li>
+                                <li>L'obésité mondiale a explosé</li>
+                                <li>Le diabète de type 2 est devenu une épidémie</li>
+                                <li>Les troubles digestifs et inflammatoires se sont multipliés</li>
                             </ul>
 
                             <p>
-                                👉 It's not fat that's responsible. It's the type of fat, the dietary context,
-                                and the quality of products consumed.
+                                👉 Ce n'est pas la graisse qui est responsable. C'est le type de graisse, le contexte
+                                alimentaire,
+                                et la qualité des produits consommés.
                             </p>
 
-                            <h2>What oils Really Are</h2>
+                            <h2>Ce que sont vraiment les huiles</h2>
 
                             <p>
-                                Vegetable oils are composed of 99% lipids. Lipids are essential nutrients that play
-                                a role in:
+                                Les huiles végétales sont composées à 99% de lipides. Les lipides sont des nutriments
+                                essentiels qui jouent
+                                un rôle dans :
                             </p>
 
                             <ul>
-                                <li>Building cell membranes</li>
-                                <li>Transporting fat-soluble vitamins (A, D, E, K)</li>
-                                <li>Hormone production</li>
-                                <li>Inflammation regulation</li>
-                                <li>Brain and nervous system function</li>
+                                <li>La construction des membranes cellulaires</li>
+                                <li>Le transport des vitamines liposolubles (A, D, E, K)</li>
+                                <li>La production d'hormones</li>
+                                <li>La régulation de l'inflammation</li>
+                                <li>Le fonctionnement du cerveau et du système nerveux</li>
                             </ul>
 
                             <p>
-                                Completely depriving yourself of oil means unbalancing your metabolism, weakening
-                                your digestion, and slowing your regenerative capacity.
+                                Se priver complètement d'huile signifie déséquilibrer votre métabolisme, affaiblir
+                                votre digestion et ralentir votre capacité de régénération.
                             </p>
 
-                            <h2>Good Fats: Your Weight Loss Allies</h2>
+                            <h2>Les bonnes graisses : vos alliées minceur</h2>
 
                             <p>
-                                Contrary to popular belief, quality fats can help you lose weight. Why? Because they:
+                                Contrairement aux idées reçues, les graisses de qualité peuvent vous aider à maigrir.
+                                Pourquoi ? Parce qu'elles :
                             </p>
 
                             <ul>
-                                <li>Satisfy quickly: they slow gastric emptying and stabilize blood sugar</li>
-                                <li>Prevent cravings: by reducing insulin spikes</li>
-                                <li>Promote fat burning: by activating lipid metabolism</li>
+                                <li>Rassasient rapidement : elles ralentissent la vidange gastrique et stabilisent la
+                                    glycémie</li>
+                                <li>Préviennent les fringales : en réduisant les pics d'insuline</li>
+                                <li>Favorisent la combustion des graisses : en activant le métabolisme lipidique</li>
                             </ul>
 
-                            <p>Foods rich in good fats include:</p>
+                            <p>Les aliments riches en bonnes graisses incluent :</p>
 
                             <ul>
-                                <li>Avocados</li>
-                                <li>Fatty fish</li>
-                                <li>Nuts and almonds</li>
-                                <li>Olive oil</li>
-                                <li>Fermented sheep or goat products</li>
+                                <li>Les avocats</li>
+                                <li>Les poissons gras</li>
+                                <li>Les noix et amandes</li>
+                                <li>L'huile d'olive</li>
+                                <li>Les produits fermentés de brebis ou de chèvre</li>
                             </ul>
 
-                            <h2>Fats to Avoid: Refined, Oxidized, Pro-Inflammatory</h2>
+                            <h2>Graisses à éviter : raffinées, oxydées, pro-inflammatoires</h2>
 
                             <p>
-                                Not all oils are equal. Some are ultra-processed, heated to high temperatures,
-                                and unbalanced in omega-6.
+                                Toutes les huiles ne se valent pas. Certaines sont ultra-transformées, chauffées à haute
+                                température,
+                                et déséquilibrées en oméga-6.
                             </p>
 
-                            <p>The main ones to avoid:</p>
+                            <p>Les principales à éviter :</p>
 
                             <ul>
-                                <li>Sunflower oil</li>
-                                <li>Corn oil</li>
-                                <li>Soybean oil</li>
-                                <li>Industrial margarines</li>
+                                <li>L'huile de tournesol</li>
+                                <li>L'huile de maïs</li>
+                                <li>L'huile de soja</li>
+                                <li>Les margarines industrielles</li>
                             </ul>
 
                             <p>
-                                These oils are often used in frying, cookies, industrial sauces... They promote
-                                chronic inflammation, hormonal imbalances, and cardiovascular disease.
+                                Ces huiles sont souvent utilisées dans les fritures, biscuits, sauces industrielles...
+                                Elles favorisent
+                                l'inflammation chronique, les déséquilibres hormonaux et les maladies cardiovasculaires.
                             </p>
 
-                            <h2>Olive Oil: A Nutritional and Cultural Treasure</h2>
+                            <h2>L'huile d'olive : un trésor nutritionnel et culturel</h2>
 
                             <p>
-                                Olive oil is at the heart of the Mediterranean diet — recognized worldwide for
-                                its protective effects. It is:
+                                L'huile d'olive est au cœur du régime méditerranéen — reconnu mondialement pour
+                                ses effets protecteurs. Elle est :
                             </p>
 
                             <ul>
-                                <li>Rich in monounsaturated fatty acids</li>
-                                <li>Loaded with polyphenols with antioxidant effects</li>
-                                <li>Stable for gentle cooking</li>
-                                <li>Anti-inflammatory, anti-cancer, cardio-protective</li>
+                                <li>Riche en acides gras mono-insaturés</li>
+                                <li>Chargée de polyphénols aux effets antioxydants</li>
+                                <li>Stable pour la cuisson douce</li>
+                                <li>Anti-inflammatoire, anti-cancer, cardio-protectrice</li>
                             </ul>
 
                             <p>
-                                In the Moroccan context, it is accessible, culturally integrated, and ideal for
-                                healthy and flavorful cooking.
+                                Dans le contexte marocain, elle est accessible, culturellement intégrée et idéale pour
+                                une cuisine saine et savoureuse.
                             </p>
 
                             <p>
-                                One tablespoon of olive oil per day can improve cardiovascular health, reduce
-                                joint pain, and strengthen immunity.
+                                Une cuillère à soupe d'huile d'olive par jour peut améliorer la santé cardiovasculaire,
+                                réduire
+                                les douleurs articulaires et renforcer l'immunité.
                             </p>
 
-                            <h2>How to Use Oils Properly in Daily Life?</h2>
+                            <h2>Comment utiliser les huiles correctement au quotidien ?</h2>
 
-                            <p>Here are some simple guidelines:</p>
+                            <p>Voici quelques conseils simples :</p>
 
                             <div class="article-table">
                                 <table>
                                     <thead>
                                         <tr>
                                             <th>Usage</th>
-                                            <th>Recommended Oils</th>
+                                            <th>Huiles recommandées</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>Gentle cooking</td>
-                                            <td>Olive oil, coconut oil</td>
+                                            <td>Cuisson douce</td>
+                                            <td>Huile d'olive, huile de coco</td>
                                         </tr>
                                         <tr>
-                                            <td>Raw seasoning</td>
-                                            <td>Olive oil, rapeseed oil, flaxseed oil (in small quantities)</td>
+                                            <td>Assaisonnement cru</td>
+                                            <td>Huile d'olive, huile de colza, huile de lin (en petites quantités)</td>
                                         </tr>
                                         <tr>
-                                            <td>To avoid</td>
-                                            <td>Refined oils, industrial frying, margarine</td>
+                                            <td>À éviter</td>
+                                            <td>Huiles raffinées, fritures industrielles, margarine</td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
 
                             <p>
-                                ✅ Favor cold-pressed oils, organic if possible, and stored away from light.
+                                ✅ Privilégiez les huiles pressées à froid, bio si possible, et stockées à l'abri de la
+                                lumière.
                             </p>
 
-                            <h2>In Summary</h2>
+                            <h2>En résumé</h2>
 
                             <p>
-                                Depriving yourself of oil is not a health strategy. What you need is to make
-                                the right choices:
+                                Se priver d'huile n'est pas une stratégie santé. Ce dont vous avez besoin, c'est de
+                                faire
+                                les bons choix :
                             </p>
 
                             <ul>
-                                <li>Choose natural, unprocessed fats</li>
-                                <li>Avoid pro-inflammatory industrial oils</li>
-                                <li>Integrate good fats into a balanced diet, rich in fiber and low in refined sugars
-                                </li>
+                                <li>Choisir des graisses naturelles, non transformées</li>
+                                <li>Éviter les huiles industrielles pro-inflammatoires</li>
+                                <li>Intégrer les bonnes graisses dans une alimentation équilibrée, riche en fibres et
+                                    pauvre en sucres raffinés</li>
                             </ul>
 
-                            <h2>Family Clinic Supports You</h2>
+                            <h2>Family Clinic vous accompagne</h2>
 
-                            <p>We offer:</p>
+                            <p>Nous proposons :</p>
 
                             <ul>
-                                <li>Nutritional brochures on good food choices</li>
-                                <li>Digestive and metabolic monitoring</li>
-                                <li>Menus adapted to each profile (diabetic, faster, senior...)</li>
+                                <li>Des brochures nutritionnelles sur les bons choix alimentaires</li>
+                                <li>Un suivi digestif et métabolique</li>
+                                <li>Des menus adaptés à chaque profil (diabétique, jeûneur, senior...)</li>
                             </ul>
 
                             <p>
-                                Warm regards,<br>
-                                <em>Dr. Said-Alaoui Moulay Abdellah and the Family Clinic Team</em>
+                                Cordialement,<br>
+                                <em>Dr. Said-Alaoui Moulay Abdellah et l'équipe de Family Clinic</em>
                             </p>
                         </div>
 
                         <div class="article-footer">
                             <div class="article-tags">
-                                <span class="article-tags__label">Tags:</span>
+                                <span class="article-tags__label">Tags :</span>
                                 <a href="catalog.html" class="article-tags__tag">Nutrition</a>
-                                <a href="catalog.html" class="article-tags__tag">Oils</a>
-                                <a href="catalog.html" class="article-tags__tag">Healthy Fats</a>
-                                <a href="catalog.html" class="article-tags__tag">Weight Loss</a>
+                                <a href="catalog.html" class="article-tags__tag">Huiles</a>
+                                <a href="catalog.html" class="article-tags__tag">Graisses saines</a>
+                                <a href="catalog.html" class="article-tags__tag">Perte de poids</a>
                             </div>
                         </div>
                     </article>
 
                     <aside class="article-sidebar">
-                        <!-- <div class="sidebar-section"> -->
-                        <!-- <h3 class="sidebar-section__title">About the Author</h3> -->
                         <a href="../about.html#dr-said-alaoui" class="author-card">
-                            <img src="../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png"
-                                srcset="../assets/images/optimized/team/dr_my_abdellah_mobile_300x300.png 300w, ../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png 400w"
+                            <img src="../../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png"
+                                srcset="../../assets/images/optimized/team/dr_my_abdellah_mobile_300x300.png 300w, ../../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png 400w"
                                 sizes="(max-width: 768px) 300px, 400px" alt="Dr. Said-Alaoui Moulay Abdellah"
                                 loading="lazy" onerror="this.style.display='none'" class="author-card__image">
                             <div class="author-card__content">
                                 <h4 class="author-card__name">Dr. Said-Alaoui Moulay Abdellah</h4>
-                                <p class="author-card__title">Family Medicine Physician</p>
+                                <p class="author-card__title">Médecin de Famille</p>
                                 <p class="author-card__bio">
-                                    Family medicine physician and former military doctor with 40+ years experience,
-                                    specializing in nutritional therapy and environmental causes.
+                                    Médecin de famille et ancien médecin militaire avec plus de 40 ans d'expérience,
+                                    spécialisé dans la thérapie nutritionnelle et les causes environnementales.
                                 </p>
                             </div>
                         </a>
-                        <!-- </div> -->
 
                         <div class="sidebar-section">
-                            <h3 class="sidebar-section__title">Related Articles</h3>
+                            <h3 class="sidebar-section__title">Articles connexes</h3>
                             <div class="related-articles">
                                 <article class="related-article">
                                     <h4 class="related-article__title">
-                                        <a href="2025-08-18-secret-to-mastering-hunger.html">The Secret to Mastering
-                                            Hunger</a>
+                                        <a href="2025-08-18-secret-to-mastering-hunger.html">Le secret pour maîtriser
+                                            la faim</a>
                                     </h4>
-                                    <span class="related-article__date">18 Aug 2025</span>
+                                    <span class="related-article__date">18 Août 2025</span>
                                 </article>
                                 <article class="related-article">
                                     <h4 class="related-article__title">
-                                        <a href="2025-08-18-food-as-medicine-therapeutic-nutrition.html">Food as
-                                            Medicine: Therapeutic Nutrition</a>
+                                        <a href="2025-08-18-food-as-medicine-therapeutic-nutrition.html">L'aliment comme
+                                            médicament : la nutrition thérapeutique</a>
                                     </h4>
-                                    <span class="related-article__date">18 Aug 2025</span>
+                                    <span class="related-article__date">18 Août 2025</span>
                                 </article>
                                 <article class="related-article">
                                     <h4 class="related-article__title">
-                                        <a href="2025-08-18-hyperinsulinism-when-pancreas-exhausts-itself.html">Hyperinsulinism:
-                                            When the Pancreas Exhausts Itself</a>
+                                        <a href="2025-08-18-hyperinsulinism-when-pancreas-exhausts-itself.html">L'hyperinsulinisme
+                                            :
+                                            quand le pancréas s'épuise</a>
                                     </h4>
-                                    <span class="related-article__date">18 Aug 2025</span>
+                                    <span class="related-article__date">18 Août 2025</span>
                                 </article>
                             </div>
                         </div>
 
                         <div class="sidebar-section">
-                            <h3 class="sidebar-section__title">Get in Touch</h3>
-                            <p>Have questions about your health? We're here to help.</p>
-                            <a href="../contact.html" class="btn btn--primary">Book an Appointment</a>
+                            <h3 class="sidebar-section__title">Contactez-nous</h3>
+                            <p>Vous avez des questions sur votre santé ? Nous sommes là pour vous aider.</p>
+                            <a href="../contact.html" class="btn btn--primary">Prendre rendez-vous</a>
                         </div>
                     </aside>
                 </div>
@@ -383,28 +422,29 @@
             <div class="footer__content">
                 <div class="footer__section">
                     <div class="footer__logo">
-                        <a href="../index.html" class="footer__logo-link" aria-label="Go to Family Clinic homepage">
-                            <img src="../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
-                                srcset="../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
-                                sizes="(max-width: 768px) 80px, 100px" alt="Family Clinic Logo" class="footer__logo-img"
+                        <a href="../index.html" class="footer__logo-link"
+                            aria-label="Aller à la page d'accueil de Family Clinic">
+                            <img src="../../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
+                                srcset="../../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
+                                sizes="(max-width: 768px) 80px, 100px" alt="Logo Family Clinic" class="footer__logo-img"
                                 loading="lazy" onerror="this.style.display='none'">
                             <h3 class="footer__logo-text">Family Clinic</h3>
                         </a>
                     </div>
                     <p class="footer__description">
-                        Providing comprehensive healthcare services for families in a welcoming and compassionate
-                        environment.
+                        Fournissant des services de soins de santé complets pour les familles dans un environnement
+                        accueillant et compatissant.
                     </p>
                 </div>
 
                 <div class="footer__section">
-                    <h4 class="footer__section-title">Quick Links</h4>
+                    <h4 class="footer__section-title">Liens rapides</h4>
                     <ul class="footer__links">
                         <li class="footer__item">
-                            <a href="../index.html" class="footer__link">Home</a>
+                            <a href="../index.html" class="footer__link">Accueil</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../about.html" class="footer__link">About Us</a>
+                            <a href="../about.html" class="footer__link">À propos</a>
                         </li>
                         <li class="footer__item">
                             <a href="../services.html" class="footer__link">Services</a>
@@ -422,74 +462,74 @@
                     <h4 class="footer__section-title">Services</h4>
                     <ul class="footer__links">
                         <li class="footer__item">
-                            <a href="../services.html#family-medicine" class="footer__link">Family Medicine</a>
+                            <a href="../services.html#family-medicine" class="footer__link">Médecine familiale</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#holistic-consultations" class="footer__link">Holistic
-                                Consultations</a>
+                            <a href="../services.html#holistic-consultations" class="footer__link">Consultations
+                                holistiques</a>
                         </li>
                         <li class="footer__item">
                             <a href="../services.html#quantum-scan" class="footer__link">Quantum Scan</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#naturopathy" class="footer__link">Naturopathy</a>
+                            <a href="../services.html#naturopathy" class="footer__link">Naturopathie</a>
                         </li>
                         <li class="footer__item">
                             <a href="../services.html#hijamah" class="footer__link">Hijamah</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#physiotherapy" class="footer__link">Physiotherapy</a>
+                            <a href="../services.html#physiotherapy" class="footer__link">Physiothérapie</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#dermatology" class="footer__link">Dermatology</a>
-                        <li class="footer__item">
-                            <a href="../services.html#judiciary-medical-expertise" class="footer__link">Judiciary
-                                Medical Expertise</a>
+                            <a href="../services.html#dermatology" class="footer__link">Dermatologie</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#weight-loss" class="footer__link">Weight Loss</a>
+                            <a href="../services.html#judiciary-medical-expertise" class="footer__link">Expertise
+                                médicale judiciaire</a>
                         </li>
+                        <li class="footer__item">
+                            <a href="../services.html#weight-loss" class="footer__link">Perte de poids</a>
                         </li>
                     </ul>
                 </div>
 
                 <div class="footer__section">
-                    <h4 class="footer__section-title">Contact Info</h4>
+                    <h4 class="footer__section-title">Informations de contact</h4>
                     <div class="footer__contact">
                         <div class="footer__contact-item">
-                            <strong>Address:</strong>
+                            <strong>Adresse :</strong>
                             <a href="https://maps.app.goo.gl/sPxKYDMUdsN9dVV2A" target="_blank"
                                 rel="noopener noreferrer" class="footer__link">
                                 N*47, Bloc B, Ouled Oujih<br>
-                                Kenitra, 14080, Morocco
+                                Kenitra, 14080, Maroc
                             </a>
                         </div>
                         <div class="footer__contact-item">
-                            <strong>Phone:</strong>
+                            <strong>Téléphone :</strong>
                             <a href="tel:+212-641-745-441" class="footer__link">+212-641-745-441</a>
                         </div>
                         <div class="footer__contact-item">
-                            <strong>Email:</strong>
+                            <strong>Email :</strong>
                             <a href="mailto:saidalaoui.m.a@gmail.com" class="footer__link">saidalaoui.m.a@gmail.com</a>
                         </div>
                     </div>
 
                     <p class="footer__contact-item">
-                        <strong>Hours:</strong><br>
-                        Mon-Thu: 9:00 - 17:00<br>
-                        Fri: 9:00 - 13:00, 15:00 - 18:00<br>
-                        Sat: 9:00 - 13:00
+                        <strong>Horaires :</strong><br>
+                        Lun-Jeu : 9h00 - 17h00<br>
+                        Ven : 9h00 - 13h00, 15h00 - 18h00<br>
+                        Sam : 9h00 - 13h00
                     </p>
                 </div>
             </div>
 
             <div class="footer__bottom">
                 <p class="footer__copyright">
-                    &copy; 2025 Family Clinic. All rights reserved.
+                    &copy; 2025 Family Clinic. Tous droits réservés.
                 </p>
                 <p class="footer__powered-by">
-                    Powered by <img src="../assets/images/optimized/netria/netria-logo-footer-transparent.png"
-                        alt="Netria Logo" class="footer__netria-logo" loading="lazy"> <a
+                    Propulsé par <img src="../../assets/images/optimized/netria/netria-logo-footer-transparent.png"
+                        alt="Logo Netria" class="footer__netria-logo" loading="lazy"> <a
                         href="https://netria.dev?utm_source=familyclinic&utm_medium=website&utm_campaign=footer_attribution"
                         class="footer__link" target="_blank" rel="noopener noreferrer">netria.dev</a>
                 </p>
@@ -497,7 +537,8 @@
         </div>
     </footer>
 
-    <script src="../assets/script.js"></script>
+    <script src="../../assets/script.js"></script>
+    <script src="../../assets/localization.js"></script>
 </body>
 
 </html>

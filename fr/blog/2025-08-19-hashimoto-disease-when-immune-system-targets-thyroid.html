@@ -1,20 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hashimoto's Disease: When the Immune System Targets the Thyroid - Family Clinic</title>
+    <title>Maladie de Hashimoto : Quand le Système Immunitaire Attaque la Thyroïde - Family Clinic</title>
     <meta name="description"
-        content="Understanding Hashimoto's thyroiditis, an autoimmune condition where the immune system attacks the thyroid. Learn about the role of gut health, gluten, stress, and vitamin D in managing this condition.">
+        content="Comprendre la thyroïdite de Hashimoto, une condition auto-immune où le système immunitaire attaque la thyroïde. Découvrez le rôle de la santé intestinale, du gluten, du stress et de la vitamine D dans la gestion de cette condition.">
+
+    <!-- Hreflang Tags -->
+    <link rel="alternate"
+        href="https://familyclinic.doctor/blog/2025-08-19-hashimoto-disease-when-immune-system-targets-thyroid.html"
+        hreflang="en" />
+    <link rel="alternate"
+        href="https://familyclinic.doctor/fr/blog/2025-08-19-hashimoto-disease-when-immune-system-targets-thyroid.html"
+        hreflang="fr" />
+    <link rel="alternate"
+        href="https://familyclinic.doctor/ar/blog/2025-08-19-hashimoto-disease-when-immune-system-targets-thyroid.html"
+        hreflang="ar" />
+    <link rel="alternate"
+        href="https://familyclinic.doctor/blog/2025-08-19-hashimoto-disease-when-immune-system-targets-thyroid.html"
+        hreflang="x-default" />
 
     <!-- Structured Data -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "Hashimoto's Disease: When the Immune System Targets the Thyroid",
-        "description": "Understanding Hashimoto's thyroiditis, an autoimmune condition where the immune system attacks the thyroid. Learn about the role of gut health, gluten, stress, and vitamin D in managing this condition.",
+        "headline": "Maladie de Hashimoto : Quand le Système Immunitaire Attaque la Thyroïde",
+        "description": "Comprendre la thyroïdite de Hashimoto, une condition auto-immune où le système immunitaire attaque la thyroïde. Découvrez le rôle de la santé intestinale, du gluten, du stress et de la vitamine D dans la gestion de cette condition.",
         "image": "https://www.familyclinic.doctor/assets/images/optimized/blog/researcher_banner_desktop_800x400.jpg",
         "author": {
             "@type": "Person",
@@ -33,15 +47,16 @@
     }
     </script>
 
-    <link rel="stylesheet" href="../assets/styles.css">
-    <link rel="stylesheet" href="../assets/blog.css">
-    <link rel="stylesheet" href="../assets/blog-article.css">
+    <link rel="stylesheet" href="../../assets/styles.css">
+    <link rel="stylesheet" href="../../assets/localization.css">
+    <link rel="stylesheet" href="../../assets/blog.css">
+    <link rel="stylesheet" href="../../assets/blog-article.css">
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="../assets/favicon/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../../assets/favicon/site.webmanifest">
 </head>
 
 <body>
@@ -49,22 +64,23 @@
     <header class="header">
         <div class="header__container">
             <div class="header__logo">
-                <a href="../index.html" class="header__logo-link" aria-label="Go to Family Clinic homepage">
-                    <img src="../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
-                        srcset="../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
-                        sizes="(max-width: 768px) 80px, 100px" alt="Family Clinic Logo" class="header__logo-img"
+                <a href="../index.html" class="header__logo-link"
+                    aria-label="Aller à la page d'accueil de Family Clinic">
+                    <img src="../../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
+                        srcset="../../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
+                        sizes="(max-width: 768px) 80px, 100px" alt="Logo Family Clinic" class="header__logo-img"
                         loading="lazy" onerror="this.style.display='none'">
                     <h1 class="header__logo-text">Family Clinic</h1>
                 </a>
             </div>
 
-            <nav class="nav" aria-label="Main navigation">
+            <nav class="nav" aria-label="Navigation principale">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="../index.html" class="nav__link">Home</a>
+                        <a href="../index.html" class="nav__link">Accueil</a>
                     </li>
                     <li class="nav__item">
-                        <a href="../about.html" class="nav__link">About</a>
+                        <a href="../about.html" class="nav__link">À Propos</a>
                     </li>
                     <li class="nav__item">
                         <a href="../services.html" class="nav__link">Services</a>
@@ -78,7 +94,27 @@
                 </ul>
             </nav>
 
-            <button class="header__mobile-menu" aria-label="Toggle mobile menu" aria-expanded="false">
+            <!-- Language Switcher -->
+            <div class="language-switcher">
+                <button class="language-switcher__toggle" aria-label="Choisir la langue" aria-expanded="false">
+                    <span class="language-switcher__current">FR</span>
+                    <svg class="language-switcher__icon" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </button>
+                <ul class="language-switcher__menu">
+                    <li><a href="../../blog/2025-08-19-hashimoto-disease-when-immune-system-targets-thyroid.html"
+                            data-lang="en">English</a></li>
+                    <li><a href="2025-08-19-hashimoto-disease-when-immune-system-targets-thyroid.html" data-lang="fr"
+                            class="active">Français</a></li>
+                    <li><a href="../../ar/blog/2025-08-19-hashimoto-disease-when-immune-system-targets-thyroid.html"
+                            data-lang="ar">العربية</a></li>
+                </ul>
+            </div>
+
+            <button class="header__mobile-menu" aria-label="Basculer le menu mobile" aria-expanded="false">
                 <span class="header__mobile-menu-line"></span>
                 <span class="header__mobile-menu-line"></span>
                 <span class="header__mobile-menu-line"></span>
@@ -92,32 +128,36 @@
         <section class="article-header">
             <div class="container">
                 <div class="article-header__content">
-                    <nav class="article-breadcrumb" aria-label="Breadcrumb">
+                    <nav class="article-breadcrumb" aria-label="Fil d'ariane">
                         <ol class="article-breadcrumb__list">
                             <li class="article-breadcrumb__item">
-                                <a href="../index.html" class="article-breadcrumb__link">Home</a>
+                                <a href="../index.html" class="article-breadcrumb__link">Accueil</a>
                             </li>
                             <li class="article-breadcrumb__item">
                                 <a href="catalog.html" class="article-breadcrumb__link">Blog</a>
                             </li>
                             <li class="article-breadcrumb__item" aria-current="page">
-                                <span class="article-breadcrumb__current">Hashimoto's Disease</span>
+                                <span class="article-breadcrumb__current">Maladie de Hashimoto</span>
                             </li>
                         </ol>
                     </nav>
 
                     <div class="article-meta">
-                        <span class="article-meta__date">19 Aug 2025</span>
-                        <!-- <span class="article-meta__author">By Dr. Said-Alaoui Moulay Abdellah</span> -->
+                        <span class="article-meta__date">19 Août 2025</span>
+                        <!-- <span class="article-meta__author">Par Dr. Said-Alaoui Moulay Abdellah</span> -->
                     </div>
 
-                    <h1 class="article-title">Hashimoto's Disease: When the Immune System Targets the Thyroid</h1>
+                    <h1 class="article-title">Maladie de Hashimoto : Quand le Système Immunitaire Attaque la Thyroïde
+                    </h1>
 
                     <p class="article-excerpt">
-                        Hashimoto's thyroiditis is an autoimmune condition where the body produces antibodies that
-                        attack its own thyroid gland. This aggression leads to progressive hypothyroidism, sometimes
-                        silent for years, until partial or total destruction of the gland occurs. Understanding the root
-                        causes can help in managing this complex condition.
+                        La thyroïdite de Hashimoto est une condition auto-immune où l'organisme produit des anticorps
+                        qui
+                        attaquent sa propre glande thyroïde. Cette agression conduit à un hypothyroïdisme progressif,
+                        parfois
+                        silencieux pendant des années, jusqu'à la destruction partielle ou totale de la glande.
+                        Comprendre les
+                        causes profondes peut aider à gérer cette condition complexe.
                     </p>
                 </div>
             </div>
@@ -129,207 +169,234 @@
                 <div class="article-layout">
                     <article class="article-main">
                         <div class="article-image">
-                            <img src="../assets/images/optimized/blog/researcher_banner_desktop_800x400.jpg"
-                                srcset="../assets/images/optimized/blog/researcher_banner_mobile_600x300.jpg 600w, ../assets/images/optimized/blog/researcher_banner_desktop_800x400.jpg 800w"
+                            <img src="../../assets/images/optimized/blog/researcher_banner_desktop_800x400.jpg"
+                                srcset="../../assets/images/optimized/blog/researcher_banner_mobile_600x300.jpg 600w, ../../assets/images/optimized/blog/researcher_banner_desktop_800x400.jpg 800w"
                                 sizes="(max-width: 768px) 600px, 800px"
-                                alt="Medical researcher studying autoimmune conditions and thyroid health"
+                                alt="Chercheur médical étudiant les conditions auto-immunes et la santé thyroïdienne"
                                 loading="lazy" onerror="this.style.display='none'">
                         </div>
 
                         <div class="article-body">
                             <p>
-                                Hashimoto's disease is an autoimmune thyroiditis: the body produces antibodies that
-                                attack its own thyroid. This aggression leads to progressive hypothyroidism, sometimes
-                                silent for years, until partial or total destruction of the gland. But why does the
-                                immune system turn against the thyroid?
+                                La maladie de Hashimoto est une thyroïdite auto-immune : l'organisme produit des
+                                anticorps qui
+                                attaquent sa propre thyroïde. Cette agression conduit à un hypothyroïdisme progressif,
+                                parfois
+                                silencieux pendant des années, jusqu'à la destruction partielle ou totale de la glande.
+                                Mais
+                                pourquoi le système immunitaire se retourne-t-il contre la thyroïde ?
                             </p>
 
-                            <h2>The Gut: Key to Immune Balance</h2>
+                            <h2>L'Intestin : Clé de l'Équilibre Immunitaire</h2>
 
                             <p>
-                                Numerous studies show that the intestinal barrier plays a central role in the onset of
-                                autoimmune diseases. In cases of intestinal permeability (often called "leaky gut"),
-                                food protein fragments pass into the bloodstream. The immune system identifies them as
-                                intruders and produces antibodies to eliminate them.
-                            </p>
-
-                            <p>
-                                However, in some people, these proteins strangely resemble those of the thyroid. Result:
-                                the body attacks both, triggering an autoimmune reaction.
-                            </p>
-
-                            <p>
-                                This phenomenon is called cross-reaction or "molecular mimicry."
-                            </p>
-
-                            <h2>Gluten and Hashimoto's: A Well-Documented Link</h2>
-
-                            <p>
-                                Gluten, a protein found in wheat, barley, and rye, is particularly implicated. Several
-                                studies have shown a correlation between anti-gliadin (gluten) antibodies and
-                                antithyroid antibodies.
+                                De nombreuses études montrent que la barrière intestinale joue un rôle central dans le
+                                déclenchement des maladies auto-immunes. En cas de perméabilité intestinale (souvent
+                                appelée
+                                "intestin poreux"), des fragments de protéines alimentaires passent dans la circulation
+                                sanguine. Le système immunitaire les identifie comme des intrus et produit des anticorps
+                                pour
+                                les éliminer.
                             </p>
 
                             <p>
-                                In some patients, reducing or eliminating gluten can decrease inflammation and
-                                autoimmune antibody levels.
-                            </p>
-
-                            <h2>Stress: A Silent Amplifier</h2>
-
-                            <p>
-                                Chronic stress acts as both a trigger and an amplifier of autoimmune disorders. It
-                                disrupts the gut via the vagus nerve, weakens the adrenals, and decreases cortisol
-                                production.
+                                Or, chez certaines personnes, ces protéines ressemblent étrangement à celles de la
+                                thyroïde.
+                                Résultat : l'organisme attaque les deux, déclenchant une réaction auto-immune.
                             </p>
 
                             <p>
-                                However, cortisol is essential for thyroid hormones to enter target cells. In case of
-                                deficiency, we observe thyroid hormone resistance, even if blood levels seem normal.
+                                Ce phénomène s'appelle la réaction croisée ou "mimétisme moléculaire".
                             </p>
 
-                            <h2>Vitamin D: An Underestimated Immune Modulator</h2>
+                            <h2>Gluten et Hashimoto : Un Lien Bien Documenté</h2>
 
                             <p>
-                                Vitamin D plays a crucial role in regulating the immune system. Several studies have
-                                shown that:
+                                Le gluten, protéine présente dans le blé, l'orge et le seigle, est particulièrement mis
+                                en
+                                cause. Plusieurs études ont montré une corrélation entre les anticorps anti-gliadine
+                                (gluten)
+                                et les anticorps anti-thyroïdiens.
+                            </p>
+
+                            <p>
+                                Chez certains patients, la réduction ou l'élimination du gluten peut diminuer
+                                l'inflammation
+                                et les taux d'anticorps auto-immuns.
+                            </p>
+
+                            <h2>Le Stress : Un Amplificateur Silencieux</h2>
+
+                            <p>
+                                Le stress chronique agit à la fois comme déclencheur et amplificateur des troubles
+                                auto-immuns.
+                                Il perturbe l'intestin via le nerf vague, affaiblit les surrénales et diminue la
+                                production
+                                de cortisol.
+                            </p>
+
+                            <p>
+                                Or, le cortisol est essentiel pour que les hormones thyroïdiennes pénètrent dans les
+                                cellules
+                                cibles. En cas de carence, on observe une résistance aux hormones thyroïdiennes, même si
+                                les
+                                taux sanguins semblent normaux.
+                            </p>
+
+                            <h2>La Vitamine D : Un Modulateur Immunitaire Sous-estimé</h2>
+
+                            <p>
+                                La vitamine D joue un rôle crucial dans la régulation du système immunitaire. Plusieurs
+                                études
+                                ont montré que :
                             </p>
 
                             <ul>
-                                <li>People with Hashimoto's often have low vitamin D levels</li>
-                                <li>Appropriate supplementation can reduce antithyroid antibody levels</li>
+                                <li>Les personnes atteintes de Hashimoto ont souvent des taux de vitamine D bas</li>
+                                <li>Une supplémentation appropriée peut diminuer les taux d'anticorps anti-thyroïdiens
+                                </li>
                             </ul>
 
                             <p>
-                                Blood testing and personalized supplementation are recommended.
+                                Un dosage sanguin et une supplémentation personnalisée sont recommandés.
                             </p>
 
-                            <h2>Toward an Integrative Approach: Gut, Nutrition, Stress</h2>
+                            <h2>Vers une Approche Intégrative : Intestin, Nutrition, Stress</h2>
 
                             <p>
-                                Managing Hashimoto's is not limited to hormone replacement therapy. A comprehensive
-                                approach may include:
+                                La gestion de Hashimoto ne se limite pas à l'hormonothérapie substitutive. Une approche
+                                globale peut inclure :
                             </p>
 
                             <div class="article-table">
                                 <table>
                                     <thead>
                                         <tr>
-                                            <th>Therapeutic Axis</th>
-                                            <th>Primary Objective</th>
+                                            <th>Axe Thérapeutique</th>
+                                            <th>Objectif Principal</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>Microbiome Rebalancing</td>
-                                            <td>Restore the intestinal barrier</td>
+                                            <td>Rééquilibrage du Microbiote</td>
+                                            <td>Restaurer la barrière intestinale</td>
                                         </tr>
                                         <tr>
-                                            <td>Gluten Reduction</td>
-                                            <td>Decrease autoimmune cross-reactions</td>
+                                            <td>Réduction du Gluten</td>
+                                            <td>Diminuer les réactions croisées auto-immunes</td>
                                         </tr>
                                         <tr>
-                                            <td>Stress Management</td>
-                                            <td>Support the adrenals and vagus nerve</td>
+                                            <td>Gestion du Stress</td>
+                                            <td>Soutenir les surrénales et le nerf vague</td>
                                         </tr>
                                         <tr>
-                                            <td>Vitamin D Supplementation</td>
-                                            <td>Modulate immunity and reduce antibodies</td>
+                                            <td>Supplémentation en Vitamine D</td>
+                                            <td>Moduler l'immunité et réduire les anticorps</td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
 
-                            <h2>In Conclusion: Listening to Weak Signals</h2>
+                            <h2>En Conclusion : Écouter les Signaux Faibles</h2>
 
                             <p>
-                                Hashimoto's is often silent, but its roots run deep. By acting on the gut, stress, and
-                                nutrition, it's possible to slow its progression and even reduce symptoms. At Family
-                                Clinic, we believe in integrative medicine that connects organs, emotions, and lifestyle
-                                habits.
+                                Hashimoto est souvent silencieuse, mais ses racines sont profondes. En agissant sur
+                                l'intestin,
+                                le stress et la nutrition, il est possible de ralentir sa progression et même de réduire
+                                les
+                                symptômes. À Family Clinic, nous croyons en une médecine intégrative qui relie organes,
+                                émotions et habitudes de vie.
                             </p>
 
                             <p>
-                                Understanding Hashimoto's disease requires looking beyond just thyroid hormone levels.
-                                The interconnection between our gut health, immune system, and overall well-being plays
-                                a crucial role in both the development and management of this autoimmune condition.
+                                Comprendre la maladie de Hashimoto nécessite de regarder au-delà des simples taux
+                                d'hormones
+                                thyroïdiennes. L'interconnexion entre notre santé intestinale, notre système immunitaire
+                                et
+                                notre bien-être général joue un rôle crucial dans le développement et la gestion de
+                                cette
+                                condition auto-immune.
                             </p>
 
                             <p>
-                                If you suspect you may have Hashimoto's or are already diagnosed and looking for a
-                                comprehensive approach to management, we encourage you to discuss these factors with
-                                your healthcare provider. A holistic approach that addresses gut health, stress
-                                management, nutrition, and appropriate supplementation can make a significant difference
-                                in your quality of life.
+                                Si vous soupçonnez avoir Hashimoto ou êtes déjà diagnostiqué et cherchez une approche
+                                globale de gestion, nous vous encourageons à discuter de ces facteurs avec votre
+                                professionnel
+                                de santé. Une approche holistique qui adresse la santé intestinale, la gestion du
+                                stress,
+                                la nutrition et une supplémentation appropriée peut faire une différence significative
+                                dans
+                                votre qualité de vie.
                             </p>
 
                             <p>
-                                <em>Warm regards, Dr. Said-Alaoui Moulay Abdellah and the Family Clinic Team</em>
+                                <em>Cordialement, Dr. Said-Alaoui Moulay Abdellah et l'équipe de Family Clinic</em>
                             </p>
                         </div>
 
                         <div class="article-footer">
                             <div class="article-tags">
-                                <span class="article-tags__label">Tags:</span>
-                                <a href="catalog.html" class="article-tags__tag">Hashimoto's Disease</a>
-                                <a href="catalog.html" class="article-tags__tag">Autoimmune</a>
-                                <a href="catalog.html" class="article-tags__tag">Thyroid Health</a>
-                                <a href="catalog.html" class="article-tags__tag">Gut Health</a>
-                                <a href="catalog.html" class="article-tags__tag">Integrative Medicine</a>
+                                <span class="article-tags__label">Mots-clés :</span>
+                                <a href="catalog.html" class="article-tags__tag">Maladie de Hashimoto</a>
+                                <a href="catalog.html" class="article-tags__tag">Auto-immune</a>
+                                <a href="catalog.html" class="article-tags__tag">Santé Thyroïdienne</a>
+                                <a href="catalog.html" class="article-tags__tag">Santé Intestinale</a>
+                                <a href="catalog.html" class="article-tags__tag">Médecine Intégrative</a>
                             </div>
                         </div>
                     </article>
 
                     <aside class="article-sidebar">
                         <!-- <div class="sidebar-section"> -->
-                        <!-- <h3 class="sidebar-section__title">About the Author</h3> -->
+                        <!-- <h3 class="sidebar-section__title">À Propos de l'Auteur</h3> -->
                         <a href="../about.html#dr-said-alaoui" class="author-card">
-                            <img src="../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png"
-                                srcset="../assets/images/optimized/team/dr_my_abdellah_mobile_300x300.png 300w, ../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png 400w"
+                            <img src="../../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png"
+                                srcset="../../assets/images/optimized/team/dr_my_abdellah_mobile_300x300.png 300w, ../../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png 400w"
                                 sizes="(max-width: 768px) 300px, 400px" alt="Dr. Said-Alaoui Moulay Abdellah"
                                 loading="lazy" onerror="this.style.display='none'" class="author-card__image">
                             <div class="author-card__content">
                                 <h4 class="author-card__name">Dr. Said-Alaoui Moulay Abdellah</h4>
-                                <p class="author-card__title">Family Medicine Physician</p>
+                                <p class="author-card__title">Médecin de Famille</p>
                                 <p class="author-card__bio">
-                                    Family medicine physician and former military doctor with 40+ years experience,
-                                    specializing in nutritional therapy and environmental causes.
+                                    Médecin de famille et ancien médecin militaire avec plus de 40 ans d'expérience,
+                                    spécialisé en thérapie nutritionnelle et causes environnementales.
                                 </p>
                             </div>
                         </a>
                         <!-- </div> -->
 
                         <div class="sidebar-section">
-                            <h3 class="sidebar-section__title">Related Articles</h3>
+                            <h3 class="sidebar-section__title">Articles Connexes</h3>
                             <div class="related-articles">
                                 <article class="related-article">
                                     <h4 class="related-article__title">
-                                        <a href="2025-08-19-damaged-microbiome-modern-world-attack.html">When the
-                                            Microbiome is Damaged: The Modern World's Attack</a>
+                                        <a href="2025-08-19-damaged-microbiome-modern-world-attack.html">Quand le
+                                            Microbiote est Endommagé : L'Attaque du Monde Moderne</a>
                                     </h4>
-                                    <span class="related-article__date">19 Aug 2025</span>
+                                    <span class="related-article__date">19 Août 2025</span>
                                 </article>
                                 <article class="related-article">
                                     <h4 class="related-article__title">
-                                        <a href="2025-08-19-how-to-close-intestinal-holes-21-day-program.html">How to
-                                            Close Intestinal Holes: A 21-Day Program</a>
+                                        <a href="2025-08-19-how-to-close-intestinal-holes-21-day-program.html">Comment
+                                            Fermer les Trous Intestinaux : Un Programme de 21 Jours</a>
                                     </h4>
-                                    <span class="related-article__date">19 Aug 2025</span>
+                                    <span class="related-article__date">19 Août 2025</span>
                                 </article>
                                 <article class="related-article">
                                     <h4 class="related-article__title">
-                                        <a href="2025-08-18-hyperinsulinism-when-pancreas-exhausts-itself.html">Hyperinsulinism:
-                                            When the Pancreas Exhausts Itself</a>
+                                        <a href="2025-08-18-hyperinsulinism-when-pancreas-exhausts-itself.html">Hyperinsulinisme
+                                            :
+                                            Quand le Pancréas s'Épuise</a>
                                     </h4>
-                                    <span class="related-article__date">18 Aug 2025</span>
+                                    <span class="related-article__date">18 Août 2025</span>
                                 </article>
                             </div>
                         </div>
 
                         <div class="sidebar-section">
-                            <h3 class="sidebar-section__title">Get in Touch</h3>
-                            <p>Have questions about your health? We're here to help.</p>
-                            <a href="../contact.html" class="btn btn--primary">Book an Appointment</a>
+                            <h3 class="sidebar-section__title">Prenez Contact</h3>
+                            <p>Vous avez des questions sur votre santé ? Nous sommes là pour vous aider.</p>
+                            <a href="../contact.html" class="btn btn--primary">Prendre Rendez-vous</a>
                         </div>
                     </aside>
                 </div>
@@ -343,28 +410,29 @@
             <div class="footer__content">
                 <div class="footer__section">
                     <div class="footer__logo">
-                        <a href="../index.html" class="footer__logo-link" aria-label="Go to Family Clinic homepage">
-                            <img src="../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
-                                srcset="../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
-                                sizes="(max-width: 768px) 80px, 100px" alt="Family Clinic Logo" class="footer__logo-img"
+                        <a href="../index.html" class="footer__logo-link"
+                            aria-label="Aller à la page d'accueil de Family Clinic">
+                            <img src="../../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
+                                srcset="../../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
+                                sizes="(max-width: 768px) 80px, 100px" alt="Logo Family Clinic" class="footer__logo-img"
                                 loading="lazy" onerror="this.style.display='none'">
                             <h3 class="footer__logo-text">Family Clinic</h3>
                         </a>
                     </div>
                     <p class="footer__description">
-                        Providing comprehensive healthcare services for families in a welcoming and compassionate
-                        environment.
+                        Fournir des services de soins de santé complets pour les familles dans un environnement
+                        accueillant et compatissant.
                     </p>
                 </div>
 
                 <div class="footer__section">
-                    <h4 class="footer__section-title">Quick Links</h4>
+                    <h4 class="footer__section-title">Liens Rapides</h4>
                     <ul class="footer__links">
                         <li class="footer__item">
-                            <a href="../index.html" class="footer__link">Home</a>
+                            <a href="../index.html" class="footer__link">Accueil</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../about.html" class="footer__link">About Us</a>
+                            <a href="../about.html" class="footer__link">À Propos</a>
                         </li>
                         <li class="footer__item">
                             <a href="../services.html" class="footer__link">Services</a>
@@ -382,74 +450,74 @@
                     <h4 class="footer__section-title">Services</h4>
                     <ul class="footer__links">
                         <li class="footer__item">
-                            <a href="../services.html#family-medicine" class="footer__link">Family Medicine</a>
+                            <a href="../services.html#family-medicine" class="footer__link">Médecine Familiale</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#holistic-consultations" class="footer__link">Holistic
-                                Consultations</a>
+                            <a href="../services.html#holistic-consultations" class="footer__link">Consultations
+                                Holistiques</a>
                         </li>
                         <li class="footer__item">
                             <a href="../services.html#quantum-scan" class="footer__link">Quantum Scan</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#naturopathy" class="footer__link">Naturopathy</a>
+                            <a href="../services.html#naturopathy" class="footer__link">Naturopathie</a>
                         </li>
                         <li class="footer__item">
                             <a href="../services.html#hijamah" class="footer__link">Hijamah</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#physiotherapy" class="footer__link">Physiotherapy</a>
+                            <a href="../services.html#physiotherapy" class="footer__link">Physiothérapie</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#dermatology" class="footer__link">Dermatology</a>
-                        <li class="footer__item">
-                            <a href="../services.html#judiciary-medical-expertise" class="footer__link">Judiciary
-                                Medical Expertise</a>
+                            <a href="../services.html#dermatology" class="footer__link">Dermatologie</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#weight-loss" class="footer__link">Weight Loss</a>
+                            <a href="../services.html#judiciary-medical-expertise" class="footer__link">Expertise
+                                Médicale Judiciaire</a>
                         </li>
+                        <li class="footer__item">
+                            <a href="../services.html#weight-loss" class="footer__link">Perte de Poids</a>
                         </li>
                     </ul>
                 </div>
 
                 <div class="footer__section">
-                    <h4 class="footer__section-title">Contact Info</h4>
+                    <h4 class="footer__section-title">Informations de Contact</h4>
                     <div class="footer__contact">
                         <div class="footer__contact-item">
-                            <strong>Address:</strong>
+                            <strong>Adresse :</strong>
                             <a href="https://maps.app.goo.gl/sPxKYDMUdsN9dVV2A" target="_blank"
                                 rel="noopener noreferrer" class="footer__link">
                                 N*47, Bloc B, Ouled Oujih<br>
-                                Kenitra, 14080, Morocco
+                                Kenitra, 14080, Maroc
                             </a>
                         </div>
                         <div class="footer__contact-item">
-                            <strong>Phone:</strong>
+                            <strong>Téléphone :</strong>
                             <a href="tel:+212-641-745-441" class="footer__link">+212-641-745-441</a>
                         </div>
                         <div class="footer__contact-item">
-                            <strong>Email:</strong>
+                            <strong>Email :</strong>
                             <a href="mailto:saidalaoui.m.a@gmail.com" class="footer__link">saidalaoui.m.a@gmail.com</a>
                         </div>
                     </div>
 
                     <p class="footer__contact-item">
-                        <strong>Hours:</strong><br>
-                        Mon-Thu: 9:00 - 17:00<br>
-                        Fri: 9:00 - 13:00, 15:00 - 18:00<br>
-                        Sat: 9:00 - 13:00
+                        <strong>Horaires :</strong><br>
+                        Lun-Jeu : 9h00 - 17h00<br>
+                        Ven : 9h00 - 13h00, 15h00 - 18h00<br>
+                        Sam : 9h00 - 13h00
                     </p>
                 </div>
             </div>
 
             <div class="footer__bottom">
                 <p class="footer__copyright">
-                    &copy; 2025 Family Clinic. All rights reserved.
+                    &copy; 2025 Family Clinic. Tous droits réservés.
                 </p>
                 <p class="footer__powered-by">
-                    Powered by <img src="../assets/images/optimized/netria/netria-logo-footer-transparent.png"
-                        alt="Netria Logo" class="footer__netria-logo" loading="lazy"> <a
+                    Propulsé par <img src="../../assets/images/optimized/netria/netria-logo-footer-transparent.png"
+                        alt="Logo Netria" class="footer__netria-logo" loading="lazy"> <a
                         href="https://netria.dev?utm_source=familyclinic&utm_medium=website&utm_campaign=footer_attribution"
                         class="footer__link" target="_blank" rel="noopener noreferrer">netria.dev</a>
                 </p>
@@ -457,7 +525,8 @@
         </div>
     </footer>
 
-    <script src="../assets/script.js"></script>
+    <script src="../../assets/script.js"></script>
+    <script src="../../assets/localization.js"></script>
 </body>
 
 </html>

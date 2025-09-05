@@ -1,20 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hijama: A Therapeutic Method for Global Well-being - Family Clinic</title>
+    <title>Hijama : Une Méthode Thérapeutique pour le Bien-être Global - Family Clinic</title>
     <meta name="description"
-        content="Discover hijama (cupping therapy) - an ancestral and effective natural therapeutic method. Learn about its benefits, how it works, and its applications for pain relief, detoxification, and overall wellness.">
+        content="Découvrez la hijama (thérapie par ventouses) - une méthode thérapeutique naturelle ancestrale et efficace. Apprenez ses bienfaits, son fonctionnement et ses applications pour le soulagement de la douleur, la détoxification et le bien-être général.">
+
+    <!-- Hreflang Tags -->
+    <link rel="alternate"
+        href="https://familyclinic.doctor/blog/2025-08-19-hijama-therapeutic-method-global-wellness.html"
+        hreflang="en" />
+    <link rel="alternate"
+        href="https://familyclinic.doctor/fr/blog/2025-08-19-hijama-therapeutic-method-global-wellness.html"
+        hreflang="fr" />
+    <link rel="alternate"
+        href="https://familyclinic.doctor/ar/blog/2025-08-19-hijama-therapeutic-method-global-wellness.html"
+        hreflang="ar" />
+    <link rel="alternate"
+        href="https://familyclinic.doctor/blog/2025-08-19-hijama-therapeutic-method-global-wellness.html"
+        hreflang="x-default" />
 
     <!-- Structured Data -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "Hijama: A Therapeutic Method for Global Well-being",
-        "description": "Discover hijama (cupping therapy) - an ancestral and effective natural therapeutic method. Learn about its benefits, how it works, and its applications for pain relief, detoxification, and overall wellness.",
+        "headline": "Hijama : Une Méthode Thérapeutique pour le Bien-être Global",
+        "description": "Découvrez la hijama (thérapie par ventouses) - une méthode thérapeutique naturelle ancestrale et efficace. Apprenez ses bienfaits, son fonctionnement et ses applications pour le soulagement de la douleur, la détoxification et le bien-être général.",
         "image": "https://www.familyclinic.doctor/assets/images/optimized/blog/hijama_banner_desktop_800x400.jpg",
         "author": {
             "@type": "Person",
@@ -33,15 +47,16 @@
     }
     </script>
 
-    <link rel="stylesheet" href="../assets/styles.css">
-    <link rel="stylesheet" href="../assets/blog.css">
-    <link rel="stylesheet" href="../assets/blog-article.css">
+    <link rel="stylesheet" href="../../assets/styles.css">
+    <link rel="stylesheet" href="../../assets/localization.css">
+    <link rel="stylesheet" href="../../assets/blog.css">
+    <link rel="stylesheet" href="../../assets/blog-article.css">
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="../assets/favicon/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../../assets/favicon/site.webmanifest">
 </head>
 
 <body>
@@ -49,22 +64,23 @@
     <header class="header">
         <div class="header__container">
             <div class="header__logo">
-                <a href="../index.html" class="header__logo-link" aria-label="Go to Family Clinic homepage">
-                    <img src="../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
-                        srcset="../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
-                        sizes="(max-width: 768px) 80px, 100px" alt="Family Clinic Logo" class="header__logo-img"
+                <a href="../index.html" class="header__logo-link"
+                    aria-label="Aller à la page d'accueil de Family Clinic">
+                    <img src="../../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
+                        srcset="../../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
+                        sizes="(max-width: 768px) 80px, 100px" alt="Logo Family Clinic" class="header__logo-img"
                         loading="lazy" onerror="this.style.display='none'">
                     <h1 class="header__logo-text">Family Clinic</h1>
                 </a>
             </div>
 
-            <nav class="nav" aria-label="Main navigation">
+            <nav class="nav" aria-label="Navigation principale">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="../index.html" class="nav__link">Home</a>
+                        <a href="../index.html" class="nav__link">Accueil</a>
                     </li>
                     <li class="nav__item">
-                        <a href="../about.html" class="nav__link">About</a>
+                        <a href="../about.html" class="nav__link">À Propos</a>
                     </li>
                     <li class="nav__item">
                         <a href="../services.html" class="nav__link">Services</a>
@@ -78,7 +94,27 @@
                 </ul>
             </nav>
 
-            <button class="header__mobile-menu" aria-label="Toggle mobile menu" aria-expanded="false">
+            <!-- Language Switcher -->
+            <div class="language-switcher">
+                <button class="language-switcher__toggle" aria-label="Choisir la langue" aria-expanded="false">
+                    <span class="language-switcher__current">FR</span>
+                    <svg class="language-switcher__icon" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </button>
+                <ul class="language-switcher__menu">
+                    <li><a href="../../blog/2025-08-19-hijama-therapeutic-method-global-wellness.html"
+                            data-lang="en">English</a></li>
+                    <li><a href="2025-08-19-hijama-therapeutic-method-global-wellness.html" data-lang="fr"
+                            class="active">Français</a></li>
+                    <li><a href="../../ar/blog/2025-08-19-hijama-therapeutic-method-global-wellness.html"
+                            data-lang="ar">العربية</a></li>
+                </ul>
+            </div>
+
+            <button class="header__mobile-menu" aria-label="Basculer le menu mobile" aria-expanded="false">
                 <span class="header__mobile-menu-line"></span>
                 <span class="header__mobile-menu-line"></span>
                 <span class="header__mobile-menu-line"></span>
@@ -92,32 +128,35 @@
         <section class="article-header">
             <div class="container">
                 <div class="article-header__content">
-                    <nav class="article-breadcrumb" aria-label="Breadcrumb">
+                    <nav class="article-breadcrumb" aria-label="Fil d'ariane">
                         <ol class="article-breadcrumb__list">
                             <li class="article-breadcrumb__item">
-                                <a href="../index.html" class="article-breadcrumb__link">Home</a>
+                                <a href="../index.html" class="article-breadcrumb__link">Accueil</a>
                             </li>
                             <li class="article-breadcrumb__item">
                                 <a href="catalog.html" class="article-breadcrumb__link">Blog</a>
                             </li>
                             <li class="article-breadcrumb__item" aria-current="page">
-                                <span class="article-breadcrumb__current">Hijama: A Therapeutic Method for Global
-                                    Well-being</span>
+                                <span class="article-breadcrumb__current">Hijama : Une Méthode Thérapeutique pour le
+                                    Bien-être Global</span>
                             </li>
                         </ol>
                     </nav>
 
                     <div class="article-meta">
-                        <span class="article-meta__date">19 Aug 2025</span>
-                        <!-- <span class="article-meta__author">By Dr. Said-Alaoui Moulay Abdellah</span> -->
+                        <span class="article-meta__date">19 Août 2025</span>
+                        <!-- <span class="article-meta__author">Par Dr. Said-Alaoui Moulay Abdellah</span> -->
                     </div>
 
-                    <h1 class="article-title">Hijama: A Therapeutic Method for Global Well-being</h1>
+                    <h1 class="article-title">Hijama : Une Méthode Thérapeutique pour le Bien-être Global</h1>
 
                     <p class="article-excerpt">
-                        Discover hijama (cupping therapy) - an ancestral and effective natural therapeutic method that
-                        addresses growing demands for holistic healthcare. Learn about its benefits for pain relief,
-                        detoxification, and overall wellness in a secure medical framework.
+                        Découvrez la hijama (thérapie par ventouses) - une méthode thérapeutique naturelle ancestrale et
+                        efficace qui répond aux demandes croissantes de soins de santé holistiques. Apprenez ses
+                        bienfaits
+                        pour le soulagement de la douleur, la détoxification et le bien-être général dans un cadre
+                        médical
+                        sécurisé.
                     </p>
                 </div>
             </div>
@@ -129,155 +168,158 @@
                 <div class="article-layout">
                     <article class="article-main">
                         <div class="article-image">
-                            <img src="../assets/images/optimized/blog/hijama_banner_desktop_800x400.jpg"
-                                srcset="../assets/images/optimized/blog/hijama_banner_mobile_600x300.jpg 600w, ../assets/images/optimized/blog/hijama_banner_desktop_800x400.jpg 800w"
+                            <img src="../../assets/images/optimized/blog/hijama_banner_desktop_800x400.jpg"
+                                srcset="../../assets/images/optimized/blog/hijama_banner_mobile_600x300.jpg 600w, ../../assets/images/optimized/blog/hijama_banner_desktop_800x400.jpg 800w"
                                 sizes="(max-width: 768px) 600px, 800px"
-                                alt="Hijama cupping therapy session showing glass cups applied to patient's back"
+                                alt="Séance de thérapie hijama par ventouses montrant des ventouses en verre appliquées sur le dos du patient"
                                 loading="lazy" onerror="this.style.display='none'">
                         </div>
 
                         <div class="article-body">
-                            <h2>A Response to Growing Demand</h2>
+                            <h2>Une Réponse à une Demande Croissante</h2>
 
                             <p>
-                                Faced with a public increasingly concerned with benefiting from care that promotes a
-                                holistic approach to the human person, hijama - or cupping therapy - establishes itself
-                                as a natural, ancestral, and effective therapeutic method.
+                                Face à un public de plus en plus soucieux de bénéficier de soins qui privilégient une
+                                approche holistique de la personne humaine, la hijama - ou thérapie par ventouses -
+                                s'impose
+                                comme une méthode thérapeutique naturelle, ancestrale et efficace.
                             </p>
 
-                            <h2>Main Benefits of Hijama</h2>
+                            <h2>Principaux Bienfaits de la Hijama</h2>
 
-                            <p>Hijama is used to:</p>
+                            <p>La hijama est utilisée pour :</p>
 
                             <ul>
-                                <li>Relieve muscular, joint, and chronic pain</li>
-                                <li>Promote relaxation and reduce stress</li>
-                                <li>Cleanse the body by eliminating toxins</li>
-                                <li>Rebalance biological functions</li>
-                                <li>Strengthen immune defenses</li>
-                                <li>Stimulate natural hormone production</li>
+                                <li>Soulager les douleurs musculaires, articulaires et chroniques</li>
+                                <li>Favoriser la relaxation et réduire le stress</li>
+                                <li>Nettoyer l'organisme en éliminant les toxines</li>
+                                <li>Rééquilibrer les fonctions biologiques</li>
+                                <li>Renforcer les défenses immunitaires</li>
+                                <li>Stimuler la production naturelle d'hormones</li>
                             </ul>
 
-                            <h2>How Does It Work?</h2>
+                            <h2>Comment Cela Fonctionne-t-il ?</h2>
 
                             <p>
-                                Hijama consists of applying cups to specific areas of the body. Depending on the method
-                                used (dry or wet), it may include light incisions to extract stagnant blood, thus
-                                promoting:
+                                La hijama consiste à appliquer des ventouses sur des zones spécifiques du corps. Selon
+                                la
+                                méthode utilisée (sèche ou humide), elle peut inclure de légères incisions pour extraire
+                                le sang stagnant, favorisant ainsi :
                             </p>
 
                             <ul>
-                                <li>Better blood and lymphatic circulation</li>
-                                <li>Deep detoxification</li>
-                                <li>Stimulation of the parasympathetic nervous system, conducive to relaxation</li>
+                                <li>Une meilleure circulation sanguine et lymphatique</li>
+                                <li>Une détoxification profonde</li>
+                                <li>La stimulation du système nerveux parasympathique, propice à la relaxation</li>
                             </ul>
 
-                            <h2>Frequent Indications</h2>
+                            <h2>Indications Fréquentes</h2>
 
-                            <p>Hijama is commonly used for treating:</p>
+                            <p>La hijama est couramment utilisée pour traiter :</p>
 
                             <ul>
-                                <li>Headaches, migraines</li>
-                                <li>Back and joint pain</li>
-                                <li>Chronic fatigue</li>
-                                <li>Hormonal disorders</li>
-                                <li>Stress and sleep disorders</li>
-                                <li>Menstrual cycle support or menopause management</li>
+                                <li>Maux de tête, migraines</li>
+                                <li>Douleurs dorsales et articulaires</li>
+                                <li>Fatigue chronique</li>
+                                <li>Troubles hormonaux</li>
+                                <li>Stress et troubles du sommeil</li>
+                                <li>Accompagnement du cycle menstruel ou gestion de la ménopause</li>
                             </ul>
 
-                            <h2>Contraindications</h2>
+                            <h2>Contre-indications</h2>
 
-                            <p>Hijama is not recommended for:</p>
+                            <p>La hijama n'est pas recommandée pour :</p>
 
                             <ul>
-                                <li>Children under 3 years old</li>
-                                <li>Pregnant women (depending on the case)</li>
-                                <li>People on anticoagulants or with pacemakers</li>
-                                <li>Patients during acute phases of chronic disease</li>
-                                <li>People with malignant tumors</li>
+                                <li>Les enfants de moins de 3 ans</li>
+                                <li>Les femmes enceintes (selon le cas)</li>
+                                <li>Les personnes sous anticoagulants ou porteuses de stimulateurs cardiaques</li>
+                                <li>Les patients en phase aiguë de maladie chronique</li>
+                                <li>Les personnes atteintes de tumeurs malignes</li>
                             </ul>
 
-                            <h2>In Summary</h2>
+                            <h2>En Résumé</h2>
 
                             <p>
-                                Hijama is much more than physical care: it is part of an integrative vision of health,
-                                respectful of the body and its rhythms. At Family Clinic, we use it with caution, in a
-                                secure medical framework, to accompany our patients toward lasting well-being.
+                                La hijama est bien plus qu'un soin physique : elle s'inscrit dans une vision intégrative
+                                de la santé, respectueuse du corps et de ses rythmes. À Family Clinic, nous l'utilisons
+                                avec prudence, dans un cadre médical sécurisé, pour accompagner nos patients vers un
+                                bien-être durable.
                             </p>
 
                             <p>
-                                If you're interested in exploring hijama therapy as part of your wellness journey, our
-                                experienced medical team is here to guide you safely and effectively.
+                                Si vous êtes intéressé par l'exploration de la thérapie hijama dans le cadre de votre
+                                parcours de bien-être, notre équipe médicale expérimentée est là pour vous guider en
+                                toute sécurité et efficacité.
                             </p>
 
                             <p>
-                                Warm regards,<br>
-                                <em>Dr. Said-Alaoui Moulay Abdellah and the Family Clinic Team</em>
+                                <em>Cordialement, Dr. Said-Alaoui Moulay Abdellah et l'équipe de Family Clinic</em>
                             </p>
                         </div>
 
                         <div class="article-footer">
                             <div class="article-tags">
-                                <span class="article-tags__label">Tags:</span>
+                                <span class="article-tags__label">Mots-clés :</span>
                                 <a href="catalog.html" class="article-tags__tag">Hijama</a>
-                                <a href="catalog.html" class="article-tags__tag">Cupping Therapy</a>
-                                <a href="catalog.html" class="article-tags__tag">Natural Healing</a>
-                                <a href="catalog.html" class="article-tags__tag">Pain Relief</a>
-                                <a href="catalog.html" class="article-tags__tag">Holistic Medicine</a>
+                                <a href="catalog.html" class="article-tags__tag">Thérapie par Ventouses</a>
+                                <a href="catalog.html" class="article-tags__tag">Guérison Naturelle</a>
+                                <a href="catalog.html" class="article-tags__tag">Soulagement de la Douleur</a>
+                                <a href="catalog.html" class="article-tags__tag">Médecine Holistique</a>
                             </div>
                         </div>
                     </article>
 
                     <aside class="article-sidebar">
                         <!-- <div class="sidebar-section"> -->
-                        <!-- <h3 class="sidebar-section__title">About the Author</h3> -->
+                        <!-- <h3 class="sidebar-section__title">À Propos de l'Auteur</h3> -->
                         <a href="../about.html#dr-said-alaoui" class="author-card">
-                            <img src="../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png"
-                                srcset="../assets/images/optimized/team/dr_my_abdellah_mobile_300x300.png 300w, ../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png 400w"
+                            <img src="../../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png"
+                                srcset="../../assets/images/optimized/team/dr_my_abdellah_mobile_300x300.png 300w, ../../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png 400w"
                                 sizes="(max-width: 768px) 300px, 400px" alt="Dr. Said-Alaoui Moulay Abdellah"
                                 loading="lazy" onerror="this.style.display='none'" class="author-card__image">
                             <div class="author-card__content">
                                 <h4 class="author-card__name">Dr. Said-Alaoui Moulay Abdellah</h4>
-                                <p class="author-card__title">Family Medicine Physician</p>
+                                <p class="author-card__title">Médecin de Famille</p>
                                 <p class="author-card__bio">
-                                    Family medicine physician and former military doctor with 40+ years experience,
-                                    specializing in nutritional therapy and environmental causes.
+                                    Médecin de famille et ancien médecin militaire avec plus de 40 ans d'expérience,
+                                    spécialisé en thérapie nutritionnelle et causes environnementales.
                                 </p>
                             </div>
                         </a>
                         <!-- </div> -->
 
                         <div class="sidebar-section">
-                            <h3 class="sidebar-section__title">Related Articles</h3>
+                            <h3 class="sidebar-section__title">Articles Connexes</h3>
                             <div class="related-articles">
                                 <article class="related-article">
                                     <h4 class="related-article__title">
-                                        <a href="2025-08-18-gastroesophageal-reflux-natural-relief.html">Gastroesophageal
-                                            Reflux: Finding Natural Relief</a>
+                                        <a href="2025-08-18-gastroesophageal-reflux-natural-relief.html">Reflux
+                                            Gastro-œsophagien : Trouver un Soulagement Naturel</a>
                                     </h4>
-                                    <span class="related-article__date">18 Aug 2025</span>
+                                    <span class="related-article__date">18 Août 2025</span>
                                 </article>
                                 <article class="related-article">
                                     <h4 class="related-article__title">
-                                        <a href="2025-08-19-natural-approach-type-2-diabetes.html">Natural Approach to
-                                            Type 2 Diabetes</a>
+                                        <a href="2025-08-19-natural-approach-type-2-diabetes.html">Approche Naturelle du
+                                            Diabète de Type 2</a>
                                     </h4>
-                                    <span class="related-article__date">19 Aug 2025</span>
+                                    <span class="related-article__date">19 Août 2025</span>
                                 </article>
                                 <article class="related-article">
                                     <h4 class="related-article__title">
-                                        <a href="2025-08-18-food-as-medicine-therapeutic-nutrition.html">Food as
-                                            Medicine: The Power of Therapeutic Nutrition</a>
+                                        <a href="2025-08-18-food-as-medicine-therapeutic-nutrition.html">L'Alimentation
+                                            comme Médecine : Le Pouvoir de la Nutrition Thérapeutique</a>
                                     </h4>
-                                    <span class="related-article__date">18 Aug 2025</span>
+                                    <span class="related-article__date">18 Août 2025</span>
                                 </article>
                             </div>
                         </div>
 
                         <div class="sidebar-section">
-                            <h3 class="sidebar-section__title">Get in Touch</h3>
-                            <p>Interested in hijama therapy? We're here to help.</p>
-                            <a href="../contact.html" class="btn btn--primary">Book an Appointment</a>
+                            <h3 class="sidebar-section__title">Prenez Contact</h3>
+                            <p>Intéressé par la thérapie hijama ? Nous sommes là pour vous aider.</p>
+                            <a href="../contact.html" class="btn btn--primary">Prendre Rendez-vous</a>
                         </div>
                     </aside>
                 </div>
@@ -291,28 +333,29 @@
             <div class="footer__content">
                 <div class="footer__section">
                     <div class="footer__logo">
-                        <a href="../index.html" class="footer__logo-link" aria-label="Go to Family Clinic homepage">
-                            <img src="../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
-                                srcset="../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
-                                sizes="(max-width: 768px) 80px, 100px" alt="Family Clinic Logo" class="footer__logo-img"
+                        <a href="../index.html" class="footer__logo-link"
+                            aria-label="Aller à la page d'accueil de Family Clinic">
+                            <img src="../../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
+                                srcset="../../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
+                                sizes="(max-width: 768px) 80px, 100px" alt="Logo Family Clinic" class="footer__logo-img"
                                 loading="lazy" onerror="this.style.display='none'">
                             <h3 class="footer__logo-text">Family Clinic</h3>
                         </a>
                     </div>
                     <p class="footer__description">
-                        Providing comprehensive healthcare services for families in a welcoming and compassionate
-                        environment.
+                        Fournir des services de soins de santé complets pour les familles dans un environnement
+                        accueillant et compatissant.
                     </p>
                 </div>
 
                 <div class="footer__section">
-                    <h4 class="footer__section-title">Quick Links</h4>
+                    <h4 class="footer__section-title">Liens Rapides</h4>
                     <ul class="footer__links">
                         <li class="footer__item">
-                            <a href="../index.html" class="footer__link">Home</a>
+                            <a href="../index.html" class="footer__link">Accueil</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../about.html" class="footer__link">About Us</a>
+                            <a href="../about.html" class="footer__link">À Propos</a>
                         </li>
                         <li class="footer__item">
                             <a href="../services.html" class="footer__link">Services</a>
@@ -330,74 +373,74 @@
                     <h4 class="footer__section-title">Services</h4>
                     <ul class="footer__links">
                         <li class="footer__item">
-                            <a href="../services.html#family-medicine" class="footer__link">Family Medicine</a>
+                            <a href="../services.html#family-medicine" class="footer__link">Médecine Familiale</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#holistic-consultations" class="footer__link">Holistic
-                                Consultations</a>
+                            <a href="../services.html#holistic-consultations" class="footer__link">Consultations
+                                Holistiques</a>
                         </li>
                         <li class="footer__item">
                             <a href="../services.html#quantum-scan" class="footer__link">Quantum Scan</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#naturopathy" class="footer__link">Naturopathy</a>
+                            <a href="../services.html#naturopathy" class="footer__link">Naturopathie</a>
                         </li>
                         <li class="footer__item">
                             <a href="../services.html#hijamah" class="footer__link">Hijamah</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#physiotherapy" class="footer__link">Physiotherapy</a>
+                            <a href="../services.html#physiotherapy" class="footer__link">Physiothérapie</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#dermatology" class="footer__link">Dermatology</a>
-                        <li class="footer__item">
-                            <a href="../services.html#judiciary-medical-expertise" class="footer__link">Judiciary
-                                Medical Expertise</a>
+                            <a href="../services.html#dermatology" class="footer__link">Dermatologie</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#weight-loss" class="footer__link">Weight Loss</a>
+                            <a href="../services.html#judiciary-medical-expertise" class="footer__link">Expertise
+                                Médicale Judiciaire</a>
                         </li>
+                        <li class="footer__item">
+                            <a href="../services.html#weight-loss" class="footer__link">Perte de Poids</a>
                         </li>
                     </ul>
                 </div>
 
                 <div class="footer__section">
-                    <h4 class="footer__section-title">Contact Info</h4>
+                    <h4 class="footer__section-title">Informations de Contact</h4>
                     <div class="footer__contact">
                         <div class="footer__contact-item">
-                            <strong>Address:</strong>
+                            <strong>Adresse :</strong>
                             <a href="https://maps.app.goo.gl/sPxKYDMUdsN9dVV2A" target="_blank"
                                 rel="noopener noreferrer" class="footer__link">
                                 N*47, Bloc B, Ouled Oujih<br>
-                                Kenitra, 14080, Morocco
+                                Kenitra, 14080, Maroc
                             </a>
                         </div>
                         <div class="footer__contact-item">
-                            <strong>Phone:</strong>
+                            <strong>Téléphone :</strong>
                             <a href="tel:+212-641-745-441" class="footer__link">+212-641-745-441</a>
                         </div>
                         <div class="footer__contact-item">
-                            <strong>Email:</strong>
+                            <strong>Email :</strong>
                             <a href="mailto:saidalaoui.m.a@gmail.com" class="footer__link">saidalaoui.m.a@gmail.com</a>
                         </div>
                     </div>
 
                     <p class="footer__contact-item">
-                        <strong>Hours:</strong><br>
-                        Mon-Thu: 9:00 - 17:00<br>
-                        Fri: 9:00 - 13:00, 15:00 - 18:00<br>
-                        Sat: 9:00 - 13:00
+                        <strong>Horaires :</strong><br>
+                        Lun-Jeu : 9h00 - 17h00<br>
+                        Ven : 9h00 - 13h00, 15h00 - 18h00<br>
+                        Sam : 9h00 - 13h00
                     </p>
                 </div>
             </div>
 
             <div class="footer__bottom">
                 <p class="footer__copyright">
-                    &copy; 2025 Family Clinic. All rights reserved.
+                    &copy; 2025 Family Clinic. Tous droits réservés.
                 </p>
                 <p class="footer__powered-by">
-                    Powered by <img src="../assets/images/optimized/netria/netria-logo-footer-transparent.png"
-                        alt="Netria Logo" class="footer__netria-logo" loading="lazy"> <a
+                    Propulsé par <img src="../../assets/images/optimized/netria/netria-logo-footer-transparent.png"
+                        alt="Logo Netria" class="footer__netria-logo" loading="lazy"> <a
                         href="https://netria.dev?utm_source=familyclinic&utm_medium=website&utm_campaign=footer_attribution"
                         class="footer__link" target="_blank" rel="noopener noreferrer">netria.dev</a>
                 </p>
@@ -405,7 +448,8 @@
         </div>
     </footer>
 
-    <script src="../assets/script.js"></script>
+    <script src="../../assets/script.js"></script>
+    <script src="../../assets/localization.js"></script>
 </body>
 
 </html>

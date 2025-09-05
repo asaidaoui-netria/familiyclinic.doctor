@@ -1,20 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>What Your Digestion Reveals About Your Intestinal Health - Family Clinic</title>
+    <title>Ce que Votre Digestion Révèle sur Votre Santé Intestinale - Family Clinic</title>
     <meta name="description"
-        content="Discover how your digestive symptoms reveal the health of your microbiome and learn the 7 pillars to rebuild a healthy intestinal flora for optimal wellness.">
+        content="Découvrez comment vos symptômes digestifs révèlent la santé de votre microbiote et apprenez les 7 piliers pour reconstruire une flore intestinale saine pour un bien-être optimal.">
+
+    <!-- Hreflang for SEO -->
+    <link rel="alternate"
+        href="https://familyclinic.doctor/blog/2025-08-19-what-your-digestion-reveals-about-intestinal-health.html"
+        hreflang="en" />
+    <link rel="alternate"
+        href="https://familyclinic.doctor/fr/blog/2025-08-19-what-your-digestion-reveals-about-intestinal-health.html"
+        hreflang="fr" />
+    <link rel="alternate"
+        href="https://familyclinic.doctor/ar/blog/2025-08-19-what-your-digestion-reveals-about-intestinal-health.html"
+        hreflang="ar" />
+    <link rel="alternate"
+        href="https://familyclinic.doctor/blog/2025-08-19-what-your-digestion-reveals-about-intestinal-health.html"
+        hreflang="x-default" />
 
     <!-- Structured Data -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "What Your Digestion Reveals About Your Intestinal Health",
-        "description": "Discover how your digestive symptoms reveal the health of your microbiome and learn the 7 pillars to rebuild a healthy intestinal flora for optimal wellness.",
+        "headline": "Ce que Votre Digestion Révèle sur Votre Santé Intestinale",
+        "description": "Découvrez comment vos symptômes digestifs révèlent la santé de votre microbiote et apprenez les 7 piliers pour reconstruire une flore intestinale saine pour un bien-être optimal.",
         "image": "https://www.familyclinic.doctor/assets/images/optimized/blog/digestion_anatomy_desktop_800x400.jpg",
         "author": {
             "@type": "Person",
@@ -29,19 +43,21 @@
             }
         },
         "datePublished": "2025-08-19",
-        "dateModified": "2025-08-19"
+        "dateModified": "2025-08-19",
+        "inLanguage": "fr"
     }
     </script>
 
-    <link rel="stylesheet" href="../assets/styles.css">
-    <link rel="stylesheet" href="../assets/blog.css">
-    <link rel="stylesheet" href="../assets/blog-article.css">
+    <link rel="stylesheet" href="../../assets/styles.css">
+    <link rel="stylesheet" href="../../assets/localization.css">
+    <link rel="stylesheet" href="../../assets/blog.css">
+    <link rel="stylesheet" href="../../assets/blog-article.css">
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="../assets/favicon/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../../assets/favicon/site.webmanifest">
 </head>
 
 <body>
@@ -49,22 +65,23 @@
     <header class="header">
         <div class="header__container">
             <div class="header__logo">
-                <a href="../index.html" class="header__logo-link" aria-label="Go to Family Clinic homepage">
-                    <img src="../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
-                        srcset="../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
-                        sizes="(max-width: 768px) 80px, 100px" alt="Family Clinic Logo" class="header__logo-img"
+                <a href="../index.html" class="header__logo-link"
+                    aria-label="Aller à la page d'accueil de Family Clinic">
+                    <img src="../../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
+                        srcset="../../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
+                        sizes="(max-width: 768px) 80px, 100px" alt="Logo Family Clinic" class="header__logo-img"
                         loading="lazy" onerror="this.style.display='none'">
                     <h1 class="header__logo-text">Family Clinic</h1>
                 </a>
             </div>
 
-            <nav class="nav" aria-label="Main navigation">
+            <nav class="nav" aria-label="Navigation principale">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="../index.html" class="nav__link">Home</a>
+                        <a href="../index.html" class="nav__link">Accueil</a>
                     </li>
                     <li class="nav__item">
-                        <a href="../about.html" class="nav__link">About</a>
+                        <a href="../about.html" class="nav__link">À propos</a>
                     </li>
                     <li class="nav__item">
                         <a href="../services.html" class="nav__link">Services</a>
@@ -78,7 +95,27 @@
                 </ul>
             </nav>
 
-            <button class="header__mobile-menu" aria-label="Toggle mobile menu" aria-expanded="false">
+            <!-- Language Switcher -->
+            <div class="language-switcher">
+                <button class="language-switcher__toggle" aria-label="Choisir la langue" aria-expanded="false">
+                    <span class="language-switcher__current">FR</span>
+                    <svg class="language-switcher__icon" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </button>
+                <ul class="language-switcher__menu">
+                    <li><a href="../../blog/2025-08-19-what-your-digestion-reveals-about-intestinal-health.html"
+                            data-lang="en">English</a></li>
+                    <li><a href="2025-08-19-what-your-digestion-reveals-about-intestinal-health.html" data-lang="fr"
+                            class="active">Français</a></li>
+                    <li><a href="../../ar/blog/2025-08-19-what-your-digestion-reveals-about-intestinal-health.html"
+                            data-lang="ar">العربية</a></li>
+                </ul>
+            </div>
+
+            <button class="header__mobile-menu" aria-label="Basculer le menu mobile" aria-expanded="false">
                 <span class="header__mobile-menu-line"></span>
                 <span class="header__mobile-menu-line"></span>
                 <span class="header__mobile-menu-line"></span>
@@ -92,31 +129,31 @@
         <section class="article-header">
             <div class="container">
                 <div class="article-header__content">
-                    <nav class="article-breadcrumb" aria-label="Breadcrumb">
+                    <nav class="article-breadcrumb" aria-label="Fil d'ariane">
                         <ol class="article-breadcrumb__list">
                             <li class="article-breadcrumb__item">
-                                <a href="../index.html" class="article-breadcrumb__link">Home</a>
+                                <a href="../index.html" class="article-breadcrumb__link">Accueil</a>
                             </li>
                             <li class="article-breadcrumb__item">
                                 <a href="catalog.html" class="article-breadcrumb__link">Blog</a>
                             </li>
                             <li class="article-breadcrumb__item" aria-current="page">
-                                <span class="article-breadcrumb__current">What Your Digestion Reveals About Your
-                                    Intestinal Health</span>
+                                <span class="article-breadcrumb__current">Ce que Votre Digestion Révèle sur Votre Santé
+                                    Intestinale</span>
                             </li>
                         </ol>
                     </nav>
 
                     <div class="article-meta">
-                        <span class="article-meta__date">19 Aug 2025</span>
+                        <span class="article-meta__date">19 Août 2025</span>
                     </div>
 
-                    <h1 class="article-title">What Your Digestion Reveals About Your Intestinal Health</h1>
+                    <h1 class="article-title">Ce que Votre Digestion Révèle sur Votre Santé Intestinale</h1>
 
                     <p class="article-excerpt">
-                        Your digestive symptoms are powerful indicators of your microbiome's health. Learn how to
-                        interpret what your body is telling you and discover the 7 pillars to rebuild a healthy
-                        intestinal flora for optimal wellness and vitality.
+                        Vos symptômes digestifs sont de puissants indicateurs de la santé de votre microbiote. Apprenez
+                        à interpréter ce que votre corps vous dit et découvrez les 7 piliers pour reconstruire une flore
+                        intestinale saine pour un bien-être et une vitalité optimaux.
                     </p>
                 </div>
             </div>
@@ -128,233 +165,239 @@
                 <div class="article-layout">
                     <article class="article-main">
                         <div class="article-image">
-                            <img src="../assets/images/optimized/blog/digestion_anatomy_desktop_800x400.jpg"
-                                srcset="../assets/images/optimized/blog/digestion_anatomy_mobile_600x300.jpg 600w, ../assets/images/optimized/blog/digestion_anatomy_desktop_800x400.jpg 800w"
+                            <img src="../../assets/images/optimized/blog/digestion_anatomy_desktop_800x400.jpg"
+                                srcset="../../assets/images/optimized/blog/digestion_anatomy_mobile_600x300.jpg 600w, ../../assets/images/optimized/blog/digestion_anatomy_desktop_800x400.jpg 800w"
                                 sizes="(max-width: 768px) 600px, 800px"
-                                alt="Anatomical illustration of the digestive system showing intestinal health"
+                                alt="Illustration anatomique du système digestif montrant la santé intestinale"
                                 loading="lazy" onerror="this.style.display='none'">
                         </div>
 
                         <div class="article-body">
                             <p>
-                                A healthy microbiome acts like a shield: it facilitates digestion, protects against
-                                infections, regulates immunity, and even influences mood. But when it becomes
-                                imbalanced, various disorders begin to manifest. Understanding these signals is crucial
-                                for maintaining optimal intestinal health.
+                                Un microbiote sain agit comme un bouclier : il facilite la digestion, protège contre les
+                                infections, régule l'immunité et influence même l'humeur. Mais lorsqu'il devient
+                                déséquilibré, divers troubles commencent à se manifester. Comprendre ces signaux est
+                                crucial pour maintenir une santé intestinale optimale.
                             </p>
 
-                            <h2>Common Signs of Microbiome Imbalance</h2>
+                            <h2>Signes Courants de Déséquilibre du Microbiote</h2>
 
                             <p>
-                                When your intestinal flora is disrupted, your body sends clear warning signals through
-                                various digestive symptoms:
+                                Lorsque votre flore intestinale est perturbée, votre corps envoie des signaux d'alarme
+                                clairs à travers divers symptômes digestifs :
                             </p>
 
                             <h3>Constipation</h3>
                             <p>
-                                Constipation alters digestive permeability, promoting inflammation and increasing the
-                                risk of certain cancers. It's often the first sign that your microbiome needs attention.
+                                La constipation altère la perméabilité digestive, favorise l'inflammation et augmente le
+                                risque de certains cancers. C'est souvent le premier signe que votre microbiote a besoin
+                                d'attention.
                             </p>
 
-                            <h3>Diarrhea</h3>
+                            <h3>Diarrée</h3>
                             <p>
-                                Frequent diarrhea is often linked to an overgrowth of pathogenic bacteria that have
-                                displaced beneficial microorganisms in your intestinal tract.
+                                La diarrée fréquente est souvent liée à une surproliferation de bactéries pathogènes qui
+                                ont déplacé les micro-organismes bénéfiques dans votre tractus intestinal.
                             </p>
 
-                            <h3>Gas and Bloating</h3>
+                            <h3>Gaz et Ballonnements</h3>
                             <p>
-                                These uncomfortable symptoms are signs of excessive fermentation or an impoverished
-                                microbiome that can no longer properly process the foods you consume.
+                                Ces symptômes inconfortables sont des signes de fermentation excessive ou d'un
+                                microbiote appauvri qui ne peut plus traiter correctement les aliments que vous
+                                consommez.
                             </p>
 
-                            <h3>Food Hypersensitivities</h3>
+                            <h3>Hypersensibilités Alimentaires</h3>
                             <p>
-                                When your immune system no longer recognizes certain foods as safe, it often indicates a
-                                compromised intestinal barrier and dysbiotic microbiome.
+                                Lorsque votre système immunitaire ne reconnaît plus certains aliments comme sûrs, cela
+                                indique souvent une barrière intestinale compromise et un microbiote dysbiotique.
                             </p>
 
-                            <h3>Acid Reflux</h3>
+                            <h3>Reflux Acide</h3>
                             <p>
-                                Contrary to popular belief, acid reflux is not caused by excess acidity, but rather by
-                                bacterial fermentation in the stomach or small intestine that creates pressure and
-                                pushes acid upward.
+                                Contrairement à la croyance populaire, le reflux acide n'est pas causé par un excès
+                                d'acidité, mais plutôt par la fermentation bactérienne dans l'estomac ou l'intestin
+                                grêle qui crée une pression et pousse l'acide vers le haut.
                             </p>
 
-                            <h3>Candidiasis</h3>
+                            <h3>Candidose</h3>
                             <p>
-                                An excess of candida, an opportunistic yeast that colonizes the colon, indicates an
-                                imbalanced microbiome where harmful organisms have gained the upper hand.
+                                Un excès de candida, une levure opportuniste qui colonise le côlon, indique un
+                                microbiote déséquilibré où les organismes nuisibles ont pris le dessus.
                             </p>
 
-                            <h3>Gastric Ulcers</h3>
+                            <h3>Ulcères Gastriques</h3>
                             <p>
-                                Between 80 to 90% of gastric ulcers are linked to Helicobacter pylori. Interestingly, in
-                                normal quantities, this bacterium actually protects against asthma and inflammatory
-                                diseases.
+                                Entre 80 et 90% des ulcères gastriques sont liés à Helicobacter pylori. Il est
+                                intéressant de noter qu'en quantités normales, cette bactérie protège en fait contre
+                                l'asthme et les maladies inflammatoires.
                             </p>
 
-                            <h3>Irritable Bowel Syndrome</h3>
+                            <h3>Syndrome de l'Intestin Irritable</h3>
                             <p>
-                                This condition is often associated with bacterial overgrowth in the small intestine
-                                (SIBO), where bacteria migrate from the colon to areas where they shouldn't be present.
+                                Cette condition est souvent associée à une surproliferation bactérienne dans l'intestin
+                                grêle (SIBO), où les bactéries migrent du côlon vers des zones où elles ne devraient pas
+                                être présentes.
                             </p>
 
-                            <h2>The Microbiome: An Organ in Its Own Right</h2>
+                            <h2>Le Microbiote : Un Organe à Part Entière</h2>
 
                             <p>
-                                Your intestinal flora contains more than 100 trillion microorganisms - that's more than
-                                the number of cells in your entire body! This complex ecosystem evolves according to
-                                your diet, lifestyle, medical treatments, and environmental factors.
+                                Votre flore intestinale contient plus de 100 billions de micro-organismes - c'est plus
+                                que le nombre de cellules dans tout votre corps ! Cet écosystème complexe évolue selon
+                                votre alimentation, votre mode de vie, vos traitements médicaux et les facteurs
+                                environnementaux.
                             </p>
 
                             <p>
-                                The remarkable news is that your microbiome can be rebalanced. By directly acting on
-                                your intestinal flora, you can permanently eliminate these digestive disorders and
-                                restore optimal health.
+                                La nouvelle remarquable est que votre microbiote peut être rééquilibré. En agissant
+                                directement sur votre flore intestinale, vous pouvez éliminer définitivement ces
+                                troubles digestifs et restaurer une santé optimale.
                             </p>
 
-                            <h2>How to Rebuild a Healthy Microbiome</h2>
+                            <h2>Comment Reconstruire un Microbiote Sain</h2>
 
                             <p>
-                                Restoring intestinal health requires a comprehensive approach that addresses multiple
-                                factors simultaneously. In our upcoming publications, we will present the 7 fundamental
-                                pillars of microbiome health:
+                                Restaurer la santé intestinale nécessite une approche globale qui aborde plusieurs
+                                facteurs simultanément. Dans nos prochaines publications, nous présenterons les 7
+                                piliers fondamentaux de la santé du microbiote :
                             </p>
 
                             <div class="article-table">
                                 <table>
                                     <thead>
                                         <tr>
-                                            <th>Pillar</th>
-                                            <th>Focus Area</th>
-                                            <th>Key Benefits</th>
+                                            <th>Pilier</th>
+                                            <th>Domaine d'Action</th>
+                                            <th>Avantages Clés</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>Living Nutrition Rich in Fiber</td>
-                                            <td>Whole foods and prebiotic fibers</td>
-                                            <td>Feeds beneficial bacteria</td>
+                                            <td>Nutrition Vivante Riche en Fibres</td>
+                                            <td>Aliments complets et fibres prébiotiques</td>
+                                            <td>Nourrit les bactéries bénéfiques</td>
                                         </tr>
                                         <tr>
-                                            <td>Fermented Foods</td>
-                                            <td>Probiotics and live cultures</td>
-                                            <td>Introduces beneficial microorganisms</td>
+                                            <td>Aliments Fermentés</td>
+                                            <td>Probiotiques et cultures vivantes</td>
+                                            <td>Introduit des micro-organismes bénéfiques</td>
                                         </tr>
                                         <tr>
-                                            <td>Eliminating Disruptors</td>
-                                            <td>Antibiotics, processed foods, toxins</td>
-                                            <td>Protects existing microbiome</td>
+                                            <td>Élimination des Perturbateurs</td>
+                                            <td>Antibiotiques, aliments transformés, toxines</td>
+                                            <td>Protège le microbiote existant</td>
                                         </tr>
                                         <tr>
-                                            <td>Stress and Sleep Management</td>
-                                            <td>Mental health and circadian rhythms</td>
-                                            <td>Supports gut-brain axis</td>
+                                            <td>Gestion du Stress et du Sommeil</td>
+                                            <td>Santé mentale et rythmes circadiens</td>
+                                            <td>Soutient l'axe intestin-cerveau</td>
                                         </tr>
                                         <tr>
-                                            <td>Regular Physical Activity</td>
-                                            <td>Exercise and movement</td>
-                                            <td>Enhances microbial diversity</td>
+                                            <td>Activité Physique Régulière</td>
+                                            <td>Exercice et mouvement</td>
+                                            <td>Améliore la diversité microbienne</td>
                                         </tr>
                                         <tr>
-                                            <td>Reducing Excessive Hygiene</td>
-                                            <td>Balanced exposure to microbes</td>
-                                            <td>Maintains immune system training</td>
+                                            <td>Réduction de l'Hygiène Excessive</td>
+                                            <td>Exposition équilibrée aux microbes</td>
+                                            <td>Maintient l'entraînement du système immunitaire</td>
                                         </tr>
                                         <tr>
-                                            <td>Therapeutic Fasting and Targeted Protocols</td>
-                                            <td>Intermittent fasting and specific treatments</td>
-                                            <td>Resets and optimizes microbiome</td>
+                                            <td>Jeûne Thérapeutique et Protocoles Ciblés</td>
+                                            <td>Jeûne intermittent et traitements spécifiques</td>
+                                            <td>Réinitialise et optimise le microbiote</td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
 
-                            <h2>Your Journey to Digestive Wellness</h2>
+                            <h2>Votre Parcours vers le Bien-être Digestif</h2>
 
                             <p>
-                                Every symptom your digestive system presents is valuable information about your internal
-                                ecosystem. Rather than simply suppressing these signals, we encourage you to view them
-                                as opportunities to understand and heal your microbiome.
+                                Chaque symptôme que présente votre système digestif est une information précieuse sur
+                                votre écosystème interne. Plutôt que de simplement supprimer ces signaux, nous vous
+                                encourageons à les voir comme des opportunités de comprendre et de guérir votre
+                                microbiote.
                             </p>
 
                             <p>
-                                At Family Clinic, we specialize in comprehensive approaches to digestive health that
-                                combine traditional medical knowledge with holistic healing methods. Our goal is to help
-                                you achieve lasting wellness by addressing the root causes of digestive imbalance.
+                                À Family Clinic, nous nous spécialisons dans les approches globales de la santé
+                                digestive qui combinent les connaissances médicales traditionnelles avec les méthodes de
+                                guérison holistiques. Notre objectif est de vous aider à atteindre un bien-être durable
+                                en abordant les causes profondes du déséquilibre digestif.
                             </p>
 
                             <p>
-                                Remember, rebuilding a healthy microbiome is a journey, not a destination. With
-                                patience, consistency, and the right guidance, you can restore your digestive health and
-                                experience the vitality that comes with a balanced intestinal ecosystem.
+                                Rappelez-vous, reconstruire un microbiote sain est un voyage, pas une destination. Avec
+                                de la patience, de la constance et les bons conseils, vous pouvez restaurer votre santé
+                                digestive et expérimenter la vitalité qui accompagne un écosystème intestinal équilibré.
                             </p>
 
                             <p>
-                                <em>Warm regards, Dr. Said-Alaoui Moulay Abdellah and the Family Clinic Team</em>
+                                <em>Cordialement, Dr. Said-Alaoui Moulay Abdellah et l'équipe de Family Clinic</em>
                             </p>
                         </div>
 
                         <div class="article-footer">
                             <div class="article-tags">
-                                <span class="article-tags__label">Tags:</span>
-                                <a href="catalog.html" class="article-tags__tag">Digestive Health</a>
-                                <a href="catalog.html" class="article-tags__tag">Microbiome</a>
-                                <a href="catalog.html" class="article-tags__tag">Intestinal Health</a>
-                                <a href="catalog.html" class="article-tags__tag">Wellness</a>
-                                <a href="catalog.html" class="article-tags__tag">Natural Healing</a>
+                                <span class="article-tags__label">Tags :</span>
+                                <a href="catalog.html" class="article-tags__tag">Santé Digestive</a>
+                                <a href="catalog.html" class="article-tags__tag">Microbiote</a>
+                                <a href="catalog.html" class="article-tags__tag">Santé Intestinale</a>
+                                <a href="catalog.html" class="article-tags__tag">Bien-être</a>
+                                <a href="catalog.html" class="article-tags__tag">Guérison Naturelle</a>
                             </div>
                         </div>
                     </article>
 
                     <aside class="article-sidebar">
                         <a href="../about.html#dr-said-alaoui" class="author-card">
-                            <img src="../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png"
-                                srcset="../assets/images/optimized/team/dr_my_abdellah_mobile_300x300.png 300w, ../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png 400w"
+                            <img src="../../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png"
+                                srcset="../../assets/images/optimized/team/dr_my_abdellah_mobile_300x300.png 300w, ../../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png 400w"
                                 sizes="(max-width: 768px) 300px, 400px" alt="Dr. Said-Alaoui Moulay Abdellah"
                                 loading="lazy" onerror="this.style.display='none'" class="author-card__image">
                             <div class="author-card__content">
                                 <h4 class="author-card__name">Dr. Said-Alaoui Moulay Abdellah</h4>
-                                <p class="author-card__title">Family Medicine Physician</p>
+                                <p class="author-card__title">Médecin de famille</p>
                                 <p class="author-card__bio">
-                                    Family medicine physician and former military doctor with 40+ years experience,
-                                    specializing in nutritional therapy and environmental causes.
+                                    Médecin de famille et ancien médecin militaire avec plus de 40 ans d'expérience,
+                                    spécialisé en thérapie nutritionnelle et causes environnementales.
                                 </p>
                             </div>
                         </a>
 
                         <div class="sidebar-section">
-                            <h3 class="sidebar-section__title">Related Articles</h3>
+                            <h3 class="sidebar-section__title">Articles Connexes</h3>
                             <div class="related-articles">
                                 <article class="related-article">
                                     <h4 class="related-article__title">
-                                        <a href="2025-08-19-seven-pillars-healthy-microbiome.html">The Seven Pillars of
-                                            a Healthy Microbiome</a>
+                                        <a href="2025-08-19-seven-pillars-healthy-microbiome.html">Les Sept Piliers d'un
+                                            Microbiote Sain</a>
                                     </h4>
-                                    <span class="related-article__date">19 Aug 2025</span>
+                                    <span class="related-article__date">19 Août 2025</span>
                                 </article>
                                 <article class="related-article">
                                     <h4 class="related-article__title">
-                                        <a href="2025-08-19-damaged-microbiome-modern-world-attack.html">The Damaged
-                                            Microbiome: When the Modern World Attacks</a>
+                                        <a href="2025-08-19-damaged-microbiome-modern-world-attack.html">Le Microbiote
+                                            Endommagé : Quand le Monde Moderne Attaque</a>
                                     </h4>
-                                    <span class="related-article__date">19 Aug 2025</span>
+                                    <span class="related-article__date">19 Août 2025</span>
                                 </article>
                                 <article class="related-article">
                                     <h4 class="related-article__title">
-                                        <a href="2025-08-19-intestinal-holes-when-microbiome-disrupts.html">Intestinal
-                                            Holes: When the Microbiome Disrupts</a>
+                                        <a href="2025-08-19-intestinal-holes-when-microbiome-disrupts.html">Trous
+                                            Intestinaux : Quand le Microbiote se Dérègle</a>
                                     </h4>
-                                    <span class="related-article__date">19 Aug 2025</span>
+                                    <span class="related-article__date">19 Août 2025</span>
                                 </article>
                             </div>
                         </div>
 
                         <div class="sidebar-section">
-                            <h3 class="sidebar-section__title">Get in Touch</h3>
-                            <p>Have questions about your digestive health? We're here to help.</p>
-                            <a href="../contact.html" class="btn btn--primary">Book an Appointment</a>
+                            <h3 class="sidebar-section__title">Nous Contacter</h3>
+                            <p>Vous avez des questions sur votre santé digestive ? Nous sommes là pour vous aider.</p>
+                            <a href="../contact.html" class="btn btn--primary">Prendre Rendez-vous</a>
                         </div>
                     </aside>
                 </div>
@@ -368,28 +411,29 @@
             <div class="footer__content">
                 <div class="footer__section">
                     <div class="footer__logo">
-                        <a href="../index.html" class="footer__logo-link" aria-label="Go to Family Clinic homepage">
-                            <img src="../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
-                                srcset="../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
-                                sizes="(max-width: 768px) 80px, 100px" alt="Family Clinic Logo" class="footer__logo-img"
+                        <a href="../index.html" class="footer__logo-link"
+                            aria-label="Aller à la page d'accueil de Family Clinic">
+                            <img src="../../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
+                                srcset="../../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
+                                sizes="(max-width: 768px) 80px, 100px" alt="Logo Family Clinic" class="footer__logo-img"
                                 loading="lazy" onerror="this.style.display='none'">
                             <h3 class="footer__logo-text">Family Clinic</h3>
                         </a>
                     </div>
                     <p class="footer__description">
-                        Providing comprehensive healthcare services for families in a welcoming and compassionate
-                        environment.
+                        Fournir des services de santé complets pour les familles dans un environnement accueillant et
+                        compatissant.
                     </p>
                 </div>
 
                 <div class="footer__section">
-                    <h4 class="footer__section-title">Quick Links</h4>
+                    <h4 class="footer__section-title">Liens Rapides</h4>
                     <ul class="footer__links">
                         <li class="footer__item">
-                            <a href="../index.html" class="footer__link">Home</a>
+                            <a href="../index.html" class="footer__link">Accueil</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../about.html" class="footer__link">About Us</a>
+                            <a href="../about.html" class="footer__link">À Propos</a>
                         </li>
                         <li class="footer__item">
                             <a href="../services.html" class="footer__link">Services</a>
@@ -407,74 +451,74 @@
                     <h4 class="footer__section-title">Services</h4>
                     <ul class="footer__links">
                         <li class="footer__item">
-                            <a href="../services.html#family-medicine" class="footer__link">Family Medicine</a>
+                            <a href="../services.html#family-medicine" class="footer__link">Médecine Familiale</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#holistic-consultations" class="footer__link">Holistic
-                                Consultations</a>
+                            <a href="../services.html#holistic-consultations" class="footer__link">Consultations
+                                Holistiques</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#quantum-scan" class="footer__link">Quantum Scan</a>
+                            <a href="../services.html#quantum-scan" class="footer__link">Scan Quantique</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#naturopathy" class="footer__link">Naturopathy</a>
+                            <a href="../services.html#naturopathy" class="footer__link">Naturopathie</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#hijamah" class="footer__link">Hijamah</a>
+                            <a href="../services.html#hijamah" class="footer__link">Hijama</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#physiotherapy" class="footer__link">Physiotherapy</a>
+                            <a href="../services.html#physiotherapy" class="footer__link">Physiothérapie</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#dermatology" class="footer__link">Dermatology</a>
-                        <li class="footer__item">
-                            <a href="../services.html#judiciary-medical-expertise" class="footer__link">Judiciary
-                                Medical Expertise</a>
+                            <a href="../services.html#dermatology" class="footer__link">Dermatologie</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#weight-loss" class="footer__link">Weight Loss</a>
+                            <a href="../services.html#judiciary-medical-expertise" class="footer__link">Expertise
+                                Médicale Judiciaire</a>
                         </li>
+                        <li class="footer__item">
+                            <a href="../services.html#weight-loss" class="footer__link">Perte de Poids</a>
                         </li>
                     </ul>
                 </div>
 
                 <div class="footer__section">
-                    <h4 class="footer__section-title">Contact Info</h4>
+                    <h4 class="footer__section-title">Informations de Contact</h4>
                     <div class="footer__contact">
                         <div class="footer__contact-item">
-                            <strong>Address:</strong>
+                            <strong>Adresse :</strong>
                             <a href="https://maps.app.goo.gl/sPxKYDMUdsN9dVV2A" target="_blank"
                                 rel="noopener noreferrer" class="footer__link">
                                 N*47, Bloc B, Ouled Oujih<br>
-                                Kenitra, 14080, Morocco
+                                Kenitra, 14080, Maroc
                             </a>
                         </div>
                         <div class="footer__contact-item">
-                            <strong>Phone:</strong>
+                            <strong>Téléphone :</strong>
                             <a href="tel:+212-641-745-441" class="footer__link">+212-641-745-441</a>
                         </div>
                         <div class="footer__contact-item">
-                            <strong>Email:</strong>
+                            <strong>Email :</strong>
                             <a href="mailto:saidalaoui.m.a@gmail.com" class="footer__link">saidalaoui.m.a@gmail.com</a>
                         </div>
                     </div>
 
                     <p class="footer__contact-item">
-                        <strong>Hours:</strong><br>
-                        Mon-Thu: 9:00 - 17:00<br>
-                        Fri: 9:00 - 13:00, 15:00 - 18:00<br>
-                        Sat: 9:00 - 13:00
+                        <strong>Horaires :</strong><br>
+                        Lun-Jeu : 9:00 - 17:00<br>
+                        Ven : 9:00 - 13:00, 15:00 - 18:00<br>
+                        Sam : 9:00 - 13:00
                     </p>
                 </div>
             </div>
 
             <div class="footer__bottom">
                 <p class="footer__copyright">
-                    &copy; 2025 Family Clinic. All rights reserved.
+                    &copy; 2025 Family Clinic. Tous droits réservés.
                 </p>
                 <p class="footer__powered-by">
-                    Powered by <img src="../assets/images/optimized/netria/netria-logo-footer-transparent.png"
-                        alt="Netria Logo" class="footer__netria-logo" loading="lazy"> <a
+                    Propulsé par <img src="../../assets/images/optimized/netria/netria-logo-footer-transparent.png"
+                        alt="Logo Netria" class="footer__netria-logo" loading="lazy"> <a
                         href="https://netria.dev?utm_source=familyclinic&utm_medium=website&utm_campaign=footer_attribution"
                         class="footer__link" target="_blank" rel="noopener noreferrer">netria.dev</a>
                 </p>
@@ -482,7 +526,8 @@
         </div>
     </footer>
 
-    <script src="../assets/script.js"></script>
+    <script src="../../assets/script.js"></script>
+    <script src="../../assets/localization.js"></script>
 </body>
 
 </html>

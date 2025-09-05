@@ -1,20 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Orange Juice: The Vitamin Illusion That Hurts Your Pancreas - Family Clinic</title>
+    <title>Jus d'Orange : L'Illusion Vitaminique Qui Blesse Votre Pancréas - Family Clinic</title>
     <meta name="description"
-        content="Discover why orange juice, despite its healthy image, can be a glycemic bomb that harms your pancreas and leads to health issues. Learn better breakfast alternatives.">
+        content="Découvrez pourquoi le jus d'orange, malgré son image saine, peut être une bombe glycémique qui nuit à votre pancréas et entraîne des problèmes de santé. Apprenez de meilleures alternatives pour le petit-déjeuner.">
+
+    <!-- Hreflang Tags -->
+    <link rel="alternate" href="https://familyclinic.doctor/blog/2025-08-17-orange-juice-glycemic-bomb.html"
+        hreflang="en" />
+    <link rel="alternate" href="https://familyclinic.doctor/fr/blog/2025-08-17-orange-juice-glycemic-bomb.html"
+        hreflang="fr" />
+    <link rel="alternate" href="https://familyclinic.doctor/ar/blog/2025-08-17-orange-juice-glycemic-bomb.html"
+        hreflang="ar" />
+    <link rel="alternate" href="https://familyclinic.doctor/blog/2025-08-17-orange-juice-glycemic-bomb.html"
+        hreflang="x-default" />
 
     <!-- Structured Data -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "Orange Juice: The Vitamin Illusion That Hurts Your Pancreas",
-        "description": "Discover why orange juice, despite its healthy image, can be a glycemic bomb that harms your pancreas and leads to health issues. Learn better breakfast alternatives.",
+        "headline": "Jus d'Orange : L'Illusion Vitaminique Qui Blesse Votre Pancréas",
+        "description": "Découvrez pourquoi le jus d'orange, malgré son image saine, peut être une bombe glycémique qui nuit à votre pancréas et entraîne des problèmes de santé. Apprenez de meilleures alternatives pour le petit-déjeuner.",
         "image": "https://www.familyclinic.doctor/assets/images/optimized/blog/orange_juice_banner_desktop_800x400.jpg",
         "author": {
             "@type": "Person",
@@ -33,15 +43,16 @@
     }
     </script>
 
-    <link rel="stylesheet" href="../assets/styles.css">
-    <link rel="stylesheet" href="../assets/blog.css">
-    <link rel="stylesheet" href="../assets/blog-article.css">
+    <link rel="stylesheet" href="../../assets/styles.css">
+    <link rel="stylesheet" href="../../assets/localization.css">
+    <link rel="stylesheet" href="../../assets/blog.css">
+    <link rel="stylesheet" href="../../assets/blog-article.css">
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="../assets/favicon/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../../assets/favicon/site.webmanifest">
 </head>
 
 <body>
@@ -49,22 +60,23 @@
     <header class="header">
         <div class="header__container">
             <div class="header__logo">
-                <a href="../index.html" class="header__logo-link" aria-label="Go to Family Clinic homepage">
-                    <img src="../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
-                        srcset="../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
-                        sizes="(max-width: 768px) 80px, 100px" alt="Family Clinic Logo" class="header__logo-img"
+                <a href="../index.html" class="header__logo-link"
+                    aria-label="Aller à la page d'accueil de Family Clinic">
+                    <img src="../../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
+                        srcset="../../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
+                        sizes="(max-width: 768px) 80px, 100px" alt="Logo Family Clinic" class="header__logo-img"
                         loading="lazy" onerror="this.style.display='none'">
                     <h1 class="header__logo-text">Family Clinic</h1>
                 </a>
             </div>
 
-            <nav class="nav" aria-label="Main navigation">
+            <nav class="nav" aria-label="Navigation principale">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="../index.html" class="nav__link">Home</a>
+                        <a href="../index.html" class="nav__link">Accueil</a>
                     </li>
                     <li class="nav__item">
-                        <a href="../about.html" class="nav__link">About</a>
+                        <a href="../about.html" class="nav__link">À propos</a>
                     </li>
                     <li class="nav__item">
                         <a href="../services.html" class="nav__link">Services</a>
@@ -78,7 +90,26 @@
                 </ul>
             </nav>
 
-            <button class="header__mobile-menu" aria-label="Toggle mobile menu" aria-expanded="false">
+            <!-- Language Switcher -->
+            <div class="language-switcher">
+                <button class="language-switcher__toggle" aria-label="Choisir la langue" aria-expanded="false">
+                    <span class="language-switcher__current">FR</span>
+                    <svg class="language-switcher__icon" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </button>
+                <ul class="language-switcher__menu">
+                    <li><a href="../../blog/2025-08-17-orange-juice-glycemic-bomb.html" data-lang="en">English</a></li>
+                    <li><a href="2025-08-17-orange-juice-glycemic-bomb.html" data-lang="fr" class="active">Français</a>
+                    </li>
+                    <li><a href="../../ar/blog/2025-08-17-orange-juice-glycemic-bomb.html" data-lang="ar">العربية</a>
+                    </li>
+                </ul>
+            </div>
+
+            <button class="header__mobile-menu" aria-label="Basculer le menu mobile" aria-expanded="false">
                 <span class="header__mobile-menu-line"></span>
                 <span class="header__mobile-menu-line"></span>
                 <span class="header__mobile-menu-line"></span>
@@ -92,30 +123,32 @@
         <section class="article-header">
             <div class="container">
                 <div class="article-header__content">
-                    <nav class="article-breadcrumb" aria-label="Breadcrumb">
+                    <nav class="article-breadcrumb" aria-label="Fil d'ariane">
                         <ol class="article-breadcrumb__list">
                             <li class="article-breadcrumb__item">
-                                <a href="../index.html" class="article-breadcrumb__link">Home</a>
+                                <a href="../index.html" class="article-breadcrumb__link">Accueil</a>
                             </li>
                             <li class="article-breadcrumb__item">
                                 <a href="catalog.html" class="article-breadcrumb__link">Blog</a>
                             </li>
                             <li class="article-breadcrumb__item" aria-current="page">
-                                <span class="article-breadcrumb__current">Orange Juice: The Vitamin Illusion</span>
+                                <span class="article-breadcrumb__current">Jus d'Orange : L'Illusion Vitaminique</span>
                             </li>
                         </ol>
                     </nav>
 
                     <div class="article-meta">
-                        <span class="article-meta__date">17 Aug 2025</span>
-                        <!-- <span class="article-meta__author">By Dr. Said-Alaoui Moulay Abdellah</span> -->
+                        <span class="article-meta__date">17 Août 2025</span>
+                        <!-- <span class="article-meta__author">Par Dr. Said-Alaoui Moulay Abdellah</span> -->
                     </div>
 
-                    <h1 class="article-title">Orange Juice: The Vitamin Illusion That Hurts Your Pancreas</h1>
+                    <h1 class="article-title">Jus d'Orange : L'Illusion Vitaminique Qui Blesse Votre Pancréas</h1>
 
                     <p class="article-excerpt">
-                        We imagine it as the symbol of a healthy breakfast. Fresh, fruity, full of vitamins... But
-                        behind this golden glass hides a glycemic bomb that could well sabotage your morning health.
+                        Nous l'imaginons comme le symbole d'un petit-déjeuner sain. Frais, fruité, plein de vitamines...
+                        Mais
+                        derrière ce verre doré se cache une bombe glycémique qui pourrait bien saboter votre santé
+                        matinale.
                     </p>
                 </div>
             </div>
@@ -127,159 +160,166 @@
                 <div class="article-layout">
                     <article class="article-main">
                         <div class="article-image">
-                            <img src="../assets/images/optimized/blog/orange_juice_banner_desktop_800x400.jpg"
-                                srcset="../assets/images/optimized/blog/orange_juice_banner_mobile_600x300.jpg 600w, ../assets/images/optimized/blog/orange_juice_banner_desktop_800x400.jpg 800w"
+                            <img src="../../assets/images/optimized/blog/orange_juice_banner_desktop_800x400.jpg"
+                                srcset="../../assets/images/optimized/blog/orange_juice_banner_mobile_600x300.jpg 600w, ../../assets/images/optimized/blog/orange_juice_banner_desktop_800x400.jpg 800w"
                                 sizes="(max-width: 768px) 600px, 800px"
-                                alt="Fresh orange juice in a glass with orange slice garnish" loading="lazy"
-                                onerror="this.style.display='none'">
+                                alt="Jus d'orange frais dans un verre avec une tranche d'orange en garniture"
+                                loading="lazy" onerror="this.style.display='none'">
                         </div>
 
                         <div class="article-body">
                             <p>
-                                We imagine it as the symbol of a healthy breakfast. Fresh, fruity, full of vitamins...
-                                But behind this golden glass hides a glycemic bomb that could well sabotage your morning
-                                health.
+                                Nous l'imaginons comme le symbole d'un petit-déjeuner sain. Frais, fruité, plein de
+                                vitamines...
+                                Mais derrière ce verre doré se cache une bombe glycémique qui pourrait bien saboter
+                                votre santé
+                                matinale.
                             </p>
 
-                            <h2>As Much Sugar as a Soda?</h2>
+                            <h2>Autant de Sucre qu'un Soda ?</h2>
 
                             <p>
-                                Yes, you read that correctly. A glass of orange juice (200-250 ml) contains as much
-                                sugar as a Coca-Cola — about 6 to 7 sugar cubes. And this sugar, although "natural,"
-                                acts just as quickly as white sugar on your body.
+                                Oui, vous avez bien lu. Un verre de jus d'orange (200-250 ml) contient autant de
+                                sucre qu'un Coca-Cola — environ 6 à 7 morceaux de sucre. Et ce sucre, bien qu'"naturel,"
+                                agit aussi rapidement que le sucre blanc sur votre corps.
                             </p>
 
                             <p>
-                                Result: your pancreas goes into emergency mode, produces a large dose of insulin, and a
-                                few hours later... hypoglycemia. Fatigue, hunger pangs, loss of concentration: the
-                                famous "mid-morning slump" at 11 AM is no coincidence.
+                                Résultat : votre pancréas passe en mode urgence, produit une forte dose d'insuline, et
+                                quelques
+                                heures plus tard... hypoglycémie. Fatigue, fringales, perte de concentration : la
+                                fameuse "baisse de régime" de 11h du matin n'est pas un hasard.
                             </p>
 
-                            <h2>Long-term Risks</h2>
+                            <h2>Risques à Long Terme</h2>
 
                             <p>
-                                Consumed regularly, this fast sugar can lead to:
-                            </p>
-
-                            <ul>
-                                <li><strong>Hyperinsulinism:</strong> excessive insulin production</li>
-                                <li><strong>Weight gain:</strong> facilitated fat storage</li>
-                                <li><strong>Type 2 diabetes:</strong> blood sugar regulation disorder</li>
-                                <li><strong>Hypertension:</strong> impact on blood vessels</li>
-                                <li><strong>Accelerated aging:</strong> oxidative stress and chronic inflammation</li>
-                            </ul>
-
-                            <p>
-                                And all that... for a glass of juice supposed to "wake you up."
-                            </p>
-
-                            <h2>A More Digestible Alternative</h2>
-
-                            <p>
-                                Rather than drinking your fruit, eat it. A whole orange provides:
+                                Consommé régulièrement, ce sucre rapide peut entraîner :
                             </p>
 
                             <ul>
-                                <li>Less assimilable sugar</li>
-                                <li>Fiber that slows absorption</li>
-                                <li>Better satiety</li>
-                                <li>Better preserved vitamins</li>
+                                <li><strong>Hyperinsulinisme :</strong> production excessive d'insuline</li>
+                                <li><strong>Prise de poids :</strong> stockage des graisses facilité</li>
+                                <li><strong>Diabète de type 2 :</strong> trouble de la régulation glycémique</li>
+                                <li><strong>Hypertension :</strong> impact sur les vaisseaux sanguins</li>
+                                <li><strong>Vieillissement accéléré :</strong> stress oxydatif et inflammation chronique
+                                </li>
                             </ul>
 
                             <p>
-                                And if you really want a morning drink, think about diluted lemon juice, infused water,
-                                or green tea. Your liver will thank you.
+                                Et tout ça... pour un verre de jus censé vous "réveiller."
                             </p>
 
-                            <h2>In Summary</h2>
+                            <h2>Une Alternative Plus Digestible</h2>
 
                             <p>
-                                Orange juice is not the enemy... but it's not your ally either. It's a perfect example
-                                of the most common morning mistakes: believing that a "natural" product is necessarily
-                                good for your health.
+                                Plutôt que de boire votre fruit, mangez-le. Une orange entière apporte :
+                            </p>
+
+                            <ul>
+                                <li>Moins de sucre assimilable</li>
+                                <li>Des fibres qui ralentissent l'absorption</li>
+                                <li>Une meilleure satiété</li>
+                                <li>Des vitamines mieux préservées</li>
+                            </ul>
+
+                            <p>
+                                Et si vous voulez vraiment une boisson matinale, pensez au jus de citron dilué, à l'eau
+                                infusée, ou au thé vert. Votre foie vous remerciera.
+                            </p>
+
+                            <h2>En Résumé</h2>
+
+                            <p>
+                                Le jus d'orange n'est pas l'ennemi... mais ce n'est pas non plus votre allié. C'est un
+                                parfait exemple de l'erreur matinale la plus courante : croire qu'un produit "naturel"
+                                est
+                                nécessairement bon pour votre santé.
                             </p>
 
                             <p>
-                                At Family Clinic, we emphasize the importance of understanding how even seemingly
-                                healthy foods can impact your body. Our holistic approach to nutrition helps patients
-                                make informed choices that truly support their health goals.
+                                À Family Clinic, nous insistons sur l'importance de comprendre comment même les aliments
+                                apparemment sains peuvent impacter votre corps. Notre approche holistique de la
+                                nutrition aide
+                                les patients à faire des choix éclairés qui soutiennent vraiment leurs objectifs de
+                                santé.
                             </p>
 
                             <p>
-                                Remember: the best breakfast is one that provides sustained energy without the sugar
-                                crash. Choose whole foods, include protein and healthy fats, and your body will thank
-                                you throughout the day.
+                                Rappelez-vous : le meilleur petit-déjeuner est celui qui fournit une énergie soutenue
+                                sans
+                                la chute de sucre. Choisissez des aliments entiers, incluez des protéines et des
+                                graisses
+                                saines, et votre corps vous remerciera tout au long de la journée.
                             </p>
 
                             <p>
-                                Warm regards,<br>
-                                <em>Dr. Said-Alaoui Moulay Abdellah and the Family Clinic Team</em>
+                                Cordialement,<br>
+                                <em>Dr. Said-Alaoui Moulay Abdellah et l'Équipe de Family Clinic</em>
                             </p>
                         </div>
 
                         <div class="article-footer">
                             <div class="article-tags">
-                                <span class="article-tags__label">Tags:</span>
+                                <span class="article-tags__label">Tags :</span>
                                 <a href="catalog.html" class="article-tags__tag">Nutrition</a>
-                                <a href="catalog.html" class="article-tags__tag">Breakfast</a>
-                                <a href="catalog.html" class="article-tags__tag">Sugar</a>
-                                <a href="catalog.html" class="article-tags__tag">Health Tips</a>
-                                <a href="catalog.html" class="article-tags__tag">Diabetes Prevention</a>
+                                <a href="catalog.html" class="article-tags__tag">Petit-déjeuner</a>
+                                <a href="catalog.html" class="article-tags__tag">Sucre</a>
+                                <a href="catalog.html" class="article-tags__tag">Conseils Santé</a>
+                                <a href="catalog.html" class="article-tags__tag">Prévention Diabète</a>
                             </div>
                         </div>
                     </article>
 
                     <aside class="article-sidebar">
-                        <!-- <div class="sidebar-section"> -->
-                        <!-- <h3 class="sidebar-section__title">About the Author</h3> -->
                         <a href="../about.html#dr-said-alaoui" class="author-card">
-                            <img src="../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png"
-                                srcset="../assets/images/optimized/team/dr_my_abdellah_mobile_300x300.png 300w, ../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png 400w"
+                            <img src="../../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png"
+                                srcset="../../assets/images/optimized/team/dr_my_abdellah_mobile_300x300.png 300w, ../../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png 400w"
                                 sizes="(max-width: 768px) 300px, 400px" alt="Dr. Said-Alaoui Moulay Abdellah"
                                 loading="lazy" onerror="this.style.display='none'" class="author-card__image">
                             <div class="author-card__content">
                                 <h4 class="author-card__name">Dr. Said-Alaoui Moulay Abdellah</h4>
-                                <p class="author-card__title">Family Medicine Physician</p>
+                                <p class="author-card__title">Médecin de Famille</p>
                                 <p class="author-card__bio">
-                                    Family medicine physician and former military doctor with 40+ years experience,
-                                    specializing in nutritional therapy and environmental causes.
+                                    Médecin de famille et ancien médecin militaire avec plus de 40 ans d'expérience,
+                                    spécialisé en thérapie nutritionnelle et causes environnementales.
                                 </p>
                             </div>
                         </a>
-                        <!-- </div> -->
 
                         <div class="sidebar-section">
-                            <h3 class="sidebar-section__title">Related Articles</h3>
+                            <h3 class="sidebar-section__title">Articles Connexes</h3>
                             <div class="related-articles">
                                 <article class="related-article">
                                     <h4 class="related-article__title">
-                                        <a href="2025-08-17-breakfast-most-important-meal.html">Is Breakfast Really the
-                                            Most Important Meal of the Day?</a>
+                                        <a href="2025-08-17-breakfast-most-important-meal.html">Le Petit-déjeuner Est-il
+                                            Vraiment le Repas le Plus Important de la Journée ?</a>
                                     </h4>
-                                    <span class="related-article__date">17 Aug 2025</span>
+                                    <span class="related-article__date">17 Août 2025</span>
                                 </article>
                                 <article class="related-article">
                                     <h4 class="related-article__title">
-                                        <a href="2025-08-17-breakfast-myth-or-vital-need.html">Breakfast: Morning Myth
-                                            or Vital Need?</a>
+                                        <a href="2025-08-17-breakfast-myth-or-vital-need.html">Petit-déjeuner : Mythe
+                                            Matinal ou Besoin Vital ?</a>
                                     </h4>
-                                    <span class="related-article__date">17 Aug 2025</span>
+                                    <span class="related-article__date">17 Août 2025</span>
                                 </article>
                                 <article class="related-article">
                                     <h4 class="related-article__title">
-                                        <a href="2025-08-17-welcome-to-family-clinic.html">Welcome to Family Clinic:
-                                            Your Journey to Holistic Health Begins Here</a>
+                                        <a href="2025-08-17-welcome-to-family-clinic.html">Bienvenue à Family Clinic :
+                                            Votre Voyage vers la Santé Holistique Commence Ici</a>
                                     </h4>
-                                    <span class="related-article__date">17 Aug 2025</span>
+                                    <span class="related-article__date">17 Août 2025</span>
                                 </article>
                             </div>
                         </div>
 
                         <div class="sidebar-section">
-                            <h3 class="sidebar-section__title">Get in Touch</h3>
-                            <p>Have questions about nutrition or want to discuss your health goals? We're here to help.
-                            </p>
-                            <a href="../contact.html" class="btn btn--primary">Book an Appointment</a>
+                            <h3 class="sidebar-section__title">Contactez-nous</h3>
+                            <p>Vous avez des questions sur la nutrition ou souhaitez discuter de vos objectifs de santé
+                                ?
+                                Nous sommes là pour vous aider.</p>
+                            <a href="../contact.html" class="btn btn--primary">Prendre un Rendez-vous</a>
                         </div>
                     </aside>
                 </div>
@@ -295,28 +335,29 @@
             <div class="footer__content">
                 <div class="footer__section">
                     <div class="footer__logo">
-                        <a href="../index.html" class="footer__logo-link" aria-label="Go to Family Clinic homepage">
-                            <img src="../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
-                                srcset="../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
-                                sizes="(max-width: 768px) 80px, 100px" alt="Family Clinic Logo" class="footer__logo-img"
+                        <a href="../index.html" class="footer__logo-link"
+                            aria-label="Aller à la page d'accueil de Family Clinic">
+                            <img src="../../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
+                                srcset="../../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
+                                sizes="(max-width: 768px) 80px, 100px" alt="Logo Family Clinic" class="footer__logo-img"
                                 loading="lazy" onerror="this.style.display='none'">
                             <h3 class="footer__logo-text">Family Clinic</h3>
                         </a>
                     </div>
                     <p class="footer__description">
-                        Providing comprehensive healthcare services for families in a welcoming and compassionate
-                        environment.
+                        Fournissant des services de soins de santé complets pour les familles dans un environnement
+                        accueillant et compatissant.
                     </p>
                 </div>
 
                 <div class="footer__section">
-                    <h4 class="footer__section-title">Quick Links</h4>
+                    <h4 class="footer__section-title">Liens Rapides</h4>
                     <ul class="footer__links">
                         <li class="footer__item">
-                            <a href="../index.html" class="footer__link">Home</a>
+                            <a href="../index.html" class="footer__link">Accueil</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../about.html" class="footer__link">About Us</a>
+                            <a href="../about.html" class="footer__link">À propos</a>
                         </li>
                         <li class="footer__item">
                             <a href="../services.html" class="footer__link">Services</a>
@@ -334,74 +375,74 @@
                     <h4 class="footer__section-title">Services</h4>
                     <ul class="footer__links">
                         <li class="footer__item">
-                            <a href="../services.html#family-medicine" class="footer__link">Family Medicine</a>
+                            <a href="../services.html#family-medicine" class="footer__link">Médecine Familiale</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#holistic-consultations" class="footer__link">Holistic
-                                Consultations</a>
+                            <a href="../services.html#holistic-consultations" class="footer__link">Consultations
+                                Holistiques</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#quantum-scan" class="footer__link">Quantum Scan</a>
+                            <a href="../services.html#quantum-scan" class="footer__link">Scan Quantique</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#naturopathy" class="footer__link">Naturopathy</a>
+                            <a href="../services.html#naturopathy" class="footer__link">Naturopathie</a>
                         </li>
                         <li class="footer__item">
                             <a href="../services.html#hijamah" class="footer__link">Hijamah</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#physiotherapy" class="footer__link">Physiotherapy</a>
+                            <a href="../services.html#physiotherapy" class="footer__link">Physiothérapie</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#dermatology" class="footer__link">Dermatology</a>
+                            <a href="../services.html#dermatology" class="footer__link">Dermatologie</a>
                         <li class="footer__item">
-                            <a href="../services.html#judiciary-medical-expertise" class="footer__link">Judiciary
-                                Medical Expertise</a>
+                            <a href="../services.html#judiciary-medical-expertise" class="footer__link">Expertise
+                                Médicale Judiciaire</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#weight-loss" class="footer__link">Weight Loss</a>
+                            <a href="../services.html#weight-loss" class="footer__link">Perte de Poids</a>
                         </li>
                         </li>
                     </ul>
                 </div>
 
                 <div class="footer__section">
-                    <h4 class="footer__section-title">Contact Info</h4>
+                    <h4 class="footer__section-title">Informations de Contact</h4>
                     <div class="footer__contact">
                         <div class="footer__contact-item">
-                            <strong>Address:</strong>
+                            <strong>Adresse :</strong>
                             <a href="https://maps.app.goo.gl/sPxKYDMUdsN9dVV2A" target="_blank"
                                 rel="noopener noreferrer" class="footer__link">
                                 N*47, Bloc B, Ouled Oujih<br>
-                                Kenitra, 14080, Morocco
+                                Kenitra, 14080, Maroc
                             </a>
                         </div>
                         <div class="footer__contact-item">
-                            <strong>Phone:</strong>
+                            <strong>Téléphone :</strong>
                             <a href="tel:+212-641-745-441" class="footer__link">+212-641-745-441</a>
                         </div>
                         <div class="footer__contact-item">
-                            <strong>Email:</strong>
+                            <strong>Email :</strong>
                             <a href="mailto:saidalaoui.m.a@gmail.com" class="footer__link">saidalaoui.m.a@gmail.com</a>
                         </div>
                     </div>
 
                     <p class="footer__contact-item">
-                        <strong>Hours:</strong><br>
-                        Mon-Thu: 9:00 - 17:00<br>
-                        Fri: 9:00 - 13:00, 15:00 - 18:00<br>
-                        Sat: 9:00 - 13:00
+                        <strong>Horaires :</strong><br>
+                        Lun-Jeu : 9h00 - 17h00<br>
+                        Ven : 9h00 - 13h00, 15h00 - 18h00<br>
+                        Sam : 9h00 - 13h00
                     </p>
                 </div>
             </div>
 
             <div class="footer__bottom">
                 <p class="footer__copyright">
-                    &copy; 2025 Family Clinic. All rights reserved.
+                    &copy; 2025 Family Clinic. Tous droits réservés.
                 </p>
                 <p class="footer__powered-by">
-                    Powered by <img src="../assets/images/optimized/netria/netria-logo-footer-transparent.png"
-                        alt="Netria Logo" class="footer__netria-logo" loading="lazy"> <a
+                    Propulsé par <img src="../../assets/images/optimized/netria/netria-logo-footer-transparent.png"
+                        alt="Logo Netria" class="footer__netria-logo" loading="lazy"> <a
                         href="https://netria.dev?utm_source=familyclinic&utm_medium=website&utm_campaign=footer_attribution"
                         class="footer__link" target="_blank" rel="noopener noreferrer">netria.dev</a>
                 </p>
@@ -409,7 +450,8 @@
         </div>
     </footer>
 
-    <script src="../assets/script.js"></script>
+    <script src="../../assets/script.js"></script>
+    <script src="../../assets/localization.js"></script>
 </body>
 
 </html>

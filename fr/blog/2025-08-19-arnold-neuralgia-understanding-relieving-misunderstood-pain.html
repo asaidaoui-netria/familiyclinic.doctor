@@ -1,20 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arnold's Neuralgia: Understanding and Relieving This Misunderstood Pain - Family Clinic</title>
+    <title>Névralgie d'Arnold : comprendre et soulager cette douleur méconnue - Family Clinic</title>
     <meta name="description"
-        content="Discover Arnold's neuralgia: causes, characteristic symptoms, and effective treatment approaches. Learn how Family Clinic can help relieve this often misdiagnosed condition.">
+        content="Découvrez la névralgie d'Arnold : causes, symptômes caractéristiques et approches de traitement efficaces. Apprenez comment Family Clinic peut aider à soulager cette affection souvent mal diagnostiquée.">
+
+    <!-- Hreflang Tags -->
+    <link rel="alternate"
+        href="https://familyclinic.doctor/blog/2025-08-19-arnold-neuralgia-understanding-relieving-misunderstood-pain.html"
+        hreflang="en" />
+    <link rel="alternate"
+        href="https://familyclinic.doctor/fr/blog/2025-08-19-arnold-neuralgia-understanding-relieving-misunderstood-pain.html"
+        hreflang="fr" />
+    <link rel="alternate"
+        href="https://familyclinic.doctor/ar/blog/2025-08-19-arnold-neuralgia-understanding-relieving-misunderstood-pain.html"
+        hreflang="ar" />
+    <link rel="alternate"
+        href="https://familyclinic.doctor/blog/2025-08-19-arnold-neuralgia-understanding-relieving-misunderstood-pain.html"
+        hreflang="x-default" />
 
     <!-- Structured Data -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "Arnold's Neuralgia: Understanding and Relieving This Misunderstood Pain",
-        "description": "Discover Arnold's neuralgia: causes, characteristic symptoms, and effective treatment approaches. Learn how Family Clinic can help relieve this often misdiagnosed condition.",
+        "headline": "Névralgie d'Arnold : comprendre et soulager cette douleur méconnue",
+        "description": "Découvrez la névralgie d'Arnold : causes, symptômes caractéristiques et approches de traitement efficaces. Apprenez comment Family Clinic peut aider à soulager cette affection souvent mal diagnostiquée.",
         "image": "https://www.familyclinic.doctor/assets/images/optimized/blog/arnold_neuralgia_banner_desktop_800x400.jpg",
         "author": {
             "@type": "Person",
@@ -33,15 +47,16 @@
     }
     </script>
 
-    <link rel="stylesheet" href="../assets/styles.css">
-    <link rel="stylesheet" href="../assets/blog.css">
-    <link rel="stylesheet" href="../assets/blog-article.css">
+    <link rel="stylesheet" href="../../assets/styles.css">
+    <link rel="stylesheet" href="../../assets/localization.css">
+    <link rel="stylesheet" href="../../assets/blog.css">
+    <link rel="stylesheet" href="../../assets/blog-article.css">
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="../assets/favicon/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../../assets/favicon/site.webmanifest">
 </head>
 
 <body>
@@ -49,22 +64,23 @@
     <header class="header">
         <div class="header__container">
             <div class="header__logo">
-                <a href="../index.html" class="header__logo-link" aria-label="Go to Family Clinic homepage">
-                    <img src="../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
-                        srcset="../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
-                        sizes="(max-width: 768px) 80px, 100px" alt="Family Clinic Logo" class="header__logo-img"
+                <a href="../index.html" class="header__logo-link"
+                    aria-label="Aller à la page d'accueil de Family Clinic">
+                    <img src="../../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
+                        srcset="../../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
+                        sizes="(max-width: 768px) 80px, 100px" alt="Logo Family Clinic" class="header__logo-img"
                         loading="lazy" onerror="this.style.display='none'">
                     <h1 class="header__logo-text">Family Clinic</h1>
                 </a>
             </div>
 
-            <nav class="nav" aria-label="Main navigation">
+            <nav class="nav" aria-label="Navigation principale">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="../index.html" class="nav__link">Home</a>
+                        <a href="../index.html" class="nav__link">Accueil</a>
                     </li>
                     <li class="nav__item">
-                        <a href="../about.html" class="nav__link">About</a>
+                        <a href="../about.html" class="nav__link">À propos</a>
                     </li>
                     <li class="nav__item">
                         <a href="../services.html" class="nav__link">Services</a>
@@ -78,7 +94,27 @@
                 </ul>
             </nav>
 
-            <button class="header__mobile-menu" aria-label="Toggle mobile menu" aria-expanded="false">
+            <!-- Language Switcher -->
+            <div class="language-switcher">
+                <button class="language-switcher__toggle" aria-label="Choisir la langue" aria-expanded="false">
+                    <span class="language-switcher__current">FR</span>
+                    <svg class="language-switcher__icon" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </button>
+                <ul class="language-switcher__menu">
+                    <li><a href="../../blog/2025-08-19-arnold-neuralgia-understanding-relieving-misunderstood-pain.html"
+                            data-lang="en">English</a></li>
+                    <li><a href="2025-08-19-arnold-neuralgia-understanding-relieving-misunderstood-pain.html"
+                            data-lang="fr" class="active">Français</a></li>
+                    <li><a href="../../ar/blog/2025-08-19-arnold-neuralgia-understanding-relieving-misunderstood-pain.html"
+                            data-lang="ar">العربية</a></li>
+                </ul>
+            </div>
+
+            <button class="header__mobile-menu" aria-label="Basculer le menu mobile" aria-expanded="false">
                 <span class="header__mobile-menu-line"></span>
                 <span class="header__mobile-menu-line"></span>
                 <span class="header__mobile-menu-line"></span>
@@ -92,32 +128,32 @@
         <section class="article-header">
             <div class="container">
                 <div class="article-header__content">
-                    <nav class="article-breadcrumb" aria-label="Breadcrumb">
+                    <nav class="article-breadcrumb" aria-label="Fil d'ariane">
                         <ol class="article-breadcrumb__list">
                             <li class="article-breadcrumb__item">
-                                <a href="../index.html" class="article-breadcrumb__link">Home</a>
+                                <a href="../index.html" class="article-breadcrumb__link">Accueil</a>
                             </li>
                             <li class="article-breadcrumb__item">
                                 <a href="catalog.html" class="article-breadcrumb__link">Blog</a>
                             </li>
                             <li class="article-breadcrumb__item" aria-current="page">
-                                <span class="article-breadcrumb__current">Arnold's Neuralgia</span>
+                                <span class="article-breadcrumb__current">Névralgie d'Arnold</span>
                             </li>
                         </ol>
                     </nav>
 
                     <div class="article-meta">
-                        <span class="article-meta__date">19 Aug 2025</span>
-                        <!-- <span class="article-meta__author">By Dr. Said-Alaoui Moulay Abdellah</span> -->
+                        <span class="article-meta__date">19 Août 2025</span>
+                        <span class="article-meta__author">Par Dr. Said-Alaoui Moulay Abdellah</span>
                     </div>
 
-                    <h1 class="article-title">Arnold's Neuralgia: Understanding and Relieving This Misunderstood Pain
-                    </h1>
+                    <h1 class="article-title">Névralgie d'Arnold : comprendre et soulager cette douleur méconnue</h1>
 
                     <p class="article-excerpt">
-                        Arnold's neuralgia is a painful condition affecting the Arnold nerve, located at the base of the
-                        skull. This nerve can become irritated or compressed when it passes through certain neck
-                        muscles, causing characteristic pain that is often misdiagnosed.
+                        La névralgie d'Arnold est une affection douloureuse qui touche le nerf d'Arnold, situé à la base
+                        du
+                        crâne. Ce nerf peut s'irriter ou se comprimer lors de son passage à travers certains muscles du
+                        cou, provoquant une douleur caractéristique souvent mal diagnostiquée.
                     </p>
                 </div>
             </div>
@@ -129,137 +165,139 @@
                 <div class="article-layout">
                     <article class="article-main">
                         <div class="article-image">
-                            <img src="../assets/images/optimized/blog/arnold_neuralgia_banner_desktop_800x400.jpg"
-                                srcset="../assets/images/optimized/blog/arnold_neuralgia_banner_mobile_600x300.jpg 600w, ../assets/images/optimized/blog/arnold_neuralgia_banner_desktop_800x400.jpg 800w"
+                            <img src="../../assets/images/optimized/blog/arnold_neuralgia_banner_desktop_800x400.jpg"
+                                srcset="../../assets/images/optimized/blog/arnold_neuralgia_banner_mobile_600x300.jpg 600w, ../../assets/images/optimized/blog/arnold_neuralgia_banner_desktop_800x400.jpg 800w"
                                 sizes="(max-width: 768px) 600px, 800px"
-                                alt="Arnold's neuralgia anatomical illustration showing nerve pathway" loading="lazy"
-                                onerror="this.style.display='none'">
+                                alt="Illustration anatomique de la névralgie d'Arnold montrant le trajet du nerf"
+                                loading="lazy" onerror="this.style.display='none'">
                         </div>
 
                         <div class="article-body">
-                            <h2>What is Arnold's Neuralgia?</h2>
+                            <h2>Qu'est-ce que la névralgie d'Arnold ?</h2>
 
                             <p>
-                                Arnold's neuralgia is a painful condition that affects the Arnold nerve, located at the
-                                base of the skull. This nerve can become irritated or compressed when it passes through
-                                certain neck muscles.
+                                La névralgie d'Arnold est une affection douloureuse qui touche le nerf d'Arnold, situé à
+                                la
+                                base du crâne. Ce nerf peut s'irriter ou se comprimer lors de son passage à travers
+                                certains muscles du cou.
                             </p>
 
-                            <h2>Frequent Causes</h2>
+                            <h2>Causes fréquentes</h2>
 
                             <p>
-                                The neuralgia can be triggered by:
-                            </p>
-
-                            <ul>
-                                <li>Local muscle contraction</li>
-                                <li>Cervical arthritis</li>
-                                <li>Trauma (shock or prolonged tension)</li>
-                                <li>Spinal cord injury</li>
-                            </ul>
-
-                            <h2>Characteristic Symptoms</h2>
-
-                            <p>
-                                The pain is often unilateral (on one side only) and can be confused with a migraine. It
-                                manifests as:
+                                La névralgie peut être déclenchée par :
                             </p>
 
                             <ul>
-                                <li>Pain behind the head, extending to the top of the skull</li>
-                                <li>Radiation toward the posterior part of the ear</li>
-                                <li>Sensitivity in the area above the eye</li>
-                                <li>Hypersensitivity of the scalp, sometimes to simple touch</li>
+                                <li>Contraction musculaire locale</li>
+                                <li>Arthrite cervicale</li>
+                                <li>Traumatisme (choc ou tension prolongée)</li>
+                                <li>Lésion de la moelle épinière</li>
                             </ul>
 
-                            <h2>What to Do?</h2>
+                            <h2>Symptômes caractéristiques</h2>
 
                             <p>
-                                At Family Clinic, we offer an integrative and personalized approach:
+                                La douleur est souvent unilatérale (d'un seul côté) et peut être confondue avec une
+                                migraine. Elle
+                                se manifeste par :
                             </p>
 
                             <ul>
-                                <li>Postural and muscular evaluation</li>
-                                <li>Targeted physiotherapy to release tensions</li>
-                                <li>Gentle manual techniques (osteopathy, therapeutic massages)</li>
-                                <li>Ergonomic advice to prevent recurrences</li>
+                                <li>Douleur derrière la tête, s'étendant vers le sommet du crâne</li>
+                                <li>Irradiation vers la partie postérieure de l'oreille</li>
+                                <li>Sensibilité dans la zone au-dessus de l'œil</li>
+                                <li>Hypersensibilité du cuir chevelu, parfois au simple toucher</li>
                             </ul>
 
-                            <h2>In Summary</h2>
+                            <h2>Que faire ?</h2>
 
                             <p>
-                                Arnold's neuralgia is often poorly diagnosed, but it can be effectively relieved through
-                                appropriate care. If you experience these pains, don't hesitate to consult us for a
-                                complete assessment and natural accompaniment.
+                                À Family Clinic, nous proposons une approche intégrative et personnalisée :
+                            </p>
+
+                            <ul>
+                                <li>Évaluation posturale et musculaire</li>
+                                <li>Physiothérapie ciblée pour libérer les tensions</li>
+                                <li>Techniques manuelles douces (ostéopathie, massages thérapeutiques)</li>
+                                <li>Conseils ergonomiques pour prévenir les récidives</li>
+                            </ul>
+
+                            <h2>En résumé</h2>
+
+                            <p>
+                                La névralgie d'Arnold est souvent mal diagnostiquée, mais elle peut être efficacement
+                                soulagée grâce à
+                                des soins appropriés. Si vous ressentez ces douleurs, n'hésitez pas à nous consulter
+                                pour un
+                                bilan complet et un accompagnement naturel.
                             </p>
 
                             <p>
-                                <em>Warm regards, Dr. Said-Alaoui Moulay Abdellah and the Family Clinic Team</em>
+                                Cordialement,<br>
+                                <em>Dr. Said-Alaoui Moulay Abdellah et l'équipe de Family Clinic</em>
                             </p>
                         </div>
 
                         <div class="article-footer">
                             <div class="article-tags">
-                                <span class="article-tags__label">Tags:</span>
-                                <a href="catalog.html" class="article-tags__tag">Neuralgia</a>
-                                <a href="catalog.html" class="article-tags__tag">Pain Relief</a>
-                                <a href="catalog.html" class="article-tags__tag">Physiotherapy</a>
-                                <a href="catalog.html" class="article-tags__tag">Headache</a>
+                                <span class="article-tags__label">Tags :</span>
+                                <a href="catalog.html" class="article-tags__tag">Névralgie</a>
+                                <a href="catalog.html" class="article-tags__tag">Soulagement de la douleur</a>
+                                <a href="catalog.html" class="article-tags__tag">Physiothérapie</a>
+                                <a href="catalog.html" class="article-tags__tag">Mal de tête</a>
                             </div>
                         </div>
                     </article>
 
                     <aside class="article-sidebar">
-                        <!-- <div class="sidebar-section"> -->
-                        <!-- <h3 class="sidebar-section__title">About the Author</h3> -->
                         <a href="../about.html#dr-said-alaoui" class="author-card">
-                            <img src="../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png"
-                                srcset="../assets/images/optimized/team/dr_my_abdellah_mobile_300x300.png 300w, ../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png 400w"
+                            <img src="../../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png"
+                                srcset="../../assets/images/optimized/team/dr_my_abdellah_mobile_300x300.png 300w, ../../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png 400w"
                                 sizes="(max-width: 768px) 300px, 400px" alt="Dr. Said-Alaoui Moulay Abdellah"
                                 loading="lazy" onerror="this.style.display='none'" class="author-card__image">
                             <div class="author-card__content">
                                 <h4 class="author-card__name">Dr. Said-Alaoui Moulay Abdellah</h4>
-                                <p class="author-card__title">Family Medicine Physician</p>
+                                <p class="author-card__title">Médecin de Famille</p>
                                 <p class="author-card__bio">
-                                    Family medicine physician and former military doctor with 40+ years experience,
-                                    specializing in nutritional therapy and environmental causes.
+                                    Médecin de famille et ancien médecin militaire avec plus de 40 ans d'expérience,
+                                    spécialisé en thérapie nutritionnelle et causes environnementales.
                                 </p>
                             </div>
                         </a>
-                        <!-- </div> -->
 
                         <div class="sidebar-section">
-                            <h3 class="sidebar-section__title">Related Articles</h3>
+                            <h3 class="sidebar-section__title">Articles connexes</h3>
                             <div class="related-articles">
                                 <article class="related-article">
                                     <h4 class="related-article__title">
-                                        <a href="2025-08-19-migraine-natural-relief-prevention-tips.html">Migraine:
-                                            Natural Relief and Prevention Tips</a>
+                                        <a href="2025-08-19-migraine-natural-relief-prevention-tips.html">Migraine :
+                                            soulagement naturel et conseils de prévention</a>
                                     </h4>
-                                    <span class="related-article__date">19 Aug 2025</span>
+                                    <span class="related-article__date">19 Août 2025</span>
                                 </article>
                                 <article class="related-article">
                                     <h4 class="related-article__title">
-                                        <a href="2025-08-19-hijama-therapeutic-method-global-wellness.html">Hijama: A
-                                            Therapeutic Method for Global Wellness</a>
+                                        <a href="2025-08-19-hijama-therapeutic-method-global-wellness.html">Hijama : une
+                                            méthode thérapeutique pour le bien-être global</a>
                                     </h4>
-                                    <span class="related-article__date">19 Aug 2025</span>
+                                    <span class="related-article__date">19 Août 2025</span>
                                 </article>
                                 <article class="related-article">
                                     <h4 class="related-article__title">
                                         <a
-                                            href="2025-08-19-migraine-crisis-understanding-symptoms-causes-autoimmune-link.html">Migraine
-                                            Crisis: Understanding Symptoms, Causes, and Autoimmune Link</a>
+                                            href="2025-08-19-migraine-crisis-understanding-symptoms-causes-autoimmune-link.html">Crise
+                                            de migraine : comprendre les symptômes, causes et lien auto-immun</a>
                                     </h4>
-                                    <span class="related-article__date">19 Aug 2025</span>
+                                    <span class="related-article__date">19 Août 2025</span>
                                 </article>
                             </div>
                         </div>
 
                         <div class="sidebar-section">
-                            <h3 class="sidebar-section__title">Get in Touch</h3>
-                            <p>Have questions about your health? We're here to help.</p>
-                            <a href="../contact.html" class="btn btn--primary">Book an Appointment</a>
+                            <h3 class="sidebar-section__title">Contactez-nous</h3>
+                            <p>Vous avez des questions sur votre santé ? Nous sommes là pour vous aider.</p>
+                            <a href="../contact.html" class="btn btn--primary">Prendre rendez-vous</a>
                         </div>
                     </aside>
                 </div>
@@ -273,28 +311,29 @@
             <div class="footer__content">
                 <div class="footer__section">
                     <div class="footer__logo">
-                        <a href="../index.html" class="footer__logo-link" aria-label="Go to Family Clinic homepage">
-                            <img src="../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
-                                srcset="../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
-                                sizes="(max-width: 768px) 80px, 100px" alt="Family Clinic Logo" class="footer__logo-img"
+                        <a href="../index.html" class="footer__logo-link"
+                            aria-label="Aller à la page d'accueil de Family Clinic">
+                            <img src="../../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
+                                srcset="../../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
+                                sizes="(max-width: 768px) 80px, 100px" alt="Logo Family Clinic" class="footer__logo-img"
                                 loading="lazy" onerror="this.style.display='none'">
                             <h3 class="footer__logo-text">Family Clinic</h3>
                         </a>
                     </div>
                     <p class="footer__description">
-                        Providing comprehensive healthcare services for families in a welcoming and compassionate
-                        environment.
+                        Fournissant des services de soins de santé complets pour les familles dans un environnement
+                        accueillant et compatissant.
                     </p>
                 </div>
 
                 <div class="footer__section">
-                    <h4 class="footer__section-title">Quick Links</h4>
+                    <h4 class="footer__section-title">Liens rapides</h4>
                     <ul class="footer__links">
                         <li class="footer__item">
-                            <a href="../index.html" class="footer__link">Home</a>
+                            <a href="../index.html" class="footer__link">Accueil</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../about.html" class="footer__link">About Us</a>
+                            <a href="../about.html" class="footer__link">À propos</a>
                         </li>
                         <li class="footer__item">
                             <a href="../services.html" class="footer__link">Services</a>
@@ -312,74 +351,74 @@
                     <h4 class="footer__section-title">Services</h4>
                     <ul class="footer__links">
                         <li class="footer__item">
-                            <a href="../services.html#family-medicine" class="footer__link">Family Medicine</a>
+                            <a href="../services.html#family-medicine" class="footer__link">Médecine familiale</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#holistic-consultations" class="footer__link">Holistic
-                                Consultations</a>
+                            <a href="../services.html#holistic-consultations" class="footer__link">Consultations
+                                holistiques</a>
                         </li>
                         <li class="footer__item">
                             <a href="../services.html#quantum-scan" class="footer__link">Quantum Scan</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#naturopathy" class="footer__link">Naturopathy</a>
+                            <a href="../services.html#naturopathy" class="footer__link">Naturopathie</a>
                         </li>
                         <li class="footer__item">
                             <a href="../services.html#hijamah" class="footer__link">Hijamah</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#physiotherapy" class="footer__link">Physiotherapy</a>
+                            <a href="../services.html#physiotherapy" class="footer__link">Physiothérapie</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#dermatology" class="footer__link">Dermatology</a>
-                        <li class="footer__item">
-                            <a href="../services.html#judiciary-medical-expertise" class="footer__link">Judiciary
-                                Medical Expertise</a>
+                            <a href="../services.html#dermatology" class="footer__link">Dermatologie</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#weight-loss" class="footer__link">Weight Loss</a>
+                            <a href="../services.html#judiciary-medical-expertise" class="footer__link">Expertise
+                                médicale judiciaire</a>
                         </li>
+                        <li class="footer__item">
+                            <a href="../services.html#weight-loss" class="footer__link">Perte de poids</a>
                         </li>
                     </ul>
                 </div>
 
                 <div class="footer__section">
-                    <h4 class="footer__section-title">Contact Info</h4>
+                    <h4 class="footer__section-title">Informations de contact</h4>
                     <div class="footer__contact">
                         <div class="footer__contact-item">
-                            <strong>Address:</strong>
+                            <strong>Adresse :</strong>
                             <a href="https://maps.app.goo.gl/sPxKYDMUdsN9dVV2A" target="_blank"
                                 rel="noopener noreferrer" class="footer__link">
                                 N*47, Bloc B, Ouled Oujih<br>
-                                Kenitra, 14080, Morocco
+                                Kenitra, 14080, Maroc
                             </a>
                         </div>
                         <div class="footer__contact-item">
-                            <strong>Phone:</strong>
+                            <strong>Téléphone :</strong>
                             <a href="tel:+212-641-745-441" class="footer__link">+212-641-745-441</a>
                         </div>
                         <div class="footer__contact-item">
-                            <strong>Email:</strong>
+                            <strong>Email :</strong>
                             <a href="mailto:saidalaoui.m.a@gmail.com" class="footer__link">saidalaoui.m.a@gmail.com</a>
                         </div>
                     </div>
 
                     <p class="footer__contact-item">
-                        <strong>Hours:</strong><br>
-                        Mon-Thu: 9:00 - 17:00<br>
-                        Fri: 9:00 - 13:00, 15:00 - 18:00<br>
-                        Sat: 9:00 - 13:00
+                        <strong>Horaires :</strong><br>
+                        Lun-Jeu : 9h00 - 17h00<br>
+                        Ven : 9h00 - 13h00, 15h00 - 18h00<br>
+                        Sam : 9h00 - 13h00
                     </p>
                 </div>
             </div>
 
             <div class="footer__bottom">
                 <p class="footer__copyright">
-                    &copy; 2025 Family Clinic. All rights reserved.
+                    &copy; 2025 Family Clinic. Tous droits réservés.
                 </p>
                 <p class="footer__powered-by">
-                    Powered by <img src="../assets/images/optimized/netria/netria-logo-footer-transparent.png"
-                        alt="Netria Logo" class="footer__netria-logo" loading="lazy"> <a
+                    Propulsé par <img src="../../assets/images/optimized/netria/netria-logo-footer-transparent.png"
+                        alt="Logo Netria" class="footer__netria-logo" loading="lazy"> <a
                         href="https://netria.dev?utm_source=familyclinic&utm_medium=website&utm_campaign=footer_attribution"
                         class="footer__link" target="_blank" rel="noopener noreferrer">netria.dev</a>
                 </p>
@@ -387,7 +426,8 @@
         </div>
     </footer>
 
-    <script src="../assets/script.js"></script>
+    <script src="../../assets/script.js"></script>
+    <script src="../../assets/localization.js"></script>
 </body>
 
 </html>

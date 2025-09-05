@@ -1,20 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bread, Milk, and Jam: Are They Really Health Foods? - Family Clinic</title>
+    <title>Pain, Lait et Confiture : Sont-ils Vraiment des Aliments Sains ? - Family Clinic</title>
     <meta name="description"
-        content="Discover the truth about breakfast staples like bread, milk, and jam. Learn about their glycemic impact and healthier alternatives for your morning meal.">
+        content="Découvrez la vérité sur les aliments de base du petit-déjeuner comme le pain, le lait et la confiture. Apprenez leur impact glycémique et des alternatives plus saines pour votre repas matinal.">
+
+    <!-- Hreflang Tags -->
+    <link rel="alternate" href="https://familyclinic.doctor/blog/2025-08-18-bread-milk-jam-health-foods.html"
+        hreflang="en" />
+    <link rel="alternate" href="https://familyclinic.doctor/fr/blog/2025-08-18-bread-milk-jam-health-foods.html"
+        hreflang="fr" />
+    <link rel="alternate" href="https://familyclinic.doctor/ar/blog/2025-08-18-bread-milk-jam-health-foods.html"
+        hreflang="ar" />
+    <link rel="alternate" href="https://familyclinic.doctor/blog/2025-08-18-bread-milk-jam-health-foods.html"
+        hreflang="x-default" />
 
     <!-- Structured Data -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "Bread, Milk, and Jam: Are They Really Health Foods?",
-        "description": "Discover the truth about breakfast staples like bread, milk, and jam. Learn about their glycemic impact and healthier alternatives for your morning meal.",
+        "headline": "Pain, Lait et Confiture : Sont-ils Vraiment des Aliments Sains ?",
+        "description": "Découvrez la vérité sur les aliments de base du petit-déjeuner comme le pain, le lait et la confiture. Apprenez leur impact glycémique et des alternatives plus saines pour votre repas matinal.",
         "image": "https://www.familyclinic.doctor/assets/images/optimized/blog/milk_bread_jam_banner_desktop_800x400.jpg",
         "author": {
             "@type": "Person",
@@ -33,15 +43,16 @@
     }
     </script>
 
-    <link rel="stylesheet" href="../assets/styles.css">
-    <link rel="stylesheet" href="../assets/blog.css">
-    <link rel="stylesheet" href="../assets/blog-article.css">
+    <link rel="stylesheet" href="../../assets/styles.css">
+    <link rel="stylesheet" href="../../assets/localization.css">
+    <link rel="stylesheet" href="../../assets/blog.css">
+    <link rel="stylesheet" href="../../assets/blog-article.css">
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="../assets/favicon/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../../assets/favicon/site.webmanifest">
 </head>
 
 <body>
@@ -49,22 +60,23 @@
     <header class="header">
         <div class="header__container">
             <div class="header__logo">
-                <a href="../index.html" class="header__logo-link" aria-label="Go to Family Clinic homepage">
-                    <img src="../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
-                        srcset="../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
-                        sizes="(max-width: 768px) 80px, 100px" alt="Family Clinic Logo" class="header__logo-img"
+                <a href="../index.html" class="header__logo-link"
+                    aria-label="Aller à la page d'accueil de Family Clinic">
+                    <img src="../../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
+                        srcset="../../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
+                        sizes="(max-width: 768px) 80px, 100px" alt="Logo Family Clinic" class="header__logo-img"
                         loading="lazy" onerror="this.style.display='none'">
                     <h1 class="header__logo-text">Family Clinic</h1>
                 </a>
             </div>
 
-            <nav class="nav" aria-label="Main navigation">
+            <nav class="nav" aria-label="Navigation principale">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="../index.html" class="nav__link">Home</a>
+                        <a href="../index.html" class="nav__link">Accueil</a>
                     </li>
                     <li class="nav__item">
-                        <a href="../about.html" class="nav__link">About</a>
+                        <a href="../about.html" class="nav__link">À propos</a>
                     </li>
                     <li class="nav__item">
                         <a href="../services.html" class="nav__link">Services</a>
@@ -78,7 +90,26 @@
                 </ul>
             </nav>
 
-            <button class="header__mobile-menu" aria-label="Toggle mobile menu" aria-expanded="false">
+            <!-- Language Switcher -->
+            <div class="language-switcher">
+                <button class="language-switcher__toggle" aria-label="Choisir la langue" aria-expanded="false">
+                    <span class="language-switcher__current">FR</span>
+                    <svg class="language-switcher__icon" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </button>
+                <ul class="language-switcher__menu">
+                    <li><a href="../../blog/2025-08-18-bread-milk-jam-health-foods.html" data-lang="en">English</a></li>
+                    <li><a href="2025-08-18-bread-milk-jam-health-foods.html" data-lang="fr" class="active">Français</a>
+                    </li>
+                    <li><a href="../../ar/blog/2025-08-18-bread-milk-jam-health-foods.html" data-lang="ar">العربية</a>
+                    </li>
+                </ul>
+            </div>
+
+            <button class="header__mobile-menu" aria-label="Basculer le menu mobile" aria-expanded="false">
                 <span class="header__mobile-menu-line"></span>
                 <span class="header__mobile-menu-line"></span>
                 <span class="header__mobile-menu-line"></span>
@@ -92,33 +123,34 @@
         <section class="article-header">
             <div class="container">
                 <div class="article-header__content">
-                    <nav class="article-breadcrumb" aria-label="Breadcrumb">
+                    <nav class="article-breadcrumb" aria-label="Fil d'ariane">
                         <ol class="article-breadcrumb__list">
                             <li class="article-breadcrumb__item">
-                                <a href="../index.html" class="article-breadcrumb__link">Home</a>
+                                <a href="../index.html" class="article-breadcrumb__link">Accueil</a>
                             </li>
                             <li class="article-breadcrumb__item">
                                 <a href="catalog.html" class="article-breadcrumb__link">Blog</a>
                             </li>
                             <li class="article-breadcrumb__item" aria-current="page">
-                                <span class="article-breadcrumb__current">Bread, Milk, and Jam: Are They Really Health
-                                    Foods?</span>
+                                <span class="article-breadcrumb__current">Pain, Lait et Confiture : Sont-ils Vraiment
+                                    des Aliments Sains ?</span>
                             </li>
                         </ol>
                     </nav>
 
                     <div class="article-meta">
-                        <span class="article-meta__date">18 Aug 2025</span>
-                        <!-- <span class="article-meta__author">By Dr. Said-Alaoui Moulay Abdellah</span> -->
+                        <span class="article-meta__date">18 Août 2025</span>
+                        <!-- <span class="article-meta__author">Par Dr. Said-Alaoui Moulay Abdellah</span> -->
                     </div>
 
-                    <h1 class="article-title">Bread, Milk, and Jam: Are They Really Health Foods?</h1>
+                    <h1 class="article-title">Pain, Lait et Confiture : Sont-ils Vraiment des Aliments Sains ?</h1>
 
                     <p class="article-excerpt">
-                        Discover the truth about these breakfast staples. While bread, milk, and jam may seem innocent,
-                        they can play tricks on your metabolism if not chosen carefully. Learn about their glycemic
-                        impact
-                        and discover healthier alternatives for your morning meal.
+                        Découvrez la vérité sur ces aliments de base du petit-déjeuner. Bien que le pain, le lait et la
+                        confiture puissent sembler innocents,
+                        ils peuvent jouer des tours à votre métabolisme s'ils ne sont pas choisis avec soin. Apprenez
+                        leur impact glycémique
+                        et découvrez des alternatives plus saines pour votre repas matinal.
                     </p>
                 </div>
             </div>
@@ -130,203 +162,209 @@
                 <div class="article-layout">
                     <article class="article-main">
                         <div class="article-image">
-                            <img src="../assets/images/optimized/blog/milk_bread_jam_banner_desktop_800x400.jpg"
-                                srcset="../assets/images/optimized/blog/milk_bread_jam_banner_mobile_600x300.jpg 600w, ../assets/images/optimized/blog/milk_bread_jam_banner_desktop_800x400.jpg 800w"
+                            <img src="../../assets/images/optimized/blog/milk_bread_jam_banner_desktop_800x400.jpg"
+                                srcset="../../assets/images/optimized/blog/milk_bread_jam_banner_mobile_600x300.jpg 600w, ../../assets/images/optimized/blog/milk_bread_jam_banner_desktop_800x400.jpg 800w"
                                 sizes="(max-width: 768px) 600px, 800px"
-                                alt="Family enjoying breakfast with bread, milk, and jam" loading="lazy"
+                                alt="Famille profitant du petit-déjeuner avec pain, lait et confiture" loading="lazy"
                                 onerror="this.style.display='none'">
                         </div>
 
                         <div class="article-body">
                             <p>
-                                Are bread, milk, and jam really health foods? Well, bread, milk, and jam are like orange
-                                juice.
-                                As strange as it may seem, they contain fast sugar. Their glycemic index is higher than
-                                table sugar.
-                                In excess, it's guaranteed weight gain. So enjoy them in small doses, on special
-                                occasions, but not every morning.
+                                Le pain, le lait et la confiture sont-ils vraiment des aliments sains ? Eh bien, le
+                                pain, le lait et la confiture sont comme le jus d'orange.
+                                Aussi étrange que cela puisse paraître, ils contiennent du sucre rapide. Leur index
+                                glycémique est plus élevé que le sucre de table.
+                                En excès, c'est une prise de poids garantie. Alors savourez-les en petites doses, lors
+                                d'occasions spéciales, mais pas tous les matins.
                             </p>
 
                             <p>
-                                It's better to spread butter on your bread rather than jam. Because contrary to what
-                                we've been told for years,
-                                butter is actually a recommendable food that contains good fatty acids and vitamins (A,
-                                E, and K2).
+                                Il vaut mieux tartiner du beurre sur votre pain plutôt que de la confiture. Car
+                                contrairement à ce qu'on nous a dit pendant des années,
+                                le beurre est en fait un aliment recommandable qui contient de bons acides gras et des
+                                vitamines (A, E et K2).
                             </p>
 
-                            <h2>The Breakfast Classics: Not as Innocent as They Seem</h2>
+                            <h2>Les Classiques du Petit-déjeuner : Pas Aussi Innocents qu'ils en Ont l'Air</h2>
 
                             <p>
-                                These three breakfast classics — bread, milk, and jam — seem innocent, but they can play
-                                tricks on your
-                                metabolism if not chosen carefully. Here's a complete breakdown:
+                                Ces trois classiques du petit-déjeuner — pain, lait et confiture — semblent innocents,
+                                mais ils peuvent jouer des tours à votre
+                                métabolisme s'ils ne sont pas choisis avec soin. Voici une analyse complète :
                             </p>
 
-                            <h3>Bread: Not as Neutral as You Think</h3>
+                            <h3>Le Pain : Pas Aussi Neutre que Vous le Pensez</h3>
 
                             <ul>
-                                <li><strong>White bread:</strong> High glycemic index, low in fiber. It causes blood
-                                    sugar spikes followed by hunger pangs.</li>
-                                <li><strong>Whole grain or multigrain bread:</strong> Better option. More fiber, slower
-                                    digestion, satiating effect.</li>
-                                <li><strong>Industrial bread:</strong> Often enriched with hidden sugars, additives, and
-                                    preservatives.</li>
+                                <li><strong>Pain blanc :</strong> Index glycémique élevé, faible en fibres. Il provoque
+                                    des pics de glycémie suivis de fringales.</li>
+                                <li><strong>Pain complet ou multicéréales :</strong> Meilleure option. Plus de fibres,
+                                    digestion plus lente, effet satiétant.</li>
+                                <li><strong>Pain industriel :</strong> Souvent enrichi de sucres cachés, d'additifs et
+                                    de conservateurs.</li>
                             </ul>
 
-                            <p><strong>Tip:</strong> Choose sourdough or homemade bread, ideally made with semi-whole or
-                                whole grain flours.</p>
+                            <p><strong>Conseil :</strong> Choisissez du pain au levain ou fait maison, idéalement avec
+                                des farines semi-complètes ou complètes.</p>
 
-                            <h3>Milk: Friend or Foe?</h3>
+                            <h3>Le Lait : Ami ou Ennemi ?</h3>
 
                             <p>
-                                Milk should be avoided. In addition to being sometimes poorly digested, cow's milk
-                                contains several
-                                bovine hormones unsuitable for the human body, such as insulin and estrogens, as well as
-                                growth factors
-                                that could stimulate cancer cells. A calf fed cow's milk goes from 30 to 200 kilos in 6
-                                months.
-                                Leave this milk that's tailor-made for its own needs.
+                                Le lait doit être évité. En plus d'être parfois mal digéré, le lait de vache contient
+                                plusieurs
+                                hormones bovines inadaptées au corps humain, comme l'insuline et les œstrogènes, ainsi
+                                que des facteurs de croissance
+                                qui pourraient stimuler les cellules cancéreuses. Un veau nourri au lait de vache passe
+                                de 30 à 200 kilos en 6
+                                mois. Laissez ce lait qui est fait sur mesure pour ses propres besoins.
                             </p>
 
-                            <p><strong>Tip:</strong> Choose unsweetened plant-based milks to limit glycemic impact.</p>
+                            <p><strong>Conseil :</strong> Choisissez des laits végétaux non sucrés pour limiter l'impact
+                                glycémique.</p>
 
-                            <h3>Jam: The Sugary Trap</h3>
+                            <h3>La Confiture : Le Piège Sucré</h3>
 
                             <ul>
-                                <li><strong>Classic jam:</strong> Up to 60% sugar! Even if it's "homemade," it remains
-                                    very sweet.</li>
-                                <li><strong>Light jam:</strong> Less sugar, but sometimes artificial sweeteners.</li>
-                                <li><strong>Fruit puree:</strong> Healthier alternative, no added sugars.</li>
+                                <li><strong>Confiture classique :</strong> Jusqu'à 60% de sucre ! Même si elle est
+                                    "faite maison", elle reste très sucrée.</li>
+                                <li><strong>Confiture allégée :</strong> Moins de sucre, mais parfois des édulcorants
+                                    artificiels.</li>
+                                <li><strong>Purée de fruits :</strong> Alternative plus saine, pas de sucres ajoutés.
+                                </li>
                             </ul>
 
-                            <p><strong>Tip:</strong> A thin layer is enough. Or better yet: replace it with fresh fruits
-                                or unsweetened compote.</p>
+                            <p><strong>Conseil :</strong> Une fine couche suffit. Ou mieux encore : remplacez-la par des
+                                fruits frais ou de la compote non sucrée.</p>
 
-                            <h2>Summary: Smart Breakfast Choices</h2>
+                            <h2>Résumé : Choix Intelligents pour le Petit-déjeuner</h2>
 
                             <div class="article-table">
                                 <table>
                                     <thead>
                                         <tr>
-                                            <th>Food</th>
-                                            <th>Potential Risks</th>
-                                            <th>Recommended Alternatives</th>
+                                            <th>Aliment</th>
+                                            <th>Risques Potentiels</th>
+                                            <th>Alternatives Recommandées</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>White bread</td>
-                                            <td>Blood sugar spike, low satiety</td>
-                                            <td>Whole grain bread, sourdough</td>
+                                            <td>Pain blanc</td>
+                                            <td>Pic de glycémie, faible satiété</td>
+                                            <td>Pain complet, pain au levain</td>
                                         </tr>
                                         <tr>
-                                            <td>Whole milk</td>
-                                            <td>Lactose, saturated fats</td>
-                                            <td>Unsweetened plant-based milk</td>
+                                            <td>Lait entier</td>
+                                            <td>Lactose, graisses saturées</td>
+                                            <td>Lait végétal non sucré</td>
                                         </tr>
                                         <tr>
-                                            <td>Jam</td>
-                                            <td>Very sweet, low fiber</td>
-                                            <td>Fruit puree, homemade compote</td>
+                                            <td>Confiture</td>
+                                            <td>Très sucrée, faible en fibres</td>
+                                            <td>Purée de fruits, compote maison</td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
 
-                            <h2>Making Healthier Breakfast Choices</h2>
+                            <h2>Faire des Choix Plus Sains pour le Petit-déjeuner</h2>
 
                             <p>
-                                Your breakfast choices can significantly impact your energy levels, mood, and overall
-                                health throughout the day.
-                                By making informed decisions about these common breakfast items, you can create a more
-                                balanced and nutritious
-                                start to your day.
+                                Vos choix de petit-déjeuner peuvent considérablement impacter vos niveaux d'énergie,
+                                votre humeur et votre santé globale
+                                tout au long de la journée. En prenant des décisions éclairées sur ces aliments courants
+                                du petit-déjeuner, vous pouvez créer un
+                                début de journée plus équilibré et nutritif.
                             </p>
 
                             <p>
-                                Remember, the key is moderation and choosing quality over quantity. Opt for whole,
-                                unprocessed foods when possible,
-                                and pay attention to how your body responds to different foods. A healthy breakfast
-                                should provide sustained energy
-                                without causing blood sugar crashes or digestive discomfort.
+                                Rappelez-vous, la clé est la modération et choisir la qualité plutôt que la quantité.
+                                Optez pour des aliments entiers,
+                                non transformés quand c'est possible, et faites attention à la façon dont votre corps
+                                réagit à différents aliments. Un petit-déjeuner sain
+                                devrait fournir une énergie soutenue sans causer de chutes de glycémie ou d'inconfort
+                                digestif.
                             </p>
 
                             <p>
-                                At Family Clinic, we believe in empowering our patients with knowledge about nutrition
-                                and healthy eating habits.
-                                If you'd like personalized advice about your diet or have questions about making
-                                healthier food choices, don't hesitate to schedule a consultation with us!
+                                À Family Clinic, nous croyons en l'autonomisation de nos patients avec des connaissances
+                                sur la nutrition
+                                et les habitudes alimentaires saines. Si vous souhaitez des conseils personnalisés sur
+                                votre alimentation ou avez des questions sur
+                                comment faire des choix alimentaires plus sains, n'hésitez pas à programmer une
+                                consultation avec nous !
                             </p>
 
                             <p>
-                                Warm regards,<br>
-                                <em>Dr. Said-Alaoui Moulay Abdellah and the Family Clinic Team</em>
+                                Cordialement,<br>
+                                <em>Dr. Said-Alaoui Moulay Abdellah et l'Équipe de Family Clinic</em>
                             </p>
                         </div>
 
                         <div class="article-footer">
                             <div class="article-tags">
-                                <span class="article-tags__label">Tags:</span>
+                                <span class="article-tags__label">Tags :</span>
                                 <a href="catalog.html" class="article-tags__tag">Nutrition</a>
-                                <a href="catalog.html" class="article-tags__tag">Breakfast</a>
-                                <a href="catalog.html" class="article-tags__tag">Healthy Eating</a>
-                                <a href="catalog.html" class="article-tags__tag">Glycemic Index</a>
-                                <a href="catalog.html" class="article-tags__tag">Diet Tips</a>
+                                <a href="catalog.html" class="article-tags__tag">Petit-déjeuner</a>
+                                <a href="catalog.html" class="article-tags__tag">Alimentation Saine</a>
+                                <a href="catalog.html" class="article-tags__tag">Index Glycémique</a>
+                                <a href="catalog.html" class="article-tags__tag">Conseils Alimentation</a>
                             </div>
                         </div>
                     </article>
 
                     <aside class="article-sidebar">
-                        <!-- <div class="sidebar-section"> -->
-                        <!-- <h3 class="sidebar-section__title">About the Author</h3> -->
                         <a href="../about.html#dr-said-alaoui" class="author-card">
-                            <img src="../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png"
-                                srcset="../assets/images/optimized/team/dr_my_abdellah_mobile_300x300.png 300w, ../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png 400w"
+                            <img src="../../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png"
+                                srcset="../../assets/images/optimized/team/dr_my_abdellah_mobile_300x300.png 300w, ../../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png 400w"
                                 sizes="(max-width: 768px) 300px, 400px" alt="Dr. Said-Alaoui Moulay Abdellah"
                                 loading="lazy" onerror="this.style.display='none'" class="author-card__image">
                             <div class="author-card__content">
                                 <h4 class="author-card__name">Dr. Said-Alaoui Moulay Abdellah</h4>
-                                <p class="author-card__title">Family Medicine Physician</p>
+                                <p class="author-card__title">Médecin de Famille</p>
                                 <p class="author-card__bio">
-                                    Family medicine physician and former military doctor with 40+ years experience,
-                                    specializing in nutritional therapy and environmental causes.
+                                    Médecin de famille et ancien médecin militaire avec plus de 40 ans d'expérience,
+                                    spécialisé en thérapie nutritionnelle et causes environnementales.
                                 </p>
                             </div>
                         </a>
                         <!-- </div> -->
 
                         <div class="sidebar-section">
-                            <h3 class="sidebar-section__title">Related Articles</h3>
+                            <h3 class="sidebar-section__title">Articles Connexes</h3>
                             <div class="related-articles">
                                 <article class="related-article">
                                     <h4 class="related-article__title">
-                                        <a href="2025-08-17-breakfast-most-important-meal.html">Breakfast: The Most
-                                            Important Meal of the Day?</a>
+                                        <a href="2025-08-17-breakfast-most-important-meal.html">Le Petit-déjeuner : Le
+                                            Repas le Plus
+                                            Important de la Journée ?</a>
                                     </h4>
-                                    <span class="related-article__date">17 Aug 2025</span>
+                                    <span class="related-article__date">17 Août 2025</span>
                                 </article>
                                 <article class="related-article">
                                     <h4 class="related-article__title">
-                                        <a href="2025-08-17-breakfast-myth-or-vital-need.html">Breakfast: Myth or Vital
-                                            Need?</a>
+                                        <a href="2025-08-17-breakfast-myth-or-vital-need.html">Petit-déjeuner : Mythe ou
+                                            Besoin Vital ?</a>
                                     </h4>
-                                    <span class="related-article__date">17 Aug 2025</span>
+                                    <span class="related-article__date">17 Août 2025</span>
                                 </article>
                                 <article class="related-article">
                                     <h4 class="related-article__title">
-                                        <a href="2025-08-17-orange-juice-glycemic-bomb.html">Orange Juice: A Glycemic
-                                            Bomb?</a>
+                                        <a href="2025-08-17-orange-juice-glycemic-bomb.html">Jus d'Orange : Une Bombe
+                                            Glycémique ?</a>
                                     </h4>
-                                    <span class="related-article__date">17 Aug 2025</span>
+                                    <span class="related-article__date">17 Août 2025</span>
                                 </article>
                             </div>
                         </div>
 
                         <div class="sidebar-section">
-                            <h3 class="sidebar-section__title">Get in Touch</h3>
-                            <p>Have questions about nutrition or healthy eating? Our team is here to help you make
-                                informed choices for your family's health.</p>
-                            <a href="../contact.html" class="btn btn--primary">Book an Appointment</a>
+                            <h3 class="sidebar-section__title">Contactez-nous</h3>
+                            <p>Vous avez des questions sur la nutrition ou l'alimentation saine ? Notre équipe est là
+                                pour vous aider à faire
+                                des choix éclairés pour la santé de votre famille.</p>
+                            <a href="../contact.html" class="btn btn--primary">Prendre un Rendez-vous</a>
                         </div>
                     </aside>
                 </div>
@@ -342,28 +380,29 @@
             <div class="footer__content">
                 <div class="footer__section">
                     <div class="footer__logo">
-                        <a href="../index.html" class="footer__logo-link" aria-label="Go to Family Clinic homepage">
-                            <img src="../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
-                                srcset="../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
-                                sizes="(max-width: 768px) 80px, 100px" alt="Family Clinic Logo" class="footer__logo-img"
+                        <a href="../index.html" class="footer__logo-link"
+                            aria-label="Aller à la page d'accueil de Family Clinic">
+                            <img src="../../assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
+                                srcset="../../assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, ../../assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
+                                sizes="(max-width: 768px) 80px, 100px" alt="Logo Family Clinic" class="footer__logo-img"
                                 loading="lazy" onerror="this.style.display='none'">
                             <h3 class="footer__logo-text">Family Clinic</h3>
                         </a>
                     </div>
                     <p class="footer__description">
-                        Providing comprehensive healthcare services for families in a welcoming and compassionate
-                        environment.
+                        Fournissant des services de soins de santé complets pour les familles dans un environnement
+                        accueillant et compatissant.
                     </p>
                 </div>
 
                 <div class="footer__section">
-                    <h4 class="footer__section-title">Quick Links</h4>
+                    <h4 class="footer__section-title">Liens Rapides</h4>
                     <ul class="footer__links">
                         <li class="footer__item">
-                            <a href="../index.html" class="footer__link">Home</a>
+                            <a href="../index.html" class="footer__link">Accueil</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../about.html" class="footer__link">About Us</a>
+                            <a href="../about.html" class="footer__link">À propos</a>
                         </li>
                         <li class="footer__item">
                             <a href="../services.html" class="footer__link">Services</a>
@@ -381,74 +420,74 @@
                     <h4 class="footer__section-title">Services</h4>
                     <ul class="footer__links">
                         <li class="footer__item">
-                            <a href="../services.html#family-medicine" class="footer__link">Family Medicine</a>
+                            <a href="../services.html#family-medicine" class="footer__link">Médecine Familiale</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#holistic-consultations" class="footer__link">Holistic
-                                Consultations</a>
+                            <a href="../services.html#holistic-consultations" class="footer__link">Consultations
+                                Holistiques</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#quantum-scan" class="footer__link">Quantum Scan</a>
+                            <a href="../services.html#quantum-scan" class="footer__link">Scan Quantique</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#naturopathy" class="footer__link">Naturopathy</a>
+                            <a href="../services.html#naturopathy" class="footer__link">Naturopathie</a>
                         </li>
                         <li class="footer__item">
                             <a href="../services.html#hijamah" class="footer__link">Hijamah</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#physiotherapy" class="footer__link">Physiotherapy</a>
+                            <a href="../services.html#physiotherapy" class="footer__link">Physiothérapie</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#dermatology" class="footer__link">Dermatology</a>
+                            <a href="../services.html#dermatology" class="footer__link">Dermatologie</a>
                         <li class="footer__item">
-                            <a href="../services.html#judiciary-medical-expertise" class="footer__link">Judiciary
-                                Medical Expertise</a>
+                            <a href="../services.html#judiciary-medical-expertise" class="footer__link">Expertise
+                                Médicale Judiciaire</a>
                         </li>
                         <li class="footer__item">
-                            <a href="../services.html#weight-loss" class="footer__link">Weight Loss</a>
+                            <a href="../services.html#weight-loss" class="footer__link">Perte de Poids</a>
                         </li>
                         </li>
                     </ul>
                 </div>
 
                 <div class="footer__section">
-                    <h4 class="footer__section-title">Contact Info</h4>
+                    <h4 class="footer__section-title">Informations de Contact</h4>
                     <div class="footer__contact">
                         <div class="footer__contact-item">
-                            <strong>Address:</strong>
+                            <strong>Adresse :</strong>
                             <a href="https://maps.app.goo.gl/sPxKYDMUdsN9dVV2A" target="_blank"
                                 rel="noopener noreferrer" class="footer__link">
                                 N*47, Bloc B, Ouled Oujih<br>
-                                Kenitra, 14080, Morocco
+                                Kenitra, 14080, Maroc
                             </a>
                         </div>
                         <div class="footer__contact-item">
-                            <strong>Phone:</strong>
+                            <strong>Téléphone :</strong>
                             <a href="tel:+212-641-745-441" class="footer__link">+212-641-745-441</a>
                         </div>
                         <div class="footer__contact-item">
-                            <strong>Email:</strong>
+                            <strong>Email :</strong>
                             <a href="mailto:saidalaoui.m.a@gmail.com" class="footer__link">saidalaoui.m.a@gmail.com</a>
                         </div>
                     </div>
 
                     <p class="footer__contact-item">
-                        <strong>Hours:</strong><br>
-                        Mon-Thu: 9:00 - 17:00<br>
-                        Fri: 9:00 - 13:00, 15:00 - 18:00<br>
-                        Sat: 9:00 - 13:00
+                        <strong>Horaires :</strong><br>
+                        Lun-Jeu : 9h00 - 17h00<br>
+                        Ven : 9h00 - 13h00, 15h00 - 18h00<br>
+                        Sam : 9h00 - 13h00
                     </p>
                 </div>
             </div>
 
             <div class="footer__bottom">
                 <p class="footer__copyright">
-                    &copy; 2025 Family Clinic. All rights reserved.
+                    &copy; 2025 Family Clinic. Tous droits réservés.
                 </p>
                 <p class="footer__powered-by">
-                    Powered by <img src="../assets/images/optimized/netria/netria-logo-footer-transparent.png"
-                        alt="Netria Logo" class="footer__netria-logo" loading="lazy"> <a
+                    Propulsé par <img src="../../assets/images/optimized/netria/netria-logo-footer-transparent.png"
+                        alt="Logo Netria" class="footer__netria-logo" loading="lazy"> <a
                         href="https://netria.dev?utm_source=familyclinic&utm_medium=website&utm_campaign=footer_attribution"
                         class="footer__link" target="_blank" rel="noopener noreferrer">netria.dev</a>
                 </p>
@@ -456,7 +495,8 @@
         </div>
     </footer>
 
-    <script src="../assets/script.js"></script>
+    <script src="../../assets/script.js"></script>
+    <script src="../../assets/localization.js"></script>
 </body>
 
 </html>
