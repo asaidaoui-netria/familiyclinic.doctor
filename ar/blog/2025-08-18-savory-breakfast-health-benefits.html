@@ -95,6 +95,25 @@
                 </ul>
             </nav>
 
+            <!-- Language Switcher -->
+            <div class="language-switcher">
+                <button class="language-switcher__toggle" aria-label="اختر اللغة" aria-expanded="false">
+                    <span class="language-switcher__current" data-lang="ar">العربية</span>
+                    <svg class="language-switcher__icon" width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </button>
+                <ul class="language-switcher__menu">
+                    <li><a href="../../blog/2025-08-18-savory-breakfast-health-benefits.html" hreflang="en"
+                            data-lang="en">English</a></li>
+                    <li><a href="../../fr/blog/2025-08-18-savory-breakfast-health-benefits.html" hreflang="fr"
+                            data-lang="fr">Français</a></li>
+                    <li><a href="#" hreflang="ar" data-lang="ar" class="active">العربية</a></li>
+                </ul>
+            </div>
+
             <button class="header__mobile-menu" aria-label="تبديل القائمة المحمولة" aria-expanded="false">
                 <span class="header__mobile-menu-line"></span>
                 <span class="header__mobile-menu-line"></span>
@@ -369,6 +388,7 @@
     </footer>
 
     <script src="../../assets/script.js"></script>
+    <script src="../../assets/localization.js"></script>
 </body>
 
 </html>

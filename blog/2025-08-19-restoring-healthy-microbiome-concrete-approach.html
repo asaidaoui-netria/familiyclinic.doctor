@@ -36,6 +36,7 @@
     <link rel="stylesheet" href="../assets/styles.css">
     <link rel="stylesheet" href="../assets/blog.css">
     <link rel="stylesheet" href="../assets/blog-article.css">
+    <link rel="stylesheet" href="../assets/localization.css">
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-touch-icon.png">
@@ -77,6 +78,23 @@
                     </li>
                 </ul>
             </nav>
+
+            <!-- Language Switcher -->
+            <div class="language-switcher">
+                <button class="language-switcher__toggle" aria-label="Choose language" aria-expanded="false">
+                    <span class="language-switcher__current">EN</span>
+                    <svg class="language-switcher__icon" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </button>
+                <ul class="language-switcher__menu">
+                    <li><a href="2025-08-19-restoring-healthy-microbiome-concrete-approach.html" data-lang="en" class="active">English</a></li>
+                    <li><a href="../fr/blog/2025-08-19-restoring-healthy-microbiome-concrete-approach.html" data-lang="fr">Français</a></li>
+                    <li><a href="../ar/blog/2025-08-19-restoring-healthy-microbiome-concrete-approach.html" data-lang="ar">العربية</a></li>
+                </ul>
+            </div>
 
             <button class="header__mobile-menu" aria-label="Toggle mobile menu" aria-expanded="false">
                 <span class="header__mobile-menu-line"></span>
@@ -433,6 +451,7 @@
     </footer>
 
     <script src="../assets/script.js"></script>
+    <script src="../assets/localization.js"></script>
 </body>
 
 </html>
