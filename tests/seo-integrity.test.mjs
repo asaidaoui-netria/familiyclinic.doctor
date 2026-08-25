@@ -15,6 +15,8 @@ const INDEXABLE_ROUTES = [
 
 const PUBLIC_BASE_URL = "https://www.familyclinic.doctor";
 
+const CONTACT_TEMPLATE_PATHS = ["src/en/contact.njk", "src/fr/contact.njk", "src/ar/contact.njk"];
+
 const TRANSLATABLE_PAGES = [
   ["index.html", "/index.html", "/fr/index.html", "/ar/index.html"],
   ["about.html", "/about.html", "/fr/about.html", "/ar/about.html"],
@@ -245,6 +247,18 @@ test("contact pages render the centralized localized contact data and retained r
       assert.ok(html.includes(day), `${route} renders its centralized opening-day label`);
       for (const value of time) assert.ok(html.includes(value), `${route} renders its centralized opening time`);
     }
+  }
+});
+
+test("contact templates have one mutable phone source and render it in their FAQ copy", async () => {
+  for (const [locale, route, templatePath] of [["en", "contact.html", CONTACT_TEMPLATE_PATHS[0]], ["fr", "fr/contact.html", CONTACT_TEMPLATE_PATHS[1]], ["ar", "ar/contact.html", CONTACT_TEMPLATE_PATHS[2]]]) {
+    const template = await readFile(resolve(templatePath), "utf8");
+    const html = await readOutput(route);
+
+    assert.doesNotMatch(template, /\+212-641-745-441/, `${templatePath} does not duplicate the mutable clinic phone`);
+    assert.match(template, /\{\{ site\.contact\.phone \}\}/, `${templatePath} renders the centralized phone in its FAQ answer`);
+    assert.ok(html.includes(site.contact.phone), `${route} renders the centralized phone`);
+    assert.ok(site.locales[locale].contact, `${locale} has localized contact copy`);
   }
 });
 
