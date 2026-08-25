@@ -61,7 +61,8 @@ Rules:
 ## Page Layouts
 
 All pages: white background, left-aligned content in a centered max-width container,
-numbered section eyebrows, hairline section separators.
+hairline section separators. The numbered eyebrow system (`01 — …`) is used on the homepage;
+inner pages get a single accent eyebrow above their h1.
 
 ### Homepage
 
@@ -90,9 +91,9 @@ everything removed from the homepage exists in full on its own page.
 - Page intro: eyebrow (`OUR SERVICES`) + h1 + existing intro text (no gradient hero).
 - Keep the sidebar anchor navigation (sticky on desktop) and all 9 detailed service articles
   with their full copy (description, approach, includes-list).
-- Restyle: flat hairline article cards, numbered eyebrows, accent titles; each article's CTA
-  becomes a primary `tel:` "Call to book" button (localized), replacing the `contact.html`
-  button; a secondary link to the contact page may remain.
+- Restyle: flat hairline article cards, accent titles; each article's CTA
+  becomes a primary `tel:` button (localized), with the existing `contact.html` button kept
+  as secondary.
 - Bottom guidance band: "Not sure which service fits? Call …" (localized).
 
 ### About
