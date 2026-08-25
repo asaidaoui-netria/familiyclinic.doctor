@@ -37,6 +37,8 @@ const LEGACY_RETAINED_HTML = [
 
 const REMOVED_OUTPUT_PATHS = [
   "blog",
+  "fr/blog",
+  "ar/blog",
   "assets/blog.css",
   "assets/blog-article.css",
   "assets/blog-pagination.js",
