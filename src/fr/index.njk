@@ -11,25 +11,18 @@ title: "Family Clinic - Soins de santé complets pour votre famille"
 description: "Family Clinic offre des services de santé complets pour tous les âges. Notre équipe expérimentée propose des soins personnalisés dans un environnement accueillant."
 ---
 
-        <!-- Hero Section -->
+        <!-- Typographic Hero -->
         <section class="hero">
             <div class="hero__container">
-                <div class="hero__content">
-                    <h1 class="hero__title">Soins de santé complets pour votre famille</h1>
-                    <p class="hero__description">
-                        Découvrez des soins personnalisés dans un environnement accueillant. Notre équipe expérimentée
-                        offre des services de santé complets pour les patients de tous âges.
-                    </p>
-                    <div class="hero__actions">
-                        <a href="tel:{{ site.contact.phone }}" class="btn btn--primary">{{ site.locales[locale].cta.heroCall }}</a>
-                    </div>
-                </div>
-                <div class="hero__image">
-                    <img src="../assets/images/optimized/clinic/clinic_entrance_desktop_800x400.jpg" width="800" height="400"
-                        srcset="../assets/images/optimized/clinic/clinic_entrance_mobile_600x300.jpg 600w, ../assets/images/optimized/clinic/clinic_entrance_desktop_800x400.jpg 800w"
-                        sizes="(max-width: 768px) 100vw, 50vw"
-                        alt="Entrée de la Family Clinic avec établissement de santé moderne" class="hero__img"
-                        loading="eager" fetchpriority="high" onerror="this.style.display='none'">
+                <p class="hero__eyebrow">KÉNITRA · MAROC</p>
+                <h1 class="hero__title">Soins de santé complets pour votre famille</h1>
+                <p class="hero__description">
+                    Découvrez des soins personnalisés dans un environnement accueillant. Notre équipe expérimentée
+                    offre des services de santé complets pour les patients de tous âges.
+                </p>
+                <div class="hero__actions">
+                    <a href="tel:{{ site.contact.phone }}" class="btn btn--primary">{{ site.locales[locale].cta.heroCall }}</a>
+                    <a href="#services-section" class="btn btn--secondary">Nos services</a>
                 </div>
             </div>
         </section>
@@ -38,219 +31,94 @@ description: "Family Clinic offre des services de santé complets pour tous les 
         <section class="info-band">
             <div class="info-band__container">
                 <div class="info-band__item">
-                    <div class="info-band__icon" aria-hidden="true">📍</div>
-                    <div class="info-band__content">
-                        <h2 class="info-band__label">{{ site.locales[locale].contact.addressLabel }}</h2>
-                        <p class="info-band__text"><a href="{{ site.contact.mapUrl }}" class="info-band__link" target="_blank" rel="noopener noreferrer">{% for line in site.locales[locale].contact.addressLines %}{{ line }}{% if not loop.last %}, {% endif %}{% endfor %}</a></p>
-                    </div>
+                    <h2 class="info-band__label">{{ site.locales[locale].contact.addressLabel }}</h2>
+                    <p class="info-band__text"><a href="{{ site.contact.mapUrl }}" class="info-band__link" target="_blank" rel="noopener noreferrer">{% for line in site.locales[locale].contact.addressLines %}{{ line }}{% if not loop.last %}, {% endif %}{% endfor %}</a></p>
                 </div>
                 <div class="info-band__item">
-                    <div class="info-band__icon" aria-hidden="true">📞</div>
-                    <div class="info-band__content">
-                        <h2 class="info-band__label">{{ site.locales[locale].contact.phoneLabel }}</h2>
-                        <p class="info-band__text"><a href="tel:{{ site.contact.phone }}" class="info-band__link">{{ site.contact.phone }}</a></p>
-                    </div>
+                    <h2 class="info-band__label">{{ site.locales[locale].contact.phoneLabel }}</h2>
+                    <p class="info-band__text"><a href="tel:{{ site.contact.phone }}" class="info-band__link">{{ site.contact.phone }}</a></p>
                 </div>
                 <div class="info-band__item">
-                    <div class="info-band__icon" aria-hidden="true">🕒</div>
-                    <div class="info-band__content">
-                        <h2 class="info-band__label">{{ site.locales[locale].contact.hoursLabel }}</h2>
-                        <p class="info-band__text">{% for hour in site.locales[locale].contact.footerHours %}{{ hour }}{% if not loop.last %}<br>{% endif %}{% endfor %}</p>
-                    </div>
+                    <h2 class="info-band__label">{{ site.locales[locale].contact.hoursLabel }}</h2>
+                    <p class="info-band__text">{% for hour in site.locales[locale].contact.footerHours %}{{ hour }}{% if not loop.last %}<br>{% endif %}{% endfor %}</p>
                 </div>
             </div>
         </section>
 
-        <!-- Services Preview Section -->
-        <section class="services-preview">
-            <div class="services-preview__container">
-                <h2 class="services-preview__title">Nos Services</h2>
-                <p class="services-preview__subtitle">Solutions de santé complètes combinant approches traditionnelles
-                    et holistiques</p>
+        <!-- 01 — Services -->
+        <section class="section" id="services-section" data-section="services">
+            <div class="section__container">
+                <p class="section-eyebrow">01 — Services</p>
+                <h2 class="section-title">Nos Services</h2>
+                <p class="section-subtitle">Solutions de santé complètes combinant approches traditionnelles et holistiques</p>
 
-                <div class="services-preview__grid">
-                    <!-- First Row: 3 cards -->
-                    <div class="service-card">
-                        <div class="service-card__icon">
-                            <img src="../assets/images/optimized/services/primary_care_icon_desktop_160x160.jpg" width="160" height="160"
-                                alt="Icône Médecine de famille" class="service-card__icon-img" loading="lazy"
-                                onerror="this.style.display='none'">
-                        </div>
-                        <h3 class="service-card__title">Médecine de famille</h3>
-                        <p class="service-card__description">
-                            Au cœur de chaque famille, la santé est un lien essentiel. Soins de santé familiaux complets
-                            avec suivi médical personnalisé, prévention et relations de confiance pour tous les âges.
-                        </p>
-                        <a href="{{ 'services' | localizedUrl(locale) }}#{{ site.serviceAnchors[locale][0] }}" class="service-card__link">En savoir plus</a>
-                    </div>
-
-                    <div class="service-card">
-                        <div class="service-card__icon">
-                            <img src="../assets/images/optimized/services/holistic_consultation_desktop_800x400.jpg" width="800" height="400"
-                                srcset="../assets/images/optimized/services/holistic_consultation_mobile_600x300.jpg 600w, ../assets/images/optimized/services/holistic_consultation_desktop_800x400.jpg 800w"
-                                sizes="(max-width: 768px) 600px, 800px" alt="Icône Consultations holistiques"
-                                class="service-card__icon-img" loading="lazy" onerror="this.style.display='none'">
-                        </div>
-                        <h3 class="service-card__title">Consultations holistiques</h3>
-                        <p class="service-card__description">
-                            Prenez soin de vous autrement. Explorez une approche globale de la santé qui prend en compte
-                            le corps, l'esprit et l'émotion.
-                        </p>
-                        <a href="{{ 'services' | localizedUrl(locale) }}#{{ site.serviceAnchors[locale][1] }}" class="service-card__link">En savoir plus</a>
-                    </div>
-
-                    <div class="service-card">
-                        <div class="service-card__icon">
-                            <img src="../assets/images/optimized/services/quantum_scan_desktop_800x400.jpg" width="800" height="400"
-                                srcset="../assets/images/optimized/services/quantum_scan_mobile_600x300.jpg 600w, ../assets/images/optimized/services/quantum_scan_desktop_800x400.jpg 800w"
-                                sizes="(max-width: 768px) 600px, 800px" alt="Icône Quantum Scan"
-                                class="service-card__icon-img" loading="lazy" onerror="this.style.display='none'">
-                        </div>
-                        <h3 class="service-card__title">Quantum Scan</h3>
-                        <p class="service-card__description">
-                            "Le corps parle en fréquences : écoutons-le." Explorez votre santé autrement grâce au
-                            Quantum Scan.
-                            Technologie bioénergétique avancée qui analyse les déséquilibres internes.
-                        </p>
-                        <a href="{{ 'services' | localizedUrl(locale) }}#{{ site.serviceAnchors[locale][2] }}" class="service-card__link">En savoir plus</a>
-                    </div>
-
-                    <!-- Second Row: 3 cards -->
-                    <div class="service-card">
-                        <div class="service-card__icon">
-                            <img src="../assets/images/optimized/services/naturopathy_desktop_800x400.jpg" width="800" height="400"
-                                srcset="../assets/images/optimized/services/naturopathy_mobile_600x300.jpg 600w, ../assets/images/optimized/services/naturopathy_desktop_800x400.jpg 800w"
-                                sizes="(max-width: 768px) 600px, 800px" alt="Icône Naturopathie"
-                                class="service-card__icon-img" loading="lazy" onerror="this.style.display='none'">
-                        </div>
-                        <h3 class="service-card__title">Naturopathie</h3>
-                        <p class="service-card__description">
-                            Redécouvrez votre équilibre naturellement. Offrez à votre corps ce qu'il mérite :
-                            une approche qui nourrit, soigne et revitalise.
-                        </p>
-                        <a href="{{ 'services' | localizedUrl(locale) }}#{{ site.serviceAnchors[locale][3] }}" class="service-card__link">En savoir plus</a>
-                    </div>
-
-                    <div class="service-card">
-                        <div class="service-card__icon">
-                            <img src="../assets/images/optimized/services/vaccum_cupping_desktop_800x400.jpg" width="800" height="400"
-                                srcset="../assets/images/optimized/services/vaccum_cupping_mobile_600x300.jpg 600w, ../assets/images/optimized/services/vaccum_cupping_desktop_800x400.jpg 800w"
-                                sizes="(max-width: 768px) 600px, 800px" alt="Icône Hijamah"
-                                class="service-card__icon-img" loading="lazy" onerror="this.style.display='none'">
-                        </div>
-                        <h3 class="service-card__title">Hijamah</h3>
-                        <p class="service-card__description">
-                            Découvrez les bienfaits de la hijamah, une méthode thérapeutique traditionnelle reconnue
-                            pour ses vertus purifiantes et revitalisantes.
-                        </p>
-                        <a href="{{ 'services' | localizedUrl(locale) }}#{{ site.serviceAnchors[locale][4] }}" class="service-card__link">En savoir plus</a>
-                    </div>
-
-                    <div class="service-card">
-                        <div class="service-card__icon">
-                            <img src="../assets/images/optimized/services/physiotherapy_desktop_800x400.jpg" width="800" height="400"
-                                srcset="../assets/images/optimized/services/physiotherapy_mobile_600x300.jpg 600w, ../assets/images/optimized/services/physiotherapy_desktop_800x400.jpg 800w"
-                                sizes="(max-width: 768px) 600px, 800px" alt="Icône Physiothérapie"
-                                class="service-card__icon-img" loading="lazy" onerror="this.style.display='none'">
-                        </div>
-                        <h3 class="service-card__title">Physiothérapie</h3>
-                        <p class="service-card__description">
-                            Soulagez vos douleurs, améliorez votre mobilité. Retrouvez le confort au quotidien
-                            grâce à notre service de physiothérapie.
-                        </p>
-                        <a href="{{ 'services' | localizedUrl(locale) }}#{{ site.serviceAnchors[locale][5] }}" class="service-card__link">En savoir plus</a>
-                    </div>
-
-                    <!-- Third Row: 3 cards -->
-                    <div class="service-card">
-                        <div class="service-card__icon">
-                            <img src="../assets/images/optimized/services/dermatology_desktop_800x400.jpg" width="800" height="400"
-                                srcset="../assets/images/optimized/services/dermatology_mobile_600x300.jpg 600w, ../assets/images/optimized/services/dermatology_desktop_800x400.jpg 800w"
-                                sizes="(max-width: 768px) 600px, 800px" alt="Icône Dermatologie"
-                                class="service-card__icon-img" loading="lazy" onerror="this.style.display='none'">
-                        </div>
-                        <h3 class="service-card__title">Dermatologie & chirurgie intégrative</h3>
-                        <p class="service-card__description">
-                            Pour une peau rayonnante, naturellement. Nous associons les soins dermatologiques
-                            classiques à la naturopathie pour une peau saine.
-                        </p>
-                        <a href="{{ 'services' | localizedUrl(locale) }}#{{ site.serviceAnchors[locale][6] }}" class="service-card__link">En savoir plus</a>
-                    </div>
-
-                    <div class="service-card">
-                        <div class="service-card__icon">
-                            <img src="../assets/images/optimized/services/judiciary_medical_expertise_desktop_800x533.jpg" width="800" height="533"
-                                srcset="../assets/images/optimized/services/judiciary_medical_expertise_mobile_600x400.jpg 600w, ../assets/images/optimized/services/judiciary_medical_expertise_desktop_800x533.jpg 800w"
-                                sizes="(max-width: 768px) 600px, 800px"
-                                alt="Expertise médicale judiciaire - Marteau professionnel représentant l'expertise médicale légale"
-                                class="service-card__icon-img" loading="lazy" onerror="this.style.display='none'">
-                        </div>
-                        <h3 class="service-card__title">Expertise médicale judiciaire</h3>
-                        <p class="service-card__description">
-                            Expertise médicale professionnelle pour les procédures légales et judiciaires.
-                            Services de témoin expert et rapports médicaux complets pour les affaires judiciaires.
-                        </p>
-                        <a href="{{ 'services' | localizedUrl(locale) }}#{{ site.serviceAnchors[locale][7] }}" class="service-card__link">En savoir
-                            plus</a>
-                    </div>
-
-                    <div class="service-card">
-                        <div class="service-card__icon">
-                            <img src="../assets/images/optimized/services/weight_loss_desktop_800x533.jpg" width="800" height="533"
-                                srcset="../assets/images/optimized/services/weight_loss_mobile_600x399.jpg 600w, ../assets/images/optimized/services/weight_loss_desktop_800x533.jpg 800w"
-                                sizes="(max-width: 768px) 600px, 800px"
-                                alt="Perte de poids - Céleri frais avec mètre ruban représentant la gestion du poids santé"
-                                class="service-card__icon-img" loading="lazy" onerror="this.style.display='none'">
-                        </div>
-                        <h3 class="service-card__title">Perte de poids</h3>
-                        <p class="service-card__description">
-                            Programmes complets de gestion du poids combinant expertise médicale avec conseils
-                            nutritionnels personnalisés et orientation lifestyle pour des résultats durables.
-                        </p>
-                        <a href="{{ 'services' | localizedUrl(locale) }}#{{ site.serviceAnchors[locale][8] }}" class="service-card__link">En savoir plus</a>
-                    </div>
+                <div class="featured-grid">
+                    <a class="featured-card" href="{{ 'services' | localizedUrl(locale) }}#{{ site.serviceAnchors[locale][0] }}">
+                        <span class="featured-card__chip" aria-hidden="true">✚</span>
+                        <span class="featured-card__body">
+                            <span class="featured-card__title">{{ site.locales[locale].services[0] }}</span>
+                            <span class="featured-card__desc">Soins de santé familiaux complets avec suivi médical personnalisé, prévention et relations de confiance pour tous les âges.</span>
+                        </span>
+                        <span class="featured-card__arrow" aria-hidden="true">→</span>
+                    </a>
+                    <a class="featured-card" href="{{ 'services' | localizedUrl(locale) }}#{{ site.serviceAnchors[locale][1] }}">
+                        <span class="featured-card__chip" aria-hidden="true">❋</span>
+                        <span class="featured-card__body">
+                            <span class="featured-card__title">{{ site.locales[locale].services[1] }}</span>
+                            <span class="featured-card__desc">Explorez une approche globale de la santé qui prend en compte le corps, l'esprit et l'émotion.</span>
+                        </span>
+                        <span class="featured-card__arrow" aria-hidden="true">→</span>
+                    </a>
+                    <a class="featured-card" href="{{ 'services' | localizedUrl(locale) }}#{{ site.serviceAnchors[locale][2] }}">
+                        <span class="featured-card__chip" aria-hidden="true">◎</span>
+                        <span class="featured-card__body">
+                            <span class="featured-card__title">{{ site.locales[locale].services[2] }}</span>
+                            <span class="featured-card__desc">Technologie bioénergétique avancée qui analyse les déséquilibres internes et guide la recherche d'une efficacité optimale.</span>
+                        </span>
+                        <span class="featured-card__arrow" aria-hidden="true">→</span>
+                    </a>
                 </div>
 
-                <div class="services-preview__cta">
+                <div class="section-cta">
                     <a href="services.html" class="btn btn--primary">Voir tous les services</a>
                 </div>
             </div>
         </section>
 
-        <!-- About Preview Section -->
-        <section class="about-preview">
-            <div class="about-preview__container">
-                <div class="about-preview__content">
-                    <h2 class="about-preview__title">À propos de notre clinique</h2>
-                    <p class="about-preview__description">
-                        Family Clinic incarne une nouvelle façon de vivre la santé : humaine, intégrative et tournée
-                        vers l'avenir.
-                        Nous mettons l'accent sur une médecine personnalisée et bienveillante, adaptée aux besoins réels
-                        des familles.
-                    </p>
-                    <p class="about-preview__description">
-                        Notre approche combine expertise médicale, écoute active et ouverture multiculturelle pour
-                        garantir
-                        une prise en charge de qualité, accessible à tous.
-                    </p>
-                    <a href="about.html" class="btn btn--secondary">En savoir plus sur nous</a>
-                </div>
-                <div class="about-preview__image">
-                    <img src="../assets/images/optimized/clinic/about_clinic_desktop_800x400.jpg" width="800" height="400"
-                        srcset="../assets/images/optimized/clinic/about_clinic_mobile_600x300.jpg 600w, ../assets/images/optimized/clinic/about_clinic_desktop_800x400.jpg 800w"
-                        sizes="(max-width: 768px) 100vw, 50vw"
-                        alt="Professionnels de santé dans un environnement clinique moderne" class="about-preview__img"
-                        loading="lazy" onerror="this.style.display='none'">
+        <!-- 02 — About the clinic -->
+        <section class="section" data-section="about">
+            <div class="section__container">
+                <p class="section-eyebrow">02 — La clinique</p>
+                <h2 class="section-title">À propos de notre clinique</h2>
+                <div class="about-preview">
+                    <div class="about-preview__content">
+                        <p class="about-preview__description">
+                            Family Clinic incarne une nouvelle façon de vivre la santé : humaine, intégrative et tournée
+                            vers l'avenir. Nous mettons l'accent sur une médecine personnalisée et bienveillante, adaptée
+                            aux besoins réels des familles.
+                        </p>
+                        <p class="about-preview__description">
+                            Notre approche combine expertise médicale, écoute active et ouverture multiculturelle pour
+                            garantir une prise en charge de qualité, accessible à tous.
+                        </p>
+                        <a href="about.html" class="btn btn--secondary">En savoir plus sur nous</a>
+                    </div>
+                    <div class="about-preview__image">
+                        <img src="../assets/images/optimized/clinic/about_clinic_desktop_800x400.jpg" width="800" height="400"
+                            srcset="../assets/images/optimized/clinic/about_clinic_mobile_600x300.jpg 600w, ../assets/images/optimized/clinic/about_clinic_desktop_800x400.jpg 800w"
+                            sizes="(max-width: 768px) 100vw, 50vw" alt="Professionnels de santé dans un environnement clinique moderne"
+                            class="about-preview__img" loading="lazy" onerror="this.style.display='none'">
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Team Preview Section -->
-        <section class="team-preview">
-            <div class="team-preview__container">
-                <h2 class="team-preview__title">Rencontrez notre équipe</h2>
-                <p class="team-preview__subtitle">Professionnels de santé expérimentés dédiés à la santé de votre
-                    famille</p>
+        <!-- 03 — Your care team -->
+        <section class="section" data-section="team">
+            <div class="section__container">
+                <p class="section-eyebrow">03 — Votre équipe</p>
+                <h2 class="section-title">Rencontrez notre équipe</h2>
+                <p class="section-subtitle">Professionnels de santé expérimentés dédiés à la santé de votre famille</p>
 
                 <div class="team-preview__grid">
                     <div class="team-member">
@@ -287,5 +155,38 @@ description: "Family Clinic offre des services de santé complets pour tous les 
                 <div class="team-preview__cta">
                     <a href="about.html#team" class="btn btn--secondary">Rencontrer toute notre équipe</a>
                 </div>
+            </div>
+        </section>
+
+        <!-- 04 — Visit us -->
+        <section class="section" data-section="visit">
+            <div class="section__container">
+                <p class="section-eyebrow">04 — Nous trouver</p>
+                <h2 class="section-title">Nous trouver</h2>
+                <div class="visit-band">
+                    <div class="visit-band__details">
+                        <p class="visit-band__address">{% for line in site.locales[locale].contact.addressLines %}{{ line }}{% if not loop.last %}, {% endif %}{% endfor %}</p>
+                        <p class="visit-band__note">Les itinéraires et informations de stationnement sont disponibles sur notre page contact.</p>
+                        <div class="visit-band__actions">
+                            <a href="{{ site.contact.mapUrl }}" class="btn btn--primary" target="_blank" rel="noopener noreferrer">Ouvrir dans Google Maps</a>
+                            <a href="{{ 'contact' | localizedUrl(locale) }}#map-section" class="btn btn--secondary">Itinéraires et stationnement</a>
+                        </div>
+                    </div>
+                    <div class="visit-band__hours">
+                        <h3 class="visit-band__hours-title">{{ site.locales[locale].contact.hoursLabel }}</h3>
+                        {% for hour in site.locales[locale].contact.hours %}
+                        <p class="visit-band__hours-line">{{ hour.day }}: {% for time in hour.time %}{{ time }}{% if not loop.last %}, {% endif %}{% endfor %}</p>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to action -->
+        <section class="cta-band">
+            <div class="cta-band__container">
+                <h2 class="cta-band__title">Nous sommes disponibles quand vous l'êtes.</h2>
+                <p class="cta-band__text">Appelez pour prendre rendez-vous — nous répondons pendant les heures d'ouverture.</p>
+                <a href="tel:{{ site.contact.phone }}" class="btn btn--primary">Appelez au {{ site.contact.phone }}</a>
             </div>
         </section>

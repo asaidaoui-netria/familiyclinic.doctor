@@ -11,24 +11,18 @@ title: "عيادة الأسرة - رعاية صحية شاملة لعائلتك"
 description: "توفر عيادة الأسرة خدمات رعاية صحية شاملة لجميع الأعمار. فريقنا ذو الخبرة يقدم رعاية شخصية في بيئة ترحيبية."
 ---
 
-        <!-- Hero Section -->
+        <!-- Typographic Hero -->
         <section class="hero">
             <div class="hero__container">
-                <div class="hero__content">
-                    <h1 class="hero__title">رعاية صحية شاملة لعائلتك</h1>
-                    <p class="hero__description">
-                        اختبر الرعاية الشخصية في بيئة ترحيبية. فريقنا ذو الخبرة يوفر خدمات رعاية صحية شاملة للمرضى من
-                        جميع الأعمار.
-                    </p>
-                    <div class="hero__actions">
-                        <a href="tel:{{ site.contact.phone }}" class="btn btn--primary">{{ site.locales[locale].cta.heroCall }}</a>
-                    </div>
-                </div>
-                <div class="hero__image">
-                    <img src="../assets/images/optimized/clinic/clinic_entrance_desktop_800x400.jpg" width="800" height="400"
-                        srcset="../assets/images/optimized/clinic/clinic_entrance_mobile_600x300.jpg 600w, ../assets/images/optimized/clinic/clinic_entrance_desktop_800x400.jpg 800w"
-                        sizes="(max-width: 768px) 100vw, 50vw" alt="مدخل عيادة الأسرة مع مرفق رعاية صحية حديث"
-                        class="hero__img" loading="eager" fetchpriority="high" onerror="this.style.display='none'">
+                <p class="hero__eyebrow">القنيطرة · المغرب</p>
+                <h1 class="hero__title">رعاية صحية شاملة لعائلتك</h1>
+                <p class="hero__description">
+                    اختبر الرعاية الشخصية في بيئة ترحيبية. فريقنا ذو الخبرة يوفر خدمات رعاية صحية شاملة للمرضى من
+                    جميع الأعمار.
+                </p>
+                <div class="hero__actions">
+                    <a href="tel:{{ site.contact.phone }}" class="btn btn--primary">{{ site.locales[locale].cta.heroCall }}</a>
+                    <a href="#services-section" class="btn btn--secondary">خدماتنا</a>
                 </div>
             </div>
         </section>
@@ -37,245 +31,160 @@ description: "توفر عيادة الأسرة خدمات رعاية صحية ش
         <section class="info-band">
             <div class="info-band__container">
                 <div class="info-band__item">
-                    <div class="info-band__icon" aria-hidden="true">📍</div>
-                    <div class="info-band__content">
-                        <h2 class="info-band__label">{{ site.locales[locale].contact.addressLabel }}</h2>
-                        <p class="info-band__text"><a href="{{ site.contact.mapUrl }}" class="info-band__link" target="_blank" rel="noopener noreferrer">{% for line in site.locales[locale].contact.addressLines %}{{ line }}{% if not loop.last %}، {% endif %}{% endfor %}</a></p>
-                    </div>
+                    <h2 class="info-band__label">{{ site.locales[locale].contact.addressLabel }}</h2>
+                    <p class="info-band__text"><a href="{{ site.contact.mapUrl }}" class="info-band__link" target="_blank" rel="noopener noreferrer">{% for line in site.locales[locale].contact.addressLines %}{{ line }}{% if not loop.last %}، {% endif %}{% endfor %}</a></p>
                 </div>
                 <div class="info-band__item">
-                    <div class="info-band__icon" aria-hidden="true">📞</div>
-                    <div class="info-band__content">
-                        <h2 class="info-band__label">{{ site.locales[locale].contact.phoneLabel }}</h2>
-                        <p class="info-band__text"><a href="tel:{{ site.contact.phone }}" class="info-band__link" dir="ltr">{{ site.contact.phone }}</a></p>
-                    </div>
+                    <h2 class="info-band__label">{{ site.locales[locale].contact.phoneLabel }}</h2>
+                    <p class="info-band__text"><a href="tel:{{ site.contact.phone }}" class="info-band__link" dir="ltr">{{ site.contact.phone }}</a></p>
                 </div>
                 <div class="info-band__item">
-                    <div class="info-band__icon" aria-hidden="true">🕒</div>
-                    <div class="info-band__content">
-                        <h2 class="info-band__label">{{ site.locales[locale].contact.hoursLabel }}</h2>
-                        <p class="info-band__text">{% for hour in site.locales[locale].contact.footerHours %}{{ hour }}{% if not loop.last %}<br>{% endif %}{% endfor %}</p>
-                    </div>
+                    <h2 class="info-band__label">{{ site.locales[locale].contact.hoursLabel }}</h2>
+                    <p class="info-band__text">{% for hour in site.locales[locale].contact.footerHours %}{{ hour }}{% if not loop.last %}<br>{% endif %}{% endfor %}</p>
                 </div>
             </div>
         </section>
 
-        <!-- Services Preview Section -->
-        <section class="services-preview">
-            <div class="services-preview__container">
-                <h2 class="services-preview__title">خدماتنا</h2>
-                <p class="services-preview__subtitle">حلول الرعاية الصحية الشاملة التي تجمع بين الأساليب التقليدية
-                    والشمولية</p>
+        <!-- 01 — Services -->
+        <section class="section" id="services-section" data-section="services">
+            <div class="section__container">
+                <p class="section-eyebrow">01 — الخدمات</p>
+                <h2 class="section-title">خدماتنا</h2>
+                <p class="section-subtitle">حلول الرعاية الصحية الشاملة التي تجمع بين الأساليب التقليدية والشمولية</p>
 
-                <div class="services-preview__grid">
-                    <!-- First Row: 3 cards -->
-                    <div class="service-card">
-                        <div class="service-card__icon">
-                            <img src="../assets/images/optimized/services/primary_care_icon_desktop_160x160.jpg" width="160" height="160"
-                                alt="أيقونة طب الأسرة" class="service-card__icon-img" loading="lazy"
-                                onerror="this.style.display='none'">
-                        </div>
-                        <h3 class="service-card__title">طب الأسرة</h3>
-                        <p class="service-card__description">
-                            رعاية صحية شاملة للأسرة مع متابعة طبية شخصية ووقاية وعلاقات موثوقة لجميع الأعمار.
-                        </p>
-                        <a href="{{ 'services' | localizedUrl(locale) }}#{{ site.serviceAnchors[locale][0] }}" class="service-card__link">اعرف المزيد</a>
-                    </div>
-
-                    <div class="service-card">
-                        <div class="service-card__icon">
-                            <img src="../assets/images/optimized/services/holistic_consultation_desktop_800x400.jpg" width="800" height="400"
-                                srcset="../assets/images/optimized/services/holistic_consultation_mobile_600x300.jpg 600w, ../assets/images/optimized/services/holistic_consultation_desktop_800x400.jpg 800w"
-                                sizes="(max-width: 768px) 600px, 800px" alt="أيقونة الاستشارات الشمولية"
-                                class="service-card__icon-img" loading="lazy" onerror="this.style.display='none'">
-                        </div>
-                        <h3 class="service-card__title">الاستشارات الشمولية</h3>
-                        <p class="service-card__description">
-                            اعتنِ بنفسك بطريقة مختلفة مع نهج صحي عالمي يأخذ في الاعتبار الجسم والعقل والعواطف.
-                        </p>
-                        <a href="{{ 'services' | localizedUrl(locale) }}#{{ site.serviceAnchors[locale][1] }}" class="service-card__link">اعرف المزيد</a>
-                    </div>
-
-                    <div class="service-card">
-                        <div class="service-card__icon">
-                            <img src="../assets/images/optimized/services/quantum_scan_desktop_800x400.jpg" width="800" height="400"
-                                srcset="../assets/images/optimized/services/quantum_scan_mobile_600x300.jpg 600w, ../assets/images/optimized/services/quantum_scan_desktop_800x400.jpg 800w"
-                                sizes="(max-width: 768px) 600px, 800px" alt="أيقونة المسح الكمي"
-                                class="service-card__icon-img" loading="lazy" onerror="this.style.display='none'">
-                        </div>
-                        <h3 class="service-card__title">المسح الكمي</h3>
-                        <p class="service-card__description">
-                            تقنية طاقة حيوية متقدمة تحلل الاختلالات الداخلية وتوجه الرعاية نحو تحقيق الفعالية المثلى.
-                        </p>
-                        <a href="{{ 'services' | localizedUrl(locale) }}#{{ site.serviceAnchors[locale][2] }}" class="service-card__link">اعرف المزيد</a>
-                    </div>
-
-                    <!-- Second Row: 4 centered cards -->
-                    <div class="service-card">
-                        <div class="service-card__icon">
-                            <img src="../assets/images/optimized/services/naturopathy_desktop_800x400.jpg" width="800" height="400"
-                                srcset="../assets/images/optimized/services/naturopathy_mobile_600x300.jpg 600w, ../assets/images/optimized/services/naturopathy_desktop_800x400.jpg 800w"
-                                sizes="(max-width: 768px) 600px, 800px" alt="أيقونة الطب الطبيعي"
-                                class="service-card__icon-img" loading="lazy" onerror="this.style.display='none'">
-                        </div>
-                        <h3 class="service-card__title">الطب الطبيعي</h3>
-                        <p class="service-card__description">
-                            اكتشف توازنك الطبيعي مع نهج يغذي ويشفي وينشط جسدك باستخدام العلاجات الطبيعية.
-                        </p>
-                        <a href="{{ 'services' | localizedUrl(locale) }}#{{ site.serviceAnchors[locale][3] }}" class="service-card__link">اعرف المزيد</a>
-                    </div>
-
-                    <div class="service-card">
-                        <div class="service-card__icon">
-                            <img src="../assets/images/optimized/services/vaccum_cupping_desktop_800x400.jpg" width="800" height="400"
-                                srcset="../assets/images/optimized/services/vaccum_cupping_mobile_600x300.jpg 600w, ../assets/images/optimized/services/vaccum_cupping_desktop_800x400.jpg 800w"
-                                sizes="(max-width: 768px) 600px, 800px" alt="أيقونة الحجامة"
-                                class="service-card__icon-img" loading="lazy" onerror="this.style.display='none'">
-                        </div>
-                        <h3 class="service-card__title">الحجامة</h3>
-                        <p class="service-card__description">
-                            طريقة علاجية تقليدية معترف بها لفضائلها التطهيرية والمنشطة، تُمارس وفق معايير طبية صارمة.
-                        </p>
-                        <a href="{{ 'services' | localizedUrl(locale) }}#{{ site.serviceAnchors[locale][4] }}" class="service-card__link">اعرف المزيد</a>
-                    </div>
-
-                    <div class="service-card">
-                        <div class="service-card__icon">
-                            <img src="../assets/images/optimized/services/physiotherapy_desktop_800x400.jpg" width="800" height="400"
-                                srcset="../assets/images/optimized/services/physiotherapy_mobile_600x300.jpg 600w, ../assets/images/optimized/services/physiotherapy_desktop_800x400.jpg 800w"
-                                sizes="(max-width: 768px) 600px, 800px" alt="أيقونة العلاج الطبيعي"
-                                class="service-card__icon-img" loading="lazy" onerror="this.style.display='none'">
-                        </div>
-                        <h3 class="service-card__title">العلاج الطبيعي</h3>
-                        <p class="service-card__description">
-                            تخفيف الألم وتحسين الحركة. اعثر على الراحة اليومية من خلال خدمة العلاج الطبيعي مع تخفيف
-                            التوتر وتقوية العضلات.
-                        </p>
-                        <a href="{{ 'services' | localizedUrl(locale) }}#{{ site.serviceAnchors[locale][5] }}" class="service-card__link">اعرف المزيد</a>
-                    </div>
-
-                    <div class="service-card">
-                        <div class="service-card__icon">
-                            <img src="../assets/images/optimized/services/dermatology_desktop_800x400.jpg" width="800" height="400"
-                                srcset="../assets/images/optimized/services/dermatology_mobile_600x300.jpg 600w, ../assets/images/optimized/services/dermatology_desktop_800x400.jpg 800w"
-                                sizes="(max-width: 768px) 600px, 800px"
-                                alt="أيقونة طب الأمراض الجلدية والجراحة التكاملية" class="service-card__icon-img"
-                                loading="lazy" onerror="this.style.display='none'">
-                        </div>
-                        <h3 class="service-card__title">طب الأمراض الجلدية والجراحة التكاملية</h3>
-                        <p class="service-card__description">
-                            للحصول على بشرة مشرقة بطريقة طبيعية. نجمع بين العناية الجلدية التقليدية والطب الطبيعي للحصول
-                            على بشرة صحية ومعالجة بعمق.
-                        </p>
-                        <a href="{{ 'services' | localizedUrl(locale) }}#{{ site.serviceAnchors[locale][6] }}" class="service-card__link">اعرف المزيد</a>
-                    </div>
-
-                    <div class="service-card">
-                        <div class="service-card__icon">
-                            <img src="../assets/images/optimized/services/judiciary_medical_expertise_desktop_800x533.jpg" width="800" height="533"
-                                srcset="../assets/images/optimized/services/judiciary_medical_expertise_mobile_600x400.jpg 600w, ../assets/images/optimized/services/judiciary_medical_expertise_desktop_800x533.jpg 800w"
-                                sizes="(max-width: 768px) 600px, 800px"
-                                alt="الخبرة الطبية القضائية - مطرقة قاضي احترافية تمثل الخبرة الطبية القانونية"
-                                class="service-card__icon-img" loading="lazy" onerror="this.style.display='none'">
-                        </div>
-                        <h3 class="service-card__title">الخبرة الطبية القضائية</h3>
-                        <p class="service-card__description">
-                            خبرة طبية مهنية للإجراءات القانونية والقضائية. خدمات الشاهد الخبير وتقارير طبية شاملة
-                            للقضايا القضائية.
-                        </p>
-                        <a href="{{ 'services' | localizedUrl(locale) }}#{{ site.serviceAnchors[locale][7] }}" class="service-card__link">اعرف المزيد</a>
-                    </div>
-
-                    <div class="service-card">
-                        <div class="service-card__icon">
-                            <img src="../assets/images/optimized/services/weight_loss_desktop_800x533.jpg" width="800" height="533"
-                                srcset="../assets/images/optimized/services/weight_loss_mobile_600x399.jpg 600w, ../assets/images/optimized/services/weight_loss_desktop_800x533.jpg 800w"
-                                sizes="(max-width: 768px) 600px, 800px"
-                                alt="تخسيس الوزن - كرفس طازج مع شريط قياس يمثل إدارة الوزن الصحية"
-                                class="service-card__icon-img" loading="lazy" onerror="this.style.display='none'">
-                        </div>
-                        <h3 class="service-card__title">تخسيس الوزن</h3>
-                        <p class="service-card__description">
-                            برامج إدارة الوزن الشاملة التي تجمع بين الخبرة الطبية والتغذية الشخصية وإرشادات نمط الحياة
-                            للحصول على نتائج مستدامة.
-                        </p>
-                        <a href="{{ 'services' | localizedUrl(locale) }}#{{ site.serviceAnchors[locale][8] }}" class="service-card__link">اعرف المزيد</a>
-                    </div>
+                <div class="featured-grid">
+                    <a class="featured-card" href="{{ 'services' | localizedUrl(locale) }}#{{ site.serviceAnchors[locale][0] }}">
+                        <span class="featured-card__chip" aria-hidden="true">✚</span>
+                        <span class="featured-card__body">
+                            <span class="featured-card__title">{{ site.locales[locale].services[0] }}</span>
+                            <span class="featured-card__desc">رعاية صحية شاملة للأسرة مع متابعة طبية شخصية ووقاية وعلاقات موثوقة لجميع الأعمار.</span>
+                        </span>
+                        <span class="featured-card__arrow" aria-hidden="true">→</span>
+                    </a>
+                    <a class="featured-card" href="{{ 'services' | localizedUrl(locale) }}#{{ site.serviceAnchors[locale][1] }}">
+                        <span class="featured-card__chip" aria-hidden="true">❋</span>
+                        <span class="featured-card__body">
+                            <span class="featured-card__title">{{ site.locales[locale].services[1] }}</span>
+                            <span class="featured-card__desc">اعتنِ بنفسك بطريقة مختلفة مع نهج صحي عالمي يأخذ في الاعتبار الجسم والعقل والعواطف.</span>
+                        </span>
+                        <span class="featured-card__arrow" aria-hidden="true">→</span>
+                    </a>
+                    <a class="featured-card" href="{{ 'services' | localizedUrl(locale) }}#{{ site.serviceAnchors[locale][2] }}">
+                        <span class="featured-card__chip" aria-hidden="true">◎</span>
+                        <span class="featured-card__body">
+                            <span class="featured-card__title">{{ site.locales[locale].services[2] }}</span>
+                            <span class="featured-card__desc">تقنية طاقة حيوية متقدمة تحلل الاختلالات الداخلية وتوجه الرعاية نحو تحقيق الفعالية المثلى.</span>
+                        </span>
+                        <span class="featured-card__arrow" aria-hidden="true">→</span>
+                    </a>
                 </div>
 
-                <div class="services-preview__cta">
+                <div class="section-cta">
                     <a href="services.html" class="btn btn--primary">عرض جميع الخدمات</a>
                 </div>
             </div>
         </section>
 
-        <!-- About Section -->
-        <section class="about-preview">
-            <div class="about-preview__container">
-                <div class="about-preview__content">
-                    <h2 class="about-preview__title">حول عيادة الأسرة</h2>
-                    <p class="about-preview__description">
-                        تخدم عيادة الأسرة مجتمعنا منذ عام 2021، حيث نقدم رعاية صحية شاملة ومتعاطفة للعائلات. فريقنا
-                        من المهنيين الصحيين ذوي الخبرة ملتزم بتقديم رعاية شخصية في بيئة دافئة وترحيبية.
-                    </p>
-                    <p class="about-preview__description">
-                        نؤمن ببناء علاقات دائمة مع مرضانا وعائلاتهم، مما يضمن استمرارية الرعاية ونتائج صحية أفضل.
-                    </p>
-                    <a href="about.html" class="btn btn--secondary">اعرف المزيد عنا</a>
-                </div>
-                <div class="about-preview__image">
-                    <img src="../assets/images/optimized/clinic/about_clinic_desktop_800x400.jpg" width="800" height="400"
-                        srcset="../assets/images/optimized/clinic/about_clinic_mobile_600x300.jpg 600w, ../assets/images/optimized/clinic/about_clinic_desktop_800x400.jpg 800w"
-                        sizes="(max-width: 768px) 100vw, 50vw" alt="فريق عيادة الأسرة" class="about-preview__img"
-                        loading="lazy" onerror="this.style.display='none'">
+        <!-- 02 — About the clinic -->
+        <section class="section" data-section="about">
+            <div class="section__container">
+                <p class="section-eyebrow">02 — حول العيادة</p>
+                <h2 class="section-title">حول عيادة الأسرة</h2>
+                <div class="about-preview">
+                    <div class="about-preview__content">
+                        <p class="about-preview__description">
+                            تخدم عيادة الأسرة مجتمعنا منذ عام 2021، حيث نقدم رعاية صحية شاملة ومتعاطفة للعائلات. فريقنا
+                            من المهنيين الصحيين ذوي الخبرة ملتزم بتقديم رعاية شخصية في بيئة دافئة وترحيبية.
+                        </p>
+                        <p class="about-preview__description">
+                            نؤمن ببناء علاقات دائمة مع مرضانا وعائلاتهم، مما يضمن استمرارية الرعاية ونتائج صحية أفضل.
+                        </p>
+                        <a href="about.html" class="btn btn--secondary">اعرف المزيد عنا</a>
+                    </div>
+                    <div class="about-preview__image">
+                        <img src="../assets/images/optimized/clinic/about_clinic_desktop_800x400.jpg" width="800" height="400"
+                            srcset="../assets/images/optimized/clinic/about_clinic_mobile_600x300.jpg 600w, ../assets/images/optimized/clinic/about_clinic_desktop_800x400.jpg 800w"
+                            sizes="(max-width: 768px) 100vw, 50vw" alt="فريق عيادة الأسرة"
+                            class="about-preview__img" loading="lazy" onerror="this.style.display='none'">
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Team Preview Section -->
-        <section class="team-preview">
-            <div class="team-preview__container">
-                <h2 class="team-preview__title">التقي بفريقنا</h2>
-                <p class="team-preview__subtitle">محترفون مخصصون ملتزمون برفاهيتك</p>
+        <!-- 03 — Your care team -->
+        <section class="section" data-section="team">
+            <div class="section__container">
+                <p class="section-eyebrow">03 — فريق الرعاية</p>
+                <h2 class="section-title">التقي بفريقنا</h2>
+                <p class="section-subtitle">محترفون مخصصون ملتزمون برفاهيتك</p>
 
                 <div class="team-preview__grid">
                     <div class="team-member">
-                        <div class="team-member__image">
+                        <div class="team-member__photo">
                             <img src="../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png" width="400" height="400"
                                 srcset="../assets/images/optimized/team/dr_my_abdellah_mobile_300x300.png 300w, ../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png 400w"
                                 sizes="(max-width: 768px) 300px, 400px"
                                 alt="الدكتور سعيد العلاوي مولاي عبد الله - طبيب الأسرة" class="team-member__img"
                                 loading="lazy" onerror="this.style.display='none'">
                         </div>
-                        <div class="team-member__content">
-                            <h3 class="team-member__name">الدكتور سعيد العلوي مولاي عبد الله</h3>
-                            <p class="team-member__title">طبيب الأسرة</p>
-                            <p class="team-member__description">
-                                طبيب معتمد في طب الأسرة مع أكثر من 40 عاماً من الخبرة في تقديم الرعاية الشاملة للأسرة.
-                            </p>
-                        </div>
+                        <h3 class="team-member__name">الدكتور سعيد العلوي مولاي عبد الله</h3>
+                        <p class="team-member__title">طبيب الأسرة</p>
+                        <p class="team-member__description">
+                            طبيب معتمد في طب الأسرة مع أكثر من 40 عاماً من الخبرة في تقديم الرعاية الشاملة للأسرة.
+                        </p>
                     </div>
 
                     <div class="team-member">
-                        <div class="team-member__image">
+                        <div class="team-member__photo">
                             <img src="../assets/images/optimized/team/nurse_safae_desktop_400x400.png" width="400" height="400"
                                 srcset="../assets/images/optimized/team/nurse_safae_mobile_300x300.png 300w, ../assets/images/optimized/team/nurse_safae_desktop_400x400.png 400w"
                                 sizes="(max-width: 768px) 300px, 400px" alt="إمرحان صفاء - ممرضة مسجلة"
                                 class="team-member__img" loading="lazy" onerror="this.style.display='none'">
                         </div>
-                        <div class="team-member__content">
-                            <h3 class="team-member__name">امغران صفاء</h3>
-                            <p class="team-member__title">ممرضة</p>
-                            <p class="team-member__description">
-                                ممرضة مسجلة ذات خبرة متخصصة في رعاية المرضى والتثقيف الصحي. تجسد روح المؤسسة وتجمع بين
-                                الكفاءة الطبية والاستماع الدقيق.
-                            </p>
-                        </div>
+                        <h3 class="team-member__name">امغران صفاء</h3>
+                        <p class="team-member__title">ممرضة</p>
+                        <p class="team-member__description">
+                            ممرضة مسجلة ذات خبرة متخصصة في رعاية المرضى والتثقيف الصحي. تجسد روح المؤسسة وتجمع بين
+                            الكفاءة الطبية والاستماع الدقيق.
+                        </p>
                     </div>
                 </div>
 
                 <div class="team-preview__cta">
                     <a href="about.html#team" class="btn btn--secondary">تعرف على فريقنا الكامل</a>
                 </div>
+            </div>
+        </section>
+
+        <!-- 04 — Visit us -->
+        <section class="section" data-section="visit">
+            <div class="section__container">
+                <p class="section-eyebrow">04 — زورونا</p>
+                <h2 class="section-title">زورونا</h2>
+                <div class="visit-band">
+                    <div class="visit-band__details">
+                        <p class="visit-band__address">{% for line in site.locales[locale].contact.addressLines %}{{ line }}{% if not loop.last %}، {% endif %}{% endfor %}</p>
+                        <p class="visit-band__note">تجد معلومات الاتجاهات ومواقف السيارات في صفحة الاتصال.</p>
+                        <div class="visit-band__actions">
+                            <a href="{{ site.contact.mapUrl }}" class="btn btn--primary" target="_blank" rel="noopener noreferrer">افتح في خرائط جوجل</a>
+                            <a href="{{ 'contact' | localizedUrl(locale) }}#map-section" class="btn btn--secondary">الاتجاهات ومواقف السيارات</a>
+                        </div>
+                    </div>
+                    <div class="visit-band__hours">
+                        <h3 class="visit-band__hours-title">{{ site.locales[locale].contact.hoursLabel }}</h3>
+                        {% for hour in site.locales[locale].contact.hours %}
+                        <p class="visit-band__hours-line">{{ hour.day }}: {% for time in hour.time %}{{ time }}{% if not loop.last %}، {% endif %}{% endfor %}</p>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to action -->
+        <section class="cta-band">
+            <div class="cta-band__container">
+                <h2 class="cta-band__title">جاهزون من أجلك.</h2>
+                <p class="cta-band__text">اتصل لحجز موعدك — نرد خلال ساعات العمل.</p>
+                <a href="tel:{{ site.contact.phone }}" class="btn btn--primary">اتصل بالرقم {{ site.contact.phone }}</a>
             </div>
         </section>
