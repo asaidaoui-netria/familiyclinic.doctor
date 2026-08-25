@@ -92,9 +92,7 @@ class LanguageSwitcher {
             '/index.html',
             '/about.html',
             '/services.html',
-            '/contact.html',
-            '/blog/',
-            '/blog/catalog.html'
+            '/contact.html'
         ];
 
         return rootPages.includes(path) || path === '';
@@ -133,8 +131,6 @@ class LanguageSwitcher {
 
         if (currentPath === '/' || currentPath === '/index.html' || currentPath === '') {
             newPath = `/${targetLang}/index.html`;
-        } else if (currentPath.startsWith('/blog/')) {
-            newPath = `/${targetLang}${currentPath}`;
         } else {
             // For other root pages like about.html, services.html, etc.
             const fileName = currentPath.split('/').pop() || 'index.html';
