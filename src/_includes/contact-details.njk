@@ -1,0 +1,53 @@
+{% set copy = site.locales[locale] %}
+{% set contact = copy.contact %}
+<div class="contact-details">
+  <h3 class="contact-details__title">{{ contact.title }}</h3>
+  <div class="contact-details__grid">
+    <div class="contact-details__left">
+      <div class="contact-details__item">
+        <div class="contact-details__icon">📍</div>
+        <div class="contact-details__content">
+          <h4 class="contact-details__label">{{ contact.addressLabel }}</h4>
+          <p class="contact-details__text"><a href="{{ site.contact.mapUrl }}" class="contact-details__link" target="_blank" rel="noopener noreferrer">{% for line in contact.addressLines %}{{ line }}{% if not loop.last %}<br>{% endif %}{% endfor %}</a></p>
+        </div>
+      </div>
+      <div class="contact-details__item">
+        <div class="contact-details__icon">📞</div>
+        <div class="contact-details__content">
+          <h4 class="contact-details__label">{{ contact.phoneLabel }}</h4>
+          <p class="contact-details__text"><a href="tel:{{ site.contact.phone }}" class="contact-details__link">{{ site.contact.phone }}</a></p>
+        </div>
+      </div>
+      <div class="contact-details__item">
+        <div class="contact-details__icon">✉️</div>
+        <div class="contact-details__content">
+          <h4 class="contact-details__label">{{ contact.emailLabel }}</h4>
+          <p class="contact-details__text"><a href="mailto:{{ site.contact.email }}" class="contact-details__link">{{ site.contact.email }}</a></p>
+        </div>
+      </div>
+      <div class="contact-details__item">
+        <div class="contact-details__icon">🌍</div>
+        <div class="contact-details__content">
+          <h4 class="contact-details__label">{{ contact.languagesLabel }}</h4>
+          <p class="contact-details__text">{{ contact.languages }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="contact-details__right">
+      <div class="contact-details__item">
+        <div class="contact-details__icon">🕒</div>
+        <div class="contact-details__content">
+          <h4 class="contact-details__label">{{ contact.hoursLabel }}</h4>
+          <div class="contact-details__hours">
+            {% for hour in contact.hours %}
+            <div class="contact-details__day">
+              <span class="contact-details__day-name">{{ hour.day }}</span>
+              <span class="contact-details__day-time">{% for time in hour.time %}{{ time }}{% if not loop.last %}<br>{% endif %}{% endfor %}</span>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -63,7 +63,7 @@ test("the Pages workflow validates pull requests and deploys the verified site o
   assert.match(workflow, /^  push:\n    branches: \[main\]/m, "only main pushes trigger deployment");
   assert.match(workflow, /^  workflow_dispatch:/m, "manual deployments are supported");
   assert.deepEqual(permissions(workflow, 0, "the workflow"), { contents: "read" }, "the workflow defaults to only read-only repository access");
-  assert.match(workflow, /^concurrency:\n  group: pages\n  cancel-in-progress: false$/m, "Pages deployments use a stable, non-cancelling concurrency group");
+  assert.doesNotMatch(workflow, /^concurrency:/m, "pull-request validation does not share a top-level Pages concurrency group");
 
   assert.match(build, /uses: actions\/checkout@v6/, "build checks out the site source");
   assert.match(build, /uses: actions\/setup-node@v6\n\s+with:\n\s+node-version: 22\n\s+cache: npm/, "build uses cached Node 22 dependencies");
@@ -87,6 +87,7 @@ test("the Pages workflow validates pull requests and deploys the verified site o
 
   assert.match(deploy, /needs: build/, "deployment waits for successful verification");
   assert.match(deploy, /if: github\.event_name != 'pull_request'/, "pull requests cannot deploy");
+  assert.match(deploy, /concurrency:\n\s+group: pages\n\s+cancel-in-progress: false/, "only non-PR deployments share the stable, non-cancelling Pages group");
   assert.deepEqual(permissions(deploy, 4, "the deploy job"), { pages: "write", "id-token": "write" }, "deployment receives only the required write permissions");
   assert.match(deploy, /environment:\n\s+name: github-pages/, "deployment uses the github-pages environment");
   assert.match(deploy, /uses: actions\/deploy-pages@v4/, "deployment publishes the Pages artifact");

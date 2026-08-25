@@ -28,7 +28,7 @@
         <h4 class="footer__section-title">{{ copy.footer.servicesHeading }}</h4>
         <ul class="footer__links">
           {% for label in copy.services %}
-          <li><a href="{{ 'services' | localizedUrl(locale) }}#{{ site.serviceAnchors[loop.index0] }}" class="footer__link">{{ label }}</a></li>
+          <li><a href="{{ 'services' | localizedUrl(locale) }}#{{ site.serviceAnchors[locale][loop.index0] }}" class="footer__link">{{ label }}</a></li>
           {% endfor %}
         </ul>
       </div>
@@ -39,7 +39,7 @@
           <p class="footer__contact-item">
             <strong>{{ copy.footer.addressLabel }}</strong><br>
             <a href="{{ site.contact.mapUrl }}" class="footer__link" target="_blank" rel="noopener noreferrer">
-              {% for line in copy.footer.addressLines %}{{ line }}{% if not loop.last %}<br>{% endif %}{% endfor %}
+              {% for line in copy.contact.addressLines %}{{ line }}{% if not loop.last %}<br>{% endif %}{% endfor %}
             </a>
           </p>
           <p class="footer__contact-item">
@@ -52,18 +52,18 @@
           </p>
           <p class="footer__contact-item">
             <strong>{{ copy.footer.hoursLabel }}</strong><br>
-            {% for hour in copy.footer.hours %}{{ hour }}{% if not loop.last %}<br>{% endif %}{% endfor %}
+            {% for hour in copy.contact.footerHours %}{{ hour }}{% if not loop.last %}<br>{% endif %}{% endfor %}
           </p>
         </div>
       </div>
     </div>
 
     <div class="footer__bottom">
-      <p class="footer__copyright">{{ copy.footer.copyright }}</p>
+      <p class="footer__copyright">© {{ buildYear }} {{ copy.footer.copyright }}</p>
       <p class="footer__powered-by">
         {{ copy.footer.poweredBy }} <img src="/assets/images/optimized/netria/netria-logo-footer-transparent.png"
           alt="{{ copy.footer.netriaLogoAlt }}" class="footer__netria-logo" loading="lazy"> <a
-          href="https://netria.dev?utm_source=familyclinic&utm_medium=website&utm_campaign=footer_attribution"
+          href="https://netria.dev?utm_source=familyclinic&amp;utm_medium=website&amp;utm_campaign=footer_attribution"
           class="footer__link" target="_blank" rel="noopener noreferrer">netria.dev</a>
       </p>
     </div>

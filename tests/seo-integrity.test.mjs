@@ -66,9 +66,26 @@ function referenceTarget(htmlRoute, reference) {
   const path = reference.split(/[?#]/, 1)[0];
   const sourcePath = outputPath(htmlRoute);
 
+  if (!path) return sourcePath;
+
   return path.startsWith("/")
     ? resolve(OUTPUT_ROOT, `.${path}`)
     : resolve(dirname(sourcePath), path);
+}
+
+function fragmentTarget(htmlRoute, reference) {
+  const hashIndex = reference.indexOf("#");
+
+  if (hashIndex === -1) return null;
+
+  const fragment = reference.slice(hashIndex + 1);
+
+  if (!fragment) return null;
+
+  return {
+    target: referenceTarget(htmlRoute, reference),
+    fragment: decodeURIComponent(fragment)
+  };
 }
 
 test("each indexable page publishes one canonical URL and complete Open Graph metadata", async () => {
@@ -90,7 +107,10 @@ test("each indexable page publishes one canonical URL and complete Open Graph me
     assert.equal(tagWithAttributes(html, "meta", { property: "og:url", content: canonicalUrl }).length, 1, `${route} has its canonical og:url`);
     assert.equal(tagWithAttributes(html, "meta", { property: "og:type", content: "website" }).length, 1, `${route} has website Open Graph type`);
     assert.equal(tagWithAttributes(html, "meta", { property: "og:site_name", content: copy.clinicName }).length, 1, `${route} has the localized Open Graph site name`);
-    assert.equal(tagWithAttributes(html, "meta", { property: "og:locale", content: locale }).length, 1, `${route} has its Open Graph locale`);
+    const ogLocale = { en: "en_US", fr: "fr_FR", ar: "ar_MA" }[locale];
+
+    assert.equal(tagWithAttributes(html, "meta", { property: "og:locale", content: ogLocale }).length, 1, `${route} has its protocol-shaped Open Graph locale`);
+    assert.equal(tagWithAttributes(html, "meta", { property: "og:image", content: `${PUBLIC_BASE_URL}/assets/images/optimized/clinic/clinic_entrance_desktop_800x400.jpg` }).length, 1, `${route} has the retained absolute Open Graph image`);
   }
 });
 
@@ -129,8 +149,8 @@ test("every HTML page has valid LocalBusiness JSON-LD backed by clinic data", as
     assert.equal(data.url, site.url);
     assert.equal(data.telephone, site.contact.phone);
     assert.equal(data.address["@type"], "PostalAddress");
-    assert.equal(data.address.streetAddress, copy.footer.addressLines[0]);
-    assert.equal(data.address.addressLocality, copy.footer.addressLines[1]);
+    assert.equal(data.address.streetAddress, copy.contact.addressLines[0]);
+    assert.equal(data.address.addressLocality, copy.contact.addressLines[1]);
     assert.equal(data.address.postalCode, site.contact.postalCode);
     assert.equal(data.address.addressCountry, "MA");
   }
@@ -189,5 +209,54 @@ test("every generated local href, src, and srcset reference resolves inside the 
       assert.equal(target.startsWith(`${resolve(OUTPUT_ROOT)}/`), true, `${route} reference stays inside _site: ${reference}`);
       assert.equal(existsSync(target), true, `${route} reference exists: ${reference} -> ${relative(OUTPUT_ROOT, target)}`);
     }
+  }
+});
+
+test("every generated local anchor fragment resolves to an id or named anchor in its target HTML", async () => {
+  for (const route of EXPECTED_HTML_ROUTES) {
+    const html = await readOutput(route);
+
+    for (const href of tags(html, "a").map((tag) => attribute(tag, "href")).filter(Boolean)) {
+      if (/^(?:mailto:|tel:|data:|https?:)/i.test(href)) continue;
+
+      const target = fragmentTarget(route, href);
+
+      if (!target) continue;
+
+      assert.equal(target.target.startsWith(`${resolve(OUTPUT_ROOT)}/`), true, `${route} fragment stays inside _site: ${href}`);
+      const targetHtml = await readFile(target.target, "utf8");
+      assert.match(targetHtml, new RegExp(`\\b(?:id|name)=(?:"${target.fragment}"|'${target.fragment}')`), `${route} fragment resolves: ${href}`);
+    }
+  }
+});
+
+test("contact pages render the centralized localized contact data and retained routes", async () => {
+  for (const [locale, route] of [["en", "contact.html"], ["fr", "fr/contact.html"], ["ar", "ar/contact.html"]]) {
+    const html = await readOutput(route);
+    const contact = site.locales[locale].contact;
+
+    assert.ok(contact, `${locale} exposes localized contact data`);
+    assert.ok(html.includes(`href="${site.contact.mapUrl}"`), `${route} uses the shared map URL`);
+    assert.ok(html.includes(`href="tel:${site.contact.phone}"`), `${route} uses the shared phone route`);
+    assert.ok(html.includes(`href="mailto:${site.contact.email}"`), `${route} uses the shared email route`);
+
+    for (const line of contact.addressLines) assert.ok(html.includes(line), `${route} renders its centralized address line`);
+    for (const { day, time } of contact.hours) {
+      assert.ok(html.includes(day), `${route} renders its centralized opening-day label`);
+      for (const value of time) assert.ok(html.includes(value), `${route} renders its centralized opening time`);
+    }
+  }
+});
+
+test("built footers use the build-time current year and encode the attribution URL", async () => {
+  const year = String(new Date().getFullYear());
+  const attribution = "https://netria.dev?utm_source=familyclinic&amp;utm_medium=website&amp;utm_campaign=footer_attribution";
+
+  for (const route of EXPECTED_HTML_ROUTES) {
+    const html = await readOutput(route);
+
+    assert.ok(html.includes(`© ${year}`), `${route} has the build-time copyright year`);
+    assert.ok(html.includes(`href="${attribution}"`), `${route} encodes attribution query separators`);
+    assert.equal(attribution.replaceAll("&amp;", "&"), "https://netria.dev?utm_source=familyclinic&utm_medium=website&utm_campaign=footer_attribution");
   }
 });

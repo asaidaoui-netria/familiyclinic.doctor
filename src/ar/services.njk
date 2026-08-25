@@ -31,15 +31,15 @@ description: "اكتشف خدمات الرعاية الصحية الشاملة �
                 <div class="services-nav__container">
                     <h3 class="services-nav__title">خدماتنا</h3>
                     <div class="services-nav__links">
-                        <a href="#family-medicine" class="services-nav__link">طب الأسرة</a>
-                        <a href="#holistic-consultations" class="services-nav__link">الاستشارات الشمولية</a>
-                        <a href="#quantum-scan" class="services-nav__link">المسح الكمي</a>
-                        <a href="#naturopathy" class="services-nav__link">الطب الطبيعي</a>
-                        <a href="#hijamah" class="services-nav__link">الحجامة</a>
-                        <a href="#physiotherapy" class="services-nav__link">العلاج الطبيعي</a>
-                        <a href="#dermatology" class="services-nav__link">طب الأمراض الجلدية والجراحة التكاملية</a>
-                        <a href="#judiciary-medical-expertise" class="services-nav__link">الخبرة الطبية القضائية</a>
-                        <a href="#weight-loss" class="services-nav__link">تخسيس الوزن</a>
+                        <a href="#{{ site.serviceAnchors[locale][0] }}" class="services-nav__link">طب الأسرة</a>
+                        <a href="#{{ site.serviceAnchors[locale][1] }}" class="services-nav__link">الاستشارات الشمولية</a>
+                        <a href="#{{ site.serviceAnchors[locale][2] }}" class="services-nav__link">المسح الكمي</a>
+                        <a href="#{{ site.serviceAnchors[locale][3] }}" class="services-nav__link">الطب الطبيعي</a>
+                        <a href="#{{ site.serviceAnchors[locale][4] }}" class="services-nav__link">الحجامة</a>
+                        <a href="#{{ site.serviceAnchors[locale][5] }}" class="services-nav__link">العلاج الطبيعي</a>
+                        <a href="#{{ site.serviceAnchors[locale][6] }}" class="services-nav__link">طب الأمراض الجلدية والجراحة التكاملية</a>
+                        <a href="#{{ site.serviceAnchors[locale][7] }}" class="services-nav__link">الخبرة الطبية القضائية</a>
+                        <a href="#{{ site.serviceAnchors[locale][8] }}" class="services-nav__link">تخسيس الوزن</a>
                     </div>
                 </div>
             </nav>
@@ -49,7 +49,7 @@ description: "اكتشف خدمات الرعاية الصحية الشاملة �
                 <section class="services-grid">
                     <div class="container">
                         <!-- Family Medicine -->
-                        <article class="service-detail" id="family-medicine">
+                        <article class="service-detail" id="{{ site.serviceAnchors[locale][0] }}">
                             <div class="service-detail__content">
                                 <div class="service-detail__header">
                                     <h2 class="service-detail__title">طب الأسرة</h2>
@@ -101,7 +101,7 @@ description: "اكتشف خدمات الرعاية الصحية الشاملة �
                         </article>
 
                         <!-- Holistic Consultations -->
-                        <article class="service-detail" id="holistic-consultations">
+                        <article class="service-detail" id="{{ site.serviceAnchors[locale][1] }}">
                             <div class="service-detail__content">
                                 <div class="service-detail__header">
                                     <h2 class="service-detail__title">الاستشارات الشمولية</h2>
@@ -150,7 +150,7 @@ description: "اكتشف خدمات الرعاية الصحية الشاملة �
                         </article>
 
                         <!-- Quantum Scan -->
-                        <article class="service-detail" id="quantum-scan">
+                        <article class="service-detail" id="{{ site.serviceAnchors[locale][2] }}">
                             <div class="service-detail__content">
                                 <div class="service-detail__header">
                                     <h2 class="service-detail__title">المسح الكمي - قراءة الطاقة الشخصية</h2>
@@ -194,7 +194,7 @@ description: "اكتشف خدمات الرعاية الصحية الشاملة �
                         </article>
 
                         <!-- Naturopathy -->
-                        <article class="service-detail" id="naturopathy">
+                        <article class="service-detail" id="{{ site.serviceAnchors[locale][3] }}">
                             <div class="service-detail__content">
                                 <div class="service-detail__header">
                                     <h2 class="service-detail__title">الطب الطبيعي</h2>
@@ -243,7 +243,7 @@ description: "اكتشف خدمات الرعاية الصحية الشاملة �
 
 
                         <!-- Hijamah -->
-                        <article class="service-detail" id="hijamah">
+                        <article class="service-detail" id="{{ site.serviceAnchors[locale][4] }}">
                             <div class="service-detail__content">
                                 <div class="service-detail__header">
                                     <h2 class="service-detail__title">الحجامة</h2>
@@ -291,7 +291,7 @@ description: "اكتشف خدمات الرعاية الصحية الشاملة �
                         </article>
 
                         <!-- Physiotherapy -->
-                        <article class="service-detail" id="physiotherapy">
+                        <article class="service-detail" id="{{ site.serviceAnchors[locale][5] }}">
                             <div class="service-detail__content">
                                 <div class="service-detail__header">
                                     <h2 class="service-detail__title">العلاج الطبيعي</h2>
@@ -344,7 +344,7 @@ description: "اكتشف خدمات الرعاية الصحية الشاملة �
                         </article>
 
                         <!-- Dermatology & Integrative Surgery -->
-                        <article class="service-detail" id="dermatology">
+                        <article class="service-detail" id="{{ site.serviceAnchors[locale][6] }}">
                             <div class="service-detail__content">
                                 <div class="service-detail__header">
                                     <h2 class="service-detail__title">طب الأمراض الجلدية والجراحة التكاملية</h2>
@@ -398,7 +398,7 @@ description: "اكتشف خدمات الرعاية الصحية الشاملة �
                         </article>
 
                         <!-- Judiciary Medical Expertise -->
-                        <article class="service-detail" id="judiciary-medical-expertise">
+                        <article class="service-detail" id="{{ site.serviceAnchors[locale][7] }}">
                             <div class="service-detail__content">
                                 <div class="service-detail__header">
                                     <h2 class="service-detail__title">الخبرة الطبية القضائية</h2>
@@ -450,7 +450,7 @@ description: "اكتشف خدمات الرعاية الصحية الشاملة �
                         </article>
 
                         <!-- Weight Loss -->
-                        <article class="service-detail" id="weight-loss">
+                        <article class="service-detail" id="{{ site.serviceAnchors[locale][8] }}">
                             <div class="service-detail__content">
                                 <div class="service-detail__header">
                                     <h2 class="service-detail__title">تخسيس الوزن</h2>

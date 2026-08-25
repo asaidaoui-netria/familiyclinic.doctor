@@ -73,6 +73,16 @@ test("the localization switcher has no blog or catalog route cases", async () =>
   assert.doesNotMatch(localization, /catalog\.html/);
 });
 
+test("the retained localization stylesheet has no blog article selector families", async () => {
+  const stylesheet = await readFile(join(SOURCE_ROOT, "assets/localization.css"), "utf8");
+
+  assert.doesNotMatch(
+    stylesheet,
+    /\.(?:article-table|article-breadcrumb|article-header|article-title|article-excerpt|article-body|article-tags|related-article|sidebar-section__title|author-card__title)\b/,
+    "blog/article-only selector families are removed without banning generic retained selectors"
+  );
+});
+
 test("the generated site publishes no blog surface", () => {
   for (const path of REMOVED_OUTPUT_PATHS) {
     assert.equal(existsSync(join(OUTPUT_ROOT, path)), false, `${path} is absent from generated output`);

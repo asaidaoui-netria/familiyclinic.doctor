@@ -33,16 +33,16 @@ description: "Discover our comprehensive healthcare services including family me
                 <div class="services-nav__container">
                     <h3 class="services-nav__title">Our Services</h3>
                     <div class="services-nav__links">
-                        <a href="#family-medicine" class="services-nav__link">Family Medicine</a>
-                        <a href="#holistic-consultations" class="services-nav__link">Holistic Consultations</a>
-                        <a href="#quantum-scan" class="services-nav__link">Quantum Scan</a>
-                        <a href="#naturopathy" class="services-nav__link">Naturopathy</a>
-                        <a href="#hijamah" class="services-nav__link">Hijamah</a>
-                        <a href="#physiotherapy" class="services-nav__link">Physiotherapy</a>
-                        <a href="#dermatology" class="services-nav__link">Dermatology</a>
-                        <a href="#judiciary-medical-expertise" class="services-nav__link">Judiciary Medical
+                        <a href="#{{ site.serviceAnchors[locale][0] }}" class="services-nav__link">Family Medicine</a>
+                        <a href="#{{ site.serviceAnchors[locale][1] }}" class="services-nav__link">Holistic Consultations</a>
+                        <a href="#{{ site.serviceAnchors[locale][2] }}" class="services-nav__link">Quantum Scan</a>
+                        <a href="#{{ site.serviceAnchors[locale][3] }}" class="services-nav__link">Naturopathy</a>
+                        <a href="#{{ site.serviceAnchors[locale][4] }}" class="services-nav__link">Hijamah</a>
+                        <a href="#{{ site.serviceAnchors[locale][5] }}" class="services-nav__link">Physiotherapy</a>
+                        <a href="#{{ site.serviceAnchors[locale][6] }}" class="services-nav__link">Dermatology</a>
+                        <a href="#{{ site.serviceAnchors[locale][7] }}" class="services-nav__link">Judiciary Medical
                             Expertise</a>
-                        <a href="#weight-loss" class="services-nav__link">Weight Loss</a>
+                        <a href="#{{ site.serviceAnchors[locale][8] }}" class="services-nav__link">Weight Loss</a>
                     </div>
                 </div>
             </nav>
@@ -52,7 +52,7 @@ description: "Discover our comprehensive healthcare services including family me
                 <section class="services-grid">
                     <div class="container">
                         <!-- Family Medicine -->
-                        <article class="service-detail" id="family-medicine">
+                        <article class="service-detail" id="{{ site.serviceAnchors[locale][0] }}">
                             <div class="service-detail__content">
                                 <div class="service-detail__header">
                                     <h2 class="service-detail__title">Family Medicine</h2>
@@ -110,7 +110,7 @@ description: "Discover our comprehensive healthcare services including family me
                         </article>
 
                         <!-- Holistic Consultations -->
-                        <article class="service-detail" id="holistic-consultations">
+                        <article class="service-detail" id="{{ site.serviceAnchors[locale][1] }}">
                             <div class="service-detail__content">
                                 <div class="service-detail__header">
                                     <h2 class="service-detail__title">Holistic Consultations</h2>
@@ -164,7 +164,7 @@ description: "Discover our comprehensive healthcare services including family me
                         </article>
 
                         <!-- Quantum Scan -->
-                        <article class="service-detail" id="quantum-scan">
+                        <article class="service-detail" id="{{ site.serviceAnchors[locale][2] }}">
                             <div class="service-detail__content">
                                 <div class="service-detail__header">
                                     <h2 class="service-detail__title">Quantum Scan – Personalized Energy Reading</h2>
@@ -214,7 +214,7 @@ description: "Discover our comprehensive healthcare services including family me
                         </article>
 
                         <!-- Naturopathy -->
-                        <article class="service-detail" id="naturopathy">
+                        <article class="service-detail" id="{{ site.serviceAnchors[locale][3] }}">
                             <div class="service-detail__content">
                                 <div class="service-detail__header">
                                     <h2 class="service-detail__title">Naturopathy</h2>
@@ -264,7 +264,7 @@ description: "Discover our comprehensive healthcare services including family me
                         </article>
 
                         <!-- Hijamah -->
-                        <article class="service-detail" id="hijamah">
+                        <article class="service-detail" id="{{ site.serviceAnchors[locale][4] }}">
                             <div class="service-detail__content">
                                 <div class="service-detail__header">
                                     <h2 class="service-detail__title">Hijamah</h2>
@@ -316,7 +316,7 @@ description: "Discover our comprehensive healthcare services including family me
                         </article>
 
                         <!-- Physiotherapy -->
-                        <article class="service-detail" id="physiotherapy">
+                        <article class="service-detail" id="{{ site.serviceAnchors[locale][5] }}">
                             <div class="service-detail__content">
                                 <div class="service-detail__header">
                                     <h2 class="service-detail__title">Physiotherapy</h2>
@@ -371,7 +371,7 @@ description: "Discover our comprehensive healthcare services including family me
                         </article>
 
                         <!-- Dermatology & Integrative Surgery -->
-                        <article class="service-detail" id="dermatology">
+                        <article class="service-detail" id="{{ site.serviceAnchors[locale][6] }}">
                             <div class="service-detail__content">
                                 <div class="service-detail__header">
                                     <h2 class="service-detail__title">Dermatology & Integrative Surgery</h2>
@@ -427,7 +427,7 @@ description: "Discover our comprehensive healthcare services including family me
                         </article>
 
                         <!-- Judiciary Medical Expertise -->
-                        <article class="service-detail" id="judiciary-medical-expertise">
+                        <article class="service-detail" id="{{ site.serviceAnchors[locale][7] }}">
                             <div class="service-detail__content">
                                 <div class="service-detail__header">
                                     <h2 class="service-detail__title">Judiciary Medical Expertise</h2>
@@ -482,7 +482,7 @@ description: "Discover our comprehensive healthcare services including family me
                         </article>
 
                         <!-- Weight Loss -->
-                        <article class="service-detail" id="weight-loss">
+                        <article class="service-detail" id="{{ site.serviceAnchors[locale][8] }}">
                             <div class="service-detail__content">
                                 <div class="service-detail__header">
                                     <h2 class="service-detail__title">Weight Loss</h2>

@@ -21,7 +21,8 @@
   <meta property="og:url" content="{{ site.url }}{{ currentRoute }}">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="{{ site.locales[locale].clinicName }}">
-  <meta property="og:locale" content="{{ locale }}">
+  <meta property="og:locale" content="{{ site.ogLocales[locale] }}">
+  <meta property="og:image" content="{{ site.url }}{{ site.ogImage }}">
   {% if not indexable %}
   <meta name="robots" content="noindex, follow">
   {% endif %}
