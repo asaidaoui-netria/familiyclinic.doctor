@@ -53,9 +53,10 @@ Rules:
 
 - **Header:** logo mark + wordmark, nav links, persistent **call pill** (`tel:+212-641-745-441`,
   localized label) on the right; hairline bottom border; sticky.
-- **Footer:** minimal — clinic name/address/phone, nav links, language credit, Netria credit.
-  Patient-guide links (previously a homepage section) move here.
-- **404:** same chrome + big typographic "Page not found" (per locale) and call button.
+- **Footer:** keep the current four sections (logo/description, quick links, services links,
+  contact info) and Netria credit — restyled flat with hairlines, no content changes.
+- **404:** same chrome + big typographic "Page not found" (per locale), existing error links
+  kept, plus a call CTA.
 
 ## Page Layouts
 
@@ -69,38 +70,50 @@ numbered section eyebrows, hairline section separators.
    `Our services` (ghost anchor). **No background photo.**
 2. Info band directly under hero: three hairline-separated columns — Address (Maps link),
    Phone (`tel:`, `dir="ltr"` in AR), Hours.
-3. `01 — Services`: 3 featured flat bordered cards (icon chip, title, one-liner, arrow link)
-   + "All services →" link to the services page.
-4. `02 — Why families choose us`: compact 3-point strip, each point with a 2px accent keyline.
-   No photos, no emoji cards.
-5. `03 — Your doctors`: bordered cards with round photo, name, specialty.
-6. `04 — Visit us`: static map (links to Google Maps) beside address/parking/hours/phone.
+3. `01 — Services`: 3 featured flat bordered cards (Family Medicine, Holistic Consultations,
+   Quantum Scan — icon chip, title, one-liner, arrow link) + "View all services" button.
+   The other 6 services stay discoverable via the services page and footer links.
+4. `02 — About the clinic`: the existing about-preview text (serving since 2021) beside the
+   existing clinic photo, + "Learn more about us" link.
+5. `03 — Your care team`: 2 flat cards (Dr. Said-Alaoui, Mrs. Safae) with round photo, name,
+   role, one-line bio, + "Meet our full team" link to `about.html#team`.
+6. `04 — Visit us`: address line + `Open in Maps` button + hours note + link to the contact
+   page for directions.
 7. Final CTA band on `--surface-soft`: short line + call button with full number.
-8. Minimal footer (now carrying patient-guide links).
 
-Removed: dark hero photo background, gradient section headers, card shadows, standalone
-patient-guide section.
+Removed: dark hero photo background, per-service photo cards (9 image-heavy cards become
+3 typographic cards), gradient section headers, card shadows. No section content is lost —
+everything removed from the homepage exists in full on its own page.
 
 ### Services
 
-- Page intro: eyebrow (`OUR SERVICES`) + h1 + one intro line.
-- Two-column grid (1 col mobile) of flat service blocks for all 8 services: icon chip, title,
-  one-line description, "includes" list, `Call to book →` (`tel:`) per block.
+- Page intro: eyebrow (`OUR SERVICES`) + h1 + existing intro text (no gradient hero).
+- Keep the sidebar anchor navigation (sticky on desktop) and all 9 detailed service articles
+  with their full copy (description, approach, includes-list).
+- Restyle: flat hairline article cards, numbered eyebrows, accent titles; each article's CTA
+  becomes a primary `tel:` "Call to book" button (localized), replacing the `contact.html`
+  button; a secondary link to the contact page may remain.
 - Bottom guidance band: "Not sure which service fits? Call …" (localized).
 
 ### About
 
-- Intro: eyebrow + h1 + two short paragraphs.
-- `01 — What we stand for`: values as 3-point keyline strip.
-- `02 — Your doctors`: cards with photo, specialty, one bio line.
-- Closing CTA band ("Meet us in person — call to book").
+- Typographic hero (eyebrow + h1 + existing tagline/description + call CTA); the hero photo
+  moves into the mission section or is dropped.
+- `01 — Mission & Vision`: existing text; the three feature blocks keep their copy but emoji
+  headings become icon chips (`aria-hidden` glyph + text).
+- `02 — Your care team`: keep both detailed profiles (`#team`, `#dr-said-alaoui` anchors
+  preserved) restyled as flat cards.
+- `03 — Our values`: keep all four value cards, restyled flat with keyline accents.
+- Closing CTA band.
 
 ### Contact
 
-- Intro: eyebrow + h1.
-- Two columns: left = ruled contact details (Phone — fastest way to book, Address + Maps link,
-  Hours) each separated by hairlines with an accent top rule on the phone block; right = static
-  map linking to Google Maps.
+- Typographic intro: eyebrow + h1 + existing description.
+- Contact details block (existing `contact-details.njk` include: address, phone, email,
+  languages, full weekly hours) restyled with hairlines; phone block gets the accent top rule.
+- Map: keep the existing Google Maps **iframe embed** (functional today; a static map would
+  require an API key), framed with a hairline border, beside the existing "Getting Here"
+  directions text.
 - `01 — Common questions`: FAQ accordion (existing JS/wiring kept) restyled as ruled rows with
   accent `+` indicators.
 - Bottom call band.
@@ -112,10 +125,12 @@ Phone numbers keep `dir="ltr"`. Cairo remains the Arabic face.
 
 ## Content preservation (no-loss rule)
 
-Every existing piece of content survives in all three locales: 8 services with descriptions,
-3 doctor profiles, FAQ items, address/phone/hours, map link, patient-guide links, service
-"includes" lists. Only presentation and section placement change. Localized CTA labels from
-`src/_data/site.js` remain the source of truth; no new marketing claims invented.
+Every existing piece of content survives in all three locales: all 9 services with their full
+descriptions/approach/includes copy, both team member profiles, the 4 values, the 3 mission
+features, FAQ items (6), address/phone/email/hours, map embed and directions, footer sections.
+Only presentation and section placement change. Localized CTA labels from `src/_data/site.js`
+remain the source of truth; no new marketing claims invented (homepage copy reuses existing
+about-preview/hero wording).
 
 ## Implementation approach
 
@@ -145,8 +160,8 @@ Every existing piece of content survives in all three locales: 8 services with d
     functional chrome, not card styling)
   - accent/hairline tokens consumed by page CSS
   - homepage sections present in the approved order (eyebrow markers `01`–`04`)
-  - patient-guide links reachable from the footer on all locales
-  - services page contains all 8 service blocks × 3 locales
+  - footer keeps quick links, all 9 service links, and contact info on all locales
+  - services page contains all 9 service anchors × 3 locales, each with a `tel:` CTA
   - 404 contains localized not-found heading + call CTA
 - Manual spot-checks: `npm run serve`, inspect EN/FR/AR home, services, about, contact, 404,
   mobile header, RTL mirroring, focus states.
