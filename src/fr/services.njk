@@ -15,6 +15,7 @@ description: "Découvrez nos services de santé complets incluant la médecine d
         <section class="services-hero">
             <div class="container">
                 <div class="services-hero__content">
+                    <p class="hero__eyebrow">NOS SERVICES</p>
                     <h1 class="services-hero__title">Nos Services de Santé</h1>
                     <p class="services-hero__description">
                         Découvrez notre gamme complète de services de santé conçus pour répondre aux besoins divers de
@@ -106,7 +107,8 @@ description: "Découvrez nos services de santé complets incluant la médecine d
                                     </p>
                                 </div>
                                 <div class="service-detail__actions">
-                                    <a href="contact.html" class="btn btn--primary">Nous Contacter</a>
+                                    <a href="tel:{{ site.contact.phone }}" class="btn btn--primary">{{ site.locales[locale].cta.headerCall }}</a>
+                                    <a href="contact.html" class="btn btn--secondary">Nous Contacter</a>
                                 </div>
                             </div>
                         </article>
@@ -162,7 +164,8 @@ description: "Découvrez nos services de santé complets incluant la médecine d
                                     </p>
                                 </div>
                                 <div class="service-detail__actions">
-                                    <a href="contact.html" class="btn btn--primary">Nous Contacter</a>
+                                    <a href="tel:{{ site.contact.phone }}" class="btn btn--primary">{{ site.locales[locale].cta.headerCall }}</a>
+                                    <a href="contact.html" class="btn btn--secondary">Nous Contacter</a>
                                 </div>
                             </div>
                         </article>
@@ -217,7 +220,8 @@ description: "Découvrez nos services de santé complets incluant la médecine d
                                     </p>
                                 </div>
                                 <div class="service-detail__actions">
-                                    <a href="contact.html" class="btn btn--primary">Nous Contacter</a>
+                                    <a href="tel:{{ site.contact.phone }}" class="btn btn--primary">{{ site.locales[locale].cta.headerCall }}</a>
+                                    <a href="contact.html" class="btn btn--secondary">Nous Contacter</a>
                                 </div>
                             </div>
                         </article>
@@ -271,7 +275,8 @@ description: "Découvrez nos services de santé complets incluant la médecine d
                                     </p>
                                 </div>
                                 <div class="service-detail__actions">
-                                    <a href="contact.html" class="btn btn--primary">Nous Contacter</a>
+                                    <a href="tel:{{ site.contact.phone }}" class="btn btn--primary">{{ site.locales[locale].cta.headerCall }}</a>
+                                    <a href="contact.html" class="btn btn--secondary">Nous Contacter</a>
                                 </div>
                             </div>
                         </article>
@@ -325,7 +330,8 @@ description: "Découvrez nos services de santé complets incluant la médecine d
                                     </p>
                                 </div>
                                 <div class="service-detail__actions">
-                                    <a href="contact.html" class="btn btn--primary">Nous Contacter</a>
+                                    <a href="tel:{{ site.contact.phone }}" class="btn btn--primary">{{ site.locales[locale].cta.headerCall }}</a>
+                                    <a href="contact.html" class="btn btn--secondary">Nous Contacter</a>
                                 </div>
                             </div>
                         </article>
@@ -384,7 +390,8 @@ description: "Découvrez nos services de santé complets incluant la médecine d
                                     </p>
                                 </div>
                                 <div class="service-detail__actions">
-                                    <a href="contact.html" class="btn btn--primary">Nous Contacter</a>
+                                    <a href="tel:{{ site.contact.phone }}" class="btn btn--primary">{{ site.locales[locale].cta.headerCall }}</a>
+                                    <a href="contact.html" class="btn btn--secondary">Nous Contacter</a>
                                 </div>
                             </div>
                         </article>
@@ -442,7 +449,8 @@ description: "Découvrez nos services de santé complets incluant la médecine d
                                     </p>
                                 </div>
                                 <div class="service-detail__actions">
-                                    <a href="contact.html" class="btn btn--primary">Nous Contacter</a>
+                                    <a href="tel:{{ site.contact.phone }}" class="btn btn--primary">{{ site.locales[locale].cta.headerCall }}</a>
+                                    <a href="contact.html" class="btn btn--secondary">Nous Contacter</a>
                                 </div>
                             </div>
                         </article>
@@ -501,7 +509,8 @@ description: "Découvrez nos services de santé complets incluant la médecine d
                                     </p>
                                 </div>
                                 <div class="service-detail__actions">
-                                    <a href="contact.html" class="btn btn--primary">Nous Contacter</a>
+                                    <a href="tel:{{ site.contact.phone }}" class="btn btn--primary">{{ site.locales[locale].cta.headerCall }}</a>
+                                    <a href="contact.html" class="btn btn--secondary">Nous Contacter</a>
                                 </div>
                             </div>
                         </article>
@@ -560,7 +569,8 @@ description: "Découvrez nos services de santé complets incluant la médecine d
                                     </p>
                                 </div>
                                 <div class="service-detail__actions">
-                                    <a href="contact.html" class="btn btn--primary">Nous Contacter</a>
+                                    <a href="tel:{{ site.contact.phone }}" class="btn btn--primary">{{ site.locales[locale].cta.headerCall }}</a>
+                                    <a href="contact.html" class="btn btn--secondary">Nous Contacter</a>
                                 </div>
                             </div>
                         </article>
@@ -568,3 +578,12 @@ description: "Découvrez nos services de santé complets incluant la médecine d
                 </section>
             </div>
         </div>
+
+        <!-- Guidance CTA Band -->
+        <section class="cta-band">
+            <div class="cta-band__container">
+                <h2 class="cta-band__title">Vous ne savez pas quel service choisir ?</h2>
+                <p class="cta-band__text">Appelez-nous et nous vous guiderons vers le bon soin.</p>
+                <a href="tel:{{ site.contact.phone }}" class="btn btn--primary">Appelez au {{ site.contact.phone }}</a>
+            </div>
+        </section>

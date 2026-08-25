@@ -15,6 +15,7 @@ description: "اكتشف خدمات الرعاية الصحية الشاملة �
         <section class="services-hero">
             <div class="container">
                 <div class="services-hero__content">
+                    <p class="hero__eyebrow">خدماتنا</p>
                     <h1 class="services-hero__title">خدماتنا الطبية</h1>
                     <p class="services-hero__description">
                         اكتشف مجموعة واسعة من خدمات الرعاية الصحية المصممة لتلبية احتياجات عائلتك المتنوعة.
@@ -95,7 +96,8 @@ description: "اكتشف خدمات الرعاية الصحية الشاملة �
                                     </p>
                                 </div>
                                 <div class="service-detail__actions">
-                                    <a href="contact.html" class="btn btn--primary">اتصل بنا</a>
+                                    <a href="tel:{{ site.contact.phone }}" class="btn btn--primary">{{ site.locales[locale].cta.headerCall }}</a>
+                                    <a href="contact.html" class="btn btn--secondary">اتصل بنا</a>
                                 </div>
                             </div>
                         </article>
@@ -144,7 +146,8 @@ description: "اكتشف خدمات الرعاية الصحية الشاملة �
                                     </p>
                                 </div>
                                 <div class="service-detail__actions">
-                                    <a href="contact.html" class="btn btn--primary">اتصل بنا</a>
+                                    <a href="tel:{{ site.contact.phone }}" class="btn btn--primary">{{ site.locales[locale].cta.headerCall }}</a>
+                                    <a href="contact.html" class="btn btn--secondary">اتصل بنا</a>
                                 </div>
                             </div>
                         </article>
@@ -188,7 +191,8 @@ description: "اكتشف خدمات الرعاية الصحية الشاملة �
                                     </p>
                                 </div>
                                 <div class="service-detail__actions">
-                                    <a href="contact.html" class="btn btn--primary">اتصل بنا</a>
+                                    <a href="tel:{{ site.contact.phone }}" class="btn btn--primary">{{ site.locales[locale].cta.headerCall }}</a>
+                                    <a href="contact.html" class="btn btn--secondary">اتصل بنا</a>
                                 </div>
                             </div>
                         </article>
@@ -234,7 +238,8 @@ description: "اكتشف خدمات الرعاية الصحية الشاملة �
                                     </p>
                                 </div>
                                 <div class="service-detail__actions">
-                                    <a href="contact.html" class="btn btn--primary">اتصل بنا</a>
+                                    <a href="tel:{{ site.contact.phone }}" class="btn btn--primary">{{ site.locales[locale].cta.headerCall }}</a>
+                                    <a href="contact.html" class="btn btn--secondary">اتصل بنا</a>
                                 </div>
                             </div>
                         </article>
@@ -285,7 +290,8 @@ description: "اكتشف خدمات الرعاية الصحية الشاملة �
                                     </p>
                                 </div>
                                 <div class="service-detail__actions">
-                                    <a href="contact.html" class="btn btn--primary">اتصل بنا</a>
+                                    <a href="tel:{{ site.contact.phone }}" class="btn btn--primary">{{ site.locales[locale].cta.headerCall }}</a>
+                                    <a href="contact.html" class="btn btn--secondary">اتصل بنا</a>
                                 </div>
                             </div>
                         </article>
@@ -338,7 +344,8 @@ description: "اكتشف خدمات الرعاية الصحية الشاملة �
                                     </p>
                                 </div>
                                 <div class="service-detail__actions">
-                                    <a href="contact.html" class="btn btn--primary">اتصل بنا</a>
+                                    <a href="tel:{{ site.contact.phone }}" class="btn btn--primary">{{ site.locales[locale].cta.headerCall }}</a>
+                                    <a href="contact.html" class="btn btn--secondary">اتصل بنا</a>
                                 </div>
                             </div>
                         </article>
@@ -392,7 +399,8 @@ description: "اكتشف خدمات الرعاية الصحية الشاملة �
                                     </p>
                                 </div>
                                 <div class="service-detail__actions">
-                                    <a href="contact.html" class="btn btn--primary">اتصل بنا</a>
+                                    <a href="tel:{{ site.contact.phone }}" class="btn btn--primary">{{ site.locales[locale].cta.headerCall }}</a>
+                                    <a href="contact.html" class="btn btn--secondary">اتصل بنا</a>
                                 </div>
                             </div>
                         </article>
@@ -444,7 +452,8 @@ description: "اكتشف خدمات الرعاية الصحية الشاملة �
                                     </p>
                                 </div>
                                 <div class="service-detail__actions">
-                                    <a href="contact.html" class="btn btn--primary">اتصل بنا</a>
+                                    <a href="tel:{{ site.contact.phone }}" class="btn btn--primary">{{ site.locales[locale].cta.headerCall }}</a>
+                                    <a href="contact.html" class="btn btn--secondary">اتصل بنا</a>
                                 </div>
                             </div>
                         </article>
@@ -496,7 +505,8 @@ description: "اكتشف خدمات الرعاية الصحية الشاملة �
                                     </p>
                                 </div>
                                 <div class="service-detail__actions">
-                                    <a href="contact.html" class="btn btn--primary">اتصل بنا</a>
+                                    <a href="tel:{{ site.contact.phone }}" class="btn btn--primary">{{ site.locales[locale].cta.headerCall }}</a>
+                                    <a href="contact.html" class="btn btn--secondary">اتصل بنا</a>
                                 </div>
                             </div>
                         </article>
@@ -504,3 +514,12 @@ description: "اكتشف خدمات الرعاية الصحية الشاملة �
                 </section>
             </div>
         </div>
+
+        <!-- Guidance CTA Band -->
+        <section class="cta-band">
+            <div class="cta-band__container">
+                <h2 class="cta-band__title">لست متأكداً من الخدمة المناسبة؟</h2>
+                <p class="cta-band__text">اتصل بنا وسنوجهك نحو الرعاية المناسبة.</p>
+                <a href="tel:{{ site.contact.phone }}" class="btn btn--primary">اتصل بالرقم {{ site.contact.phone }}</a>
+            </div>
+        </section>
