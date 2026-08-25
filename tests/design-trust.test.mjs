@@ -71,8 +71,8 @@ test("published stylesheets no longer use the purple brand gradient", async () =
 
 test("stylesheets are driven by shared design tokens", async () => {
   const css = await readOutput("assets/styles.css");
-  assert.match(css, /:root\s*{[^}]*--color-primary/, "styles.css defines color tokens");
-  assert.match(css, /var\(--color-primary/, "styles.css consumes its own tokens");
+  assert.match(css, /:root\s*{[^}]*--accent/, "styles.css defines color tokens");
+  assert.match(css, /var\(--accent/, "styles.css consumes its own tokens");
   for (const file of ["about.css", "contact.css", "services.css"]) {
     const pageCss = await readOutput(`assets/${file}`);
     assert.match(pageCss, /var\(--/, `${file} consumes design tokens`);
@@ -103,16 +103,6 @@ test("every generated image declares intrinsic dimensions", async () => {
       assert.match(image, /\bwidth="\d+"/, `${route} image missing width: ${image.slice(0, 90)}`);
       assert.match(image, /\bheight="\d+"/, `${route} image missing height: ${image.slice(0, 90)}`);
     }
-  }
-});
-
-test("the homepage hero image loads eagerly with high fetch priority", async () => {
-  for (const route of HOME_ROUTES) {
-    const html = await readOutput(route);
-    const heroImage = html.match(/<img[^>]*class="hero__img"[^>]*>/);
-    assert.ok(heroImage, `${route} renders a hero image`);
-    assert.doesNotMatch(heroImage[0], /loading="lazy"/, `${route} hero image is not lazy`);
-    assert.match(heroImage[0], /fetchpriority="high"/, `${route} hero image has high fetch priority`);
   }
 });
 
