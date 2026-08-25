@@ -1,0 +1,16 @@
+{
+  "name": "family-clinic-site",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "serve": "eleventy --serve",
+    "build": "eleventy",
+    "check:scripts": "node --check assets/script.js && node --check assets/localization.js && node --check assets/services.js && node --check assets/contact.js",
+    "test": "node --test",
+    "verify": "npm run build && npm run check:scripts && npm test"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "3.1.6"
+  }
+}

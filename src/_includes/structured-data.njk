@@ -1,0 +1,22 @@
+{% set copy = site.locales[locale] %}
+{% set structuredData = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": copy.clinicName,
+  "description": description,
+  "url": site.url,
+  "telephone": site.contact.phone,
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": copy.footer.addressLines[0],
+    "addressLocality": copy.footer.addressLines[1],
+    "postalCode": site.contact.postalCode,
+    "addressCountry": "MA"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": site.contact.latitude,
+    "longitude": site.contact.longitude
+  }
+} %}
+<script type="application/ld+json">{{ structuredData | json | safe }}</script>

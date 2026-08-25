@@ -1,0 +1,44 @@
+{% set copy = site.locales[locale] %}
+<header class="header">
+  <div class="header__container">
+    <div class="header__logo">
+      <a href="{{ 'home' | localizedUrl(locale) }}" class="header__logo-link" aria-label="{{ copy.homeAriaLabel }}">
+        <img src="/assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
+          srcset="/assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, /assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
+          sizes="(max-width: 768px) 80px, 100px" alt="{{ copy.logoAlt }}" class="header__logo-img"
+          loading="lazy" onerror="this.style.display='none'">
+        <h1 class="header__logo-text">{{ copy.clinicName }}</h1>
+      </a>
+    </div>
+
+    <nav class="nav" aria-label="{{ copy.navigationAriaLabel }}">
+      <ul class="nav__list">
+        {% for item in site.navigation %}
+        <li class="nav__item">
+          <a href="{{ item.key | localizedUrl(locale) }}" class="nav__link{% if activeNav == item.key %} nav__link--active{% endif %}"{% if activeNav == item.key %} aria-current="page"{% endif %}>{{ copy.navLabels[item.key] }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+
+    <div class="language-switcher">
+      <button class="language-switcher__toggle" aria-label="{{ copy.languageSwitcherAriaLabel }}" aria-expanded="false">
+        <span class="language-switcher__current">{{ locale | upper }}</span>
+        <svg class="language-switcher__icon" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+        </svg>
+      </button>
+      <ul class="language-switcher__menu">
+        {% for language, languageName in site.localeNames %}
+        <li><a href="{{ pageKey | localizedUrl(language) }}" data-lang="{{ language }}"{% if language == locale %} class="active"{% endif %}>{{ languageName }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <button class="header__mobile-menu" aria-label="{{ copy.mobileMenuAriaLabel }}" aria-expanded="false">
+      <span class="header__mobile-menu-line"></span>
+      <span class="header__mobile-menu-line"></span>
+      <span class="header__mobile-menu-line"></span>
+    </button>
+  </div>
+</header>

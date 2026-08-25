@@ -1,0 +1,71 @@
+{% set copy = site.locales[locale] %}
+<footer class="footer">
+  <div class="footer__container">
+    <div class="footer__content">
+      <div class="footer__section">
+        <div class="footer__logo">
+          <a href="{{ 'home' | localizedUrl(locale) }}" class="footer__logo-link" aria-label="{{ copy.homeAriaLabel }}">
+            <img src="/assets/images/optimized/logos/clinic_logo_desktop_100x100.png"
+              srcset="/assets/images/optimized/logos/clinic_logo_mobile_80x80.png 80w, /assets/images/optimized/logos/clinic_logo_desktop_100x100.png 100w"
+              sizes="(max-width: 768px) 80px, 100px" alt="{{ copy.logoAlt }}" class="footer__logo-img"
+              loading="lazy" onerror="this.style.display='none'">
+            <h3 class="footer__logo-text">{{ copy.clinicName }}</h3>
+          </a>
+        </div>
+        <p class="footer__description">{{ copy.footer.description }}</p>
+      </div>
+
+      <div class="footer__section">
+        <h4 class="footer__section-title">{{ copy.footer.quickLinksHeading }}</h4>
+        <ul class="footer__links">
+          {% for item in site.navigation %}
+          <li><a href="{{ item.key | localizedUrl(locale) }}" class="footer__link">{{ copy.navLabels[item.key] }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="footer__section">
+        <h4 class="footer__section-title">{{ copy.footer.servicesHeading }}</h4>
+        <ul class="footer__links">
+          {% for label in copy.services %}
+          <li><a href="{{ 'services' | localizedUrl(locale) }}#{{ site.serviceAnchors[loop.index0] }}" class="footer__link">{{ label }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="footer__section">
+        <h4 class="footer__section-title">{{ copy.footer.contactHeading }}</h4>
+        <div class="footer__contact">
+          <p class="footer__contact-item">
+            <strong>{{ copy.footer.addressLabel }}</strong><br>
+            <a href="{{ site.contact.mapUrl }}" class="footer__link" target="_blank" rel="noopener noreferrer">
+              {% for line in copy.footer.addressLines %}{{ line }}{% if not loop.last %}<br>{% endif %}{% endfor %}
+            </a>
+          </p>
+          <p class="footer__contact-item">
+            <strong>{{ copy.footer.phoneLabel }}</strong><br>
+            <a href="tel:{{ site.contact.phone }}" class="footer__link">{{ site.contact.phone }}</a>
+          </p>
+          <p class="footer__contact-item">
+            <strong>{{ copy.footer.emailLabel }}</strong><br>
+            <a href="mailto:{{ site.contact.email }}" class="footer__link">{{ site.contact.email }}</a>
+          </p>
+          <p class="footer__contact-item">
+            <strong>{{ copy.footer.hoursLabel }}</strong><br>
+            {% for hour in copy.footer.hours %}{{ hour }}{% if not loop.last %}<br>{% endif %}{% endfor %}
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p class="footer__copyright">{{ copy.footer.copyright }}</p>
+      <p class="footer__powered-by">
+        {{ copy.footer.poweredBy }} <img src="/assets/images/optimized/netria/netria-logo-footer-transparent.png"
+          alt="{{ copy.footer.netriaLogoAlt }}" class="footer__netria-logo" loading="lazy"> <a
+          href="https://netria.dev?utm_source=familyclinic&utm_medium=website&utm_campaign=footer_attribution"
+          class="footer__link" target="_blank" rel="noopener noreferrer">netria.dev</a>
+      </p>
+    </div>
+  </div>
+</footer>
