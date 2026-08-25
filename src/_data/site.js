@@ -30,6 +30,8 @@ const locales = {
     languageSwitcherAriaLabel: "Choose language",
     mobileMenuAriaLabel: "Toggle mobile menu",
     navLabels: { home: "Home", about: "About", services: "Services", contact: "Contact" },
+    skipToContent: "Skip to content",
+    cta: { headerCall: "Call Us", heroCall: "Call to Book an Appointment" },
     footer: {
       description: "Providing comprehensive healthcare services for families in a welcoming and compassionate environment.",
       quickLinksHeading: "Quick Links", servicesHeading: "Services", contactHeading: "Contact Info",
@@ -52,6 +54,8 @@ const locales = {
     languageSwitcherAriaLabel: "Choisir la langue",
     mobileMenuAriaLabel: "Basculer le menu mobile",
     navLabels: { home: "Accueil", about: "À Propos", services: "Services", contact: "Contact" },
+    skipToContent: "Aller au contenu",
+    cta: { headerCall: "Appelez-nous", heroCall: "Appelez pour prendre rendez-vous" },
     footer: {
       description: "Offrir des services de santé complets aux familles dans un environnement accueillant et compatissant.",
       quickLinksHeading: "Liens rapides", servicesHeading: "Services", contactHeading: "Informations de contact",
@@ -74,6 +78,8 @@ const locales = {
     languageSwitcherAriaLabel: "اختر اللغة",
     mobileMenuAriaLabel: "تبديل القائمة المحمولة",
     navLabels: { home: "الرئيسية", about: "نبذة عنا", services: "الخدمات", contact: "اتصل بنا" },
+    skipToContent: "الانتقال إلى المحتوى",
+    cta: { headerCall: "اتصل بنا", heroCall: "اتصل لحجز موعد" },
     footer: {
       description: "رعاية صحية شاملة لعائلتك في بيئة ترحيبية ومهنية.",
       quickLinksHeading: "روابط سريعة", servicesHeading: "خدماتنا", contactHeading: "معلومات الاتصال",

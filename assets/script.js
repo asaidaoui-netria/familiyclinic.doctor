@@ -23,17 +23,19 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    // Smooth scrolling for anchor links
+    // Smooth scrolling for anchor links (skip link keeps native focus behavior)
     const anchorLinks = document.querySelectorAll('a[href^="#"]');
     anchorLinks.forEach(link => {
         link.addEventListener('click', function (e) {
+            if (this.classList.contains('skip-link')) return;
             const href = this.getAttribute('href');
             if (href !== '#') {
                 const target = document.querySelector(href);
                 if (target) {
                     e.preventDefault();
+                    const motionOK = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
                     target.scrollIntoView({
-                        behavior: 'smooth',
+                        behavior: motionOK ? 'smooth' : 'auto',
                         block: 'start'
                     });
                 }

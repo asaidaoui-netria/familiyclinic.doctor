@@ -15,21 +15,49 @@ description: "Family Clinic provides comprehensive healthcare services for all a
         <section class="hero">
             <div class="hero__container">
                 <div class="hero__content">
-                    <h2 class="hero__title">Comprehensive Healthcare for Your Family</h2>
+                    <h1 class="hero__title">Comprehensive Healthcare for Your Family</h1>
                     <p class="hero__description">
                         Experience personalized care in a welcoming environment. Our experienced team provides
                         comprehensive healthcare services for patients of all ages.
                     </p>
                     <div class="hero__actions">
-                        <a href="contact.html" class="btn btn--primary">Book Appointment</a>
+                        <a href="tel:{{ site.contact.phone }}" class="btn btn--primary">{{ site.locales[locale].cta.heroCall }}</a>
                     </div>
                 </div>
                 <div class="hero__image">
                     <img src="assets/images/optimized/clinic/clinic_entrance_desktop_800x400.jpg"
                         srcset="assets/images/optimized/clinic/clinic_entrance_mobile_600x300.jpg 600w, assets/images/optimized/clinic/clinic_entrance_desktop_800x400.jpg 800w"
                         sizes="(max-width: 768px) 100vw, 50vw"
-                        alt="Family Clinic entrance with modern healthcare facility" class="hero__img" loading="lazy"
+                        alt="Family Clinic entrance with modern healthcare facility" class="hero__img"
+                        width="800" height="400" loading="eager" fetchpriority="high"
                         onerror="this.style.display='none'">
+                </div>
+            </div>
+        </section>
+
+        <!-- Practical Information Band -->
+        <section class="info-band">
+            <div class="info-band__container">
+                <div class="info-band__item">
+                    <div class="info-band__icon" aria-hidden="true">📍</div>
+                    <div class="info-band__content">
+                        <h2 class="info-band__label">{{ site.locales[locale].contact.addressLabel }}</h2>
+                        <p class="info-band__text"><a href="{{ site.contact.mapUrl }}" class="info-band__link" target="_blank" rel="noopener noreferrer">{% for line in site.locales[locale].contact.addressLines %}{{ line }}{% if not loop.last %}, {% endif %}{% endfor %}</a></p>
+                    </div>
+                </div>
+                <div class="info-band__item">
+                    <div class="info-band__icon" aria-hidden="true">📞</div>
+                    <div class="info-band__content">
+                        <h2 class="info-band__label">{{ site.locales[locale].contact.phoneLabel }}</h2>
+                        <p class="info-band__text"><a href="tel:{{ site.contact.phone }}" class="info-band__link">{{ site.contact.phone }}</a></p>
+                    </div>
+                </div>
+                <div class="info-band__item">
+                    <div class="info-band__icon" aria-hidden="true">🕒</div>
+                    <div class="info-band__content">
+                        <h2 class="info-band__label">{{ site.locales[locale].contact.hoursLabel }}</h2>
+                        <p class="info-band__text">{% for hour in site.locales[locale].contact.footerHours %}{{ hour }}{% if not loop.last %}<br>{% endif %}{% endfor %}</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -45,7 +73,7 @@ description: "Family Clinic provides comprehensive healthcare services for all a
                     <!-- First Row: 3 cards -->
                     <div class="service-card">
                         <div class="service-card__icon">
-                            <img src="assets/images/optimized/services/primary_care_icon_desktop_160x160.jpg"
+                            <img src="assets/images/optimized/services/primary_care_icon_desktop_160x160.jpg" width="160" height="160"
                                 alt="Family Medicine Icon" class="service-card__icon-img" loading="lazy"
                                 onerror="this.style.display='none'">
                         </div>
@@ -59,7 +87,7 @@ description: "Family Clinic provides comprehensive healthcare services for all a
 
                     <div class="service-card">
                         <div class="service-card__icon">
-                            <img src="assets/images/optimized/services/holistic_consultation_desktop_800x400.jpg"
+                            <img src="assets/images/optimized/services/holistic_consultation_desktop_800x400.jpg" width="800" height="400"
                                 srcset="assets/images/optimized/services/holistic_consultation_mobile_600x300.jpg 600w, assets/images/optimized/services/holistic_consultation_desktop_800x400.jpg 800w"
                                 sizes="(max-width: 768px) 600px, 800px" alt="Holistic Consultations Icon"
                                 class="service-card__icon-img" loading="lazy" onerror="this.style.display='none'">
@@ -74,7 +102,7 @@ description: "Family Clinic provides comprehensive healthcare services for all a
 
                     <div class="service-card">
                         <div class="service-card__icon">
-                            <img src="assets/images/optimized/services/quantum_scan_desktop_800x400.jpg"
+                            <img src="assets/images/optimized/services/quantum_scan_desktop_800x400.jpg" width="800" height="400"
                                 srcset="assets/images/optimized/services/quantum_scan_mobile_600x300.jpg 600w, assets/images/optimized/services/quantum_scan_desktop_800x400.jpg 800w"
                                 sizes="(max-width: 768px) 600px, 800px" alt="Quantum Scan Icon"
                                 class="service-card__icon-img" loading="lazy" onerror="this.style.display='none'">
@@ -90,7 +118,7 @@ description: "Family Clinic provides comprehensive healthcare services for all a
                     <!-- Second Row: 3 cards -->
                     <div class="service-card">
                         <div class="service-card__icon">
-                            <img src="assets/images/optimized/services/naturopathy_desktop_800x400.jpg"
+                            <img src="assets/images/optimized/services/naturopathy_desktop_800x400.jpg" width="800" height="400"
                                 srcset="assets/images/optimized/services/naturopathy_mobile_600x300.jpg 600w, assets/images/optimized/services/naturopathy_desktop_800x400.jpg 800w"
                                 sizes="(max-width: 768px) 600px, 800px" alt="Naturopathy Icon"
                                 class="service-card__icon-img" loading="lazy" onerror="this.style.display='none'">
@@ -105,7 +133,7 @@ description: "Family Clinic provides comprehensive healthcare services for all a
 
                     <div class="service-card">
                         <div class="service-card__icon">
-                            <img src="assets/images/optimized/services/vaccum_cupping_desktop_800x400.jpg"
+                            <img src="assets/images/optimized/services/vaccum_cupping_desktop_800x400.jpg" width="800" height="400"
                                 srcset="assets/images/optimized/services/vaccum_cupping_mobile_600x300.jpg 600w, assets/images/optimized/services/vaccum_cupping_desktop_800x400.jpg 800w"
                                 sizes="(max-width: 768px) 600px, 800px" alt="Hijamah Icon"
                                 class="service-card__icon-img" loading="lazy" onerror="this.style.display='none'">
@@ -120,7 +148,7 @@ description: "Family Clinic provides comprehensive healthcare services for all a
 
                     <div class="service-card">
                         <div class="service-card__icon">
-                            <img src="assets/images/optimized/services/physiotherapy_desktop_800x400.jpg"
+                            <img src="assets/images/optimized/services/physiotherapy_desktop_800x400.jpg" width="800" height="400"
                                 srcset="assets/images/optimized/services/physiotherapy_mobile_600x300.jpg 600w, assets/images/optimized/services/physiotherapy_desktop_800x400.jpg 800w"
                                 sizes="(max-width: 768px) 600px, 800px" alt="Physiotherapy Icon"
                                 class="service-card__icon-img" loading="lazy" onerror="this.style.display='none'">
@@ -136,7 +164,7 @@ description: "Family Clinic provides comprehensive healthcare services for all a
                     <!-- Third Row: 3 cards -->
                     <div class="service-card">
                         <div class="service-card__icon">
-                            <img src="assets/images/optimized/services/dermatology_desktop_800x400.jpg"
+                            <img src="assets/images/optimized/services/dermatology_desktop_800x400.jpg" width="800" height="400"
                                 srcset="assets/images/optimized/services/dermatology_mobile_600x300.jpg 600w, assets/images/optimized/services/dermatology_desktop_800x400.jpg 800w"
                                 sizes="(max-width: 768px) 600px, 800px" alt="Dermatology Icon"
                                 class="service-card__icon-img" loading="lazy" onerror="this.style.display='none'">
@@ -151,7 +179,7 @@ description: "Family Clinic provides comprehensive healthcare services for all a
 
                     <div class="service-card">
                         <div class="service-card__icon">
-                            <img src="assets/images/optimized/services/judiciary_medical_expertise_desktop_800x533.jpg"
+                            <img src="assets/images/optimized/services/judiciary_medical_expertise_desktop_800x533.jpg" width="800" height="533"
                                 srcset="assets/images/optimized/services/judiciary_medical_expertise_mobile_600x400.jpg 600w, assets/images/optimized/services/judiciary_medical_expertise_desktop_800x533.jpg 800w"
                                 sizes="(max-width: 768px) 600px, 800px"
                                 alt="Judiciary Medical Expertise - Professional gavel representing legal medical expertise"
@@ -167,7 +195,7 @@ description: "Family Clinic provides comprehensive healthcare services for all a
 
                     <div class="service-card">
                         <div class="service-card__icon">
-                            <img src="assets/images/optimized/services/weight_loss_desktop_800x533.jpg"
+                            <img src="assets/images/optimized/services/weight_loss_desktop_800x533.jpg" width="800" height="533"
                                 srcset="assets/images/optimized/services/weight_loss_mobile_600x399.jpg 600w, assets/images/optimized/services/weight_loss_desktop_800x533.jpg 800w"
                                 sizes="(max-width: 768px) 600px, 800px"
                                 alt="Weight Loss - Fresh celery with measuring tape representing healthy weight management"
@@ -205,7 +233,7 @@ description: "Family Clinic provides comprehensive healthcare services for all a
                     <a href="about.html" class="btn btn--secondary">Learn More About Us</a>
                 </div>
                 <div class="about-preview__image">
-                    <img src="assets/images/optimized/clinic/about_clinic_desktop_800x400.jpg"
+                    <img src="assets/images/optimized/clinic/about_clinic_desktop_800x400.jpg" width="800" height="400"
                         srcset="assets/images/optimized/clinic/about_clinic_mobile_600x300.jpg 600w, assets/images/optimized/clinic/about_clinic_desktop_800x400.jpg 800w"
                         sizes="(max-width: 768px) 100vw, 50vw" alt="Healthcare professionals in a modern clinic setting"
                         class="about-preview__img" loading="lazy" onerror="this.style.display='none'">
@@ -223,7 +251,7 @@ description: "Family Clinic provides comprehensive healthcare services for all a
                 <div class="team-preview__grid">
                     <div class="team-member">
                         <div class="team-member__photo">
-                            <img src="assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png"
+                            <img src="assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png" width="400" height="400"
                                 srcset="assets/images/optimized/team/dr_my_abdellah_mobile_300x300.png 300w, assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png 400w"
                                 sizes="(max-width: 768px) 300px, 400px"
                                 alt="Dr. My Abdellah - Family Medicine Physician" class="team-member__img"
@@ -239,7 +267,7 @@ description: "Family Clinic provides comprehensive healthcare services for all a
 
                     <div class="team-member">
                         <div class="team-member__photo">
-                            <img src="assets/images/optimized/team/nurse_safae_desktop_400x400.png"
+                            <img src="assets/images/optimized/team/nurse_safae_desktop_400x400.png" width="400" height="400"
                                 srcset="assets/images/optimized/team/nurse_safae_mobile_300x300.png 300w, assets/images/optimized/team/nurse_safae_desktop_400x400.png 400w"
                                 sizes="(max-width: 768px) 300px, 400px" alt="Nurse Safae - Registered Nurse"
                                 class="team-member__img" loading="lazy" onerror="this.style.display='none'">

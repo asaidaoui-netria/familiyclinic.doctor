@@ -15,18 +15,18 @@ description: "Découvrez la mission de la Family Clinic de fournir des services 
         <section class="hero">
             <div class="hero__container">
                 <div class="hero__content">
-                    <h2 class="hero__title">À propos de la Family Clinic</h2>
+                    <h1 class="hero__title">À propos de la Family Clinic</h1>
                     <p class="hero__description">
                         "Le soin qui nous rassemble" - Découvrez notre mission de fournir des soins de santé complets
                         qui combinent expertise médicale avec une approche humaine, intégrative et tournée vers
                         l'avenir.
                     </p>
                     <div class="hero__actions">
-                        <a href="contact.html" class="btn btn--primary">Prendre rendez-vous</a>
+                        <a href="tel:{{ site.contact.phone }}" class="btn btn--primary">{{ site.locales[locale].cta.heroCall }}</a>
                     </div>
                 </div>
                 <div class="hero__image">
-                    <img src="../assets/images/optimized/clinic/clinic_entrance_desktop_800x400.jpg"
+                    <img src="../assets/images/optimized/clinic/clinic_entrance_desktop_800x400.jpg" width="800" height="400"
                         srcset="../assets/images/optimized/clinic/clinic_entrance_mobile_600x300.jpg 600w, ../assets/images/optimized/clinic/clinic_entrance_desktop_800x400.jpg 800w"
                         sizes="(max-width: 768px) 100vw, 50vw"
                         alt="Professionnels de santé de la Family Clinic dans un environnement médical moderne"
@@ -89,7 +89,7 @@ description: "Découvrez la mission de la Family Clinic de fournir des services 
                 <div class="team__grid">
                     <div id="dr-said-alaoui" class="team-member team-member--detailed">
                         <div class="team-member__photo">
-                            <img src="../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png"
+                            <img src="../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png" width="400" height="400"
                                 srcset="../assets/images/optimized/team/dr_my_abdellah_mobile_300x300.png 300w, ../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png 400w"
                                 sizes="(max-width: 768px) 300px, 400px"
                                 alt="Dr. Said-Alaoui Moulay Abdellah - Médecin de famille" class="team-member__img"
@@ -145,7 +145,7 @@ description: "Découvrez la mission de la Family Clinic de fournir des services 
 
                     <div class="team-member team-member--detailed">
                         <div class="team-member__photo">
-                            <img src="../assets/images/optimized/team/nurse_safae_desktop_400x400.png"
+                            <img src="../assets/images/optimized/team/nurse_safae_desktop_400x400.png" width="400" height="400"
                                 srcset="../assets/images/optimized/team/nurse_safae_mobile_300x300.png 300w, ../assets/images/optimized/team/nurse_safae_desktop_400x400.png 400w"
                                 sizes="(max-width: 768px) 300px, 400px" alt="Imarhrane Safae - Infirmière diplômée"
                                 class="team-member__img" loading="lazy" onerror="this.style.display='none'">

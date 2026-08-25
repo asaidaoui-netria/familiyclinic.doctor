@@ -1,6 +1,8 @@
 // Services Page JavaScript
 
 document.addEventListener('DOMContentLoaded', function () {
+    const motionOK = () => !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
     // Handle page load with hash in URL (navigation from other pages)
     if (window.location.hash) {
         setTimeout(() => {
@@ -12,17 +14,18 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 window.scrollTo({
                     top: targetPosition,
-                    behavior: 'smooth'
+                    behavior: motionOK() ? 'smooth' : 'auto'
                 });
             }
         }, 100); // Small delay to ensure page is fully loaded
     }
 
-    // Smooth scrolling for anchor links
+    // Smooth scrolling for anchor links (skip link keeps native focus behavior)
     const anchorLinks = document.querySelectorAll('a[href^="#"]');
 
     anchorLinks.forEach(link => {
         link.addEventListener('click', function (e) {
+            if (this.classList.contains('skip-link')) return;
             e.preventDefault();
 
             const targetId = this.getAttribute('href');
@@ -35,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 window.scrollTo({
                     top: targetPosition,
-                    behavior: 'smooth'
+                    behavior: motionOK() ? 'smooth' : 'auto'
                 });
             }
         });

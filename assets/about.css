@@ -3,7 +3,7 @@
 /* About Clinic Section */
 .about-clinic {
     padding: 4rem 0;
-    background-color: #f8fafc;
+    background-color: var(--color-surface);
 }
 
 .about-clinic__container {
@@ -16,7 +16,7 @@
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 3rem;
-    color: #1e293b;
+    color: var(--color-heading);
 }
 
 .about-clinic__content {
@@ -33,7 +33,7 @@
     font-size: 1.125rem;
     line-height: 1.7;
     margin-bottom: 2rem;
-    color: #475569;
+    color: var(--color-body);
 }
 
 .about-clinic__features {
@@ -44,19 +44,19 @@
 .about-clinic__feature {
     background: white;
     padding: 2rem;
-    border-radius: 0.75rem;
+    border-radius: var(--radius-md);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-    border-left: 4px solid #2563eb;
+    border-left: 4px solid var(--color-primary);
 }
 
 .about-clinic__feature h3 {
-    color: #1e293b;
+    color: var(--color-heading);
     margin-bottom: 1rem;
     font-size: 1.25rem;
 }
 
 .about-clinic__feature p {
-    color: #64748b;
+    color: var(--color-muted);
     line-height: 1.6;
     margin-bottom: 0;
 }
@@ -76,14 +76,14 @@
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color: #1e293b;
+    color: var(--color-heading);
 }
 
 .team__subtitle {
     text-align: center;
     font-size: 1.25rem;
     margin-bottom: 3rem;
-    color: #64748b;
+    color: var(--color-muted);
 }
 
 .team__grid {
@@ -98,7 +98,7 @@
     align-items: start;
     background: white;
     padding: 2rem;
-    border-radius: 0.75rem;
+    border-radius: var(--radius-md);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
     scroll-margin-top: 100px;
 }
@@ -111,20 +111,20 @@
 
 .team-member__name {
     font-size: 1.5rem;
-    color: #1e293b;
+    color: var(--color-heading);
     margin-bottom: 0.5rem;
 }
 
 .team-member__title {
     font-size: 1.125rem;
-    color: #2563eb;
+    color: var(--color-primary);
     font-weight: 500;
     margin-bottom: 1rem;
     text-align: center;
 }
 
 .team-member__description {
-    color: #475569;
+    color: var(--color-body);
     line-height: 1.7;
     text-align: left;
 }
@@ -140,7 +140,7 @@
 /* Values Section */
 .values {
     padding: 4rem 0;
-    background-color: #f8fafc;
+    background-color: var(--color-surface);
 }
 
 .values__container {
@@ -153,7 +153,7 @@
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 3rem;
-    color: #1e293b;
+    color: var(--color-heading);
 }
 
 .values__grid {
@@ -165,7 +165,7 @@
 .value-card {
     background: white;
     padding: 2rem;
-    border-radius: 0.75rem;
+    border-radius: var(--radius-md);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -177,13 +177,13 @@
 }
 
 .value-card h3 {
-    color: #1e293b;
+    color: var(--color-heading);
     margin-bottom: 1rem;
     font-size: 1.25rem;
 }
 
 .value-card p {
-    color: #64748b;
+    color: var(--color-muted);
     line-height: 1.6;
     margin-bottom: 0;
 }

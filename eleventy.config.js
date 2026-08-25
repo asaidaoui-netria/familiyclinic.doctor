@@ -20,6 +20,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("assets/*.css");
   eleventyConfig.addPassthroughCopy("assets/*.js");
   eleventyConfig.addPassthroughCopy("assets/favicon");
+  eleventyConfig.addPassthroughCopy("assets/fonts");
   eleventyConfig.addPassthroughCopy("assets/images/optimized/clinic");
   eleventyConfig.addPassthroughCopy("assets/images/optimized/logos");
   eleventyConfig.addPassthroughCopy("assets/images/optimized/netria");

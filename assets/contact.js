@@ -57,43 +57,22 @@ function toggleFAQ(item, question, answer) {
     }
 }
 
-
-
-// Enhanced Accessibility
-function enhanceAccessibility() {
-    // Add focus indicators for better keyboard navigation
-    const focusableElements = document.querySelectorAll('button, input, select, textarea, a');
-
-    focusableElements.forEach(element => {
-        element.addEventListener('focus', () => {
-            element.style.outline = '2px solid #667eea';
-            element.style.outlineOffset = '2px';
-        });
-
-        element.addEventListener('blur', () => {
-            element.style.outline = '';
-            element.style.outlineOffset = '';
-        });
-    });
-}
-
-// Initialize accessibility enhancements
-document.addEventListener('DOMContentLoaded', enhanceAccessibility);
-
 // Smooth scrolling for anchor links
 function initSmoothScrolling() {
     const links = document.querySelectorAll('a[href^="#"]');
 
     links.forEach(link => {
         link.addEventListener('click', (event) => {
+            if (link.classList.contains('skip-link')) return;
             const href = link.getAttribute('href');
             if (href === '#') return;
 
             const target = document.querySelector(href);
             if (target) {
                 event.preventDefault();
+                const motionOK = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
                 target.scrollIntoView({
-                    behavior: 'smooth',
+                    behavior: motionOK ? 'smooth' : 'auto',
                     block: 'start'
                 });
             }

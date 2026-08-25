@@ -10,12 +10,12 @@ test("the English homepage has the shared shell, retained stylesheet, and no Blo
   const html = await readOutput("index.html");
 
   assert.equal((html.match(/<header class="header">/g) ?? []).length, 1);
-  assert.equal((html.match(/<main class="main">/g) ?? []).length, 1);
+  assert.equal((html.match(/<main class="main" id="main-content">/g) ?? []).length, 1);
   assert.equal((html.match(/<footer class="footer">/g) ?? []).length, 1);
   assert.doesNotMatch(html, /<a\b[^>]*>\s*Blog\s*<\/a>/i);
   assert.match(html, /href="\/assets\/styles\.css"/);
   assert.match(html, /data-domain="familyclinic\.doctor"/);
-  assert.match(html, /<h1 class="header__logo-text">Family Clinic<\/h1>/);
+  assert.match(html, /<span class="header__logo-text">Family Clinic<\/span>/);
 });
 
 test("the generated site retains the custom domain", async () => {

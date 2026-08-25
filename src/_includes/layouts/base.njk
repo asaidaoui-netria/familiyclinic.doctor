@@ -3,6 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    (function () {
+      try {
+        var rootPages = { "/": "index.html", "/index.html": "index.html", "/about.html": "about.html", "/services.html": "services.html", "/contact.html": "contact.html" };
+        var file = rootPages[window.location.pathname];
+        if (!file) return;
+        if (sessionStorage.getItem("langAutoDetected") || localStorage.getItem("userLanguageChoice") || localStorage.getItem("autoDetectDisabled")) return;
+        var supported = { en: "en", fr: "fr", ar: "ar" };
+        var languages = navigator.languages || [navigator.language || ""];
+        var detected = null;
+        for (var i = 0; i < languages.length; i++) {
+          detected = supported[languages[i]] || supported[String(languages[i]).split("-")[0]];
+          if (detected) break;
+        }
+        sessionStorage.setItem("langAutoDetected", "true");
+        if (detected && detected !== "en") {
+          window.location.replace("/" + detected + "/" + file);
+        }
+      } catch (error) {
+        /* language storage unavailable */
+      }
+    })();
+  </script>
   <title>{{ title }}</title>
   <meta name="description" content="{{ description }}">
   {% set localizedRoutes = site.routes[pageKey] %}
@@ -38,8 +61,9 @@
   <link rel="manifest" href="/assets/favicon/site.webmanifest">
 </head>
 <body>
+  <a href="#main-content" class="skip-link">{{ site.locales[locale].skipToContent }}</a>
   {% include "header.njk" %}
-  <main class="main">{{ content | safe }}</main>
+  <main class="main" id="main-content">{{ content | safe }}</main>
   {% include "footer.njk" %}
   {% for script in scripts %}
   <script src="/assets/{{ script }}"></script>

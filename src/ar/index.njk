@@ -15,20 +15,47 @@ description: "توفر عيادة الأسرة خدمات رعاية صحية ش
         <section class="hero">
             <div class="hero__container">
                 <div class="hero__content">
-                    <h2 class="hero__title">رعاية صحية شاملة لعائلتك</h2>
+                    <h1 class="hero__title">رعاية صحية شاملة لعائلتك</h1>
                     <p class="hero__description">
                         اختبر الرعاية الشخصية في بيئة ترحيبية. فريقنا ذو الخبرة يوفر خدمات رعاية صحية شاملة للمرضى من
                         جميع الأعمار.
                     </p>
                     <div class="hero__actions">
-                        <a href="contact.html" class="btn btn--primary">احجز موعداً</a>
+                        <a href="tel:{{ site.contact.phone }}" class="btn btn--primary">{{ site.locales[locale].cta.heroCall }}</a>
                     </div>
                 </div>
                 <div class="hero__image">
-                    <img src="../assets/images/optimized/clinic/clinic_entrance_desktop_800x400.jpg"
+                    <img src="../assets/images/optimized/clinic/clinic_entrance_desktop_800x400.jpg" width="800" height="400"
                         srcset="../assets/images/optimized/clinic/clinic_entrance_mobile_600x300.jpg 600w, ../assets/images/optimized/clinic/clinic_entrance_desktop_800x400.jpg 800w"
                         sizes="(max-width: 768px) 100vw, 50vw" alt="مدخل عيادة الأسرة مع مرفق رعاية صحية حديث"
-                        class="hero__img" loading="lazy" onerror="this.style.display='none'">
+                        class="hero__img" loading="eager" fetchpriority="high" onerror="this.style.display='none'">
+                </div>
+            </div>
+        </section>
+
+        <!-- Practical Information Band -->
+        <section class="info-band">
+            <div class="info-band__container">
+                <div class="info-band__item">
+                    <div class="info-band__icon" aria-hidden="true">📍</div>
+                    <div class="info-band__content">
+                        <h2 class="info-band__label">{{ site.locales[locale].contact.addressLabel }}</h2>
+                        <p class="info-band__text"><a href="{{ site.contact.mapUrl }}" class="info-band__link" target="_blank" rel="noopener noreferrer">{% for line in site.locales[locale].contact.addressLines %}{{ line }}{% if not loop.last %}، {% endif %}{% endfor %}</a></p>
+                    </div>
+                </div>
+                <div class="info-band__item">
+                    <div class="info-band__icon" aria-hidden="true">📞</div>
+                    <div class="info-band__content">
+                        <h2 class="info-band__label">{{ site.locales[locale].contact.phoneLabel }}</h2>
+                        <p class="info-band__text"><a href="tel:{{ site.contact.phone }}" class="info-band__link" dir="ltr">{{ site.contact.phone }}</a></p>
+                    </div>
+                </div>
+                <div class="info-band__item">
+                    <div class="info-band__icon" aria-hidden="true">🕒</div>
+                    <div class="info-band__content">
+                        <h2 class="info-band__label">{{ site.locales[locale].contact.hoursLabel }}</h2>
+                        <p class="info-band__text">{% for hour in site.locales[locale].contact.footerHours %}{{ hour }}{% if not loop.last %}<br>{% endif %}{% endfor %}</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -44,7 +71,7 @@ description: "توفر عيادة الأسرة خدمات رعاية صحية ش
                     <!-- First Row: 3 cards -->
                     <div class="service-card">
                         <div class="service-card__icon">
-                            <img src="../assets/images/optimized/services/primary_care_icon_desktop_160x160.jpg"
+                            <img src="../assets/images/optimized/services/primary_care_icon_desktop_160x160.jpg" width="160" height="160"
                                 alt="أيقونة طب الأسرة" class="service-card__icon-img" loading="lazy"
                                 onerror="this.style.display='none'">
                         </div>
@@ -57,7 +84,7 @@ description: "توفر عيادة الأسرة خدمات رعاية صحية ش
 
                     <div class="service-card">
                         <div class="service-card__icon">
-                            <img src="../assets/images/optimized/services/holistic_consultation_desktop_800x400.jpg"
+                            <img src="../assets/images/optimized/services/holistic_consultation_desktop_800x400.jpg" width="800" height="400"
                                 srcset="../assets/images/optimized/services/holistic_consultation_mobile_600x300.jpg 600w, ../assets/images/optimized/services/holistic_consultation_desktop_800x400.jpg 800w"
                                 sizes="(max-width: 768px) 600px, 800px" alt="أيقونة الاستشارات الشمولية"
                                 class="service-card__icon-img" loading="lazy" onerror="this.style.display='none'">
@@ -71,7 +98,7 @@ description: "توفر عيادة الأسرة خدمات رعاية صحية ش
 
                     <div class="service-card">
                         <div class="service-card__icon">
-                            <img src="../assets/images/optimized/services/quantum_scan_desktop_800x400.jpg"
+                            <img src="../assets/images/optimized/services/quantum_scan_desktop_800x400.jpg" width="800" height="400"
                                 srcset="../assets/images/optimized/services/quantum_scan_mobile_600x300.jpg 600w, ../assets/images/optimized/services/quantum_scan_desktop_800x400.jpg 800w"
                                 sizes="(max-width: 768px) 600px, 800px" alt="أيقونة المسح الكمي"
                                 class="service-card__icon-img" loading="lazy" onerror="this.style.display='none'">
@@ -86,7 +113,7 @@ description: "توفر عيادة الأسرة خدمات رعاية صحية ش
                     <!-- Second Row: 4 centered cards -->
                     <div class="service-card">
                         <div class="service-card__icon">
-                            <img src="../assets/images/optimized/services/naturopathy_desktop_800x400.jpg"
+                            <img src="../assets/images/optimized/services/naturopathy_desktop_800x400.jpg" width="800" height="400"
                                 srcset="../assets/images/optimized/services/naturopathy_mobile_600x300.jpg 600w, ../assets/images/optimized/services/naturopathy_desktop_800x400.jpg 800w"
                                 sizes="(max-width: 768px) 600px, 800px" alt="أيقونة الطب الطبيعي"
                                 class="service-card__icon-img" loading="lazy" onerror="this.style.display='none'">
@@ -100,7 +127,7 @@ description: "توفر عيادة الأسرة خدمات رعاية صحية ش
 
                     <div class="service-card">
                         <div class="service-card__icon">
-                            <img src="../assets/images/optimized/services/vaccum_cupping_desktop_800x400.jpg"
+                            <img src="../assets/images/optimized/services/vaccum_cupping_desktop_800x400.jpg" width="800" height="400"
                                 srcset="../assets/images/optimized/services/vaccum_cupping_mobile_600x300.jpg 600w, ../assets/images/optimized/services/vaccum_cupping_desktop_800x400.jpg 800w"
                                 sizes="(max-width: 768px) 600px, 800px" alt="أيقونة الحجامة"
                                 class="service-card__icon-img" loading="lazy" onerror="this.style.display='none'">
@@ -114,7 +141,7 @@ description: "توفر عيادة الأسرة خدمات رعاية صحية ش
 
                     <div class="service-card">
                         <div class="service-card__icon">
-                            <img src="../assets/images/optimized/services/physiotherapy_desktop_800x400.jpg"
+                            <img src="../assets/images/optimized/services/physiotherapy_desktop_800x400.jpg" width="800" height="400"
                                 srcset="../assets/images/optimized/services/physiotherapy_mobile_600x300.jpg 600w, ../assets/images/optimized/services/physiotherapy_desktop_800x400.jpg 800w"
                                 sizes="(max-width: 768px) 600px, 800px" alt="أيقونة العلاج الطبيعي"
                                 class="service-card__icon-img" loading="lazy" onerror="this.style.display='none'">
@@ -129,7 +156,7 @@ description: "توفر عيادة الأسرة خدمات رعاية صحية ش
 
                     <div class="service-card">
                         <div class="service-card__icon">
-                            <img src="../assets/images/optimized/services/dermatology_desktop_800x400.jpg"
+                            <img src="../assets/images/optimized/services/dermatology_desktop_800x400.jpg" width="800" height="400"
                                 srcset="../assets/images/optimized/services/dermatology_mobile_600x300.jpg 600w, ../assets/images/optimized/services/dermatology_desktop_800x400.jpg 800w"
                                 sizes="(max-width: 768px) 600px, 800px"
                                 alt="أيقونة طب الأمراض الجلدية والجراحة التكاملية" class="service-card__icon-img"
@@ -145,7 +172,7 @@ description: "توفر عيادة الأسرة خدمات رعاية صحية ش
 
                     <div class="service-card">
                         <div class="service-card__icon">
-                            <img src="../assets/images/optimized/services/judiciary_medical_expertise_desktop_800x533.jpg"
+                            <img src="../assets/images/optimized/services/judiciary_medical_expertise_desktop_800x533.jpg" width="800" height="533"
                                 srcset="../assets/images/optimized/services/judiciary_medical_expertise_mobile_600x400.jpg 600w, ../assets/images/optimized/services/judiciary_medical_expertise_desktop_800x533.jpg 800w"
                                 sizes="(max-width: 768px) 600px, 800px"
                                 alt="الخبرة الطبية القضائية - مطرقة قاضي احترافية تمثل الخبرة الطبية القانونية"
@@ -161,7 +188,7 @@ description: "توفر عيادة الأسرة خدمات رعاية صحية ش
 
                     <div class="service-card">
                         <div class="service-card__icon">
-                            <img src="../assets/images/optimized/services/weight_loss_desktop_800x533.jpg"
+                            <img src="../assets/images/optimized/services/weight_loss_desktop_800x533.jpg" width="800" height="533"
                                 srcset="../assets/images/optimized/services/weight_loss_mobile_600x399.jpg 600w, ../assets/images/optimized/services/weight_loss_desktop_800x533.jpg 800w"
                                 sizes="(max-width: 768px) 600px, 800px"
                                 alt="تخسيس الوزن - كرفس طازج مع شريط قياس يمثل إدارة الوزن الصحية"
@@ -197,7 +224,7 @@ description: "توفر عيادة الأسرة خدمات رعاية صحية ش
                     <a href="about.html" class="btn btn--secondary">اعرف المزيد عنا</a>
                 </div>
                 <div class="about-preview__image">
-                    <img src="../assets/images/optimized/clinic/about_clinic_desktop_800x400.jpg"
+                    <img src="../assets/images/optimized/clinic/about_clinic_desktop_800x400.jpg" width="800" height="400"
                         srcset="../assets/images/optimized/clinic/about_clinic_mobile_600x300.jpg 600w, ../assets/images/optimized/clinic/about_clinic_desktop_800x400.jpg 800w"
                         sizes="(max-width: 768px) 100vw, 50vw" alt="فريق عيادة الأسرة" class="about-preview__img"
                         loading="lazy" onerror="this.style.display='none'">
@@ -214,7 +241,7 @@ description: "توفر عيادة الأسرة خدمات رعاية صحية ش
                 <div class="team-preview__grid">
                     <div class="team-member">
                         <div class="team-member__image">
-                            <img src="../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png"
+                            <img src="../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png" width="400" height="400"
                                 srcset="../assets/images/optimized/team/dr_my_abdellah_mobile_300x300.png 300w, ../assets/images/optimized/team/dr_my_abdellah_desktop_400x400.png 400w"
                                 sizes="(max-width: 768px) 300px, 400px"
                                 alt="الدكتور سعيد العلاوي مولاي عبد الله - طبيب الأسرة" class="team-member__img"
@@ -231,7 +258,7 @@ description: "توفر عيادة الأسرة خدمات رعاية صحية ش
 
                     <div class="team-member">
                         <div class="team-member__image">
-                            <img src="../assets/images/optimized/team/nurse_safae_desktop_400x400.png"
+                            <img src="../assets/images/optimized/team/nurse_safae_desktop_400x400.png" width="400" height="400"
                                 srcset="../assets/images/optimized/team/nurse_safae_mobile_300x300.png 300w, ../assets/images/optimized/team/nurse_safae_desktop_400x400.png 400w"
                                 sizes="(max-width: 768px) 300px, 400px" alt="إمرحان صفاء - ممرضة مسجلة"
                                 class="team-member__img" loading="lazy" onerror="this.style.display='none'">
