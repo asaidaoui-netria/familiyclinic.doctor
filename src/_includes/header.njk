@@ -21,6 +21,7 @@
       </ul>
     </nav>
 
+    {% if pageKey != "notFound" %}
     <div class="language-switcher">
       <button class="language-switcher__toggle" aria-label="{{ copy.languageSwitcherAriaLabel }}" aria-expanded="false">
         <span class="language-switcher__current">{{ locale | upper }}</span>
@@ -34,6 +35,7 @@
         {% endfor %}
       </ul>
     </div>
+    {% endif %}
 
     <button class="header__mobile-menu" aria-label="{{ copy.mobileMenuAriaLabel }}" aria-expanded="false">
       <span class="header__mobile-menu-line"></span>
