@@ -310,6 +310,15 @@ a:hover {
     padding: 0 1rem;
 }
 
+.hero__eyebrow {
+    font-size: 0.8125rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 1rem;
+}
+
 .hero__title {
     font-size: clamp(2.25rem, 5vw, 3.25rem);
     font-weight: 800;
