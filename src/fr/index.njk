@@ -14,7 +14,6 @@ description: "Family Clinic offre des services de santé complets pour tous les 
         <!-- Typographic Hero -->
         <section class="hero">
             <div class="hero__container">
-                <p class="hero__eyebrow">KÉNITRA · MAROC</p>
                 <h1 class="hero__title">Soins de santé complets pour votre famille</h1>
                 <p class="hero__description">
                     Découvrez des soins personnalisés dans un environnement accueillant. Notre équipe expérimentée
@@ -22,7 +21,6 @@ description: "Family Clinic offre des services de santé complets pour tous les 
                 </p>
                 <div class="hero__actions">
                     <a href="tel:{{ site.contact.phone }}" class="btn btn--primary">{{ site.locales[locale].cta.heroCall }}</a>
-                    <a href="#services-section" class="btn btn--secondary">Nos services</a>
                 </div>
             </div>
         </section>
@@ -46,9 +44,8 @@ description: "Family Clinic offre des services de santé complets pour tous les 
         </section>
 
         <!-- 01 — Services -->
-        <section class="section" id="services-section" data-section="services">
+        <section class="section" data-section="services">
             <div class="section__container">
-                <p class="section-eyebrow">01 — Services</p>
                 <h2 class="section-title">Nos Services</h2>
                 <p class="section-subtitle">Solutions de santé complètes combinant approches traditionnelles et holistiques</p>
 
@@ -88,7 +85,6 @@ description: "Family Clinic offre des services de santé complets pour tous les 
         <!-- 02 — About the clinic -->
         <section class="section" data-section="about">
             <div class="section__container">
-                <p class="section-eyebrow">02 — La clinique</p>
                 <h2 class="section-title">À propos de notre clinique</h2>
                 <div class="about-preview">
                     <div class="about-preview__content">
@@ -116,7 +112,6 @@ description: "Family Clinic offre des services de santé complets pour tous les 
         <!-- 03 — Your care team -->
         <section class="section" data-section="team">
             <div class="section__container">
-                <p class="section-eyebrow">03 — Votre équipe</p>
                 <h2 class="section-title">Rencontrez notre équipe</h2>
                 <p class="section-subtitle">Professionnels de santé expérimentés dédiés à la santé de votre famille</p>
 
@@ -158,35 +153,3 @@ description: "Family Clinic offre des services de santé complets pour tous les 
             </div>
         </section>
 
-        <!-- 04 — Visit us -->
-        <section class="section" data-section="visit">
-            <div class="section__container">
-                <p class="section-eyebrow">04 — Nous trouver</p>
-                <h2 class="section-title">Nous trouver</h2>
-                <div class="visit-band">
-                    <div class="visit-band__details">
-                        <p class="visit-band__address">{% for line in site.locales[locale].contact.addressLines %}{{ line }}{% if not loop.last %}, {% endif %}{% endfor %}</p>
-                        <p class="visit-band__note">Les itinéraires et informations de stationnement sont disponibles sur notre page contact.</p>
-                        <div class="visit-band__actions">
-                            <a href="{{ site.contact.mapUrl }}" class="btn btn--primary" target="_blank" rel="noopener noreferrer">Ouvrir dans Google Maps</a>
-                            <a href="{{ 'contact' | localizedUrl(locale) }}#map-section" class="btn btn--secondary">Itinéraires et stationnement</a>
-                        </div>
-                    </div>
-                    <div class="visit-band__hours">
-                        <h3 class="visit-band__hours-title">{{ site.locales[locale].contact.hoursLabel }}</h3>
-                        {% for hour in site.locales[locale].contact.hours %}
-                        <p class="visit-band__hours-line">{{ hour.day }}: {% for time in hour.time %}{{ time }}{% if not loop.last %}, {% endif %}{% endfor %}</p>
-                        {% endfor %}
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Call to action -->
-        <section class="cta-band">
-            <div class="cta-band__container">
-                <h2 class="cta-band__title">Nous sommes disponibles quand vous l'êtes.</h2>
-                <p class="cta-band__text">Appelez pour prendre rendez-vous — nous répondons pendant les heures d'ouverture.</p>
-                <a href="tel:{{ site.contact.phone }}" class="btn btn--primary">Appelez au {{ site.contact.phone }}</a>
-            </div>
-        </section>

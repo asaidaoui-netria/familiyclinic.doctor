@@ -14,7 +14,6 @@ description: "توفر عيادة الأسرة خدمات رعاية صحية ش
         <!-- Typographic Hero -->
         <section class="hero">
             <div class="hero__container">
-                <p class="hero__eyebrow">القنيطرة · المغرب</p>
                 <h1 class="hero__title">رعاية صحية شاملة لعائلتك</h1>
                 <p class="hero__description">
                     اختبر الرعاية الشخصية في بيئة ترحيبية. فريقنا ذو الخبرة يوفر خدمات رعاية صحية شاملة للمرضى من
@@ -22,7 +21,6 @@ description: "توفر عيادة الأسرة خدمات رعاية صحية ش
                 </p>
                 <div class="hero__actions">
                     <a href="tel:{{ site.contact.phone }}" class="btn btn--primary">{{ site.locales[locale].cta.heroCall }}</a>
-                    <a href="#services-section" class="btn btn--secondary">خدماتنا</a>
                 </div>
             </div>
         </section>
@@ -46,9 +44,8 @@ description: "توفر عيادة الأسرة خدمات رعاية صحية ش
         </section>
 
         <!-- 01 — Services -->
-        <section class="section" id="services-section" data-section="services">
+        <section class="section" data-section="services">
             <div class="section__container">
-                <p class="section-eyebrow">01 — الخدمات</p>
                 <h2 class="section-title">خدماتنا</h2>
                 <p class="section-subtitle">حلول الرعاية الصحية الشاملة التي تجمع بين الأساليب التقليدية والشمولية</p>
 
@@ -88,7 +85,6 @@ description: "توفر عيادة الأسرة خدمات رعاية صحية ش
         <!-- 02 — About the clinic -->
         <section class="section" data-section="about">
             <div class="section__container">
-                <p class="section-eyebrow">02 — حول العيادة</p>
                 <h2 class="section-title">حول عيادة الأسرة</h2>
                 <div class="about-preview">
                     <div class="about-preview__content">
@@ -114,7 +110,6 @@ description: "توفر عيادة الأسرة خدمات رعاية صحية ش
         <!-- 03 — Your care team -->
         <section class="section" data-section="team">
             <div class="section__container">
-                <p class="section-eyebrow">03 — فريق الرعاية</p>
                 <h2 class="section-title">التقي بفريقنا</h2>
                 <p class="section-subtitle">محترفون مخصصون ملتزمون برفاهيتك</p>
 
@@ -156,35 +151,3 @@ description: "توفر عيادة الأسرة خدمات رعاية صحية ش
             </div>
         </section>
 
-        <!-- 04 — Visit us -->
-        <section class="section" data-section="visit">
-            <div class="section__container">
-                <p class="section-eyebrow">04 — زورونا</p>
-                <h2 class="section-title">زورونا</h2>
-                <div class="visit-band">
-                    <div class="visit-band__details">
-                        <p class="visit-band__address">{% for line in site.locales[locale].contact.addressLines %}{{ line }}{% if not loop.last %}، {% endif %}{% endfor %}</p>
-                        <p class="visit-band__note">تجد معلومات الاتجاهات ومواقف السيارات في صفحة الاتصال.</p>
-                        <div class="visit-band__actions">
-                            <a href="{{ site.contact.mapUrl }}" class="btn btn--primary" target="_blank" rel="noopener noreferrer">افتح في خرائط جوجل</a>
-                            <a href="{{ 'contact' | localizedUrl(locale) }}#map-section" class="btn btn--secondary">الاتجاهات ومواقف السيارات</a>
-                        </div>
-                    </div>
-                    <div class="visit-band__hours">
-                        <h3 class="visit-band__hours-title">{{ site.locales[locale].contact.hoursLabel }}</h3>
-                        {% for hour in site.locales[locale].contact.hours %}
-                        <p class="visit-band__hours-line">{{ hour.day }}: {% for time in hour.time %}{{ time }}{% if not loop.last %}، {% endif %}{% endfor %}</p>
-                        {% endfor %}
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Call to action -->
-        <section class="cta-band">
-            <div class="cta-band__container">
-                <h2 class="cta-band__title">جاهزون من أجلك.</h2>
-                <p class="cta-band__text">اتصل لحجز موعدك — نرد خلال ساعات العمل.</p>
-                <a href="tel:{{ site.contact.phone }}" class="btn btn--primary">اتصل بالرقم {{ site.contact.phone }}</a>
-            </div>
-        </section>

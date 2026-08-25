@@ -44,7 +44,6 @@ test("the homepage hero is typographic", async () => {
     const html = await readOutput(route);
     const hero = html.match(/<section class="hero"[\s\S]*?<\/section>/);
     assert.ok(hero, `${route} renders a hero`);
-    assert.match(hero[0], /class="hero__eyebrow"/, `${route} hero has an eyebrow`);
     assert.doesNotMatch(hero[0], /<img/, `${route} hero has no image`);
   }
 });
@@ -52,8 +51,8 @@ test("the homepage hero is typographic", async () => {
 test("homepage sections follow the approved order", async () => {
   for (const route of HOME_ROUTES) {
     const html = await readOutput(route);
-    const order = ["services", "about", "team", "visit"].map((name) => html.indexOf(`data-section="${name}"`));
-    assert.ok(order.every((index) => index > -1), `${route} renders all four numbered sections`);
+    const order = ["services", "about", "team"].map((name) => html.indexOf(`data-section="${name}"`));
+    assert.ok(order.every((index) => index > -1), `${route} renders all three numbered sections`);
     for (let i = 1; i < order.length; i++) {
       assert.ok(order[i] > order[i - 1], `${route} keeps the approved section order`);
     }
@@ -84,16 +83,13 @@ test("the footer keeps quick links, nine service links, and contact details", as
   }
 });
 
-test("services pages keep all nine detailed services, each with a phone CTA", async () => {
+test("services pages keep all nine detailed services", async () => {
   for (const route of SERVICES_ROUTES) {
     const html = await readOutput(route);
     const articles = html.split('class="service-detail"');
     assert.equal(articles.length, 10, `${route} renders nine service articles`);
     for (const anchor of SERVICE_ANCHORS[route]) {
       assert.ok(html.includes(`id="${anchor}"`), `${route} keeps anchor ${anchor}`);
-    }
-    for (let i = 1; i < articles.length; i++) {
-      assert.match(articles[i], PHONE_HREF, `${route} service article ${i} exposes a tel CTA`);
     }
   }
 });

@@ -46,19 +46,6 @@
     margin-bottom: 0;
 }
 
-.feature-chip {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 1.75rem;
-    height: 1.75rem;
-    border-radius: 6px;
-    background-color: var(--surface-tint);
-    font-size: 0.9375rem;
-    margin-inline-end: 0.5rem;
-    vertical-align: middle;
-}
-
 .team {
     padding: 4.5rem 0;
     border-top: 1px solid var(--hairline);

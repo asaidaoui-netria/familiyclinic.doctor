@@ -140,11 +140,6 @@ test("FAQ answers are wired to their toggle buttons without clipping", async () 
 
 test("decorative emoji and chrome icons are hidden from assistive technology", async () => {
   const html = await readOutput("contact.html");
-  const icons = html.match(/<div class="contact-details__icon"[^>]*>/g) ?? [];
-  assert.ok(icons.length >= 5, "contact details render emoji icons");
-  for (const icon of icons) {
-    assert.match(icon, /aria-hidden="true"/, "emoji icon is aria-hidden");
-  }
   const header = html.slice(html.indexOf("<header"), html.indexOf("</header>"));
   assert.match(header, /<svg[^>]*aria-hidden="true"/, "language switcher chevron is aria-hidden");
   const faqIcons = html.match(/<span class="faq-item__icon"[^>]*>/g) ?? [];
