@@ -13,6 +13,8 @@ const INDEXABLE_ROUTES = [
   "/ar/index.html", "/ar/about.html", "/ar/services.html", "/ar/contact.html"
 ];
 
+const PUBLIC_BASE_URL = "https://www.familyclinic.doctor";
+
 const TRANSLATABLE_PAGES = [
   ["index.html", "/index.html", "/fr/index.html", "/ar/index.html"],
   ["about.html", "/about.html", "/fr/about.html", "/ar/about.html"],
@@ -72,11 +74,13 @@ function referenceTarget(htmlRoute, reference) {
 test("each indexable page publishes one canonical URL and complete Open Graph metadata", async () => {
   for (const route of INDEXABLE_ROUTES) {
     const html = await readOutput(route.slice(1));
-    const canonicalUrl = `${site.url}${route}`;
+    const canonicalUrl = `${PUBLIC_BASE_URL}${route}`;
     const locale = route.startsWith("/fr/") ? "fr" : route.startsWith("/ar/") ? "ar" : "en";
     const copy = site.locales[locale];
+    const canonicals = tagWithAttributes(html, "link", { rel: "canonical" });
 
-    assert.equal(tagWithAttributes(html, "link", { rel: "canonical", href: canonicalUrl }).length, 1, `${route} has one canonical URL`);
+    assert.equal(canonicals.length, 1, `${route} has one canonical URL`);
+    assert.equal(attribute(canonicals[0], "href"), canonicalUrl, `${route} canonical URL uses the public site domain and retained route`);
     for (const property of ["og:title", "og:description"]) {
       const metadata = tagWithAttributes(html, "meta", { property });
 
@@ -96,7 +100,7 @@ test("each translated page publishes reciprocal language alternates and English 
 
     for (const [locale, localizedRoute] of [["en", en], ["fr", fr], ["ar", ar], ["x-default", en]]) {
       assert.equal(
-        tagWithAttributes(html, "link", { rel: "alternate", hreflang: locale, href: `${site.url}${localizedRoute}` }).length,
+        tagWithAttributes(html, "link", { rel: "alternate", hreflang: locale, href: `${PUBLIC_BASE_URL}${localizedRoute}` }).length,
         1,
         `${route} has its ${locale} alternate`
       );
@@ -137,6 +141,8 @@ test("the 404 page is noindex and is not advertised in the sitemap", async () =>
   const sitemap = await readFile(outputPath("sitemap.xml"), "utf8");
 
   assert.equal(tagWithAttributes(notFound, "meta", { name: "robots", content: "noindex, follow" }).length, 1);
+  assert.equal(tagWithAttributes(notFound, "link", { rel: "alternate", hreflang: "fr" }).length, 0, "the English-only 404 has no unsupported French alternate");
+  assert.equal(tagWithAttributes(notFound, "link", { rel: "alternate", hreflang: "ar" }).length, 0, "the English-only 404 has no unsupported Arabic alternate");
   assert.doesNotMatch(sitemap, /404\.html/);
 });
 
@@ -144,7 +150,7 @@ test("the generated sitemap lists only the twelve canonical public routes", asyn
   const sitemap = await readFile(outputPath("sitemap.xml"), "utf8");
   const locations = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
 
-  assert.deepEqual(locations.sort(), INDEXABLE_ROUTES.map((route) => `${site.url}${route}`).sort());
+  assert.deepEqual(locations.sort(), INDEXABLE_ROUTES.map((route) => `${PUBLIC_BASE_URL}${route}`).sort());
   assert.doesNotMatch(sitemap, /blog/i);
   assert.match(sitemap, /https:\/\/www\.familyclinic\.doctor/);
 });
@@ -155,6 +161,23 @@ test("robots allows crawling and advertises the canonical sitemap", async () => 
   assert.match(robots, /^User-agent: \*$/m);
   assert.match(robots, /^Allow: \/$/m);
   assert.match(robots, /^Sitemap: https:\/\/www\.familyclinic\.doctor\/sitemap\.xml$/m);
+});
+
+test("built HTML metadata and navigation links, sitemap, and robots omit blog URLs", async () => {
+  const sitemap = await readFile(outputPath("sitemap.xml"), "utf8");
+  const robots = await readFile(outputPath("robots.txt"), "utf8");
+
+  for (const route of EXPECTED_HTML_ROUTES) {
+    const html = await readOutput(route);
+    const head = /<head\b[^>]*>[\s\S]*?<\/head>/i.exec(html)?.[0] ?? "";
+    const links = tags(html, "a").map((tag) => attribute(tag, "href")).filter(Boolean);
+
+    assert.doesNotMatch(head, /(?:href|content)=(?:"[^"]*blog|\'[^\']*blog)/i, `${route} head metadata has no blog URL`);
+    assert.equal(links.some((href) => /(?:^|\/)blog(?:\/|$|[?#])/i.test(href)), false, `${route} navigation has no blog URL`);
+  }
+
+  assert.doesNotMatch(sitemap, /blog/i);
+  assert.doesNotMatch(robots, /blog/i);
 });
 
 test("every generated local href, src, and srcset reference resolves inside the site output", async () => {
