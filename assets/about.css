@@ -83,6 +83,10 @@
     align-items: start;
 }
 
+.team-member--detailed .team-member__info {
+    text-align: start;
+}
+
 .team-member--detailed .team-member__img {
     width: 200px;
     height: 200px;

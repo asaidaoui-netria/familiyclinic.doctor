@@ -224,6 +224,12 @@
     text-align: center;
 }
 
+[dir="rtl"] .team-member--detailed .team-member__info,
+[dir="rtl"] .team-member--detailed .team-member__title,
+[dir="rtl"] .team-member--detailed .team-member__description {
+    text-align: start;
+}
+
 /* About Page RTL */
 [dir="rtl"] .values__grid {
     direction: rtl;
