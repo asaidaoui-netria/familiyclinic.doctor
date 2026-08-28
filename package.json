@@ -2,7 +2,9 @@
   "name": "family-clinic-site",
   "private": true,
   "type": "module",
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "serve": "eleventy --serve",
     "build": "eleventy",
@@ -11,6 +13,9 @@
     "verify": "npm run build && npm run check:scripts && npm test"
   },
   "devDependencies": {
-    "@11ty/eleventy": "3.1.6"
+    "@11ty/eleventy": "3.1.6",
+    "@napi-rs/canvas": "1.0.8",
+    "pdf-lib": "1.17.1",
+    "pdfjs-dist": "6.2.108"
   }
 }
