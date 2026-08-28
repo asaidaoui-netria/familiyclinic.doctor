@@ -9,7 +9,14 @@ import test from "node:test";
 import { PDFDocument, StandardFonts } from "pdf-lib";
 
 import { SOURCE_PUBLICATIONS } from "../scripts/publications/source-catalog.mjs";
-import { validateSourceCatalog } from "../scripts/publications/lib/catalog.mjs";
+import {
+  PREVIEW_PAGES,
+  TEXT_LAYER_SUITABILITY,
+} from "../scripts/publications/preview-pages.mjs";
+import {
+  validatePreviewPages,
+  validateSourceCatalog,
+} from "../scripts/publications/lib/catalog.mjs";
 import {
   sha256File,
   writeJsonAtomic,
@@ -20,9 +27,12 @@ import {
   linearizePdf,
   renderPageWebp,
 } from "../scripts/publications/lib/pdf.mjs";
+import { preparePublicationEdition } from "../scripts/publications/prepare.mjs";
 
-test("the source catalog contains thirteen complete localized publications", () => {
-  const records = validateSourceCatalog(SOURCE_PUBLICATIONS, { existsSync });
+test("the source catalog defines thirteen complete localized publications", () => {
+  const records = validateSourceCatalog(SOURCE_PUBLICATIONS, {
+    existsSync: () => true,
+  });
 
   assert.equal(records.length, 13);
   assert.equal(new Set(records.map(({ id }) => id)).size, 13);
@@ -35,6 +45,15 @@ test("the source catalog contains thirteen complete localized publications", () 
     assert.deepEqual(Object.keys(sources).sort(), ["ar", "en", "fr"]);
   }
 });
+
+test(
+  "the local publication archive contains all 39 catalog sources",
+  { skip: !existsSync("FC web site files") },
+  () => {
+    const records = validateSourceCatalog(SOURCE_PUBLICATIONS, { existsSync });
+    assert.equal(records.flatMap(({ sources }) => Object.values(sources)).length, 39);
+  },
+);
 
 test("source validation rejects incomplete, unsafe, and unsupported records", () => {
   const edition = {
@@ -276,4 +295,213 @@ test("document command wrappers pass separate safe arguments", async () => {
       ],
     },
   ]);
+});
+
+test("preview selections contain six to eight unique valid pages", () => {
+  assert.equal(typeof PREVIEW_PAGES, "object");
+
+  const invalidSelections = [
+    { pages: [1, 2, 3, 4, 5], expected: /six to eight/i },
+    { pages: [1, 2, 3, 4, 5, 6, 7, 8, 9], expected: /six to eight/i },
+    { pages: [1, 2, 3, 4, 5, 5], expected: /unique/i },
+    { pages: [0, 1, 2, 3, 4, 5], expected: /one-based/i },
+    { pages: [1, 2, 3, 4, 5, 11], expected: /outside/i },
+    { pages: [2, 3, 4, 5, 6, 7], expected: /page 1/i },
+  ];
+
+  for (const { pages, expected } of invalidSelections) {
+    assert.throws(
+      () =>
+        validatePreviewPages(pages, {
+          pageCount: 10,
+          id: "example",
+          locale: "en",
+        }),
+      expected,
+    );
+  }
+
+  const selection = [1, 2, 4, 6, 8, 10];
+  assert.strictEqual(
+    validatePreviewPages(selection, {
+      pageCount: 10,
+      id: "example",
+      locale: "en",
+    }),
+    selection,
+  );
+});
+
+test("every localized edition has a reviewed preview and text-layer decision", () => {
+  for (const publication of SOURCE_PUBLICATIONS) {
+    for (const locale of ["en", "fr", "ar"]) {
+      const pages = PREVIEW_PAGES[publication.id]?.[locale];
+      assert.ok(
+        Array.isArray(pages) && pages.length >= 6 && pages.length <= 8,
+        `${publication.id}/${locale} needs a reviewed preview`,
+      );
+      assert.equal(
+        typeof TEXT_LAYER_SUITABILITY[publication.id]?.[locale],
+        "boolean",
+        `${publication.id}/${locale} needs a text-layer decision`,
+      );
+    }
+  }
+});
+
+test("edition preparation converts Word sources and measures final assets", async () => {
+  const events = [];
+  let writtenMetadata;
+  const dependencies = {
+    mkdir: async (directory) => events.push(["mkdir", directory]),
+    convertWordToPdf: async ({ sourcePath, outputDir }) => {
+      events.push(["convert", sourcePath, outputDir]);
+      return "/converted/diabetes.pdf";
+    },
+    describePdf: async (filePath) => {
+      events.push(["describe-pdf", filePath]);
+      if (filePath.endsWith("preview.pdf")) {
+        return { pageCount: 6, size: 600, sha256: "b".repeat(64) };
+      }
+      return { pageCount: 10, size: 1_000, sha256: "a".repeat(64) };
+    },
+    renderPageWebp: async (options) => {
+      events.push(["render-cover", options.sourcePath, options.pageNumber]);
+      return { width: 640, height: 960 };
+    },
+    createPreviewPdf: async (options) => {
+      events.push([
+        "create-preview",
+        options.sourcePath,
+        options.pageNumbers,
+      ]);
+      return { pageCount: options.pageNumbers.length };
+    },
+    linearizePdf: async (options) => {
+      events.push(["linearize", options.sourcePath, options.outputPath]);
+    },
+    describeImage: async (filePath) => {
+      events.push(["describe-image", filePath]);
+      return {
+        width: 640,
+        height: 960,
+        size: 200,
+        sha256: "c".repeat(64),
+      };
+    },
+    writeJsonAtomic: async (filePath, value) => {
+      events.push(["write-metadata", filePath]);
+      writtenMetadata = value;
+    },
+  };
+  const publication = {
+    id: "diabetes-hyperinsulinism",
+    category: "conditions",
+    sources: {
+      en: { kind: "word", path: "/sources/diabetes.docx" },
+    },
+  };
+
+  await preparePublicationEdition({
+    publication,
+    locale: "en",
+    previewPages: [1, 2, 4, 6, 8, 10],
+    textLayer: true,
+    workRoot: "/work",
+    dependencies,
+  });
+
+  const significantEvents = events.filter(([name]) =>
+    ["convert", "render-cover", "create-preview", "linearize"].includes(
+      name,
+    ),
+  );
+  assert.deepEqual(significantEvents, [
+    [
+      "convert",
+      "/sources/diabetes.docx",
+      "/work/converted/diabetes-hyperinsulinism/en",
+    ],
+    ["render-cover", "/converted/diabetes.pdf", 1],
+    [
+      "create-preview",
+      "/converted/diabetes.pdf",
+      [1, 2, 4, 6, 8, 10],
+    ],
+    [
+      "linearize",
+      "/converted/diabetes.pdf",
+      "/work/prepared/diabetes-hyperinsulinism/en/v1/full.pdf",
+    ],
+    [
+      "linearize",
+      "/work/staging/diabetes-hyperinsulinism/en/v1/preview-unlinearized.pdf",
+      "/work/prepared/diabetes-hyperinsulinism/en/v1/preview.pdf",
+    ],
+  ]);
+  assert.deepEqual(writtenMetadata, {
+    id: "diabetes-hyperinsulinism",
+    locale: "en",
+    version: "v1",
+    textLayer: true,
+    full: {
+      path: "full.pdf",
+      pageCount: 10,
+      size: 1_000,
+      sha256: "a".repeat(64),
+    },
+    preview: {
+      path: "preview.pdf",
+      pageCount: 6,
+      size: 600,
+      sha256: "b".repeat(64),
+      pages: [1, 2, 4, 6, 8, 10],
+    },
+    cover: {
+      path: "cover.webp",
+      width: 640,
+      height: 960,
+      size: 200,
+      sha256: "c".repeat(64),
+    },
+  });
+});
+
+test("edition preparation preserves a supplied PDF as the full source", async () => {
+  const conversions = [];
+  const linearizations = [];
+  const dependencies = {
+    mkdir: async () => {},
+    convertWordToPdf: async (options) => conversions.push(options),
+    describePdf: async (filePath) => ({
+      pageCount: filePath.endsWith("preview.pdf") ? 6 : 10,
+      size: 100,
+      sha256: "a".repeat(64),
+    }),
+    renderPageWebp: async () => ({ width: 640, height: 960 }),
+    createPreviewPdf: async () => ({ pageCount: 6 }),
+    linearizePdf: async (options) => linearizations.push(options),
+    describeImage: async () => ({
+      width: 640,
+      height: 960,
+      size: 100,
+      sha256: "b".repeat(64),
+    }),
+    writeJsonAtomic: async () => {},
+  };
+
+  await preparePublicationEdition({
+    publication: {
+      id: "enzymes",
+      sources: { en: { kind: "pdf", path: "/sources/enzymes.pdf" } },
+    },
+    locale: "en",
+    previewPages: [1, 2, 3, 4, 5, 6],
+    textLayer: true,
+    workRoot: "/work",
+    dependencies,
+  });
+
+  assert.deepEqual(conversions, []);
+  assert.equal(linearizations[0].sourcePath, "/sources/enzymes.pdf");
 });

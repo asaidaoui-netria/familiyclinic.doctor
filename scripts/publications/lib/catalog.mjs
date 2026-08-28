@@ -84,3 +84,47 @@ export function validateSourceCatalog(records, { existsSync }) {
 
   return records;
 }
+
+export function validatePreviewPages(
+  pageNumbers,
+  { pageCount, id = "publication", locale = "edition" },
+) {
+  const edition = `${id}/${locale}`;
+
+  if (
+    !Array.isArray(pageNumbers) ||
+    pageNumbers.length < 6 ||
+    pageNumbers.length > 8
+  ) {
+    throw new Error(`${edition} preview must contain six to eight pages`);
+  }
+
+  if (
+    pageNumbers.some(
+      (pageNumber) => !Number.isInteger(pageNumber) || pageNumber < 1,
+    )
+  ) {
+    throw new Error(`${edition} preview pages must be positive one-based integers`);
+  }
+
+  if (new Set(pageNumbers).size !== pageNumbers.length) {
+    throw new Error(`${edition} preview pages must be unique`);
+  }
+
+  if (!pageNumbers.includes(1)) {
+    throw new Error(`${edition} preview must include page 1 as its cover`);
+  }
+
+  if (!Number.isInteger(pageCount) || pageCount < 1) {
+    throw new Error(`${edition} source PDF has an invalid page count`);
+  }
+
+  const outsidePage = pageNumbers.find((pageNumber) => pageNumber > pageCount);
+  if (outsidePage !== undefined) {
+    throw new Error(
+      `${edition} preview page ${outsidePage} is outside the source PDF's 1-${pageCount} page range`,
+    );
+  }
+
+  return pageNumbers;
+}

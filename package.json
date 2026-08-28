@@ -10,7 +10,10 @@
     "build": "eleventy",
     "check:scripts": "node --check assets/script.js && node --check assets/localization.js && node --check assets/services.js && node --check assets/contact.js",
     "test": "node --test",
-    "verify": "npm run build && npm run check:scripts && npm test"
+    "verify": "npm run build && npm run check:scripts && npm test",
+    "publications:preflight": "node scripts/publications/prepare.mjs --preflight",
+    "publications:contact-sheets": "node scripts/publications/prepare.mjs --contact-sheets",
+    "publications:prepare": "node scripts/publications/prepare.mjs --prepare"
   },
   "devDependencies": {
     "@11ty/eleventy": "3.1.6",
