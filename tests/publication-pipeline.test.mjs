@@ -29,6 +29,50 @@ import {
 } from "../scripts/publications/lib/pdf.mjs";
 import { preparePublicationEdition } from "../scripts/publications/prepare.mjs";
 
+test("the R2 delivery contract has exact CORS and credential documentation", async () => {
+  const cors = JSON.parse(await readFile("infra/r2/cors.json", "utf8"));
+  assert.deepEqual(cors, {
+    rules: [
+      {
+        allowed: {
+          origins: [
+            "https://www.familyclinic.doctor",
+            "http://localhost:8080",
+          ],
+          methods: ["GET", "HEAD"],
+          headers: ["Range"],
+        },
+        exposeHeaders: [
+          "Accept-Ranges",
+          "Content-Length",
+          "Content-Range",
+          "ETag",
+        ],
+        maxAgeSeconds: 3600,
+      },
+    ],
+  });
+
+  const runbook = await readFile("docs/publications-r2-runbook.md", "utf8");
+  const requiredVariables = [
+    "CLOUDFLARE_ZONE_ID",
+    "CLOUDFLARE_API_TOKEN",
+    "R2_ACCOUNT_ID",
+    "R2_ACCESS_KEY_ID",
+    "R2_SECRET_ACCESS_KEY",
+  ];
+
+  for (const variable of requiredVariables) {
+    assert.match(runbook, new RegExp(`\\b${variable}\\b`));
+  }
+
+  assert.match(runbook, /never (?:store|paste|commit).*literal secret/i);
+  assert.doesNotMatch(
+    runbook,
+    /(?:CLOUDFLARE_API_TOKEN|R2_ACCESS_KEY_ID|R2_SECRET_ACCESS_KEY)\s*=\s*["']?[A-Za-z0-9_-]{12,}/,
+  );
+});
+
 test("the source catalog defines thirteen complete localized publications", () => {
   const records = validateSourceCatalog(SOURCE_PUBLICATIONS, {
     existsSync: () => true,
