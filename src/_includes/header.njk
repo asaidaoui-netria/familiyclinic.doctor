@@ -20,23 +20,23 @@
         </li>
         {% endfor %}
       </ul>
-    </nav>
 
-    {% if pageKey != "notFound" %}
-    <div class="language-switcher">
-      <button class="language-switcher__toggle" aria-label="{{ copy.languageSwitcherAriaLabel }}" aria-expanded="false">
-        <span class="language-switcher__current">{{ locale | upper }}</span>
-        <svg class="language-switcher__icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-          <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-        </svg>
-      </button>
-      <ul class="language-switcher__menu">
-        {% for language, languageName in site.localeNames %}
-        <li><a href="{{ pageRoutes[language] }}" data-lang="{{ language }}"{% if language == locale %} class="active"{% endif %}>{{ languageName }}</a></li>
-        {% endfor %}
-      </ul>
-    </div>
-    {% endif %}
+      {% if pageKey != "notFound" %}
+      <div class="language-switcher">
+        <button class="language-switcher__toggle" aria-label="{{ copy.languageSwitcherAriaLabel }}" aria-expanded="false">
+          <span class="language-switcher__current">{{ locale | upper }}</span>
+          <svg class="language-switcher__icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+          </svg>
+        </button>
+        <ul class="language-switcher__menu">
+          {% for language, languageName in site.localeNames %}
+          <li><a href="{{ pageRoutes[language] }}" data-lang="{{ language }}"{% if language == locale %} class="active"{% endif %}>{{ languageName }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+    </nav>
 
     <a href="tel:{{ site.contact.phone }}" class="btn btn--primary header__call">{{ copy.cta.headerCall }}</a>
 

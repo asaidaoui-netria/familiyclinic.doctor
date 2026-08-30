@@ -39,6 +39,22 @@ test("page stylesheets consume the shared Quiet Clinic tokens", async () => {
   }
 });
 
+test("phone headers hide the wordmark and expand languages inside the mobile menu", async () => {
+  const css = await readOutput("assets/styles.css");
+  const localizationCss = await readOutput("assets/localization.css");
+  const phoneStart = css.indexOf("@media (max-width: 768px)");
+  const phoneEnd = css.indexOf("@media (max-width: 480px)", phoneStart);
+  const phoneCss = css.slice(phoneStart, phoneEnd);
+
+  assert.ok(phoneStart >= 0 && phoneEnd > phoneStart);
+  assert.match(phoneCss, /\.header__logo-text\s*{[^}]*display:\s*none/s);
+  assert.match(phoneCss, /\.nav--open \.language-switcher\s*{[^}]*width:\s*100%/s);
+  assert.match(phoneCss, /\.nav--open \.language-switcher__toggle\s*{[^}]*width:\s*100%/s);
+  assert.match(phoneCss, /\.nav--open \.language-switcher__menu\s*{[^}]*position:\s*static[^}]*display:\s*none/s);
+  assert.match(phoneCss, /\.nav--open \.language-switcher__menu\.show\s*{[^}]*display:\s*block/s);
+  assert.match(localizationCss, /\[dir="rtl"\] \.nav--open \.language-switcher\s*{[^}]*margin:\s*1rem 0 0/s);
+});
+
 test("publication styles cover responsive, accessible viewer states", async () => {
   const css = await readOutput("assets/publications.css");
 

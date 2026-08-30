@@ -359,6 +359,10 @@
         margin-left: 0;
     }
 
+    [dir="rtl"] .nav--open .language-switcher {
+        margin: 1rem 0 0;
+    }
+
     /* Ensure footer powered-by doesn't wrap on mobile in RTL */
     [dir="rtl"] .footer__powered-by {
         white-space: nowrap;

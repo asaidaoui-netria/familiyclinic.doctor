@@ -242,6 +242,11 @@ a:hover {
 }
 
 /* Navigation */
+.nav {
+    display: flex;
+    align-items: center;
+}
+
 .nav__list {
     display: flex;
     list-style: none;
@@ -762,6 +767,38 @@ a:hover {
 
     .nav {
         display: none;
+    }
+
+    .header__logo-text {
+        display: none;
+    }
+
+    .nav--open .language-switcher {
+        box-sizing: border-box;
+        width: 100%;
+        margin: 1rem 0 0;
+        padding-top: 1rem;
+        border-top: 1px solid var(--hairline);
+    }
+
+    .nav--open .language-switcher__toggle {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .nav--open .language-switcher__menu {
+        position: static;
+        display: none;
+        width: 100%;
+        min-width: 0;
+        margin-top: 0.5rem;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+    }
+
+    .nav--open .language-switcher__menu.show {
+        display: block;
     }
 
     .header__mobile-menu {

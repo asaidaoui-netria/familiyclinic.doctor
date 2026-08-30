@@ -74,6 +74,19 @@ test("each translatable page links to its English, French, and Arabic equivalent
   }
 });
 
+test("each language selector follows the navigation links inside the menu", async () => {
+  for (const route of EXPECTED_HTML_ROUTES.filter((path) => path !== "404.html")) {
+    const html = await readOutput(route);
+    const header = html.match(/<header class="header">[\s\S]*?<\/header>/)?.[0];
+    const nav = header?.match(/<nav class="nav"[\s\S]*?<\/nav>/)?.[0];
+
+    assert.ok(header, `${route} has a header`);
+    assert.ok(nav, `${route} has primary navigation`);
+    assert.equal((header.match(/class="language-switcher"/g) ?? []).length, 1);
+    assert.match(nav, /<\/ul>\s*<div class="language-switcher">/);
+  }
+});
+
 test("retained pages use shared chrome without Blog links", async () => {
   for (const route of EXPECTED_HTML_ROUTES) {
     const html = await readOutput(route);
