@@ -173,7 +173,10 @@ export function createViewerController({
     if (loadPromise) return loadPromise;
     loadPromise = (async () => {
       try {
-        loadingTask = pdfjs.getDocument({ url: root.dataset.previewUrl });
+        loadingTask = pdfjs.getDocument({
+          url: root.dataset.previewUrl,
+          disableFontFace: root.dataset.previewLocale === "ar",
+        });
         pdfDocument = await loadingTask.promise;
         if (state.destroyed) return;
         if (pdfDocument.numPages !== declaredPageCount) {

@@ -42,7 +42,7 @@ function createElement(overrides = {}) {
   };
 }
 
-function createRoot({ textLayer = true } = {}) {
+function createRoot({ locale = "en", textLayer = true } = {}) {
   const elements = {
     "[data-viewer-previous]": createElement(),
     "[data-viewer-next]": createElement(),
@@ -76,6 +76,7 @@ function createRoot({ textLayer = true } = {}) {
       previewUrl:
         "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/preview.pdf",
       previewPages: "3",
+      previewLocale: locale,
       textLayer: String(textLayer),
     },
     ownerDocument,
@@ -220,6 +221,7 @@ test("intersection loads once and enables page controls after rendering", async 
   assert.equal(state.getDocumentCalls, 1);
   assert.deepEqual(state.getDocumentInput, {
     url: root.dataset.previewUrl,
+    disableFontFace: false,
   });
   assert.equal(observer.unobserved, 1);
   assert.equal(elements["[data-viewer-previous]"].disabled, true);
@@ -236,6 +238,29 @@ test("intersection loads once and enables page controls after rendering", async 
   assert.equal(elements["[data-viewer-page]"].textContent, "3");
   await controller.previous();
   assert.equal(elements["[data-viewer-page]"].textContent, "2");
+});
+
+test("Arabic previews use glyph paths instead of browser font faces", async () => {
+  for (const [locale, disableFontFace] of [
+    ["ar", true],
+    ["en", false],
+    ["fr", false],
+  ]) {
+    const { root } = createRoot({ locale });
+    const { pdfjs, state } = createPdfjsFake();
+    const controller = createViewerController({
+      root,
+      pdfjs,
+      observe: createObserverHarness().observe,
+    });
+
+    await controller.load();
+
+    assert.deepEqual(state.getDocumentInput, {
+      url: root.dataset.previewUrl,
+      disableFontFace,
+    });
+  }
 });
 
 test("new renders cancel stale work and zoom in quarter steps", async () => {

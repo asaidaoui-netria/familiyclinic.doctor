@@ -5,9 +5,6 @@
 <article class="publication-detail">
   <div class="container">
     <header class="publication-detail__header">
-      <div class="publication-detail__cover">
-        <img src="{{ edition.assets.cover.url }}" alt="{{ edition.title }}" width="{{ edition.assets.cover.width }}" height="{{ edition.assets.cover.height }}">
-      </div>
       <div class="publication-detail__introduction">
         <p class="publication-detail__category">{{ copy.filters[publication.category] }}</p>
         <h1>{{ edition.title }}</h1>
@@ -22,19 +19,15 @@
       </div>
     </header>
 
-    <section class="publication-viewer" data-publication-viewer data-preview-url="{{ edition.assets.preview.url }}" data-preview-pages="{{ edition.assets.preview.pageCount }}" data-text-layer="{{ edition.assets.textLayer }}" aria-labelledby="publication-preview-heading">
-      <div class="publication-viewer__heading">
-        <p>{{ copy.preview }}</p>
-        <h2 id="publication-preview-heading">{{ edition.title }}</h2>
-      </div>
-      <div class="publication-viewer__toolbar" role="toolbar" aria-label="{{ copy.preview }}">
-        <div class="publication-viewer__pagination">
-          <button type="button" data-viewer-previous aria-label="{{ copy.previousPage }}" disabled><span aria-hidden="true">←</span></button>
+    <section class="publication-viewer" data-publication-viewer data-preview-url="{{ edition.assets.preview.url }}" data-preview-pages="{{ edition.assets.preview.pageCount }}" data-preview-locale="{{ publicationPage.locale }}" data-text-layer="{{ edition.assets.textLayer }}" aria-label="{{ copy.preview }}">
+      <div class="publication-viewer__toolbar" dir="ltr" role="toolbar" aria-label="{{ copy.preview }}">
+        <div class="publication-viewer__pagination{% if publicationPage.locale == "ar" %} publication-viewer__pagination--rtl{% endif %}">
+          <button type="button" data-viewer-previous aria-label="{{ copy.previousPage }}" disabled><span aria-hidden="true">{% if publicationPage.locale == "ar" %}→{% else %}←{% endif %}</span></button>
           <p class="publication-viewer__page-count" aria-live="polite">
             <span class="visually-hidden">{{ copy.page }}</span>
             <span data-viewer-page>1</span> {{ copy.of }} <span data-viewer-pages>{{ edition.assets.preview.pageCount }}</span>
           </p>
-          <button type="button" data-viewer-next aria-label="{{ copy.nextPage }}" disabled><span aria-hidden="true">→</span></button>
+          <button type="button" data-viewer-next aria-label="{{ copy.nextPage }}" disabled><span aria-hidden="true">{% if publicationPage.locale == "ar" %}←{% else %}→{% endif %}</span></button>
         </div>
         <div class="publication-viewer__tools">
           <button type="button" data-viewer-zoom-out aria-label="{{ copy.zoomOut }}" disabled><span aria-hidden="true">−</span></button>
@@ -57,9 +50,8 @@
     </section>
 
     <div class="publication-detail__download">
-      <a class="publication-detail__read" href="{{ edition.assets.full.url }}" download="{{ edition.assets.full.filename }}" aria-label="{{ copy.readNow }} — {{ edition.title }}, {{ copy.pdfFormat }}, {{ copy.downloadSize }} {{ fullSizeMb }} MB">
-        <span>{{ copy.readNow }}</span>
-        <span>{{ copy.pdfFormat }} · {{ fullSizeMb }} MB</span>
+      <a class="publication-detail__read" href="{{ edition.assets.full.url }}" download="{{ edition.assets.full.filename }}" aria-label="{{ copy.download }}">
+        <span>{{ copy.download }}</span>
       </a>
     </div>
 

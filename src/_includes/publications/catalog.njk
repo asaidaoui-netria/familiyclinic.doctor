@@ -17,14 +17,15 @@
       {% for publication in publications %}
       {% set edition = publication.editions[locale] %}
       <article class="publication-card" data-publication-category="{{ publication.category }}">
-        <img class="publication-card__cover" src="{{ edition.assets.cover.url }}" alt="{{ edition.title }}" width="{{ edition.assets.cover.width }}" height="{{ edition.assets.cover.height }}" loading="lazy" decoding="async">
-        <div class="publication-card__body">
-          <p class="publication-card__category">{{ copy.filters[publication.category] }}</p>
-          <h2 class="publication-card__title">{{ edition.title }}</h2>
-          <p class="publication-card__summary">{{ edition.summary }}</p>
-          <p class="publication-card__pages">{{ edition.assets.full.pageCount }} {{ copy.pageCount }}</p>
-          <a class="publication-card__link" href="{{ localePrefix }}/publications/{{ publication.slug }}/">{{ copy.viewPublication }}: {{ edition.title }}</a>
-        </div>
+        <a class="publication-card__link" href="{{ localePrefix }}/publications/{{ publication.slug }}/" aria-label="{{ edition.title }}">
+          <img class="publication-card__cover" src="{{ edition.assets.cover.url }}" alt="" width="{{ edition.assets.cover.width }}" height="{{ edition.assets.cover.height }}" loading="lazy" decoding="async">
+          <div class="publication-card__body">
+            <p class="publication-card__category">{{ copy.filters[publication.category] }}</p>
+            <h2 class="publication-card__title">{{ edition.title }}</h2>
+            <p class="publication-card__summary">{{ edition.summary }}</p>
+            <p class="publication-card__pages">{{ edition.assets.full.pageCount }} {{ copy.pageCount }}</p>
+          </div>
+        </a>
       </article>
       {% endfor %}
     </div>

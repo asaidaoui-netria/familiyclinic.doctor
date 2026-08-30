@@ -127,3 +127,18 @@ test("publication detail language switchers retain the current slug", async () =
     }
   }
 });
+
+test("publication pages load the language switcher behavior", async () => {
+  for (const route of [
+    "publications/index.html",
+    "fr/publications/index.html",
+    "ar/publications/index.html",
+    ...PUBLICATION_ROUTES
+  ]) {
+    assert.match(
+      await readOutput(route),
+      /<script src="\/assets\/localization\.js"><\/script>/,
+      `${route} loads localization.js`
+    );
+  }
+});

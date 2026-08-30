@@ -10,5 +10,6 @@ export default {
     "vendor/pdfjs/pdf_viewer.css",
     "publications.css",
   ],
+  scripts: ["script.js", "localization.js"],
   moduleScripts: ["publication-viewer.js"],
 };
