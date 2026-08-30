@@ -8,18 +8,24 @@
   "scripts": {
     "serve": "eleventy --serve",
     "build": "eleventy",
-    "check:scripts": "node --check assets/script.js && node --check assets/localization.js && node --check assets/services.js && node --check assets/contact.js",
+    "check:scripts": "node --check assets/script.js && node --check assets/localization.js && node --check assets/services.js && node --check assets/contact.js && node --check assets/publication-catalog.js && node --check assets/publication-viewer.js",
     "test": "node --test",
     "verify": "npm run build && npm run check:scripts && npm test",
     "publications:preflight": "node scripts/publications/prepare.mjs --preflight",
     "publications:contact-sheets": "node scripts/publications/prepare.mjs --contact-sheets",
-    "publications:prepare": "node scripts/publications/prepare.mjs --prepare"
+    "publications:prepare": "node scripts/publications/prepare.mjs --prepare",
+    "publications:storage:status": "node scripts/publications/storage.mjs status",
+    "publications:storage:apply-cors": "node scripts/publications/storage.mjs apply-cors",
+    "publications:storage:probe": "node scripts/publications/storage.mjs probe",
+    "publications:storage:set-retention": "node scripts/publications/storage.mjs set-retention",
+    "publications:upload": "node scripts/publications/upload.mjs",
+    "publications:verify": "node scripts/publications/verify-storage.mjs"
   },
   "devDependencies": {
     "@11ty/eleventy": "3.1.6",
+    "@aws-sdk/client-s3": "3.1116.0",
     "@napi-rs/canvas": "1.0.8",
     "pdf-lib": "1.17.1",
-    "pdfjs-dist": "6.2.108",
-    "wrangler": "4.67.1"
+    "pdfjs-dist": "6.2.108"
   }
 }

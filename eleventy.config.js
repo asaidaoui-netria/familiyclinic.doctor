@@ -26,6 +26,11 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("assets/images/optimized/netria");
   eleventyConfig.addPassthroughCopy("assets/images/optimized/services");
   eleventyConfig.addPassthroughCopy("assets/images/optimized/team");
+  eleventyConfig.addPassthroughCopy({
+    "node_modules/pdfjs-dist/build/pdf.min.mjs": "assets/vendor/pdfjs/pdf.min.mjs",
+    "node_modules/pdfjs-dist/build/pdf.worker.min.mjs": "assets/vendor/pdfjs/pdf.worker.min.mjs",
+    "node_modules/pdfjs-dist/web/pdf_viewer.css": "assets/vendor/pdfjs/pdf_viewer.css"
+  });
 
   return {
     dir: {

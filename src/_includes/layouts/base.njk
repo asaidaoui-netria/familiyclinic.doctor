@@ -1,4 +1,13 @@
 <!DOCTYPE html>
+{% if pagination and pagination.items %}
+  {% set publicationPage = pagination.items[0] %}
+{% endif %}
+{% if publicationPage %}
+  {% set locale = publicationPage.locale %}
+  {% set title = publicationPage.edition.title + " - Family Clinic" %}
+  {% set description = publicationPage.edition.summary %}
+  {% set localizedRoutes = publicationPage.localizedRoutes %}
+{% endif %}
 <html lang="{{ locale }}"{% if locale == "ar" %} dir="rtl"{% endif %}>
 <head>
   <meta charset="UTF-8">
@@ -28,15 +37,15 @@
   </script>
   <title>{{ title }}</title>
   <meta name="description" content="{{ description }}">
-  {% set localizedRoutes = site.routes[pageKey] %}
-  {% set currentRoute = localizedRoutes[locale] %}
+  {% set pageRoutes = localizedRoutes or site.routes[pageKey] %}
+  {% set currentRoute = pageRoutes[locale] %}
   <link rel="canonical" href="{{ site.url }}{{ currentRoute }}">
-  {% if localizedRoutes %}
-    {% for alternateLocale, alternateRoute in localizedRoutes %}
+  {% if pageRoutes %}
+    {% for alternateLocale, alternateRoute in pageRoutes %}
   <link rel="alternate" hreflang="{{ alternateLocale }}" href="{{ site.url }}{{ alternateRoute }}">
     {% endfor %}
-    {% if localizedRoutes.en %}
-  <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ localizedRoutes.en }}">
+    {% if pageRoutes.en %}
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ pageRoutes.en }}">
     {% endif %}
   {% endif %}
   <meta property="og:title" content="{{ title }}">
@@ -67,6 +76,9 @@
   {% include "footer.njk" %}
   {% for script in scripts %}
   <script src="/assets/{{ script }}"></script>
+  {% endfor %}
+  {% for moduleScript in moduleScripts %}
+  <script type="module" src="/assets/{{ moduleScript }}"></script>
   {% endfor %}
 </body>
 </html>

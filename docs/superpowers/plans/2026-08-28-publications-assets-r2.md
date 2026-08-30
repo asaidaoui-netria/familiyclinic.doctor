@@ -1,5 +1,7 @@
 # Publications Asset Pipeline and R2 Implementation Plan
 
+> **Provider migration notice (2026-08-30):** This is the historical implementation plan for the original R2 design. Do not execute its R2 provisioning or credential steps. The active Hetzner contract is defined in `docs/publications-storage-runbook.md` and `docs/superpowers/specs/2026-08-28-publications-library-storage-design.md`.
+
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** Prepare the 39 localized editions of the thirteen approved publications, publish their covers, preview PDFs, and complete PDFs to an EU-jurisdiction Cloudflare R2 bucket, and commit a verified integrity manifest without committing any publication binary.
@@ -8,7 +10,7 @@
 
 **Tech Stack:** Node.js 22+, Node test runner, `pdf-lib` 1.17.1, `pdfjs-dist` 6.2.108, `@napi-rs/canvas` 1.0.8, `@aws-sdk/client-s3` 3.1116.0, Wrangler 4.67.1, qpdf, LibreOffice headless, Cloudflare R2
 
-**Spec:** `docs/superpowers/specs/2026-08-28-publications-library-r2-design.md`
+**Spec:** `docs/superpowers/specs/2026-08-28-publications-library-storage-design.md`
 
 ## Global Constraints
 

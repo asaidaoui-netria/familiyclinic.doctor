@@ -4,7 +4,14 @@ import { existsSync } from "node:fs";
 import { join, relative } from "node:path";
 import test from "node:test";
 
-import { EXPECTED_HTML_ROUTES, OUTPUT_ROOT, outputPath, readOutput } from "./helpers/site.mjs";
+import {
+  EXPECTED_HTML_ROUTES,
+  OUTPUT_ROOT,
+  PUBLICATION_ROUTES,
+  PUBLICATION_SLUGS,
+  outputPath,
+  readOutput
+} from "./helpers/site.mjs";
 
 async function htmlFiles(directory) {
   const entries = await readdir(directory, { withFileTypes: true });
@@ -87,5 +94,36 @@ test("retained navigation marks the active page", async () => {
 
   for (const [route, activeUrl] of activeRoutes) {
     assert.match(await readOutput(route), new RegExp(`<a href="${activeUrl}" class="nav__link nav__link--active" aria-current="page">`));
+  }
+
+  for (const route of [
+    "publications/index.html",
+    "fr/publications/index.html",
+    "ar/publications/index.html",
+    ...PUBLICATION_ROUTES
+  ]) {
+    const locale = route.startsWith("fr/") ? "fr" : route.startsWith("ar/") ? "ar" : "en";
+    const href = locale === "en" ? "/publications/" : `/${locale}/publications/`;
+    assert.match(
+      await readOutput(route),
+      new RegExp(`<a href="${href}" class="nav__link nav__link--active" aria-current="page">`)
+    );
+  }
+});
+
+test("publication detail language switchers retain the current slug", async () => {
+  for (const slug of PUBLICATION_SLUGS) {
+    for (const locale of ["en", "fr", "ar"]) {
+      const prefix = locale === "en" ? "" : `${locale}/`;
+      const html = await readOutput(`${prefix}publications/${slug}/index.html`);
+
+      for (const [language, href] of Object.entries({
+        en: `/publications/${slug}/`,
+        fr: `/fr/publications/${slug}/`,
+        ar: `/ar/publications/${slug}/`
+      })) {
+        assert.match(html, new RegExp(`<a href="${href}" data-lang="${language}"`));
+      }
+    }
   }
 });

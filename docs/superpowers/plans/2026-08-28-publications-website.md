@@ -4,13 +4,13 @@
 
 **Goal:** Add localized `/publications/` catalogs and publication detail pages to the Eleventy site, with category filtering, an embedded six-to-eight-page PDF.js preview, and a complete-PDF **Read now** download.
 
-**Architecture:** Eleventy combines curated localized copy with the verified `publication-assets.json` contract produced by the R2 plan, then flattens thirteen conceptual publications into 39 localized detail-page records. Shared Nunjucks templates generate catalogs and details, while small progressive-enhancement modules implement filtering and a locally hosted PDF.js viewer. Existing route, localization, accessibility, SEO, and design tests expand to treat publications as first-class site pages.
+**Architecture:** Eleventy combines curated localized copy with the verified `publication-assets.json` object-storage contract, then flattens thirteen conceptual publications into 39 localized detail-page records. Shared Nunjucks templates generate catalogs and details, while small progressive-enhancement modules implement filtering and a locally hosted PDF.js viewer. Existing route, localization, accessibility, SEO, and design tests expand to treat publications as first-class site pages.
 
 **Tech Stack:** Eleventy 3.1.6, Nunjucks, Node.js 22+, Node test runner, browser ES modules, `pdfjs-dist` 6.2.108, HTML/CSS
 
-**Spec:** `docs/superpowers/specs/2026-08-28-publications-library-r2-design.md`
+**Spec:** `docs/superpowers/specs/2026-08-28-publications-library-storage-design.md`
 
-**Dependency Plan:** Complete `docs/superpowers/plans/2026-08-28-publications-assets-r2.md` first. This plan consumes its committed `src/_data/publication-assets.json` and pinned `pdfjs-dist` package.
+**Dependency Plan:** Complete the publication asset pipeline first. This plan consumes its committed `src/_data/publication-assets.json` and pinned `pdfjs-dist` package.
 
 ## Global Constraints
 
@@ -30,7 +30,7 @@
 ## File Structure
 
 - `src/_data/publication-content.js` — stable slugs, categories, author, and reviewed localized editorial copy.
-- `src/_data/publications.js` — merges editorial copy with the R2 asset manifest and validates the complete contract.
+- `src/_data/publications.js` — merges editorial copy with the Object Storage asset manifest and validates the complete contract.
 - `src/_data/publicationPages.js` — flattens publications into Eleventy page records and reciprocal locale routes.
 - `src/en/publications.njk`, `src/fr/publications.njk`, `src/ar/publications.njk` — locale-specific catalog entry points.
 - `src/publication-detail.njk`, `src/publication-detail.11tydata.js` — one paginated detail template for all 39 editions.
@@ -57,7 +57,7 @@
 - Create: `tests/publications-data.test.mjs`
 
 **Interfaces:**
-- Consumes: `src/_data/publication-assets.json` from the R2 plan.
+- Consumes: the verified `src/_data/publication-assets.json` Object Storage manifest.
 - Produces: `PUBLICATION_CONTENT: PublicationContent[]`.
 - Produces: `buildPublications(content, assetManifest): Publication[]`.
 - Produces default `publications: Publication[]` for Eleventy global data.
@@ -81,7 +81,7 @@ assert.equal(publicationPages.filter(({ locale }) => locale === "ar").length, 13
 assert.equal(publicationPages.some(({ publication }) => /cooking|cuisiner/i.test(publication.id)), false);
 ```
 
-For every publication, assert the exact category union, author `Dr. Said-Alaoui Moulay Abdellah`, nonempty localized title/summary/description, matching asset ID, six-to-eight preview pages, positive sizes and dimensions, 64-character lowercase SHA-256 strings, HTTPS `media.familyclinic.doctor` URLs, and reciprocal routes for `en`, `fr`, and `ar`.
+For every publication, assert the exact category union, author `Dr. Said-Alaoui Moulay Abdellah`, nonempty localized title/summary/description, matching asset ID, six-to-eight preview pages, positive sizes and dimensions, 64-character lowercase SHA-256 strings, HTTPS URLs under the fixed Hetzner bucket origin, and reciprocal routes for `en`, `fr`, and `ar`.
 
 - [ ] **Step 2: Run the model test and verify failure**
 
@@ -116,7 +116,7 @@ Export all thirteen reviewed records in `PUBLICATION_CONTENT`, annotated with `@
 
 - [ ] **Step 4: Implement strict content/asset merging**
 
-`buildPublications` must reject duplicate IDs/slugs, missing or extra locales, mismatched asset IDs, unsupported categories, empty content, summaries longer than 180 characters, invalid versions, non-HTTPS/non-R2 URLs, preview counts outside six to eight, nonpositive sizes/dimensions, malformed hashes, and any cookbook identifier. Return deeply frozen records so templates cannot mutate global data.
+`buildPublications` must reject duplicate IDs/slugs, missing or extra locales, mismatched asset IDs, unsupported categories, empty content, summaries longer than 180 characters, invalid versions, URLs outside the fixed storage origin, preview counts outside six to eight, nonpositive sizes/dimensions, malformed hashes, and any cookbook identifier. Return deeply frozen records so templates cannot mutate global data.
 
 - [ ] **Step 5: Flatten deterministic detail-page records**
 
@@ -543,7 +543,7 @@ Expected: PDF.js runtime files exist in `_site`, generated pages reference only 
 
 - [ ] **Step 10: Pass the three-language viewer pilot gate**
 
-Run `npm run serve` and open the `enzymes` detail page at `/publications/enzymes/`, `/fr/publications/enzymes/`, and `/ar/publications/enzymes/`. In each locale, confirm the preview loads from R2, page count matches the manifest, previous/next and zoom work, Arabic renders in RTL, the failure fallback can be revealed by blocking the preview request, and no complete PDF request appears in the network log before selecting **Read now**. Do not proceed to catalog styling or release integration until all three pilot editions pass.
+Run `npm run serve` and open the `enzymes` detail page at `/publications/enzymes/`, `/fr/publications/enzymes/`, and `/ar/publications/enzymes/`. In each locale, confirm the preview loads from Object Storage, page count matches the manifest, previous/next and zoom work, Arabic renders in RTL, the failure fallback can be revealed by blocking the preview request, and no complete PDF request appears in the network log before selecting **Read now**. Do not proceed to catalog styling or release integration until all three pilot editions pass.
 
 - [ ] **Step 11: Commit the viewer**
 
@@ -630,7 +630,7 @@ git commit -m "feat: style accessible publication experiences"
 - Modify: `tests/helpers/site.mjs`
 
 **Interfaces:**
-- Consumes: all generated publication routes and R2 manifest.
+- Consumes: all generated publication routes and the Object Storage manifest.
 - Produces: sitemap containing 54 indexable routes and a complete offline verification gate.
 
 - [ ] **Step 1: Write failing SEO and regression tests**
@@ -654,7 +654,7 @@ Expected: FAIL because the sitemap and older exact-route assertions do not yet i
 
 - [ ] **Step 3: Add publication catalogs and details to the sitemap**
 
-Retain the existing four static page keys, add the three `site.routes.publications` values once, then iterate `publicationPages` and emit each `permalink`. Do not place R2 object URLs, the 404 page, or duplicate routes in the sitemap.
+Retain the existing four static page keys, add the three `site.routes.publications` values once, then iterate `publicationPages` and emit each `permalink`. Do not place Object Storage URLs, the 404 page, or duplicate routes in the sitemap.
 
 - [ ] **Step 4: Update existing regression inventories**
 
@@ -666,7 +666,7 @@ Run: `npm run verify`
 
 Expected: Eleventy build succeeds, all classic/module scripts parse, and every Node test passes.
 
-- [ ] **Step 6: Run live R2 verification**
+- [ ] **Step 6: Run live Object Storage verification**
 
 Run: `npm run publications:verify`
 

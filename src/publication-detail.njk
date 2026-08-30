@@ -1,0 +1,10 @@
+---
+layout: layouts/base.njk
+pageKey: publications
+activeNav: publications
+indexable: true
+permalink: "{{ pagination.items[0].outputPath }}"
+stylesheets: [styles.css, localization.css]
+---
+{% set publicationPage = pagination.items[0] %}
+{% include "publications/detail.njk" %}

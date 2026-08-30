@@ -63,7 +63,7 @@ test("the homepage surfaces address, phone, and hours directly below the hero", 
 });
 
 test("published stylesheets no longer use the purple brand gradient", async () => {
-  for (const file of ["styles.css", "about.css", "contact.css", "services.css", "localization.css"]) {
+  for (const file of ["styles.css", "about.css", "contact.css", "services.css", "localization.css", "publications.css"]) {
     const css = await readOutput(`assets/${file}`);
     assert.doesNotMatch(css, /#667eea|#764ba2/i, `${file} is free of the purple gradient`);
   }
@@ -73,7 +73,7 @@ test("stylesheets are driven by shared design tokens", async () => {
   const css = await readOutput("assets/styles.css");
   assert.match(css, /:root\s*{[^}]*--accent/, "styles.css defines color tokens");
   assert.match(css, /var\(--accent/, "styles.css consumes its own tokens");
-  for (const file of ["about.css", "contact.css", "services.css"]) {
+  for (const file of ["about.css", "contact.css", "services.css", "publications.css"]) {
     const pageCss = await readOutput(`assets/${file}`);
     assert.match(pageCss, /var\(--/, `${file} consumes design tokens`);
   }

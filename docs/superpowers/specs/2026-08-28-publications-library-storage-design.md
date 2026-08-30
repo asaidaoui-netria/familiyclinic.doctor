@@ -1,10 +1,10 @@
-# Publications Library and R2 Delivery Design
+# Publications Library and Object Storage Delivery Design
 
 ## Objective
 
 Add a curated multilingual publications library to the Family Clinic website. Visitors will browse a localized catalog, open a publication detail page, read a six-to-eight-page preview in an embedded PDF viewer, and select **Read now** to download the complete localized publication.
 
-Cloudflare R2 will hold all publication binaries. The Git repository will contain only website code, publication metadata, integrity information, and document-processing automation. The supplied ZIP archive, its extracted contents, and all derived publication binaries will remain outside Git.
+Hetzner Object Storage will hold all publication binaries. The Git repository will contain only website code, publication metadata, integrity information, and document-processing automation. The supplied ZIP archive, its extracted contents, and all derived publication binaries will remain outside Git.
 
 ## Scope
 
@@ -32,7 +32,7 @@ The release includes:
 - One catalog route and one detail route per supported locale.
 - One localized cover, preview PDF, and complete PDF for each publication edition.
 - An embedded PDF.js preview viewer.
-- R2 provisioning requirements, publication metadata, preparation tools, validation, and tests.
+- Object Storage configuration requirements, publication metadata, preparation tools, validation, and tests.
 - A localized educational-use disclaimer on detail pages.
 
 ## Non-Goals
@@ -65,7 +65,7 @@ Each title has one stable ASCII slug shared across all three locales. This makes
 
 The English catalog is the default-language route. French and Arabic remain under their existing locale prefixes. Arabic pages render right-to-left. Canonical and reciprocal `hreflang` links connect each localized catalog and each set of publication detail pages.
 
-The R2 hostname is an asset origin only; it does not replace `/publications/`. Visitors browse the normal clinic routes while the embedded viewer and download link retrieve their files from R2.
+The Hetzner bucket hostname is an asset origin only; it does not replace `/publications/`. Visitors browse the normal clinic routes while the embedded viewer and download link retrieve their files from Object Storage.
 
 ## Information Architecture
 
@@ -151,15 +151,15 @@ The viewer provides:
 
 The preview component starts loading when it approaches the viewport so the title and descriptive HTML can render promptly. A visible loading state reserves the viewer's space to prevent layout shift.
 
-If JavaScript is unavailable, PDF.js fails, R2 is unavailable, or CORS blocks the request, the viewer area presents localized links to open the preview directly and download the complete PDF. A viewer failure must not hide the publication description or complete-book action.
+If JavaScript is unavailable, PDF.js fails, Object Storage is unavailable, or CORS blocks the request, the viewer area presents localized links to open the preview directly and download the complete PDF. A viewer failure must not hide the publication description or complete-book action.
 
-The **Read now** action identifies the target as a PDF and displays its file size. R2's `Content-Disposition: attachment` metadata is authoritative so the complete PDF downloads consistently even though it is served from another origin.
+The **Read now** action identifies the target as a PDF and displays its file size. The object's `Content-Disposition: attachment` metadata is authoritative so the complete PDF downloads consistently even though it is served from another origin.
 
 No publication-view, page-change, or download events are added to Plausible in this phase.
 
-## R2 Storage and Custody
+## Object Storage and Custody
 
-One Cloudflare R2 bucket will be created with the `eu` jurisdiction. A clinic-controlled asset hostname such as `media.familyclinic.doctor` will serve public files, subject to the domain's DNS being connected to the clinic's Cloudflare account. The existing website continues to use `www.familyclinic.doctor` and the `/publications/` routes.
+The dedicated public-read Hetzner bucket `familyclinic-doctor-publications` is hosted in the `nbg1` region. Files are served directly from `https://familyclinic-doctor-publications.nbg1.your-objectstorage.com`, so Porkbun remains the registrar and authoritative DNS provider. The existing website continues to use `www.familyclinic.doctor` and the `/publications/` routes.
 
 Objects use stable publication and locale prefixes plus an explicit immutable version:
 
@@ -169,20 +169,20 @@ publications/<publication-id>/<locale>/v1/preview.pdf
 publications/<publication-id>/<locale>/v1/full.pdf
 ```
 
-Corrections create a new version prefix and update committed metadata. Published keys are never overwritten in place. This key strategy provides deterministic rollback and compensates for R2 not providing S3 bucket versioning. The committed metadata identifies the active version.
+Corrections create a new version prefix and update committed metadata. Published keys are never overwritten in place. This key strategy provides deterministic rollback in addition to Hetzner's Object Lock and automatic bucket versioning. The committed metadata identifies the active version.
 
-R2 configuration will include:
+Object Storage configuration will include:
 
-- Public `GET` and `HEAD` delivery through the clinic-controlled hostname
+- Public `GET` and `HEAD` delivery through the Hetzner bucket hostname
 - CORS restricted to the production clinic origin and explicitly required development origins
 - `application/pdf` for preview and complete documents
 - Inline disposition for previews and attachment disposition with a readable filename for complete documents
 - Long-lived immutable caching for versioned object paths
-- A retention lock covering published publication objects to reduce accidental deletion or replacement
-- A bucket-scoped write token for publication tooling
+- Object Lock enabled at bucket creation and one-year Governance retention for production uploads
+- Project-isolated S3 credentials for publication tooling
 - No upload or account-management credentials in source control
 
-The R2 account and bucket are infrastructure, not the canonical content model. S3-compatible paths, local originals, SHA-256 checksums, and committed metadata keep the library portable to another object-storage provider if necessary.
+The Hetzner project and bucket are infrastructure, not the canonical content model. S3-compatible paths, local originals, SHA-256 checksums, and committed metadata keep the library portable to another object-storage provider if necessary.
 
 ## Document Preparation Pipeline
 
@@ -198,7 +198,7 @@ For each localized edition, preparation will:
 6. Extract and optimize a cover thumbnail for catalog display.
 7. Optimize and linearize PDFs for web delivery without making text or diagrams difficult to read.
 8. Calculate byte sizes and SHA-256 checksums.
-9. Upload cover, preview, and complete files to the versioned R2 paths.
+9. Upload cover, preview, and complete files to the versioned Object Storage paths.
 10. Produce or verify the metadata values used by Eleventy.
 
 Scripts and configuration that perform this work may be committed. Source documents, converted documents, preview PDFs, cover images, temporary renders, and upload credentials may not be committed.
@@ -233,7 +233,7 @@ Build-time validation fails on:
 - Preview page counts outside the approved six-to-eight-page range
 - Accidental inclusion of *Cooking to Heal*
 
-A separate pre-release storage check performs `HEAD` and range requests against every active R2 object. It verifies existence, byte size, content type, disposition, caching, CORS behavior, and partial-content support. Keeping this network check separate prevents ordinary offline Eleventy builds from depending on R2 availability.
+A separate pre-release storage check performs `HEAD` and range requests against every active object. It verifies existence, byte size, content type, disposition, caching, CORS behavior, and partial-content support. Keeping this network check separate prevents ordinary offline Eleventy builds from depending on Object Storage availability.
 
 At runtime, viewer errors are contained within the preview component and lead to localized fallback actions. The page remains usable, indexable, and navigable. Missing metadata is a build failure rather than a partially rendered production page.
 
@@ -259,11 +259,11 @@ Manual browser checks cover representative desktop and mobile browsers, keyboard
 
 ## Rollout
 
-Provisioning and delivery will be proven with one representative title in English, French, and Arabic. The pilot must pass document QA, R2 header checks, viewer behavior, locale switching, RTL behavior, and complete downloads.
+Configuration and delivery will be proven with a disposable staged PDF followed by one representative title in English, French, and Arabic. The pilot must pass document QA, storage header checks, viewer behavior, locale switching, RTL behavior, and complete downloads.
 
 After the pilot succeeds, the same preparation and upload pipeline will process the remaining twelve titles. The final release is deployed only when all thirteen publication records and all 39 localized editions pass validation.
 
-Rollback changes committed metadata to the previous immutable version and redeploys the static site. Previously published R2 objects remain available while retention protection applies.
+Rollback changes committed metadata to the previous immutable version and redeploys the static site. Previously published objects remain available while retention protection applies.
 
 ## Acceptance Criteria
 
@@ -271,9 +271,9 @@ Rollback changes committed metadata to the previous immutable version and redepl
 - Every title has a localized detail route in English, French, and Arabic.
 - Every detail page embeds a six-to-eight-page PDF.js preview and provides a **Read now** complete-PDF download.
 - Opening a catalog or detail page never downloads the complete PDF automatically.
-- R2 uses EU jurisdiction, versioned immutable paths, scoped credentials, suitable CORS and delivery headers, and retention protection.
+- Hetzner uses the `nbg1` region, versioned immutable paths, project-isolated credentials, suitable CORS and delivery headers, and Governance retention protection.
 - The source ZIP, extracted archive, originals, previews, complete PDFs, and cover derivatives remain ignored and untracked.
-- Metadata records active R2 URLs, page counts, sizes, versions, and SHA-256 checksums.
+- Metadata records active Object Storage URLs, page counts, sizes, versions, and SHA-256 checksums.
 - Arabic and translated editions pass visual QA; unreliable text layers are not exposed.
 - Viewer failure degrades to usable localized preview and download links.
 - No publication-specific Plausible metrics, CMS, database, authentication, or *Cooking to Heal* content is introduced.

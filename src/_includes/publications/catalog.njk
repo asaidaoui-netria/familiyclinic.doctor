@@ -1,0 +1,32 @@
+{% set copy = site.locales[locale].publications %}
+{% set localePrefix = "" %}
+{% if locale != "en" %}{% set localePrefix = "/" + locale %}{% endif %}
+<section class="publications-catalog" data-publication-catalog>
+  <div class="container">
+    <p class="publications-catalog__eyebrow">{{ copy.eyebrow }}</p>
+    <h1>{{ copy.catalogTitle }}</h1>
+    <p class="publications-catalog__intro">{{ copy.catalogIntro }}</p>
+
+    <div class="publication-filters" data-publication-filters role="group" aria-label="{{ copy.filtersLabel }}" hidden>
+      {% for category, label in copy.filters %}
+      <button type="button" class="publication-filter" data-publication-filter="{{ category }}" aria-pressed="{% if category == 'all' %}true{% else %}false{% endif %}">{{ label }}</button>
+      {% endfor %}
+    </div>
+
+    <div class="publication-grid">
+      {% for publication in publications %}
+      {% set edition = publication.editions[locale] %}
+      <article class="publication-card" data-publication-category="{{ publication.category }}">
+        <img class="publication-card__cover" src="{{ edition.assets.cover.url }}" alt="{{ edition.title }}" width="{{ edition.assets.cover.width }}" height="{{ edition.assets.cover.height }}" loading="lazy" decoding="async">
+        <div class="publication-card__body">
+          <p class="publication-card__category">{{ copy.filters[publication.category] }}</p>
+          <h2 class="publication-card__title">{{ edition.title }}</h2>
+          <p class="publication-card__summary">{{ edition.summary }}</p>
+          <p class="publication-card__pages">{{ edition.assets.full.pageCount }} {{ copy.pageCount }}</p>
+          <a class="publication-card__link" href="{{ localePrefix }}/publications/{{ publication.slug }}/">{{ copy.viewPublication }}: {{ edition.title }}</a>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>

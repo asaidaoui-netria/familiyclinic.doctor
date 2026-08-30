@@ -1,0 +1,1511 @@
+{
+  "schemaVersion": 1,
+  "publicBaseUrl": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com",
+  "publications": [
+    {
+      "id": "nature-to-factory",
+      "editions": {
+        "en": {
+          "version": "v1",
+          "textLayer": true,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 24,
+            "size": 5936928,
+            "sha256": "2ab59ee70c2daef0800b8963cc296004e46d31de0b13632501758313e59b85b1",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/nature-to-factory/en/v1/full.pdf",
+            "filename": "nature-to-factory-en.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 8,
+            "size": 1420369,
+            "sha256": "2e03a1e0172758516fe954edbe89533f468dbba138ca7652f27b02a6fc0f8a70",
+            "pages": [
+              1,
+              3,
+              5,
+              7,
+              11,
+              13,
+              17,
+              21
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/nature-to-factory/en/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 164178,
+            "sha256": "acb9d38d9445cb20fd95831b76cb392d5751679a743a6f1758cb565faa258c27",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/nature-to-factory/en/v1/cover.webp"
+          }
+        },
+        "fr": {
+          "version": "v1",
+          "textLayer": true,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 24,
+            "size": 6338635,
+            "sha256": "7927d863150147fc3af6a040310e99f432c2c7d49f792487903d800dc9891053",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/nature-to-factory/fr/v1/full.pdf",
+            "filename": "nature-to-factory-fr.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 8,
+            "size": 1840873,
+            "sha256": "5a3eec70d383603a5f36d049bac11af80ef3663d09786dff0afb49c50cf5086d",
+            "pages": [
+              1,
+              3,
+              5,
+              7,
+              11,
+              13,
+              17,
+              21
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/nature-to-factory/fr/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 164458,
+            "sha256": "bae5ae1b8baf4346eb59b7c9de532e7239d0a287358938847404910137db697a",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/nature-to-factory/fr/v1/cover.webp"
+          }
+        },
+        "ar": {
+          "version": "v1",
+          "textLayer": true,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 24,
+            "size": 6634391,
+            "sha256": "ee6a7f6415b8fceda3d3641bb629dab2031eb56c98a832d30663c6438cfcdf07",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/nature-to-factory/ar/v1/full.pdf",
+            "filename": "nature-to-factory-ar.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 8,
+            "size": 2048204,
+            "sha256": "e65c7bbc9bc66c985d35a7d7a55a209abd9d9ab726a6e90e8568bd245438d66d",
+            "pages": [
+              1,
+              3,
+              5,
+              7,
+              11,
+              13,
+              17,
+              21
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/nature-to-factory/ar/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 165060,
+            "sha256": "616f4e06965f003b929d12ccb98cd21cac0e366874274922f57f10fb9815fa78",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/nature-to-factory/ar/v1/cover.webp"
+          }
+        }
+      }
+    },
+    {
+      "id": "hypotoxic-nutrition",
+      "editions": {
+        "en": {
+          "version": "v1",
+          "textLayer": true,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 30,
+            "size": 4835200,
+            "sha256": "adde58e853e1f186d8ad4ff38424d7bf72df83183e4c149dffb66e62f0bb5844",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/hypotoxic-nutrition/en/v1/full.pdf",
+            "filename": "hypotoxic-nutrition-en.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 8,
+            "size": 915790,
+            "sha256": "475dc133e806b1492d14e90bca7f4a9eab78d8f79383eec49695ce6d3a0a5d40",
+            "pages": [
+              1,
+              6,
+              8,
+              10,
+              13,
+              16,
+              22,
+              25
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/hypotoxic-nutrition/en/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 141508,
+            "sha256": "db14ead00f8e215495cd117774ccf45615e1e4909b940ad069f7fae68b68637b",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/hypotoxic-nutrition/en/v1/cover.webp"
+          }
+        },
+        "fr": {
+          "version": "v1",
+          "textLayer": true,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 30,
+            "size": 5178406,
+            "sha256": "50cba5d4e3b6c73c58e6660f82dbd40a8480f1ae5c6f9e14060aa586e21869d8",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/hypotoxic-nutrition/fr/v1/full.pdf",
+            "filename": "hypotoxic-nutrition-fr.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 8,
+            "size": 1104748,
+            "sha256": "95224c57054310f16960ecd7a27ac440f3b451d6a1229da0cc42048f59c1d313",
+            "pages": [
+              1,
+              6,
+              8,
+              10,
+              13,
+              16,
+              22,
+              25
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/hypotoxic-nutrition/fr/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 140980,
+            "sha256": "bf04122c4294c6fdaddb393386e467f0a8ba5211e9a32252706161e0bc8e5596",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/hypotoxic-nutrition/fr/v1/cover.webp"
+          }
+        },
+        "ar": {
+          "version": "v1",
+          "textLayer": true,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 28,
+            "size": 5544030,
+            "sha256": "9883948108db20214a19a219e5ac8808eec7917b4d172ebd9f7116d28c080d08",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/hypotoxic-nutrition/ar/v1/full.pdf",
+            "filename": "hypotoxic-nutrition-ar.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 8,
+            "size": 1526316,
+            "sha256": "b648583b78dc91334676c31dcd68370a29aec7a273585303627148d6ca2d3241",
+            "pages": [
+              1,
+              6,
+              8,
+              10,
+              13,
+              16,
+              21,
+              24
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/hypotoxic-nutrition/ar/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 139562,
+            "sha256": "09acc5e71eba37564c28c5ff6c55543ae3577c749f10452c43a846377ee94cea",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/hypotoxic-nutrition/ar/v1/cover.webp"
+          }
+        }
+      }
+    },
+    {
+      "id": "enzymes",
+      "editions": {
+        "en": {
+          "version": "v1",
+          "textLayer": true,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 34,
+            "size": 5576293,
+            "sha256": "7a37ae0e2c47c2da12353e80446b4b8b6375523f3a56ab0f00a1ab97a54c7033",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/enzymes/en/v1/full.pdf",
+            "filename": "enzymes-en.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 8,
+            "size": 967854,
+            "sha256": "414f67c1d8a5a8f16bd83349fdf737a17d6393e8fb8909a88315e119780d71a3",
+            "pages": [
+              1,
+              5,
+              7,
+              9,
+              13,
+              15,
+              19,
+              23
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/enzymes/en/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 170388,
+            "sha256": "a335bc8e3ebaef66e464269d8a9352866888fb8bb024925ee228a065e43e55fe",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/enzymes/en/v1/cover.webp"
+          }
+        },
+        "fr": {
+          "version": "v1",
+          "textLayer": true,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 34,
+            "size": 5642246,
+            "sha256": "2bf6029c03d2e54c15066332717b44abcc4b6aec769e49aefc1c0770ddaa73bf",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/enzymes/fr/v1/full.pdf",
+            "filename": "enzymes-fr.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 8,
+            "size": 1031378,
+            "sha256": "59051399ff891e7b02d8c2ce75fffaf9b3e4d9e7592e38ee150e4b85dc420400",
+            "pages": [
+              1,
+              5,
+              7,
+              9,
+              13,
+              15,
+              19,
+              23
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/enzymes/fr/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 170916,
+            "sha256": "0399ff20d60205a9590331afa1ee98d8997aab8659462cad580b8c5bb8cbf423",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/enzymes/fr/v1/cover.webp"
+          }
+        },
+        "ar": {
+          "version": "v1",
+          "textLayer": true,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 33,
+            "size": 5871565,
+            "sha256": "a439981541a8c7cfeb13e301791c867b7cc678b5ddc43f6e9d63fe5c09bf753c",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/enzymes/ar/v1/full.pdf",
+            "filename": "enzymes-ar.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 8,
+            "size": 1576562,
+            "sha256": "e7e11fdf09ecc64b723e34edd964d8fc830f9c70c80115daca1c1d29f5d0d9f4",
+            "pages": [
+              1,
+              5,
+              7,
+              8,
+              12,
+              14,
+              18,
+              22
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/enzymes/ar/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 169296,
+            "sha256": "d722249d17f869e74f968ba00e3672e677b738dd8c275a2b48ac33b6086f260d",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/enzymes/ar/v1/cover.webp"
+          }
+        }
+      }
+    },
+    {
+      "id": "nutrition-key-health",
+      "editions": {
+        "en": {
+          "version": "v1",
+          "textLayer": true,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 24,
+            "size": 5650437,
+            "sha256": "c04359a792bd95603ee80e781660e17e1ab7b7b3c84bb56fd9bac60fbaf6cae2",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/nutrition-key-health/en/v1/full.pdf",
+            "filename": "nutrition-key-health-en.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 8,
+            "size": 1156822,
+            "sha256": "c4d6a008a6f9471b11b996542c5e6bda1ff2487ee95ebf78012e1cf7c1b3fa44",
+            "pages": [
+              1,
+              5,
+              7,
+              9,
+              11,
+              13,
+              17,
+              21
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/nutrition-key-health/en/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 124080,
+            "sha256": "f9ceb3596253f26e7702355ee702b865d7d2b85dacaa3858c85c593de99eb4c9",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/nutrition-key-health/en/v1/cover.webp"
+          }
+        },
+        "fr": {
+          "version": "v1",
+          "textLayer": true,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 24,
+            "size": 5658231,
+            "sha256": "84c8524180e4f6e1431abdf29df6781f6cf95dc4c74cce74cced1aaf64eb2c2f",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/nutrition-key-health/fr/v1/full.pdf",
+            "filename": "nutrition-key-health-fr.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 8,
+            "size": 1198211,
+            "sha256": "f8fc41ae51417f7188212e4cd10246bc374235aec58dfbf6ce875054d86640c3",
+            "pages": [
+              1,
+              5,
+              7,
+              9,
+              11,
+              13,
+              17,
+              21
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/nutrition-key-health/fr/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 124098,
+            "sha256": "2365518b960b6cf19ceff737bb224582af69914fc75e0cb19786e0886c395798",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/nutrition-key-health/fr/v1/cover.webp"
+          }
+        },
+        "ar": {
+          "version": "v1",
+          "textLayer": true,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 24,
+            "size": 6752102,
+            "sha256": "0c2ae802900e977768a76f1e4755f65db707a247175b01f1895e4641d5ffab9d",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/nutrition-key-health/ar/v1/full.pdf",
+            "filename": "nutrition-key-health-ar.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 8,
+            "size": 1473926,
+            "sha256": "4041f35a57db85f2460cc69d329e174e89a73be3a1ade0afa8cc55f159fae3fb",
+            "pages": [
+              1,
+              5,
+              7,
+              9,
+              11,
+              13,
+              17,
+              21
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/nutrition-key-health/ar/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 121410,
+            "sha256": "1d48e48679364851d51c78a73ec56e3204a7be96ab7809596948f36b55f5102a",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/nutrition-key-health/ar/v1/cover.webp"
+          }
+        }
+      }
+    },
+    {
+      "id": "hypotoxic-diet-principles",
+      "editions": {
+        "en": {
+          "version": "v1",
+          "textLayer": true,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 34,
+            "size": 3106226,
+            "sha256": "760626a435286242b26b6d847ed9fb3b0f2de0e34ed8b1c948444c546869b1a0",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/hypotoxic-diet-principles/en/v1/full.pdf",
+            "filename": "hypotoxic-diet-principles-en.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 8,
+            "size": 1082343,
+            "sha256": "ba97e4b4f66e685b0f1b0bc7e1d59df693da2ae2c530eb9432ae9ccab562254c",
+            "pages": [
+              1,
+              6,
+              7,
+              8,
+              12,
+              17,
+              25,
+              30
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/hypotoxic-diet-principles/en/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 127840,
+            "sha256": "d72656d91e339b1746e8f57ae11dddd9ecf070d7b59df9d383f97d2842083da1",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/hypotoxic-diet-principles/en/v1/cover.webp"
+          }
+        },
+        "fr": {
+          "version": "v1",
+          "textLayer": true,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 34,
+            "size": 3072280,
+            "sha256": "91d6fd4e60401795ecdcd68e2ef7dd80a193cc2e07ae0e0446fa23d962ec2927",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/hypotoxic-diet-principles/fr/v1/full.pdf",
+            "filename": "hypotoxic-diet-principles-fr.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 8,
+            "size": 1016287,
+            "sha256": "6e3963d246b39f9307d3708e09599337b11513be7e0a08dcd584ad314a5a8fbc",
+            "pages": [
+              1,
+              6,
+              7,
+              8,
+              12,
+              17,
+              25,
+              30
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/hypotoxic-diet-principles/fr/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 129226,
+            "sha256": "98e62444290a7a43094a2137bab43a748a06e3fe470836501f4531d064ec1b0f",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/hypotoxic-diet-principles/fr/v1/cover.webp"
+          }
+        },
+        "ar": {
+          "version": "v1",
+          "textLayer": true,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 34,
+            "size": 3909283,
+            "sha256": "509e681486f6bcf70f9499b6d6d379bafb8482aab4f8fe15e7274341efa7b232",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/hypotoxic-diet-principles/ar/v1/full.pdf",
+            "filename": "hypotoxic-diet-principles-ar.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 8,
+            "size": 1423635,
+            "sha256": "19494b2d33431340125e6bba581086cb5407601e8c62e6d45d0ebd7396ab753a",
+            "pages": [
+              1,
+              6,
+              7,
+              8,
+              12,
+              17,
+              25,
+              30
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/hypotoxic-diet-principles/ar/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 123516,
+            "sha256": "4cba02a61c044b1112376a6e798c65993169880a87f1ab9ff10c13740e104547",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/hypotoxic-diet-principles/ar/v1/cover.webp"
+          }
+        }
+      }
+    },
+    {
+      "id": "basedow-disease",
+      "editions": {
+        "en": {
+          "version": "v1",
+          "textLayer": true,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 24,
+            "size": 4771335,
+            "sha256": "562adf9b4eea2aa83638a9a71153a443b913e9d8d392c010c25f2a1e2d4b2355",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/basedow-disease/en/v1/full.pdf",
+            "filename": "basedow-disease-en.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 8,
+            "size": 783390,
+            "sha256": "a662ce788a54a766f37415581a97b35ef65e7765f7241a172fe5a10ae049183a",
+            "pages": [
+              1,
+              5,
+              7,
+              9,
+              11,
+              13,
+              15,
+              17
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/basedow-disease/en/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 142780,
+            "sha256": "e04a51a3b511694d451a189cac488747f5b27c2372d2abd9aec5408d07fbea1c",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/basedow-disease/en/v1/cover.webp"
+          }
+        },
+        "fr": {
+          "version": "v1",
+          "textLayer": true,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 24,
+            "size": 4732987,
+            "sha256": "5c9a1dce46dda590e03c20d12f5c1c3a7b857da1f86f2ffcf05a53ec982ddfcf",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/basedow-disease/fr/v1/full.pdf",
+            "filename": "basedow-disease-fr.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 8,
+            "size": 940392,
+            "sha256": "d633aee707306916e372f3341db724f63ccca32367a07bcf3f30d1d7dbbe94d8",
+            "pages": [
+              1,
+              5,
+              7,
+              9,
+              11,
+              13,
+              15,
+              17
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/basedow-disease/fr/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 142744,
+            "sha256": "70b4eb91190631e6dfb9a74080437a5be08110d9160c89c6f88c066bc612acca",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/basedow-disease/fr/v1/cover.webp"
+          }
+        },
+        "ar": {
+          "version": "v1",
+          "textLayer": true,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 24,
+            "size": 4968652,
+            "sha256": "955cd05cb2ee004ca83aa483e750ea1b69c30ce9320ce02f965fa0b1d0acd30f",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/basedow-disease/ar/v1/full.pdf",
+            "filename": "basedow-disease-ar.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 8,
+            "size": 1137510,
+            "sha256": "026d073ca834f78e5bf43546e001f4627f4238f01207d6a34416c61a3cbd4382",
+            "pages": [
+              1,
+              5,
+              7,
+              9,
+              11,
+              13,
+              15,
+              17
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/basedow-disease/ar/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 142042,
+            "sha256": "9f1c0a6443fce34bf5509ad31459069d47ef35ecd29dfc9876a0854186827560",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/basedow-disease/ar/v1/cover.webp"
+          }
+        }
+      }
+    },
+    {
+      "id": "diabetes-hyperinsulinism",
+      "editions": {
+        "en": {
+          "version": "v1",
+          "textLayer": true,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 32,
+            "size": 6620659,
+            "sha256": "56e5fbdb2241adfe570fadb191c9a448bb00bb95e91e10d8e7dcc22bcfe1cab8",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/diabetes-hyperinsulinism/en/v1/full.pdf",
+            "filename": "diabetes-hyperinsulinism-en.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 8,
+            "size": 6425853,
+            "sha256": "af50c7fa7ba276e2f631448ae5d163e99c393b2c6a20f04f0de6c56427cefc6e",
+            "pages": [
+              1,
+              3,
+              5,
+              8,
+              11,
+              14,
+              17,
+              23
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/diabetes-hyperinsulinism/en/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 124166,
+            "sha256": "a00da96ad5881cda68eac04592306be7c2adb96252989abab9fba552e49418ca",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/diabetes-hyperinsulinism/en/v1/cover.webp"
+          }
+        },
+        "fr": {
+          "version": "v1",
+          "textLayer": true,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 32,
+            "size": 6610152,
+            "sha256": "6ec9c1713bc10aa898735aa6b45b5e78f60c48e3748a2f6143bb0da38ace9489",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/diabetes-hyperinsulinism/fr/v1/full.pdf",
+            "filename": "diabetes-hyperinsulinism-fr.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 8,
+            "size": 6404142,
+            "sha256": "915387cd415057a46127c40c29488b5cd2c8764af7d0fa7cbc9e0d21178e6ec9",
+            "pages": [
+              1,
+              3,
+              5,
+              8,
+              11,
+              14,
+              17,
+              22
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/diabetes-hyperinsulinism/fr/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 124472,
+            "sha256": "b293b66e9cebe5c431a75c12d6db1af23ab6a0c51d8a9c82149ac041b9f521a5",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/diabetes-hyperinsulinism/fr/v1/cover.webp"
+          }
+        },
+        "ar": {
+          "version": "v1",
+          "textLayer": false,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 30,
+            "size": 6644332,
+            "sha256": "38b8cce11363d786c3117ca05ae3cb1fd1bedddfb2c9854b14b086db7d2e3c67",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/diabetes-hyperinsulinism/ar/v1/full.pdf",
+            "filename": "diabetes-hyperinsulinism-ar.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 8,
+            "size": 6381835,
+            "sha256": "6b9e8eb71426cea41830a0c82f96fcc1fab9857e9bd8882c230e6c53aaf0c150",
+            "pages": [
+              1,
+              4,
+              6,
+              9,
+              12,
+              15,
+              17,
+              22
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/diabetes-hyperinsulinism/ar/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 104866,
+            "sha256": "c4e5f15ca9e562f9325d2f22be35ef6caa07ebead849ad9d0c62dd49b3e6cbb6",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/diabetes-hyperinsulinism/ar/v1/cover.webp"
+          }
+        }
+      }
+    },
+    {
+      "id": "liver-immunity",
+      "editions": {
+        "en": {
+          "version": "v1",
+          "textLayer": true,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 40,
+            "size": 4017827,
+            "sha256": "773f824cad2bdad65858ec8c30e7dc4cd29731f4fcd61ddcc8083f299733fc14",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/liver-immunity/en/v1/full.pdf",
+            "filename": "liver-immunity-en.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 8,
+            "size": 1411971,
+            "sha256": "6a8ec6e9923bffd6bd035d5dbbbd28eff8b328dd80156b0f9d18ea452b8b9827",
+            "pages": [
+              1,
+              5,
+              7,
+              10,
+              17,
+              23,
+              30,
+              35
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/liver-immunity/en/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 232394,
+            "sha256": "b24f8d59922a253d59182487e16c4ca80793ff40f3e9391e27b999dca73ac0a2",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/liver-immunity/en/v1/cover.webp"
+          }
+        },
+        "fr": {
+          "version": "v1",
+          "textLayer": true,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 40,
+            "size": 3984846,
+            "sha256": "36923a9de5d251c5cf43eeea83598de6f171e83136dd723bf06384d5b88d1db8",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/liver-immunity/fr/v1/full.pdf",
+            "filename": "liver-immunity-fr.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 8,
+            "size": 1362105,
+            "sha256": "1baccd69513f356a7ba263f3380cf8e7f917e21470eaf2d5fbe87ce1f289cd1c",
+            "pages": [
+              1,
+              5,
+              7,
+              10,
+              17,
+              23,
+              30,
+              35
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/liver-immunity/fr/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 231572,
+            "sha256": "ec5b5b7d8ac1a59c714c9e167b1538e66b8297cbb2007d72e7d598b0a06e0343",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/liver-immunity/fr/v1/cover.webp"
+          }
+        },
+        "ar": {
+          "version": "v1",
+          "textLayer": true,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 40,
+            "size": 5058856,
+            "sha256": "cd66bc6e9865f2530d5547febfc2a75b380f36ad6bef229125a6555b9938f3df",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/liver-immunity/ar/v1/full.pdf",
+            "filename": "liver-immunity-ar.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 8,
+            "size": 1705336,
+            "sha256": "c3ff801176f07561e4efedaa8b84eb28c1c1857c97e71e37cae440703444920d",
+            "pages": [
+              1,
+              5,
+              7,
+              10,
+              17,
+              23,
+              30,
+              35
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/liver-immunity/ar/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 232002,
+            "sha256": "7abac01d13b3c447e4bbcd1b00efe0d1a238cd44073f6cb653e5b540add408b6",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/liver-immunity/ar/v1/cover.webp"
+          }
+        }
+      }
+    },
+    {
+      "id": "hashimoto-disease",
+      "editions": {
+        "en": {
+          "version": "v1",
+          "textLayer": true,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 20,
+            "size": 4325902,
+            "sha256": "bec3922e8a044138971d213a7f180da9557a5be49214479f29b902e00347e0bb",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/hashimoto-disease/en/v1/full.pdf",
+            "filename": "hashimoto-disease-en.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 8,
+            "size": 1026916,
+            "sha256": "4d0797a4f5759447b1b25649c749bf5deb1e841edefcce73648a1330dc5fc36e",
+            "pages": [
+              1,
+              3,
+              5,
+              7,
+              9,
+              11,
+              13,
+              15
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/hashimoto-disease/en/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 112350,
+            "sha256": "529184aff2ab9201b2bb1c4892b2b955d508cf827ddc47e1df2ed08691213df0",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/hashimoto-disease/en/v1/cover.webp"
+          }
+        },
+        "fr": {
+          "version": "v1",
+          "textLayer": true,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 20,
+            "size": 4303962,
+            "sha256": "ccb00d15d5c4c9f431ca7052fc4bff5eeef914dfab976aaca365a74cafa20d06",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/hashimoto-disease/fr/v1/full.pdf",
+            "filename": "hashimoto-disease-fr.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 8,
+            "size": 930582,
+            "sha256": "974a796ac666ad7843522ca6d2a89f870c34ba9ce7ccc9888c4405db471fdd7a",
+            "pages": [
+              1,
+              3,
+              5,
+              7,
+              9,
+              11,
+              13,
+              15
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/hashimoto-disease/fr/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 112672,
+            "sha256": "ddcffc30c3e5f69a0ae99ad7d2027bb23d5b52837ef652b49ff78e98a3b5bbda",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/hashimoto-disease/fr/v1/cover.webp"
+          }
+        },
+        "ar": {
+          "version": "v1",
+          "textLayer": true,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 20,
+            "size": 4806692,
+            "sha256": "f166a57955be5ba73b9c898d6909105376bbbdbe862949f8afe8d80cfcd329b9",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/hashimoto-disease/ar/v1/full.pdf",
+            "filename": "hashimoto-disease-ar.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 8,
+            "size": 1499728,
+            "sha256": "851e40a73394e3b30c1987d344230fd013a715b163f1f3d109dd76d13d20573c",
+            "pages": [
+              1,
+              3,
+              5,
+              7,
+              9,
+              11,
+              13,
+              15
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/hashimoto-disease/ar/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 112500,
+            "sha256": "555c45c5d77030ff8fb6b9f6258916723d6f457ea5ce40fd0ce49f6a38e9fb4f",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/hashimoto-disease/ar/v1/cover.webp"
+          }
+        }
+      }
+    },
+    {
+      "id": "chronic-inflammation",
+      "editions": {
+        "en": {
+          "version": "v1",
+          "textLayer": true,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 14,
+            "size": 1962225,
+            "sha256": "c94d3a188b635c5519a165905b93769831d7b65b95e4d9386dfa313718451a74",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/chronic-inflammation/en/v1/full.pdf",
+            "filename": "chronic-inflammation-en.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 7,
+            "size": 502906,
+            "sha256": "488a11a0d7c9eb0d947de9a81a58f88001d065086556409122f7569c0423167b",
+            "pages": [
+              1,
+              3,
+              5,
+              7,
+              9,
+              11,
+              13
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/chronic-inflammation/en/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 114598,
+            "sha256": "98bd670f0ac3b540ab6f72ddd0c9e728e8ba8f0bd076084db2e4c9cea7e96f23",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/chronic-inflammation/en/v1/cover.webp"
+          }
+        },
+        "fr": {
+          "version": "v1",
+          "textLayer": true,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 14,
+            "size": 2566596,
+            "sha256": "0f9b692b8de55ba0191a8f34642b398c24db75d064123f77545aad36719382b1",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/chronic-inflammation/fr/v1/full.pdf",
+            "filename": "chronic-inflammation-fr.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 7,
+            "size": 684774,
+            "sha256": "62cd4ba2d932fd1543b26c441b6566ee8467545da1d3f522894f12d8b2dfb0c8",
+            "pages": [
+              1,
+              3,
+              5,
+              7,
+              9,
+              11,
+              13
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/chronic-inflammation/fr/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 114292,
+            "sha256": "3803b46f3d8933a9543842f183ceb1c8bf438899649d095ac60c777c3ae04fbf",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/chronic-inflammation/fr/v1/cover.webp"
+          }
+        },
+        "ar": {
+          "version": "v1",
+          "textLayer": true,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 14,
+            "size": 2495950,
+            "sha256": "d8dc6ac843119d1267236c1eb5499172733ff23bb7df01e77c69901c61a4141b",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/chronic-inflammation/ar/v1/full.pdf",
+            "filename": "chronic-inflammation-ar.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 7,
+            "size": 681977,
+            "sha256": "5d591d0684ba21aa05f7535f74e25a56d6961ac40e8ed2d9471a700f0ae0c08a",
+            "pages": [
+              1,
+              3,
+              5,
+              7,
+              9,
+              11,
+              13
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/chronic-inflammation/ar/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 111180,
+            "sha256": "de4b90643036110ab551bce1137ea467f9de839fb474e1fd9390fc873ecf4c7c",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/chronic-inflammation/ar/v1/cover.webp"
+          }
+        }
+      }
+    },
+    {
+      "id": "rheumatoid-arthritis",
+      "editions": {
+        "en": {
+          "version": "v1",
+          "textLayer": true,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 32,
+            "size": 5691902,
+            "sha256": "1a0aa55ea061f17df3cb5fd972a716946eee6185be06e00c492af9a9e6ea4093",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/rheumatoid-arthritis/en/v1/full.pdf",
+            "filename": "rheumatoid-arthritis-en.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 8,
+            "size": 625221,
+            "sha256": "7ec2c094cde1610c8b44d7aa85a280ba578476c96c16dbe2c981a41c99280834",
+            "pages": [
+              1,
+              5,
+              7,
+              9,
+              13,
+              17,
+              21,
+              23
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/rheumatoid-arthritis/en/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 132048,
+            "sha256": "ac5f8aa9bfe2d29d3d17e8cabbcd7776dd6b50f177f2fe3391968cc59ee2a610",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/rheumatoid-arthritis/en/v1/cover.webp"
+          }
+        },
+        "fr": {
+          "version": "v1",
+          "textLayer": true,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 32,
+            "size": 5913909,
+            "sha256": "e92fb1feb9a35fc07c55b02df30d12414afd8f8ed33af435886cbc9d80e13bd7",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/rheumatoid-arthritis/fr/v1/full.pdf",
+            "filename": "rheumatoid-arthritis-fr.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 8,
+            "size": 640272,
+            "sha256": "5c473bf1705b831502d78459ae65c16baa6805538e8f951817e2f2d3f994a40f",
+            "pages": [
+              1,
+              5,
+              7,
+              9,
+              13,
+              17,
+              21,
+              23
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/rheumatoid-arthritis/fr/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 133226,
+            "sha256": "39a40654689de23a6871ea161134a3f646cf725a4042d54fe867eaf8a8fc58d0",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/rheumatoid-arthritis/fr/v1/cover.webp"
+          }
+        },
+        "ar": {
+          "version": "v1",
+          "textLayer": true,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 32,
+            "size": 6491544,
+            "sha256": "f84ab79e67fc648dbe19da3ad1af9958f2460c65fea70e1e0e4e8d1c97404e80",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/rheumatoid-arthritis/ar/v1/full.pdf",
+            "filename": "rheumatoid-arthritis-ar.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 8,
+            "size": 1318759,
+            "sha256": "e4bebe2eca1d47b0df9c00894885c3caeb73af4f5e2d2df1a46cf86c79bb83b5",
+            "pages": [
+              1,
+              5,
+              7,
+              9,
+              13,
+              17,
+              21,
+              23
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/rheumatoid-arthritis/ar/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 130808,
+            "sha256": "78d079818dcbb5d46a3eec42ab8abb6b440abc4623ef87e15fdfd47ed6f7cf26",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/rheumatoid-arthritis/ar/v1/cover.webp"
+          }
+        }
+      }
+    },
+    {
+      "id": "pregnancy",
+      "editions": {
+        "en": {
+          "version": "v1",
+          "textLayer": true,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 42,
+            "size": 6426428,
+            "sha256": "5248a16b2d51fde4f76d39541b27af3d19c04a26aed2a52f4c97fa266b9fa27d",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/pregnancy/en/v1/full.pdf",
+            "filename": "pregnancy-en.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 8,
+            "size": 842820,
+            "sha256": "0fd04bb4e1be5c59e853ed7646344be24fdd7b877dfbc9d721b13ae88b8761c9",
+            "pages": [
+              1,
+              5,
+              7,
+              9,
+              11,
+              13,
+              17,
+              21
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/pregnancy/en/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 107316,
+            "sha256": "27c392f54b3c7f9e1b1448101c663e279995f3c0d4e0f81da973e4c612e37eab",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/pregnancy/en/v1/cover.webp"
+          }
+        },
+        "fr": {
+          "version": "v1",
+          "textLayer": true,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 42,
+            "size": 6705976,
+            "sha256": "8d17b138ef0411a387d5247b592a7883c21d81dc6639a3d0e4a7a2380243ecd0",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/pregnancy/fr/v1/full.pdf",
+            "filename": "pregnancy-fr.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 8,
+            "size": 854619,
+            "sha256": "b03f54cccea78e4bd3a2d2a2a7a8ec1b092ec013394fb87d285accb80d76bdc9",
+            "pages": [
+              1,
+              5,
+              7,
+              9,
+              11,
+              13,
+              17,
+              21
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/pregnancy/fr/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 105502,
+            "sha256": "6966fbb3af147b500b40f681e607fcbbc641a75727e9a6b581cee1aa909fff51",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/pregnancy/fr/v1/cover.webp"
+          }
+        },
+        "ar": {
+          "version": "v1",
+          "textLayer": false,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 42,
+            "size": 6463556,
+            "sha256": "8246e30cb94a6ffe06e30a46408150664a311a089e19474a0c89f17131a7ebf1",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/pregnancy/ar/v1/full.pdf",
+            "filename": "pregnancy-ar.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 8,
+            "size": 887230,
+            "sha256": "dd0c26a0692de73477fa2fa59ff1d2ea3317bac1b4d9850549f88afba7f5611f",
+            "pages": [
+              1,
+              5,
+              7,
+              9,
+              11,
+              13,
+              17,
+              21
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/pregnancy/ar/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 98610,
+            "sha256": "f792d448c72209de53aae4b67be40d48e12218f5a7325aa56a9512042648d71c",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/pregnancy/ar/v1/cover.webp"
+          }
+        }
+      }
+    },
+    {
+      "id": "invisible-environmental-threats",
+      "editions": {
+        "en": {
+          "version": "v1",
+          "textLayer": true,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 32,
+            "size": 7300366,
+            "sha256": "29cc9d3b4b349faf49800e8907aebcfce4d5a9615721b575916437aff7382e31",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/invisible-environmental-threats/en/v1/full.pdf",
+            "filename": "invisible-environmental-threats-en.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 8,
+            "size": 960332,
+            "sha256": "25e5614273fe03b43513d6dc63dd66f73d6da085f479c1cfd1bd41d09eae3669",
+            "pages": [
+              1,
+              3,
+              7,
+              9,
+              13,
+              15,
+              21,
+              23
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/invisible-environmental-threats/en/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 201790,
+            "sha256": "e7f8aa25a938ff5578bbde518a653d1d0c589b121350b4e385cc0b2ce9933a87",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/invisible-environmental-threats/en/v1/cover.webp"
+          }
+        },
+        "fr": {
+          "version": "v1",
+          "textLayer": true,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 32,
+            "size": 7520576,
+            "sha256": "a0f75fc0a216ae09e4b86e9f78a5b95e56195fb9a1ca260355589250c161fc69",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/invisible-environmental-threats/fr/v1/full.pdf",
+            "filename": "invisible-environmental-threats-fr.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 8,
+            "size": 1189719,
+            "sha256": "bd8cc0967948cf3b68f322222d743fb0ec57b23bfe34fbd61586d2d3c6790c3e",
+            "pages": [
+              1,
+              3,
+              7,
+              9,
+              13,
+              15,
+              21,
+              23
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/invisible-environmental-threats/fr/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 204980,
+            "sha256": "ee3337f05d018b1215c579ebe8dbf41d46c5afa57d679ac8492eacc6db085eef",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/invisible-environmental-threats/fr/v1/cover.webp"
+          }
+        },
+        "ar": {
+          "version": "v1",
+          "textLayer": true,
+          "full": {
+            "path": "full.pdf",
+            "pageCount": 32,
+            "size": 7737017,
+            "sha256": "40af0a7223ec56c6d1821b0377ca12c1408f83393b8281c0aad7ce84e7f71678",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/invisible-environmental-threats/ar/v1/full.pdf",
+            "filename": "invisible-environmental-threats-ar.pdf"
+          },
+          "preview": {
+            "path": "preview.pdf",
+            "pageCount": 8,
+            "size": 1141848,
+            "sha256": "0660e8734c7d7e83bc2d5909710c99dba060bcec4c195f384a98c57b39159cad",
+            "pages": [
+              1,
+              3,
+              7,
+              9,
+              13,
+              15,
+              21,
+              23
+            ],
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/invisible-environmental-threats/ar/v1/preview.pdf"
+          },
+          "cover": {
+            "path": "cover.webp",
+            "width": 640,
+            "height": 905,
+            "size": 198656,
+            "sha256": "813253f79da18ca64b4500caab8bddb18c37da4a1c4f7de49d1c16d99fed07ac",
+            "url": "https://familyclinic-doctor-publications.nbg1.your-objectstorage.com/publications/invisible-environmental-threats/ar/v1/cover.webp"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -100,3 +100,15 @@ test("generated pages contain no Blog navigation or footer links", async () => {
     );
   }
 });
+
+test("generated pages and sitemap omit the deferred cookbook", async () => {
+  const forbiddenCookbook = /cooking[\s-]+to[\s-]+heal|cookbook/i;
+
+  for (const path of await generatedHtmlFiles(OUTPUT_ROOT)) {
+    const html = await readFile(join(OUTPUT_ROOT, path), "utf8");
+    assert.doesNotMatch(html, forbiddenCookbook, `${path} omits the cookbook`);
+  }
+
+  const sitemap = await readFile(join(OUTPUT_ROOT, "sitemap.xml"), "utf8");
+  assert.doesNotMatch(sitemap, forbiddenCookbook);
+});

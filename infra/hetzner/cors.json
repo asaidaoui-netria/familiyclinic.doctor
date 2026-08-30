@@ -1,0 +1,21 @@
+{
+  "CORSRules": [
+    {
+      "AllowedOrigins": [
+        "https://www.familyclinic.doctor",
+        "https://familyclinic.doctor",
+        "http://localhost:8080"
+      ],
+      "AllowedMethods": ["GET", "HEAD"],
+      "AllowedHeaders": ["*"],
+      "ExposeHeaders": [
+        "Accept-Ranges",
+        "Content-Length",
+        "Content-Range",
+        "Content-Disposition",
+        "ETag"
+      ],
+      "MaxAgeSeconds": 3600
+    }
+  ]
+}

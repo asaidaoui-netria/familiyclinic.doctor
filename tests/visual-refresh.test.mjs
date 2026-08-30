@@ -8,7 +8,7 @@ const PHONE_HREF = new RegExp(`href="tel:${SITE_PHONE.replace(/[.*+?^${}()|[\]\\
 
 const HOME_ROUTES = ["index.html", "fr/index.html", "ar/index.html"];
 const SERVICES_ROUTES = ["services.html", "fr/services.html", "ar/services.html"];
-const PAGE_CSS = ["styles.css", "about.css", "contact.css", "services.css", "localization.css"];
+const PAGE_CSS = ["styles.css", "about.css", "contact.css", "services.css", "localization.css", "publications.css"];
 
 const SERVICE_ANCHORS = {
   "services.html": ["family-medicine", "holistic-consultations", "quantum-scan", "naturopathy", "hijamah", "physiotherapy", "dermatology", "judiciary-medical-expertise", "weight-loss"],
@@ -33,10 +33,26 @@ test("styles.css defines the Quiet Clinic token set", async () => {
 });
 
 test("page stylesheets consume the shared Quiet Clinic tokens", async () => {
-  for (const file of ["about.css", "contact.css", "services.css"]) {
+  for (const file of ["about.css", "contact.css", "services.css", "publications.css"]) {
     const css = await readOutput(`assets/${file}`);
     assert.match(css, /var\(--(accent|ink|hairline|surface)/, `${file} consumes shared tokens`);
   }
+});
+
+test("publication styles cover responsive, accessible viewer states", async () => {
+  const css = await readOutput("assets/publications.css");
+
+  assert.match(css, /\.publication-grid\s*{[^}]*display:\s*grid/s);
+  assert.match(css, /@media\s*\(max-width:\s*768px\)/);
+  assert.match(css, /\.publication-grid\s*{[^}]*grid-template-columns:\s*1fr/s);
+  assert.match(css, /\.publication[^}]*:focus-visible/);
+  assert.match(css, /\[hidden\]/);
+  assert.match(css, /\[dir=["']?rtl["']?\][^{]*\.publication-viewer__pagination/);
+  assert.match(css, /\.publication-viewer__status/);
+  assert.match(css, /\.publication-viewer__error/);
+  assert.match(css, /\.publication-viewer[^}]*\.textLayer/);
+  assert.match(css, /\.publication-viewer:fullscreen/);
+  assert.match(css, /\.publication-viewer__toolbar button\s*{[^}]*min-width:\s*44px[^}]*min-height:\s*44px/s);
 });
 
 test("the homepage hero is typographic", async () => {
