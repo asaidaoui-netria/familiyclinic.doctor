@@ -26,11 +26,6 @@ const PREVIEW_LABELS = {
   fr: "Aperçu de la publication",
   ar: "معاينة المنشور",
 };
-const DOWNLOAD_LABELS = {
-  en: "Download",
-  fr: "Télécharger",
-  ar: "تنزيل",
-};
 const VIEWER_LABELS = {
   en: "Preview",
   fr: "Aperçu",
@@ -162,7 +157,7 @@ test("publication category matching is strict and supports all", () => {
   assert.equal(matchesPublicationCategory("unknown", "all"), false);
 });
 
-test("all 39 detail pages render localized copy and a direct full-PDF link", async () => {
+test("all 39 detail pages render localized copy without a direct full-PDF link", async () => {
   assert.equal(PUBLICATION_ROUTES.length, 39);
 
   for (const route of PUBLICATION_ROUTES) {
@@ -177,9 +172,9 @@ test("all 39 detail pages render localized copy and a direct full-PDF link", asy
     assert.match(html, new RegExp(escapeRegExp(escapeHtml(edition.title))));
     assert.match(html, /Dr\. Said-Alaoui Moulay Abdellah/);
     assert.match(html, new RegExp(escapeRegExp(escapeHtml(edition.summary))));
-    assert.match(
+    assert.doesNotMatch(
       html,
-      new RegExp(`<a[^>]+href="${escapeRegExp(edition.assets.full.url)}"[^>]*>[\\s\\S]*?${escapeRegExp(copy.download)}`)
+      new RegExp(escapeRegExp(edition.assets.full.url)),
     );
     assert.match(
       html,
@@ -230,22 +225,12 @@ test("publication viewer sections retain a localized accessible name", async () 
   }
 });
 
-test("publication download CTAs contain only the localized download label", async () => {
+test("publication detail pages omit download controls", async () => {
   for (const route of PUBLICATION_ROUTES) {
-    const locale = route.startsWith("fr/") ? "fr" : route.startsWith("ar/") ? "ar" : "en";
     const html = await readOutput(route);
-    const link = html.match(
-      /<a class="publication-detail__read"[\s\S]*?<\/a>/,
-    )?.[0];
 
-    assert.ok(link, `${route} has a publication download link`);
-    assert.match(link, new RegExp(`aria-label="${DOWNLOAD_LABELS[locale]}"`));
-    assert.equal((link.match(/<span\b/g) ?? []).length, 1);
-    assert.equal(
-      link.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim(),
-      DOWNLOAD_LABELS[locale],
-    );
-    assert.doesNotMatch(link, /\b(?:PDF|MB)\b/);
+    assert.doesNotMatch(html, /publication-detail__(?:download|read)/);
+    assert.doesNotMatch(html, /<a\b[^>]*\bdownload(?:=|\s|>)/i);
   }
 });
 
@@ -276,17 +261,9 @@ test("detail pages expose the embedded-preview fallback contract without embeddi
     assert.match(viewer, new RegExp(`data-preview-locale="${locale}"`));
     assert.match(viewer, new RegExp(`data-text-layer="${edition.assets.textLayer}"`));
     assert.doesNotMatch(viewer, new RegExp(escapeRegExp(edition.assets.full.url)));
-    assert.equal(
-      (html.match(new RegExp(escapeRegExp(edition.assets.full.url), "g")) ?? []).length,
-      1,
-    );
-    assert.match(
+    assert.doesNotMatch(
       html,
-      new RegExp(`<a[^>]+href="${escapeRegExp(edition.assets.full.url)}"[^>]+download="${escapeRegExp(edition.assets.full.filename)}"[^>]*>[\\s\\S]*?${escapeRegExp(escapeHtml(copy.download))}`),
-    );
-    assert.ok(
-      html.indexOf('</section>') < html.indexOf(`href="${edition.assets.full.url}"`),
-      `${route} places Download after the preview`,
+      new RegExp(escapeRegExp(edition.assets.full.url)),
     );
 
     assert.doesNotMatch(html, /<(?:iframe|embed|object)\b/i);
