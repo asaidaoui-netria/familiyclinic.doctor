@@ -1,0 +1,210 @@
+{
+  "language": "en",
+  "status": "published",
+  "title": "Type 2 diabetes and the accumulation model",
+  "summary": "An overview of type 2 diabetes, insulin secretion and resistance, glucose toxicity, and vascular complications. The booklet presents the author's cellular accumulation model and nutritional approach, linking intestinal permeability, modern diets, and metabolic dysfunction.",
+  "sourceHash": "119a75833196458334343233dfdae3b90b0f9845e7998c111bd0069d4535cf90",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Foreword"
+    },
+    {
+      "type": "paragraph",
+      "text": "Type 2 diabetes mellitus (T2DM) is a common metabolic condition affecting approximately 3% of the French population and increasing steadily in industrialized countries. Unlike type 1 diabetes, it is not autoimmune and is characterized by reduced insulin secretion combined with peripheral resistance to this hormone. Long described as ‘obesity-associated diabetes’ or ‘maturity-onset diabetes,’ it now also affects children and adolescents, a direct consequence of increasing obesity and sedentary lifestyles."
+    },
+    {
+      "type": "paragraph",
+      "text": "Diagnosis rests on two main criteria: fasting blood glucose ≥ 1.26 g/L confirmed on two occasions, or blood glucose ≥ 2 g/L two hours after consuming 75 g of glucose. These thresholds, revised by international recommendations, reflect the seriousness of chronic hyperglycemia."
+    },
+    {
+      "type": "paragraph",
+      "text": "T2DM is a multifactorial disease: concordance in monozygotic twins reaches 70%, highlighting the importance of genetic factors. However, the environment plays a decisive role: modern diets, excess saturated fats, and insufficient physical activity. The disease is considered incurable with conventional therapies, which aim only to reduce symptom severity and delay vascular complications (kidney failure, retinopathy, neuropathy, coronary artery disease, arteritis, and stroke)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Two major phenomena define T2DM:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Deficient insulin secretion: pancreatic β cells produce less insulin, with abnormalities in pulsatility and kinetics.",
+        "Insulin resistance: myocytes and adipocytes take up glucose poorly, worsening hyperglycemia."
+      ],
+      "levels": [
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "A third process is sometimes proposed: excessive hepatic gluconeogenesis resulting from obesity and lack of exercise. Chronic hyperglycemia has a direct toxic effect on β cells and target cells, worsening their dysfunction."
+    },
+    {
+      "type": "paragraph",
+      "text": "Conventional treatment combines physical activity, dietary measures, and medications (sulfonylureas, biguanides, acarbose, thiazolidinediones, glitazones, and glinides). These approaches slow progression but do not cure the disease: sooner or later, diabetes becomes decompensated and insulin-dependent."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Accumulation mechanisms and glucose toxicity"
+    },
+    {
+      "type": "paragraph",
+      "text": "Type 2 diabetes can be interpreted as a disease of accumulation. Insulin secretion pathways (pancreatic β cells) and insulin utilization pathways (target cells: myocytes, adipocytes, and hepatocytes) gradually become saturated with exogenous molecules and metabolic waste. Figures 73 and 74 in the original document illustrate these stages: closure of potassium channels, opening of calcium channels, abnormalities of glycolysis and the Krebs cycle, and disturbances in enzymatic cascades and oxidative phosphorylation. These blockages cause insufficient insulin secretion and increased tissue resistance."
+    },
+    {
+      "type": "paragraph",
+      "text": "Chronic hyperglycemia plays a central role. Vascular endothelial cells take up excess glucose in proportion to its blood concentration. Inside these cells, free radical production accelerates, activating abnormal enzymatic pathways and generating toxic molecules that impair the normal functioning of vascular walls. This process leads to accelerated aging of arteries and arterioles."
+    },
+    {
+      "type": "paragraph",
+      "text": "Another mechanism is the formation of glycated proteins. Excess glucose spontaneously attaches to circulating proteins without enzymatic involvement. These glycosylated proteins accumulate in the extracellular matrix and bind to specific receptors (RAGEs) on macrophages, endothelial cells, and smooth muscle cells. This binding triggers additional free radical production and an inflammatory response through activation of NADPH oxidase. Together, these processes promote atherosclerosis and vascular complications."
+    },
+    {
+      "type": "paragraph",
+      "text": "Measurement of glycated hemoglobin (HbA1c) has become the reference test for monitoring the course of T2DM. Normally below 6%, it rises markedly in diabetes. Above 8%, vascular risk becomes substantial. Unlike fasting blood glucose, which often varies, HbA1c reflects average blood glucose over several weeks and helps assess the severity of metabolic imbalance."
+    },
+    {
+      "type": "paragraph",
+      "text": "Thus, T2DM is not merely a disease of blood glucose: it involves progressive accumulation in β cells and target cells, worsened by hyperglycemia and glycated proteins. Understanding these mechanisms opens the way to an etiological therapeutic approach: rather than artificially stimulating exhausted cells, reducing metabolic aggression and restoring digestive and cellular balance."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Insulin secretion and utilization: sites of accumulation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Insulin is produced by the β cells of the pancreatic islets of Langerhans. It is the only glucose-lowering hormone, in contrast to several glucose-raising hormones (glucagon, cortisol, adrenaline, and growth hormone). Its secretion is regulated by two types of signals: blood concentrations of nutrients (glucose, fatty acids, and amino acids), and hormonal messengers or neurotransmitters (GIP, GLP1). Glucose is the main secretagogue: it enters the β cell through the GLUT2 transporter and undergoes glycolysis and the Krebs cycle, producing ATP and intracellular signals that trigger closure of K+ channels, opening of Ca++ channels, and then insulin transcription and synthesis. Finally, the hormone is released through exocytosis."
+    },
+    {
+      "type": "paragraph",
+      "text": "This mechanism can be disrupted at several levels: glucokinase abnormalities, excess uncoupling proteins that inhibit oxidative phosphorylation, and amylin deposits in the pancreas. Amylin, a peptide of 37 amino acids, is found in 80% of people with type 2 diabetes. It contributes to β-cell destruction and impaired insulin secretion."
+    },
+    {
+      "type": "paragraph",
+      "text": "Insulin utilization by target cells (muscle, adipose tissue, and liver) relies on the hormone binding to its membrane receptor, activation of tyrosine kinase, and initiation of complex enzymatic cascades. GLUT1 and GLUT4 transporters enable glucose entry. Depending on whether glucokinase or glycogen synthetase predominates, glucose is directed toward energy production or storage as glycogen. Insulin also promotes triglyceride synthesis."
+    },
+    {
+      "type": "paragraph",
+      "text": "These stages are vulnerable to accumulation: partial or complete blockage of enzymatic cascades, overactivity of certain pathways, and excessive production of insulin inhibitors. Abnormalities may affect phosphorylation, mobilization of transcription factors, or mRNA synthesis. Target cells become resistant, worsening hyperglycemia."
+    },
+    {
+      "type": "paragraph",
+      "text": "Thus, T2DM results from a dual impairment: insufficient insulin secretion by β cells and resistance in target cells. These phenomena are intertwined: insulin resistance initially stimulates secretion, but β cells burdened by accumulation become exhausted and eventually fail. Insulin deficiency increases peripheral resistance, creating a vicious circle."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "An overall hypothesis of pathogenesis"
+    },
+    {
+      "type": "paragraph",
+      "text": "Type 2 diabetes can be explained by a chain of events in which modern diets act as a trigger. Excess saturated fats, refined sugars, and processed products alter intestinal flora and digestion. The damaged small-intestinal mucosa becomes permeable: dietary and bacterial macromolecules cross the intestinal barrier and enter the bloodstream. These exogenous substances gradually accumulate in pancreatic β cells and insulin target cells (myocytes, adipocytes, and hepatocytes)."
+    },
+    {
+      "type": "paragraph",
+      "text": "The liver and excretory organs attempt to eliminate these harmful molecules, but their capacity is limited. Accumulation leads to insufficient insulin secretion and peripheral resistance. Obesity and sedentary lifestyles worsen this process. The resulting hyperglycemia promotes formation of glycosylated proteins, which accumulate in vascular walls and activate inflammatory reactions. Macrophages and polymorphonuclear neutrophils participate in this cascade, worsening damage."
+    },
+    {
+      "type": "paragraph",
+      "text": "Thus, T2DM appears to be a direct consequence of cellular accumulation:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Saturated β cells, unable to maintain sufficient secretion.",
+        "Target cells with blocked enzymatic cascades, resistant to insulin.",
+        "A vascular system weakened by glycated proteins and free radicals."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "This hypothesis leads to a practical conclusion: if modern diets are the primary cause of T2DM, replacing them with appropriate nutrition is the best treatment. Ancestral dietary practices aim to normalize the dietary and bacterial contents of the small intestine, regenerate enterocytes, and restore the integrity of the mucosal barrier. By stopping the flow of harmful molecules, the body can gradually clear accumulated substances from β cells and target cells."
+    },
+    {
+      "type": "paragraph",
+      "text": "This clearance, combined with regular physical activity and a diet rich in fiber and uncooked polyunsaturated fatty acids, could reduce hyperglycemia, limit glycated protein formation, and protect against vascular complications. The Family Clinic approach follows this reasoning: treat the etiological cause rather than symptoms, and restore cells' natural ability to regulate metabolism."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Therapeutic perspectives and the nutritional approach"
+    },
+    {
+      "type": "paragraph",
+      "text": "Conventional treatments for type 2 diabetes rely on physical activity, dietary measures, and medications. Regular exercise improves insulin sensitivity and reduces hyperglycemia. Conventional dietary advice recommends moderate calorie restriction, nutritional balance (55% carbohydrates, 30% fats, 15% proteins), consumption of low-glycemic-index foods, and abundant soluble fiber. Available medications stimulate insulin secretion (sulfonylureas, glinides), reduce peripheral resistance (biguanides, thiazolidinediones, glitazones), or slow intestinal glucose absorption (acarbose). These approaches delay progression but do not cure the disease: sooner or later, diabetes becomes decompensated and insulin-dependent."
+    },
+    {
+      "type": "paragraph",
+      "text": "The relative ineffectiveness of these treatments is explained by their action on the final stages of T2DM without addressing its underlying causes. The accumulation concept proposes another path: combat the factors responsible for cellular dysfunction. Modern diets, rich in trans fatty acids and cooked saturated fats, refined sugars, and industrially manufactured products, exceed human enzymatic capacities. β cells and target cells become burdened by accumulation, lose efficiency, and become exhausted."
+    },
+    {
+      "type": "paragraph",
+      "text": "The solution is nutritional clearance of accumulated substances:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Exclude foods that our enzymes cannot metabolize (trans fats, cooked saturated fats).",
+        "Favor uncooked polyunsaturated fatty acids, suited to our metabolism.",
+        "Restore the intestinal mucosa to stop harmful macromolecules crossing it.",
+        "Reduce hyperglycemia to limit the formation of glycated proteins."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "This approach aims to normalize digestion, regenerate enterocytes, and restore intestinal barrier integrity. The body can then gradually clear exogenous waste from β cells and target cells. This clearance, combined with regular physical activity and a diet rich in plant fiber, could not only slow the progression of T2DM but also improve metabolic health over the long term."
+    },
+    {
+      "type": "paragraph",
+      "text": "The objective is clear: rather than driving exhausted cells to force them to produce more, lighten their burden and allow them to regain their natural balance. The Family Clinic approach follows this reasoning: treat the etiological cause rather than symptoms, and offer an optimistic prospect of cellular regeneration and prevention of vascular complications."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Conclusion and a message of hope"
+    },
+    {
+      "type": "paragraph",
+      "text": "Type 2 diabetes perfectly illustrates the concept of a disease of accumulation. Pancreatic β cells, myocytes, adipocytes, and hepatocytes gradually become saturated with exogenous molecules originating from an unsuitable modern diet and excessive intestinal permeability. This overload causes insufficient insulin secretion, peripheral resistance, and chronic hyperglycemia. The resulting vascular complications are serious: kidney failure, retinopathy, neuropathy, coronary artery disease, arteritis, and cerebrovascular accidents."
+    },
+    {
+      "type": "paragraph",
+      "text": "Conventional treatments, whether medications or conventional dietary regimens, merely slow progression. They artificially stimulate exhausted cells or partially correct insulin resistance without acting on the underlying cause. The vicious circle continues: hyperglycemia, glycated proteins, free radicals, inflammation, and accelerated arterial aging."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Family Clinic approach proposes a different perspective: clear accumulated substances from the body by addressing their digestive and nutritional origins. Restore the integrity of the intestinal mucosal barrier, reduce the passage of harmful macromolecules, favor foods suited to human enzymes, and promote uncooked polyunsaturated fatty acids and plant fiber. This ancestral pattern of nutrition aims to lighten cells' metabolic burden, allowing them gradually to regain their balance."
+    },
+    {
+      "type": "paragraph",
+      "text": "This paradigm shift offers an optimistic perspective. Rather than considering T2DM an inevitable, incurable fate, it becomes possible to slow or even reverse certain pathological mechanisms. Clearing cellular accumulation, combined with an active lifestyle and a hypotoxic diet, can improve quality of life, reduce vascular risks, and extend life expectancy."
+    },
+    {
+      "type": "paragraph",
+      "text": "The message is clear: ‘Primum non nocere’ — first, do no harm. By respecting the body's natural capacities and providing appropriate nutrition, we can transform a feared disease into an opportunity for regeneration. Nutritional medicine, generous and optimistic, opens the way to preventive and restorative medicine centered on people and biological coherence."
+    }
+  ],
+  "translation": {
+    "from": "fr",
+    "method": "AI-assisted translation",
+    "reviewStatus": "not-clinically-reviewed"
+  }
+}

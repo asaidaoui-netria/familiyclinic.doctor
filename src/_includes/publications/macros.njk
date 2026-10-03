@@ -1,0 +1,30 @@
+{% macro illustration(image, className='', eager=false, alt='', sizes='(max-width: 768px) 120px, 180px') %}
+<img class="{{ className }}" src="{{ image.src }}" srcset="{{ image.small }} 240w, {{ image.src }} 640w" sizes="{{ sizes }}" width="{{ image.width }}" height="{{ image.height }}" alt="{{ alt }}" loading="{% if eager %}eager{% else %}lazy{% endif %}" decoding="async">
+{% endmacro %}
+{% macro author(p) %}
+<p class="publication-author">{{ p.copy.by }} <a href="{% if p.locale != 'en' %}/{{ p.locale }}{% endif %}/about.html#dr-said-alaoui">{{ p.author }}</a></p>
+{% endmacro %}
+{% macro categories(p) %}
+<details class="publication-mobile-nav">
+<summary>{{ p.copy.navigation }}</summary>
+<nav aria-label="{{ p.copy.navigation }}">
+{% for c in p.categories %}<a href="{{ c.url }}"{% if p.category.id == c.id %} aria-current="page"{% endif %}>{{ c.title | publicationText(p.locale) | safe }} <span>{{ c.articles | length }}</span></a>{% endfor %}
+<a href="{{ p.book.url }}"{% if p.kind == 'book' or p.kind == 'recipe' %} aria-current="page"{% endif %}>{{ p.book.title }}</a>
+</nav></details>
+<aside class="publication-sidebar">
+<h2>{{ p.copy.navigation }}</h2>
+<nav aria-label="{{ p.copy.navigation }}">
+{% for c in p.categories %}<a href="{{ c.url }}"{% if p.category.id == c.id %} aria-current="page"{% endif %}>{{ c.title | publicationText(p.locale) | safe }} <span>{{ c.articles | length }}</span></a>{% endfor %}
+<a href="{{ p.book.url }}"{% if p.kind == 'book' or p.kind == 'recipe' %} aria-current="page"{% endif %}>{{ p.book.title }}</a>
+</nav></aside>
+{% endmacro %}
+{% macro contents(p) %}
+{% if p.toc | length %}
+<aside class="publication-contents">
+<h2>{{ p.copy.contents }}</h2>
+<nav aria-label="{{ p.copy.contents }}">{% for item in p.toc %}<a href="#{{ item.id }}">{{ item.title | publicationText(p.locale) | safe }}</a>{% endfor %}</nav>
+<a class="publication-contents-back" href="{{ p.category.url }}"><span aria-hidden="true">{{ p.copy.backArrow }}</span> {{ p.copy.back }}</a>
+</aside>
+<details class="publication-mobile-contents"><summary>{{ p.copy.contents }}</summary><nav aria-label="{{ p.copy.contents }}">{% for item in p.toc %}<a href="#{{ item.id }}">{{ item.title | publicationText(p.locale) | safe }}</a>{% endfor %}</nav></details>
+{% endif %}
+{% endmacro %}

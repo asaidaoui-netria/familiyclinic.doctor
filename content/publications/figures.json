@@ -1,0 +1,19 @@
+{
+  "C04": [
+    {
+      "afterSourceText": "Le diagnostic repose sur la sensibilité exagérée de 22 points douloureux répartis sur le corps (occiput, trapèze, épicondyle, sacro‑iliaque, trochanter, genou, tendon d’Achille, etc.).",
+      "sourcePart": "word/media/image1.png",
+      "src": "/assets/images/publications/C04-tender-points.webp",
+      "width": 498,
+      "height": 693,
+      "alt": {
+        "en": "Front and back views of a human body with red markers at points across the neck, shoulders, arms, lower back, knees and ankles.",
+        "fr": "Vues de face et de dos du corps humain, avec des repères rouges au cou, aux épaules, aux bras, au bas du dos, aux genoux et aux chevilles."
+      },
+      "caption": {
+        "en": "Tender-point illustration reproduced from the author’s original article.",
+        "fr": "Illustration des points douloureux reproduite de l’article original de l’auteur."
+      }
+    }
+  ]
+}

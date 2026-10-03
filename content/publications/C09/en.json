@@ -1,0 +1,441 @@
+{
+  "language": "en",
+  "status": "published",
+  "title": "Vitamin B1, inositol and diabetes",
+  "summary": "An accessible introduction to vitamin B1 and inositol in diabetes, explaining their metabolic roles, proposed benefits, dietary sources compatible with hypotoxic nutrition, supplementation research and precautions, with comparative tables adapted to the Moroccan context.",
+  "sourceHash": "f45b559e4f154109a86adbcb83354210602e3c29bf17be9761e0a333376bd850",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Foreword"
+    },
+    {
+      "type": "paragraph",
+      "text": "Diabetes is a chronic disease that disrupts the body's balance and weakens its defence mechanisms. Beyond indispensable drug treatments, modern research highlights the discreet but essential role of certain micronutrients. Among them, vitamin B1 (thiamine) and inositol emerge as two little-known allies capable of providing valuable support in combating metabolic and vascular complications."
+    },
+    {
+      "type": "paragraph",
+      "text": "Thiamine, long considered simply a vitamin of energy metabolism, now reveals protective potential against hyperglycaemia's harmful effects. It acts as a shield against oxidative stress and damage to nerves and blood vessels, helping preserve patients' quality of life. Inositol, for its part, plays a subtle role in insulin signalling and blood glucose regulation. Its ability to improve cells' sensitivity to insulin makes it a key player in preventing metabolic syndrome and type 2 diabetes."
+    },
+    {
+      "type": "paragraph",
+      "text": "This booklet aims to make this knowledge accessible by expressing it in clear, practical language. It addresses patients, families and healthcare professionals wishing to understand how these nutrients can complement conventional approaches. Each chapter explores mechanisms, benefits and practical applications, while offering nutritional guidance suited to the Moroccan context."
+    },
+    {
+      "type": "paragraph",
+      "text": "Our objective is twofold: educate and empower. Educate by offering accessible, reliable scientific information. Empower by showing that every food choice can become a therapeutic action, every meal an opportunity to strengthen health."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vitamin B1 and inositol are therefore more than simple supplements: they embody an integrated philosophy of care, where nutrition engages with medicine to build a calmer future in the face of diabetes."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "General introduction to diabetes"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Definition and types of diabetes"
+    },
+    {
+      "type": "paragraph",
+      "text": "Diabetes is a chronic condition characterised by persistently elevated blood glucose. This hyperglycaemia results from insulin deficiency or tissue resistance to its action. Three main forms are recognised:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Type 1 diabetes, of autoimmune origin, in which pancreatic beta cells are destroyed, leading to a total absence of insulin.",
+        "Type 2 diabetes, the most common form, marked by progressive tissue resistance to insulin and insufficient secretion.",
+        "Gestational diabetes, occurring during pregnancy and exposing mother and child to future metabolic risks."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Pathophysiological mechanisms"
+    },
+    {
+      "type": "paragraph",
+      "text": "Diabetes involves complex mechanisms:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Insulin resistance: muscle, liver and fat cells no longer respond properly to the hormonal signal, preventing glucose entry.",
+        "Chronic hyperglycaemia: sugar remains in the blood, triggering a cascade of harmful reactions.",
+        "Oxidative stress and glycation: excess glucose favours the formation of free radicals and advanced glycation end products, which damage tissues.",
+        "Pancreatic dysfunction: beta cells gradually become exhausted, worsening insulin deficiency."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Metabolic and vascular complications"
+    },
+    {
+      "type": "paragraph",
+      "text": "Persistent hyperglycaemia causes serious complications:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Microangiopathies: damage to small vessels, responsible for diabetic retinopathy, nephropathy and neuropathy.",
+        "Macroangiopathies: damage to large arteries, favouring atherosclerosis, myocardial infarction and strokes.",
+        "Associated metabolic disorders: hypertension, dyslipidaemia and abdominal obesity, which increase cardiovascular risk.",
+        "Nerve changes: pain, loss of sensation, foot ulcers, potentially leading to amputations."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Diabetes thus appears as a systemic disease extending far beyond simple blood sugar regulation. It requires a comprehensive approach integrating medicine, nutrition and prevention to reduce risks and improve patients' quality of life."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Vitamin B1 (Thiamine)"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Metabolism and physiological role"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vitamin B1, or thiamine, is an essential coenzyme in carbohydrate metabolism. It activates key enzymes such as pyruvate dehydrogenase and transketolase, allowing glucose to be transformed into energy usable by cells. This role is vital for producing ATP, the body's universal fuel, and for proper nervous and cardiovascular system function."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Thiamine deficiency in people with diabetes"
+    },
+    {
+      "type": "paragraph",
+      "text": "Thiamine deficiency is common in patients with diabetes. Chronic hyperglycaemia increases its urinary elimination, reducing available reserves. This deficiency increases glycation product accumulation and oxidative stress, two mechanisms responsible for diabetes complications. Clinical signs include fatigue, memory problems, neuropathies and vascular fragility."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Protective effects against microvascular complications"
+    },
+    {
+      "type": "paragraph",
+      "text": "Thiamine acts as a shield against lesions induced by excess glucose. It reduces advanced glycation end product formation, limits inflammation and protects vascular walls. Studies show that supplementation with thiamine or fat-soluble derivatives such as benfotiamine reduces the risks of diabetic retinopathy, nephropathy and neuropathy. It thus helps preserve vision, kidney function and nerve sensation."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Clinical studies and therapeutic perspectives"
+    },
+    {
+      "type": "paragraph",
+      "text": "Clinical research confirms thiamine's value in preventing diabetes complications. Trials have shown improved endothelial function and reduced oxidative stress markers in supplemented patients. Benfotiamine, better absorbed than conventional thiamine, is particularly studied for its protective effects. These findings open the way to incorporating thiamine as a therapeutic adjunct alongside conventional treatments."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Dietary sources and practical recommendations"
+    },
+    {
+      "type": "paragraph",
+      "text": "Within the hypotoxic diet, modern cereals, even whole grains, are excluded. Thiamine sources must therefore be adapted:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Legumes: lentils, chickpeas, beans.",
+        "Seeds and nuts: sesame, sunflower, walnuts.",
+        "Fish and seafood: sardines, prawns, mackerel.",
+        "Offal: liver, kidneys, heart."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "In the Moroccan context, these foods are accessible and compatible with the hypotoxic approach. A varied, balanced diet generally meets requirements, but supplementation may be considered in patients with diabetes at risk of deficiency, under medical supervision."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Inositol (Myo-inositol and D-chiro-inositol)"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Structure and biological functions"
+    },
+    {
+      "type": "paragraph",
+      "text": "Inositol, sometimes called “vitamin B8”, is a sugar alcohol naturally present in the body and many foods. Its main biological forms, myo-inositol and D-chiro-inositol, participate in cell membrane composition and play a fundamental role in intracellular signalling. In particular, they act as insulin second messengers, facilitating communication between the hormone and cells."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Role in insulin signalling"
+    },
+    {
+      "type": "paragraph",
+      "text": "Inositol lies at the heart of the metabolic cascade triggered by insulin. It allows glucose to enter muscle and fat cells, contributing to optimal blood glucose regulation. In deficiency or imbalance, the cellular response becomes insufficient, favouring insulin resistance, the central mechanism of type 2 diabetes."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Impact on insulin sensitivity and blood glucose regulation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Clinical studies show that inositol improves tissue sensitivity to insulin. It helps reduce blood glucose, triglycerides and blood pressure, while favouring better metabolic balance. In patients with metabolic syndrome or type 2 diabetes, supplementation with myo-inositol or D-chiro-inositol has significantly improved blood glucose and lipid profiles."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Applications in metabolic syndrome and type 2 diabetes"
+    },
+    {
+      "type": "paragraph",
+      "text": "Inositol is particularly studied in metabolic syndrome, where it acts on several parameters: blood glucose, blood lipids, blood pressure and body weight. In type 2 diabetes, it helps restore a better insulin response and limit cardiovascular complications. It is also explored in diabetic neuropathies, because reduced myo-inositol in peripheral nerves is associated with nerve lesions, although clinical results remain variable."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Dietary sources and supplementation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Within the hypotoxic diet, inositol sources must be carefully selected, excluding modern cereals. Compatible foods include:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Legumes: chickpeas, lentils, beans.",
+        "Fresh fruit: citrus fruits, melons, bananas.",
+        "Nuts and seeds: walnuts, almonds, sesame, sunflower.",
+        "Various vegetables: courgettes, carrots, beetroot."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "In the Moroccan context, chickpeas, lentils, citrus fruits and walnuts are accessible sources consistent with the hypotoxic approach. Supplementation, often studied at doses of 2 to 4 g per day, is well tolerated and may be considered alongside a balanced diet, under medical supervision."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Integrated approach"
+    },
+    {
+      "type": "paragraph",
+      "text": "Diabetes care must go beyond the strict framework of medication and blood glucose control. It forms part of a comprehensive vision where nutrition, lifestyle and prevention combine to reduce risks and improve quality of life. Within this approach, vitamin B1 and inositol emerge as two complementary pillars capable of strengthening conventional strategies' effectiveness."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Complementarity between thiamine and inositol"
+    },
+    {
+      "type": "paragraph",
+      "text": "Thiamine protects nerves and blood vessels by limiting the harmful effects of chronic hyperglycaemia and oxidative stress. Inositol improves tissue sensitivity to insulin and promotes better metabolic regulation. Together, they offer synergy: one prevents microvascular complications, the other acts on insulin resistance, two central mechanisms of diabetes."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Role in preventing complications"
+    },
+    {
+      "type": "paragraph",
+      "text": "Incorporating these micronutrients into an appropriate diet reduces the risk of retinopathy, nephropathy and neuropathy while improving blood glucose and lipid profiles. They do not replace drug treatments, but constitute valuable adjuncts capable of slowing disease progression and strengthening prevention."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Limitations and precautions for use"
+    },
+    {
+      "type": "paragraph",
+      "text": "Supplementation must be supervised and personalised. Optimal doses vary among patients, and self-medication may be ineffective or inappropriate. Although promising, clinical studies do not yet permit universal recommendations. The integrated approach therefore rests on adaptation to metabolic profile, eating habits and local resources."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Integration into a comprehensive nutritional strategy"
+    },
+    {
+      "type": "paragraph",
+      "text": "Within the hypotoxic diet, food sources must be carefully chosen. Legumes (lentils, chickpeas, beans), nuts and seeds (sesame, sunflower, almonds), fish and seafood, and fresh fruit (citrus fruits, melons, bananas) provide safe, accessible intake. Emphasising them in daily meals, combined with regular physical activity, stress management and attentive medical follow-up, forms a realistic, effective strategy."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vitamin B1 and inositol are therefore more than simple supplements: they embody an integrated philosophy of care, where nutrition engages with medicine to build a calmer future in the face of diabetes."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Comparative tables and overviews"
+    },
+    {
+      "type": "paragraph",
+      "text": "Understanding vitamin B1 and inositol's role in diabetes becomes clearer when presented as an overview. Comparative tables help visualise their functions, benefits and dietary sources compatible with the hypotoxic diet."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Table 1 – Physiological roles and benefits in diabetes"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Nutrient",
+          "Main role",
+          "Effects in diabetes",
+          "Major benefits"
+        ],
+        [
+          "Vitamin B1 (Thiamine)",
+          "Cofactor in carbohydrate metabolism",
+          "Reduces oxidative stress and glycation",
+          "Protection of nerves and blood vessels"
+        ],
+        [
+          "Inositol (Myo-inositol, D-chiro-inositol)",
+          "Insulin second messenger",
+          "Improves insulin sensitivity",
+          "Regulation of blood glucose and lipid profile"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Table 2 – Dietary sources compatible with the hypotoxic diet"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Nutrient",
+          "Main sources",
+          "Accessible Moroccan examples"
+        ],
+        [
+          "Vitamin B1",
+          "Legumes, seeds, fish, offal",
+          "Lentils, chickpeas, sardines, sesame, liver"
+        ],
+        [
+          "Inositol",
+          "Legumes, fresh fruit, nuts, vegetables",
+          "Chickpeas, lentils, citrus fruits, walnuts, carrots"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Table 3 – Dosages and tolerance (supplementation)"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Nutrient",
+          "Supplementation studied",
+          "Tolerance"
+        ],
+        [
+          "Vitamin B1",
+          "Benfotiamine: 150–300 mg/day",
+          "Well tolerated, under medical supervision"
+        ],
+        [
+          "Inositol",
+          "Myo-inositol: 2–4 g/day",
+          "Safe up to 12 g/day over 4 weeks"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Overview"
+    },
+    {
+      "type": "paragraph",
+      "text": "Thiamine and inositol complement one another in diabetes care. The first protects tissues against hyperglycaemia's harmful effects, while the second improves insulin response and favours metabolic balance. Incorporating them into a hypotoxic diet suited to the Moroccan context strengthens complication prevention while respecting local constraints. These nutrients do not replace drug treatments, but embody an integrated approach where nutrition becomes a therapeutic tool serving the patient."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Conclusion"
+    },
+    {
+      "type": "paragraph",
+      "text": "Diabetes is a complex chronic disease extending far beyond simple blood sugar regulation. Its pathophysiological mechanisms, metabolic and vascular complications, and impact on quality of life require a comprehensive, integrated approach. Along this path, vitamin B1 (thiamine) and inositol prove to be two valuable allies: the first protects nerves and vessels against hyperglycaemia's harmful effects, while the second improves tissue sensitivity to insulin and favours better metabolic balance."
+    },
+    {
+      "type": "paragraph",
+      "text": "Their complementarity illustrates a philosophy of care where nutrition engages with medicine and every food choice becomes a therapeutic action. Adaptation to the Family Clinic hypotoxic diet, validated and contextualised for Morocco, strengthens this approach by offering local, accessible and culturally accepted alternatives. Legumes, fresh fruit, nuts, seeds and fish thus constitute a solid foundation for protective, therapeutic nutrition."
+    },
+    {
+      "type": "paragraph",
+      "text": "This booklet forms part of an ongoing project: it extends the work presented in Cooking to Heal (2026), educational booklets on diabetes and the Family Clinic hypotoxic nutritional protocol. Together, these publications form a coherent body of work intended to support patients, families and healthcare professionals in prevention and empowerment."
+    },
+    {
+      "type": "paragraph",
+      "text": "The conclusion is clear: diabetes should not be experienced as inevitable."
+    },
+    {
+      "type": "paragraph",
+      "text": "Through an alliance between science, nutrition and education, it is possible to reduce risks, slow disease progression and preserve quality of life. Thiamine and inositol, integrated into a hypotoxic strategy, embody this vision of comprehensive, humane and lasting care."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Dr SAID ALAOUI Moulay Abdellah"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Family Clinic Editions (2026)"
+    }
+  ],
+  "translation": {
+    "from": "fr",
+    "method": "AI-assisted translation",
+    "reviewStatus": "not-clinically-reviewed"
+  }
+}

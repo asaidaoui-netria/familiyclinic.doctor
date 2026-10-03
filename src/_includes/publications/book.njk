@@ -1,0 +1,11 @@
+<header class="publication-book-heading">
+{{ illustration(p.book.image,'',true,pc.bookCover) }}
+<div><p class="publication-eyebrow">{{ pc.bookLabel }}</p><h1>{{ p.title | publicationText(p.locale) | safe }}</h1><p class="publication-intro">{{ pc.bookIntro }}</p>{{ author(p) }}</div>
+</header>
+<div class="publication-layout">{{ categories(p) }}
+<section class="publication-list" aria-labelledby="publication-recipes-title">
+<details class="publication-book-excerpt"><summary>{{ pc.preface }}</summary><div class="publication-prose"><h2>{{ p.book.introduction.title }}</h2>{{ p.introduction | safe }}</div></details>
+<h2 id="publication-recipes-title">{{ pc.recipeTitle }}</h2>
+{% for r in p.book.recipes %}<article class="publication-article-row"><div><p class="publication-eyebrow">{{ pc.recipe }} {{ r.number }}</p><h3><a href="{{ r.url }}">{{ r.title | publicationText(p.locale) | safe }}</a></h3><p>{{ r.time | publicationText(p.locale) | safe }} · {{ r.servings | publicationText(p.locale) | safe }}</p></div><span aria-hidden="true">{{ pc.forwardArrow }}</span></article>{% endfor %}
+<p class="publication-care">{{ pc.disclaimer }}</p>
+</section></div>

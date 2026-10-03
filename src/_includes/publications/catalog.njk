@@ -1,33 +1,17 @@
-{% set copy = site.locales[locale].publications %}
-{% set localePrefix = "" %}
-{% if locale != "en" %}{% set localePrefix = "/" + locale %}{% endif %}
-<section class="publications-catalog" data-publication-catalog>
-  <div class="container">
-    <p class="publications-catalog__eyebrow">{{ copy.eyebrow }}</p>
-    <h1>{{ copy.catalogTitle }}</h1>
-    <p class="publications-catalog__intro">{{ copy.catalogIntro }}</p>
-
-    <div class="publication-filters" data-publication-filters role="group" aria-label="{{ copy.filtersLabel }}" hidden>
-      {% for category, label in copy.filters %}
-      <button type="button" class="publication-filter" data-publication-filter="{{ category }}" aria-pressed="{% if category == 'all' %}true{% else %}false{% endif %}">{{ label }}</button>
-      {% endfor %}
-    </div>
-
-    <div class="publication-grid">
-      {% for publication in publications %}
-      {% set edition = publication.editions[locale] %}
-      <article class="publication-card" data-publication-category="{{ publication.category }}">
-        <a class="publication-card__link" href="{{ localePrefix }}/publications/{{ publication.slug }}/" aria-label="{{ edition.title }}">
-          <img class="publication-card__cover" src="{{ edition.assets.cover.url }}" alt="" width="{{ edition.assets.cover.width }}" height="{{ edition.assets.cover.height }}" loading="lazy" decoding="async">
-          <div class="publication-card__body">
-            <p class="publication-card__category">{{ copy.filters[publication.category] }}</p>
-            <h2 class="publication-card__title">{{ edition.title }}</h2>
-            <p class="publication-card__summary">{{ edition.summary }}</p>
-            <p class="publication-card__pages">{{ edition.assets.full.pageCount }} {{ copy.pageCount }}</p>
-          </div>
-        </a>
-      </article>
-      {% endfor %}
-    </div>
-  </div>
+<header class="publication-hero">
+<div><h1>{{ p.title | publicationText(p.locale) | safe }}</h1><p class="publication-intro">{{ p.description | publicationText(p.locale) | safe }}</p>{{ author(p) }}</div>
+</header>
+<section class="publication-directory" aria-labelledby="publication-browse">
+<div class="publication-section-heading"><h2 id="publication-browse">{{ pc.browse }}</h2></div>
+{% for c in p.categories %}
+<div class="publication-category-row">
+<div><h2><a href="{{ c.url }}">{{ c.title | publicationText(p.locale) | safe }}</a></h2><p>{{ c.description | publicationText(p.locale) | safe }}</p><a class="publication-action" href="{{ c.url }}">{{ pc.explore }} <span aria-hidden="true">{{ pc.forwardArrow }}</span></a></div>
+<ul>{% for a in c.articles.slice(0,3) %}<li><a href="{{ a.url }}">{{ a.title | publicationText(p.locale) | safe }}</a></li>{% endfor %}</ul>
+{% if c.articles[0] %}{{ illustration(c.articles[0].image) }}{% endif %}
+</div>
+{% endfor %}
+</section>
+<section class="publication-book-feature">
+{{ illustration(p.book.image,'',false,p.book.title) }}
+<div><p class="publication-eyebrow">{{ pc.bookLabel }}</p><h2>{{ pc.bookTitle }}</h2><p>{{ pc.bookDescription }}</p><a class="publication-action" href="{{ p.book.url }}">{{ pc.bookAction }} <span aria-hidden="true">{{ pc.forwardArrow }}</span></a></div>
 </section>

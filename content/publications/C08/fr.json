@@ -1,0 +1,813 @@
+{
+  "language": "fr",
+  "status": "published",
+  "title": "Diabète & hyperinsulinisme - Conseils pratiques",
+  "summary": "Le diabète et l’hyperinsulinisme touchent aujourd’hui de plus en plus de familles. Ce fascicule est conçu comme un outil pédagogique et thérapeutique, pensé pour les patients, leurs proches et les professionnels de santé. Il illustre la philosophie Family Clinic : allier science, nutrition et culture pour transformer chaque repas en un geste de prévention et de guérison. Il s’inscrit dans la continuité du livre « Cuisiner pour guérir » (2026), véritable compagnon de route au quotidien. Plus qu’un simple recueil de recettes, cet ouvrage fondateur associe rigueur thérapeutique et plaisir gourmand, offrant à chacun la possibilité de reprendre le contrôle de sa santé sans renoncer à la convivialité de la table.",
+  "sourceHash": "85b164272c31627025a7b55732c970c8a99470c817f7792cf8f834665b1c413c",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Avant-propos"
+    },
+    {
+      "type": "paragraph",
+      "text": "Le diabète et l’hyperinsulinisme sont des maladies silencieuses. Elles s’installent progressivement, souvent sans symptômes visibles, jusqu’à ce que le corps crie son déséquilibre. Face à ce défi, l’alimentation devient une arme douce mais puissante, capable de transformer la vie quotidienne en une stratégie thérapeutique."
+    },
+    {
+      "type": "paragraph",
+      "text": "L’approche hypotoxique que nous proposons repose sur trois piliers complémentaires :"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Éliminer les toxines alimentaires : gluten, produits laitiers, sucres raffinés, additifs et excès industriels qui entretiennent l’inflammation et perturbent le métabolisme.",
+        "Favoriser les aliments protecteurs : fibres, protéines végétales, bons lipides, antioxydants naturels issus des légumineuses, des fruits frais, des graines et des huiles locales.",
+        "Adapter les recettes à la culture locale : pour que chaque patient puisse trouver dans son marché et sa cuisine les clés de sa santé, sans rupture avec ses habitudes ni son identité culinaire."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Ce fascicule n’est pas un manuel médical figé, mais un guide de vie. Il ne remplace pas le suivi thérapeutique, mais il complète la prise en charge en donnant au patient les moyens d’agir chaque jour. Il propose une pédagogie accessible, des repères pratiques et des recettes adaptées aux réalités locales."
+    },
+    {
+      "type": "paragraph",
+      "text": "Chaque chapitre est conçu comme une étape : comprendre la maladie, découvrir les bases de l’alimentation hypotoxique, apprendre des stratégies culinaires adaptées, puis explorer des recettes pratiques et des conseils de vie. Enfin, des annexes pédagogiques viennent renforcer la compréhension et l’autonomie, en offrant des outils simples pour suivre les progrès et consolider les acquis."
+    },
+    {
+      "type": "paragraph",
+      "text": "Notre ambition est claire : que chaque lecteur puisse dire, en refermant ce fascicule, « Je comprends mieux ma maladie, et je sais comment cuisiner pour guérir. » Ce message est une promesse de responsabilisation et d’espérance. L’alimentation devient alors un langage universel : elle relie la science et la culture, la prévention et le plaisir, la rigueur et la créativité."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ainsi, ce fascicule s’inscrit dans une continuité : il prolonge les travaux de Cuisiner pour guérir et du protocole Family Clinic, en offrant un outil concret, culturellement enraciné et scientifiquement validé. Il invite chacun à transformer son quotidien, à faire de chaque repas un acte de soin, et à redonner au corps la dignité d’une santé retrouvée."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Comprendre le diabète et l’hyperinsulinisme"
+    },
+    {
+      "type": "paragraph",
+      "text": "Le diabète et l’hyperinsulinisme ne sont pas une fatalité. En comprenant les mécanismes et en adaptant son alimentation, chacun peut reprendre le contrôle de sa glycémie et protéger ses cellules."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Qu’est-ce que le diabète ?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Définition : Maladie chronique caractérisée par une élévation persistante de la glycémie."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Types principaux :"
+    },
+    {
+      "type": "paragraph",
+      "text": "Diabète de type 1 : déficit absolu en insuline (maladie auto-immune)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Diabète de type 2 : résistance des cellules à l’insuline, souvent liée au mode de vie."
+    },
+    {
+      "type": "paragraph",
+      "text": "Conséquences : fatigue, soif excessive, complications cardiovasculaires, atteintes nerveuses et rénales."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "L’hyperinsulinisme expliqué"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hyperinsulinisme : excès d’insuline sécrété par le pancréas pour compenser la résistance des cellules."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mécanisme : Les cellules deviennent “sourdes” au signal de l’insuline, le pancréas produit davantage d’insuline pour forcer l’entrée du glucose et ce cercle vicieux entretient la fatigue et favorise le stockage de graisses."
+    },
+    {
+      "type": "paragraph",
+      "text": "Lien avec l’obésité et le syndrome métabolique : l’hyperinsulinisme est souvent le premier signe d’un déséquilibre global."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les complications métaboliques associées"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cardiovasculaires : hypertension, athérosclérose."
+    },
+    {
+      "type": "paragraph",
+      "text": "Hépatiques : stéatose (foie gras)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Neurologiques : troubles de la mémoire, neuropathies."
+    },
+    {
+      "type": "paragraph",
+      "text": "Digestives : déséquilibre du microbiote, ballonnements."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Le rôle central de l’alimentation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Aliments à IG élevé (pain blanc, sucre raffiné) → favorisent les pics glycémiques et l’hyperinsulinisme."
+    },
+    {
+      "type": "paragraph",
+      "text": "Aliments hypotoxiques (légumineuses, légumes doux, huiles végétales) → stabilisent la glycémie et réduisent la charge sur le pancréas."
+    },
+    {
+      "type": "paragraph",
+      "text": "Fibres et protéines végétales → ralentissent l’absorption du glucose et améliorent la satiété."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Les bases de l’alimentation hypotoxique"
+    },
+    {
+      "type": "paragraph",
+      "text": "L’alimentation hypotoxique n’est pas une privation, c’est une redécouverte. Elle permet de manger mieux, avec des ingrédients simples, locaux et protecteurs."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Qu’est-ce qu’une alimentation hypotoxique ?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Définition : une alimentation qui réduit les toxines alimentaires et favorise les nutriments protecteurs."
+    },
+    {
+      "type": "paragraph",
+      "text": "Origine du terme : “hypo” = moins, “toxique” = nuisible."
+    },
+    {
+      "type": "paragraph",
+      "text": "Objectif : alléger le travail du système digestif, réduire l’inflammation, stabiliser la glycémie."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les piliers de l’alimentation hypotoxique"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sans gluten : pour limiter la perméabilité intestinale et les réactions inflammatoires."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sans produits laitiers animaux : pour réduire les facteurs de croissance et les troubles digestifs."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sans sucres raffinés : pour éviter les pics glycémiques et l’hyperinsulinisme."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sans additifs chimiques : pour préserver le microbiote et la santé hépatique."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les aliments à privilégier"
+    },
+    {
+      "type": "paragraph",
+      "text": "Légumineuses locales : pois chiches, lentilles, haricots blancs → riches en fibres et protéines végétales."
+    },
+    {
+      "type": "paragraph",
+      "text": "Légumes doux et racines : carottes, courgettes, patate douce, navet → à IG modéré et digestes."
+    },
+    {
+      "type": "paragraph",
+      "text": "Fruits peu sucrés : pomme, agrumes, fruits rouges → riches en antioxydants."
+    },
+    {
+      "type": "paragraph",
+      "text": "Huiles végétales de qualité : huile d’olive, huile de noix → riches en oméga-9 et anti-inflammatoires."
+    },
+    {
+      "type": "paragraph",
+      "text": "Graines et oléagineux : amandes, graines de lin, sésame → apportent fibres, bons lipides et minéraux."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Index glycémique et charge glycémique"
+    },
+    {
+      "type": "paragraph",
+      "text": "Index glycémique (IG) : mesure la vitesse d’absorption du glucose après ingestion d’un aliment."
+    },
+    {
+      "type": "paragraph",
+      "text": "IG élevé → pain blanc, riz blanc, sucre."
+    },
+    {
+      "type": "paragraph",
+      "text": "IG bas → lentilles, quinoa, légumes verts."
+    },
+    {
+      "type": "paragraph",
+      "text": "Charge glycémique (CG) : prend en compte l’IG et la quantité de glucides consommés."
+    },
+    {
+      "type": "paragraph",
+      "text": "Exemple : une petite portion de carottes (IG moyen) a une CG faible → donc bénéfique."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Pourquoi cette approche est adaptée au diabète"
+    },
+    {
+      "type": "paragraph",
+      "text": "Stabilisation de la glycémie : grâce aux fibres et aux glucides complexes."
+    },
+    {
+      "type": "paragraph",
+      "text": "Réduction de l’hyperinsulinisme : en évitant les aliments à IG élevé."
+    },
+    {
+      "type": "paragraph",
+      "text": "Soutien du microbiote : grâce aux aliments fermentescibles et aux assaisonnements naturels."
+    },
+    {
+      "type": "paragraph",
+      "text": "Préservation de la santé hépatique et pancréatique : en limitant les surcharges métaboliques."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Stratégies culinaires adaptées"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cuisiner hypotoxique, c’est apprendre à transformer des gestes simples en soins quotidiens. Chaque assaisonnement, chaque cuisson devient un acte de régulation et de protection."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Cuisson douce et préservation des nutriments"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pourquoi éviter les cuissons agressives : friture, grillades à haute température → formation de composés toxiques."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Méthodes recommandées :"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Vapeur douce : préserve les vitamines et minéraux.",
+        "Mijotage à feu doux : idéal pour les légumes racines et les légumineuses.",
+        "Four à basse température : pour les galettes, gratins et biscuits hypotoxiques."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Assaisonnements fonctionnels"
+    },
+    {
+      "type": "paragraph",
+      "text": "Citron : alcalinisant, facilite la digestion et régule la glycémie."
+    },
+    {
+      "type": "paragraph",
+      "text": "Gingembre : anti-inflammatoire, stimule le métabolisme."
+    },
+    {
+      "type": "paragraph",
+      "text": "Cumin et coriandre : digestifs, équilibrent les plats de légumineuses."
+    },
+    {
+      "type": "paragraph",
+      "text": "Menthe et persil : rafraîchissants, riches en antioxydants."
+    },
+    {
+      "type": "paragraph",
+      "text": "Curcuma + poivre noir : synergie anti-inflammatoire puissante."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Substituts du pain"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pourquoi remplacer le pain blanc : Indice Glycémique élevé, favorise les pics glycémiques."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Alternatives locales hypotoxiques :"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Galettes de pois chiches : riches en protéines et sans gluten.",
+        "Crêpes de farine de coco ou de sarrasin : digestes et rassasiantes.",
+        "Pain aux graines : mélange de lin, sésame, chia, sans farine raffinée."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Conseil pratique : préparer en grande quantité et congeler en portions."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Desserts hypotoxiques compatibles"
+    },
+    {
+      "type": "paragraph",
+      "text": "Crèmes végétales : à base de patate douce, carotte, coco."
+    },
+    {
+      "type": "paragraph",
+      "text": "Compotes sans sucre ajouté : pomme, poire, agrumes, avec cannelle ou gingembre."
+    },
+    {
+      "type": "paragraph",
+      "text": "Biscuits hypotoxiques : farine de pois chiches, huile d’olive, fruits secs."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mousses légères : avocat-cacao, banane-coco, avec stévia ou érythritol."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Organisation en cuisine"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pré-cuisson des légumineuses : trempage + cuisson douce → gain de temps."
+    },
+    {
+      "type": "paragraph",
+      "text": "Batch cooking hypotoxique : cuisiner pour 3 jours, avec variantes simples."
+    },
+    {
+      "type": "paragraph",
+      "text": "Utilisation des restes : salades tièdes, galettes, soupes enrichies."
+    },
+    {
+      "type": "paragraph",
+      "text": "Étiquetage des portions : pour mieux gérer les quantités et éviter les excès."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Conseils de vie quotidienne"
+    },
+    {
+      "type": "paragraph",
+      "text": "La santé ne se joue pas seulement dans l’assiette, mais dans l’organisation quotidienne. Chaque petit geste compte pour stabiliser la glycémie et retrouver l’énergie."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Organisation des repas et portions adaptées"
+    },
+    {
+      "type": "paragraph",
+      "text": "Fractionner les repas : 3 repas principaux + 1 à 2 collations hypotoxiques."
+    },
+    {
+      "type": "paragraph",
+      "text": "Portions équilibrées : moitié légumes, un quart protéines végétales, un quart glucides complexes."
+    },
+    {
+      "type": "paragraph",
+      "text": "Préparation anticipée : batch cooking pour 2 à 3 jours."
+    },
+    {
+      "type": "paragraph",
+      "text": "Astuce : utiliser des contenants individuels pour éviter les excès."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Gestion des envies sucrées"
+    },
+    {
+      "type": "paragraph",
+      "text": "Substituts naturels : compotes sans sucre, fruits frais, desserts hypotoxiques."
+    },
+    {
+      "type": "paragraph",
+      "text": "Édulcorants adaptés : stévia, érythritol, utilisés avec modération."
+    },
+    {
+      "type": "paragraph",
+      "text": "Hydratation : boire une infusion ou un verre d’eau avant de céder à une envie."
+    },
+    {
+      "type": "paragraph",
+      "text": "Astuce : occuper l’esprit (marche, lecture) pour détourner l’envie."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Activité physique et équilibre glycémique"
+    },
+    {
+      "type": "paragraph",
+      "text": "Importance : l’exercice augmente la sensibilité à l’insuline."
+    },
+    {
+      "type": "paragraph",
+      "text": "Recommandations : 30 min de marche rapide ou activité douce chaque jour."
+    },
+    {
+      "type": "paragraph",
+      "text": "Astuce : privilégier les activités plaisantes (danse, vélo, jardinage)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Variante : fractionner en 3 sessions de 10 min si manque de temps."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Manger en famille ou à l’extérieur"
+    },
+    {
+      "type": "paragraph",
+      "text": "En famille : proposer des plats hypotoxiques pour tous, éviter les repas séparés."
+    },
+    {
+      "type": "paragraph",
+      "text": "Au restaurant : choisir salades, plats mijotés, éviter fritures et pains blancs."
+    },
+    {
+      "type": "paragraph",
+      "text": "Astuce : demander des légumes en accompagnement à la place des frites."
+    },
+    {
+      "type": "paragraph",
+      "text": "Variante : emporter ses galettes ou petits pains hypotoxiques."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Annexes pédagogiques"
+    },
+    {
+      "type": "paragraph",
+      "text": "Les annexes sont vos repères rapides. Elles vous permettent de vérifier, comparer et choisir vos aliments en toute autonomie."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Glossaire des termes médicaux et nutritionnels"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Hyperinsulinisme : excès d’insuline dans le sang, souvent lié à une résistance des cellules.",
+        "Insulinorésistance : diminution de la sensibilité des cellules à l’insuline.",
+        "Glycémie : taux de sucre dans le sang.",
+        "Hypoglycémie : baisse excessive de la glycémie.",
+        "Index glycémique (IG) : vitesse à laquelle un aliment élève la glycémie.",
+        "Charge glycémique (CG) : impact réel d’un aliment sur la glycémie (IG + quantité).",
+        "HbA1c : reflet de la glycémie moyenne sur 2 à 3 mois.",
+        "Fibres alimentaires : ralentissent l’absorption du glucose et améliorent la satiété.",
+        "Protéines végétales : pois chiches, lentilles, haricots, quinoa.",
+        "Lipides de qualité : huiles végétales riches en oméga-3 et oméga-9.",
+        "Antioxydants : molécules protectrices présentes dans fruits et légumes colorés.",
+        "Alimentation hypotoxique : mode alimentaire sans gluten, sans produits laitiers, sans sucres raffinés, sans additifs."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Table des index glycémiques des aliments courants"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Catégorie",
+          "IG bas (≤55)",
+          "IG moyen (56–69)",
+          "IG élevé (≥70)"
+        ],
+        [
+          "Céréales & légumineuses",
+          "Quinoa, lentilles, pois chiches",
+          "Riz complet, patate douce",
+          "Pain blanc, riz blanc"
+        ],
+        [
+          "Légumes",
+          "Brocoli, courgette, carotte crue",
+          "Carotte cuite, betterave",
+          "Pomme de terre"
+        ],
+        [
+          "Fruits",
+          "Pomme, agrumes, fruits rouges",
+          "Banane mûre",
+          "Pastèque, dattes sèches"
+        ],
+        [
+          "Produits transformés",
+          "Galettes de pois chiches",
+          "Pain de sarrasin",
+          "Pâtisseries, sodas"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "L’hémoglobine glyquée (HbA1c)"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Définition : L’hémoglobine glyquée (HbA1c) correspond au sucre fixé sur l’hémoglobine des globules rouges.",
+        "Durée de référence : Comme les globules rouges vivent environ 120 jours, le test reflète la glycémie moyenne sur 2 à 3 mois.",
+        "Avantage : Contrairement aux glycémies ponctuelles (qui varient selon les repas), l’HbA1c donne une image stable et fiable du contrôle glycémique."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Valeurs de référence"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Résultat HbA1c",
+          "Interprétation"
+        ],
+        [
+          "< 5,7 %",
+          "Glycémie normale"
+        ],
+        [
+          "5,7 – 6,4 %",
+          "Pré-diabète (risque élevé de diabète)"
+        ],
+        [
+          "≥ 6,5 %",
+          "Diagnostic de diabète"
+        ],
+        [
+          "Objectif chez diabétiques",
+          "Souvent < 7 %"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Utilisations principales"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Diagnostic : dépister un diabète ou un prédiabète.",
+        "Suivi : évaluer l’efficacité du traitement chez les patients diabétiques.",
+        "Prévention : identifier les personnes à risque et mettre en place des mesures hygiéno-diététiques."
+      ],
+      "levels": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Points importants"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Le test ne remplace pas les glycémies capillaires quotidiennes (glucomètre), mais il complète le suivi.",
+        "Certains facteurs (anémie, maladies du sang, insuffisance rénale) peuvent fausser les résultats.",
+        "Le test doit être interprété par un professionnel de santé dans le contexte clinique du patient."
+      ],
+      "levels": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Conseils pratiques pour améliorer l’HbA1c"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Alimentation équilibrée : réduire sucres rapides, privilégier fibres, légumes, fruits frais.",
+        "Activité physique régulière : marche, vélo, natation.",
+        "Suivi médical : contrôle régulier de l’HbA1c (tous les 3 à 6 mois chez les diabétiques).",
+        "Hygiène de vie : sommeil suffisant, gestion du stress."
+      ],
+      "levels": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Mon assiette hypotoxique"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "½ légumes (crus ou cuits doucement)",
+        "¼ protéines végétales (pois chiches, lentilles, haricots)",
+        "¼ glucides complexes (quinoa, patate douce, sarrasin)",
+        "1 c. à s. d’huile végétale de qualité (olive, noix)"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Mes alternatives au pain"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Galettes de pois chiches",
+        "Crêpes de farine de coco ou sarrasin",
+        "Petits pains de patate douce",
+        "Pain aux graines (lin, sésame, tournesol)"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Mes desserts sûrs"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Compotes sans sucre ajouté",
+        "Crèmes végétales (carotte, coco, patate douce)",
+        "Mousses légères (avocat-cacao, banane-coco)",
+        "Biscuits hypotoxiques aux farines locales"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Mes boissons protectrices"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Infusion cannelle & girofle",
+        "Eau aromatisée au gingembre et menthe",
+        "Lait végétal maison (amande, coco)",
+        "Smoothie vert (épinards, concombre, citron)"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Les fiches complètes, les variantes locales et les détails nutritionnels sont présentés dans le livre « Cuisiner pour guérir » - Editions Family clinic (2026)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Conclusion"
+    },
+    {
+      "type": "paragraph",
+      "text": "Le diabète et l’hyperinsulinisme ne sont pas une fatalité. Ils représentent un défi quotidien, mais aussi une opportunité : celle de reprendre le contrôle par des gestes simples et conscients. L’alimentation hypotoxique est une voie de réconciliation entre santé et plaisir. Elle permet de réduire les toxines, de stabiliser la glycémie et de protéger les organes clés, tout en respectant les goûts et les traditions locales."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ce fascicule vous a montré que :"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Comprendre sa maladie est la première étape vers l’autonomie.",
+        "Cuisiner hypotoxique est accessible avec des ingrédients simples et locaux.",
+        "Chaque recette peut devenir un outil de régulation et un geste de soin.",
+        "Les conseils pratiques et les annexes sont là pour vous accompagner au quotidien."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Ainsi, ce fascicule forme un tout cohérent. Il vous invite à considérer l’alimentation non comme une contrainte médicale, mais comme une liberté retrouvée. La santé n’est pas seulement l’absence de maladie ; elle est énergie, vitalité, équilibre et joie de vivre."
+    },
+    {
+      "type": "paragraph",
+      "text": "Puisse ce fascicule être pour vous une source d’inspiration, un guide pratique et un compagnon fidèle. Qu’il vous aide à transformer vos habitudes, à renforcer votre autonomie et à retrouver la dignité de choisir votre chemin vers le mieux‑être."
+    }
+  ]
+}

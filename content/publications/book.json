@@ -1,0 +1,719 @@
+{
+  "title": "Cooking to Heal",
+  "url": "/publications/cooking-to-heal/",
+  "description": "Explore 20 complete recipe excerpts from Cooking to Heal by Dr. Said-Alaoui Moulay Abdellah, with ingredients and step-by-step instructions.",
+  "image": {
+    "src": "/assets/images/publications/book-640.webp",
+    "small": "/assets/images/publications/book-240.webp",
+    "width": 640,
+    "height": 905
+  },
+  "recipes": [
+    {
+      "number": 1,
+      "title": "Cucumber with Plant-Based Yogurt and Mint",
+      "url": "/publications/cooking-to-heal/cucumber-with-plant-based-yogurt-and-mint/",
+      "sourcePdfPage": 15,
+      "description": "Read the ingredients and preparation for cucumber with plant-based yogurt and mint, a recipe excerpt from Cooking to Heal.",
+      "goal": "Provide digestive freshness, hydration, and lightness. Ideal for soothing inflammation and supporting the microbiota.",
+      "servings": "2 people",
+      "ingredients": [
+        "1 large fresh cucumber",
+        "150 g plain plant-based yogurt (soy or coconut)",
+        "1 handful of fresh mint leaves",
+        "1 tbsp extra virgin olive oil",
+        "1 pinch of sea salt",
+        "A squeeze of lemon juice"
+      ],
+      "steps": [
+        "Wash and peel the cucumber, then slice it into thin rounds.",
+        "Chop the mint finely.",
+        "Mix the plant-based yogurt with olive oil, lemon juice, and salt.",
+        "Add the cucumber slices and mint, and mix gently.",
+        "Serve well chilled."
+      ],
+      "time": "Preparation: 10 min  Rest: 15 min in the fridge",
+      "benefits": [
+        "Cucumber: hydrating, rich in minerals.",
+        "Plant-based yogurt: gentle source of probiotics.",
+        "Mint: soothing for digestion.",
+        "Lemon: boosts immunity and vitality."
+      ],
+      "tip": "Add a few pumpkin or sunflower seeds for extra protein and crunch.",
+      "variation": "Replace mint with coriander for an oriental touch.",
+      "nutrition": "Hypotoxic recipe, gluten-free and dairy-free, light and refreshing."
+    },
+    {
+      "number": 11,
+      "title": "Raw Turnip with Ginger and Coriander",
+      "url": "/publications/cooking-to-heal/raw-turnip-with-ginger-and-coriander/",
+      "sourcePdfPage": 17,
+      "description": "Read the ingredients and preparation for raw turnip with ginger and coriander, a recipe excerpt from Cooking to Heal.",
+      "goal": "Provide freshness, fiber, and digestive tone. Ideal for boosting vitality and supporting the immune system.",
+      "servings": "2 people",
+      "ingredients": [
+        "2 small fresh turnips",
+        "1 tsp freshly grated ginger",
+        "1 small bunch of fresh coriander",
+        "Juice of half a lemon",
+        "1 tbsp extra virgin olive oil",
+        "1 pinch of sea salt"
+      ],
+      "steps": [
+        "Wash and peel the turnips.",
+        "Grate them finely or slice into thin strips.",
+        "Mix with ginger, lemon juice, and olive oil.",
+        "Add chopped coriander and salt.",
+        "Serve immediately to preserve freshness."
+      ],
+      "time": "Preparation: 10 min",
+      "benefits": [
+        "Turnip: rich in fiber and antioxidants, light and remineralizing.",
+        "Ginger: digestive stimulant and anti-inflammatory.",
+        "Coriander: detoxifying and refreshing.",
+        "Lemon: invigorating and high in vitamin C.",
+        "Olive oil: protective for the heart and cells."
+      ],
+      "tip": "Add a few sesame seeds for extra crunch and mineral intake.",
+      "variation": "Replace coriander with mint for a milder flavor.",
+      "nutrition": "Hypotoxic recipe, gluten-free and dairy-free, rich in fiber and antioxidants."
+    },
+    {
+      "number": 21,
+      "title": "Warm quinoa with green vegetables",
+      "url": "/publications/cooking-to-heal/warm-quinoa-with-green-vegetables/",
+      "sourcePdfPage": 19,
+      "description": "Read the ingredients and preparation for warm quinoa with green vegetables, a recipe excerpt from Cooking to Heal.",
+      "goal": "Provide plant-based proteins, fiber, and antioxidants. Ideal for supporting energy and digestive balance.",
+      "servings": "2 people",
+      "ingredients": [
+        "100 g quinoa",
+        "1 small zucchini",
+        "1 handful of green beans",
+        "1 handful of arugula",
+        "1 tbsp extra virgin olive oil",
+        "Juice of half a lemon",
+        "A pinch of sea salt"
+      ],
+      "steps": [
+        "Rinse the quinoa and cook for 12 minutes in twice its volume of water.",
+        "Drain and let cool slightly.",
+        "Steam the green beans lightly (keep them crunchy).",
+        "Cut the zucchini into small cubes, raw or lightly blanched.",
+        "Mix the quinoa with the vegetables, olive oil, lemon juice, and salt.",
+        "Add the arugula just before serving."
+      ],
+      "time": "Preparation: 10 min  Cooking: 12 min",
+      "benefits": [
+        "Quinoa: rich in complete proteins and minerals.",
+        "Green beans: source of fiber and vitamin C.",
+        "Zucchini: hydrating and light.",
+        "Arugula: antioxidant and stimulating.",
+        "Olive oil: protective for the heart and cells."
+      ],
+      "tip": "Add a few sunflower seeds for extra crunch.",
+      "variation": "Replace arugula with parsley for a milder flavor.",
+      "nutrition": "Hypotoxic recipe, gluten-free and dairy-free, rich in plant proteins and fiber."
+    },
+    {
+      "number": 31,
+      "title": "Fennel with Orange and Olive Oil",
+      "url": "/publications/cooking-to-heal/fennel-with-orange-and-olive-oil/",
+      "sourcePdfPage": 21,
+      "description": "Read the ingredients and preparation for fennel with orange and olive oil, a recipe excerpt from Cooking to Heal.",
+      "goal": "Provide fiber, vitamin C, and digestive freshness. Ideal for supporting immunity and easing digestion.",
+      "servings": "2 people",
+      "ingredients": [
+        "1 fresh fennel bulb",
+        "1 orange (flesh + juice)",
+        "1 tbsp virgin olive oil",
+        "A pinch of sea salt"
+      ],
+      "steps": [
+        "Wash and finely slice the fennel.",
+        "Peel the orange and cut the flesh into small pieces.",
+        "Mix the fennel with the orange and its juice.",
+        "Add olive oil and salt.",
+        "Serve fresh."
+      ],
+      "time": "Preparation: 10 minutes",
+      "benefits": [
+        "Fennel: digestive, rich in fiber and minerals.",
+        "Orange: source of vitamin C and antioxidants.",
+        "Olive oil: protective for the heart and cells."
+      ],
+      "tip": "Add a few sunflower seeds to enhance crunchiness.",
+      "variation": "Replace the orange with grapefruit for a more tangy flavor.",
+      "nutrition": "Hypotoxic recipe, gluten-free and dairy-free, rich in fiber and antioxidants."
+    },
+    {
+      "number": 41,
+      "title": "Roasted Butternut Squash with Zaatar and Lemon",
+      "url": "/publications/cooking-to-heal/roasted-butternut-squash-with-zaatar-and-lemon/",
+      "sourcePdfPage": 23,
+      "description": "Read the ingredients and preparation for roasted butternut squash with zaatar and lemon, a recipe excerpt from Cooking to Heal.",
+      "goal": "Provide fiber, antioxidants, and support digestion.",
+      "servings": "2 people",
+      "ingredients": [
+        "1 small butternut squash",
+        "1 tbsp extra virgin olive oil",
+        "1 tsp zaatar",
+        "Juice of half a lemon",
+        "Sea salt"
+      ],
+      "steps": [
+        "Peel and cut the squash into cubes.",
+        "Mix with olive oil, salt, and zaatar.",
+        "Roast in the oven at 180°C (350°F) for 25 minutes.",
+        "Drizzle with lemon juice before serving."
+      ],
+      "time": "Preparation: 10 minutes Cooking: 25 minutes",
+      "benefits": [
+        "Butternut squash: rich in beta-carotene, supports vision and immunity.",
+        "Zaatar: blend of antioxidant herbs.",
+        "Lemon: boosts vitamin C.",
+        "Olive oil: protects the heart."
+      ],
+      "tip": "Add a few pomegranate seeds for a sweet and colorful touch.",
+      "variation": "Replace zaatar with fresh thyme.",
+      "nutrition": "Hypotoxic recipe, gluten-free and dairy-free, rich in fiber and antioxidants."
+    },
+    {
+      "number": 51,
+      "title": "Green Lentil Cream with Ginger",
+      "url": "/publications/cooking-to-heal/green-lentil-cream-with-ginger/",
+      "sourcePdfPage": 26,
+      "description": "Read the ingredients and preparation for green lentil cream with ginger, a recipe excerpt from Cooking to Heal.",
+      "goal": "Soothing and rich in fiber, this cream supports digestion and provides plant-based proteins.",
+      "servings": "2 people",
+      "ingredients": [
+        "150 g green lentils",
+        "1 carrot",
+        "1 piece of fresh ginger (2 cm)",
+        "500 ml water or vegetable broth",
+        "1 tbsp olive oil",
+        "Sea salt, pepper"
+      ],
+      "steps": [
+        "Rinse the lentils.",
+        "Dice the carrot and grate the ginger.",
+        "Cook lentils + carrot + ginger in water for 25 minutes.",
+        "Blend with olive oil, adjust seasoning."
+      ],
+      "time": "Preparation: 10 min  Cooking: 25 min",
+      "benefits": [
+        "Complete plant-based proteins",
+        "Fiber for satiety",
+        "Ginger: gentle anti-inflammatory effect"
+      ],
+      "tip": "Add a splash of lemon juice to enhance flavor.",
+      "variation": "Replace green lentils with blonde lentils.",
+      "nutrition": "Hypotoxic recipe, gluten-free and dairy-free, rich in plant-based proteins, fiber, and antioxidants."
+    },
+    {
+      "number": 61,
+      "title": "Zucchini Soup with Basil and Lemon",
+      "url": "/publications/cooking-to-heal/zucchini-soup-with-basil-and-lemon/",
+      "sourcePdfPage": 28,
+      "description": "Read the ingredients and preparation for zucchini soup with basil and lemon, a recipe excerpt from Cooking to Heal.",
+      "goal": "Light and refreshing, this soup promotes digestion and provides protective antioxidants.",
+      "servings": "2 people",
+      "ingredients": [
+        "2 medium zucchinis",
+        "1 handful of fresh basil",
+        "Juice of half a lemon",
+        "500 ml water or vegetable broth",
+        "1 tbsp olive oil",
+        "Sea salt, pepper"
+      ],
+      "steps": [
+        "Wash and slice the zucchinis.",
+        "Cook in water or broth for 15 minutes.",
+        "Blend with basil, lemon juice, and olive oil.",
+        "Season to taste."
+      ],
+      "time": "Preparation: 10 min  Cooking: 15 min",
+      "benefits": [
+        "Zucchini: rich in gentle fiber and minerals",
+        "Basil: digestive properties and fresh flavor",
+        "Lemon: vitamin C and detoxifying effect"
+      ],
+      "tip": "Add some lemon zest to intensify freshness.",
+      "variation": "Replace basil with fresh mint.",
+      "nutrition": "Hypotoxic recipe, gluten-free and dairy-free, rich in fiber, vitamin C, and antioxidants."
+    },
+    {
+      "number": 71,
+      "title": "Green Lentil Soup with Coriander",
+      "url": "/publications/cooking-to-heal/green-lentil-soup-with-coriander/",
+      "sourcePdfPage": 30,
+      "description": "Read the ingredients and preparation for green lentil soup with coriander, a recipe excerpt from Cooking to Heal.",
+      "goal": "Rich in plant proteins and fiber, this soup supports energy and promotes digestion.",
+      "servings": "2 people",
+      "ingredients": [
+        "150 g green lentils",
+        "1 carrot",
+        "1 garlic clove",
+        "1 handful of fresh coriander",
+        "600 ml water or vegetable broth",
+        "1 tbsp olive oil",
+        "Sea salt, pepper"
+      ],
+      "steps": [
+        "Rinse the green lentils.",
+        "Dice the carrot and chop the garlic.",
+        "Cook lentils + carrot + garlic in water for 25 minutes.",
+        "Blend with coriander and olive oil.",
+        "Season to taste."
+      ],
+      "time": "Preparation: 10 min  Cooking: 25 min",
+      "benefits": [
+        "Green lentils: plant proteins, iron, and fiber",
+        "Coriander: digestive and detoxifying effect",
+        "Nourishing and balanced dish"
+      ],
+      "tip": "Add a pinch of cumin to enhance the flavor.",
+      "variation": "Replace coriander with flat-leaf parsley.",
+      "nutrition": "Hypotoxic recipe, gluten-free and dairy-free, rich in plant proteins, fiber, and minerals."
+    },
+    {
+      "number": 81,
+      "title": "Vegetable Broth with Garlic and Parsley",
+      "url": "/publications/cooking-to-heal/vegetable-broth-with-garlic-and-parsley/",
+      "sourcePdfPage": 32,
+      "description": "Read the ingredients and preparation for vegetable broth with garlic and parsley, a recipe excerpt from Cooking to Heal.",
+      "goal": "Light and remineralizing, this broth promotes digestion and supports immunity thanks to garlic and parsley.",
+      "servings": "2 people",
+      "ingredients": [
+        "1 carrot",
+        "1 zucchini",
+        "1 celery stalk",
+        "1 garlic clove",
+        "1 handful of fresh parsley",
+        "700 ml water",
+        "Sea salt, pepper"
+      ],
+      "steps": [
+        "Wash and cut the vegetables into pieces.",
+        "Cook in water with garlic for 20 minutes.",
+        "Add parsley at the end of cooking.",
+        "Serve hot, filtered or with pieces."
+      ],
+      "time": "Preparation: 10 min  Cooking: 20 min",
+      "benefits": [
+        "Vegetables: source of fiber and minerals",
+        "Garlic: antimicrobial and stimulating properties",
+        "Parsley: rich in vitamin C and iron"
+      ],
+      "tip": "Add a few fennel seeds to enhance the digestive effect.",
+      "variation": "Replace parsley with fresh coriander.",
+      "nutrition": "Hypotoxic recipe, gluten-free and dairy-free, rich in minerals and antioxidants."
+    },
+    {
+      "number": 91,
+      "title": "Sweet Potato Purée with Cinnamon",
+      "url": "/publications/cooking-to-heal/sweet-potato-puree-with-cinnamon/",
+      "sourcePdfPage": 34,
+      "description": "Read the ingredients and preparation for sweet potato purée with cinnamon, a recipe excerpt from Cooking to Heal.",
+      "goal": "Comforting and gentle, this purée provides energy and antioxidants while supporting digestion.",
+      "servings": "2 people",
+      "ingredients": [
+        "250 g sweet potato",
+        "1 tsp ground cinnamon",
+        "1 tbsp olive oil or plant-based milk (optional)",
+        "Sea salt"
+      ],
+      "steps": [
+        "Peel and dice the sweet potato.",
+        "Steam or boil for 20 minutes.",
+        "Mash into a purée with cinnamon and olive oil.",
+        "Season lightly."
+      ],
+      "time": "Preparation: 10 min  Cooking: 20 min",
+      "benefits": [
+        "Sweet potato: rich in fiber and beta-carotene",
+        "Cinnamon: supports glycemic regulation and offers a warm aroma"
+      ],
+      "tip": "Add a splash of lemon juice to intensify freshness.",
+      "variation": "Replace cinnamon with ginger for a more tonic flavor.",
+      "nutrition": "Hypotoxic recipe, gluten-free and dairy-free, rich in fiber and antioxidants."
+    },
+    {
+      "number": 101,
+      "title": "Pageot in Papillote with Lemon and Parsley",
+      "url": "/publications/cooking-to-heal/pageot-in-papillote-with-lemon-and-parsley/",
+      "sourcePdfPage": 40,
+      "description": "Read the ingredients and preparation for pageot in papillote with lemon and parsley, a recipe excerpt from Cooking to Heal.",
+      "goal": "Hypotoxic dish rich in lean protein and beneficial fatty acids, supporting light digestion and cardiovascular protection.",
+      "servings": "2 people",
+      "ingredients": [
+        "2 fresh pageot fillets",
+        "1 lemon (juice + a few thin slices)",
+        "1 tbsp extra-virgin olive oil",
+        "1 small garlic clove, crushed",
+        "1 handful fresh parsley, chopped",
+        "Sea salt and mild pepper"
+      ],
+      "steps": [
+        "Preheat the oven to 180 °C.",
+        "Place each pageot fillet on a sheet of baking paper.",
+        "Drizzle with lemon juice, add slices, garlic, and parsley.",
+        "Season lightly, then close the papillote.",
+        "Bake for 20 minutes."
+      ],
+      "time": "Preparation: 10 min  Cooking: 20 min",
+      "benefits": [
+        "Source of lean protein, easy to digest",
+        "Lemon and parsley rich in antioxidants and vitamin C",
+        "Papillote cooking preserves nutrients and limits fat"
+      ],
+      "tip": "Add a few fennel seeds to enhance digestive freshness.",
+      "variation": "Replace parsley with coriander for a more oriental touch.",
+      "nutrition": "This dish provides a good amount of high-quality protein, essential for muscle maintenance and daily vitality. Overall, it is a light, balanced, and protective meal."
+    },
+    {
+      "number": 111,
+      "title": "Chargou (Sar) Tajine with Vegetables and Coriander",
+      "url": "/publications/cooking-to-heal/chargou-sar-tajine-with-vegetables-and-coriander/",
+      "sourcePdfPage": 42,
+      "description": "Read the ingredients and preparation for chargou (sar) tajine with vegetables and coriander, a recipe excerpt from Cooking to Heal.",
+      "goal": "A complete hypotoxic dish, rich in protein and fiber, that supports digestion and vitality.",
+      "servings": "4 people",
+      "ingredients": [
+        "500 g fresh Chargou (Sar), cut into pieces",
+        "2 carrots, sliced",
+        "1 zucchini, diced",
+        "1 red bell pepper, cut into strips",
+        "1 peeled tomato, chopped",
+        "2 tbsp extra-virgin olive oil",
+        "1 garlic clove, crushed",
+        "1 tsp cumin",
+        "1 handful fresh coriander, chopped",
+        "Sea salt and mild pepper"
+      ],
+      "steps": [
+        "In a tajine or casserole, heat olive oil and garlic.",
+        "Add vegetables and spices, simmer for 10 minutes.",
+        "Place the Chargou pieces on top of the vegetables.",
+        "Cover and cook gently for 25 minutes.",
+        "Sprinkle with fresh coriander before serving."
+      ],
+      "time": "Preparation: 15 min  Cooking: 35 min",
+      "benefits": [
+        "Chargou provides lean, easily digestible protein.",
+        "Vegetables enrich the dish with fiber, vitamins, and antioxidants.",
+        "Coriander supports digestion and adds freshness."
+      ],
+      "tip": "Add a few green olives to enhance the Mediterranean flavor.",
+      "variation": "Replace zucchini with turnip for a more traditional touch.",
+      "nutrition": "This tajine provides high-quality protein that nourishes without weighing down. Vegetables add fiber and antioxidants, supporting digestion and cellular protection."
+    },
+    {
+      "number": 121,
+      "title": "Hard-Boiled Eggs with Cumin and Fresh Parsley",
+      "url": "/publications/cooking-to-heal/hard-boiled-eggs-with-cumin-and-fresh-parsley/",
+      "sourcePdfPage": 46,
+      "description": "Read the ingredients and preparation for hard-boiled eggs with cumin and fresh parsley, a recipe excerpt from Cooking to Heal.",
+      "goal": "A hypotoxic snack rich in protein and antioxidants, supporting satiety and digestion.",
+      "servings": "2 people",
+      "ingredients": [
+        "4   organic eggs",
+        "1 tsp ground cumin",
+        "1 handful fresh parsley, chopped",
+        "Sea salt and mild pepper",
+        "A drizzle of extra virgin olive oil"
+      ],
+      "steps": [
+        "Cook the eggs in boiling water for 10 minutes.",
+        "Cool them, peel, and cut in half.",
+        "Sprinkle with cumin and fresh parsley.",
+        "Drizzle with olive oil before serving."
+      ],
+      "time": "Preparation: 5 min  Cooking: 10 min",
+      "benefits": [
+        "Eggs provide complete, easily digestible protein.",
+        "Cumin stimulates digestion and reduces bloating.",
+        "Parsley adds vitamin C and protective antioxidants."
+      ],
+      "tip": "Serve with cucumber slices for extra freshness.",
+      "variation": "Replace cumin with sweet paprika for a different flavor.",
+      "nutrition": "This recipe delivers high-quality protein that promotes satiety and energy. Overall, it is a simple, balanced, and protective preparation."
+    },
+    {
+      "number": 131,
+      "title": "Poached Eggs with Lentils and Cilantro",
+      "url": "/publications/cooking-to-heal/poached-eggs-with-lentils-and-cilantro/",
+      "sourcePdfPage": 48,
+      "description": "Read the ingredients and preparation for poached eggs with lentils and cilantro, a recipe excerpt from Cooking to Heal.",
+      "goal": "A hypotoxic dish rich in both plant and animal proteins, promoting satiety and supporting digestion.",
+      "servings": "2 people",
+      "ingredients": [
+        "4 organic eggs",
+        "150 g cooked green lentils",
+        "1 clove garlic, crushed",
+        "1 tbsp extra virgin olive oil",
+        "Juice of half a lemon",
+        "1 handful fresh cilantro, chopped",
+        "Sea salt and mild pepper"
+      ],
+      "steps": [
+        "Cook the lentils in lightly salted water until tender.",
+        "Drain and season with garlic, olive oil, and lemon juice.",
+        "Poach the eggs in simmering water for 3 minutes.",
+        "Arrange the poached eggs on the bed of lentils.",
+        "Sprinkle with fresh cilantro before serving."
+      ],
+      "time": "Preparation: 10 min  Cooking: 20 min",
+      "benefits": [
+        "Eggs provide complete, easily digestible proteins.",
+        "Lentils are rich in fiber and protective minerals.",
+        "Cilantro supports digestion and adds freshness."
+      ],
+      "tip": "Add a pinch of cumin to enhance flavor and digestive effect.",
+      "variation": "Replace green lentils with red lentils for a softer texture.",
+      "nutrition": "This dish combines animal and plant proteins, promoting satiety and nutritional balance. Overall, it is a balanced, nourishing, and protective preparation."
+    },
+    {
+      "number": 141,
+      "title": "Chicken en Papillote with Lemon and Thyme",
+      "url": "/publications/cooking-to-heal/chicken-en-papillote-with-lemon-and-thyme/",
+      "sourcePdfPage": 52,
+      "description": "Read the ingredients and preparation for chicken en papillote with lemon and thyme, a recipe excerpt from Cooking to Heal.",
+      "goal": "A light and fragrant hypotoxic dish, rich in lean protein and antioxidants, that supports digestion and immunity.",
+      "servings": "2 people",
+      "ingredients": [
+        "2 free-range chicken breasts",
+        "1 organic lemon (slices + juice)",
+        "4 sprigs of fresh thyme",
+        "1 tbsp extra virgin olive oil",
+        "Sea salt and mild pepper"
+      ],
+      "steps": [
+        "Preheat the oven to 160 °C (320 °F).",
+        "Place each chicken breast on a sheet of parchment paper.",
+        "Add lemon slices, thyme, and drizzle with olive oil.",
+        "Close the papillote and bake for 25 minutes.",
+        "Serve hot with a drizzle of fresh lemon juice."
+      ],
+      "time": "Preparation: 5 min  Cooking: 25 min",
+      "benefits": [
+        "Chicken provides lean, easily digestible protein.",
+        "Lemon stimulates detoxification and strengthens immunity.",
+        "Thyme has antiseptic and digestive properties."
+      ],
+      "tip": "Add a pinch of cumin for a warm Moroccan touch.",
+      "variation": "Replace thyme with fresh coriander for a more local flavor.",
+      "nutrition": "A dish rich in high-quality protein, low in saturated fat. Should be limited in cases of egg intolerance or cholesterol-free diets."
+    },
+    {
+      "number": 151,
+      "title": "Stewed Beef with Chickpeas and Cumin",
+      "url": "/publications/cooking-to-heal/stewed-beef-with-chickpeas-and-cumin/",
+      "sourcePdfPage": 54,
+      "description": "Read the ingredients and preparation for stewed beef with chickpeas and cumin, a recipe excerpt from Cooking to Heal.",
+      "goal": "A nourishing and balanced hypotoxic dish, rich in protein and fiber, supporting digestion and long-lasting energy.",
+      "servings": "4 people",
+      "ingredients": [
+        "600 g lean beef pieces (shank or chuck)",
+        "200 g cooked chickpeas",
+        "2 ripe tomatoes, diced",
+        "1 mild onion, sliced",
+        "1 tsp ground cumin",
+        "1 tbsp extra virgin olive oil",
+        "Sea salt and mild pepper",
+        "A few sprigs of fresh coriander"
+      ],
+      "steps": [
+        "Sauté the onion and beef pieces in olive oil over low heat.",
+        "Add the tomatoes, chickpeas, and sprinkle with cumin.",
+        "Cover with a glass of water and simmer gently for 1 hour.",
+        "Garnish with fresh coriander before serving."
+      ],
+      "time": "Preparation: 10 min  Cooking: 1 h",
+      "benefits": [
+        "Beef provides complete proteins and iron.",
+        "Chickpeas are rich in fiber and plant-based protein.",
+        "Cumin supports digestion and adds a warm flavor."
+      ],
+      "tip": "Add a few carrots to enrich fiber content and color.",
+      "variation": "Replace beef with veal for a milder version.",
+      "nutrition": "A complete dish, rich in both animal and plant proteins, with a high fiber intake. Chickpeas promote satiety and intestinal balance, while cumin and coriander enhance digestion and immunity."
+    },
+    {
+      "number": 161,
+      "title": "Chickpea Flatbreads with Cumin",
+      "url": "/publications/cooking-to-heal/chickpea-flatbreads-with-cumin/",
+      "sourcePdfPage": 58,
+      "description": "Read the ingredients and preparation for chickpea flatbreads with cumin, a recipe excerpt from Cooking to Heal.",
+      "goal": "A hypotoxic alternative to bread, rich in plant-based protein and fiber, supporting digestion and satiety.",
+      "servings": "4 flatbreads",
+      "ingredients": [
+        "200 g chickpea flour",
+        "1 tsp ground cumin",
+        "1 tbsp extra virgin olive oil",
+        "200 ml warm water",
+        "Sea salt"
+      ],
+      "steps": [
+        "Mix the chickpea flour with cumin and salt.",
+        "Gradually add water to form a soft dough.",
+        "Shape into flatbreads and cook in a pan with a drizzle of olive oil, 3 minutes on each side."
+      ],
+      "time": "Preparation: 5 min  Cooking: 6 min",
+      "benefits": [
+        "Chickpeas provide plant-based protein and digestive fiber.",
+        "Cumin supports digestion and adds a warm flavor.",
+        "Olive oil enhances the intake of protective fatty acids."
+      ],
+      "tip": "Serve with a green salad or vegetable dip for a complete meal.",
+      "variation": "Add fresh chopped parsley for extra aromatic flavor.",
+      "nutrition": "Flatbreads rich in plant-based protein, fiber, and antioxidants - ideal as a bread substitute in a hypotoxic diet."
+    },
+    {
+      "number": 171,
+      "title": "Sweet Potato Cream with Coconut Milk",
+      "url": "/publications/cooking-to-heal/sweet-potato-cream-with-coconut-milk/",
+      "sourcePdfPage": 62,
+      "description": "Read the ingredients and preparation for sweet potato cream with coconut milk, a recipe excerpt from Cooking to Heal.",
+      "goal": "A gentle, comforting dessert, rich in fiber, beta-carotene, and protective fatty acids - ideal for sensitive digestive profiles.",
+      "servings": "4 small glasses",
+      "ingredients": [
+        "300 g cooked sweet potato",
+        "200 ml coconut milk",
+        "1 tsp cinnamon",
+        "1 tbsp date syrup (optional)"
+      ],
+      "steps": [
+        "Blend the sweet potato with coconut milk until smooth and creamy.",
+        "Add cinnamon and date syrup, then blend again.",
+        "Pour into small glasses and refrigerate for 1 hour before serving."
+      ],
+      "time": "Preparation: 10 min  Rest: 1 h",
+      "benefits": [
+        "Sweet potato is high in fiber and beta-carotene.",
+        "Coconut milk provides protective fatty acids.",
+        "Cinnamon supports digestion and helps balance blood sugar."
+      ],
+      "tip": "Sprinkle with shredded coconut or chia seeds for added texture.",
+      "variation": "Replace cinnamon with vanilla or ginger to suit your taste.",
+      "nutrition": "A soft, nourishing cream - gluten-free and dairy-free - perfect for hypotoxic and sensitive digestive profiles."
+    },
+    {
+      "number": 181,
+      "title": "Fresh Fruit Salad with Basil",
+      "url": "/publications/cooking-to-heal/fresh-fruit-salad-with-basil/",
+      "sourcePdfPage": 66,
+      "description": "Read the ingredients and preparation for fresh fruit salad with basil, a recipe excerpt from Cooking to Heal.",
+      "goal": "A refreshing, vitamin-rich dessert, full of antioxidants and fiber - supporting hydration and vitality.",
+      "servings": "4 bowls",
+      "ingredients": [
+        "2 apples",
+        "2 pears",
+        "2 oranges",
+        "1 banana",
+        "1 handful of strawberries",
+        "A few fresh basil leaves",
+        "Juice of half a lemon"
+      ],
+      "steps": [
+        "Wash and cut the fruits into pieces.",
+        "Drizzle with lemon juice to prevent oxidation.",
+        "Finely chop the basil and add to the fruits.",
+        "Mix gently and serve fresh."
+      ],
+      "time": "Preparation: 10 min",
+      "benefits": [
+        "Fruits provide vitamins, fiber, and protective antioxidants.",
+        "Basil supports digestion and adds aromatic freshness.",
+        "A light, gluten-free, dairy-free dessert perfectly suited to hypotoxic profiles."
+      ],
+      "tip": "Add a few pomegranate seeds for extra color and vitality.",
+      "variation": "Replace basil with mint for a fresher flavor.",
+      "nutrition": "A salad rich in vitamin C and fiber - ideal for energy and digestive balance."
+    },
+    {
+      "number": 191,
+      "title": "Carrot and Ginger Juice",
+      "url": "/publications/cooking-to-heal/carrot-and-ginger-juice/",
+      "sourcePdfPage": 70,
+      "description": "Read the ingredients and preparation for carrot and ginger juice, a recipe excerpt from Cooking to Heal.",
+      "goal": "A tonic and protective juice, rich in beta-carotene and antioxidants, supporting vision and immunity.",
+      "servings": "2 large glasses",
+      "ingredients": [
+        "4 fresh carrots",
+        "1 small piece of fresh ginger (2 cm)",
+        "Juice of half a lemon (optional)"
+      ],
+      "steps": [
+        "Wash and cut the carrots into pieces.",
+        "Run the carrots and ginger through a juicer.",
+        "Add the lemon juice for extra freshness.",
+        "Serve immediately."
+      ],
+      "time": "Preparation: 10 minutes",
+      "benefits": [
+        "Carrots provide beta-carotene and protective fibers.",
+        "Ginger stimulates digestion and strengthens immunity.",
+        "Light, hypotoxic juice, gluten-free and dairy-free."
+      ],
+      "tip": "Add a pinch of turmeric to boost the antioxidant effect.",
+      "variation": "Replace ginger with mint for a milder flavor.",
+      "nutrition": "Juice rich in beta-carotene, vitamin C, and antioxidants, ideal for daily vitality."
+    }
+  ],
+  "introduction": {
+    "title": "Preface",
+    "sourcePdfPage": 4,
+    "printedPage": 5,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Cooking to heal, without giving up pleasure."
+      },
+      {
+        "type": "paragraph",
+        "text": "There are cookbooks that teach gestures. Others that tell stories. This one does both."
+      },
+      {
+        "type": "paragraph",
+        "text": "It was born from a simple observation and a great hope: our food can become daily care, an act of prevention, a gesture of love for oneself and for others."
+      },
+      {
+        "type": "paragraph",
+        "text": "At Family Clinic, we have accompanied for years patients with chronic conditions: multiple sclerosis, rheumatoid arthritis, diabetes, digestive disorders, inflammatory diseases… All share a common reality: their daily lives are disrupted, their relationship with food weakened, their pleasure in eating often diminished. And yet, pleasure is an essential condition for sustainable care."
+      },
+      {
+        "type": "paragraph",
+        "text": "This book was born from this fertile tension between therapeutic rigor and joy of living. It offers hypotoxic cuisine — gluten-free, dairy-free, refined sugar-free — but full of taste, textures, colors, and culture. A cuisine that heals without excluding. That adapts without impoverishing. That transforms without betraying."
+      },
+      {
+        "type": "paragraph",
+        "text": "We chose to reformulate 100 everyday recipes, then propose 100 more for enjoyment, taking into account the realities of the Moroccan market, local taste preferences, and the economic and practical constraints of families. Each recipe was designed to be simple, reproducible, digestible, and emotionally satisfying. No impossible ingredients. No rigid protocols. Just real foods, caring gestures, and a clear intention: to restore health through the pleasure of cooking."
+      },
+      {
+        "type": "paragraph",
+        "text": "“This is not extravagance, it is evolution. A rooted, joyful, therapeutic cuisine.”"
+      },
+      {
+        "type": "paragraph",
+        "text": "This book is for everyone: patients, relatives, therapists, parents, children, the curious, the gourmets. It is structured in thematic blocks, with a fixed format for each recipe: Health Objective, Servings, Ingredients, Preparation, Time, Benefits, Tip, Variation, Nutrition. This framework allows everyone to understand not only how to cook, but why it heals."
+      },
+      {
+        "type": "paragraph",
+        "text": "We hope these pages will accompany you in your nutritional transition, but also in your life journey. That they will inspire you to cook differently, to transmit differently, to eat differently."
+      },
+      {
+        "type": "paragraph",
+        "text": "And above all, to reconcile yourself with your plate, your body, and your culture."
+      },
+      {
+        "type": "paragraph",
+        "text": "Welcome to a cuisine that heals."
+      },
+      {
+        "type": "paragraph",
+        "text": "Welcome home."
+      }
+    ]
+  }
+}

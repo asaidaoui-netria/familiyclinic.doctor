@@ -2,9 +2,20 @@
 layout: layouts/base.njk
 pageKey: publications
 activeNav: publications
-indexable: true
 permalink: "{{ pagination.items[0].outputPath }}"
-stylesheets: [styles.css, localization.css]
 ---
 {% set publicationPage = pagination.items[0] %}
-{% include "publications/detail.njk" %}
+{% set p = publicationPage %}
+{% set pc = p.copy %}
+{% from "publications/macros.njk" import illustration, author, categories, contents %}
+<div class="publication-wrap">
+{% if p.kind != "catalog" %}
+<nav class="publication-crumbs" aria-label="{{ pc.breadcrumb }}">
+  <a href="{% if p.locale != 'en' %}/{{ p.locale }}{% endif %}/publications/">{{ pc.title }}</a>
+  {% if p.kind == "article" %}<a href="{{ p.category.url }}">{{ p.category.title | publicationText(p.locale) | safe }}</a>{% endif %}
+  {% if p.kind == "recipe" %}<a href="{{ p.book.url }}">{{ p.book.title }}</a>{% endif %}
+  <span aria-current="page">{{ p.title | publicationText(p.locale) | safe }}</span>
+</nav>
+{% endif %}
+{% include "publications/" + p.kind + ".njk" %}
+</div>

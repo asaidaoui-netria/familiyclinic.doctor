@@ -55,47 +55,15 @@ test("phone headers hide the wordmark and expand languages inside the mobile men
   assert.match(localizationCss, /\[dir="rtl"\] \.nav--open \.language-switcher\s*{[^}]*margin:\s*1rem 0 0/s);
 });
 
-test("publication styles cover responsive, accessible viewer states", async () => {
-  const css = await readOutput("assets/publications.css");
-
-  assert.match(css, /\.publication-grid\s*{[^}]*display:\s*grid/s);
-  assert.match(css, /@media\s*\(max-width:\s*768px\)/);
-  assert.match(css, /\.publication-grid\s*{[^}]*grid-template-columns:\s*1fr/s);
-  assert.match(css, /\.publication[^}]*:focus-visible/);
-  assert.match(css, /\[hidden\]/);
-  assert.doesNotMatch(css, /\[dir=["']?rtl["']?\][^{]*\.publication-viewer(?:__pagination|__tools|__page-count)/);
-  assert.match(css, /\.publication-viewer__pagination--rtl\s*{[^}]*flex-direction:\s*row-reverse/s);
-  assert.match(css, /\.publication-viewer__status/);
-  assert.match(css, /\.publication-viewer__error/);
-  assert.match(css, /\.publication-viewer[^}]*\.textLayer/);
-  assert.match(css, /\.publication-viewer:fullscreen/);
-  assert.match(css, /\.publication-viewer:fullscreen\s*{[^}]*grid-template-rows:\s*auto minmax\(0,\s*1fr\)/s);
-  assert.match(css, /\.publication-viewer__toolbar button\s*{[^}]*min-width:\s*44px[^}]*min-height:\s*44px/s);
-});
-
-test("phone publication cards form one cover-only thumbnail column", async () => {
-  const css = await readOutput("assets/publications.css");
-  const phoneStart = css.indexOf("@media (max-width: 560px)");
-  const phoneEnd = css.indexOf("@media (prefers-reduced-motion", phoneStart);
-  const phoneCss = css.slice(phoneStart, phoneEnd);
-
-  assert.ok(phoneStart >= 0 && phoneEnd > phoneStart);
-  assert.match(
-    phoneCss,
-    /\.publication-grid\s*{[^}]*grid-template-columns:\s*1fr/s,
-  );
-  assert.match(
-    phoneCss,
-    /\.publication-card\s*{[^}]*width:\s*min\(100%,\s*12rem\)/s,
-  );
-  assert.match(
-    phoneCss,
-    /\.publication-card__body\s*{[^}]*display:\s*none/s,
-  );
-  assert.match(
-    phoneCss,
-    /\.publication-card__cover\s*{[^}]*height:\s*auto/s,
-  );
+test("publication reading layouts retain mobile, focus, table and print styles", async () => {
+  const css=await readOutput("assets/publications.css");
+  assert.match(css,/\.publication-reading-layout/);
+  assert.match(css,/@media \(max-width: 768px\)/);
+  assert.match(css,/\.publication-mobile-contents/);
+  assert.match(css,/:focus-visible/);
+  assert.match(css,/\.publication-table[^}]*overflow: auto/s);
+  assert.match(css,/@media print/);
+  assert.doesNotMatch(css,/publication-viewer/);
 });
 
 test("the homepage hero is typographic", async () => {

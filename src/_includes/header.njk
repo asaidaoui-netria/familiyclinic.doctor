@@ -1,5 +1,5 @@
 {% set copy = site.locales[locale] %}
-{% set pageRoutes = localizedRoutes or site.routes[pageKey] %}
+{% set pageRoutes = publicationPage.availableRoutes or localizedRoutes or site.routes[pageKey] %}
 <header class="header">
   <div class="header__container">
     <div class="header__logo">
@@ -31,7 +31,9 @@
         </button>
         <ul class="language-switcher__menu">
           {% for language, languageName in site.localeNames %}
+          {% if pageRoutes[language] %}
           <li><a href="{{ pageRoutes[language] }}" data-lang="{{ language }}"{% if language == locale %} class="active"{% endif %}>{{ languageName }}</a></li>
+          {% endif %}
           {% endfor %}
         </ul>
       </div>

@@ -1,252 +1,143 @@
-import assert from "node:assert/strict";
-import { readFile } from "node:fs/promises";
-import test from "node:test";
+import assert from 'node:assert/strict';
+import test from 'node:test';
+import publicationData from '../src/_data/publications.js';
 
-import assetManifest from "../src/_data/publication-assets.json" with { type: "json" };
-import { PUBLICATION_CONTENT } from "../src/_data/publication-content.js";
-import publicationPagesData from "../src/_data/publicationPages.js";
-import publicationData from "../src/_data/publications.js";
-import site from "../src/_data/site.js";
+test('the publication library follows all 56 source IDs and four architecture categories', () => {
+  const records = publicationData();
+  assert.equal(records.length, 56);
+  assert.equal(new Set(records.map(r => r.id)).size, 56);
+  assert.deepEqual(['A','B','C','D'].map(id=>records.filter(r=>r.categoryId===id).length), [16,9,25,6]);
+});
 
-const publications = publicationData();
-const publicationPages = publicationPagesData();
-const { buildPublications } = publicationData;
-const { publicationOutputPath, publicationRoute } = publicationPagesData;
+test('draft editions never create public articles or language alternates', async () => {
+  const {buildLibrary} = await import('../src/lib/publication-library.js');
+  const source=publicationData()[0];
+  const records=structuredClone([{...source,relatedIds:[]}]);
+  records[0].editions.en={...records[0].editions.fr, language:'en',status:'draft'};
+  records[0].editions.ar={...records[0].editions.fr, language:'ar',status:'draft'};
+  const library=buildLibrary(records);
+  assert.equal(library.pages.some(p=>p.kind==='article'&&p.locale==='en'),false);
+  const french=library.pages.find(p=>p.kind==='article'&&p.locale==='fr');
+  assert.deepEqual(Object.keys(french.localizedRoutes),['fr']);
+});
 
-const IDS = [
-  "nature-to-factory",
-  "hypotoxic-nutrition",
-  "enzymes",
-  "nutrition-key-health",
-  "hypotoxic-diet-principles",
-  "basedow-disease",
-  "diabetes-hyperinsulinism",
-  "liver-immunity",
-  "hashimoto-disease",
-  "chronic-inflammation",
-  "rheumatoid-arthritis",
-  "pregnancy",
-  "invisible-environmental-threats",
-];
-const LOCALES = ["en", "fr", "ar"];
+test('published Arabic editions replace legacy transitions and link to actual translations', async () => {
+  const {buildLibrary}=await import('../src/lib/publication-library.js');
+  const record=structuredClone({...publicationData()[0],relatedIds:[]});
+  record.editions.ar={...record.editions.fr,language:'ar',status:'published',title:'التغذية والصحة',summary:'مقدمة في التغذية والصحة.',blocks:[{type:'heading',level:2,text:'مقدمة'},{type:'paragraph',text:'التغذية والصحة.'}]};
+  const library=buildLibrary([record]);
+  const arabic=library.pages.find(p=>p.kind==='article'&&p.locale==='ar');
+  assert.ok(arabic);
+  assert.match(arabic.category.title,/[\u0600-\u06ff]/);
+  assert.match(arabic.author,/[\u0600-\u06ff]/);
+  assert.equal(arabic.book.url,'/ar/publications/cooking-to-heal/');
+  assert.equal(arabic.structuredData['@graph'][0].inLanguage,'ar');
+  assert.equal(library.pages.filter(p=>p.permalink===arabic.permalink).length,1);
+  for(const p of library.pages.filter(p=>p.kind==='article'))assert.equal(p.localizedRoutes.ar,arabic.permalink);
+  assert.ok(library.catalogs.ar.indexable);
+});
 
-test("publication content and Hetzner assets merge into thirteen localized records", () => {
-  assert.equal(publications.length, 13);
-  assert.deepEqual(
-    publications.map(({ id }) => id),
-    IDS,
-  );
-  assert.deepEqual(
-    [...new Set(publications.map(({ category }) => category))].sort(),
-    ["conditions", "environment", "nutrition", "pregnancy"],
-  );
-  assert.equal(
-    publications.some(({ id }) => /cooking|cuisiner/i.test(id)),
-    false,
-  );
+test('source blocks render escaped prose, unique heading anchors, lists and table headers', async () => {
+  const {renderBlocks}=await import('../src/lib/publication-content.js');
+  const rendered=renderBlocks([{type:'heading',level:2,text:'Example'},{type:'paragraph',text:'<script>alert(1)</script>'},{type:'heading',level:2,text:'Example'},{type:'list',ordered:true,items:['First','Second']},{type:'table',rows:[['Name','Value'],['A','2']]}]);
+  assert.deepEqual(rendered.toc.map(h=>h.id),['example','example-2']);
+  assert.match(rendered.html,/&lt;script&gt;/);
+  assert.doesNotMatch(rendered.html,/<script>/);
+  assert.match(rendered.html,/<ol><li>First<\/li><li>Second<\/li><\/ol>/);
+  assert.match(rendered.html,/<th scope="col">Name<\/th>/);
+});
 
-  for (const publication of publications) {
-    assert.equal(publication.author, "Dr. Said-Alaoui Moulay Abdellah");
-    assert.equal(publication.id, publication.assets.id);
-    assert.deepEqual(Object.keys(publication.editions), LOCALES);
+test('duplicate routes and invalid publication categories stop the build',async()=>{
+  const {buildLibrary}=await import('../src/lib/publication-library.js');
+  const records=publicationData();
+  assert.throws(()=>buildLibrary([records[0],records[0]]),/duplicate/i);
+  assert.throws(()=>buildLibrary([{...records[0],categoryId:'unknown'}]),/category/i);
+});
 
-    for (const [locale, edition] of Object.entries(publication.editions)) {
-      assert.ok(edition.title.trim());
-      assert.ok(edition.summary.trim());
-      assert.ok(edition.description.trim());
-      assert.ok(edition.summary.length <= 180);
-      assert.equal(edition.assets.version, "v1");
-      assert.ok(edition.assets.preview.pageCount >= 6);
-      assert.ok(edition.assets.preview.pageCount <= 8);
-      assert.ok(edition.assets.full.size > 0);
-      assert.ok(edition.assets.preview.size > 0);
-      assert.ok(edition.assets.cover.size > 0);
-      assert.ok(edition.assets.cover.width > 0);
-      assert.ok(edition.assets.cover.height > 0);
+test('repeated headings cannot collide with numbered heading text',async()=>{
+  const {renderBlocks}=await import('../src/lib/publication-content.js');
+  const result=renderBlocks(['Example','Example','Example 2','Example'].map(text=>({type:'heading',level:2,text})));
+  assert.equal(new Set(result.toc.map(h=>h.id)).size,4);
+});
 
-      for (const asset of [
-        edition.assets.full,
-        edition.assets.preview,
-        edition.assets.cover,
-      ]) {
-        assert.match(asset.sha256, /^[a-f0-9]{64}$/);
-        assert.match(
-          asset.url,
-          new RegExp(
-            `^https://familyclinic-doctor-publications\\.nbg1\\.your-objectstorage\\.com/publications/${publication.id}/${locale}/v1/`,
-          ),
-        );
-      }
+test('Arabic reading text isolates numeric ranges and Latin terms without accepting HTML',async()=>{
+  const {renderBlocks,renderPublicationText}=await import('../src/lib/publication-content.js');
+  const text=renderPublicationText('التغذية (0–12 شهرًا) وفيتامين B12 و<script>');
+  assert.match(text,/<bdi dir="ltr">0–12<\/bdi>/);
+  assert.match(text,/<bdi dir="ltr">B12<\/bdi>/);
+  assert.doesNotMatch(text,/<script>/);
+  assert.match(text,/&lt;/);
+  const rendered=renderBlocks([{type:'paragraph',text:'جرعة 10–20 mg/kg مع الغذاء.'}]);
+  assert.match(rendered.html,/<bdi dir="ltr">10–20 mg\/kg<\/bdi>/);
+  assert.equal(renderPublicationText('English & French'),'English &amp; French');
+  assert.equal(renderPublicationText('< 5,7 %','ar'),'<bdi dir="ltr">&lt; 5,7 %</bdi>');
+  assert.equal(renderPublicationText('TNF‑β وAc₁','ar'),'<bdi dir="ltr">TNF‑β</bdi> و<bdi dir="ltr">Ac₁</bdi>');
+  const table=renderBlocks([{type:'table',rows:[['المؤشر','القيمة'],['HbA1c','≥ 6,5 %']]}],'ar');
+  assert.match(table.html,/<td><bdi dir="ltr">≥ 6,5 %<\/bdi><\/td>/);
+});
+
+test('English editions retain every source block, list item and table cell',()=>{
+  for(const record of publicationData()){
+    const english=record.editions.en, french=record.editions.fr;
+    if(!english)continue; // Completeness of all 56 editions is asserted separately.
+    assert.equal(english.sourceHash,record.source.sha256,record.id);
+    assert.equal(english.translation.reviewStatus,'not-clinically-reviewed');
+    const shape=b=>b.type==='table'?[b.type,b.rows.map(r=>r.length)]:b.type==='list'?[b.type,b.ordered,b.items.length,b.levels]:[b.type,b.level];
+    assert.deepEqual(english.blocks.map(shape),french.blocks.map(shape),record.id);
+    const text=b=>b.type==='table'?b.rows.flat():b.type==='list'?b.items:b.type==='figure'?[b.alt,b.caption]:[b.text];
+    for(const block of english.blocks)for(const value of text(block))assert.ok(typeof value==='string'&&value.trim().length,record.id);
+    // Detect accidentally saving a short summary in place of a full manuscript.
+    const words=edition=>edition.blocks.flatMap(text).join(' ').split(/\s+/).length;
+    assert.ok(words(english)>words(french)*.65,record.id+' is not abridged');
+  }
+});
+
+test('Arabic editions preserve source structure, figures, numbers and translation provenance',()=>{
+  const shape=b=>b.type==='table'?[b.type,b.rows.map(r=>r.length)]:b.type==='list'?[b.type,b.ordered,b.items.length,b.levels]:b.type==='figure'?[b.type,b.src,b.width,b.height]:[b.type,b.level];
+  const values=b=>b.type==='table'?b.rows.flat():b.type==='list'?b.items:b.type==='figure'?[b.alt,b.caption]:[b.text];
+  const numbers=b=>(values(b).join(' ').match(/\d+(?:[.,]\d+)?/g)||[]).sort();
+  for(const record of publicationData()){
+    const arabic=record.editions.ar,french=record.editions.fr;
+    if(!arabic)continue; // The release completeness check asserts all 56 separately.
+    assert.equal(arabic.language,'ar');
+    assert.equal(arabic.sourceHash,record.source.sha256,record.id);
+    assert.equal(arabic.translation.from,'fr');
+    assert.equal(arabic.translation.reviewStatus,'not-clinically-reviewed');
+    assert.deepEqual(arabic.blocks.map(shape),french.blocks.map(shape),record.id);
+    for(const [index,block] of arabic.blocks.entries()){
+      for(const value of values(block))assert.ok(typeof value==='string'&&value.trim(),`${record.id}/${index}`);
+      assert.deepEqual(numbers(block),numbers(french.blocks[index]),`${record.id}/${index} preserves source numbers`);
     }
-    assert.equal(Object.isFrozen(publication), true);
-    assert.equal(Object.isFrozen(publication.editions.en.assets), true);
+    const body=arabic.blocks.flatMap(values).join(' ');
+    assert.ok((body.match(/[\u0621-\u064a]/g)||[]).length>(body.match(/[a-z]/gi)||[]).length,record.id+' has Arabic body text');
+    const words=edition=>edition.blocks.flatMap(values).join(' ').split(/\s+/).length;
+    assert.ok(words(arabic)>words(french)*.6,record.id+' has a full manuscript rather than a summary');
   }
 });
 
-test("Arabic publication copy is free of reviewed OCR-order artifacts", async () => {
-  const arabicCopy = [
-    JSON.stringify(site.locales.ar.publications),
-    ...PUBLICATION_CONTENT.flatMap(({ editions }) =>
-      Object.values(editions.ar),
-    ),
-    await readFile("src/ar/publications.njk", "utf8"),
-  ].join("\n");
-
-  assert.doesNotMatch(arabicCopy, /اأ|اإ|اآ|اال|هللا|ا ً/);
+test('legacy Word documents retain their original tables',()=>{
+  const records=publicationData();
+  assert.equal(records.find(r=>r.id==='A12').editions.fr.blocks.filter(b=>b.type==='table').length,1);
+  assert.equal(records.find(r=>r.id==='C08').editions.fr.blocks.filter(b=>b.type==='table').length,2);
 });
 
-test("publication detail records have deterministic reciprocal locale routes", () => {
-  assert.equal(publicationPages.length, 39);
-  assert.equal(
-    publicationPages.filter(({ locale }) => locale === "ar").length,
-    13,
-  );
-  assert.equal(publicationRoute("en", "enzymes"), "/publications/enzymes/");
-  assert.equal(
-    publicationRoute("fr", "enzymes"),
-    "/fr/publications/enzymes/",
-  );
-  assert.equal(
-    publicationOutputPath("ar", "enzymes"),
-    "ar/publications/enzymes/index.html",
-  );
-
-  for (const page of publicationPages) {
-    assert.equal(
-      page.permalink,
-      publicationRoute(page.locale, page.publication.slug),
-    );
-    assert.equal(
-      page.outputPath,
-      publicationOutputPath(page.locale, page.publication.slug),
-    );
-    assert.deepEqual(page.localizedRoutes, {
-      en: publicationRoute("en", page.publication.slug),
-      fr: publicationRoute("fr", page.publication.slug),
-      ar: publicationRoute("ar", page.publication.slug),
-    });
-  }
+test('source list hierarchy and explanatory figures remain readable in HTML',async()=>{
+  const {renderBlocks}=await import('../src/lib/publication-content.js');
+  const rendered=renderBlocks([
+    {type:'list',ordered:false,items:['Mechanisms','First mechanism','Second mechanism','Results'],levels:[0,1,1,0]},
+    {type:'figure',src:'/assets/images/publications/C04-tender-points.webp',width:498,height:693,alt:'Front and back views',caption:'Illustration from the original article.'},
+  ]);
+  assert.match(rendered.html,/<li>Mechanisms<ul><li>First mechanism<\/li><li>Second mechanism<\/li><\/ul><\/li><li>Results<\/li>/);
+  assert.match(rendered.html,/<figure[^>]*>[\s\S]*<img[^>]+width="498"[^>]+height="693"[\s\S]*<figcaption>Illustration from the original article\.<\/figcaption>/);
 });
 
-test("publication validation rejects unsafe or incomplete content and assets", () => {
-  const cases = [
-    {
-      name: "duplicate IDs",
-      edit(content) {
-        content[1].id = content[0].id;
-      },
-      expected: /duplicate publication id/i,
-    },
-    {
-      name: "duplicate slugs",
-      edit(content) {
-        content[1].slug = content[0].slug;
-      },
-      expected: /duplicate publication slug/i,
-    },
-    {
-      name: "missing locales",
-      edit(content) {
-        delete content[0].editions.ar;
-      },
-      expected: /exactly.*en.*fr.*ar/i,
-    },
-    {
-      name: "extra locales",
-      edit(content) {
-        content[0].editions.de = structuredClone(content[0].editions.en);
-      },
-      expected: /exactly.*en.*fr.*ar/i,
-    },
-    {
-      name: "mismatched asset IDs",
-      edit(_content, assets) {
-        assets.publications[0].id = "different";
-      },
-      expected: /asset.*id/i,
-    },
-    {
-      name: "unsupported categories",
-      edit(content) {
-        content[0].category = "other";
-      },
-      expected: /category/i,
-    },
-    {
-      name: "empty content",
-      edit(content) {
-        content[0].editions.en.title = "";
-      },
-      expected: /nonempty/i,
-    },
-    {
-      name: "long summaries",
-      edit(content) {
-        content[0].editions.en.summary = "x".repeat(181);
-      },
-      expected: /180/i,
-    },
-    {
-      name: "invalid versions",
-      edit(_content, assets) {
-        assets.publications[0].editions.en.version = "latest";
-      },
-      expected: /version/i,
-    },
-    {
-      name: "non-storage URLs",
-      edit(_content, assets) {
-        assets.publications[0].editions.en.preview.url = "http://example.com/a.pdf";
-      },
-      expected: /storage url/i,
-    },
-    {
-      name: "short previews",
-      edit(_content, assets) {
-        assets.publications[0].editions.en.preview.pageCount = 5;
-      },
-      expected: /preview.*six to eight/i,
-    },
-    {
-      name: "zero sizes",
-      edit(_content, assets) {
-        assets.publications[0].editions.en.full.size = 0;
-      },
-      expected: /positive size/i,
-    },
-    {
-      name: "zero cover dimensions",
-      edit(_content, assets) {
-        assets.publications[0].editions.en.cover.width = 0;
-      },
-      expected: /cover dimensions/i,
-    },
-    {
-      name: "malformed hashes",
-      edit(_content, assets) {
-        assets.publications[0].editions.en.full.sha256 = "bad";
-      },
-      expected: /sha-256/i,
-    },
-    {
-      name: "cookbook identifiers",
-      edit(content, assets) {
-        content[0].id = "cooking-to-heal";
-        content[0].slug = "cooking-to-heal";
-        assets.publications[0].id = "cooking-to-heal";
-      },
-      expected: /cookbook/i,
-    },
-  ];
 
-  for (const scenario of cases) {
-    const content = structuredClone(PUBLICATION_CONTENT);
-    const assets = structuredClone(assetManifest);
-    scenario.edit(content, assets);
-    assert.throws(
-      () => buildPublications(content, assets),
-      scenario.expected,
-      scenario.name,
-    );
+test('related reading connects the diabetes articles and the autoimmune category', async()=>{
+  const {buildLibrary}=await import('../src/lib/publication-library.js');
+  const pages=buildLibrary(publicationData()).pages.filter(p=>p.kind==='article'&&p.locale==='en');
+  for(const id of ['C07','C08','C09']){
+    const p=pages.find(p=>p.publication.id===id);
+    for(const other of ['C07','C08','C09'].filter(other=>other!==id))assert.ok(p.related.some(r=>r.id===other));
   }
+  assert.equal(pages.find(p=>p.publication.id==='C15').relatedCategory.id,'B');
 });

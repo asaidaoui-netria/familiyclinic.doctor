@@ -1,406 +1,140 @@
-import assert from "node:assert/strict";
-import { existsSync } from "node:fs";
-import { readFile } from "node:fs/promises";
-import { resolve } from "node:path";
-import test from "node:test";
+import assert from 'node:assert/strict';
+import {existsSync} from 'node:fs';
+import test from 'node:test';
+import publicationData from '../src/_data/publications.js';
+import {buildLibrary} from '../src/lib/publication-library.js';
+import {outputPath,readOutput} from './helpers/site.mjs';
+const library=buildLibrary(publicationData());
 
-import {
-  matchesPublicationCategory,
-} from "../assets/publication-catalog.js";
-import publicationData from "../src/_data/publications.js";
-import site from "../src/_data/site.js";
-import {
-  PUBLICATION_ROUTES,
-  PUBLICATION_SLUGS,
-  outputPath,
-  readOutput
-} from "./helpers/site.mjs";
+test('the complete collection has all 56 full articles in English, French and Arabic',()=>{
+  for(const locale of ['en','fr','ar'])assert.equal(library.pages.filter(p=>p.kind==='article'&&p.locale===locale).length,56,locale);
+  assert.equal(library.pages.filter(p=>p.kind==='transition').length,0,'Complete Arabic editions replace every legacy transition');
+});
 
-const CATALOGS = {
-  en: "publications/index.html",
-  fr: "fr/publications/index.html",
-  ar: "ar/publications/index.html"
-};
-const PREVIEW_LABELS = {
-  en: "Preview publication",
-  fr: "Aperçu de la publication",
-  ar: "معاينة المنشور",
-};
-const VIEWER_LABELS = {
-  en: "Preview",
-  fr: "Aperçu",
-  ar: "معاينة",
-};
-const publications = publicationData();
+test('the directory and categories expose ordinary links in architecture order',async()=>{
+  for(const locale of ['en','fr','ar']){
+    const catalog=library.catalogs[locale];
+    const html=await readOutput(catalog.outputPath);
+    let position=-1;
+    for(const category of catalog.categories){
+      const next=html.indexOf(`href="${category.url}"`,position+1);
+      assert.ok(next>position,category.title);position=next;
+      const categoryPage=await readOutput(category.url.slice(1)+'index.html');
+      for(const a of category.articles)assert.ok(categoryPage.includes(`href="${a.url}"`));
+    }
+    assert.doesNotMatch(html,/type="search"|data-publication-filter/);
+  }
+});
 
-function escapeHtml(value) {
-  return value
-    .replaceAll("&", "&amp;")
-    .replaceAll('"', "&quot;")
-    .replaceAll("'", "&#39;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;");
-}
+test('every article renders its complete source body, contents and provenance without JavaScript',async()=>{
+  for(const page of library.pages.filter(p=>p.kind==='article')){
+    const html=await readOutput(page.outputPath);
+    assert.ok(html.includes(page.body),`${page.permalink} includes every source block`);
+    assert.match(html,/class="publication-prose"/);
+    for(const heading of page.toc)assert.ok(html.includes(`href="#${heading.id}"`),heading.id);
+    const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
+    assert.equal(ids.length,new Set(ids).size,`${page.permalink} has unique anchors`);
+    assert.equal((html.match(/<h1\b/g)||[]).length,1);
+    assert.doesNotMatch(html,/class="publication-source"/);
+  }
+});
 
-function escapeRegExp(value) {
-  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-}
+test('all recipes have real ingredients, full instructions, and book navigation',async()=>{
+  const recipes=library.pages.filter(p=>p.kind==='recipe');
+  assert.equal(recipes.length,60);
+  assert.equal(recipes.filter(page=>page.locale==='ar').length,20);
+  for(const page of recipes){
+    const html=await readOutput(page.outputPath);
+    assert.match(html,/id="ingredients"/);assert.match(html,/id="preparation"/);
+    assert.ok(page.recipe.steps.length>=3);assert.ok(page.recipe.ingredients.length>=3);
+    assert.ok(html.includes(`href="${page.book.url}"`));
+    assert.match(html,/data-print-recipe/);
+  }
+});
 
-test("localized catalogs expose one heading and all thirteen detail links", async () => {
-  for (const [locale, route] of Object.entries(CATALOGS)) {
-    const html = await readOutput(route);
-    assert.equal((html.match(/<h1\b/g) ?? []).length, 1);
-    assert.match(html, /<link rel="stylesheet" href="\/assets\/publications\.css">/);
-    assert.doesNotMatch(html, /pdf_viewer\.css/);
+test('French remains available across the directory, all articles, book and recipe pages',async()=>{
+  assert.equal(library.pages.filter(page=>page.kind==='article'&&page.locale==='fr').length,56);
+  const book=library.pages.find(page=>page.kind==='book'&&page.locale==='fr');
+  assert.ok(book,'The French cookbook has its own route');
+  assert.equal(book.permalink,'/fr/publications/cooking-to-heal/');
+  const html=await readOutput(book.outputPath);
+  assert.match(html,/Cuisiner pour guérir/);
+  assert.match(html,/Lire la préface de l’auteur/);
+  assert.ok(html.includes(book.introduction));
+  assert.equal(book.book.recipes.length,20);
+  for(const page of library.pages.filter(page=>['book','recipe'].includes(page.kind))){
+    const frRoute=page.localizedRoutes.fr;
+    assert.ok(frRoute,`${page.permalink} offers French`);
+    assert.ok((await readOutput(page.outputPath)).includes(`href="${frRoute}" data-lang="fr"`));
+  }
+});
 
-    for (const slug of PUBLICATION_SLUGS) {
-      const prefix = locale === "en" ? "" : `/${locale}`;
-      assert.match(html, new RegExp(`href="${prefix}/publications/${slug}/"`));
+test('publication routes ship no PDF viewer or embedded document runtime',async()=>{
+  for(const page of library.pages){
+    const html=await readOutput(page.outputPath);
+    assert.doesNotMatch(html,/pdfjs|publication-viewer|<iframe|<embed|<object|data-pdf|\.pdf(?:"|\?)/i,page.permalink);
+  }
+  for(const asset of ['assets/publication-viewer.js','assets/publication-catalog.js','assets/vendor/pdfjs/pdf.min.mjs'])assert.equal(existsSync(outputPath(asset)),false);
+});
+
+test('published pages expose correct metadata; transitions stay out of indexing and alternates',async()=>{
+  const sitemap=await readOutput('sitemap.xml');
+  for(const page of library.pages){
+    const html=await readOutput(page.outputPath);
+    assert.ok(html.includes(`rel="canonical" href="https://www.familyclinic.doctor${page.permalink}"`));
+    assert.equal(sitemap.includes(`<loc>https://www.familyclinic.doctor${page.permalink}</loc>`),page.indexable);
+    for(const [locale,url] of Object.entries(page.localizedRoutes))assert.ok(html.includes(`hreflang="${locale}" href="https://www.familyclinic.doctor${url}"`));
+    if(page.kind==='transition'){
+      assert.match(html,/noindex, follow/);assert.doesNotMatch(html,/hreflang=/);
+    }else{
+      const schemas=[...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(m=>JSON.parse(m[1]));
+      const graph=schemas.find(s=>s['@graph'])?.['@graph'];assert.ok(graph,page.permalink);
+      assert.equal(graph[0]['@type'],['article','recipe'].includes(page.kind)?'Article':'CollectionPage');
+      assert.equal(graph[1]['@type'],'BreadcrumbList');
+      assert.equal(new Set(graph[1].itemListElement.map(i=>i.item)).size,graph[1].itemListElement.length);
+      assert.equal(graph[0].dateModified,undefined,'No invented review date');
+      assert.equal(graph[0].inLanguage,page.locale);
+      for(const [locale,url] of Object.entries(page.localizedRoutes)){
+        const equivalent=library.pages.find(other=>other.permalink===url);
+        assert.ok(equivalent?.indexable,`${page.permalink} links to a published ${locale} equivalent`);
+        assert.equal(equivalent.localizedRoutes[page.locale],page.permalink,'Language alternates are reciprocal');
+      }
     }
   }
 });
 
-test("localized catalogs render thirteen measured cards and five filters", async () => {
-  const approvedCategories = new Set([
-    "nutrition",
-    "conditions",
-    "pregnancy",
-    "environment",
-  ]);
 
-  for (const [locale, route] of Object.entries(CATALOGS)) {
-    const html = await readOutput(route);
-    assert.equal(
-      (html.match(/<article class="publication-card"/g) ?? []).length,
-      13,
-    );
-    assert.match(html, /data-publication-filters[^>]*hidden/);
-    assert.equal((html.match(/data-publication-filter=/g) ?? []).length, 5);
-    assert.equal((html.match(/aria-pressed="true"/g) ?? []).length, 1);
-    assert.doesNotMatch(html, /<input[^>]+type="search"/i);
+test('the book preface and explanatory figure are preserved in the built content',async()=>{
+  const book=library.pages.find(p=>p.kind==='book');
+  const html=await readOutput(book.outputPath);
+  assert.ok(html.includes(book.introduction));
+  assert.match(html,/Read the author’s preface/);
+  for(const p of library.pages.filter(p=>p.kind==='article'&&p.publication.id==='C04'))assert.match(await readOutput(p.outputPath),/class="publication-figure"/);
+});
 
-    for (const publication of publications) {
-      const edition = publication.editions[locale];
-      assert.equal(approvedCategories.has(publication.category), true);
-      assert.match(
-        html,
-        new RegExp(
-          `<article class="publication-card" data-publication-category="${publication.category}"`,
-        ),
-      );
-      assert.ok(edition.assets.cover.width > 0);
-      assert.ok(edition.assets.cover.height > 0);
-      assert.match(
-        html,
-        new RegExp(
-          `<img[^>]+src="${escapeRegExp(edition.assets.cover.url)}"[^>]+width="${edition.assets.cover.width}"[^>]+height="${edition.assets.cover.height}"`,
-        ),
-      );
-      assert.match(html, new RegExp(escapeRegExp(escapeHtml(edition.title))));
-      assert.match(html, new RegExp(escapeRegExp(escapeHtml(edition.summary))));
-      assert.match(html, new RegExp(`>${edition.assets.full.pageCount} (?:pages|صفحة)<`));
-    }
+test('the requested guidance and source panels are absent',async()=>{
+  for(const p of library.pages){
+    const html=await readOutput(p.outputPath);
+    assert.doesNotMatch(html,/class="publication-(?:guide|count-label|source)"/);
+    assert.doesNotMatch(html,/A guide to the collection|shown in the collection’s reading order|Sources and review/);
   }
 });
 
-test("each publication card is one complete link without a separate preview CTA", async () => {
-  for (const [locale, route] of Object.entries(CATALOGS)) {
-    const html = await readOutput(route);
-    const cards = [
-      ...html.matchAll(
-        /<article class="publication-card"[\s\S]*?<\/article>/g,
-      ),
-    ].map(([card]) => card);
-    const prefix = locale === "en" ? "" : `/${locale}`;
-
-    assert.equal(cards.length, 13);
-    for (const [index, publication] of publications.entries()) {
-      const edition = publication.editions[locale];
-      const card = cards[index];
-      const destination = `${prefix}/publications/${publication.slug}/`;
-
-      assert.equal((card.match(/<a\b/g) ?? []).length, 1);
-      assert.match(
-        card,
-        new RegExp(
-          `^<article[^>]*>\\s*<a[^>]+href="${escapeRegExp(destination)}"[^>]*>[\\s\\S]*<\\/a>\\s*<\\/article>$`,
-        ),
-      );
-      assert.match(
-        card,
-        new RegExp(
-          `aria-label="${escapeRegExp(escapeHtml(edition.title))}"`,
-        ),
-      );
-      assert.match(card, new RegExp(escapeRegExp(escapeHtml(edition.title))));
-      assert.match(card, new RegExp(escapeRegExp(escapeHtml(edition.summary))));
-      assert.doesNotMatch(
-        card,
-        new RegExp(escapeRegExp(escapeHtml(PREVIEW_LABELS[locale]))),
-      );
-    }
-  }
-});
-
-test("publication category matching is strict and supports all", () => {
-  const categories = ["nutrition", "conditions", "pregnancy", "environment"];
-  for (const category of categories) {
-    assert.equal(matchesPublicationCategory(category, "all"), true);
-    for (const selected of categories) {
-      assert.equal(
-        matchesPublicationCategory(category, selected),
-        category === selected,
-      );
-    }
-  }
-  assert.equal(matchesPublicationCategory("nutrition", "unknown"), false);
-  assert.equal(matchesPublicationCategory("unknown", "all"), false);
-});
-
-test("all 39 detail pages render localized copy without a direct full-PDF link", async () => {
-  assert.equal(PUBLICATION_ROUTES.length, 39);
-
-  for (const route of PUBLICATION_ROUTES) {
-    const locale = route.startsWith("fr/") ? "fr" : route.startsWith("ar/") ? "ar" : "en";
-    const slug = route.split("/").at(-2);
-    const publication = publications.find((entry) => entry.slug === slug);
-    const edition = publication.editions[locale];
-    const copy = site.locales[locale].publications;
-    const html = await readOutput(route);
-
-    assert.equal((html.match(/<h1\b/g) ?? []).length, 1);
-    assert.match(html, new RegExp(escapeRegExp(escapeHtml(edition.title))));
-    assert.match(html, /Dr\. Said-Alaoui Moulay Abdellah/);
-    assert.match(html, new RegExp(escapeRegExp(escapeHtml(edition.summary))));
-    assert.doesNotMatch(
-      html,
-      new RegExp(escapeRegExp(edition.assets.full.url)),
-    );
-    assert.match(
-      html,
-      new RegExp(
-        `${escapeRegExp(copy.language)}: ${escapeRegExp(site.localeNames[locale])}`,
-      ),
-    );
-  }
-});
-
-test("publication detail headers do not repeat the catalog cover thumbnail", async () => {
-  for (const route of PUBLICATION_ROUTES) {
-    const html = await readOutput(route);
-    const header = html.match(
-      /<header class="publication-detail__header">[\s\S]*?<\/header>/,
-    )?.[0];
-
-    assert.ok(header, `${route} has a publication detail header`);
-    assert.doesNotMatch(header, /<img\b/);
-    assert.doesNotMatch(header, /publication-detail__cover/);
-  }
-});
-
-test("publication viewers omit the repeated visible preview heading", async () => {
-  for (const route of PUBLICATION_ROUTES) {
-    const html = await readOutput(route);
-    const viewer = html.match(
-      /<section class="publication-viewer"[\s\S]*?<\/section>/,
-    )?.[0];
-
-    assert.ok(viewer, `${route} has a publication viewer`);
-    assert.doesNotMatch(viewer, /publication-viewer__heading/);
-    assert.doesNotMatch(viewer, /<h2\b/);
-  }
-});
-
-test("publication viewer sections retain a localized accessible name", async () => {
-  for (const route of PUBLICATION_ROUTES) {
-    const locale = route.startsWith("fr/") ? "fr" : route.startsWith("ar/") ? "ar" : "en";
-    const html = await readOutput(route);
-
-    assert.match(
-      html,
-      new RegExp(
-        `<section class="publication-viewer"[^>]+aria-label="${VIEWER_LABELS[locale]}"`,
-      ),
-    );
-  }
-});
-
-test("publication detail pages omit download controls", async () => {
-  for (const route of PUBLICATION_ROUTES) {
-    const html = await readOutput(route);
-
-    assert.doesNotMatch(html, /publication-detail__(?:download|read)/);
-    assert.doesNotMatch(html, /<a\b[^>]*\bdownload(?:=|\s|>)/i);
-  }
-});
-
-test("detail pages expose the embedded-preview fallback contract without embedding full PDFs", async () => {
-  for (const route of PUBLICATION_ROUTES) {
-    const locale = route.startsWith("fr/") ? "fr" : route.startsWith("ar/") ? "ar" : "en";
-    const slug = route.split("/").at(-2);
-    const publication = publications.find((entry) => entry.slug === slug);
-    const edition = publication.editions[locale];
-    const copy = site.locales[locale].publications;
-    const html = await readOutput(route);
-    const viewer = html.match(/<section class="publication-viewer"[\s\S]*?<\/section>/)?.[0];
-
-    assert.ok(viewer, `${route} has a viewer section`);
-    assert.match(html, /<link rel="stylesheet" href="\/assets\/vendor\/pdfjs\/pdf_viewer\.css">/);
-    assert.match(html, /<link rel="stylesheet" href="\/assets\/publications\.css">/);
-    assert.match(html, new RegExp(escapeRegExp(escapeHtml(publication.author))));
-    assert.match(html, new RegExp(escapeRegExp(escapeHtml(copy.filters[publication.category]))));
-    assert.match(html, new RegExp(escapeRegExp(escapeHtml(edition.description))));
-    assert.match(html, new RegExp(`>${edition.assets.full.pageCount} (?:pages|صفحة)<`));
-    assert.match(html, /\bMB\b/);
-
-    assert.match(
-      viewer,
-      new RegExp(`data-preview-url="${escapeRegExp(edition.assets.preview.url)}"`),
-    );
-    assert.match(viewer, new RegExp(`data-preview-pages="${edition.assets.preview.pageCount}"`));
-    assert.match(viewer, new RegExp(`data-preview-locale="${locale}"`));
-    assert.match(viewer, new RegExp(`data-text-layer="${edition.assets.textLayer}"`));
-    assert.doesNotMatch(viewer, new RegExp(escapeRegExp(edition.assets.full.url)));
-    assert.doesNotMatch(
-      html,
-      new RegExp(escapeRegExp(edition.assets.full.url)),
-    );
-
-    assert.doesNotMatch(html, /<(?:iframe|embed|object)\b/i);
-    assert.doesNotMatch(html, /<link[^>]+rel="preload"/i);
-    for (const label of [
-      copy.previousPage,
-      copy.nextPage,
-      copy.zoomOut,
-      copy.zoomIn,
-      copy.fullscreen,
-    ]) {
-      assert.match(
-        viewer,
-        new RegExp(`aria-label="${escapeRegExp(escapeHtml(label))}"[^>]*disabled`),
-      );
-    }
-    assert.match(viewer, /role="status"/);
-    assert.match(viewer, /role="alert"[^>]*hidden/);
-    assert.equal(
-      (viewer.match(new RegExp(escapeRegExp(edition.assets.preview.url), "g")) ?? []).length,
-      3,
-    );
-    assert.match(viewer, /<noscript>[\s\S]*<a /);
-    assert.match(
-      html,
-      new RegExp(escapeRegExp(escapeHtml(copy.educationalDisclaimer))),
-    );
-  }
-});
-
-test("Arabic publication controls retain a logical reading order", async () => {
-  const html = await readOutput(CATALOGS.ar);
-  assert.match(html, /<html lang="ar" dir="rtl">/);
-
-  const filterValues = [...html.matchAll(/data-publication-filter="([^"]+)"/g)]
-    .map((match) => match[1]);
-  assert.deepEqual(filterValues, ["all", "nutrition", "conditions", "pregnancy", "environment"]);
-
-  const detail = await readOutput(`ar/publications/${PUBLICATION_SLUGS[0]}/index.html`);
-  const toolbarStart = detail.indexOf('<div class="publication-viewer__toolbar"');
-  const toolbarEnd = detail.indexOf('<div class="publication-viewer__stage"', toolbarStart);
-  const toolbar = detail.slice(toolbarStart, toolbarEnd);
-  assert.ok(toolbar);
-  for (const control of [
-    "data-viewer-previous",
-    "data-viewer-next",
-    "data-viewer-zoom-out",
-    "data-viewer-zoom-in",
-    "data-viewer-fullscreen",
-  ]) {
-    assert.match(toolbar, new RegExp(`<button[^>]+${control}[^>]+aria-label="[^"]+"`));
-  }
-});
-
-test("publication viewer chrome keeps the same control direction in every locale", async () => {
-  for (const route of [
-    `publications/${PUBLICATION_SLUGS[0]}/index.html`,
-    `fr/publications/${PUBLICATION_SLUGS[0]}/index.html`,
-    `ar/publications/${PUBLICATION_SLUGS[0]}/index.html`,
-  ]) {
-    const html = await readOutput(route);
-    assert.match(
-      html,
-      /<div class="publication-viewer__toolbar" dir="ltr" role="toolbar"/,
-      `${route} keeps reader controls left-to-right`,
-    );
-  }
-});
-
-test("publication viewer arrows follow each locale's reading direction", async () => {
-  for (const [route, previousArrow, nextArrow] of [
-    [`publications/${PUBLICATION_SLUGS[0]}/index.html`, "←", "→"],
-    [`fr/publications/${PUBLICATION_SLUGS[0]}/index.html`, "←", "→"],
-    [`ar/publications/${PUBLICATION_SLUGS[0]}/index.html`, "→", "←"],
-  ]) {
-    const html = await readOutput(route);
-    assert.match(
-      html,
-      new RegExp(`data-viewer-previous[^>]*><span aria-hidden="true">${previousArrow}<\\/span>`),
-      `${route} uses ${previousArrow} for Back`,
-    );
-    assert.match(
-      html,
-      new RegExp(`data-viewer-next[^>]*><span aria-hidden="true">${nextArrow}<\\/span>`),
-      `${route} uses ${nextArrow} for Forward`,
-    );
-  }
-});
-
-test("Arabic pagination reverses button positions without moving the toolbar groups", async () => {
-  for (const route of [
-    `publications/${PUBLICATION_SLUGS[0]}/index.html`,
-    `fr/publications/${PUBLICATION_SLUGS[0]}/index.html`,
-  ]) {
-    const html = await readOutput(route);
-    assert.match(html, /<div class="publication-viewer__pagination">/);
-    assert.doesNotMatch(html, /publication-viewer__pagination--rtl/);
-  }
-
-  const arabic = await readOutput(`ar/publications/${PUBLICATION_SLUGS[0]}/index.html`);
-  assert.match(
-    arabic,
-    /<div class="publication-viewer__pagination publication-viewer__pagination--rtl">/,
-  );
-});
-
-test("publication pages defer full PDFs and publish every local runtime asset", async () => {
-  const routes = [
-    ...Object.values(CATALOGS),
-    ...PUBLICATION_ROUTES,
-  ];
-
-  for (const route of routes) {
-    const html = await readOutput(route);
-    const preloads = html.match(/<link\b[^>]+rel="preload"[^>]*>/gi) ?? [];
-    assert.equal(
-      preloads.some((tag) => /full\.pdf/i.test(tag)),
-      false,
-      `${route} does not preload a complete publication`,
-    );
-
-    for (const [, reference] of html.matchAll(
-      /(?:href|src)="(\/assets\/(?:publication[^"?#]+|vendor\/pdfjs\/[^"?#]+))"/g,
-    )) {
-      assert.equal(
-        existsSync(outputPath(reference.slice(1))),
-        true,
-        `${route} publishes ${reference}`,
-      );
-    }
-  }
-});
-
-test("publication JavaScript contains no publication-specific analytics", async () => {
-  for (const filename of ["publication-catalog.js", "publication-viewer.js"]) {
-    const source = await readFile(resolve("assets", filename), "utf8");
-    assert.doesNotMatch(source, /plausible\s*\(/i, `${filename} sends no Plausible event`);
-    assert.doesNotMatch(source, /dispatchEvent|CustomEvent/, `${filename} dispatches no analytics event`);
+test('Arabic book pages use the supplied edition and keep navigation and visible labels in Arabic',async()=>{
+  const book=library.pages.find(page=>page.kind==='book'&&page.locale==='ar');
+  assert.equal(book.book.source.language,'ar');
+  const bookHtml=await readOutput(book.outputPath);
+  assert.ok(bookHtml.includes(book.introduction));
+  assert.match(bookHtml,/اقرأ مقدمة المؤلف/);
+  assert.match(bookHtml,/book-ar-640\.webp/);
+  assert.doesNotMatch(bookHtml,/Read the author|Recipe \d|Cooking to Heal/);
+  const recipe=library.pages.find(page=>page.kind==='recipe'&&page.locale==='ar'&&page.recipe.number===1);
+  assert.equal(recipe.recipe.sourcePdfPage,15);
+  assert.ok(recipe.recipe.ingredients.includes('100 مل من اللبن النباتي (مثل لبن جوز الهند أو الصويا)'));
+  for(const page of library.pages.filter(page=>page.kind==='recipe'&&page.locale==='ar')){
+    const html=await readOutput(page.outputPath);
+    assert.match(html,/المكونات|طريقة التحضير/);
+    assert.doesNotMatch(html,/The author’s nutrition notes|Health goal|>Benefits<|>Nutrition</);
+    assert.ok(html.includes(`href="${book.permalink}"`));
   }
 });

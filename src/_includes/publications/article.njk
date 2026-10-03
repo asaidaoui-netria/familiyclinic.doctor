@@ -1,0 +1,19 @@
+<header class="publication-article-header">
+<div class="publication-article-copy">
+<div class="publication-article-title"><a class="publication-eyebrow" href="{{ p.category.url }}">{{ p.category.title | publicationText(p.locale) | safe }}</a><h1>{{ p.title | publicationText(p.locale) | safe }}</h1></div>
+<div class="publication-article-summary"><p class="publication-intro">{{ p.summary | publicationText(p.locale) | safe }}</p>{{ author(p) }}<p class="publication-meta">{{ p.readingMinutes }} {{ pc.read }}{% if p.edition.translation %}<span>{{ pc.translatedLabel }}</span>{% endif %}</p></div>
+</div>
+{{ illustration(p.image,'publication-article-image',true,'','(max-width: 768px) 190px, (max-width: 1040px) 260px, (max-width: 1200px) 25vw, 300px') }}
+</header>
+<div class="publication-reading-layout">
+{{ contents(p) }}
+<div class="publication-reading-main">
+<article class="publication-prose">{{ p.body | safe }}</article>
+<nav class="publication-sequence" aria-label="{{ pc.related }}">
+{% if p.previous %}<a href="{{ p.previous.url }}"><span>{{ pc.backArrow }} {{ pc.previous }}</span>{{ p.previous.title | publicationText(p.locale) | safe }}</a>{% endif %}
+{% if p.next %}<a href="{{ p.next.url }}"><span>{{ pc.next }} {{ pc.forwardArrow }}</span>{{ p.next.title | publicationText(p.locale) | safe }}</a>{% endif %}
+</nav>
+<section class="publication-related" aria-labelledby="publication-related-title"><h2 id="publication-related-title">{{ pc.related }}</h2><ul>{% for a in p.related %}<li><a href="{{ a.url }}">{{ a.title | publicationText(p.locale) | safe }}</a></li>{% endfor %}{% if p.relatedCategory %}<li><a href="{{ p.relatedCategory.url }}">{{ p.relatedCategory.title | publicationText(p.locale) | safe }}</a></li>{% endif %}</ul><a href="{{ p.category.url }}">{{ pc.back }} {{ pc.backArrow }}</a></section>
+<p class="publication-care">{{ pc.contact }} <a href="{{ 'contact' | localizedUrl(p.locale) }}">{{ pc.contactLink }}</a>.</p>
+</div>
+</div>

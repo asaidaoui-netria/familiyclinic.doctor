@@ -1,0 +1,818 @@
+{
+  "language": "en",
+  "status": "published",
+  "title": "Diabetes and hyperinsulinism",
+  "summary": "A practical guide to diabetes and hyperinsulinism through the Family Clinic hypotoxic approach, with explanations of blood glucose, cooking strategies, meal planning, lifestyle advice and reference tools to support patients alongside therapeutic follow-up.",
+  "sourceHash": "85b164272c31627025a7b55732c970c8a99470c817f7792cf8f834665b1c413c",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Foreword"
+    },
+    {
+      "type": "paragraph",
+      "text": "Diabetes and hyperinsulinism are silent diseases. They develop gradually, often without visible symptoms, until the body cries out about its imbalance. Faced with this challenge, food becomes a gentle but powerful weapon, capable of turning everyday life into a therapeutic strategy."
+    },
+    {
+      "type": "paragraph",
+      "text": "The hypotoxic approach we propose rests on three complementary pillars:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Eliminate dietary toxins: gluten, dairy products, refined sugars, additives and excessive industrial processing that sustain inflammation and disrupt metabolism.",
+        "Favour protective foods: fibre, plant proteins, good fats and natural antioxidants from legumes, fresh fruit, seeds and local oils.",
+        "Adapt recipes to the local culture: so that every patient can find the keys to health in their market and kitchen, without breaking with their habits or culinary identity."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "This booklet is not a rigid medical manual but a guide to living. It does not replace therapeutic follow-up, but complements care by giving patients the means to act every day. It offers accessible explanations, practical guidance and recipes adapted to local realities."
+    },
+    {
+      "type": "paragraph",
+      "text": "Each chapter is designed as a step: understanding the disease, discovering the basics of hypotoxic nutrition, learning appropriate cooking strategies, then exploring practical recipes and lifestyle advice. Finally, educational appendices strengthen understanding and independence, offering simple tools to track progress and consolidate what has been learned."
+    },
+    {
+      "type": "paragraph",
+      "text": "Our ambition is clear: that every reader, on closing this booklet, can say, “I understand my illness better, and I know how to cook to heal.” This message promises empowerment and hope. Food then becomes a universal language: it connects science and culture, prevention and pleasure, rigour and creativity."
+    },
+    {
+      "type": "paragraph",
+      "text": "This booklet thus forms part of an ongoing project: it extends the work of Cooking to Heal and the Family Clinic protocol by offering a practical, culturally rooted and scientifically validated tool. It invites everyone to transform daily life, make every meal an act of care and restore the body's dignity through regained health."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Understanding diabetes and hyperinsulinism"
+    },
+    {
+      "type": "paragraph",
+      "text": "Diabetes and hyperinsulinism are not inevitable. By understanding their mechanisms and adapting their diet, everyone can regain control of blood glucose and protect their cells."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "What is diabetes?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Definition: A chronic disease characterised by persistently elevated blood glucose."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Main types:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Type 1 diabetes: an absolute insulin deficiency (an autoimmune disease)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Type 2 diabetes: cells' resistance to insulin, often linked to lifestyle."
+    },
+    {
+      "type": "paragraph",
+      "text": "Consequences: fatigue, excessive thirst, cardiovascular complications, nerve and kidney damage."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Hyperinsulinism explained"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hyperinsulinism: excess insulin secreted by the pancreas to compensate for cellular resistance."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mechanism: Cells become “deaf” to insulin's signal; the pancreas produces more insulin to force glucose into them, and this vicious circle sustains fatigue and encourages fat storage."
+    },
+    {
+      "type": "paragraph",
+      "text": "Link with obesity and metabolic syndrome: hyperinsulinism is often the first sign of a broader imbalance."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Associated metabolic complications"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cardiovascular: hypertension, atherosclerosis."
+    },
+    {
+      "type": "paragraph",
+      "text": "Liver: steatosis (fatty liver)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Neurological: memory problems, neuropathies."
+    },
+    {
+      "type": "paragraph",
+      "text": "Digestive: microbiota imbalance, bloating."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "The central role of food"
+    },
+    {
+      "type": "paragraph",
+      "text": "High-GI foods (white bread, refined sugar) → promote blood glucose spikes and hyperinsulinism."
+    },
+    {
+      "type": "paragraph",
+      "text": "Hypotoxic foods (legumes, mild vegetables, vegetable oils) → stabilise blood glucose and reduce the burden on the pancreas."
+    },
+    {
+      "type": "paragraph",
+      "text": "Fibre and plant proteins → slow glucose absorption and improve satiety."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The basics of hypotoxic nutrition"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hypotoxic nutrition is not deprivation; it is rediscovery. It allows you to eat better, using simple, local and protective ingredients."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "What is a hypotoxic diet?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Definition: a diet that reduces dietary toxins and favours protective nutrients."
+    },
+    {
+      "type": "paragraph",
+      "text": "Origin of the term: “hypo” = less, “toxic” = harmful."
+    },
+    {
+      "type": "paragraph",
+      "text": "Goal: ease the digestive system's workload, reduce inflammation and stabilise blood glucose."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "The pillars of hypotoxic nutrition"
+    },
+    {
+      "type": "paragraph",
+      "text": "Gluten-free: to limit intestinal permeability and inflammatory reactions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Free of animal dairy products: to reduce growth factors and digestive problems."
+    },
+    {
+      "type": "paragraph",
+      "text": "Free of refined sugars: to avoid blood glucose spikes and hyperinsulinism."
+    },
+    {
+      "type": "paragraph",
+      "text": "Free of chemical additives: to preserve the microbiota and liver health."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Foods to favour"
+    },
+    {
+      "type": "paragraph",
+      "text": "Local legumes: chickpeas, lentils, white beans → rich in fibre and plant proteins."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mild vegetables and roots: carrots, courgettes, sweet potato, turnip → moderate GI and easy to digest."
+    },
+    {
+      "type": "paragraph",
+      "text": "Low-sugar fruits: apples, citrus fruits, berries → rich in antioxidants."
+    },
+    {
+      "type": "paragraph",
+      "text": "Quality vegetable oils: olive oil, walnut oil → rich in omega-9 and anti-inflammatory."
+    },
+    {
+      "type": "paragraph",
+      "text": "Seeds and nuts: almonds, flaxseed, sesame → provide fibre, good fats and minerals."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Glycaemic index and glycaemic load"
+    },
+    {
+      "type": "paragraph",
+      "text": "Glycaemic index (GI): measures the speed of glucose absorption after a food is eaten."
+    },
+    {
+      "type": "paragraph",
+      "text": "High GI → white bread, white rice, sugar."
+    },
+    {
+      "type": "paragraph",
+      "text": "Low GI → lentils, quinoa, green vegetables."
+    },
+    {
+      "type": "paragraph",
+      "text": "Glycaemic load (GL): takes account of GI and the quantity of carbohydrates consumed."
+    },
+    {
+      "type": "paragraph",
+      "text": "Example: a small portion of carrots (medium GI) has a low GL → therefore beneficial."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Why this approach is suitable for diabetes"
+    },
+    {
+      "type": "paragraph",
+      "text": "Stabilisation of blood glucose: through fibre and complex carbohydrates."
+    },
+    {
+      "type": "paragraph",
+      "text": "Reduction of hyperinsulinism: by avoiding high-GI foods."
+    },
+    {
+      "type": "paragraph",
+      "text": "Support for the microbiota: through fermentable foods and natural seasonings."
+    },
+    {
+      "type": "paragraph",
+      "text": "Preservation of liver and pancreatic health: by limiting metabolic overload."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Appropriate cooking strategies"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hypotoxic cooking means learning to turn simple actions into daily care. Every seasoning and cooking method becomes an act of regulation and protection."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Gentle cooking and nutrient preservation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Why avoid harsh cooking methods: frying and high-temperature grilling → formation of toxic compounds."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Recommended methods:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Gentle steaming: preserves vitamins and minerals.",
+        "Slow simmering: ideal for root vegetables and legumes.",
+        "Low-temperature baking: for hypotoxic patties, gratins and biscuits."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Functional seasonings"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lemon: alkalising, aids digestion and regulates blood glucose."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ginger: anti-inflammatory, stimulates metabolism."
+    },
+    {
+      "type": "paragraph",
+      "text": "Cumin and coriander: aid digestion and balance legume dishes."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mint and parsley: refreshing and rich in antioxidants."
+    },
+    {
+      "type": "paragraph",
+      "text": "Turmeric + black pepper: a powerful anti-inflammatory synergy."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Bread substitutes"
+    },
+    {
+      "type": "paragraph",
+      "text": "Why replace white bread: high glycaemic index, encourages blood glucose spikes."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Local hypotoxic alternatives:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Chickpea flatbreads: rich in protein and gluten-free.",
+        "Coconut-flour or buckwheat pancakes: easy to digest and filling.",
+        "Seed bread: a mixture of flax, sesame and chia, without refined flour."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Practical tip: prepare a large quantity and freeze in portions."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Suitable hypotoxic desserts"
+    },
+    {
+      "type": "paragraph",
+      "text": "Plant-based creams: made with sweet potato, carrot or coconut."
+    },
+    {
+      "type": "paragraph",
+      "text": "Compotes without added sugar: apple, pear or citrus fruits, with cinnamon or ginger."
+    },
+    {
+      "type": "paragraph",
+      "text": "Hypotoxic biscuits: chickpea flour, olive oil, dried fruit."
+    },
+    {
+      "type": "paragraph",
+      "text": "Light mousses: avocado–cocoa, banana–coconut, with stevia or erythritol."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Kitchen organisation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Precooking legumes: soaking + gentle cooking → saves time."
+    },
+    {
+      "type": "paragraph",
+      "text": "Hypotoxic batch cooking: cook for 3 days, with simple variations."
+    },
+    {
+      "type": "paragraph",
+      "text": "Using leftovers: warm salads, patties, enriched soups."
+    },
+    {
+      "type": "paragraph",
+      "text": "Labelling portions: to manage quantities better and avoid excess."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Advice for everyday life"
+    },
+    {
+      "type": "paragraph",
+      "text": "Health depends not only on what is on your plate but also on everyday organisation. Every small action matters in stabilising blood glucose and regaining energy."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Meal organisation and appropriate portions"
+    },
+    {
+      "type": "paragraph",
+      "text": "Spread out meals: 3 main meals + 1 to 2 hypotoxic snacks."
+    },
+    {
+      "type": "paragraph",
+      "text": "Balanced portions: half vegetables, one quarter plant protein, one quarter complex carbohydrates."
+    },
+    {
+      "type": "paragraph",
+      "text": "Preparation in advance: batch cooking for 2 to 3 days."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tip: use individual containers to avoid excess."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Managing sugar cravings"
+    },
+    {
+      "type": "paragraph",
+      "text": "Natural substitutes: sugar-free compotes, fresh fruit, hypotoxic desserts."
+    },
+    {
+      "type": "paragraph",
+      "text": "Suitable sweeteners: stevia and erythritol, used in moderation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Hydration: drink an herbal infusion or a glass of water before giving in to a craving."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tip: occupy your mind (walking, reading) to divert the craving."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Physical activity and blood glucose balance"
+    },
+    {
+      "type": "paragraph",
+      "text": "Importance: exercise increases insulin sensitivity."
+    },
+    {
+      "type": "paragraph",
+      "text": "Recommendations: 30 minutes of brisk walking or gentle activity every day."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tip: favour enjoyable activities (dancing, cycling, gardening)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Variation: split this into 3 sessions of 10 minutes if time is short."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Eating with family or away from home"
+    },
+    {
+      "type": "paragraph",
+      "text": "With family: offer hypotoxic dishes for everyone; avoid separate meals."
+    },
+    {
+      "type": "paragraph",
+      "text": "At restaurants: choose salads and slow-cooked dishes; avoid fried foods and white bread."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tip: ask for vegetables as a side instead of chips."
+    },
+    {
+      "type": "paragraph",
+      "text": "Variation: take your own hypotoxic flatbreads or bread rolls."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Educational appendices"
+    },
+    {
+      "type": "paragraph",
+      "text": "The appendices are your quick reference guides. They allow you to check, compare and choose foods independently."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Glossary of medical and nutritional terms"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Hyperinsulinism: excess insulin in the blood, often linked to cellular resistance.",
+        "Insulin resistance: reduced sensitivity of cells to insulin.",
+        "Blood glucose: the level of sugar in the blood.",
+        "Hypoglycaemia: an excessive drop in blood glucose.",
+        "Glycaemic index (GI): the speed at which a food raises blood glucose.",
+        "Glycaemic load (GL): a food's actual impact on blood glucose (GI + quantity).",
+        "HbA1c: reflects average blood glucose over 2 to 3 months.",
+        "Dietary fibre: slows glucose absorption and improves satiety.",
+        "Plant proteins: chickpeas, lentils, beans, quinoa.",
+        "Quality fats: vegetable oils rich in omega-3 and omega-9.",
+        "Antioxidants: protective molecules found in colourful fruit and vegetables.",
+        "Hypotoxic nutrition: a diet without gluten, dairy products, refined sugars or additives."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Table of glycaemic indices for common foods"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Category",
+          "Low GI (≤55)",
+          "Medium GI (56–69)",
+          "High GI (≥70)"
+        ],
+        [
+          "Cereals & legumes",
+          "Quinoa, lentils, chickpeas",
+          "Brown rice, sweet potato",
+          "White bread, white rice"
+        ],
+        [
+          "Vegetables",
+          "Broccoli, courgette, raw carrot",
+          "Cooked carrot, beetroot",
+          "Potato"
+        ],
+        [
+          "Fruit",
+          "Apple, citrus fruits, berries",
+          "Ripe banana",
+          "Watermelon, dried dates"
+        ],
+        [
+          "Processed products",
+          "Chickpea flatbreads",
+          "Buckwheat bread",
+          "Pastries, soft drinks"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Glycated haemoglobin (HbA1c)"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Definition: Glycated haemoglobin (HbA1c) is the sugar attached to the haemoglobin in red blood cells.",
+        "Reference period: As red blood cells live for about 120 days, the test reflects average blood glucose over 2 to 3 months.",
+        "Advantage: Unlike individual blood glucose readings (which vary with meals), HbA1c gives a stable and reliable picture of blood glucose control."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Reference values"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "HbA1c result",
+          "Interpretation"
+        ],
+        [
+          "< 5.7%",
+          "Normal blood glucose"
+        ],
+        [
+          "5.7–6.4%",
+          "Prediabetes (high risk of diabetes)"
+        ],
+        [
+          "≥ 6.5%",
+          "Diagnosis of diabetes"
+        ],
+        [
+          "Target in people with diabetes",
+          "Often < 7%"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Main uses"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Diagnosis: screen for diabetes or prediabetes.",
+        "Monitoring: evaluate treatment effectiveness in patients with diabetes.",
+        "Prevention: identify people at risk and introduce lifestyle and dietary measures."
+      ],
+      "levels": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Important points"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "The test does not replace daily capillary blood glucose readings (a glucose meter), but complements monitoring.",
+        "Certain factors (anaemia, blood disorders, kidney failure) can distort results.",
+        "The test must be interpreted by a healthcare professional in the patient's clinical context."
+      ],
+      "levels": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Practical advice for improving HbA1c"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Balanced diet: reduce rapidly absorbed sugars; favour fibre, vegetables and fresh fruit.",
+        "Regular physical activity: walking, cycling, swimming.",
+        "Medical follow-up: regular HbA1c checks (every 3 to 6 months in people with diabetes).",
+        "Healthy lifestyle: sufficient sleep, stress management."
+      ],
+      "levels": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "My hypotoxic plate"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "½ vegetables (raw or gently cooked)",
+        "¼ plant proteins (chickpeas, lentils, beans)",
+        "¼ complex carbohydrates (quinoa, sweet potato, buckwheat)",
+        "1 tablespoon of quality vegetable oil (olive, walnut)"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "My alternatives to bread"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Chickpea flatbreads",
+        "Coconut-flour or buckwheat pancakes",
+        "Sweet potato bread rolls",
+        "Seed bread (flax, sesame, sunflower)"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "My safe desserts"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Compotes without added sugar",
+        "Plant-based creams (carrot, coconut, sweet potato)",
+        "Light mousses (avocado–cocoa, banana–coconut)",
+        "Hypotoxic biscuits using local flours"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "My protective drinks"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Cinnamon & clove infusion",
+        "Water flavoured with ginger and mint",
+        "Homemade plant milk (almond, coconut)",
+        "Green smoothie (spinach, cucumber, lemon)"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The complete recipe sheets, local variations and nutritional details are presented in the book “Cooking to Heal” — Family Clinic Editions (2026)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Conclusion"
+    },
+    {
+      "type": "paragraph",
+      "text": "Diabetes and hyperinsulinism are not inevitable. They represent a daily challenge, but also an opportunity: to regain control through simple, conscious actions. Hypotoxic nutrition is a path towards reconciling health and pleasure. It allows you to reduce toxins, stabilise blood glucose and protect key organs, while respecting local tastes and traditions."
+    },
+    {
+      "type": "paragraph",
+      "text": "This booklet has shown you that:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Understanding your disease is the first step towards independence.",
+        "Hypotoxic cooking is accessible using simple, local ingredients.",
+        "Every recipe can become a tool for regulation and an act of care.",
+        "The practical advice and appendices are there to support you every day."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "This booklet thus forms a coherent whole. It invites you to see food not as a medical constraint but as a freedom regained. Health is not only the absence of disease; it is energy, vitality, balance and joy in living."
+    },
+    {
+      "type": "paragraph",
+      "text": "May this booklet be a source of inspiration, a practical guide and a faithful companion for you. May it help you transform your habits, strengthen your independence and regain the dignity of choosing your path towards greater well-being."
+    }
+  ],
+  "translation": {
+    "from": "fr",
+    "method": "AI-assisted translation",
+    "reviewStatus": "not-clinically-reviewed"
+  }
+}

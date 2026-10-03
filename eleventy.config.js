@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import { I18nPlugin } from "@11ty/eleventy";
 import site from "./src/_data/site.js";
+import {renderPublicationText} from "./src/lib/publication-content.js";
 
 export default function (eleventyConfig) {
   eleventyConfig.addPlugin(I18nPlugin, {
@@ -14,7 +15,9 @@ export default function (eleventyConfig) {
   eleventyConfig.addGlobalData("buildYear", new Date().getFullYear());
 
   eleventyConfig.addFilter("localizedUrl", site.localizedUrl);
+  eleventyConfig.addFilter("publicationText", renderPublicationText);
   eleventyConfig.addFilter("json", (value) => JSON.stringify(value));
+  eleventyConfig.addFilter("jsonLd", (value) => JSON.stringify(value).replace(/</g, "\\u003c"));
 
   eleventyConfig.addPassthroughCopy("CNAME");
   eleventyConfig.addPassthroughCopy("assets/*.css");
@@ -26,11 +29,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("assets/images/optimized/netria");
   eleventyConfig.addPassthroughCopy("assets/images/optimized/services");
   eleventyConfig.addPassthroughCopy("assets/images/optimized/team");
-  eleventyConfig.addPassthroughCopy({
-    "node_modules/pdfjs-dist/build/pdf.min.mjs": "assets/vendor/pdfjs/pdf.min.mjs",
-    "node_modules/pdfjs-dist/build/pdf.worker.min.mjs": "assets/vendor/pdfjs/pdf.worker.min.mjs",
-    "node_modules/pdfjs-dist/web/pdf_viewer.css": "assets/vendor/pdfjs/pdf_viewer.css"
-  });
+  eleventyConfig.addPassthroughCopy("assets/images/publications");
 
   return {
     dir: {

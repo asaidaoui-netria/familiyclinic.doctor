@@ -1,0 +1,503 @@
+{
+  "language": "en",
+  "status": "published",
+  "title": "Skin conditions and the elimination model",
+  "summary": "The author examines acne, eczema, urticaria and psoriasis as proposed skin elimination disorders, describing symptoms, inflammatory mechanisms, conventional treatments, dietary studies and clinical observations, with hypotoxic nutrition presented as a means of reducing harmful intake.",
+  "sourceHash": "b467e0c4abcb7b7414c0ff0ba170b623412cd8c5da92ebba8cd37b0fe026c8f3",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Foreword"
+    },
+    {
+      "type": "paragraph",
+      "text": "The skin is not merely a protective covering: it constitutes an essential excretory organ, responsible for expelling some of the waste accumulated in the body. Chronic skin conditions — acne, eczema, urticaria, psoriasis — should be understood not as simple local abnormalities, but as manifestations of an elimination process."
+    },
+    {
+      "type": "paragraph",
+      "text": "Acne, so common in adolescents, reflects the sebaceous glands' effort to eject unwanted macromolecules transported by leukocytes. Eczema, whether contact or constitutional, illustrates an inflammatory skin reaction to substances it seeks to expel. Urticaria, with its itchy plaques, corresponds to mast-cell degranulation triggered by particles from an excessively permeable small intestine. Psoriasis, finally, appears as a true disorder of massive elimination: keratinocyte hyperproliferation, shedding and ejection of harmful peptides, sometimes associated with psoriatic arthritis."
+    },
+    {
+      "type": "paragraph",
+      "text": "These diseases, often considered incurable or only controllable through symptomatic treatments (corticosteroids, immunosuppressants, antibiotics), find a new logic in the theory of elimination. They express the body's effort to rid itself of unwanted molecules. By eliminating incompatible modern foods and favouring ancestral nutrition, the hypotoxic diet reduces harmful intake and restores the skin's cleansing capacities. Clinical results are remarkable: frequent remissions in acne, eczema and urticaria, significant improvements in psoriasis."
+    },
+    {
+      "type": "paragraph",
+      "text": "Skin disease is therefore not an inevitable aesthetic or functional burden: it reflects a vital process. By respecting and supporting this mechanism through nutritional reform, it is possible to prevent, alleviate or even cure chronic conditions considered incurable."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Acne"
+    },
+    {
+      "type": "paragraph",
+      "text": "Acne is one of the most widespread skin conditions: it affects nearly 80% of adolescents, 20% of whom have a severe or persistent form. In around 5% of cases, it leaves permanent scars. Although it generally disappears in adulthood, it persists in 10% of people after age 25."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "The disease"
+    },
+    {
+      "type": "paragraph",
+      "text": "Acne is not a primary infection, but inflammatory damage to the sebaceous glands attached to hair follicles. Two initial phenomena are involved:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Hyperkeratinisation: excessive proliferation of sebaceous duct epithelium.",
+        "Hyperseborrhoea: excessive sebum production, favoured by androgens, explaining the male predominance."
+      ],
+      "levels": [
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The sebaceous duct and hair follicle become clogged with shed epithelial cells, keratin and thickened sebum. This obstruction favours bacterial colonisation (Propionibacterium acnes, Staphylococcus epidermidis), leading to comedone formation (blackhead). This can develop into a pustule or microcyst."
+    },
+    {
+      "type": "paragraph",
+      "text": "Lesions predominate on the face and chest. Common forms heal without lasting effects, but severe forms (nodular, conglobata, fulminant) often cause scars."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Conventional treatments"
+    },
+    {
+      "type": "paragraph",
+      "text": "Many treatments exist: keratolytics, anti-inflammatory drugs, antibiotics, zinc salts, antiandrogen hormonal therapy, isotretinoin (reserved for severe forms). They reduce flare-ups but do not provide lasting healing: stopping treatment is almost always followed by relapse."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Reflections on the mechanism"
+    },
+    {
+      "type": "paragraph",
+      "text": "Conventional dermatology implicates bacteria and androgens, but does not explain why sebum becomes thick or why hyperkeratinisation occurs."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "The theory of elimination proposes another interpretation:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Leukocytes transport dietary and bacterial macromolecules from the blood towards sebaceous glands.",
+        "Neutrophils, abundant in comedones, release enzymes that weaken the follicle, causing inflammation to spread.",
+        "CD4 T lymphocytes stimulate sebaceous activity and epithelial shedding.",
+        "Thickened sebum and epithelial proliferation therefore reflect a waste-expulsion process."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Results of the hypotoxic diet"
+    },
+    {
+      "type": "paragraph",
+      "text": "Among patients who adopted the ancestral diet, almost all saw their lesions disappear completely. A few observed a marked reduction, and old scars remained irreversible, highlighting the importance of early treatment."
+    },
+    {
+      "type": "paragraph",
+      "text": "In summary: Acne is a skin elimination disorder: sebaceous glands become ejection pathways for unwanted macromolecules. Conventional symptomatic treatments fail to cure because they do not address the cause. By reducing harmful intake and favouring natural elimination, the hypotoxic diet allows lasting remission."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Eczema"
+    },
+    {
+      "type": "paragraph",
+      "text": "Eczema is a common skin disease characterised by chronic skin inflammation. Its clinical manifestations (erythema, itching, oedema, oozing, small crusts) reflect a complex inflammatory process involving leukocytes, cytokines and neuropeptides."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Main forms"
+    },
+    {
+      "type": "paragraph",
+      "text": "Two types predominate:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Contact eczema",
+        "Caused by a hapten (a chemical substance or drug) that becomes an antigen by binding to a skin protein.",
+        "Development in two phases: sensitisation (activation of memory T lymphocytes), then triggering on renewed contact.",
+        "Common causes: latex, cosmetics, medicines, occupational products.",
+        "Treatment: avoidance of the causative hapten and topical corticosteroid therapy.",
+        "Modern food does not play a major role here.",
+        "Constitutional eczema (atopic dermatitis)",
+        "Affects 20% of children and 10% of adults. Its frequency has tripled in 30 years in Western countries.",
+        "Variable location: face and scalp in children, flexural folds and palms/soles in adults.",
+        "Factors: genetic (high concordance in monozygotic twins), environmental (migration, climate, irritants, stress).",
+        "Often associated with asthma or allergic rhinitis, but allergens are not the main cause."
+      ],
+      "levels": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "The proposed mechanism"
+    },
+    {
+      "type": "paragraph",
+      "text": "The primary cause remains unknown, but the theory of elimination suggests that constitutional eczema corresponds to the skin expelling dietary and bacterial macromolecules that entered the body through a hyperpermeable small intestine."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Leukocytes transport this waste towards the skin.",
+        "Skin inflammation reflects the elimination effort.",
+        "Flare-ups are triggered by foods, microbes, irritants or stress."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Clinical and experimental findings"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "ATHERTON et al. (1978): elimination of milk and eggs → improvement in 14 of 20 children.",
+        "GRAHAM et al. (1984): a strict diet in 29 children → remission, with identification of dangerous foods (cereals, animal milk).",
+        "KALLIOMAKI et al.: administration of probiotics (Lactobacillus rhamnosus GG) → marked reduction in eczema frequency among at-risk children."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "These results confirm the importance of food and intestinal flora."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Results of the hypotoxic diet"
+    },
+    {
+      "type": "paragraph",
+      "text": "Among patients with constitutional eczema, most respond favourably to the hypotoxic diet. By eliminating modern cereals and animal milk, the ancestral diet therefore proves an effective therapeutic approach."
+    },
+    {
+      "type": "paragraph",
+      "text": "In summary: Eczema illustrates two realities:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Contact eczema, linked to external substances, requires avoidance and local treatment.",
+        "Constitutional eczema, much more common, is a skin elimination disorder: the skin ejects dietary and bacterial waste at the cost of chronic inflammation. By reducing harmful intake, the hypotoxic diet often allows lasting remission."
+      ],
+      "levels": [
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Urticaria"
+    },
+    {
+      "type": "paragraph",
+      "text": "Urticaria is a very widespread skin condition, affecting around 20% of people during their lives. It manifests as itchy erythematous plaques or papules, often rounded or ring-shaped, which disappear rapidly within a few hours. Its course may be acute or chronic, with recurring flare-ups."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Clinical forms"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Acute urticaria: represents 75% of cases, often of allergic origin (food, medicine, infection).",
+        "Chronic urticaria: 25% of cases, rarely allergic, often idiopathic.",
+        "Particular types: contact, physical (pressure, cold, sunlight, exercise), genetic urticaria, or forms associated with systemic diseases."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Conventional mechanisms"
+    },
+    {
+      "type": "paragraph",
+      "text": "Urticaria is characterised by:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Dermal oedema.",
+        "Leukocyte infiltrate centred around vessels, composed of mast cells, T lymphocytes, monocytes, neutrophils, basophils and eosinophils.",
+        "Degranulation of mast cells and basophils, releasing histamine, serotonin and other mediators.",
+        "Triggering through immunological mechanisms (immune complexes, complement activation) or non-immunological mechanisms (medicines, toxins, venoms)."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Interpretation through the theory of elimination"
+    },
+    {
+      "type": "paragraph",
+      "text": "According to this view, urticaria corresponds to an attempt by the skin to expel dietary or bacterial particles that entered the body through an excessively permeable small intestine."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Leukocytes transport these particles towards the dermis.",
+        "Mast-cell degranulation and inflammation are consequences of this elimination process.",
+        "Flare-ups are aggravated by viral infections, aspirin, NSAIDs, fatigue and stress: all factors that increase intestinal permeability."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Results of the hypotoxic diet"
+    },
+    {
+      "type": "paragraph",
+      "text": "Among patients with constitutional urticaria, most respond favourably to the hypotoxic diet. Urticaria therefore appears an excellent indication for the ancestral diet, eliminating modern cereals and animal milk."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Variants"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Quincke's oedema (angioedema): an aggravated form affecting subcutaneous tissue, with a risk of laryngeal involvement.",
+        "Urticarial vasculitis: combines recurring urticaria and systemic vasculitis. Dietary results vary (success in some cases, failure in others), reflecting the diversity of mechanisms involved."
+      ],
+      "levels": [
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "In summary: Urticaria illustrates a skin elimination disorder: the skin becomes a site for ejecting unwanted particles, at the cost of an inflammatory reaction. By reducing harmful intake and limiting intestinal permeability, the hypotoxic diet often allows lasting remission."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Psoriasis"
+    },
+    {
+      "type": "paragraph",
+      "text": "Psoriasis is a common chronic skin disease. It typically presents as thick, well-defined erythematous and scaly plaques, preferentially located on elbows, knees, the lumbosacral region and scalp. Nails are affected in one case in two. Its course consists of flare-ups separated by more or less complete remissions."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Triggering factors"
+    },
+    {
+      "type": "paragraph",
+      "text": "Several elements can promote or aggravate flare-ups:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Pharyngeal or oral/dental infection sites (often streptococci).",
+        "Viral infections (HIV, EBV).",
+        "Stress (found in 70% of cases).",
+        "Medicines (beta blockers, lithium, interferon α).",
+        "Repeated minor trauma (elbows, knees, palms, soles)."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Histological lesions"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Epidermis: hyperkeratosis, parakeratosis (persistence of nuclei), disappearance of the granular layer, neutrophil microabscesses.",
+        "Dermis: vasodilation, oedema, inflammatory infiltrate rich in neutrophils and CD4 T lymphocytes, accompanied by macrophages and Langerhans cells."
+      ],
+      "levels": [
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Interpretation through the theory of elimination"
+    },
+    {
+      "type": "paragraph",
+      "text": "Psoriasis is explained by the skin expelling dietary and bacterial waste that entered the body through an excessively permeable small intestine."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Leukocytes transport these molecules towards the dermis and epidermis.",
+        "Cytokines released by CD4 T lymphocytes stimulate keratinocyte proliferation.",
+        "Shedding carries away unwanted substances and dead leukocytes.",
+        "Association with HLA-Cw6 suggests a particular tropism of certain peptides for this molecule."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Psoriasis thus appears as a disorder of massive skin elimination, in which the skin ejects waste at the cost of hyperproliferation and chronic inflammation."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Results of the hypotoxic diet"
+    },
+    {
+      "type": "paragraph",
+      "text": "Among patients with psoriasis:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Isolated psoriasis: complete or almost complete healing is observed, with significant improvements. Failures are minimal.",
+        "Psoriasis associated with psoriatic arthritis: results are more variable; there are clear successes in most cases, as well as partial improvements and failures."
+      ],
+      "levels": [
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "A seesaw phenomenon is sometimes observed: psoriasis activity may favour arthritis remission by eliminating joint peptides, while skin remission may leave the arthritis persisting."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Clinical observation"
+    },
+    {
+      "type": "paragraph",
+      "text": "A 42-year-old patient with extensive psoriasis covering 90% of the body surface, resistant to all conventional treatments, saw lesions regress to 5% after a few weeks of the ancestral diet. This spectacular improvement persisted for several years, with simultaneous disappearance of acne and tendinitis."
+    },
+    {
+      "type": "paragraph",
+      "text": "In summary: Psoriasis illustrates the logic of the theory of elimination: the skin becomes a site for massive ejection of dietary and bacterial waste. Conventional symptomatic treatments fail to cure because they do not address the cause. By reducing harmful intake and favouring natural elimination, the hypotoxic diet often allows lasting, sometimes spectacular remission."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "General conclusion"
+    },
+    {
+      "type": "paragraph",
+      "text": "Chronic skin conditions (acne, eczema, urticaria, psoriasis) become coherent when analysed in light of the theory of elimination. Far from being a simple protective covering, the skin is a major excretory organ capable of ejecting unwanted waste accumulated in the body."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Acne reflects the sebaceous glands' effort to expel dietary and bacterial macromolecules transported by leukocytes.",
+        "Constitutional eczema illustrates skin inflammation linked to elimination of peptides and other particles through the skin, triggered by various environmental factors.",
+        "Urticaria corresponds to a mast-cell and leukocyte reaction resulting from harmful particles entering the dermis, often aggravated by stress, medicines or viral infections.",
+        "Psoriasis appears as a disorder of massive elimination: keratinocyte hyperproliferation, shedding and ejection of harmful peptides, sometimes associated with psoriatic arthritis."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Conventional treatments (corticosteroids, immunosuppressants, antibiotics, phototherapy) merely alleviate symptoms without addressing the cause. By contrast, the hypotoxic diet (eliminating incompatible modern foods and favouring ancestral nutrition) reduces harmful intake and restores the skin's cleansing capacities. Clinical results are remarkable: frequent remissions in acne, eczema and urticaria, significant improvements in psoriasis."
+    },
+    {
+      "type": "paragraph",
+      "text": "The central message is clear: skin health depends as much on our ability to eliminate as on our ability to protect. Chronic dermatological diseases are not inevitable aesthetic or functional burdens: they express the body's vital effort to rid itself of unwanted waste. By respecting this process and supporting elimination through nutritional reform, it is possible to prevent, alleviate or even cure conditions considered incurable."
+    }
+  ],
+  "translation": {
+    "from": "fr",
+    "method": "AI-assisted translation",
+    "reviewStatus": "not-clinically-reviewed"
+  }
+}

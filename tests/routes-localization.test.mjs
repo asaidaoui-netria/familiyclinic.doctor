@@ -8,7 +8,7 @@ import {
   EXPECTED_HTML_ROUTES,
   OUTPUT_ROOT,
   PUBLICATION_ROUTES,
-  PUBLICATION_SLUGS,
+  PUBLICATION_PAGES,
   outputPath,
   readOutput
 } from "./helpers/site.mjs";
@@ -124,20 +124,14 @@ test("retained navigation marks the active page", async () => {
   }
 });
 
-test("publication detail language switchers retain the current slug", async () => {
-  for (const slug of PUBLICATION_SLUGS) {
-    for (const locale of ["en", "fr", "ar"]) {
-      const prefix = locale === "en" ? "" : `${locale}/`;
-      const html = await readOutput(`${prefix}publications/${slug}/index.html`);
-
-      for (const [language, href] of Object.entries({
-        en: `/publications/${slug}/`,
-        fr: `/fr/publications/${slug}/`,
-        ar: `/ar/publications/${slug}/`
-      })) {
-        assert.match(html, new RegExp(`<a href="${href}" data-lang="${language}"`));
-      }
-    }
+test("publication language switchers expose only real readable equivalents", async () => {
+  for(const page of PUBLICATION_PAGES){
+    const html=await readOutput(page.outputPath);
+    const menu=html.match(/<ul class="language-switcher__menu">([\s\S]*?)<\/ul>/)?.[1];
+    const routes=page.availableRoutes || page.localizedRoutes;
+    for(const [locale,href] of Object.entries(routes))assert.ok(menu.includes(`href="${href}" data-lang="${locale}"`));
+    assert.equal((menu.match(/data-lang=/g)||[]).length,Object.keys(routes).length);
+    assert.doesNotMatch(menu,/href=""/);
   }
 });
 

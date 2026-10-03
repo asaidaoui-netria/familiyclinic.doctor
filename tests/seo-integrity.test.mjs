@@ -8,7 +8,7 @@ import site from "../src/_data/site.js";
 import {
   EXPECTED_HTML_ROUTES,
   OUTPUT_ROOT,
-  PUBLICATION_SLUGS,
+  PUBLICATION_PAGES,
   outputPath,
   readOutput,
 } from "./helpers/site.mjs";
@@ -19,26 +19,11 @@ const STATIC_TRANSLATABLE_GROUPS = [
   ["services.html", "/services.html", "/fr/services.html", "/ar/services.html"],
   ["contact.html", "/contact.html", "/fr/contact.html", "/ar/contact.html"],
 ];
-const PUBLICATION_TRANSLATABLE_GROUPS = [
-  ["publications/index.html", "/publications/", "/fr/publications/", "/ar/publications/"],
-  ...PUBLICATION_SLUGS.map((slug) => [
-    `publications/${slug}/index.html`,
-    `/publications/${slug}/`,
-    `/fr/publications/${slug}/`,
-    `/ar/publications/${slug}/`,
-  ]),
+const TRANSLATABLE_GROUPS = STATIC_TRANSLATABLE_GROUPS;
+const INDEXABLE_PAGES = [
+  ...STATIC_TRANSLATABLE_GROUPS.flatMap(([enOutput,en,fr,ar])=>[[enOutput,en],[`fr/${enOutput}`,fr],[`ar/${enOutput}`,ar]]),
+  ...PUBLICATION_PAGES.filter(p=>p.indexable).map(p=>[p.outputPath,p.permalink])
 ];
-const TRANSLATABLE_GROUPS = [
-  ...STATIC_TRANSLATABLE_GROUPS,
-  ...PUBLICATION_TRANSLATABLE_GROUPS,
-];
-const INDEXABLE_PAGES = TRANSLATABLE_GROUPS.flatMap(
-  ([enOutput, en, fr, ar]) => [
-    [enOutput, en],
-    [`fr/${enOutput}`, fr],
-    [`ar/${enOutput}`, ar],
-  ],
-);
 
 const PUBLIC_BASE_URL = "https://www.familyclinic.doctor";
 
@@ -103,7 +88,7 @@ function fragmentTarget(htmlRoute, reference) {
 }
 
 test("each indexable page publishes one canonical URL and complete Open Graph metadata", async () => {
-  assert.equal(INDEXABLE_PAGES.length, 54);
+  assert.ok(INDEXABLE_PAGES.length > 54);
 
   for (const [outputRoute, publicRoute] of INDEXABLE_PAGES) {
     const html = await readOutput(outputRoute);
@@ -121,12 +106,14 @@ test("each indexable page publishes one canonical URL and complete Open Graph me
       assert.ok(attribute(metadata[0], "content")?.trim(), `${outputRoute} has a populated ${property}`);
     }
     assert.equal(tagWithAttributes(html, "meta", { property: "og:url", content: canonicalUrl }).length, 1, `${outputRoute} has its canonical og:url`);
-    assert.equal(tagWithAttributes(html, "meta", { property: "og:type", content: "website" }).length, 1, `${outputRoute} has website Open Graph type`);
+    const publication = PUBLICATION_PAGES.find(p=>p.outputPath===outputRoute);
+    const expectedType = ["article","recipe"].includes(publication?.kind) ? "article" : "website";
+    assert.equal(tagWithAttributes(html, "meta", { property: "og:type", content: expectedType }).length, 1, `${outputRoute} has correct Open Graph type`);
     assert.equal(tagWithAttributes(html, "meta", { property: "og:site_name", content: copy.clinicName }).length, 1, `${outputRoute} has the localized Open Graph site name`);
     const ogLocale = { en: "en_US", fr: "fr_FR", ar: "ar_MA" }[locale];
 
     assert.equal(tagWithAttributes(html, "meta", { property: "og:locale", content: ogLocale }).length, 1, `${outputRoute} has its protocol-shaped Open Graph locale`);
-    assert.equal(tagWithAttributes(html, "meta", { property: "og:image", content: `${PUBLIC_BASE_URL}/assets/images/optimized/clinic/clinic_entrance_desktop_800x400.jpg` }).length, 1, `${outputRoute} has the retained absolute Open Graph image`);
+    assert.equal(tagWithAttributes(html, "meta", { property: "og:image", content: `${PUBLIC_BASE_URL}${publication?.image?.src || site.ogImage}` }).length, 1, `${outputRoute} has the retained absolute Open Graph image`);
   }
 });
 
@@ -156,7 +143,7 @@ test("every HTML page has valid LocalBusiness JSON-LD backed by clinic data", as
 
     assert.notEqual(start, -1, `${route} has JSON-LD`);
     assert.notEqual(end, -1, `${route} closes JSON-LD`);
-    assert.equal(jsonLdTags.length, 1, `${route} has exactly one JSON-LD declaration`);
+    assert.equal(jsonLdTags.length, PUBLICATION_PAGES.find(p=>p.outputPath===route)?.indexable ? 2 : 1, `${route} has clinic and appropriate publication JSON-LD`);
     const data = JSON.parse(html.slice(start, end));
     const locale = route.startsWith("fr/") ? "fr" : route.startsWith("ar/") ? "ar" : "en";
     const copy = site.locales[locale];
@@ -184,15 +171,15 @@ test("the 404 page is noindex and is not advertised in the sitemap", async () =>
   assert.doesNotMatch(sitemap, /404\.html/);
 });
 
-test("the generated sitemap lists all 54 canonical public routes", async () => {
+test("the generated sitemap lists every indexable canonical route exactly once", async () => {
   const sitemap = await readFile(outputPath("sitemap.xml"), "utf8");
   const locations = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
   const expectedLocations = INDEXABLE_PAGES.map(
     ([, publicRoute]) => `${PUBLIC_BASE_URL}${publicRoute}`,
   );
 
-  assert.equal(locations.length, 54);
-  assert.equal(new Set(locations).size, 54);
+  assert.equal(locations.length, INDEXABLE_PAGES.length);
+  assert.equal(new Set(locations).size, INDEXABLE_PAGES.length);
   assert.deepEqual(locations.sort(), expectedLocations.sort());
   assert.doesNotMatch(sitemap, /blog/i);
   assert.match(sitemap, /https:\/\/www\.familyclinic\.doctor/);
@@ -247,7 +234,7 @@ test("every generated local anchor fragment resolves to an id or named anchor in
       if (!target) continue;
 
       assert.equal(target.target.startsWith(`${resolve(OUTPUT_ROOT)}/`), true, `${route} fragment stays inside _site: ${href}`);
-      const targetHtml = await readFile(target.target, "utf8");
+      const targetHtml = await readFile(target.target.endsWith(".html") ? target.target : resolve(target.target,"index.html"), "utf8");
       assert.match(targetHtml, new RegExp(`\\b(?:id|name)=(?:"${target.fragment}"|'${target.fragment}')`), `${route} fragment resolves: ${href}`);
     }
   }

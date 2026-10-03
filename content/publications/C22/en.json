@@ -1,0 +1,239 @@
+{
+  "language": "en",
+  "status": "published",
+  "title": "Understanding atherosclerosis",
+  "summary": "A guide to atherosclerosis, arterial plaque formation, risk factors, clinical manifestations and diagnostic methods, presenting conventional prevention and treatment alongside the author’s hypotoxic nutritional approach to metabolic overload, cellular accumulation and cardiovascular health.",
+  "sourceHash": "639a9fcfcd96cf5cfea81a74b42edbe8c91ddef6e2e9f3fe8cd2ac7a1e74340f",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Foreword"
+    },
+    {
+      "type": "paragraph",
+      "text": "Atherosclerosis is one of the most formidable accumulation diseases. It develops silently in arterial walls, then suddenly reveals itself through angina, myocardial infarction or stroke. This disorder perfectly illustrates the concept of accumulation: lipid build-up, LDL oxidation, chronic inflammation and endothelial dysfunction."
+    },
+    {
+      "type": "paragraph",
+      "text": "In Western countries, nearly 40% of deaths are linked to cardiovascular diseases. Atherosclerosis is therefore not only a medical condition: it is a real public health challenge."
+    },
+    {
+      "type": "paragraph",
+      "text": "This Family Clinic booklet offers an innovative interpretation: understand atherosclerosis as the consequence of metabolic overload and address its aetiological causes. Rather than merely correcting symptoms, the aim is to restore the body's biological coherence through appropriate nutrition and an active lifestyle."
+    },
+    {
+      "type": "paragraph",
+      "text": "The hypotoxic approach and protocol for clearing cellular accumulation offer a message of hope: it is possible to slow, prevent and sometimes reverse the progression of lesions."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Definition and importance"
+    },
+    {
+      "type": "paragraph",
+      "text": "Atherosclerosis is a chronic disease of the arterial wall that perfectly illustrates the concept of accumulation disorders. It develops in the intima of large and medium-sized vessels, particularly the coronary, carotid, cerebral, renal and femoral arteries and the aorta. It results in plaque formation, consisting of a lipid core (atheroma) embedded in a fibrous casing (sclerosis). The proportion is approximately one fifth atheroma and four fifths sclerosis. These plaques thicken the intima and bulge into the vessel lumen, reducing arterial calibre and disrupting blood circulation."
+    },
+    {
+      "type": "paragraph",
+      "text": "In normal arterial ageing, large vessels tend to lengthen and increase in calibre, making them tortuous. But in atherosclerosis, they no longer lengthen and narrow in places, a direct consequence of plaque bulging. This stiffening and narrowing cause loss of vascular flexibility and reduced blood flow."
+    },
+    {
+      "type": "paragraph",
+      "text": "Atherosclerosis is the leading cause of mortality in Western countries. Its severity lies in the fact that plaque can ulcerate and rupture, causing formidable complications: cerebral haemorrhages or coronary and cerebral thromboses. Myocardial infarction and stroke are the most dramatic consequences of this process."
+    },
+    {
+      "type": "paragraph",
+      "text": "This disease is therefore emblematic of metabolic accumulation: lipid build-up, LDL oxidation, macrophage infiltration, chronic inflammation and formation of a fibrous cap. It illustrates how metabolic overload exceeds human enzymatic capacities and leads to progressive tissue alteration. Atherosclerosis is both a silent disease and a permanent threat, because it progresses slowly but can suddenly develop complications."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Risk factors"
+    },
+    {
+      "type": "paragraph",
+      "text": "Atherosclerosis is a multifactorial disorder whose progression depends on numerous elements of individual constitution and lifestyle. Risk factors are well identified and help explain why some people develop the disease early while others remain unaffected for a long time."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "The first factor is heredity: a family history of atherosclerosis or cardiovascular diseases markedly increases the likelihood of being affected.",
+        "Advanced age also plays a major role, because arteries gradually lose elasticity and become more vulnerable to lipid deposits.",
+        "Hypercholesterolaemia, more specifically elevated LDL, is a central factor.",
+        "Hypertension is both a cause and a consequence of atherosclerosis: it weakens the vascular wall and accelerates plaque formation.",
+        "Diabetes mellitus, particularly maturity-onset diabetes, favours LDL oxidation and protein glycation, worsening inflammation of the intima.",
+        "Smoking is considered the most important factor. Toxic substances in smoke directly damage the endothelium, increase vascular permeability and favour monocyte adhesion.",
+        "Sedentary living completes this picture: lack of physical activity reduces the body's ability to use fats and glucose, increasing metabolic accumulation.",
+        "In recent years, infectious hypotheses have been proposed. Kawasaki disease, responsible for vascular inflammation in children, appears to have an infectious origin. Studies have also identified a correlation between the presence of antibodies against Chlamydia pneumoniae and coronary insufficiency. In some cases, antibiotic treatment (azithromycin) improved prognosis. Other pathogens have been implicated: Coxsackie virus, cytomegalovirus, herpes virus, Helicobacter pylori. However, an infectious origin remains a minority explanation; atherosclerosis is primarily a metabolic disease.",
+        "Finally, subtler factors intervene: modern diets rich in saturated fats and refined sugars, chronic stress, hormonal imbalances. Together, these elements create conditions favourable to intimal inflammation and lipid accumulation."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Atherosclerosis is thus the result of multifactorial metabolic overload. The combination of genetic predispositions, harmful behaviours and inappropriate nutrition leads to progressive arterial accumulation. Prevention therefore rests on comprehensive action: correct eating habits, reduce toxic exposures, encourage physical activity and monitor biological parameters."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Clinical manifestations and diagnosis"
+    },
+    {
+      "type": "paragraph",
+      "text": "The consequences of atherosclerosis produce varied clinical manifestations depending on the arterial territory affected."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "When coronary arteries narrow, blood supply to the heart muscle becomes insufficient, especially during exertion. This causes angina, characterised by constricting chest pain radiating towards the left shoulder or arm. If plaque ruptures and causes thrombosis, myocardial infarction occurs, destroying part of the heart tissue.",
+        "In the carotids, narrowing reduces cerebral blood flow. Symptoms may be subtle (memory problems, dizziness, reduced alertness) or sudden (transient ischaemic attack). Plaque rupture can cause a stroke, leading to paralysis, speech problems or loss of consciousness.",
+        "Renal arteries may also be affected. Narrowing causes chronic kidney failure, with increased blood pressure and progressive impairment of kidney function.",
+        "In the femoral arteries, atherosclerosis manifests as intermittent claudication: leg pain appearing after a certain walking distance and disappearing at rest. In advanced cases, pain occurs even at rest, then progresses to gangrene and amputation."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Complications are formidable. Plaque rupture can cause either haemorrhage (particularly cerebral) or thrombosis (infarction, stroke). Thromboxane A2, produced by platelets, favours aggregation and vasoconstriction, increasing risk. Conversely, prostacyclin, secreted by endothelial cells, has a protective effect by inhibiting aggregation and dilating vessels. Oestrogens also play a protective role, explaining why women are less affected before menopause."
+    },
+    {
+      "type": "paragraph",
+      "text": "Early diagnosis is essential to prevent complications. Several non-invasive examinations can detect atherosclerosis before symptoms appear."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ultrafast CT reveals coronary calcifications.",
+        "High-resolution ultrasound of the carotids, abdominal aorta and femoral arteries reveals atheromatous plaques.",
+        "Three-dimensional magnetic resonance imaging provides precise visualisation of arteries and their lesions."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "These techniques identify patients at risk and allow appropriate prevention to be introduced."
+    },
+    {
+      "type": "paragraph",
+      "text": "Atherosclerosis is thus a silent disease that progresses slowly but can suddenly develop complications. Its clinical manifestations depend on the territory affected, but all reflect the same reality: progressive arterial accumulation. Early diagnosis and regular monitoring are indispensable to limit this disorder's dramatic consequences."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Prevention and treatment"
+    },
+    {
+      "type": "paragraph",
+      "text": "Prevention of atherosclerosis rests on a comprehensive strategy aimed at reducing risk factors and protecting the arterial wall against accumulation."
+    },
+    {
+      "type": "paragraph",
+      "text": "It begins with simple but essential lifestyle and dietary measures: stopping smoking, regular physical activity, limiting excessively large meals and adopting a balanced diet. Often underestimated, these actions nevertheless constitute the first line of defence against disease progression."
+    },
+    {
+      "type": "paragraph",
+      "text": "Medically, several classes of drugs are used."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Cholesterol-lowering drugs, particularly statins, reduce circulating LDL levels and slow plaque formation.",
+        "Antihypertensives lower blood pressure and reduce mechanical stress on vessels.",
+        "Oral antidiabetics (sulfonylureas, biguanides) contribute to normalising blood glucose and limiting protein glycation.",
+        "Finally, anticoagulants reduce thrombosis risk, but must be used cautiously because of the danger of haemorrhage. Low-dose acetylsalicylic acid remains one of the safest.",
+        "Vasodilators can relieve certain acute episodes but do not correct underlying causes."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Despite these treatments, their limitations are clear: atherosclerosis remains the leading cause of mortality, and a significant proportion of young people fall victim to it. Medication corrects certain biological parameters but does not address the problem's metabolic origin. This is why nutritional approaches and nutritional prevention are taking an increasingly prominent place."
+    },
+    {
+      "type": "paragraph",
+      "text": "The ancestral or hypotoxic diet acts through several pathways. It lowers cholesterol by 30 to 35%, reduces blood pressure and normalises blood glucose within a few weeks. By decreasing production of glycated proteins, it protects the vascular wall against chronic inflammation. It also helps clear accumulated waste from cells and the extracellular matrix, reducing free radicals and restoring harmonious mediator production."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prevention and treatment of atherosclerosis therefore cannot be confined to medication. They must incorporate profound nutritional reform, aimed at respecting human enzymatic capacities and reducing metabolic accumulation. Combining conventional medicine and nutritional prevention offers a realistic and effective path to decrease cardiovascular mortality and restore hope to patients."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Ancestral diet and nutritional prevention"
+    },
+    {
+      "type": "paragraph",
+      "text": "Understanding atherosclerosis cannot be confined to biological mechanisms; it must incorporate food's major impact. Large population surveys have shown that eating patterns directly influence arterial health. The Seven Countries Study, the Framingham study and the MONICA project revealed striking differences: myocardial infarctions are twice as frequent in Strasbourg as in Toulouse, and four times as frequent in Dublin as in Toulouse. These differences are explained by eating habits rather than genetics. The Mediterranean diet, rich in olive oil, fish and vegetables, protects arteries, whereas the Nordic diet, richer in saturated fats, favours atherosclerosis. The French paradox illustrates this reality: despite a fatty diet, French people experience fewer cardiovascular events, thanks in particular to moderate consumption of red wine and olive oil."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dangerous foods are well identified: excessively large meals, saturated fats (meat, processed meats, dairy products, egg yolk), trans fatty acids from cooked fats, excess salt. Conversely, protective foods include modest meals, raw virgin oils, fish, fibre-rich fruit and vegetables, and garlic, whose cardiovascular benefits are remarkable. Alcoholic drinks consumed in moderation may also exert a protective effect through flavonoids and substances that increase HDL."
+    },
+    {
+      "type": "paragraph",
+      "text": "The recommended ancestral or hypotoxic diet excludes dairy products and cooked fats, limits meat and processed meats to gentle cooking and favours raw virgin oils, fish, fruit and vegetables. Antioxidant supplementation is systematic to neutralise free radicals. This diet acts through two pathways: it directly combats risk factors (cholesterol, hypertension, diabetes), and clears accumulated waste from cells and the extracellular matrix, reducing inflammation and restoring harmonious mediator production."
+    },
+    {
+      "type": "paragraph",
+      "text": "The ancestral diet is thus more than prevention: it constitutes a true complementary treatment, able to restore the arteries' biological coherence. It restores hope to patients by showing that atherosclerosis, long considered irreversible, can be improved through nutrition respectful of human enzymatic capacities."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Conclusion"
+    },
+    {
+      "type": "paragraph",
+      "text": "Atherosclerosis provides an exemplary illustration of accumulation disorders: oxidised lipid build-up, chronic inflammation and progressive arterial stiffening. This silent progression leads to serious, sometimes fatal complications, but is not inevitable."
+    },
+    {
+      "type": "paragraph",
+      "text": "Modern understanding of this disease shows that a healthy lifestyle, hypotoxic nutrition and clearance of cellular accumulation are powerful tools to slow, prevent and sometimes reverse the process. Far from being a mere theory, this approach rests on solid clinical data and the experience of patients who regained vitality and balance."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Family Clinic protocol proposes a clear path: reduce toxic intake, favour living foods, restore blood fluidity and support cellular regeneration. By adopting these principles, everyone can take practical action to protect their heart and arteries."
+    },
+    {
+      "type": "paragraph",
+      "text": "This booklet therefore aims to be a practical and educational tool, supporting readers in an active, informed and lasting approach to health."
+    }
+  ],
+  "translation": {
+    "from": "fr",
+    "method": "AI-assisted translation",
+    "reviewStatus": "not-clinically-reviewed"
+  }
+}

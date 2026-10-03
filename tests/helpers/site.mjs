@@ -18,12 +18,14 @@ export const PUBLICATION_ROUTES = ["en", "fr", "ar"].flatMap((locale) => {
   );
 });
 
+import publicationPagesData from '../../src/_data/publicationPages.js';
+export const PUBLICATION_PAGES = publicationPagesData();
+
 export const EXPECTED_HTML_ROUTES = [
   "index.html", "about.html", "services.html", "contact.html", "404.html",
   "fr/index.html", "fr/about.html", "fr/services.html", "fr/contact.html",
   "ar/index.html", "ar/about.html", "ar/services.html", "ar/contact.html",
-  "publications/index.html", "fr/publications/index.html", "ar/publications/index.html",
-  ...PUBLICATION_ROUTES
+  ...PUBLICATION_PAGES.map(page => page.outputPath)
 ];
 
 export function outputPath(relativePath) {

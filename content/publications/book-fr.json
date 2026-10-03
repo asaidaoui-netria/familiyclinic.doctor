@@ -1,0 +1,746 @@
+{
+  "language": "fr",
+  "title": "Cuisiner pour guérir",
+  "url": "/fr/publications/cooking-to-heal/",
+  "description": "Découvrez 20 recettes complètes de Cuisiner pour guérir, par le Dr Said-Alaoui Moulay Abdellah, avec les ingrédients et les étapes de préparation.",
+  "source": {
+    "language": "fr",
+    "filename": "Livre cuisiner pour guérir FR-pdf.pdf",
+    "sha256": "513afb33d5e859a9919ba4dae0df0c0d91c4ac3988a77f53d4e2e29b8113de8c"
+  },
+  "image": {
+    "src": "/assets/images/publications/book-fr-640.webp",
+    "small": "/assets/images/publications/book-fr-240.webp",
+    "width": 640,
+    "height": 905
+  },
+  "recipes": [
+    {
+      "number": 1,
+      "title": "Concombre au yaourt végétal et menthe",
+      "url": "/fr/publications/cooking-to-heal/cucumber-with-plant-based-yogurt-and-mint/",
+      "sourcePdfPage": 15,
+      "printedPage": 41,
+      "description": "Découvrez les ingrédients et les étapes de préparation : Concombre au yaourt végétal et menthe. Une recette extraite de Cuisiner pour guérir.",
+      "goal": "Apporter fraîcheur digestive, hydratation et légèreté. Idéal pour calmer les inflammations et soutenir le microbiote.",
+      "servings": "2 personnes",
+      "ingredients": [
+        "1 gros concombre frais",
+        "150 g de yaourt végétal nature (soja ou coco)",
+        "1 poignée de feuilles de menthe fraîche",
+        "1 c. à soupe d’huile d’olive vierge",
+        "1 pincée de sel marin",
+        "1 filet de jus de citron"
+      ],
+      "steps": [
+        "Laver et peler le concombre, puis le couper en fines rondelles.",
+        "Ciseler la menthe.",
+        "Mélanger le yaourt végétal avec l’huile d’olive, le citron et le sel.",
+        "Ajouter les rondelles de concombre et la menthe, mélanger délicatement.",
+        "Servir bien frais."
+      ],
+      "time": "Préparation : 10 min Repos : 15 min au frais",
+      "benefits": [
+        "Concombre : hydratant, riche en minéraux.",
+        "Yaourt végétal : source de probiotiques doux.",
+        "Menthe : apaisante pour la digestion.",
+        "Citron : stimule l’immunité et la vitalité."
+      ],
+      "tip": "Ajouter quelques graines de courge ou de tournesol pour enrichir en protéines et croquant.",
+      "variation": "Remplacer la menthe par de la coriandre pour une touche orientale.",
+      "nutrition": "Recette hypotoxique, sans gluten ni produits laitiers, légère et rafraîchissante."
+    },
+    {
+      "number": 11,
+      "title": "Navet cru au gingembre et coriandre",
+      "url": "/fr/publications/cooking-to-heal/raw-turnip-with-ginger-and-coriander/",
+      "sourcePdfPage": 17,
+      "printedPage": 55,
+      "description": "Découvrez les ingrédients et les étapes de préparation : Navet cru au gingembre et coriandre. Une recette extraite de Cuisiner pour guérir.",
+      "goal": "Apporter fraîcheur, fibres et tonus digestif. Idéal pour stimuler la vitalité et soutenir le système immunitaire.",
+      "servings": "2 personnes",
+      "ingredients": [
+        "2 petits navets frais",
+        "1 c. à café de gingembre frais râpé",
+        "1 petit bouquet de coriandre fraîche",
+        "Le jus d’un demi-citron",
+        "1 c. à soupe d’huile d’olive vierge",
+        "1 pincée de sel marin"
+      ],
+      "steps": [
+        "Laver et peler les navets.",
+        "Les râper finement ou les couper en fines lamelles.",
+        "Mélanger avec le gingembre, le jus de citron et l’huile d’olive.",
+        "Ajouter la coriandre ciselée et le sel.",
+        "Servir immédiatement pour garder la fraîcheur."
+      ],
+      "time": "Préparation : 10 min",
+      "benefits": [
+        "Navet : riche en fibres et en antioxydants, léger et reminéralisant.",
+        "Gingembre : stimulant digestif et anti-inflammatoire.",
+        "Coriandre : détoxifiante et rafraîchissante.",
+        "Citron : tonifiant et riche en vitamine C.",
+        "Huile d’olive : protectrice du cœur et des cellules."
+      ],
+      "tip": "Ajouter quelques graines de sésame pour renforcer le croquant et l’apport minéral.",
+      "variation": "Remplacer la coriandre par de la menthe pour une saveur plus douce.",
+      "nutrition": "Recette hypotoxique, sans gluten ni produits laitiers, riche en fibres et antioxydants."
+    },
+    {
+      "number": 21,
+      "title": "Quinoa tiède aux légumes verts",
+      "url": "/fr/publications/cooking-to-heal/warm-quinoa-with-green-vegetables/",
+      "sourcePdfPage": 19,
+      "printedPage": 69,
+      "description": "Découvrez les ingrédients et les étapes de préparation : Quinoa tiède aux légumes verts. Une recette extraite de Cuisiner pour guérir.",
+      "goal": "Apporter protéines végétales, fibres et antioxydants. Idéal pour soutenir l’énergie et l’équilibre digestif.",
+      "servings": "2 personnes",
+      "ingredients": [
+        "100 g de quinoa",
+        "1 petite courgette",
+        "1 poignée de haricots verts",
+        "1 poignée de roquette",
+        "1 c. à soupe d’huile d’olive vierge",
+        "Le jus d’un demi-citron",
+        "1 pincée de sel marin"
+      ],
+      "steps": [
+        "Rincer le quinoa et le cuire 12 min dans deux fois son volume d’eau.",
+        "Égoutter et laisser tiédir.",
+        "Cuire légèrement les haricots verts à la vapeur (croquants).",
+        "Couper la courgette en petits dés crus ou légèrement blanchis.",
+        "Mélanger le quinoa avec les légumes, l’huile d’olive, le citron et le sel.",
+        "Ajouter la roquette juste avant de servir."
+      ],
+      "time": "Préparation : 10 min Cuisson : 12 min",
+      "benefits": [
+        "Quinoa : riche en protéines complètes et minéraux.",
+        "Haricots verts : source de fibres et vitamine C.",
+        "Courgette : hydratante et légère.",
+        "Roquette : antioxydante et stimulante.",
+        "Huile d’olive : protectrice du cœur et des cellules."
+      ],
+      "tip": "Ajouter quelques graines de tournesol pour renforcer le croquant.",
+      "variation": "Remplacer la roquette par du persil pour une saveur plus douce.",
+      "nutrition": "Recette hypotoxique, sans gluten ni produits laitiers, riche en protéines végétales et fibres."
+    },
+    {
+      "number": 31,
+      "title": "Fenouil à l’orange et huile d’olive",
+      "url": "/fr/publications/cooking-to-heal/fennel-with-orange-and-olive-oil/",
+      "sourcePdfPage": 21,
+      "printedPage": 83,
+      "description": "Découvrez les ingrédients et les étapes de préparation : Fenouil à l’orange et huile d’olive. Une recette extraite de Cuisiner pour guérir.",
+      "goal": "Apporter fibres, vitamine C et fraîcheur digestive. Idéal pour soutenir l’immunité et alléger la digestion.",
+      "servings": "2 personnes",
+      "ingredients": [
+        "1 bulbe de fenouil frais",
+        "1 orange (chair + jus)",
+        "1 c. à soupe d’huile d’olive vierge",
+        "1 pincée de sel marin"
+      ],
+      "steps": [
+        "Laver et émincer finement le fenouil.",
+        "Peler l’orange à vif et couper la chair en petits morceaux.",
+        "Mélanger le fenouil avec l’orange et son jus.",
+        "Ajouter l’huile d’olive et le sel.",
+        "Servir frais."
+      ],
+      "time": "Préparation : 10 min",
+      "benefits": [
+        "Fenouil : digestif, riche en fibres et minéraux.",
+        "Orange : source de vitamine C et antioxydants.",
+        "Huile d’olive : protectrice du cœur et des cellules."
+      ],
+      "tip": "Ajouter quelques graines de tournesol pour renforcer le croquant.",
+      "variation": "Remplacer l’orange par du pamplemousse pour une saveur plus acidulée.",
+      "nutrition": "Recette hypotoxique, sans gluten ni produits laitiers, riche en fibres et antioxydants."
+    },
+    {
+      "number": 41,
+      "title": "Courge butternut rôtie au zaatar et citron",
+      "url": "/fr/publications/cooking-to-heal/roasted-butternut-squash-with-zaatar-and-lemon/",
+      "sourcePdfPage": 23,
+      "printedPage": 97,
+      "description": "Découvrez les ingrédients et les étapes de préparation : Courge butternut rôtie au zaatar et citron. Une recette extraite de Cuisiner pour guérir.",
+      "goal": "Apporter fibres, antioxydants et soutenir la digestion.",
+      "servings": "2 personnes",
+      "ingredients": [
+        "1 petite courge butternut",
+        "1 c. à s. huile d’olive vierge extra",
+        "1 c. à c. zaatar",
+        "Jus d’un demi-citron",
+        "Sel marin"
+      ],
+      "steps": [
+        "Éplucher et couper la courge en cubes.",
+        "Mélanger avec huile, sel et zaatar.",
+        "Rôtir au four à 180°C pendant 25 minutes.",
+        "Arroser de jus de citron avant de servir."
+      ],
+      "time": "Préparation : 10 min – Cuisson : 25 min",
+      "benefits": [
+        "Courge : riche en bêta-carotène, soutient la vision et l’immunité.",
+        "Zaatar : mélange d’herbes antioxydantes.",
+        "Citron : booste la vitamine C.",
+        "Huile d’olive : protège le cœur."
+      ],
+      "tip": "Ajouter quelques graines de grenade pour une touche sucrée et colorée.",
+      "variation": "Remplacer le zaatar par du thym frais.",
+      "nutrition": "Recette hypotoxique, sans gluten ni produits laitiers, riche en fibres et antioxydants."
+    },
+    {
+      "number": 51,
+      "title": "Crème de lentilles vertes au gingembre",
+      "url": "/fr/publications/cooking-to-heal/green-lentil-cream-with-ginger/",
+      "sourcePdfPage": 26,
+      "printedPage": 115,
+      "description": "Découvrez les ingrédients et les étapes de préparation : Crème de lentilles vertes au gingembre. Une recette extraite de Cuisiner pour guérir.",
+      "goal": "Apaisante et riche en fibres, cette crème soutient la digestion et apporte des protéines végétales.",
+      "servings": "2 personnes",
+      "ingredients": [
+        "150 g de lentilles vertes",
+        "1 carotte",
+        "1 morceau de gingembre frais (2 cm)",
+        "500 ml d’eau ou bouillon de légumes",
+        "1 c. à s. d’huile d’olive",
+        "Sel marin, poivre"
+      ],
+      "steps": [
+        "Rincer les lentilles.",
+        "Couper la carotte en dés et râper le gingembre.",
+        "Cuire lentilles + carotte + gingembre dans l’eau 25 min.",
+        "Mixer avec l’huile d’olive, ajuster l’assaisonnement."
+      ],
+      "time": "Préparation : 10 min Cuisson : 25 min",
+      "benefits": [
+        "Protéines végétales complètes",
+        "Fibres pour la satiété",
+        "Gingembre : effet anti-inflammatoire doux"
+      ],
+      "tip": "Ajouter un filet de citron pour relever la saveur.",
+      "variation": "Remplacer les lentilles vertes par des lentilles blondes.",
+      "nutrition": "Recette hypotoxique, sans gluten ni produits laitiers, riche en protéines végétales, fibres et antioxydants."
+    },
+    {
+      "number": 61,
+      "title": "Potage de courgettes au basilic et citron",
+      "url": "/fr/publications/cooking-to-heal/zucchini-soup-with-basil-and-lemon/",
+      "sourcePdfPage": 28,
+      "printedPage": 129,
+      "description": "Découvrez les ingrédients et les étapes de préparation : Potage de courgettes au basilic et citron. Une recette extraite de Cuisiner pour guérir.",
+      "goal": "Léger et rafraîchissant, ce potage favorise la digestion et apporte des antioxydants protecteurs.",
+      "servings": "2 personnes",
+      "ingredients": [
+        "2 courgettes moyennes",
+        "1 poignée de basilic frais",
+        "Le jus d’un demi-citron",
+        "500 ml d’eau ou bouillon de légumes",
+        "1 c. à s. d’huile d’olive",
+        "Sel marin, poivre"
+      ],
+      "steps": [
+        "Laver et couper les courgettes en rondelles.",
+        "Cuire dans l’eau ou bouillon 15 min.",
+        "Mixer avec le basilic, le jus de citron et l’huile d’olive.",
+        "Assaisonner selon goût."
+      ],
+      "time": "Préparation : 10 min Cuisson : 15 min",
+      "benefits": [
+        "Courgettes : riches en fibres douces et minéraux",
+        "Basilic : propriétés digestives et parfum frais",
+        "Citron : vitamine C et effet détoxifiant"
+      ],
+      "tip": "Ajouter quelques zestes de citron pour intensifier la fraîcheur.",
+      "variation": "Remplacer le basilic par de la menthe fraîche.",
+      "nutrition": "Recette hypotoxique, sans gluten ni produits laitiers, riche en fibres, vitamine C et antioxydants."
+    },
+    {
+      "number": 71,
+      "title": "Soupe de lentilles vertes à la coriandre",
+      "url": "/fr/publications/cooking-to-heal/green-lentil-soup-with-coriander/",
+      "sourcePdfPage": 30,
+      "printedPage": 143,
+      "description": "Découvrez les ingrédients et les étapes de préparation : Soupe de lentilles vertes à la coriandre. Une recette extraite de Cuisiner pour guérir.",
+      "goal": "Riche en protéines végétales et fibres, cette soupe soutient l’énergie et favorise la digestion.",
+      "servings": "2 personnes",
+      "ingredients": [
+        "150 g de lentilles vertes",
+        "1 carotte",
+        "1 gousse d’ail",
+        "1 poignée de coriandre fraîche",
+        "600 ml d’eau ou bouillon de légumes",
+        "1 c. à s. d’huile d’olive",
+        "Sel marin, poivre"
+      ],
+      "steps": [
+        "Rincer les lentilles vertes.",
+        "Couper la carotte en dés et hacher l’ail.",
+        "Cuire lentilles + carotte + ail dans l’eau 25 min.",
+        "Mixer avec la coriandre et l’huile d’olive.",
+        "Assaisonner selon goût."
+      ],
+      "time": "Préparation : 10 min Cuisson : 25 min",
+      "benefits": [
+        "Lentilles vertes : protéines végétales, fer et fibres",
+        "Coriandre : effet digestif et détoxifiant",
+        "Plat nourrissant et équilibré"
+      ],
+      "tip": "Ajouter une pincée de cumin pour renforcer la saveur.",
+      "variation": "Remplacer la coriandre par du persil plat.",
+      "nutrition": "Recette hypotoxique, sans gluten ni produits laitiers, riche en protéines végétales, fibres et minéraux."
+    },
+    {
+      "number": 81,
+      "title": "Bouillon de légumes à l’ail et persil",
+      "url": "/fr/publications/cooking-to-heal/vegetable-broth-with-garlic-and-parsley/",
+      "sourcePdfPage": 32,
+      "printedPage": 157,
+      "description": "Découvrez les ingrédients et les étapes de préparation : Bouillon de légumes à l’ail et persil. Une recette extraite de Cuisiner pour guérir.",
+      "goal": "Léger et reminéralisant, ce bouillon favorise la digestion et soutient l’immunité grâce à l’ail et au persil.",
+      "servings": "2 personnes",
+      "ingredients": [
+        "1 carotte",
+        "1 courgette",
+        "1 branche de céleri",
+        "1 gousse d’ail",
+        "1 poignée de persil frais",
+        "700 ml d’eau",
+        "Sel marin, poivre"
+      ],
+      "steps": [
+        "Laver et couper les légumes en morceaux.",
+        "Cuire dans l’eau avec l’ail 20 min.",
+        "Ajouter le persil en fin de cuisson.",
+        "Servir chaud, filtré ou avec morceaux."
+      ],
+      "time": "Préparation : 10 min Cuisson : 20 min",
+      "benefits": [
+        "Légumes : apport en fibres et minéraux",
+        "Ail : propriétés antimicrobiennes et stimulantes",
+        "Persil : riche en vitamine C et fer"
+      ],
+      "tip": "Ajouter quelques graines de fenouil pour renforcer l’effet digestif.",
+      "variation": "Remplacer le persil par de la coriandre fraîche.",
+      "nutrition": "Recette hypotoxique, sans gluten ni produits laitiers, riche en minéraux et antioxydants."
+    },
+    {
+      "number": 91,
+      "title": "Purée de patate douce à la cannelle",
+      "url": "/fr/publications/cooking-to-heal/sweet-potato-puree-with-cinnamon/",
+      "sourcePdfPage": 34,
+      "printedPage": 171,
+      "description": "Découvrez les ingrédients et les étapes de préparation : Purée de patate douce à la cannelle. Une recette extraite de Cuisiner pour guérir.",
+      "goal": "Réconfortante et douce, cette purée apporte énergie et antioxydants tout en favorisant la digestion.",
+      "servings": "2 personnes",
+      "ingredients": [
+        "250 g de patate douce",
+        "1 c. à c. de cannelle en poudre",
+        "1 c. à s. d’huile d’olive ou de lait végétal (facultatif)",
+        "Sel marin"
+      ],
+      "steps": [
+        "Éplucher et couper la patate douce en dés.",
+        "Cuire à la vapeur ou dans l’eau 20 min.",
+        "Écraser en purée avec la cannelle et l’huile d’olive.",
+        "Assaisonner légèrement."
+      ],
+      "time": "Préparation : 10 min Cuisson : 20 min",
+      "benefits": [
+        "Patate douce : riche en fibres et bêta-carotène",
+        "Cannelle : régulation glycémique et parfum chaleureux"
+      ],
+      "tip": "Ajouter un filet de citron pour intensifier la fraîcheur.",
+      "variation": "Remplacer la cannelle par du gingembre pour une saveur plus tonique.",
+      "nutrition": "Recette hypotoxique, sans gluten ni produits laitiers, riche en fibres et antioxydants."
+    },
+    {
+      "number": 101,
+      "title": "Pageot en papillote au citron et persil",
+      "url": "/fr/publications/cooking-to-heal/pageot-in-papillote-with-lemon-and-parsley/",
+      "sourcePdfPage": 40,
+      "printedPage": 197,
+      "description": "Découvrez les ingrédients et les étapes de préparation : Pageot en papillote au citron et persil. Une recette extraite de Cuisiner pour guérir.",
+      "goal": "Plat hypotoxique riche en protéines maigres et en acides gras bénéfiques, favorisant la digestion légère et la protection cardiovasculaire.",
+      "servings": "2 personnes",
+      "ingredients": [
+        "2 filets de pageot frais",
+        "1 citron jaune (jus + quelques rondelles fines)",
+        "1 c. à s. d’huile d’olive vierge extra",
+        "1 petite gousse d’ail écrasée",
+        "1 poignée de persil frais haché",
+        "Sel marin et poivre doux"
+      ],
+      "steps": [
+        "Préchauffer le four à 180 °C.",
+        "Déposer chaque filet de pageot sur une feuille de papier cuisson.",
+        "Arroser de jus de citron, ajouter les rondelles, l’ail et le persil.",
+        "Assaisonner légèrement, puis refermer la papillote.",
+        "Cuire au four 20 minutes."
+      ],
+      "time": "Préparation : 10 min Cuisson : 20 min",
+      "benefits": [
+        "Source de protéines maigres, faciles à digérer.",
+        "Citron et persil riches en antioxydants et vitamine C.",
+        "Cuisson en papillote préserve les nutriments et limite les graisses."
+      ],
+      "tip": "Ajouter quelques graines de fenouil pour renforcer la fraîcheur digestive.",
+      "variation": "Remplacer le persil par de la coriandre pour une touche plus orientale.",
+      "nutrition": "Ce plat apporte une bonne quantité de protéines de haute qualité, essentielles pour l’entretien musculaire et la vitalité quotidienne. Globalement, c’est un repas léger, équilibré et protecteur."
+    },
+    {
+      "number": 111,
+      "title": "Tajine de Sar (Charghou) aux légumes et coriandre",
+      "url": "/fr/publications/cooking-to-heal/chargou-sar-tajine-with-vegetables-and-coriander/",
+      "sourcePdfPage": 42,
+      "printedPage": 211,
+      "description": "Découvrez les ingrédients et les étapes de préparation : Tajine de Sar (Charghou) aux légumes et coriandre. Une recette extraite de Cuisiner pour guérir.",
+      "goal": "Un plat complet et hypotoxique, riche en protéines et en fibres, qui soutient la digestion et la vitalité.",
+      "servings": "4 personnes",
+      "ingredients": [
+        "500 g de Sar (Charghou) (poisson frais, en morceaux)",
+        "2 carottes coupées en rondelles",
+        "1 courgette en dés",
+        "1 poivron rouge en lamelles",
+        "1 tomate pelée et concassée",
+        "2 c. à s. d’huile d’olive vierge extra",
+        "1 gousse d’ail écrasée",
+        "1 c. à c. de cumin",
+        "1 poignée de coriandre fraîche hachée",
+        "Sel marin et poivre doux"
+      ],
+      "steps": [
+        "Dans un tajine ou une cocotte, chauffer l’huile d’olive et l’ail.",
+        "Ajouter les légumes et les épices, laisser mijoter 10 minutes.",
+        "Disposer les morceaux de Sar sur les légumes.",
+        "Couvrir et laisser cuire à feu doux 25 minutes.",
+        "Parsemer de coriandre fraîche avant de servir."
+      ],
+      "time": "Préparation : 15 min Cuisson : 35 min",
+      "benefits": [
+        "Le Sar apporte des protéines maigres et digestes.",
+        "Les légumes enrichissent en fibres, vitamines et antioxydants.",
+        "La coriandre soutient la digestion et apporte fraîcheur."
+      ],
+      "tip": "Ajouter quelques olives vertes pour renforcer la saveur méditerranéenne.",
+      "variation": "Remplacer la courgette par du navet pour une touche plus traditionnelle.",
+      "nutrition": "Ce tajine fournit des protéines de haute qualité qui nourrissent sans alourdir. Les légumes apportent fibres et antioxydants, favorisant la digestion et la protection cellulaire."
+    },
+    {
+      "number": 121,
+      "title": "Œufs durs au cumin et persil frais",
+      "url": "/fr/publications/cooking-to-heal/hard-boiled-eggs-with-cumin-and-fresh-parsley/",
+      "sourcePdfPage": 47,
+      "printedPage": 231,
+      "description": "Découvrez les ingrédients et les étapes de préparation : Œufs durs au cumin et persil frais. Une recette extraite de Cuisiner pour guérir.",
+      "goal": "Un encas hypotoxique riche en protéines et en antioxydants, qui soutient la satiété et la digestion.",
+      "servings": "2 personnes",
+      "ingredients": [
+        "4 œufs bio",
+        "1 c. à c. de cumin en poudre",
+        "1 poignée de persil frais haché",
+        "Sel marin et poivre doux",
+        "1 filet d’huile d’olive vierge extra"
+      ],
+      "steps": [
+        "Cuire les œufs dans l’eau bouillante pendant 10 minutes.",
+        "Les refroidir, les écaler et les couper en deux.",
+        "Saupoudrer de cumin et de persil frais.",
+        "Arroser d’un filet d’huile d’olive avant de servir."
+      ],
+      "time": "Préparation : 5 min Cuisson : 10 min",
+      "benefits": [
+        "Les œufs apportent des protéines complètes et digestes.",
+        "Le cumin stimule la digestion et réduit les ballonnements.",
+        "Le persil enrichit en vitamine C et antioxydants protecteurs."
+      ],
+      "tip": "Servir avec quelques rondelles de concombre pour plus de fraîcheur.",
+      "variation": "Remplacer le cumin par du paprika doux pour une saveur différente.",
+      "nutrition": "Cette recette fournit des protéines de haute qualité qui favorisent la satiété et l’énergie. Globalement, c’est une préparation simple, équilibrée et protectrice."
+    },
+    {
+      "number": 131,
+      "title": "Œufs pochés aux lentilles et coriandre",
+      "url": "/fr/publications/cooking-to-heal/poached-eggs-with-lentils-and-cilantro/",
+      "sourcePdfPage": 49,
+      "printedPage": 245,
+      "description": "Découvrez les ingrédients et les étapes de préparation : Œufs pochés aux lentilles et coriandre. Une recette extraite de Cuisiner pour guérir.",
+      "goal": "Un plat hypotoxique riche en protéines végétales et animales, qui favorise la satiété et soutient la digestion.",
+      "servings": "2 personnes",
+      "ingredients": [
+        "4 œufs bio",
+        "150 g de lentilles vertes cuites",
+        "1 gousse d’ail écrasée",
+        "1 c. à s. d’huile d’olive vierge extra",
+        "Jus d’un demi-citron",
+        "1 poignée de coriandre fraîche hachée",
+        "Sel marin et poivre doux"
+      ],
+      "steps": [
+        "Cuire les lentilles dans de l’eau légèrement salée jusqu’à tendreté.",
+        "Égoutter et assaisonner avec ail, huile d’olive et jus de citron.",
+        "Pocher les œufs dans de l’eau frémissante pendant 3 minutes.",
+        "Disposer les œufs pochés sur le lit de lentilles.",
+        "Parsemer de coriandre fraîche avant de servir."
+      ],
+      "time": "Préparation : 10 min Cuisson : 20 min",
+      "benefits": [
+        "Les œufs apportent des protéines complètes et digestes.",
+        "Les lentilles sont riches en fibres et en minéraux protecteurs.",
+        "La coriandre soutient la digestion et apporte fraîcheur."
+      ],
+      "tip": "Ajouter une pincée de cumin pour renforcer la saveur et l’effet digestif.",
+      "variation": "Remplacer les lentilles vertes par des lentilles corail pour une texture plus douce.",
+      "nutrition": "Ce plat combine protéines animales et végétales, favorisant la satiété et l’équilibre nutritionnel. Globalement, c’est une préparation équilibrée, nourrissante et protectrice."
+    },
+    {
+      "number": 141,
+      "title": "Poulet en papillote au citron et thym",
+      "url": "/fr/publications/cooking-to-heal/chicken-en-papillote-with-lemon-and-thyme/",
+      "sourcePdfPage": 53,
+      "printedPage": 265,
+      "description": "Découvrez les ingrédients et les étapes de préparation : Poulet en papillote au citron et thym. Une recette extraite de Cuisiner pour guérir.",
+      "goal": "Un plat hypotoxique léger et parfumé, riche en protéines maigres et en antioxydants, qui favorise la digestion et soutient l’immunité.",
+      "servings": "2 personnes",
+      "ingredients": [
+        "2 blancs de poulet fermier",
+        "1 citron bio (rondelles + jus)",
+        "4 brins de thym frais",
+        "1 c. à s. d’huile d’olive vierge extra",
+        "Sel marin et poivre doux"
+      ],
+      "steps": [
+        "Préchauffer le four à 160 °C.",
+        "Déposer chaque blanc de poulet sur une feuille de papier cuisson.",
+        "Ajouter les rondelles de citron, le thym et arroser d’huile d’olive.",
+        "Refermer la papillote et enfourner 25 minutes.",
+        "Servir chaud avec un filet de jus de citron frais."
+      ],
+      "time": "Préparation : 5 min Cuisson : 25 min",
+      "benefits": [
+        "Le poulet apporte des protéines maigres et digestes.",
+        "Le citron stimule la détox et renforce l’immunité.",
+        "Le thym possède des propriétés antiseptiques et digestives."
+      ],
+      "tip": "Ajouter une pincée de cumin pour une touche marocaine chaleureuse.",
+      "variation": "Remplacer le thym par de la coriandre fraîche pour une saveur plus locale.",
+      "nutrition": "Un plat riche en protéines de haute qualité, faible en graisses saturées. À limiter en cas d’intolérance aux œufs ou de régime sans cholestérol."
+    },
+    {
+      "number": 151,
+      "title": "Bœuf mijoté aux pois chiches et cumin",
+      "url": "/fr/publications/cooking-to-heal/stewed-beef-with-chickpeas-and-cumin/",
+      "sourcePdfPage": 55,
+      "printedPage": 279,
+      "description": "Découvrez les ingrédients et les étapes de préparation : Bœuf mijoté aux pois chiches et cumin. Une recette extraite de Cuisiner pour guérir.",
+      "goal": "Un plat hypotoxique nourrissant et équilibré, riche en protéines et en fibres, qui soutient la digestion et l’énergie durable.",
+      "servings": "4 personnes",
+      "ingredients": [
+        "600 g de morceaux de bœuf maigre (jarret ou paleron)",
+        "200 g de pois chiches cuits",
+        "2 tomates mûres, en dés",
+        "1 oignon doux, émincé",
+        "1 c. à c. de cumin en poudre",
+        "1 c. à s. d’huile d’olive vierge extra",
+        "Sel marin et poivre doux",
+        "Quelques brins de coriandre fraîche"
+      ],
+      "steps": [
+        "Faire revenir l’oignon et les morceaux de bœuf dans l’huile d’olive à feu doux.",
+        "Ajouter les tomates, les pois chiches et saupoudrer de cumin.",
+        "Couvrir d’un verre d’eau et laisser mijoter 1 h à feu doux.",
+        "Parsemer de coriandre fraîche avant de servir."
+      ],
+      "time": "Préparation : 10 min Cuisson : 1 h",
+      "benefits": [
+        "Le bœuf apporte des protéines complètes et du fer.",
+        "Les pois chiches sont riches en fibres et protéines végétales.",
+        "Le cumin soutient la digestion et apporte une saveur chaleureuse."
+      ],
+      "tip": "Ajouter quelques carottes pour enrichir en fibres et couleur.",
+      "variation": "Remplacer le bœuf par du veau pour une version plus douce.",
+      "nutrition": "Un plat complet, riche en protéines animales et végétales, avec un apport élevé en fibres. Les pois chiches favorisent la satiété et l’équilibre intestinal, tandis que le cumin et la coriandre renforcent la digestion et l’immunité."
+    },
+    {
+      "number": 161,
+      "title": "Galettes de pois chiches au cumin",
+      "url": "/fr/publications/cooking-to-heal/chickpea-flatbreads-with-cumin/",
+      "sourcePdfPage": 59,
+      "printedPage": 299,
+      "description": "Découvrez les ingrédients et les étapes de préparation : Galettes de pois chiches au cumin. Une recette extraite de Cuisiner pour guérir.",
+      "goal": "Une alternative hypotoxique au pain, riche en protéines végétales et en fibres, qui soutient la digestion et la satiété.",
+      "servings": "4 galettes",
+      "ingredients": [
+        "200 g de farine de pois chiches",
+        "1 c. à c. de cumin moulu",
+        "1 c. à s. d’huile d’olive vierge extra",
+        "200 ml d’eau tiède",
+        "Sel marin"
+      ],
+      "steps": [
+        "Mélanger la farine de pois chiches avec le cumin et le sel.",
+        "Ajouter l’eau progressivement pour obtenir une pâte souple.",
+        "Former des galettes et les cuire à la poêle avec un filet d’huile d’olive, 3 min de chaque côté."
+      ],
+      "time": "Préparation : 5 min Cuisson : 6 min",
+      "benefits": [
+        "Les pois chiches apportent protéines végétales et fibres digestives.",
+        "Le cumin soutient la digestion et apporte une saveur chaude.",
+        "L’huile d’olive renforce l’apport en acides gras protecteurs."
+      ],
+      "tip": "Servir avec une salade verte ou un dip de légumes pour un repas complet.",
+      "variation": "Ajouter du persil frais haché pour une touche aromatique supplémentaire.",
+      "nutrition": "Galettes riches en protéines végétales, fibres et antioxydants, idéales comme substitut du pain dans une alimentation hypotoxique."
+    },
+    {
+      "number": 171,
+      "title": "Crème de patate douce au lait de coco",
+      "url": "/fr/publications/cooking-to-heal/sweet-potato-cream-with-coconut-milk/",
+      "sourcePdfPage": 63,
+      "printedPage": 319,
+      "description": "Découvrez les ingrédients et les étapes de préparation : Crème de patate douce au lait de coco. Une recette extraite de Cuisiner pour guérir.",
+      "goal": "Un dessert doux et réconfortant, riche en fibres, bêta-carotène et acides gras protecteurs, idéal pour les profils digestifs sensibles.",
+      "servings": "4 verrines",
+      "ingredients": [
+        "300 g de patate douce cuite",
+        "200 ml de lait de coco",
+        "1 c. à c. de cannelle",
+        "1 c. à s. de sirop de dattes (facultatif)"
+      ],
+      "steps": [
+        "Mixer la patate douce avec le lait de coco jusqu’à obtention d’une crème lisse.",
+        "Ajouter la cannelle et le sirop de dattes, mixer à nouveau.",
+        "Verser dans des verrines et placer au frais 1 h avant de servir."
+      ],
+      "time": "Préparation : 10 min Repos : 1 h",
+      "benefits": [
+        "La patate douce est riche en fibres et en bêta-carotène.",
+        "Le lait de coco apporte des acides gras protecteurs.",
+        "La cannelle soutient la digestion et équilibre la glycémie."
+      ],
+      "tip": "Parsemer de noix de coco râpée ou de graines de chia pour plus de texture.",
+      "variation": "Remplacer la cannelle par de la vanille ou du gingembre selon les goûts.",
+      "nutrition": "Crème douce et nourrissante, sans gluten ni lait, idéale pour les profils hypotoxiques et digestifs sensibles."
+    },
+    {
+      "number": 181,
+      "title": "Salade de fruits frais au basilic",
+      "url": "/fr/publications/cooking-to-heal/fresh-fruit-salad-with-basil/",
+      "sourcePdfPage": 67,
+      "printedPage": 339,
+      "description": "Découvrez les ingrédients et les étapes de préparation : Salade de fruits frais au basilic. Une recette extraite de Cuisiner pour guérir.",
+      "goal": "Un dessert rafraîchissant et vitaminé, riche en antioxydants et fibres, qui soutient l’hydratation et la vitalité.",
+      "servings": "4 bols",
+      "ingredients": [
+        "2 pommes",
+        "2 poires",
+        "2 oranges",
+        "1 banane",
+        "1 poignée de fraises",
+        "Quelques feuilles de basilic frais",
+        "Jus d’un demi-citron"
+      ],
+      "steps": [
+        "Laver et couper les fruits en morceaux.",
+        "Arroser de jus de citron pour éviter l’oxydation.",
+        "Ciseler le basilic et l’ajouter aux fruits.",
+        "Mélanger délicatement et servir frais."
+      ],
+      "time": "Préparation : 10 min",
+      "benefits": [
+        "Les fruits apportent vitamines, fibres et antioxydants protecteurs.",
+        "Le basilic soutient la digestion et apporte une touche aromatique.",
+        "Dessert léger, sans gluten ni lait, parfaitement adapté aux profils hypotoxiques."
+      ],
+      "tip": "Ajouter quelques graines de grenade pour plus de couleur et de vitalité.",
+      "variation": "Remplacer le basilic par de la menthe pour une saveur plus fraîche.",
+      "nutrition": "Salade riche en vitamines C et fibres, idéale pour l’énergie et l’équilibre digestif."
+    },
+    {
+      "number": 191,
+      "title": "Jus de carottes au gingembre",
+      "url": "/fr/publications/cooking-to-heal/carrot-and-ginger-juice/",
+      "sourcePdfPage": 71,
+      "printedPage": 359,
+      "description": "Découvrez les ingrédients et les étapes de préparation : Jus de carottes au gingembre. Une recette extraite de Cuisiner pour guérir.",
+      "goal": "Un jus tonique et protecteur, riche en bêta-carotène et antioxydants, qui soutient la vision et l’immunité.",
+      "servings": "2 grands verres",
+      "ingredients": [
+        "4 carottes fraîches",
+        "1 petit morceau de gingembre frais (2 cm)",
+        "Jus d’un demi-citron (facultatif)"
+      ],
+      "steps": [
+        "Laver et couper les carottes en morceaux.",
+        "Passer les carottes et le gingembre à l’extracteur de jus.",
+        "Ajouter le jus de citron pour plus de fraîcheur.",
+        "Servir immédiatement."
+      ],
+      "time": "Préparation : 10 min",
+      "benefits": [
+        "Les carottes apportent bêta-carotène et fibres protectrices.",
+        "Le gingembre stimule la digestion et renforce l’immunité.",
+        "Jus léger et hypotoxique, sans gluten ni lait."
+      ],
+      "tip": "Ajouter une pincée de curcuma pour renforcer l’effet antioxydant.",
+      "variation": "Remplacer le gingembre par de la menthe pour une saveur plus douce.",
+      "nutrition": "Jus riche en bêta-carotène, vitamine C et antioxydants, idéal pour la vitalité quotidienne."
+    }
+  ],
+  "introduction": {
+    "title": "Préface",
+    "sourcePdfPage": 4,
+    "printedPage": 5,
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Cuisiner pour guérir, sans renoncer à se régaler."
+      },
+      {
+        "type": "paragraph",
+        "text": "Il existe des livres de cuisine qui enseignent des gestes. D’autres qui racontent des histoires. Celui-ci fait les deux."
+      },
+      {
+        "type": "paragraph",
+        "text": "Il est né d’un constat simple et d’un espoir immense : notre alimentation peut devenir un soin quotidien, un acte de prévention, un geste d’amour pour soi et pour les autres."
+      },
+      {
+        "type": "paragraph",
+        "text": "Chez Family Clinic, nous accompagnons depuis des années des patients atteints de pathologies chroniques : sclérose en plaques, polyarthrite, diabète, troubles digestifs, maladies inflammatoires… Tous partagent une réalité commune : leur quotidien est bouleversé, leur rapport à l’alimentation fragilisé, leur plaisir de manger souvent amputé. Et pourtant, le plaisir est une condition essentielle du soin durable."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ce livre est né de cette tension féconde entre rigueur thérapeutique et joie de vivre. Il propose une cuisine hypotoxique — sans gluten, sans produits laitiers, sans sucres raffinés — mais pleine de goût, de textures, de couleurs et de culture. Une cuisine qui soigne sans exclure. Qui adapte sans appauvrir. Qui transforme sans trahir."
+      },
+      {
+        "type": "paragraph",
+        "text": "Nous avons choisi de reformuler 100 recettes du quotidien, puis d’en proposer 100 autres pour se régaler, en tenant compte des réalités du marché marocain, des préférences gustatives locales, et des contraintes économiques et pratiques des familles. Chaque recette a été pensée pour être simple, reproductible, digeste et émotionnellement satisfaisante. Pas d’ingrédients introuvables. Pas de protocoles rigides. Juste des aliments vrais, des gestes bienveillants, et une intention claire : restaurer la santé par le plaisir de cuisiner."
+      },
+      {
+        "type": "paragraph",
+        "text": "« Ce n’est pas une extravagance, c’est une évolution. Une cuisine enracinée, joyeuse, thérapeutique. »"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ce livre s’adresse à tous : patients, proches, thérapeutes, parents, enfants, curieux, gourmands. Il est structuré en blocs thématiques, avec un format fixe pour chaque recette : Objectif santé, Portions, Ingrédients, Préparation, Temps, Bienfaits, Astuce, Variante, Nutrition. Ce cadre permet à chacun de comprendre non seulement comment cuisiner, mais pourquoi cela soigne."
+      },
+      {
+        "type": "paragraph",
+        "text": "Nous espérons que ces pages vous accompagneront dans votre transition alimentaire, mais aussi dans votre chemin de vie. Qu’elles vous donneront envie de cuisiner autrement, de transmettre autrement, de manger autrement."
+      },
+      {
+        "type": "paragraph",
+        "text": "Et surtout, de vous réconcilier avec votre assiette, votre corps et votre culture."
+      },
+      {
+        "type": "paragraph",
+        "text": "Bienvenue dans une cuisine qui soigne."
+      },
+      {
+        "type": "paragraph",
+        "text": "Bienvenue chez vous."
+      }
+    ]
+  }
+}

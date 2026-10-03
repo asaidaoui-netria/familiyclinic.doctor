@@ -1,5 +1,6 @@
 .worktrees/
 node_modules/
+__pycache__/
 _site/
 .cache/
 .DS_Store
@@ -8,4 +9,5 @@ _site/
 /FC web site files/
 /FC web site files
 /.publication-work/
+/.playwright-mcp/
 /.env.publications

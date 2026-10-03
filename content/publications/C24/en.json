@@ -1,0 +1,271 @@
+{
+  "language": "en",
+  "status": "published",
+  "title": "Other metabolic conditions",
+  "summary": "An exploration of hypoglycaemia, spasmophilia, hypercholesterolaemia and excess weight through the author’s concept of cellular accumulation, considering metabolic mechanisms, conventional treatment limitations, intestinal permeability and the Family Clinic approach to nutrition, activity and prevention.",
+  "sourceHash": "6987dc9ae0eb2d7f360499e6dc10ab490212f054d2328f1f23355ed796f2820a",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Foreword"
+    },
+    {
+      "type": "paragraph",
+      "text": "Beyond type 2 diabetes, accumulation disorders affect several other common metabolic disturbances: hypoglycaemia, spasmophilia, hypercholesterolaemia and excess weight. These conditions, often considered benign or functional, actually reflect a profound imbalance in energy and lipid metabolism. They are all influenced by modern food and the condition of the intestinal mucosa."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Hypoglycaemia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hypoglycaemia is defined as a decrease in blood glucose below normal values. It may occur after a meal rich in rapidly absorbed sugars, provoking excessive insulin secretion. Symptoms vary: fatigue, trembling, sweating, palpitations, irritability or even feeling faint. Hypoglycaemia reflects instability in the blood glucose regulation system, often aggravated by accumulation in β cells and poor use of insulin by tissues."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Spasmophilia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Spasmophilia is neuromuscular hyperexcitability linked to disturbances in calcium and magnesium metabolism. It manifests through tetany attacks, palpitations, sensations of tightness and chronic anxiety. Although long considered psychosomatic, it actually reflects a metabolic disorder. Cellular accumulation disrupts ion regulation and increases neuronal membrane vulnerability."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Hypercholesterolaemia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hypercholesterolaemia is characterised by excess blood cholesterol, a major factor in atherosclerosis. It results from a diet rich in saturated fats and industrial products, but also from poor elimination of lipid waste by the liver. Hepatic and vascular accumulation promotes atheromatous plaque formation, increasing the risk of myocardial infarction and stroke."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Excess weight"
+    },
+    {
+      "type": "paragraph",
+      "text": "Excess weight and obesity constitute the most visible expression of accumulation disorders. Excess saturated fats and refined sugars cause triglycerides to accumulate in adipose tissue. Saturated adipocytes become resistant to insulin, worsening hyperglycaemia and hypercholesterolaemia. Obesity thus reflects a fundamental imbalance between dietary intake and human enzymatic capacities."
+    },
+    {
+      "type": "paragraph",
+      "text": "Although these conditions differ in their manifestations, they share a common mechanism: metabolic overload exceeding human enzymatic capacities. They illustrate the coherence of the concept of accumulation disorders: when cells are saturated with exogenous molecules, their functioning becomes disharmonious, causing multiple disturbances."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Pathophysiological mechanisms and the role of excess weight"
+    },
+    {
+      "type": "paragraph",
+      "text": "Metabolic diseases such as hypoglycaemia, spasmophilia and hypercholesterolaemia share a common mechanism: metabolic overload exceeding human enzymatic capacities. Modern food, rich in rapidly absorbed sugars, saturated fats and industrial products, causes instability in energy and lipid metabolism."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Hypoglycaemia"
+    },
+    {
+      "type": "paragraph",
+      "text": "It often occurs after a meal rich in high-glycaemic-index carbohydrates. Insulin secretion is excessive, causing a sudden fall in blood glucose. This phenomenon reflects deficient regulation, aggravated by accumulation in β cells and peripheral resistance. Reactive hypoglycaemia is common in overweight people, whose adipose tissues take up glucose poorly."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Spasmophilia"
+    },
+    {
+      "type": "paragraph",
+      "text": "This neuromuscular disorder is linked to poor calcium and magnesium regulation. Accumulation in neuronal membranes disrupts ionic balance, favouring tetany attacks, palpitations and anxiety. Spasmophilia illustrates the fragility of metabolic systems in the face of cellular overload."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Hypercholesterolaemia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Excess blood cholesterol is directly linked to a diet rich in saturated fats and poor hepatic elimination. Accumulation in the liver and vascular walls favours atheromatous plaque formation. Excess weight increases this risk: adipose tissue produces inflammatory mediators that aggravate atherosclerosis."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Excess weight and obesity"
+    },
+    {
+      "type": "paragraph",
+      "text": "Excess weight is a visible consequence of accumulation disorders. Excess saturated fats and refined sugars cause triglycerides to accumulate in adipose tissue. Overloaded adipocytes become resistant to insulin, worsening hyperglycaemia and hypercholesterolaemia. Obesity is therefore both a cause and a consequence of metabolic disorders. It reflects a profound imbalance between dietary intake and enzymatic capacities."
+    },
+    {
+      "type": "paragraph",
+      "text": "These metabolic diseases should therefore not be considered in isolation. They are different facets of the same process: cellular accumulation. Excess weight is its most tangible expression, reflecting metabolic overload and heralding vascular and endocrine complications."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Clinical consequences and limitations of conventional treatments"
+    },
+    {
+      "type": "paragraph",
+      "text": "Metabolic diseases linked to accumulation — hypoglycaemia, spasmophilia, hypercholesterolaemia and excess weight — cause varied but convergent clinical consequences. All reflect cellular overload that disrupts energy and lipid regulation."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Hypoglycaemia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Repeated episodes of hypoglycaemia cause chronic fatigue, irritability and reduced concentration. In the long term, they weaken the nervous system and increase insulin resistance. Conventional treatments consist of spreading out meals and favouring slowly absorbed sugars, but they do not correct the origin: accumulation in β cells and poor glucose use by tissues."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Spasmophilia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Spasmophilia causes permanent anxiety, tetany attacks and neuromuscular hyperexcitability. Conventional treatments rely on magnesium or calcium supplements and anxiolytics. These measures relieve symptoms but do not restore the ionic balance disrupted by cellular accumulation."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Hypercholesterolaemia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Excess blood cholesterol favours atherosclerosis, with a risk of myocardial infarction and stroke. Statins and other lipid-lowering drugs reduce cholesterol levels, but their action remains symptomatic. They do not prevent lipid waste formation or hepatic and vascular accumulation."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Excess weight and obesity"
+    },
+    {
+      "type": "paragraph",
+      "text": "Excess weight causes breathlessness, joint pain, hypertension and diabetes. Restrictive diets and weight-loss medication give temporary results, often followed by a rebound effect. They do not correct the cause: modern food unsuited to human enzymatic capacities. Obesity reflects a profound imbalance aggravated by sedentary living and metabolic overload."
+    },
+    {
+      "type": "paragraph",
+      "text": "Conventional treatments for these metabolic diseases thus merely alleviate symptoms or reduce certain biological parameters. They do not address the aetiological causes: modern food, intestinal permeability and cellular accumulation. The consequence is persistent chronic disorders and progressively worsening complications."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The Family Clinic approach: nutritional clearance of accumulation and prevention"
+    },
+    {
+      "type": "paragraph",
+      "text": "Metabolic diseases — hypoglycaemia, spasmophilia, hypercholesterolaemia and excess weight — are not inevitable. They reflect a profound imbalance between modern food and human enzymatic capacities. The Family Clinic approach proposes an aetiological strategy: clear accumulated waste from the body and restore its natural balance."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Appropriate nutrition"
+    },
+    {
+      "type": "paragraph",
+      "text": "The first step is to exclude foods our enzymes cannot metabolise: trans fats, cooked saturated fats, refined sugars and industrial products. These substances, foreign to our physiology, saturate cells and disrupt their functioning. Conversely, raw polyunsaturated fatty acids, plant fibre and low-glycaemic-index foods should be favoured. This ancestral diet reduces hyperglycaemia, improves insulin sensitivity and decreases hypercholesterolaemia."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Restoring the intestinal mucosa"
+    },
+    {
+      "type": "paragraph",
+      "text": "Excessive small-intestinal permeability is a major cause of accumulation. Dietary and bacterial macromolecules cross the intestinal barrier and seed β cells, myocytes, adipocytes and hepatocytes. Restoring mucosal barrier integrity through a hypotoxic diet rich in protective nutrients (mucins, defensins, trefoil peptides) stops this harmful flow. Regenerated enterocytes ensure more harmonious digestion and better defence against injury."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Physical activity"
+    },
+    {
+      "type": "paragraph",
+      "text": "Regular exercise is an indispensable complement. It increases muscle glucose uptake, reduces insulin resistance and promotes fat elimination. Combined with appropriate nutrition, it contributes to clearing cellular accumulation and preventing excess weight."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Preventing complications"
+    },
+    {
+      "type": "paragraph",
+      "text": "By reducing hyperglycaemia and glycated protein formation, this approach protects blood vessels against premature ageing. It reduces the risk of atherosclerosis, myocardial infarction and stroke. It also eases functional disorders linked to hypoglycaemia and spasmophilia."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Family Clinic approach is therefore not limited to correcting biological figures: it aims to restore the body's biological coherence. By respecting cells' natural capacities and easing their metabolic burden, it becomes possible to prevent metabolic diseases and achieve lasting improvement."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Therapeutic perspectives and a message of hope"
+    },
+    {
+      "type": "paragraph",
+      "text": "Metabolic diseases — hypoglycaemia, spasmophilia, hypercholesterolaemia and excess weight — are often considered chronic and inevitable. Yet understanding them through the lens of accumulation opens new perspectives. Rather than merely correcting symptoms or biological figures, the aim is to treat the aetiological cause: cellular overload induced by modern food and intestinal permeability."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Limitations of conventional treatments"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mineral supplements for spasmophilia, meal-spreading diets for hypoglycaemia, statins for hypercholesterolaemia or restrictive diets for excess weight provide temporary relief. But they do not restore biological coherence. Cells remain saturated, enzymatic cascades disrupted, and complications continue to progress."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "An approach to clearing accumulation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nutritional medicine proposes a more ambitious strategy: ease cells' metabolic burden and restore their balance. This requires a hypotoxic diet rich in fibre and raw polyunsaturated fatty acids, low in refined sugars and cooked saturated fats. Regeneration of the intestinal mucosa is essential to stop harmful macromolecules passing through. Physical activity complements this process by improving insulin sensitivity and promoting fat elimination."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "A message of hope"
+    },
+    {
+      "type": "paragraph",
+      "text": "These metabolic diseases should no longer be seen as inevitable. They are warning signals from a saturated body, but also an opportunity for regeneration. By adopting appropriate nutrition and an active lifestyle, it is possible to reduce hyperglycaemia, normalise cholesterol, ease spasmophilia and prevent excess weight. Clearing cellular accumulation becomes a path to healing and prevention."
+    },
+    {
+      "type": "paragraph",
+      "text": "Generous and optimistic, nutritional medicine reminds us that the body has a natural capacity for self-repair. By respecting its fundamental needs and avoiding dietary injury, we can turn these chronic diseases into opportunities for lasting health."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "General conclusion"
+    },
+    {
+      "type": "paragraph",
+      "text": "Other metabolic diseases (hypoglycaemia, spasmophilia, hypercholesterolaemia and excess weight) are not isolated entities. They represent different expressions of the same process: cellular accumulation. When pancreatic β cells, myocytes, adipocytes, hepatocytes or neuronal membranes are saturated with exogenous molecules and metabolic waste, their functioning becomes disharmonious. The consequences are numerous: blood glucose instability, neuromuscular hyperexcitability, excess blood cholesterol, fat accumulation and obesity."
+    },
+    {
+      "type": "paragraph",
+      "text": "Conventional treatments, whether mineral supplements, meal-spreading diets, statins or weight-loss diets, provide only temporary relief. They do not address the underlying cause: modern food and intestinal permeability. The vicious circle continues, with progressive worsening of cardiovascular, neurological and endocrine complications."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Family Clinic approach proposes an aetiological and preventive perspective. By adopting ancestral nutrition suited to human enzymatic capacities, it is possible to reduce hyperglycaemia, normalise cholesterol, ease spasmophilia and prevent excess weight. Restoring the intestinal mucosa, regenerating enterocytes and stopping harmful macromolecules passing through constitute essential stages in clearing accumulation. Physical activity complements this process by improving insulin sensitivity and promoting fat elimination."
+    },
+    {
+      "type": "paragraph",
+      "text": "This booklet delivers a message of hope: metabolic diseases are not inevitable. They are warning signals from a saturated body, but also an opportunity for regeneration. Generous and optimistic, nutritional medicine reminds us that the body has a natural capacity for self-repair. By respecting its fundamental needs and easing its metabolic burden, we can turn these chronic conditions into opportunities for lasting health."
+    }
+  ],
+  "translation": {
+    "from": "fr",
+    "method": "AI-assisted translation",
+    "reviewStatus": "not-clinically-reviewed"
+  }
+}

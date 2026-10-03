@@ -1,0 +1,1304 @@
+[
+  {
+    "id": "A00",
+    "categoryId": "A",
+    "slug": "nutrition-key-health",
+    "proposedEnglishTitle": "Holistic medicine and the role of nutrition",
+    "legacy": true,
+    "source": {
+      "body": "A00 Médecine Holistique - Importance de la Nutrition-word.docx",
+      "teaser": "A00 Médecine Holistique - Importance de la Nutrition-vignette.docx",
+      "sha256": "39e0cb04a1dfaabc6bcef7f1a55c7cb0a6355b2b16ecc4e1768ae64657a574d4"
+    },
+    "image": {
+      "src": "/assets/images/publications/A00-640.webp",
+      "small": "/assets/images/publications/A00-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "legacyArabicTitle": "التغذية: مفتاح الصحة",
+    "relatedIds": [
+      "A01",
+      "A09",
+      "A08"
+    ]
+  },
+  {
+    "id": "A01",
+    "categoryId": "A",
+    "slug": "hypotoxic-nutrition",
+    "proposedEnglishTitle": "Hypotoxic nutrition",
+    "legacy": true,
+    "source": {
+      "body": "A01 Alimentation hypotoxique principes-word.docx",
+      "teaser": "A01 Alimentation hypotoxique principes-vignette.docx",
+      "sha256": "4a16a73167a8c570b531bf5b14321e7f81c4142546096560f1af98f0d046027f"
+    },
+    "image": {
+      "src": "/assets/images/publications/A01-640.webp",
+      "small": "/assets/images/publications/A01-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "legacyArabicTitle": "التغذية منخفضة السمية: أداة للصحة في الحياة اليومية",
+    "relatedIds": [
+      "A04",
+      "A03",
+      "A05"
+    ]
+  },
+  {
+    "id": "A02",
+    "categoryId": "A",
+    "slug": "nature-to-factory",
+    "proposedEnglishTitle": "Traditional and modern diets",
+    "legacy": true,
+    "source": {
+      "body": "A02 Alimentation ancienne et alimentation moderne-word.docx",
+      "teaser": "A02 Alimentation ancienne et alimentation moderne-vignette.docx",
+      "sha256": "161da51ef99effafdde271e0e3e653980cc627f686844dcacb520223a5eac84c"
+    },
+    "image": {
+      "src": "/assets/images/publications/A02-640.webp",
+      "small": "/assets/images/publications/A02-240.webp",
+      "width": 640,
+      "height": 909
+    },
+    "legacyArabicTitle": "من الطبيعة إلى المصنع: التاريخ الخفي لوجباتنا وآثارها على الصحة",
+    "relatedIds": [
+      "A01",
+      "A07",
+      "A11"
+    ]
+  },
+  {
+    "id": "A03",
+    "categoryId": "A",
+    "slug": "the-hypotoxic-diet-theory-limits-and-results",
+    "proposedEnglishTitle": "The hypotoxic diet: theory, limits and results",
+    "legacy": false,
+    "source": {
+      "body": "A03 Régime hypotoxique théorie, limites et réussites-word.docx",
+      "teaser": "A03 Régime hypotoxique théorie, limites et réussites-vignette.docx",
+      "sha256": "e348fd89450a3086a6e7a7284b58b76a55a7446946f6ff3682858ba6b15598ff"
+    },
+    "image": {
+      "src": "/assets/images/publications/A03-640.webp",
+      "small": "/assets/images/publications/A03-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "A01",
+      "A04",
+      "A05"
+    ]
+  },
+  {
+    "id": "A04",
+    "categoryId": "A",
+    "slug": "hypotoxic-diet-principles",
+    "proposedEnglishTitle": "Principles of the hypotoxic diet",
+    "legacy": true,
+    "source": {
+      "body": "A04 Principes du régime alimentaire hypotoxique-word.docx",
+      "teaser": "A04 Principes du régime alimentaire hypotoxique-vignette.docx",
+      "sha256": "dfe47167f4e4c8edd0b51fade132bd69c025bdd3938f76f9eed768978bcfa6f5"
+    },
+    "image": {
+      "src": "/assets/images/publications/A04-640.webp",
+      "small": "/assets/images/publications/A04-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "legacyArabicTitle": "مبادئ النظام الغذائي منخفض السمية: دليل عملي لتغذية أصلية وواقية",
+    "relatedIds": [
+      "A05",
+      "A10",
+      "A11"
+    ]
+  },
+  {
+    "id": "A05",
+    "categoryId": "A",
+    "slug": "putting-the-hypotoxic-diet-into-practice",
+    "proposedEnglishTitle": "Putting the hypotoxic diet into practice",
+    "legacy": false,
+    "source": {
+      "body": "A05 Régime hypotoxique-pratique et perspectives-word.docx",
+      "teaser": "A05 Régime hypotoxique-pratique et perspectives-vignette.docx",
+      "sha256": "471be2c39b5ec91dccae31668eb36f1b9a16092c32b96534bfd2ae71d32db3a1"
+    },
+    "image": {
+      "src": "/assets/images/publications/A05-640.webp",
+      "small": "/assets/images/publications/A05-240.webp",
+      "width": 640,
+      "height": 912
+    },
+    "relatedIds": [
+      "A04",
+      "A09",
+      "A01"
+    ]
+  },
+  {
+    "id": "A06",
+    "categoryId": "A",
+    "slug": "genetics-explained-simply",
+    "proposedEnglishTitle": "Genetics explained simply",
+    "legacy": false,
+    "source": {
+      "body": "A06 La génétique expliquée simplement-word.docx",
+      "teaser": "A06 La génétique expliquée simplement-vignette.docx",
+      "sha256": "85cf87a2c60e42193af557a028f49248651b6c132f13a527912f9238631b39dd"
+    },
+    "image": {
+      "src": "/assets/images/publications/A06-640.webp",
+      "small": "/assets/images/publications/A06-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "A11",
+      "A08",
+      "A02"
+    ]
+  },
+  {
+    "id": "A07",
+    "categoryId": "A",
+    "slug": "invisible-environmental-threats",
+    "proposedEnglishTitle": "Environmental exposures and health",
+    "legacy": true,
+    "source": {
+      "body": "A07 Les Menaces Invisibles de l_environnement-word.docx",
+      "teaser": "A07 Les Menaces Invisibles de l_environnement-vignette.docx",
+      "sha256": "9199742f462a2f536b5fbb1ccfd028c489646ada5cf039156565d24c2e0adbce"
+    },
+    "image": {
+      "src": "/assets/images/publications/A07-640.webp",
+      "small": "/assets/images/publications/A07-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "legacyArabicTitle": "المخاطر غير المرئية في بيئتنا",
+    "relatedIds": [
+      "A08",
+      "A02",
+      "A00"
+    ]
+  },
+  {
+    "id": "A08",
+    "categoryId": "A",
+    "slug": "chronic-inflammation",
+    "proposedEnglishTitle": "Understanding chronic inflammation",
+    "legacy": true,
+    "source": {
+      "body": "A08 Inflammation chronique-word.docx",
+      "teaser": "A08 Inflammation chronique-vignette.docx",
+      "sha256": "539c9fe15858b6c34f4c2a85bdecb2292282a522fc80715bfdeac24323f7b82c"
+    },
+    "image": {
+      "src": "/assets/images/publications/A08-640.webp",
+      "small": "/assets/images/publications/A08-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "legacyArabicTitle": "الالتهاب المزمن: نار داخلية يجب تهدئتها",
+    "relatedIds": [
+      "B01",
+      "A10",
+      "A09"
+    ]
+  },
+  {
+    "id": "A09",
+    "categoryId": "A",
+    "slug": "the-family-clinic-protocol",
+    "proposedEnglishTitle": "The Family Clinic protocol",
+    "legacy": false,
+    "source": {
+      "body": "A09 Protocole Family Clinic-word.docx",
+      "teaser": "A09 Protocole Family Clinic-vignette.docx",
+      "sha256": "469bd46c5e6d3e327c847205802c099540b2ee2e9fd623c40b3fd3bc73c6a9b2"
+    },
+    "image": {
+      "src": "/assets/images/publications/A09-640.webp",
+      "small": "/assets/images/publications/A09-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "A01",
+      "A04",
+      "A05"
+    ]
+  },
+  {
+    "id": "A10",
+    "categoryId": "A",
+    "slug": "the-small-intestine-and-digestive-health",
+    "proposedEnglishTitle": "The small intestine and digestive health",
+    "legacy": false,
+    "source": {
+      "body": "A10 intestin grêle-word.docx",
+      "teaser": "A10 intestin grêle-vignette.docx",
+      "sha256": "1e6b443b18daf046a41879faa2d6c07b40313a4840a548b19d2a627ded7b935c"
+    },
+    "image": {
+      "src": "/assets/images/publications/A10-640.webp",
+      "small": "/assets/images/publications/A10-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "A11",
+      "D02",
+      "C12"
+    ]
+  },
+  {
+    "id": "A11",
+    "categoryId": "A",
+    "slug": "enzymes",
+    "proposedEnglishTitle": "Understanding enzymes",
+    "legacy": true,
+    "source": {
+      "body": "A11 Les Enzymes-word.docx",
+      "teaser": "A11 Les Enzymes-vignette.docx",
+      "sha256": "0b6715687424a7dafacd065ecca0b7765ad57d4b089e2f485320f56b911af9e6"
+    },
+    "image": {
+      "src": "/assets/images/publications/A11-640.webp",
+      "small": "/assets/images/publications/A11-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "legacyArabicTitle": "الإنزيمات: مفاتيح الحياة والصحة",
+    "relatedIds": [
+      "A10",
+      "A01",
+      "A06"
+    ]
+  },
+  {
+    "id": "A12",
+    "categoryId": "A",
+    "slug": "infertility-and-nutrition",
+    "proposedEnglishTitle": "Infertility and nutrition",
+    "legacy": false,
+    "source": {
+      "body": "A12 Infertilité et alimentation moderne déséquilibrée-word.doc",
+      "teaser": "A12 Infertilité et alimentation moderne déséquilibrée-vignette.doc",
+      "sha256": "ed9a8670b231479874283bbdb6e9a462f83dc4f59f5a63d3dcc2d8648fb1b644"
+    },
+    "image": {
+      "src": "/assets/images/publications/A12-640.webp",
+      "small": "/assets/images/publications/A12-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "A13",
+      "A09",
+      "A06"
+    ]
+  },
+  {
+    "id": "A13",
+    "categoryId": "A",
+    "slug": "pregnancy",
+    "proposedEnglishTitle": "Nutrition through pregnancy and postpartum",
+    "legacy": true,
+    "source": {
+      "body": "A13 Grossesse et alimentation hypotoxique-word.docx",
+      "teaser": "A13 Grossesse et alimentation hypotoxique-vignette.docx",
+      "sha256": "9beaf6a5042276374e619bd64c2dd33710148f565aa917dc2fa25779862b8711"
+    },
+    "image": {
+      "src": "/assets/images/publications/A13-640.webp",
+      "small": "/assets/images/publications/A13-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "legacyArabicTitle": "حمل منخفض السمية: رحلة مقدسة من الرغبة في الإنجاب إلى ما بعد الولادة",
+    "relatedIds": [
+      "A14",
+      "A12",
+      "A04"
+    ]
+  },
+  {
+    "id": "A14",
+    "categoryId": "A",
+    "slug": "infant-nutrition-from-birth-to-12-months",
+    "proposedEnglishTitle": "Infant nutrition from birth to 12 months",
+    "legacy": false,
+    "source": {
+      "body": "A14 Nourrisson et Alimentation hypotoxique-word.docx",
+      "teaser": "A14 Nourrisson et Alimentation hypotoxique-vignette.docx",
+      "sha256": "b5dc608a3746f0ad4c2168b50868dcbe80f7fe00f9616be78c92493967a3fd3a"
+    },
+    "image": {
+      "src": "/assets/images/publications/A14-640.webp",
+      "small": "/assets/images/publications/A14-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "A13",
+      "A10",
+      "A04"
+    ]
+  },
+  {
+    "id": "A15",
+    "categoryId": "A",
+    "slug": "cholesterol-and-holistic-medicine",
+    "proposedEnglishTitle": "Cholesterol and holistic medicine",
+    "legacy": false,
+    "source": {
+      "body": "A15 Cholestérol et médecine holistique-word.docx",
+      "teaser": "A15 Cholestérol et médecine holistique-vignette.docx",
+      "sha256": "154f8bb5ff2457cc28edf7aaa94442273d8fe7604920afa75e8ae5dfbe8748ef"
+    },
+    "image": {
+      "src": "/assets/images/publications/A15-640.webp",
+      "small": "/assets/images/publications/A15-240.webp",
+      "width": 640,
+      "height": 910
+    },
+    "relatedIds": [
+      "C22",
+      "C07",
+      "A04"
+    ]
+  },
+  {
+    "id": "B01",
+    "categoryId": "B",
+    "slug": "immunity-and-inflammation",
+    "proposedEnglishTitle": "Immunity and inflammation",
+    "legacy": false,
+    "source": {
+      "body": "B01 Immunité et inflammation-word.docx",
+      "teaser": "B01 Immunité et inflammation-vignette.docx",
+      "sha256": "becb0a22df0db8463e55f89a11a0699f39568d45033cbbdf79462426a81e1e08"
+    },
+    "image": {
+      "src": "/assets/images/publications/B01-640.webp",
+      "small": "/assets/images/publications/B01-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "A08",
+      "C15",
+      "B04"
+    ]
+  },
+  {
+    "id": "B02",
+    "categoryId": "B",
+    "slug": "basedow-disease",
+    "proposedEnglishTitle": "Understanding Graves’ disease",
+    "legacy": true,
+    "source": {
+      "body": "B02 BASEDOW-word.docx",
+      "teaser": "B02 BASEDOW-vignette.docx",
+      "sha256": "dd03b1044c67c33b9652ca11fc6426c8a5df749b3a4bd17d0c9eb8b267699703"
+    },
+    "image": {
+      "src": "/assets/images/publications/B02-640.webp",
+      "small": "/assets/images/publications/B02-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "legacyArabicTitle": "مرض بازيدوف: فهمه واتخاذ الإجراءات اللازمة",
+    "relatedIds": [
+      "B03",
+      "B01",
+      "A08"
+    ]
+  },
+  {
+    "id": "B03",
+    "categoryId": "B",
+    "slug": "hashimoto-disease",
+    "proposedEnglishTitle": "Understanding Hashimoto’s thyroiditis",
+    "legacy": true,
+    "source": {
+      "body": "B03 Haschimoto-word.docx",
+      "teaser": "B03 Haschimoto-vignette.docx",
+      "sha256": "e2e7cf099a1bda8b247f9cf4db61a1015ae4bbebdf3b1db40b78a2222e6f10a4"
+    },
+    "image": {
+      "src": "/assets/images/publications/B03-640.webp",
+      "small": "/assets/images/publications/B03-240.webp",
+      "width": 640,
+      "height": 911
+    },
+    "legacyArabicTitle": "هاشيموتو: اجعل الطعام عناية يومية",
+    "relatedIds": [
+      "B02",
+      "B01",
+      "A09"
+    ]
+  },
+  {
+    "id": "B04",
+    "categoryId": "B",
+    "slug": "liver-immunity",
+    "proposedEnglishTitle": "The liver and immunity",
+    "legacy": true,
+    "source": {
+      "body": "B04 Foie et Immunité-word.docx",
+      "teaser": "B04 Foie et Immunité-vignette.docx",
+      "sha256": "907805259dd563f208b27cad457ce93f098bd77699bf6286f4d4d2f6a034446c"
+    },
+    "image": {
+      "src": "/assets/images/publications/B04-640.webp",
+      "small": "/assets/images/publications/B04-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "legacyArabicTitle": "الكبد والمناعة: كيف نفهم وكيف نعمل",
+    "relatedIds": [
+      "C14",
+      "A10",
+      "B01"
+    ]
+  },
+  {
+    "id": "B05",
+    "categoryId": "B",
+    "slug": "understanding-ankylosing-spondylitis",
+    "proposedEnglishTitle": "Understanding ankylosing spondylitis",
+    "legacy": false,
+    "source": {
+      "body": "B05 La Spondylarthrite ankylosante-word.docx",
+      "teaser": "B05 La Spondylarthrite ankylosante-vignette.docx",
+      "sha256": "cfe1a188e9ea866f29a6a18ce2a7d574fb2beaf74ddcd84aebb067ae5093502c"
+    },
+    "image": {
+      "src": "/assets/images/publications/B05-640.webp",
+      "small": "/assets/images/publications/B05-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "B07",
+      "B06",
+      "C01"
+    ]
+  },
+  {
+    "id": "B06",
+    "categoryId": "B",
+    "slug": "rheumatoid-arthritis",
+    "proposedEnglishTitle": "Understanding rheumatoid arthritis",
+    "legacy": true,
+    "source": {
+      "body": "B06 Polyarthrite Rhumatoïde-word.docx",
+      "teaser": "B06 Polyarthrite Rhumatoïde-vignette.docx",
+      "sha256": "265490c956ae8c5f5030b532e14fc2f8db18d1a04256cf9e4b92d7b1d018d7d4"
+    },
+    "image": {
+      "src": "/assets/images/publications/B06-640.webp",
+      "small": "/assets/images/publications/B06-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "legacyArabicTitle": "التهاب المفاصل الروماتويدي: الفهم، الوقاية، التخفيف",
+    "relatedIds": [
+      "B07",
+      "B05",
+      "C01"
+    ]
+  },
+  {
+    "id": "B07",
+    "categoryId": "B",
+    "slug": "inflammatory-rheumatic-conditions",
+    "proposedEnglishTitle": "Inflammatory rheumatic conditions",
+    "legacy": false,
+    "source": {
+      "body": "B07 Rhumatismes Inflammatoires-word.docx",
+      "teaser": "B07 Rhumatismes Inflammatoires-vignette.docx",
+      "sha256": "996f358bd49bfa75c12ab3c8c380cbd23ec6382d08117897ad2db51896cbd01e"
+    },
+    "image": {
+      "src": "/assets/images/publications/B07-640.webp",
+      "small": "/assets/images/publications/B07-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "B06",
+      "B05",
+      "C01"
+    ]
+  },
+  {
+    "id": "B08",
+    "categoryId": "B",
+    "slug": "understanding-sarcoidosis",
+    "proposedEnglishTitle": "Understanding sarcoidosis",
+    "legacy": false,
+    "source": {
+      "body": "B08 Sarcoïdose-word.docx",
+      "teaser": "B08 Sarcoïdose-vignette.docx",
+      "sha256": "df3803cf802e203aa3980ef2202d4a72257a75b1eb4e25e4d6a1b080e7ee7ed0"
+    },
+    "image": {
+      "src": "/assets/images/publications/B08-640.webp",
+      "small": "/assets/images/publications/B08-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "B01",
+      "D03",
+      "D05"
+    ]
+  },
+  {
+    "id": "B09",
+    "categoryId": "B",
+    "slug": "understanding-multiple-sclerosis",
+    "proposedEnglishTitle": "Understanding multiple sclerosis",
+    "legacy": false,
+    "source": {
+      "body": "B09 Sclérose en Plaques-word.docx",
+      "teaser": "B09 Sclérose en Plaques-vignette.docx",
+      "sha256": "e382ed2ab96eef62ee75b907e6bc742fc1f5d5f513a634a3636e989a174f947d"
+    },
+    "image": {
+      "src": "/assets/images/publications/B09-640.webp",
+      "small": "/assets/images/publications/B09-240.webp",
+      "width": 640,
+      "height": 1099
+    },
+    "relatedIds": [
+      "C16",
+      "C15",
+      "B01"
+    ]
+  },
+  {
+    "id": "C00",
+    "categoryId": "C",
+    "slug": "the-cellular-accumulation-theory",
+    "proposedEnglishTitle": "The cellular accumulation theory",
+    "legacy": false,
+    "source": {
+      "body": "C00 La théorie de l’encrassage-word.docx",
+      "teaser": "C00 La théorie de l’encrassage-vignette.docx",
+      "sha256": "932e1a784accfe9420cbc8727e857cb4d43c425c190c16fc24498e74a01dc7c7"
+    },
+    "image": {
+      "src": "/assets/images/publications/C00-640.webp",
+      "small": "/assets/images/publications/C00-240.webp",
+      "width": 640,
+      "height": 909
+    },
+    "relatedIds": [
+      "A00",
+      "A01",
+      "D01"
+    ]
+  },
+  {
+    "id": "C01",
+    "categoryId": "C",
+    "slug": "understanding-inflammatory-arthritis",
+    "proposedEnglishTitle": "Understanding inflammatory arthritis",
+    "legacy": false,
+    "source": {
+      "body": "C01 Arthrites.docx",
+      "teaser": "C01 Arthrites-vignette.docx",
+      "sha256": "f268a7d7e4e77052bcf3084bea99c092a6281a98574cbc6e864ee70518e732a0"
+    },
+    "image": {
+      "src": "/assets/images/publications/C01-640.webp",
+      "small": "/assets/images/publications/C01-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "B06",
+      "B07",
+      "C02"
+    ]
+  },
+  {
+    "id": "C02",
+    "categoryId": "C",
+    "slug": "understanding-osteoarthritis",
+    "proposedEnglishTitle": "Understanding osteoarthritis",
+    "legacy": false,
+    "source": {
+      "body": "C02 Arthrose-word.docx",
+      "teaser": "C02 Arthrose-vignette.docx",
+      "sha256": "a02dc14ad9aaf14556d032484ec11c8333e39757fce72133262ede7d8734af2e"
+    },
+    "image": {
+      "src": "/assets/images/publications/C02-640.webp",
+      "small": "/assets/images/publications/C02-240.webp",
+      "width": 640,
+      "height": 823
+    },
+    "relatedIds": [
+      "C01",
+      "C05",
+      "C06"
+    ]
+  },
+  {
+    "id": "C03",
+    "categoryId": "C",
+    "slug": "understanding-gout",
+    "proposedEnglishTitle": "Understanding gout",
+    "legacy": false,
+    "source": {
+      "body": "C03 La Goutte et la Pathologie d_encrassage-word.docx",
+      "teaser": "C03 La Goutte et la Pathologie d_encrassage-vignette.docx",
+      "sha256": "bd9f6193c5541d97cc855cf5e26219d572dc00c224567eacbe93e61caa1b174d"
+    },
+    "image": {
+      "src": "/assets/images/publications/C03-640.webp",
+      "small": "/assets/images/publications/C03-240.webp",
+      "width": 640,
+      "height": 911
+    },
+    "relatedIds": [
+      "C24",
+      "C22",
+      "A04"
+    ]
+  },
+  {
+    "id": "C04",
+    "categoryId": "C",
+    "slug": "fibromyalgia-and-the-accumulation-model",
+    "proposedEnglishTitle": "Fibromyalgia and the accumulation model",
+    "legacy": false,
+    "source": {
+      "body": "C04 Fibromyalgie-word.docx",
+      "teaser": "C04 Fibromyalgie-vignette.docx",
+      "sha256": "facc102d916a4201f788ab0394e92c649b8768075b1275dfe5a191f3eb3bde28"
+    },
+    "image": {
+      "src": "/assets/images/publications/C04-640.webp",
+      "small": "/assets/images/publications/C04-240.webp",
+      "width": 640,
+      "height": 910
+    },
+    "relatedIds": [
+      "C06",
+      "C05",
+      "A08"
+    ]
+  },
+  {
+    "id": "C05",
+    "categoryId": "C",
+    "slug": "tendinitis-and-the-accumulation-model",
+    "proposedEnglishTitle": "Tendinitis and the accumulation model",
+    "legacy": false,
+    "source": {
+      "body": "C05 Les Tendinites et la Pathologie d_encrassage-word.docx",
+      "teaser": "C05 Les Tendinites et la Pathologie d_encrassage-vignette.docx",
+      "sha256": "75fe62a1f5998a6a412d839f695470bb2c1575c91cc9802486db64e58305da54"
+    },
+    "image": {
+      "src": "/assets/images/publications/C05-640.webp",
+      "small": "/assets/images/publications/C05-240.webp",
+      "width": 640,
+      "height": 912
+    },
+    "relatedIds": [
+      "C02",
+      "C06",
+      "C04"
+    ]
+  },
+  {
+    "id": "C06",
+    "categoryId": "C",
+    "slug": "sports-and-the-accumulation-model",
+    "proposedEnglishTitle": "Sports and the accumulation model",
+    "legacy": false,
+    "source": {
+      "body": "C06 Sportifs et pathologies de l_encrassage-word.docx",
+      "teaser": "C06 Sportifs et pathologies de l_encrassage-vignette.docx",
+      "sha256": "30dc5812fd8bf2cb208e5b59d33fc5383a92c5268d3c1bef1e50cb098338c224"
+    },
+    "image": {
+      "src": "/assets/images/publications/C06-640.webp",
+      "small": "/assets/images/publications/C06-240.webp",
+      "width": 640,
+      "height": 910
+    },
+    "relatedIds": [
+      "C05",
+      "C04",
+      "C02"
+    ]
+  },
+  {
+    "id": "C07",
+    "categoryId": "C",
+    "slug": "type-2-diabetes-and-the-accumulation-model",
+    "proposedEnglishTitle": "Type 2 diabetes and the accumulation model",
+    "legacy": false,
+    "source": {
+      "body": "C07 Diabète sucré de type 2 et encrassage-word.docx",
+      "teaser": "C07 Diabète sucré de type 2 et encrassage-vignette.docx",
+      "sha256": "119a75833196458334343233dfdae3b90b0f9845e7998c111bd0069d4535cf90"
+    },
+    "image": {
+      "src": "/assets/images/publications/C07-640.webp",
+      "small": "/assets/images/publications/C07-240.webp",
+      "width": 640,
+      "height": 911
+    },
+    "relatedIds": [
+      "C08",
+      "C09",
+      "A15"
+    ]
+  },
+  {
+    "id": "C08",
+    "categoryId": "C",
+    "slug": "diabetes-hyperinsulinism",
+    "proposedEnglishTitle": "Diabetes and hyperinsulinism",
+    "legacy": true,
+    "source": {
+      "body": "C08 Diabete et hyperinsulinisme-word.doc",
+      "teaser": "C08 Diabete et hyperinsulinisme-vignette.doc",
+      "sha256": "85b164272c31627025a7b55732c970c8a99470c817f7792cf8f834665b1c413c"
+    },
+    "image": {
+      "src": "/assets/images/publications/C08-640.webp",
+      "small": "/assets/images/publications/C08-240.webp",
+      "width": 640,
+      "height": 905
+    },
+    "legacyArabicTitle": "داء السكري وفرط الإنسولين: نصائح عملية لموازنة سكر الدم",
+    "relatedIds": [
+      "C07",
+      "C09",
+      "A04"
+    ]
+  },
+  {
+    "id": "C09",
+    "categoryId": "C",
+    "slug": "vitamin-b1-inositol-and-diabetes",
+    "proposedEnglishTitle": "Vitamin B1, inositol and diabetes",
+    "legacy": false,
+    "source": {
+      "body": "C09 Diabète Vitamine B1 & Inositol-word.docx",
+      "teaser": "C09 Diabète Vitamine B1 & Inositol-vignette.docx",
+      "sha256": "f45b559e4f154109a86adbcb83354210602e3c29bf17be9761e0a333376bd850"
+    },
+    "image": {
+      "src": "/assets/images/publications/C09-640.webp",
+      "small": "/assets/images/publications/C09-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "C08",
+      "C07",
+      "A11"
+    ]
+  },
+  {
+    "id": "C10",
+    "categoryId": "C",
+    "slug": "cancer-and-the-cellular-accumulation-model",
+    "proposedEnglishTitle": "Cancer and the cellular accumulation model",
+    "legacy": false,
+    "source": {
+      "body": "C10 Cancers et encrassage cellulaire-word.docx",
+      "teaser": "C10 Cancers et encrassage cellulaire-vignette.docx",
+      "sha256": "f86b00409c770bef6d5077c332573769bcc9b4de5eb15b7edfaba6e86cbcc171"
+    },
+    "image": {
+      "src": "/assets/images/publications/C10-640.webp",
+      "small": "/assets/images/publications/C10-240.webp",
+      "width": 640,
+      "height": 910
+    },
+    "relatedIds": [
+      "C11",
+      "A08",
+      "C00"
+    ]
+  },
+  {
+    "id": "C11",
+    "categoryId": "C",
+    "slug": "understanding-cancer-and-prevention",
+    "proposedEnglishTitle": "Understanding cancer and prevention",
+    "legacy": false,
+    "source": {
+      "body": "C11 Cancers comprendre et prévenir-word.docx",
+      "teaser": "C11 Cancers comprendre et prévenir-vignette.docx",
+      "sha256": "647744a970096442e4fb679ecee1927601ce705c753559af8c11739e556dee40"
+    },
+    "image": {
+      "src": "/assets/images/publications/C11-640.webp",
+      "small": "/assets/images/publications/C11-240.webp",
+      "width": 640,
+      "height": 910
+    },
+    "relatedIds": [
+      "C10",
+      "A06",
+      "A08"
+    ]
+  },
+  {
+    "id": "C12",
+    "categoryId": "C",
+    "slug": "understanding-dyspepsia",
+    "proposedEnglishTitle": "Understanding dyspepsia",
+    "legacy": false,
+    "source": {
+      "body": "C12 dyspepsie-word.docx",
+      "teaser": "C12 dyspepsie-vignette.docx",
+      "sha256": "160ce0e54324a64f4a244b9dc309d788189f80994beac3f26f116c2649be6f3a"
+    },
+    "image": {
+      "src": "/assets/images/publications/C12-640.webp",
+      "small": "/assets/images/publications/C12-240.webp",
+      "width": 640,
+      "height": 910
+    },
+    "relatedIds": [
+      "A10",
+      "D02",
+      "C14"
+    ]
+  },
+  {
+    "id": "C13",
+    "categoryId": "C",
+    "slug": "colitis-and-inflammatory-bowel-disease",
+    "proposedEnglishTitle": "Colitis and inflammatory bowel disease",
+    "legacy": false,
+    "source": {
+      "body": "C13 COLITE ET MICI-word.docx",
+      "teaser": "C13 COLITE ET MICI-vignette.docx",
+      "sha256": "06b1412699f492948725dd51367b404680c9d950c3342074eb9b402ac3c0d043"
+    },
+    "image": {
+      "src": "/assets/images/publications/C13-640.webp",
+      "small": "/assets/images/publications/C13-240.webp",
+      "width": 640,
+      "height": 911
+    },
+    "relatedIds": [
+      "D02",
+      "D05",
+      "A10"
+    ]
+  },
+  {
+    "id": "C14",
+    "categoryId": "C",
+    "slug": "understanding-gallstones",
+    "proposedEnglishTitle": "Understanding gallstones",
+    "legacy": false,
+    "source": {
+      "body": "C14 LITHIASE VÉSICULAIRE-word.docx",
+      "teaser": "C14 LITHIASE VÉSICULAIRE-vignette.docx",
+      "sha256": "b3cf3894a072e4705d2328a24f8526561a76b11448ca3488eae89962f6792c0f"
+    },
+    "image": {
+      "src": "/assets/images/publications/C14-640.webp",
+      "small": "/assets/images/publications/C14-240.webp",
+      "width": 640,
+      "height": 913
+    },
+    "relatedIds": [
+      "B04",
+      "C12",
+      "A15"
+    ]
+  },
+  {
+    "id": "C15",
+    "categoryId": "C",
+    "slug": "autoimmune-conditions-and-the-accumulation-model",
+    "proposedEnglishTitle": "Autoimmune conditions and the accumulation model",
+    "legacy": false,
+    "source": {
+      "body": "C15 Maladies autoimmunes & pathologies de l_encrassage-word.docx",
+      "teaser": "C15 Maladies autoimmunes & pathologies de l_encrassage-vignette.docx",
+      "sha256": "d27eff7f41ad28b09b64c66072b5821cbf297705202552a27dbd13e65153a2a2"
+    },
+    "image": {
+      "src": "/assets/images/publications/C15-640.webp",
+      "small": "/assets/images/publications/C15-240.webp",
+      "width": 640,
+      "height": 910
+    },
+    "relatedIds": [
+      "B01",
+      "B09",
+      "B06"
+    ],
+    "relatedCategoryId": "B"
+  },
+  {
+    "id": "C16",
+    "categoryId": "C",
+    "slug": "neurological-conditions-inflammation-and-hyperinsulinism",
+    "proposedEnglishTitle": "Neurological conditions, inflammation and hyperinsulinism",
+    "legacy": false,
+    "source": {
+      "body": "C16 Tr neurologiques-word.docx",
+      "teaser": "C16 Tr neurologiques-vignette.docx",
+      "sha256": "46c8a8b2488eb576d858e3f331debae79d6e8ff4f38d42070da6cc3ec2eb4fad"
+    },
+    "image": {
+      "src": "/assets/images/publications/C16-640.webp",
+      "small": "/assets/images/publications/C16-240.webp",
+      "width": 640,
+      "height": 909
+    },
+    "relatedIds": [
+      "B09",
+      "C08",
+      "A08"
+    ]
+  },
+  {
+    "id": "C17",
+    "categoryId": "C",
+    "slug": "depression-and-the-accumulation-model",
+    "proposedEnglishTitle": "Depression and the accumulation model",
+    "legacy": false,
+    "source": {
+      "body": "C17 Dépression nerveuse endogène-word.docx",
+      "teaser": "C17 Dépression nerveuse endogène-vignette.docx",
+      "sha256": "78b391cdf700fd1e3b5ecf6018f50fde116e40f23a591cd39ca692bdcd9787ac"
+    },
+    "image": {
+      "src": "/assets/images/publications/C17-640.webp",
+      "small": "/assets/images/publications/C17-240.webp",
+      "width": 640,
+      "height": 912
+    },
+    "relatedIds": [
+      "C16",
+      "C18",
+      "A08"
+    ]
+  },
+  {
+    "id": "C18",
+    "categoryId": "C",
+    "slug": "schizophrenia-and-dietary-factors",
+    "proposedEnglishTitle": "Schizophrenia and dietary factors",
+    "legacy": false,
+    "source": {
+      "body": "C18 Schizophrénie et Facteurs Alimentaires-word.docx",
+      "teaser": "C18 Schizophrénie et Facteurs Alimentaires-vignette.docx",
+      "sha256": "a08fa78d37dad3e8d42e9ac3a07f01b46d754cbbdd1315a6291707cb4ff5075a"
+    },
+    "image": {
+      "src": "/assets/images/publications/C18-640.webp",
+      "small": "/assets/images/publications/C18-240.webp",
+      "width": 640,
+      "height": 911
+    },
+    "relatedIds": [
+      "C17",
+      "C16",
+      "C00"
+    ]
+  },
+  {
+    "id": "C19",
+    "categoryId": "C",
+    "slug": "headaches-and-the-accumulation-model",
+    "proposedEnglishTitle": "Headaches and the accumulation model",
+    "legacy": false,
+    "source": {
+      "body": "C19 Les Céphalées-word.docx",
+      "teaser": "C19 Les Céphalées-vignette.docx",
+      "sha256": "e7962fe5686c7a82f5b4eeda25712518339cd9a3ac607a4d9d896e2867f6d089"
+    },
+    "image": {
+      "src": "/assets/images/publications/C19-640.webp",
+      "small": "/assets/images/publications/C19-240.webp",
+      "width": 640,
+      "height": 911
+    },
+    "relatedIds": [
+      "C16",
+      "A08",
+      "C00"
+    ]
+  },
+  {
+    "id": "C20",
+    "categoryId": "C",
+    "slug": "understanding-blood-disorders",
+    "proposedEnglishTitle": "Understanding blood disorders",
+    "legacy": false,
+    "source": {
+      "body": "C20 Hémopathies-word.docx",
+      "teaser": "C20 Hémopathies-vignette.docx",
+      "sha256": "1fc6b23f2c5cbf3bd9c4056d50d7d1ac0a0a893933be3f2c1388cabd4eac5649"
+    },
+    "image": {
+      "src": "/assets/images/publications/C20-640.webp",
+      "small": "/assets/images/publications/C20-240.webp",
+      "width": 640,
+      "height": 910
+    },
+    "relatedIds": [
+      "C00",
+      "A08",
+      "A09"
+    ]
+  },
+  {
+    "id": "C21",
+    "categoryId": "C",
+    "slug": "ageing-and-the-accumulation-model",
+    "proposedEnglishTitle": "Ageing and the accumulation model",
+    "legacy": false,
+    "source": {
+      "body": "C21 Vieillissement-word.docx",
+      "teaser": "C21 Vieillissement-vignette.docx",
+      "sha256": "46c673f7c243e3c433a146c86e9b8ac95c785321f9390507c89a8d0e4e9adf49"
+    },
+    "image": {
+      "src": "/assets/images/publications/C21-640.webp",
+      "small": "/assets/images/publications/C21-240.webp",
+      "width": 640,
+      "height": 909
+    },
+    "relatedIds": [
+      "C22",
+      "A06",
+      "C00"
+    ]
+  },
+  {
+    "id": "C22",
+    "categoryId": "C",
+    "slug": "understanding-atherosclerosis",
+    "proposedEnglishTitle": "Understanding atherosclerosis",
+    "legacy": false,
+    "source": {
+      "body": "C22 Athérosclérose-word.docx",
+      "teaser": "C22 Athérosclérose-vignette.docx",
+      "sha256": "639a9fcfcd96cf5cfea81a74b42edbe8c91ddef6e2e9f3fe8cd2ac7a1e74340f"
+    },
+    "image": {
+      "src": "/assets/images/publications/C22-640.webp",
+      "small": "/assets/images/publications/C22-240.webp",
+      "width": 640,
+      "height": 911
+    },
+    "relatedIds": [
+      "A15",
+      "C21",
+      "C07"
+    ]
+  },
+  {
+    "id": "C23",
+    "categoryId": "C",
+    "slug": "autism-and-hypotoxic-nutrition",
+    "proposedEnglishTitle": "Autism and hypotoxic nutrition",
+    "legacy": false,
+    "source": {
+      "body": "C23 Autisme et Nutrition Hypotoxique-word.docx",
+      "teaser": "C23 Autisme et Nutrition Hypotoxique-vignette.docx",
+      "sha256": "2553ae39b618e25e626954b638f4ec7e08e65d6305262a76fc1d4173e457f632"
+    },
+    "image": {
+      "src": "/assets/images/publications/C23-640.webp",
+      "small": "/assets/images/publications/C23-240.webp",
+      "width": 640,
+      "height": 911
+    },
+    "relatedIds": [
+      "C16",
+      "A10",
+      "A01"
+    ]
+  },
+  {
+    "id": "C24",
+    "categoryId": "C",
+    "slug": "other-metabolic-conditions",
+    "proposedEnglishTitle": "Other metabolic conditions",
+    "legacy": false,
+    "source": {
+      "body": "C24 Autres maladies métaboliques-word.docx",
+      "teaser": "C24 Autres maladies métaboliques-vignette.docx",
+      "sha256": "6987dc9ae0eb2d7f360499e6dc10ab490212f054d2328f1f23355ed796f2820a"
+    },
+    "image": {
+      "src": "/assets/images/publications/C24-640.webp",
+      "small": "/assets/images/publications/C24-240.webp",
+      "width": 640,
+      "height": 911
+    },
+    "relatedIds": [
+      "C03",
+      "C07",
+      "C22"
+    ]
+  },
+  {
+    "id": "D01",
+    "categoryId": "D",
+    "slug": "the-elimination-theory",
+    "proposedEnglishTitle": "The elimination theory",
+    "legacy": false,
+    "source": {
+      "body": "D01 La théorie de l_élimination-word.docx",
+      "teaser": "D01 La théorie de l_élimination-vignette.docx",
+      "sha256": "88d5a359ccd115fbdf98dcdea41eba888f06c05c4fe37d28d8aafed50654c94c"
+    },
+    "image": {
+      "src": "/assets/images/publications/D01-640.webp",
+      "small": "/assets/images/publications/D01-240.webp",
+      "width": 640,
+      "height": 909
+    },
+    "relatedIds": [
+      "C00",
+      "D05",
+      "A00"
+    ]
+  },
+  {
+    "id": "D02",
+    "categoryId": "D",
+    "slug": "digestive-conditions-and-the-elimination-model",
+    "proposedEnglishTitle": "Digestive conditions and the elimination model",
+    "legacy": false,
+    "source": {
+      "body": "D02 Pathologies digestives-word.docx",
+      "teaser": "D02 Pathologies digestives-vignette.docx",
+      "sha256": "e232902bf08b865bd8144b98899e8b15478d6ee2809e0abd52bf77ccdac839cd"
+    },
+    "image": {
+      "src": "/assets/images/publications/D02-640.webp",
+      "small": "/assets/images/publications/D02-240.webp",
+      "width": 640,
+      "height": 910
+    },
+    "relatedIds": [
+      "C13",
+      "C12",
+      "A10"
+    ]
+  },
+  {
+    "id": "D03",
+    "categoryId": "D",
+    "slug": "respiratory-conditions-and-the-elimination-model",
+    "proposedEnglishTitle": "Respiratory conditions and the elimination model",
+    "legacy": false,
+    "source": {
+      "body": "D03 Les bronches et les pathologies d’élimination-word.docx",
+      "teaser": "D03 Les bronches et les pathologies d’élimination-vignette.docx",
+      "sha256": "2acfe1f79f14b29e224b29c33a821592dae09a6e8d882a6459dbb97fb077f070"
+    },
+    "image": {
+      "src": "/assets/images/publications/D03-640.webp",
+      "small": "/assets/images/publications/D03-240.webp",
+      "width": 640,
+      "height": 910
+    },
+    "relatedIds": [
+      "B08",
+      "D01",
+      "A08"
+    ]
+  },
+  {
+    "id": "D04",
+    "categoryId": "D",
+    "slug": "skin-conditions-and-the-elimination-model",
+    "proposedEnglishTitle": "Skin conditions and the elimination model",
+    "legacy": false,
+    "source": {
+      "body": "D04 La peau et la pathologie d’élimination -word.docx",
+      "teaser": "D04 La peau et la pathologie d’élimination-vignette.docx",
+      "sha256": "b467e0c4abcb7b7414c0ff0ba170b623412cd8c5da92ebba8cd37b0fe026c8f3"
+    },
+    "image": {
+      "src": "/assets/images/publications/D04-640.webp",
+      "small": "/assets/images/publications/D04-240.webp",
+      "width": 640,
+      "height": 910
+    },
+    "relatedIds": [
+      "D01",
+      "A08",
+      "D06"
+    ]
+  },
+  {
+    "id": "D05",
+    "categoryId": "D",
+    "slug": "conditions-involving-multiple-mechanisms",
+    "proposedEnglishTitle": "Conditions involving multiple mechanisms",
+    "legacy": false,
+    "source": {
+      "body": "D05 Les maladies de mécanismes complexes-word.docx",
+      "teaser": "D05 Les maladies de mécanismes complexes-vignette.docx",
+      "sha256": "11a73d2da4cc91de4ea74590bf0f2aeb68a3e8811fd35a622ec1b42b6d859080"
+    },
+    "image": {
+      "src": "/assets/images/publications/D05-640.webp",
+      "small": "/assets/images/publications/D05-240.webp",
+      "width": 640,
+      "height": 909
+    },
+    "relatedIds": [
+      "C15",
+      "D02",
+      "B01"
+    ]
+  },
+  {
+    "id": "D06",
+    "categoryId": "D",
+    "slug": "other-conditions-in-the-elimination-model",
+    "proposedEnglishTitle": "Other conditions in the elimination model",
+    "legacy": false,
+    "source": {
+      "body": "D06 Autres pathologies de l_élimination-word.docx",
+      "teaser": "D06 Autres pathologies de l_élimination-vignette.docx",
+      "sha256": "ea21c455d665c22b4c9c3acc4067a77b5fb60938a1cabe8dc12d146b3e91b39f"
+    },
+    "image": {
+      "src": "/assets/images/publications/D06-640.webp",
+      "small": "/assets/images/publications/D06-240.webp",
+      "width": 640,
+      "height": 909
+    },
+    "relatedIds": [
+      "D01",
+      "D03",
+      "D04"
+    ]
+  }
+]

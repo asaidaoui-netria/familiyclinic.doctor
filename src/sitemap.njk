@@ -11,10 +11,9 @@ eleventyExcludeFromCollections: true
   <url><loc>{{ site.url }}{{ route }}</loc></url>
   {% endfor %}
 {% endfor %}
-{% for locale, route in site.routes.publications %}
-  <url><loc>{{ site.url }}{{ route }}</loc></url>
-{% endfor %}
 {% for publicationPage in publicationPages %}
+{% if publicationPage.indexable %}
   <url><loc>{{ site.url }}{{ publicationPage.permalink }}</loc></url>
+{% endif %}
 {% endfor %}
 </urlset>

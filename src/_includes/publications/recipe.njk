@@ -1,0 +1,9 @@
+<header class="publication-heading"><p class="publication-eyebrow">{{ p.book.title }} · {{ pc.recipe }} {{ p.recipe.number }}</p><h1>{{ p.title | publicationText(p.locale) | safe }}</h1>{{ author(p) }}<p class="publication-intro">{{ p.recipe.time | publicationText(p.locale) | safe }} · {{ p.recipe.servings | publicationText(p.locale) | safe }}</p><button type="button" class="publication-print" data-print-recipe hidden>{{ pc.print }}</button></header>
+<div class="publication-recipe-layout">
+<section class="publication-ingredients" aria-labelledby="ingredients"><h2 id="ingredients">{{ pc.ingredients }}</h2><p>{{ p.recipe.servings | publicationText(p.locale) | safe }}</p><ul>{% for item in p.recipe.ingredients %}<li>{{ item | publicationText(p.locale) | safe }}</li>{% endfor %}</ul></section>
+<div class="publication-prose">
+<section aria-labelledby="preparation"><h2 id="preparation">{{ pc.preparation }}</h2><ol class="publication-steps">{% for step in p.recipe.steps %}<li>{{ step | publicationText(p.locale) | safe }}</li>{% endfor %}</ol></section>
+<section class="publication-tip"><h2>{{ pc.tip }}</h2><p>{{ p.recipe.tip | publicationText(p.locale) | safe }}</p><h2>{{ pc.variation }}</h2><p>{{ p.recipe.variation | publicationText(p.locale) | safe }}</p></section>
+<details class="publication-recipe-notes"><summary>{{ pc.nutritionNotes }}</summary><h2>{{ pc.healthGoal }}</h2><p>{{ p.recipe.goal | publicationText(p.locale) | safe }}</p><h2>{{ pc.benefits }}</h2><ul>{% for benefit in p.recipe.benefits %}<li>{{ benefit | publicationText(p.locale) | safe }}</li>{% endfor %}</ul><h2>{{ pc.nutrition }}</h2><p>{{ p.recipe.nutrition | publicationText(p.locale) | safe }}</p></details>
+<a href="{{ p.book.url }}"><span aria-hidden="true">{{ pc.backArrow }}</span> {{ pc.recipeBack }}</a>
+</div></div>

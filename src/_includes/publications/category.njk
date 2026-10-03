@@ -1,0 +1,12 @@
+<header class="publication-heading"><h1>{{ p.title | publicationText(p.locale) | safe }}</h1><p class="publication-intro">{{ p.description | publicationText(p.locale) | safe }}</p></header>
+<div class="publication-layout">
+{{ categories(p) }}
+<section class="publication-list" aria-label="{{ pc.articles }}">
+{% for a in p.articles %}
+<article class="publication-article-row">
+<div>{% if loop.first %}<span class="publication-start">{{ pc.start }}</span>{% endif %}<h2><a href="{{ a.url }}">{{ a.title | publicationText(p.locale) | safe }}</a></h2><p>{{ a.summary | truncate(260) | publicationText(p.locale) | safe }}</p></div>
+<span class="publication-reading-time">{{ a.readingMinutes }} {{ pc.read }}</span>
+</article>
+{% endfor %}
+</section>
+</div>

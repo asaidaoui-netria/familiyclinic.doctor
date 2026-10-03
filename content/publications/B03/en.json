@@ -1,0 +1,517 @@
+{
+  "language": "en",
+  "status": "published",
+  "title": "Understanding Hashimoto’s thyroiditis",
+  "summary": "A practical guide to Hashimoto's thyroiditis, its symptoms, and medical monitoring. Drawing on Family Clinic's nutritional approach, it discusses food choices, gentle cooking, meal planning, fatigue management, and locally available ingredients as complements to medical care.",
+  "sourceHash": "e2e7cf099a1bda8b247f9cf4db61a1015ae4bbebdf3b1db40b78a2222e6f10a4",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Foreword"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hashimoto's thyroiditis is an autoimmune disease that weakens the thyroid and often leads to hypothyroidism. It affects many people, sometimes without their awareness, because its symptoms develop gradually: persistent fatigue, unexplained weight gain, digestive problems, hair loss, and reduced concentration. These signs, although common, are often dismissed, delaying diagnosis and the introduction of appropriate support."
+    },
+    {
+      "type": "paragraph",
+      "text": "This booklet is a thematic adaptation of the book Cuisiner pour guérir (Cooking to Heal; Family Clinic, 2026). The book is the central reference: it brings together one hundred hypotoxic recipes adapted to the Moroccan market and offers detailed nutritional protocols to support patients with chronic diseases. This more concise guide focuses on Hashimoto's and the essential points to know to transform food into a true therapeutic tool."
+    },
+    {
+      "type": "paragraph",
+      "text": "Our approach rests on a simple conviction: food can become everyday medicine. Every meal is an opportunity to reduce inflammation, support the thyroid, and restore energy. Food choices do not replace medical monitoring, but complement therapeutic support by giving patients an active role in their health."
+    },
+    {
+      "type": "paragraph",
+      "text": "Family Clinic wanted to create a practical, clear tool rooted in local culture. The advice offered considers Moroccan habits, ingredients available in markets, and culinary preferences. Rather than imposing restrictive diets, this booklet invites readers to rediscover simple, protective flavors through colorful salads, slow-cooked dishes, easily digested bread substitutes, and gentle desserts."
+    },
+    {
+      "type": "paragraph",
+      "text": "Patients with Hashimoto's will find guidance here to:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Understand the disease and its mechanisms.",
+        "Identify foods that worsen inflammation and those that protect the thyroid.",
+        "Discover suitable cooking strategies: gentle cooking, protective seasonings, and alternatives to white bread.",
+        "Organize meals and manage fatigue every day."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "This booklet is not intended to detail every recipe. Complete recipe sheets, local variations, and nutritional details are presented in Cuisiner pour guérir (2026). Here, we provide clear directions: what to avoid, what to favor, and how to act every day to live better with Hashimoto's."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Hashimoto's explained simply"
+    },
+    {
+      "type": "paragraph",
+      "text": "The thyroid is a small butterfly-shaped gland at the base of the neck. Despite its modest size, it plays a vital role: it regulates metabolism, energy, body temperature, and heart rate. Its main hormones, T3 and T4, are like conductors coordinating all vital functions. When the thyroid is weakened, the body's entire balance can be disrupted."
+    },
+    {
+      "type": "paragraph",
+      "text": "In Hashimoto's thyroiditis, the immune system becomes dysregulated and attacks thyroid cells. This attack on the body's own tissues causes chronic inflammation and progressive destruction of the gland. The most frequent result is hypothyroidism: a deficiency of thyroid hormones that slows metabolism and causes a cascade of symptoms."
+    },
+    {
+      "type": "paragraph",
+      "text": "The most common signs include persistent fatigue, weight gain despite an unchanged diet, increased sensitivity to cold, digestive problems such as constipation or bloating, hair loss, dry skin, and difficulty concentrating or remembering. These symptoms vary from person to person, but all weigh heavily on quality of life and limit patients' independence."
+    },
+    {
+      "type": "paragraph",
+      "text": "Diagnosis relies on blood tests (TSH, T3, T4, anti-TPO antibodies) and thyroid ultrasound, which can show inflammation or nodules. Medical monitoring is essential: the endocrinologist and primary care doctor support the patient in monitoring the condition and adjusting treatment."
+    },
+    {
+      "type": "paragraph",
+      "text": "Understanding Hashimoto's is an essential step toward regaining control. Knowing that the disease is chronic but can be stabilized helps overcome a sense of inevitability. Patients can play an active role in their health by adopting suitable everyday practices, particularly in their diet."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The foundations of a protective diet"
+    },
+    {
+      "type": "paragraph",
+      "text": "In Hashimoto's thyroiditis, diet plays a decisive role. It does not cure the disease, but it can reduce inflammation, support the thyroid, and improve quality of life. The aim is to transform every meal into an everyday act of care."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Foods to avoid"
+    },
+    {
+      "type": "paragraph",
+      "text": "Some foods worsen inflammation or disrupt thyroid function. It is advisable to limit:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Industrially manufactured products rich in refined sugars and trans fats.",
+        "Gluten (white bread, regular pasta, pastries), which can intensify the autoimmune reaction.",
+        "Dairy products, often poorly tolerated and a source of digestive inflammation.",
+        "Excess soy, which interferes with thyroid hormone absorption.",
+        "Ultraprocessed foods, rich in additives and preservatives."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Foods to favor"
+    },
+    {
+      "type": "paragraph",
+      "text": "Conversely, some foods support the thyroid and strengthen immunity:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "A variety of vegetables, raw or gently cooked, rich in fiber and antioxidants.",
+        "Lean proteins (fish, legumes, farm eggs) to maintain energy.",
+        "Healthy fats: olive oil, flaxseeds, walnuts, and almonds, rich in omega-3s.",
+        "Foods rich in selenium (Brazil nuts, fish) and zinc (lentils, chickpeas).",
+        "Fresh herbs and protective spices: turmeric, ginger, coriander, and mint."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Key nutrients"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Vitamin D: essential for immunity, often deficient.",
+        "Omega-3s: powerful anti-inflammatory nutrients.",
+        "Selenium and zinc: essential for proper thyroid function.",
+        "Iron and iodine: balance according to medical recommendations, because excess amounts can be harmful."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Suitable cooking strategies"
+    },
+    {
+      "type": "paragraph",
+      "text": "Adopting a protective diet is not enough: the way food is cooked and meals are organized plays an equally important role. Suitable cooking strategies help preserve nutrients, reduce inflammation, and make a hypotoxic diet enjoyable and sustainable."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Gentle cooking and preservation of nutrients"
+    },
+    {
+      "type": "paragraph",
+      "text": "High-temperature cooking destroys vitamins and promotes pro-inflammatory compounds. It is preferable to favor:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Steaming, which preserves minerals and antioxidants.",
+        "Simmering over low heat, which preserves flavors and limits fat oxidation.",
+        "Raw or lightly blanched vegetables, rich in fiber and digestive enzymes."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Protective seasonings"
+    },
+    {
+      "type": "paragraph",
+      "text": "Herbs and spices are more than flavorings: they are true therapeutic allies."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Turmeric and ginger: powerful anti-inflammatory agents.",
+        "Coriander and mint: facilitate digestion and add freshness.",
+        "Extra virgin olive oil: rich in protective polyphenols.",
+        "Lemon: stimulates iron absorption and adds an alkalizing touch."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Alternatives to white bread"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bread is culturally central, but gluten can worsen Hashimoto's. It is therefore useful to offer easily digested, local alternatives:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Bread made from chickpea or buckwheat flour.",
+        "Sweet potato or lentil flatbreads.",
+        "Seed crackers (flax, sesame, sunflower). These substitutes preserve the pleasure of bread while reducing inflammation."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Meal organization"
+    },
+    {
+      "type": "paragraph",
+      "text": "Fatigue associated with Hashimoto's can make meal preparation difficult. Some practical strategies:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Prepare basic components ahead of time (salads, cooked legumes, sauces).",
+        "Use jars or airtight containers to keep dishes for several days.",
+        "Plan a week of simple menus to avoid everyday stress."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Practical guidance for Hashimoto's"
+    },
+    {
+      "type": "paragraph",
+      "text": "Living with Hashimoto's requires suitable organization. The disease is chronic, but it can be stabilized through a combination of medical monitoring, a protective diet, and simple everyday practices. This practical guidance aims to help patients regain energy and independence."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Everyday organization"
+    },
+    {
+      "type": "paragraph",
+      "text": "Fatigue is one of the most frequent symptoms. To manage it:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Plan meals in advance to avoid last-minute stress.",
+        "Prepare basic cooking components (cooked legumes, salads, sauces) at the start of the week.",
+        "Break tasks into stages and schedule regular breaks.",
+        "Encourage a regular sleep pattern with fixed times."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Managing fatigue"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Favor light evening meals to improve sleep.",
+        "Avoid stimulants (excess coffee, sugary drinks) that disrupt energy levels.",
+        "Include gentle physical activity (walking, yoga, stretching) to stimulate metabolism without exhausting the body.",
+        "Learn to listen to your limits and respect signals that you need rest."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Medical monitoring"
+    },
+    {
+      "type": "paragraph",
+      "text": "Medical monitoring is essential to adjust treatment and track the course of the disease:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Regular tests of TSH, T3, T4, and anti-TPO antibodies.",
+        "Thyroid ultrasound if nodules occur or concerning changes develop.",
+        "Consultation with the endocrinologist to adjust dosage.",
+        "Open communication with the primary care doctor to coordinate care."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Psychological and social support"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hashimoto's can affect morale and self-confidence. It is useful to:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Share your experience with loved ones or support groups.",
+        "Practice relaxing activities (meditation, reading, creative hobbies).",
+        "Remember that the disease is not an inevitable fate: it can be stabilized."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Educational appendices"
+    },
+    {
+      "type": "paragraph",
+      "text": "This booklet's appendices offer concrete, easy-to-consult guidance. They do not replace medical monitoring but provide patients with Hashimoto's with practical sheets to organize their everyday lives."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "List of protective foods"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "A variety of vegetables: carrots, zucchini, broccoli, beets, arugula, and kale.",
+        "Plant proteins: lentils, chickpeas, beans.",
+        "Fish rich in omega-3s: sardines, mackerel, salmon.",
+        "Fresh fruit: apples, pomegranates, citrus fruit.",
+        "Oils and seeds: olive oil, flaxseeds, walnuts, almonds."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Foods to limit"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Gluten: white bread, regular pasta, pastries.",
+        "Dairy products: milk, cheeses, yogurts.",
+        "Excess soy and processed industrial products.",
+        "Refined sugar and sugary drinks."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Key nutrient chart"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Vitamin D: immunity, energy.",
+        "Omega-3s: anti-inflammatory nutrients.",
+        "Selenium: thyroid protection.",
+        "Zinc: hormonal regulation.",
+        "Iron and iodine: balance according to medical advice."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Essential medical reminders"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Regular tests: TSH, T3, T4, anti-TPO antibodies.",
+        "Thyroid ultrasound if nodules occur.",
+        "Endocrinology consultation to adjust treatment.",
+        "The importance of coordinated monitoring with the primary care doctor."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Practical advice"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Prepare a shopping list focused on protective foods.",
+        "Organize meals ahead of time to limit fatigue.",
+        "Keep a tracking notebook: symptoms, diet, medical results.",
+        "Rely on simple, local recipes to maintain consistency."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Conclusion"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hashimoto's thyroiditis is a chronic disease that can feel like a heavy burden. Yet it is not a sentence. With attentive medical monitoring and a protective diet, it is possible to regain energy, balance, and confidence. This booklet aims to show that every everyday action and every food choice can become a step toward stabilization and well-being."
+    },
+    {
+      "type": "paragraph",
+      "text": "The path is not always easy: fatigue, hormonal fluctuations, and social constraints can be discouraging. But it is essential to remember that consistency and patience are your best allies. Benefits appear gradually: easier digestion, more stable energy, and improved morale."
+    },
+    {
+      "type": "paragraph",
+      "text": "Above all, remember that Hashimoto's can be stabilized; diet is a powerful lever; every meal is an opportunity for care; and you play an active role in your health."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Family Clinic approach rests on a strong conviction: cooking to heal. Rather than restrictive diets, the aim is to give patients back the power to transform their plates into a therapeutic tool. Hypotoxic recipes, local alternatives, and suitable cooking strategies are all ways of combining health and pleasure."
+    },
+    {
+      "type": "paragraph",
+      "text": "This guide is not intended to replace medical monitoring or detail every recipe. It is an entry point, a clear direction, a practical companion. To explore further, discover hypotoxic recipes adapted to the Moroccan market, and access complete nutritional protocols, Cuisiner pour guérir remains the central reference."
+    }
+  ],
+  "translation": {
+    "from": "fr",
+    "method": "AI-assisted translation",
+    "reviewStatus": "not-clinically-reviewed"
+  }
+}

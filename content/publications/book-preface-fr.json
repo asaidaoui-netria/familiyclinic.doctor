@@ -1,0 +1,19 @@
+{
+  "title": "Préface",
+  "sourcePdfPage": 4,
+  "printedPage": 5,
+  "blocks": [
+    {"type":"heading","level":2,"text":"Cuisiner pour guérir, sans renoncer à se régaler."},
+    {"type":"paragraph","text":"Il existe des livres de cuisine qui enseignent des gestes. D’autres qui racontent des histoires. Celui-ci fait les deux."},
+    {"type":"paragraph","text":"Il est né d’un constat simple et d’un espoir immense : notre alimentation peut devenir un soin quotidien, un acte de prévention, un geste d’amour pour soi et pour les autres."},
+    {"type":"paragraph","text":"Chez Family Clinic, nous accompagnons depuis des années des patients atteints de pathologies chroniques : sclérose en plaques, polyarthrite, diabète, troubles digestifs, maladies inflammatoires… Tous partagent une réalité commune : leur quotidien est bouleversé, leur rapport à l’alimentation fragilisé, leur plaisir de manger souvent amputé. Et pourtant, le plaisir est une condition essentielle du soin durable."},
+    {"type":"paragraph","text":"Ce livre est né de cette tension féconde entre rigueur thérapeutique et joie de vivre. Il propose une cuisine hypotoxique — sans gluten, sans produits laitiers, sans sucres raffinés — mais pleine de goût, de textures, de couleurs et de culture. Une cuisine qui soigne sans exclure. Qui adapte sans appauvrir. Qui transforme sans trahir."},
+    {"type":"paragraph","text":"Nous avons choisi de reformuler 100 recettes du quotidien, puis d’en proposer 100 autres pour se régaler, en tenant compte des réalités du marché marocain, des préférences gustatives locales, et des contraintes économiques et pratiques des familles. Chaque recette a été pensée pour être simple, reproductible, digeste et émotionnellement satisfaisante. Pas d’ingrédients introuvables. Pas de protocoles rigides. Juste des aliments vrais, des gestes bienveillants, et une intention claire : restaurer la santé par le plaisir de cuisiner."},
+    {"type":"paragraph","text":"« Ce n’est pas une extravagance, c’est une évolution. Une cuisine enracinée, joyeuse, thérapeutique. »"},
+    {"type":"paragraph","text":"Ce livre s’adresse à tous : patients, proches, thérapeutes, parents, enfants, curieux, gourmands. Il est structuré en blocs thématiques, avec un format fixe pour chaque recette : Objectif santé, Portions, Ingrédients, Préparation, Temps, Bienfaits, Astuce, Variante, Nutrition. Ce cadre permet à chacun de comprendre non seulement comment cuisiner, mais pourquoi cela soigne."},
+    {"type":"paragraph","text":"Nous espérons que ces pages vous accompagneront dans votre transition alimentaire, mais aussi dans votre chemin de vie. Qu’elles vous donneront envie de cuisiner autrement, de transmettre autrement, de manger autrement."},
+    {"type":"paragraph","text":"Et surtout, de vous réconcilier avec votre assiette, votre corps et votre culture."},
+    {"type":"paragraph","text":"Bienvenue dans une cuisine qui soigne."},
+    {"type":"paragraph","text":"Bienvenue chez vous."}
+  ]
+}

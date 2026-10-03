@@ -1,0 +1,848 @@
+{
+  "language": "en",
+  "status": "published",
+  "title": "The Family Clinic protocol",
+  "summary": "The Family Clinic protocol combines the author's nutritional principles with traditional practices and lifestyle measures. This booklet sets out meal proportions, exclusions, food choices, suggested medical applications, reported results and cautions about oxalates, fasting, supplements and ongoing medical follow-up.",
+  "sourceHash": "469bd46c5e6d3e327c847205802c099540b2ee2e9fd623c40b3fd3bc73c6a9b2",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Foreword"
+    },
+    {
+      "type": "paragraph",
+      "text": "Health is a fragile balance, built daily through our food choices and lifestyle habits. This booklet arose from the desire to bring together two complementary worlds: on one hand, modern science, which demonstrates through rigorous studies the protective role of certain foods against chronic diseases and cancers; on the other, traditional wisdom offering a holistic, radical and culturally rooted approach, integrating nutrition, lifestyle and ancestral practices."
+    },
+    {
+      "type": "paragraph",
+      "text": "This fusion gives rise to the Family Clinic Protocol, a comprehensive nutritional method combining scientific rigor with natural practices to offer a prevention and support tool adapted to contemporary realities."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Family Clinic protocol aims to offer a clear, practical path to:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Prevent chronic diseases through hypotoxic, protective nutrition.",
+        "Support patients with cancers, benign prostatic enlargement, autoimmune diseases or digestive disorders.",
+        "Reduce inflammation and restore the biological terrain through a balanced plate (50% vegetables, light proteins from fish and eggs, and protective plant fats).",
+        "Educate families and health professionals in an integrated approach that goes beyond simple dietetics to become a true way of life."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "It is intended for:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Patients seeking to understand and act on their health through food.",
+        "Families wishing to adopt protective habits and pass on a culture of prevention.",
+        "Health professionals wanting an educational, practical tool to support patients in a holistic nutritional approach."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The Family Clinic Protocol is thus a bridge between science and tradition, between the rigor of medical data and the wisdom of ancestral practices. It offers protective nutrition, a comprehensive lifestyle and a simple philosophy: eat to heal, live to prevent."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Foundations of the Family Clinic protocol"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Family Clinic Protocol arose from the meeting of two worlds:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "modern science, which demonstrates through rigorous studies the protective role of certain foods against cancers and chronic diseases;",
+        "traditional wisdom, championed by Dr. Faid, offering a holistic and radical approach integrating nutrition, lifestyle and cultural practices."
+      ],
+      "levels": [
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "This fusion gives rise to a complete, coherent nutritional method, adapted to the Moroccan and Mediterranean context and designed to meet contemporary public health challenges."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Returning to natural food"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Family Clinic protocol rests on a simple idea: eat whole, fresh, unprocessed products while excluding industrial foods and sources of inflammatory carbohydrates."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Strict exclusion: refined grains, legumes, potatoes, white sugar, white flours, hydrogenated oils, sodas, charcuterie and fast food.",
+        "Dietary foundation: fish (sardines, mackerel, anchovies), farm eggs, varied vegetables (50% of the plate), raw plant oils (olive, flaxseed, argan), seeds and nuts.",
+        "Plant diversity: cruciferous vegetables (broccoli, cabbage, turnip), green vegetables (spinach, zucchini, green beans), colorful vegetables (carrots, beets, peppers), eaten in rotation to avoid excess oxalates."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "The protein pillars"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Oily fish: sardines, mackerel, anchovies → rich in vitamin B12, omega-3 and vitamin D, with cardiovascular and anticancer protection.",
+        "Eggs: a complete source of proteins, choline and fat-soluble vitamins."
+      ],
+      "levels": [
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "These foods advantageously replace red meat and legumes, reducing the carbohydrate load and inflammation."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Protective vegetables"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "50% of the plate should consist of varied vegetables.",
+        "Cruciferous vegetables = rich in sulforaphane, powerful anticancer agents.",
+        "Green vegetables = magnesium, gentle fibers and folates.",
+        "Colorful vegetables = carotenoids and antioxidants."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Precaution: spinach and beetroot should be consumed in moderation to limit oxalates, combined with calcium sources (sardines with bones, sesame seeds)."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Protective fats"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Raw plant oils: olive, flaxseed, argan → rich in protective fatty acids.",
+        "Seeds and nuts: almonds, walnuts, pumpkin seeds → zinc, magnesium and antioxidants."
+      ],
+      "levels": [
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "These fats are essential for reducing inflammation and supporting hormonal and immune health."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "A comprehensive lifestyle"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Family Clinic protocol is not limited to food. It includes:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Intermittent fasting: digestive rest promoting autophagy and cell regeneration.",
+        "Daily physical activity: walking, gentle exercise and breathing.",
+        "Traditional practices: hijama, herbal medicine and meditation.",
+        "Cultural and spiritual dimension: returning to nature, valuing ancestral knowledge and disciplined living."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Therapeutic objectives"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Reduce systemic inflammation."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Improve immunity and resistance to infections.",
+        "Prevent chronic diseases (cancers, benign prostatic hyperplasia, cardiovascular diseases, autoimmunity).",
+        "Support medical treatments by improving tolerance and quality of life."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The Family Clinic Protocol is not a simple diet, but a philosophy of life. It combines the scientific rigor of nutritional data with a radical holistic approach to offer a clear, protective and adapted method. It invites us to eat whole products, avoid carbohydrate excess, strengthen the body through a comprehensive lifestyle and rediscover health through simplicity and nature."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Practical implementation of the Family Clinic protocol"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Family Clinic protocol rests on clear daily organization that transforms food into a true therapeutic tool. It is not just about choosing foods, but building a disciplined way of life in which every meal becomes an act of prevention and care."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Organizing meals"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Vegetables = 50% of the plate"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Cruciferous vegetables (broccoli, cabbage, turnip, kale) → powerful anticancer agents.",
+        "Green vegetables (zucchini, green beans, spinach in moderation).",
+        "Colorful vegetables (carrots, beetroot with caution, peppers).",
+        "Strict exclusion of potatoes and starch-rich tubers.",
+        "Diversity is compulsory to avoid excess oxalates and ensure a complete intake of fiber and micronutrients."
+      ],
+      "levels": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Light animal proteins (≈30%)"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Oily fish (sardines, mackerel, anchovies) → vitamin B12, omega-3, vitamin D.",
+        "Farm eggs → complete proteins, choline and fat-soluble vitamins."
+      ],
+      "levels": [
+        1,
+        1
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "These sources advantageously replace red meat and legumes, reducing the carbohydrate load and inflammation."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Protective fats (≈20%)"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Raw plant oils (olive, flaxseed, argan).",
+        "Seeds and nuts (almonds, walnuts, pumpkin seeds, sesame)."
+      ],
+      "levels": [
+        1,
+        1
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Role: reduce inflammation and support hormonal and immune health."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Intermittent fasting"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Space meals apart to give the body periods of digestive rest.",
+        "Promote autophagy, the natural process of cellular cleansing."
+      ],
+      "levels": [
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Example: two main meals a day, without snacking."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Physical activity"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Daily walking (30 to 45 minutes).",
+        "Gentle exercises (breathing, stretching, yoga)."
+      ],
+      "levels": [
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Aim: stimulate circulation, reduce inflammation and strengthen vitality."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Traditional practices and supplements"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Hijama (bloodletting) = detoxification and energy regulation.",
+        "Herbal medicine = thyme, rosemary and fennel infusions for digestion and immunity.",
+        "Natural supplements = propolis, spirulina, omega-3 and probiotics.",
+        "Oxalate precautions = spinach and beetroot consumed in moderation, gentle cooking and combination with calcium (sardines with bones, sesame seeds)."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "In summary: Practical implementation of the Family Clinic protocol is simple but demanding:"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Vegetables = 50% of the plate,"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Fish and eggs as protein pillars,"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Protective plant fats,"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Strict exclusion of grains, legumes and potatoes,"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "A comprehensive lifestyle (fasting, physical activity, traditional practices)."
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "This discipline turns food into a therapeutic tool and daily life into a health practice."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Medical indications for the Family Clinic protocol"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Family Clinic protocol is designed as a tool for prevention and support in chronic diseases. It does not replace medical treatments, but provides a favorable terrain for reducing inflammation, improving tolerance of care and strengthening vitality."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Cancers"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Aim: reduce oxidative stress and inflammation, and improve treatment tolerance.",
+        "Key foods: cruciferous vegetables (broccoli, cabbage, turnip), lycopene-rich tomatoes, oily fish (sardines, mackerel, anchovies) and omega-3-rich plant oils.",
+        "Expected effect: better recovery, reduced fatigue and support for the immune system."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Benign prostatic enlargement (BPH)"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Aim: soothe prostatic inflammation and slow progression.",
+        "Key foods: tomatoes (lycopene), pumpkin seeds (zinc) and omega-3-rich fish.",
+        "Expected effect: fewer urinary problems and greater everyday comfort."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Autoimmune diseases"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Aim: modulate the immune response and reduce inflammatory flare-ups.",
+        "Diet: strict exclusion of grains, legumes and potatoes to limit pro-inflammatory carbohydrates; a plate rich in varied vegetables (50%), fish and eggs.",
+        "Expected effect: reduced pain and improved mobility and quality of life."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Metabolic diseases (diabetes, obesity, hypertension)"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Aim: stabilize blood sugar and reduce metabolic load.",
+        "Diet: removal of refined sugars and complex carbohydrates, with an intake of light proteins and protective fats.",
+        "Expected effect: gradual weight loss and better regulation of blood pressure and blood sugar."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Digestive disorders"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Aim: restore the microbiota and reduce intestinal irritation.",
+        "Diet: varied vegetables (gentle fibers), exclusion of fermentable legumes and gentle cooking (steaming, covered cooking).",
+        "Expected effect: less bloating, better nutrient assimilation and digestive comfort."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The specific Family Clinic approach"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Fish and eggs as protein pillars = a supply of B12, omega-3 and choline."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Vegetables = 50% of the plate = crucial diversity for antioxidants and fiber."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Strict exclusion of grains, legumes and potatoes = reduced inflammation and carbohydrate load.",
+        "Oxalate precautions = spinach and beetroot consumed in moderation, combined with calcium sources."
+      ],
+      "levels": [
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "A comprehensive lifestyle = intermittent fasting, gentle physical activity and traditional practices (hijama, herbal medicine)."
+    },
+    {
+      "type": "paragraph",
+      "text": "In summary: The Family Clinic protocol is indicated as a therapeutic complement in chronic diseases. It acts on the inflammatory and metabolic terrain while strengthening immunity and vitality. It must be followed cautiously, with support from a health professional, and adapted to each patient's specific needs."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Effectiveness and evidence for the Family Clinic protocol"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The Family Clinic protocol rests on a dual legitimacy:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "clinical observations and medical practice, which show its effects on vitality, digestion and inflammation;"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "scientific evidence from modern research on anticancer and anti-inflammatory nutrition."
+    },
+    {
+      "type": "paragraph",
+      "text": "This combination makes it possible to offer a credible approach, both rooted in experience and validated by data."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Clinical observations"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Increased vitality: patients report more stable energy, less chronic fatigue and restorative sleep."
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Improved digestion: reduced bloating, better nutrient assimilation and intestinal comfort."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Reduced inflammation: less joint pain, improved mobility and fewer autoimmune symptoms."
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Treatment tolerance: better recovery after chemotherapy or radiotherapy and fewer digestive complications."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Scientific arguments"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Hypotoxic plant-based nutrition: cruciferous vegetables, tomatoes, red fruits and omega-3-rich oils are associated with reduced risk of cancers and cardiovascular diseases.",
+        "Omega-3 from oily fish: powerful anti-inflammatory agents, protecting the nervous and immune systems.",
+        "Excluding refined carbohydrates: improves blood sugar regulation and reduces obesity and diabetes.",
+        "Intermittent fasting: promotes autophagy, a cellular cleansing process recognized for its role in preventing aging and chronic diseases."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Limits and precautions"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Possible deficiencies if the protocol is followed without medical supervision:",
+        "Vitamin B12 → compensated for by fish and eggs, or supplements.",
+        "Calcium → supplied by sardines with bones, sesame seeds and green vegetables.",
+        "Iron and folates → provided by green vegetables and beetroot (with caution regarding oxalates).",
+        "Strict discipline: excluding grains and legumes can be culturally difficult and requires support and education.",
+        "Individual adaptation: each patient must adjust according to clinical condition, treatments and digestive tolerance."
+      ],
+      "levels": [
+        0,
+        2,
+        2,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Overview: The Family Clinic protocol is effective because it acts on fundamental health mechanisms: reducing inflammation, improving immunity, stabilizing metabolism and supporting the biological terrain in chronic diseases. It is credible because it combines scientific evidence with clinical observations, and adapted because it considers the cultural context and local realities."
+    },
+    {
+      "type": "paragraph",
+      "text": "In summary: The Family Clinic protocol is not an abstract theory, but a tested method. Its results are visible in everyday practice and confirmed by modern research. It offers a serious, realistic path for preventing and supporting chronic diseases, provided it is followed rigorously and with supervision."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Feedback from experience"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Family Clinic protocol, combining scientific rigor and traditional wisdom, has been applied in various clinical and family settings. Feedback helps assess its real impact on the daily lives of patients and their loved ones."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Positive testimonials"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Renewed energy: several patients report restored vitality, less chronic fatigue and better everyday endurance.",
+        "Digestive comfort: excluding grains, legumes and potatoes has reduced bloating, reflux and intestinal irritation.",
+        "Improved quality of life: more restorative sleep, less joint pain, better concentration and mental clarity.",
+        "Support in chronic diseases: some patients with cancers or autoimmune diseases report better treatment tolerance and reduced inflammatory symptoms."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Difficulties encountered"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Strict discipline: excluding carbohydrates and industrial foods requires daily rigor, sometimes difficult to maintain.",
+        "Cultural adaptation: in a setting where bread, grains and legumes are deeply rooted in habits, the protocol can seem restrictive.",
+        "Carbohydrate exclusion: some patients feel nostalgia for foods or struggle to find suitable alternatives, requiring creativity and support.",
+        "Potential deficiencies: without supervision, there is a risk of vitamin B12, calcium or folate deficiency, hence the importance of fish, eggs and supplements."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "In summary: The Family Clinic protocol is transformative but demanding. It brings tangible benefits in vitality, digestive comfort and chronic disease prevention, but requires strict discipline and medical or nutritional support. It is not a simple diet, but a lifestyle change requiring consistency, family support and cultural adaptation."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Comparison with other approaches"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Family Clinic protocol does not oppose other dietary models, but engages in dialogue with them. It adopts some principles, rejects others and offers a synthesis adapted to the Moroccan and Mediterranean context."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Mediterranean diet"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Strengths: rich in olive oil, fish, fresh vegetables, fruit and nuts.",
+        "Limits: includes animal products (white meat, cheeses), grains and legumes, which can be inflammatory in some sensitive patients.",
+        "Comparison: the Family Clinic protocol retains olive oil and fish, but removes grains, legumes and dairy products to reduce inflammation."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Vegan diet"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Strengths: total exclusion of animal products and abundance of vegetables, fruit and seeds.",
+        "Limits: risk of vitamin B12, iron and calcium deficiency; lack of a structured therapeutic dimension.",
+        "Comparison: the Family Clinic protocol is not strictly vegan: it includes fish and eggs to guarantee essential intakes (B12, omega-3, choline), while retaining a hypotoxic orientation."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Seignalet method"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Strengths: removal of gluten and dairy products, a scientific approach validated by many clinical cases.",
+        "Limits: retains legumes and some gluten-free grains, which can remain problematic for inflammation and carbohydrate load.",
+        "Comparison: the Family Clinic protocol goes further by also excluding legumes and potatoes for a stricter anti-inflammatory terrain."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Family Clinic protocol"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Strengths: a fusion of modern science and traditional holism.",
+        "Dietary foundation: 50% varied vegetables, fish and eggs as protein pillars, protective plant oils and seeds.",
+        "Exclusions: grains, legumes, potatoes and industrial products.",
+        "Cultural adaptation: designed for the Moroccan and Mediterranean context, with accessible local foods (sardines, mackerel, seasonal vegetables, olive oil).",
+        "Therapeutic dimension: prevention and support for cancers, BPH, autoimmune diseases and digestive disorders."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "In summary: The Family Clinic protocol stands out for its radical anti-inflammatory approach and cultural coherence. It adopts the strengths of the Mediterranean diet (olive oil, fish), the vegan diet (plant abundance) and Seignalet's method (removal of gluten/milk), but goes beyond them by offering a unique synthesis: scientific, holistic and adapted to everyday Moroccan life."
+    }
+  ],
+  "translation": {
+    "from": "fr",
+    "method": "AI-assisted translation",
+    "reviewStatus": "not-clinically-reviewed"
+  }
+}

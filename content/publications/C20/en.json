@@ -1,0 +1,667 @@
+{
+  "language": "en",
+  "status": "published",
+  "title": "Understanding blood disorders",
+  "summary": "This booklet describes red blood cell, white blood cell and platelet disorders, their symptoms, diagnosis and course. It presents the author's waste-accumulation model and Family Clinic's nutritional, lifestyle and medical support approach, emphasizing prevention and individualized follow-up.",
+  "sourceHash": "1fc6b23f2c5cbf3bd9c4056d50d7d1ac0a0a893933be3f2c1388cabd4eac5649",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Foreword"
+    },
+    {
+      "type": "paragraph",
+      "text": "Blood disorders encompass all diseases of the blood: abnormalities of red blood cells, white blood cells or platelets, as well as disorders of the bone marrow where these cells are produced. They form a vast, complex field, ranging from mild anemias to severe leukemias. Yet behind this apparent diversity, a common mechanism emerges: metabolic and cellular disorganization, often linked to a deep accumulation of waste in the internal environment."
+    },
+    {
+      "type": "paragraph",
+      "text": "Blood is the mirror of health: it transports oxygen, nutrients, hormones and waste. When its balance is disrupted, the whole body suffers. A blood disorder is therefore never isolated; it reflects an overall disturbance, an inability of the body to regulate the production and elimination of its cells."
+    },
+    {
+      "type": "paragraph",
+      "text": "At Family Clinic, we consider blood an essential indicator of the biological terrain. Our patients with blood disorders often show longstanding metabolic waste accumulation: an overly rich diet, micronutrient deficiencies, oxidative stress and exposure to toxins or medicines. These factors damage the bone marrow, slow cell renewal and disrupt blood quality."
+    },
+    {
+      "type": "paragraph",
+      "text": "This booklet aims to explain in simple words the mechanisms of blood disorders, their connection with waste-accumulation pathology and practical means of prevention and support. It is not intended to replace medical treatments, but to complement care through an adapted nutritional and lifestyle approach."
+    },
+    {
+      "type": "paragraph",
+      "text": "We want to show that understanding the terrain is the key: behind every blood abnormality lies an imbalance that can be corrected."
+    },
+    {
+      "type": "paragraph",
+      "text": "At Family Clinic, we believe knowledge is the first step toward healing. This booklet will guide you step by step in understanding your blood, your metabolism and ways to restore lasting balance."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The major families of blood disorders and their mechanisms"
+    },
+    {
+      "type": "paragraph",
+      "text": "Blood disorders form a group of diseases with multiple origins: genetic, nutritional, immune, toxic or metabolic. They fall into three main categories according to the cell type affected: red blood cells, white blood cells and platelets. Each family has distinct mechanisms, but all reflect altered bone marrow function, the true factory producing blood cells."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Red blood cell disorders"
+    },
+    {
+      "type": "paragraph",
+      "text": "Red blood cells (erythrocytes) transport oxygen through hemoglobin. Their impairment leads to anemia, meaning a decrease in the blood's ability to oxygenate tissues. The causes vary:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Deficiency in iron, vitamin B12 or folic acid, often linked to an unbalanced diet or intestinal malabsorption.",
+        "Premature destruction of red blood cells (hemolytic anemia) by antibodies or toxins.",
+        "Failure of production (aplastic anemia) when the bone marrow is exhausted or clogged with waste.",
+        "Genetic abnormalities (thalassemia, sickle cell disease) that change hemoglobin structure."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "In every case, anemia reflects a profound imbalance: the body can no longer produce or maintain functional cells. Metabolic waste accumulation, through a buildup of toxins or free radicals, damages the bone marrow and disrupts hemoglobin synthesis."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "White blood cell disorders"
+    },
+    {
+      "type": "paragraph",
+      "text": "White blood cells (leukocytes) are the guardians of the immune system. Their dysregulation leads to leukopenia (a decrease) or leukocytosis (an excessive increase)."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "In leukopenia, the body becomes vulnerable to infections: the bone marrow no longer produces enough defensive cells.",
+        "In leukocytosis, particularly leukemia, production becomes uncontrolled: immature cells invade the blood and marrow, preventing normal cells from forming."
+      ],
+      "levels": [
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Leukemia is the extreme example of waste-accumulation pathology: the bone marrow, saturated with metabolic waste and inflammatory signals, loses its ability to regulate itself. Cells multiply without control, as if the body could no longer “clean” its own production system."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Platelet disorders"
+    },
+    {
+      "type": "paragraph",
+      "text": "Platelets (thrombocytes) ensure blood clotting. Their deficiency causes spontaneous bleeding, while their excess promotes clot formation."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Thrombocytopenia can result from immune destruction, nutritional deficiency or bone marrow damage.",
+        "Thrombocytosis often reflects a chronic inflammatory reaction or a bone marrow disease."
+      ],
+      "levels": [
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Platelet balance depends directly on blood quality and liver function. A liver clogged with waste, a diet too rich in oxidized fats or chronic dehydration disrupts blood viscosity and clotting regulation."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "The role of bone marrow and waste accumulation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bone marrow is the vital center of blood production. It makes billions of cells every day. But this intense activity requires a clean, well-oxygenated environment. When the internal environment is saturated with waste, oxidized fats or acidic metabolites, the marrow suffocates. Cells become fragile, malformed or immature."
+    },
+    {
+      "type": "paragraph",
+      "text": "This phenomenon of waste accumulation in the marrow is at the heart of blood disorders: it explains chronic fatigue, reduced immunity and the slow deterioration of blood. The Family Clinic approach aims to clear waste from the terrain through hypotoxic nutrition, plentiful hydration and a reduction in toxin sources."
+    },
+    {
+      "type": "paragraph",
+      "text": "At Family Clinic, we explain these mechanisms to our patients using clear diagrams and educational booklets. Understanding that blood reflects metabolism allows an effective prevention strategy: purifying the terrain to restore cell production."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The major families of blood disorders and their mechanisms"
+    },
+    {
+      "type": "paragraph",
+      "text": "Blood disorders encompass a wide range of diseases distinguished by the type of cell affected: red blood cells, white blood cells or platelets. Each family illustrates a profound imbalance of metabolism and bone marrow, the true “biological factory” where blood cells are born."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Red blood cell disorders"
+    },
+    {
+      "type": "paragraph",
+      "text": "Red blood cells transport oxygen through hemoglobin. Their impairment leads to anemia, manifested by fatigue, breathlessness, pallor and reduced exercise capacity."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Nutritional deficiencies: a lack of iron, vitamin B12 or folic acid, often linked to a poor diet or digestive malabsorption.",
+        "Premature destruction: hemolytic anemias, in which red blood cells are destroyed by antibodies or toxins.",
+        "Failure of production: aplastic anemia, when the bone marrow is exhausted or clogged with waste.",
+        "Genetic abnormalities: sickle cell disease and thalassemia, which change hemoglobin structure and impair red blood cell function."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "These forms show that anemia is not simply a “decrease in blood,” but a reflection of an unbalanced terrain. Metabolic waste accumulation, through a buildup of toxins or free radicals, damages the marrow and disrupts hemoglobin synthesis."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "White blood cell disorders"
+    },
+    {
+      "type": "paragraph",
+      "text": "White blood cells defend the body against infections. Their dysregulation leads to two opposite situations:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Leukopenia: a decrease in the number of leukocytes, making the body vulnerable to infections.",
+        "Leukocytosis: an excessive, sometimes uncontrolled increase. In leukemia, immature cells invade the blood and marrow, preventing normal cells from forming."
+      ],
+      "levels": [
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Leukemia is the extreme example of waste-accumulation pathology: the bone marrow, saturated with inflammatory signals and metabolic waste, loses its ability to regulate itself. Cells multiply without control, as if the production system were “overwhelmed.”"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Platelet disorders"
+    },
+    {
+      "type": "paragraph",
+      "text": "Platelets ensure clotting. Their imbalance causes:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Thrombocytopenia: platelet deficiency, responsible for spontaneous bleeding (bruises, nosebleeds, hemorrhages).",
+        "Thrombocytosis: excess platelets, promoting clot formation and the risk of thrombosis."
+      ],
+      "levels": [
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Platelet balance depends directly on blood quality and liver function. A liver clogged with waste, a diet too rich in oxidized fats or chronic dehydration disrupts blood viscosity and clotting regulation."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "The central role of bone marrow"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bone marrow makes billions of blood cells every day. But this intense activity requires a clean, well-oxygenated environment. When the internal environment is saturated with waste, oxidized fats or acidic metabolites, the marrow suffocates. Cells become fragile, malformed or immature."
+    },
+    {
+      "type": "paragraph",
+      "text": "This phenomenon of waste accumulation in the marrow is at the heart of blood disorders: it explains chronic fatigue, reduced immunity and the slow deterioration of blood."
+    },
+    {
+      "type": "paragraph",
+      "text": "At Family Clinic, we explain these mechanisms to our patients using clear diagrams and educational booklets. Understanding that blood reflects metabolism allows an effective prevention strategy: purifying the terrain to restore cell production."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Symptoms, diagnosis and course of blood disorders"
+    },
+    {
+      "type": "paragraph",
+      "text": "Blood disorders manifest through a wide variety of symptoms, depending on the blood cell type affected. Yet behind this diversity, a common thread appears: chronic fatigue, reduced immune defenses and clotting disorders. These signs reflect unbalanced blood, unable to perform its vital functions properly."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Symptoms of red blood cell disorders"
+    },
+    {
+      "type": "paragraph",
+      "text": "When red blood cells are deficient, the body suffers from a lack of oxygen. Symptoms include:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Intense, persistent fatigue, even after rest.",
+        "Breathlessness on exertion, sometimes at rest.",
+        "Pallor of the skin and mucous membranes.",
+        "Palpitations or tachycardia, as the heart attempts to compensate for the oxygen deficit.",
+        "Cognitive disturbances: difficulty concentrating, headaches and dizziness."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "In severe forms, anemia can cause inability to work, reduced quality of life and increased vulnerability to infections."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Symptoms of white blood cell disorders"
+    },
+    {
+      "type": "paragraph",
+      "text": "As leukocytes are the guardians of immunity, their dysregulation manifests through:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Repeated or unusual infections, sometimes severe.",
+        "Persistent fever without an apparent cause.",
+        "Weight loss and night sweats in leukemia.",
+        "Swollen lymph nodes or bone pain related to marrow infiltration."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "In leukemia, symptoms are often insidious: fatigue, infections and bleeding. Diagnosis sometimes occurs late, when the marrow is already saturated with immature cells."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Symptoms of platelet disorders"
+    },
+    {
+      "type": "paragraph",
+      "text": "Platelets regulate clotting. Their deficiency or excess causes:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Spontaneous bleeding: nose, gums, heavy menstrual periods and bruising.",
+        "Severe hemorrhages following trauma or surgery.",
+        "Thromboses (clots) in forms with excess platelets, potentially causing venous thrombosis, pulmonary embolism or stroke."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "These manifestations are sometimes unpredictable and life-threatening."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Diagnosing blood disorders"
+    },
+    {
+      "type": "paragraph",
+      "text": "Diagnosis rests on several additional examinations:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Complete blood count (CBC): measurement of red blood cells, white blood cells and platelets.",
+        "Blood smear: microscopic examination of cells to detect abnormalities of shape or immaturity.",
+        "Bone marrow aspirate examination: study of the bone marrow, the site of cell production.",
+        "Molecular biology and genetics: testing for mutations or chromosomal abnormalities.",
+        "Imaging examinations: ultrasound, CT or MRI to evaluate the spleen, liver and lymph nodes."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "These tools determine the type of blood disorder, its stage and prognosis."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "The course of blood disorders"
+    },
+    {
+      "type": "paragraph",
+      "text": "The course depends on the type of disease:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Deficiency anemias improve with nutritional correction.",
+        "Hemolytic or aplastic anemias require prolonged follow-up and sometimes intensive treatments.",
+        "Leukemias progress rapidly if not managed; they require a combined approach (medicines, nutrition, lifestyle).",
+        "Thrombocytopenia and thrombocytosis can cause severe hemorrhagic or thromboembolic complications."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "In every case, the course is strongly influenced by the metabolic terrain: a body clogged with waste promotes chronic disease and complications. Conversely, an adapted lifestyle can slow progression and improve quality of life."
+    },
+    {
+      "type": "paragraph",
+      "text": "At Family Clinic, we offer comprehensive care: nutritional assessment, medical follow-up, psychological support and practical workshops. We know blood disorders are more than numbers on a test: they affect everyday life, energy and self-confidence. Our mission is to help every patient understand their diagnosis and act on their terrain to regain balance and vitality."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Nutritional approach and the hypotoxic diet in blood disorders"
+    },
+    {
+      "type": "paragraph",
+      "text": "Blood disorders, whether affecting red blood cells, white blood cells or platelets, always reflect a profound imbalance in the biological terrain. Bone marrow, the true “blood factory,” can function properly only if the internal environment is clean, well oxygenated and rich in essential nutrients. Yet in most cases, modern food contributes to waste accumulation: excess oxidized fats, refined sugars, abundant animal proteins, alcohol and chemical additives. These factors overload metabolism and disrupt cell production."
+    },
+    {
+      "type": "paragraph",
+      "text": "The hypotoxic diet is a nutritional approach aimed at reducing this overload. It rests on three principles:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Eliminate foods that promote waste accumulation: red meats, charcuterie, industrial products, fast-release sugars, trans fats and alcohol.",
+        "Favor protective foods: fresh vegetables, seasonal fruit, suitable whole grains, well-tolerated legumes, quality plant oils (olive, rapeseed, flaxseed), seeds and nuts.",
+        "Support elimination: plentiful hydration, fiber intake and antioxidant micronutrients (vitamin C, zinc, selenium, polyphenols)."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Impact on red blood cells"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hypotoxic nutrition corrects deficiencies in iron, vitamin B12 and folates while reducing hemoglobin oxidation. Green vegetables, legumes, dried fruit and nuts, and seeds provide the nutrients required for red blood cell synthesis. Hydration and reduced oxidized fats prevent premature cell destruction."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Impact on white blood cells"
+    },
+    {
+      "type": "paragraph",
+      "text": "Leukocytes depend on an environment rich in antioxidants and essential fatty acids. By favoring plant oils and foods rich in vitamin C and polyphenols, the hypotoxic diet strengthens immunity and reduces chronic inflammation. Patients observe fewer recurrent infections and better overall resistance."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Impact on platelets"
+    },
+    {
+      "type": "paragraph",
+      "text": "Clotting regulation is directly influenced by food. Excess saturated fats and sugars promote blood viscosity and platelet abnormalities. Conversely, hypotoxic nutrition improves blood fluidity, reduces thrombosis risk and limits bleeding. Plant omega-3 (flaxseeds, walnuts, rapeseed oils) plays a major protective role."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Observed results"
+    },
+    {
+      "type": "paragraph",
+      "text": "Patients adopting the hypotoxic diet report:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Rapid improvement in vitality and exercise tolerance.",
+        "Fewer infections and better recovery.",
+        "Stabilization of blood parameters (hemoglobin, leukocytes, platelets).",
+        "Fewer complications related to chronic blood disorders."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "These results confirm that food is a powerful means in managing blood disorders. It does not replace medical treatments, but complements them by strengthening the terrain and reducing waste accumulation."
+    },
+    {
+      "type": "paragraph",
+      "text": "At Family Clinic, we have integrated the hypotoxic diet into our protocols. We support our patients in this dietary transition with:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Recipes adapted to local tastes and cultural constraints.",
+        "Practical booklets explaining foods to favor and avoid.",
+        "Medical and nutritional follow-up to adjust the diet to individual needs.",
+        "Educational workshops to learn to cook differently without sacrificing pleasure."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Overview and prevention of blood disorders"
+    },
+    {
+      "type": "paragraph",
+      "text": "Blood disorders, whether mild or severe, always reflect an imbalance in the biological terrain. They are not merely numerical abnormalities on a blood test: they reflect an overall state of waste accumulation, a saturation of the internal environment disrupting bone marrow and cell production. Prevention therefore becomes a central focus because it acts directly on the underlying causes of disease."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Comprehensive understanding"
+    },
+    {
+      "type": "paragraph",
+      "text": "Blood is the mirror of the body. Any alteration in its cells reflects a nutritional, metabolic or immune imbalance. Understanding that blood disorders result from a terrain clogged with waste allows us to move beyond a purely symptomatic view and adopt an integrative approach."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Nutritional prevention"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Adopt a hypotoxic diet: limit foods promoting waste accumulation (red meats, charcuterie, refined sugars, oxidized fats, alcohol).",
+        "Favor protective foods: fresh vegetables, seasonal fruit, suitable whole grains, quality plant oils, seeds and nuts.",
+        "Correct deficiencies: iron, vitamin B12, folates, zinc, selenium and vitamin C.",
+        "Plentiful hydration: drink regularly to support metabolic waste elimination."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Metabolic prevention"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Reduce exposure to toxins: tobacco, alcohol, pollutants and unnecessary medicines.",
+        "Support the liver and kidneys: organs essential to blood purification.",
+        "Favor gentle physical activity: walking, yoga and stretching, which improve circulation and oxygenation."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Medical prevention"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Regular monitoring: complete blood count, smears and nutritional assessments.",
+        "Early diagnosis: detect abnormalities before they become severe.",
+        "Personalized follow-up: adapt treatments and nutrition to the type of blood disorder."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Practical overview"
+    },
+    {
+      "type": "paragraph",
+      "text": "Preventing blood disorders rests on a comprehensive approach:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Purify the terrain through hypotoxic nutrition.",
+        "Correct micronutrient deficiencies.",
+        "Reduce exposure to toxins.",
+        "Maintain regular medical monitoring."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "This strategy not only limits the progression of blood disorders, but also improves quality of life, energy and immune resistance."
+    },
+    {
+      "type": "paragraph",
+      "text": "At Family Clinic, we believe prevention is the key. Our booklets, consultations and practical workshops are designed to support every patient on this path. Blood health reflects overall health: acting on the terrain means acting on the future."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Conclusion"
+    },
+    {
+      "type": "paragraph",
+      "text": "Blood disorders are more than simple biological abnormalities: they reflect a profound imbalance of the terrain, an inability of the body to maintain blood quality and regulation. They reveal waste accumulation in the internal environment, resulting from an unsuitable diet, toxic lifestyle or persistent deficiencies."
+    },
+    {
+      "type": "paragraph",
+      "text": "This booklet has shown that blood disorders affect three major cell families: red blood cells, white blood cells and platelets. Each causes specific symptoms—fatigue, infections, bleeding—but all share a common mechanism: disruption of the bone marrow, the true factory of blood production."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prevention is the key:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Hypotoxic nutrition to reduce waste accumulation and correct deficiencies.",
+        "Plentiful hydration to support waste elimination.",
+        "An adapted lifestyle to strengthen immunity and preserve clotting.",
+        "Regular medical follow-up to detect abnormalities early and avoid complications."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The Family Clinic approach rests on a strong conviction: understanding the terrain is already beginning to heal it. Our booklets, consultations and practical workshops are designed to support every patient on this path. Blood health reflects overall health: purifying the terrain means restoring the balance of the whole body."
+    },
+    {
+      "type": "paragraph",
+      "text": "At Family Clinic, we believe knowledge is the first step toward healing."
+    }
+  ],
+  "translation": {
+    "from": "fr",
+    "method": "AI-assisted translation",
+    "reviewStatus": "not-clinically-reviewed"
+  }
+}

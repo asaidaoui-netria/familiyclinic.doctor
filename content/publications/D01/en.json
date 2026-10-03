@@ -1,0 +1,788 @@
+{
+  "language": "en",
+  "status": "published",
+  "title": "The elimination theory",
+  "summary": "An introduction to the theory of elimination, describing unwanted molecular accumulation, the proposed cleansing roles of white blood cells and excretory organs, and the author’s nutritional approach to chronic inflammatory disease, tissue renewal and lasting health.",
+  "sourceHash": "88d5a359ccd115fbdf98dcdea41eba888f06c05c4fe37d28d8aafed50654c94c",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Foreword"
+    },
+    {
+      "type": "paragraph",
+      "text": "Human health depends not only on what we absorb, but also on what we are able to eliminate. The intestine, long seen as a simple organ of absorption, is actually a powerful excretory organ, responsible for ejecting unwanted substances from the body. Similarly, white blood cells, traditionally described as soldiers of immunity, perform a broader function: that of “waste collectors”, able to capture, transport and expel waste that would otherwise accumulate in our tissues and cells."
+    },
+    {
+      "type": "paragraph",
+      "text": "The theory of elimination rests on a simple observation: the body is constantly exposed to foreign molecules from modern food, intestinal bacterial flora or the environment. Some can be broken down by enzymes and excreted in bile or urine. But others, more resistant (Maillard molecules, polyamines, nitrosamines, aromatic hydrocarbons, lipopolysaccharides), resist all degradation and accumulate in the extracellular environment, cells and even defence organs. This silent overload is the origin of many chronic diseases, known as “accumulation diseases”."
+    },
+    {
+      "type": "paragraph",
+      "text": "Yet the body does not remain passive. It has physiological or pathological elimination mechanisms that mobilise leukocytes and various excretory organs: liver, colon, small intestine, stomach, skin, bronchi, ear, nose and throat mucosa, and conjunctiva. These pathways allow waste to be expelled through bile, stools, sweat, mucus, nasal or tear secretions, and even skin shedding. Elimination may be discreet and painless or, conversely, conspicuous and inflammatory, giving rise to diseases such as psoriasis, asthma, colitis or certain chronic forms of rhinitis."
+    },
+    {
+      "type": "paragraph",
+      "text": "The key to this theory is the balance between intake and output:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "When toxic intake exceeds elimination capacity, disease develops.",
+        "When output exceeds intake, improvement is possible.",
+        "Partial elimination leads to a reduction in symptoms.",
+        "Complete elimination may lead to lasting remission."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Thus, modern nutrition, rich in cooked foods, dairy products and domesticated cereals, overloads the body with unwanted molecules. Conversely, an ancestral, raw, hypotoxic diet suited to human enzymes reduces harmful intake and favours elimination. Clinical results show that this dietary change can prevent or cure diseases considered incurable, allowing the excretory organs to clear accumulated waste and leukocytes to perform their cleansing role fully."
+    },
+    {
+      "type": "paragraph",
+      "text": "The theory of elimination therefore opens a new perspective: health depends not only on the quality of nutrients absorbed, but also on the body's ability to rid itself of waste. It explains why certain chronic diseases, long mysterious, find a favourable outcome through profound nutritional reform."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The existence of elimination"
+    },
+    {
+      "type": "paragraph",
+      "text": "The theory of elimination begins with a fundamental observation: the human body is exposed not only to nutrient intake, but also to continuous flows of unwanted molecules. This waste, originating in food or bacteria, crosses the intestinal barrier and accumulates in tissues. Some triggers overt immune reactions (immunogenic peptides, superantigen proteins), responsible for autoimmune diseases. Other waste, unable to provoke a direct immune response, silently piles up in the extracellular environment or inside cells, giving rise to so-called “accumulation diseases”."
+    },
+    {
+      "type": "paragraph",
+      "text": "An appropriate diet can considerably reduce this harmful intake:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Restoring physiological bacterial flora, limiting the production of dangerous molecules.",
+        "Eating foods compatible with intestinal enzymes and mucins, reducing indigestible macromolecules.",
+        "Repairing enterocytes and restoring the intestinal mucosa's barrier integrity, preventing the passage of toxic substances."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "But simply reducing intake is not enough to explain the spectacular improvements observed in some patients. We must acknowledge that the body can mobilise and expel waste already accumulated. This elimination is progressive: it may be slow or rapid, but continues as long as the balance between intake and output is favourable."
+    },
+    {
+      "type": "paragraph",
+      "text": "The dynamics of health can thus be expressed as follows:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Intake > output: overload sooner or later leads to disease.",
+        "Output > intake: the body clears accumulated waste and returns to normal.",
+        "Partial elimination: improvement in symptoms.",
+        "Total elimination: complete remission."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "This process is modulated by genetic factors: polymorphism of intestinal mucins and diversity of enterocyte and cellular enzymes, which determine individual resistance to excess and elimination capacity."
+    },
+    {
+      "type": "paragraph",
+      "text": "In sum, the existence of elimination is the key to understanding why nutritional change can not only prevent but also cure diseases considered incurable. When freed from excessive toxic intake, the body regains its natural ability to expel waste and restore vital balance."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The molecules to be eliminated"
+    },
+    {
+      "type": "paragraph",
+      "text": "The human body is constantly exposed to a multitude of foreign molecules. Some are relatively easy to neutralise: they can be oxidised, transformed by enzymes (paraoxonases, cytochromes P450), then eliminated through bile or urine. But a large proportion of substances from modern food or bacterial flora escapes these mechanisms. They resist human enzymes and accumulate in tissues, where they become true biological pollutants."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Molecules resistant to enzymes"
+    },
+    {
+      "type": "paragraph",
+      "text": "Among the most problematic are:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Maillard molecules: products of cooking above 110°C, extremely stable, able to resist even powerful chemical agents such as bleach.",
+        "Dietary or bacterial polyamines: they promote cell proliferation and are avidly consumed by tumour cells.",
+        "Nitrosamines: formed during the preservation or cooking of certain foods, recognised as carcinogenic.",
+        "Polycyclic aromatic hydrocarbons and heterocyclic amines (carbolines): produced by cooking meat at high temperatures (grilling, frying).",
+        "Lipopolysaccharides: fragments of bacterial cell walls, powerful inducers of inflammation.",
+        "Isomers of carbohydrates, lipids and proteins: molecular forms altered by cooking or industrial processes, unrecognised by our enzymes."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Unable to be broken down, these substances accumulate in the extracellular environment, cells and sometimes even defence organs. Their prolonged presence disrupts biological balances, promotes chronic inflammation and opens the way to accumulation diseases or cancerous processes."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Consequences of accumulation"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Metabolic disruption: blockage or dysregulation of enzymatic cascades.",
+        "Chronic inflammation: permanent activation of the immune system, exhaustion of defences.",
+        "Genetic alteration: certain molecules can bind directly to DNA or generate free radicals, causing mutations and chromosomal instability.",
+        "Weakened immunity: overload of leukocytes, leaving them unable to perform their surveillance role effectively."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "The need for elimination"
+    },
+    {
+      "type": "paragraph",
+      "text": "Faced with these indestructible molecules, the body must find alternative pathways:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Leukocytes (macrophages, neutrophils) capture waste through phagocytosis.",
+        "Excretory organs (liver, colon, skin, bronchi, mucosa) serve as exit points.",
+        "Secretions (bile, sweat, mucus, saliva, tears) become carriers for expulsion."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Elimination is therefore not an incidental phenomenon: it is vital to avoid toxic substance accumulation and preserve cellular balance."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The means used for elimination"
+    },
+    {
+      "type": "paragraph",
+      "text": "Eliminating unwanted waste relies not only on the traditional excretory organs (liver, kidneys, intestines). It also mobilises a central player: leukocytes. These cells, known for their defensive role against infections, have a broader and often underestimated function: they are true “biological waste collectors”, capable of capturing, transporting and expelling molecules that cannot be broken down."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Leukocytes as cleansing agents"
+    },
+    {
+      "type": "paragraph",
+      "text": "Macrophages and neutrophils are the main players in this process."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Phagocytosis and endocytosis: they capture macromolecules resistant to human enzymes.",
+        "Transport towards excretory organs: once loaded, they cross skin or mucosal tissues and expel their contents outside the body.",
+        "Joint elimination: leukocytes themselves, saturated with waste, are discharged with their cargo."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "This function explains the massive presence of leukocytes in certain inflammatory diseases (psoriasis, asthma, Crohn's disease), even without infection. Their role is not to fight a germ but to evacuate accumulated waste."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "The role of cytokines"
+    },
+    {
+      "type": "paragraph",
+      "text": "Macrophages and neutrophils do not work alone. They release cytokines, signalling molecules that:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Recruit other leukocytes (T lymphocytes, B lymphocytes, plasma cells, eosinophils, mast cells).",
+        "Stimulate the proliferation of epithelial cells, whose shedding carries away toxin-laden leukocytes.",
+        "Increase secretion by glandular cells, allowing the excreted fluid to transport waste."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Elimination thus becomes a collective process in which leukocytes initiate a cascade of reactions involving the whole immune system and epithelial tissues."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Excretory organs as exit points"
+    },
+    {
+      "type": "paragraph",
+      "text": "Leukocytes use different excretory organs to expel waste:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Skin: sweat, sebum, shedding.",
+        "Digestive mucosa: bile, stools, intestinal secretions.",
+        "Respiratory tract: bronchial mucus, sputum.",
+        "Ear, nose and throat mucosa and conjunctiva: saliva, nasal fluid, tears."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Each elimination pathway is suited to a type of molecule or a particular overload."
+    },
+    {
+      "type": "paragraph",
+      "text": "Leukocytes therefore appear as essential carriers for detoxification. Their role extends far beyond fighting infections: they capture and expel unwanted molecules in cooperation with epithelial tissues and secretory glands. This mechanism explains why certain chronic inflammatory diseases should be understood not as infections but as elimination disorders."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Elimination pathways"
+    },
+    {
+      "type": "paragraph",
+      "text": "The human body has several excretory organs, true exit points for unwanted waste. These elimination pathways are not all equivalent: some have a major and permanent role, while others act occasionally or in cases of overload. Together, they form a complex cleansing system complementary to enzymatic mechanisms."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "The kidney"
+    },
+    {
+      "type": "paragraph",
+      "text": "Contrary to popular belief, the kidney has only a minor role in eliminating macromolecules. In a healthy person, urine essentially contains urea and ions. Only in disease (damage to the glomerular filter) do proteins or larger molecules pass into urine."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "The liver"
+    },
+    {
+      "type": "paragraph",
+      "text": "The liver is a central player. It transforms certain xenobiotics and excretes them with bile. The “biliary flushes” observed in certain nutritional practices show that evacuation through bile can delay or reduce chronic disorders, including psychiatric ones."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "The colon"
+    },
+    {
+      "type": "paragraph",
+      "text": "The colon is a major elimination organ. Unlike the small intestine, primarily an absorption organ, the colon allows harmful molecules to pass from the blood into the digestive lumen. The cleansing reactions described by Burger (bloating, flatulence, painless liquid stools) demonstrate this role. These phenomena should be considered signs of elimination rather than pathological."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "The small intestine"
+    },
+    {
+      "type": "paragraph",
+      "text": "The small intestine absorbs at the villi but secretes at the crypts. It therefore also participates in expelling certain substances, complementing its absorption role."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "The stomach"
+    },
+    {
+      "type": "paragraph",
+      "text": "By secreting gastric juice, the stomach contributes to elimination. Waste can be discharged into the digestive lumen, sometimes accompanied by burning or reflux."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "The skin"
+    },
+    {
+      "type": "paragraph",
+      "text": "The skin is a versatile excretory organ:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Sweat glands: elimination through sweat.",
+        "Sebaceous glands: sebum as a carrier of waste.",
+        "Shedding: loss of epithelial cells laden with toxins.",
+        "Skin appendages: hair and nails carry away unwanted substances."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "The bronchi"
+    },
+    {
+      "type": "paragraph",
+      "text": "The bronchial mucosa secretes large quantities of mucus. Coughing and expectoration allow waste to be expelled, sometimes accompanied by saturated leukocytes."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Ear, nose and throat mucosa and the conjunctiva"
+    },
+    {
+      "type": "paragraph",
+      "text": "These mucous membranes are frequently renewed through mitosis, with dead cells shedding and carrying away harmful substances. They also have specific secretions:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Nasal fluid.",
+        "Saliva.",
+        "Tears."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "These fluids participate in waste evacuation and explain certain symptoms (rhinitis, discharge, conjunctivitis)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Elimination pathways are thus multiple and complementary. They express a biological strategy: expel waste by every available means. The liver and colon are the main players, but the skin, bronchi and mucous membranes also play a significant role. This diversity explains the variety of symptoms seen during cleansing phases: diarrhoea, sweating, nasal secretions, coughing, dandruff, etc. Far from being abnormalities, these manifestations are often signs that the body is clearing accumulated waste."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Physiological and pathological elimination"
+    },
+    {
+      "type": "paragraph",
+      "text": "Elimination is a vital process, but it can take two forms: physiological (discreet, beneficial) or pathological (conspicuous, inflammatory). This distinction helps explain why certain bodily reactions, often seen as diseases, are actually signs of cleansing."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Physiological elimination"
+    },
+    {
+      "type": "paragraph",
+      "text": "When there is little waste to expel and the leukocytes involved are few, elimination remains moderate. It may pass unnoticed or produce transient symptoms:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Joint or muscle pain, headaches.",
+        "Nervousness, temporary fatigue linked to the process's energy expenditure.",
+        "Warmth in the face or ears.",
+        "Episodes of discomfort resembling spasmophilia.",
+        "Temporary loss of appetite (liver blockage by toxins)."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Waste leaving the body also produces specific manifestations depending on the excretory organ:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Liver/colon: excessively liquid, dark green or light brown stools.",
+        "Skin: dandruff, hyperkeratosis (corns, calluses).",
+        "Respiratory tract: nasal discharge, cough with sputum.",
+        "Stomach: gastric hypersecretion, burning, reflux."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "These phenomena are rarely observed in people eating a modern diet, because their cleansing processes are blocked. However, they frequently appear when adopting an ancestral or hypotoxic diet, and can last from a few weeks to several years."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Pathological elimination"
+    },
+    {
+      "type": "paragraph",
+      "text": "When waste is abundant and many leukocytes are mobilised, elimination becomes intensive. The cytokines released cause chronic inflammation of the excretory organ concerned:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Massive recruitment of white blood cells.",
+        "Production of inflammatory mediators.",
+        "Epithelial proliferation and shedding.",
+        "Glandular hypersecretion."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Although effective in expelling waste, this process causes various diseases according to the excretory organ used:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Digestive tract: colitis, Crohn's disease, gastritis, duodenitis.",
+        "Skin: acne, eczema, psoriasis.",
+        "Bronchi: chronic bronchitis, asthma.",
+        "Ear, nose and throat mucosa and conjunctiva: sinusitis, rhinitis, ear infections, tonsillitis, hay fever, mouth ulcers, Behçet's disease."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The biliary pathway is the least dangerous: biliary flushes do not cause serious disease but can cause mineral loss. By contrast, passage through the other excretory organs can generate disabling chronic conditions."
+    },
+    {
+      "type": "paragraph",
+      "text": "In summary: physiological elimination is a sign of waste clearance that should be respected and encouraged. Pathological elimination reflects massive overload and manifests as chronic inflammatory diseases. In both cases, the mechanism is the same: the body seeks to expel unwanted molecules. The difference lies in intensity and consequences."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Prevention and treatment of elimination disorders"
+    },
+    {
+      "type": "paragraph",
+      "text": "Elimination disorders arise when the waste to be expelled is too abundant and mobilised leukocytes cause chronic inflammation of excretory organs. This inflammation, although effective at ejecting unwanted molecules, leads to disabling diseases (colitis, psoriasis, asthma, rhinitis, etc.). Prevention and treatment therefore rest on a simple strategy: reduce harmful intake and facilitate natural elimination."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "The primary cause: modern food"
+    },
+    {
+      "type": "paragraph",
+      "text": "Domesticated cereals (wheat, maize, rye), dairy products and foods cooked at high temperatures introduce indigestible or toxic molecules. These substances cross the intestinal barrier and saturate tissues. Modern food also blocks cleansing processes, preventing the excretory organs from functioning properly."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "The hypotoxic diet as a solution"
+    },
+    {
+      "type": "paragraph",
+      "text": "The proposed nutritional reform rests on an ancestral diet:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Eliminate modern cereals (except rice and buckwheat).",
+        "Eliminate animal dairy products.",
+        "Favour raw foods (fruit, vegetables, seeds, virgin oils).",
+        "Use organic oils from the first cold pressing.",
+        "Complementary intake: magnesium, trace elements, vitamins, lactic cultures."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "This diet greatly reduces the intake of harmful molecules and restores elimination capacity."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "The waste-clearance process"
+    },
+    {
+      "type": "paragraph",
+      "text": "With this dietary change:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Toxic intake decreases.",
+        "Leukocytes resume their waste-collection role.",
+        "Excretory organs gradually clear accumulated waste.",
+        "The flow of cleansing cells dwindles as waste is expelled."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The result is a progressive, sometimes spectacular, improvement in diseases considered incurable."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Prevention and healing"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Prevention: limiting harmful intake avoids overload and chronic inflammation.",
+        "Treatment: encouraging elimination reduces symptoms and may achieve remission.",
+        "Duration: waste clearance can last several months or years, depending on the quantity of accumulated waste and individual elimination capacity."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Elimination disorders are therefore not inevitable. They can be prevented and sometimes cured by profound nutritional reform. By reducing intake and encouraging elimination, the hypotoxic diet allows the body to regain its balance. Leukocytes and excretory organs resume their natural role, and chronic diseases linked to accumulation may lessen or disappear."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Elimination and human survival"
+    },
+    {
+      "type": "paragraph",
+      "text": "Elimination concerns more than unwanted molecules: it forms part of a broader process of permanent tissue and cell renewal. The human body continually regenerates: over an entire lifetime, all the molecules in our bodies are replaced several times. This phenomenon, long considered mysterious, can be interpreted as a biological waste-expulsion strategy."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Cellular renewal as an elimination mechanism"
+    },
+    {
+      "type": "paragraph",
+      "text": "When harmful molecules are too difficult to extract, the body adopts a radical solution:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Destroy overloaded cells.",
+        "Replace them with new cells free of overload."
+      ],
+      "levels": [
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Elimination is thus not limited to micro-expulsion of molecules, but includes macro-elimination: the destruction and replacement of tissues."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "The role of leukocytes and related cells"
+    },
+    {
+      "type": "paragraph",
+      "text": "Leukocytes, already identified as “waste collectors”, also participate in this renewal. They facilitate destruction of cells saturated with waste and contribute to their replacement. This role is essential in maintaining a functional body despite the inevitable accumulation of unwanted molecules."
+    },
+    {
+      "type": "paragraph",
+      "text": "Bone remodelling provides an instructive example:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Osteoclasts continually destroy part of the bone.",
+        "Osteoblasts simultaneously rebuild an equivalent amount.",
+        "This balance ensures bone strength and allows overloaded areas to be eliminated."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Osteoclasts derive from the monocyte/macrophage lineage, confirming their role as specialised waste collectors."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Micro-elimination and macro-elimination"
+    },
+    {
+      "type": "paragraph",
+      "text": "Two levels of elimination can be distinguished:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Micro-elimination: expulsion of molecules that cannot be broken down from cells and tissues, through leukocytes and excretory organs.",
+        "Macro-elimination: destruction of saturated cells or tissues, followed by replacement with new elements."
+      ],
+      "levels": [
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Micro-elimination explains chronic accumulation diseases and their symptoms. Macro-elimination ensures long-term survival by renewing the entire body."
+    },
+    {
+      "type": "paragraph",
+      "text": "Human survival rests on a dual strategy:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Expel molecular waste through leukocytes and excretory organs.",
+        "Renew tissues to rid the body of overloaded cells."
+      ],
+      "levels": [
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "This view illuminates elimination's fundamental role in health and longevity. It shows that our body is not static: it continually rebuilds itself to remain functional and protect itself from accumulation's harmful effects."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "General conclusion"
+    },
+    {
+      "type": "paragraph",
+      "text": "The theory of elimination brings a new, coherent view of human health. It shows that the body is not only a system of absorption and defence, but also a cleansing system able to mobilise, transport and expel unwanted waste. This waste, from modern food or intestinal bacterial flora, accumulates in tissues and disrupts biological balances. Its presence explains many chronic diseases long considered mysterious or incurable."
+    },
+    {
+      "type": "paragraph",
+      "text": "Leukocytes, traditionally seen as soldiers against infections, appear here as biological waste collectors. They capture molecules that cannot be broken down, carry them towards excretory organs and expel them along with their own load. The elimination organs — liver, colon, small intestine, stomach, skin, bronchi, ear, nose and throat mucosa and conjunctiva — become exit points for these substances. Far from being abnormalities, hypersecretion, shedding or inflammation are often signs of cleansing."
+    },
+    {
+      "type": "paragraph",
+      "text": "Two levels of elimination can be distinguished:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Micro-elimination, which directly expels unwanted molecules from cells and tissues.",
+        "Macro-elimination, which destroys overloaded cells or tissues to replace them with new elements."
+      ],
+      "levels": [
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "This dual strategy ensures human survival: it maintains a functional body despite constant exposure to harmful molecules."
+    },
+    {
+      "type": "paragraph",
+      "text": "Elimination disorders arise when overload is too great: chronic inflammation of the excretory organs causes various diseases (colitis, psoriasis, asthma, rhinitis, etc.). But these disorders are not inevitable. Nutritional reform — a hypotoxic diet, elimination of modern cereals and dairy products, raw and organic food — reduces toxic intake and favours elimination. Gradual clearance of accumulated waste from excretory organs permits lasting improvement, sometimes complete remission."
+    },
+    {
+      "type": "paragraph",
+      "text": "The theory of elimination thus sheds new light on the understanding of chronic diseases. It demonstrates that health depends as much on our ability to eliminate as on our ability to absorb. It validates the clinical successes obtained through ancestral nutrition and opens a promising therapeutic path: restoring vital balance by clearing accumulated waste from the body."
+    }
+  ],
+  "translation": {
+    "from": "fr",
+    "method": "AI-assisted translation",
+    "reviewStatus": "not-clinically-reviewed"
+  }
+}

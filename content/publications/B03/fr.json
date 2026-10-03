@@ -1,0 +1,512 @@
+{
+  "language": "fr",
+  "status": "published",
+  "title": "Hashimoto : Transformer l’assiette en soin quotidien",
+  "summary": "Fatigue, prise de poids, troubles digestifs… Hashimoto bouleverse la vie quotidienne.  Ce guide des Editions Family Clinic offre des solutions concrètes et accessibles : comprendre la maladie, adopter une alimentation protectrice et transformer l’assiette en soin quotidien. Avec des conseils pratiques, des stratégies culinaires adaptées à la culture marocaine et des repères clairs, ce fascicule est une porte d’entrée vers une approche innovante de la santé. Avec Family Clinic, l’alimentation devient votre alliée santé.",
+  "sourceHash": "e2e7cf099a1bda8b247f9cf4db61a1015ae4bbebdf3b1db40b78a2222e6f10a4",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Avant-propos"
+    },
+    {
+      "type": "paragraph",
+      "text": "La thyroïdite de Hashimoto est une maladie auto‑immune qui fragilise la thyroïde et entraîne souvent une hypothyroïdie. Elle touche de nombreuses personnes, parfois sans qu’elles en aient conscience, car ses symptômes s’installent progressivement : fatigue persistante, prise de poids inexpliquée, troubles digestifs, chute de cheveux, baisse de concentration. Ces signes, bien que fréquents, sont souvent banalisés, retardant le diagnostic et la mise en place d’un accompagnement adapté."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ce fascicule est une déclinaison thématique du livre Cuisiner pour guérir (Family Clinic, 2026). Le livre constitue la référence centrale : il rassemble cent recettes hypotoxiques adaptées au marché marocain et propose des protocoles nutritionnels détaillés pour accompagner les patients atteints de maladies chroniques. Le présent guide, plus concis, se concentre sur Hashimoto et sur les repères essentiels à connaître pour transformer l’alimentation en un véritable outil thérapeutique."
+    },
+    {
+      "type": "paragraph",
+      "text": "Notre démarche repose sur une conviction simple : l’alimentation peut devenir une médecine quotidienne. Chaque repas est une occasion de réduire l’inflammation, de soutenir la thyroïde et de restaurer l’énergie. Les choix alimentaires ne remplacent pas le suivi médical, mais ils complètent l’accompagnement thérapeutique en donnant au patient un rôle actif dans sa santé."
+    },
+    {
+      "type": "paragraph",
+      "text": "Family Clinic a voulu créer un outil pratique, clair et enraciné dans la culture locale. Les conseils proposés tiennent compte des habitudes marocaines, des ingrédients disponibles sur les marchés et des préférences culinaires. Loin d’imposer des régimes contraignants, ce fascicule invite à redécouvrir des saveurs simples et protectrices, à travers des salades colorées, des plats mijotés, des substituts du pain digestifs et des desserts doux."
+    },
+    {
+      "type": "paragraph",
+      "text": "Le patient Hashimoto trouvera ici des repères pour :"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Comprendre la maladie et ses mécanismes.",
+        "Identifier les aliments qui aggravent l’inflammation et ceux qui protègent la thyroïde.",
+        "Découvrir des stratégies culinaires adaptées : cuisson douce, assaisonnements protecteurs, alternatives au pain blanc.",
+        "Organiser ses repas et gérer la fatigue au quotidien."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Ce fascicule n’a pas vocation à détailler toutes les recettes. Les fiches complètes, les variantes locales et les détails nutritionnels sont présentés dans le livre Cuisiner pour guérir (2026). Ici, nous donnons des orientations claires : ce qu’il faut éviter, ce qu’il faut privilégier, et comment agir chaque jour pour mieux vivre avec Hashimoto."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Hashimoto expliqué simplement"
+    },
+    {
+      "type": "paragraph",
+      "text": "La thyroïde est une petite glande en forme de papillon, située à la base du cou. Malgré sa taille modeste, elle joue un rôle vital : elle régule le métabolisme, l’énergie, la température corporelle et le rythme cardiaque. Ses hormones principales, la T3 et la T4, sont comme des chefs d’orchestre qui coordonnent l’ensemble des fonctions vitales. Lorsque la thyroïde est fragilisée, c’est tout l’équilibre du corps qui peut être perturbé."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dans la thyroïdite de Hashimoto, le système immunitaire se dérègle et attaque les cellules thyroïdiennes. Cette auto‑agression entraîne une inflammation chronique et une destruction progressive de la glande. Le résultat le plus fréquent est l’hypothyroïdie : un déficit en hormones thyroïdiennes qui ralentit le métabolisme et provoque une cascade de symptômes."
+    },
+    {
+      "type": "paragraph",
+      "text": "Les signes les plus courants incluent une fatigue persistante, une prise de poids malgré une alimentation stable, une sensibilité accrue au froid, des troubles digestifs comme la constipation ou les ballonnements, une chute de cheveux, une peau sèche et des difficultés de concentration ou de mémoire. Ces symptômes varient d’une personne à l’autre, mais ils ont en commun de peser lourdement sur la qualité de vie et de limiter l’autonomie du patient."
+    },
+    {
+      "type": "paragraph",
+      "text": "Le diagnostic repose sur des analyses sanguines (TSH, T3, T4, anticorps anti‑TPO) et une échographie thyroïdienne qui permet de visualiser l’inflammation ou la présence de nodules. Le suivi médical est indispensable : endocrinologue et médecin traitant accompagnent le patient dans la surveillance et l’adaptation du traitement."
+    },
+    {
+      "type": "paragraph",
+      "text": "Comprendre Hashimoto est une étape essentielle pour reprendre le contrôle. Savoir que la maladie est chronique mais stabilisable permet de sortir du sentiment de fatalité. Le patient peut devenir acteur de sa santé en adoptant des gestes quotidiens adaptés, notamment dans l’alimentation."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Les bases de l’alimentation protectrice"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dans la thyroïdite de Hashimoto, l’alimentation joue un rôle déterminant. Elle ne guérit pas la maladie, mais elle peut réduire l’inflammation, soutenir la thyroïde et améliorer la qualité de vie. L’objectif est de transformer chaque repas en un geste de soin quotidien."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Aliments à éviter"
+    },
+    {
+      "type": "paragraph",
+      "text": "Certains aliments aggravent l’inflammation ou perturbent le fonctionnement de la thyroïde. Il est conseillé de limiter :"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Les produits industriels riches en sucres raffinés et en graisses trans.",
+        "Le gluten (pain blanc, pâtes classiques, pâtisseries) qui peut accentuer la réaction auto‑immune.",
+        "Les produits laitiers, souvent mal tolérés et sources d’inflammation digestive.",
+        "Les excès de soja, qui interfèrent avec l’absorption des hormones thyroïdiennes.",
+        "Les aliments ultra‑transformés, riches en additifs et conservateurs."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Aliments à privilégier"
+    },
+    {
+      "type": "paragraph",
+      "text": "À l’inverse, certains aliments soutiennent la thyroïde et renforcent l’immunité :"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Les légumes variés, crus ou cuits doucement, riches en fibres et antioxydants.",
+        "Les protéines maigres (poissons, légumineuses, œufs fermiers) pour maintenir l’énergie.",
+        "Les bonnes graisses : huile d’olive, graines de lin, noix, amandes, riches en oméga‑3.",
+        "Les aliments riches en sélénium (noix du Brésil, poissons) et en zinc (lentilles, pois chiches).",
+        "Les herbes fraîches et épices protectrices : curcuma, gingembre, coriandre, menthe."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Nutriments clés"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Vitamine D : essentielle pour l’immunité, souvent déficitaire.",
+        "Oméga‑3 : puissants anti‑inflammatoires.",
+        "Sélénium et zinc : indispensables au bon fonctionnement de la thyroïde.",
+        "Fer et iode : à équilibrer selon les recommandations médicales, car les excès peuvent être nocifs."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Stratégies culinaires adaptées"
+    },
+    {
+      "type": "paragraph",
+      "text": "Adopter une alimentation protectrice ne suffit pas : la manière de cuisiner et d’organiser ses repas joue un rôle tout aussi important. Les stratégies culinaires adaptées permettent de préserver les nutriments, de réduire l’inflammation et de rendre l’alimentation hypotoxique agréable et durable."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Cuisson douce et respect des nutriments"
+    },
+    {
+      "type": "paragraph",
+      "text": "La cuisson à haute température détruit les vitamines et favorise les composés pro‑inflammatoires. Il est préférable de privilégier :"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "La cuisson vapeur, qui conserve les minéraux et les antioxydants.",
+        "Les mijotés à feu doux, qui préservent les saveurs et limitent l’oxydation des graisses.",
+        "Les légumes crus ou légèrement blanchis, riches en fibres et en enzymes digestives."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Assaisonnements protecteurs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Les herbes et épices ne sont pas seulement des aromates : elles sont de véritables alliées thérapeutiques."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Curcuma et gingembre : puissants anti‑inflammatoires.",
+        "Coriandre et menthe : facilitent la digestion et apportent fraîcheur.",
+        "Huile d’olive extra vierge : riche en polyphénols protecteurs.",
+        "Citron : stimule l’absorption du fer et apporte une touche alcalinisante."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Alternatives au pain blanc"
+    },
+    {
+      "type": "paragraph",
+      "text": "Le pain est un aliment culturellement central, mais le gluten peut aggraver Hashimoto. Il est donc utile de proposer des alternatives digestives et locales :"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Pain à base de farine de pois chiches ou de sarrasin.",
+        "Galettes de patate douce ou de lentilles.",
+        "Crackers aux graines (lin, sésame, tournesol). Ces substituts permettent de conserver le plaisir du pain tout en réduisant l’inflammation."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Organisation des repas"
+    },
+    {
+      "type": "paragraph",
+      "text": "La fatigue liée à Hashimoto peut rendre la préparation des repas difficile. Quelques stratégies pratiques :"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Préparer des bases en avance (salades, légumineuses cuites, sauces).",
+        "Utiliser des bocaux ou contenants hermétiques pour conserver les plats plusieurs jours.",
+        "Planifier une semaine de menus simples pour éviter le stress quotidien."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Repères pratiques pour Hashimoto"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vivre avec Hashimoto demande une organisation adaptée. La maladie est chronique, mais elle peut être stabilisée grâce à une combinaison de suivi médical, d’alimentation protectrice et de gestes simples au quotidien. Ces repères pratiques visent à aider le patient à retrouver énergie et autonomie."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Organisation quotidienne"
+    },
+    {
+      "type": "paragraph",
+      "text": "La fatigue est l’un des symptômes les plus fréquents. Pour la gérer :"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Planifier les repas à l’avance pour éviter le stress de dernière minute.",
+        "Préparer des bases culinaires (légumineuses cuites, salades, sauces) en début de semaine.",
+        "Fractionner les tâches et prévoir des pauses régulières.",
+        "Favoriser un rythme de sommeil régulier, avec des horaires fixes."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Gestion de la fatigue"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Privilégier des repas légers le soir pour améliorer le sommeil.",
+        "Éviter les excitants (café en excès, boissons sucrées) qui perturbent l’énergie.",
+        "Intégrer une activité physique douce (marche, yoga, étirements) pour stimuler le métabolisme sans épuiser le corps.",
+        "Apprendre à écouter ses limites et à respecter les signaux de repos."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Suivi médical"
+    },
+    {
+      "type": "paragraph",
+      "text": "Le suivi médical est indispensable pour ajuster le traitement et surveiller l’évolution :"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Analyses régulières de la TSH, T3, T4 et anticorps anti‑TPO.",
+        "Échographie thyroïdienne en cas de nodules ou d’évolution suspecte.",
+        "Consultation avec l’endocrinologue pour adapter la posologie.",
+        "Communication ouverte avec le médecin traitant pour coordonner les soins."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Soutien psychologique et social"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hashimoto peut affecter le moral et la confiance en soi. Il est utile de :"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Partager son expérience avec des proches ou des groupes de soutien.",
+        "Pratiquer des activités relaxantes (méditation, lecture, loisirs créatifs).",
+        "Se rappeler que la maladie n’est pas une fatalité : elle peut être stabilisée."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Annexes pédagogiques"
+    },
+    {
+      "type": "paragraph",
+      "text": "Les annexes de ce fascicule offrent des repères concrets et faciles à consulter. Elles ne remplacent pas le suivi médical, mais elles permettent au patient Hashimoto de disposer de fiches pratiques pour organiser son quotidien."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Liste d’aliments protecteurs"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Légumes variés : carottes, courgettes, brocolis, betteraves, roquette, kale.",
+        "Protéines végétales : lentilles, pois chiches, haricots.",
+        "Poissons riches en oméga‑3 : sardines, maquereaux, saumon.",
+        "Fruits frais : pommes, grenades, agrumes.",
+        "Huiles et graines : huile d’olive, graines de lin, noix, amandes."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Aliments à limiter"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Gluten : pain blanc, pâtes classiques, pâtisseries.",
+        "Produits laitiers : lait, fromages, yaourts.",
+        "Excès de soja et produits industriels transformés.",
+        "Sucre raffiné et boissons sucrées."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Tableau des nutriments clés"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Vitamine D : immunité, énergie.",
+        "Oméga‑3 : anti‑inflammatoires.",
+        "Sélénium : protection thyroïdienne.",
+        "Zinc : régulation hormonale.",
+        "Fer et iode : à équilibrer selon avis médical."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Rappels médicaux essentiels"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Analyses régulières : TSH, T3, T4, anticorps anti‑TPO.",
+        "Échographie thyroïdienne en cas de nodules.",
+        "Consultation endocrinologique pour ajuster le traitement.",
+        "Importance du suivi coordonné avec le médecin traitant."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Conseils pratiques"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Préparer une liste de courses orientée vers les aliments protecteurs.",
+        "Organiser les repas en avance pour limiter la fatigue.",
+        "Tenir un carnet de suivi : symptômes, alimentation, résultats médicaux.",
+        "S’appuyer sur des recettes simples et locales pour maintenir la régularité."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Conclusion"
+    },
+    {
+      "type": "paragraph",
+      "text": "La thyroïdite de Hashimoto est une maladie chronique qui peut sembler lourde à porter. Pourtant, elle n’est pas une condamnation. Avec un suivi médical attentif et une alimentation protectrice, il est possible de retrouver énergie, équilibre et confiance. Ce fascicule a voulu montrer que chaque geste quotidien, chaque choix alimentaire, peut devenir une étape vers la stabilisation et le mieux‑être."
+    },
+    {
+      "type": "paragraph",
+      "text": "Le chemin n’est pas toujours simple : la fatigue, les fluctuations hormonales et les contraintes sociales peuvent décourager. Mais il est essentiel de se rappeler que la régularité et la patience sont vos meilleures alliées. Les bénéfices apparaissent progressivement : une digestion plus légère, une énergie plus stable, un moral renforcé."
+    },
+    {
+      "type": "paragraph",
+      "text": "Surtout retenez que : Hashimoto peut être stabilisé ; l’alimentation est un levier puissant ; chaque repas est une opportunité de soin et que vous êtes acteur de votre santé."
+    },
+    {
+      "type": "paragraph",
+      "text": "L’approche Family Clinic repose sur une conviction forte : cuisiner pour guérir. Loin des régimes contraignants, il s’agit de redonner au patient le pouvoir de transformer son assiette en outil thérapeutique. Les recettes hypotoxiques, les alternatives locales et les stratégies culinaires adaptées sont autant de moyens de concilier santé et plaisir."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ce guide n’a pas vocation à remplacer le suivi médical ni à détailler toutes les recettes. Il est une porte d’entrée, une orientation claire, un compagnon pratique. Pour approfondir, pour découvrir les  recettes hypotoxiques adaptées au marché marocain et les protocoles nutritionnels complets, le livre Cuisiner pour guérir reste la référence centrale."
+    }
+  ]
+}

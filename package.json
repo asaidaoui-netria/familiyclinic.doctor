@@ -8,7 +8,7 @@
   "scripts": {
     "serve": "eleventy --serve",
     "build": "eleventy",
-    "check:scripts": "node --check assets/script.js && node --check assets/localization.js && node --check assets/services.js && node --check assets/contact.js && node --check assets/publication-catalog.js && node --check assets/publication-viewer.js",
+    "check:scripts": "node --check assets/script.js && node --check assets/localization.js && node --check assets/services.js && node --check assets/contact.js && node --check assets/publication-reader.js",
     "test": "node --test",
     "verify": "npm run build && npm run check:scripts && npm test",
     "publications:preflight": "node scripts/publications/prepare.mjs --preflight",

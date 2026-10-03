@@ -1,0 +1,848 @@
+{
+  "language": "en",
+  "status": "published",
+  "title": "Understanding ankylosing spondylitis",
+  "summary": "A narrative guide to ankylosing spondylitis, covering symptoms, diagnosis, genetic associations, and disease progression. It explains the author's intestinal and bacterial hypotheses, presents nutritional recommendations and reported results, and includes diagnostic criteria and HLA-B27 frequency references.",
+  "sourceHash": "cfe1a188e9ea866f29a6a18ce2a7d574fb2beaf74ddcd84aebb067ae5093502c",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Foreword"
+    },
+    {
+      "type": "paragraph",
+      "text": "In the silence of nights when pain awakens, an ancient story repeats itself in young, vigorous bodies. Ankylosing spondylitis, subtle at first, slips into joints like a stubborn shadow. It does not strike suddenly but advances slowly, stiffening movements, awakening suffering in the heart of the night, and imposing painful efforts to loosen stiffness in the morning."
+    },
+    {
+      "type": "paragraph",
+      "text": "AS is not a fixed, inevitable fate. It is a mystery illuminated by genetics, influenced by the environment, and potentially eased by diet. It is a disease reminding us that a human being is a whole: flesh, mind, inheritance, and surroundings."
+    },
+    {
+      "type": "paragraph",
+      "text": "This booklet is more than a medical collection. It is a bridge between science and everyday life, between researchers' words and patients' movements. It seeks to tell, in simple, poetic language, what medicine has discovered, what experience has confirmed, and what hope continues to promise."
+    },
+    {
+      "type": "paragraph",
+      "text": "Through these pages, we will follow the path of doctors and researchers, intersecting hypotheses, evolving theories, and practices that bring relief. We will also listen to patients' voices recounting their struggles and victories, sometimes fragile, sometimes brilliant."
+    },
+    {
+      "type": "paragraph",
+      "text": "It is an invitation to understand, reflect, and hope. Although current medicine improves without curing, it nonetheless opens doors. Behind these doors lies the possibility of a gentler life, a freer body, and a less burdensome future."
+    },
+    {
+      "type": "paragraph",
+      "text": "Thus begins our journey into the heart of ankylosing spondylitis. A crossing where science becomes narrative, pain becomes speech, and hope becomes a companion."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Overview of the disease"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ankylosing spondylitis, often called AS, is a disease that settles as a discreet presence before revealing its full strength. It does more than attack joints: it engages with genetic inheritance, the environment, and each body's intimate history."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Circumstances of onset"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "AS is not an isolated rarity. For a long time, it was known only through its most severe forms, which freeze the body in painful armor. But reality is more nuanced: it often appears in moderate, sometimes almost invisible forms and affects approximately 1.2% of the population, a frequency close to rheumatoid arthritis."
+    },
+    {
+      "type": "paragraph",
+      "text": "It chooses its victims among adolescents and young adults, as though seeking to impose itself when life is opening up. It favors men, seven times out of ten, and is intimately linked to a genetic marker: the HLA-B27 antigen, present in 90% of patients compared with only 6% of healthy controls."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Symptoms and diagnosis"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The body speaks through its pain, and AS is recognized by its distinctive signs. The Rome criteria, established to guide diagnosis, describe a constellation of symptoms:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Persistent lower back pain lasting more than three months and not relieved by rest.",
+        "Thoracic stiffness that limits breathing.",
+        "Reduced lumbar mobility, as though the back were closing in.",
+        "Reduced chest expansion, preventing the breath from unfolding.",
+        "A history of iritis, the eye inflammation that sometimes accompanies the disease.",
+        "And above all, radiological signs of bilateral sacroiliac arthritis."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Diagnosis is definite when four clinical criteria are present or when the radiological finding is accompanied by at least one clinical sign."
+    },
+    {
+      "type": "paragraph",
+      "text": "But other clues strengthen suspicion:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "fingers or toes taking on a sausage-like appearance,",
+        "buttock pain alternating from one side to the other,",
+        "painful heels,",
+        "nighttime awakenings in the second half of the night,",
+        "and morning stiffness that delays the start of the day."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Course and treatment"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "AS has more than one trajectory. In moderate forms, it involves a few pains relieved by analgesics. In serious forms, it becomes a force of petrification: soft tissues ossify, the spine freezes, the chest closes, and the body bends into kyphosis or scoliosis that hinders life."
+    },
+    {
+      "type": "paragraph",
+      "text": "Today, nonsteroidal anti-inflammatory drugs, physiotherapy, rehabilitation exercises, and spa therapy have softened its destiny. AS appears less formidable than rheumatoid arthritis. Yet some cases resist treatment, and ankylosis remains a threat."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "The concept of spondyloarthropathies"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "AS is not alone. It belongs to a family of diseases sharing common features: association with HLA-B27, male predominance, onset after a gastrointestinal or urogenital infection, and frequent sacroiliac involvement."
+    },
+    {
+      "type": "paragraph",
+      "text": "This family includes:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Reactive arthritis caused by Yersinia, Shigella, Salmonella, Campylobacter, or Chlamydia.",
+        "AS secondary to chronic inflammatory bowel diseases such as ulcerative colitis or Crohn's disease.",
+        "Arthropathies associated with pustular psoriasis.",
+        "Juvenile arthritis of the AS type.",
+        "Acute anterior uveitis, often linked to AS or reactive arthritis."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The table of HLA-B27 frequencies makes the evidence clear: this molecule is the common thread connecting these diseases."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Problems to resolve"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "AS remains a mystery. Current treatments relieve without curing. They ease pain but do not prevent severe progression. They also carry their own risks, such as gastroduodenal ulcers."
+    },
+    {
+      "type": "paragraph",
+      "text": "The challenge is clear: understand AS pathogenesis to offer treatment that addresses the cause rather than only symptoms."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The stages of medical reasoning"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ankylosing spondylitis is not a simple disease. It is a mystery woven from genes and environments, an encounter between invisible inheritance and everyday assaults. To understand it, we must follow the threads of this medical reasoning, intertwining like the roots of an ancient tree."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "A multifactorial disease"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "AS does not arise from a single cause. It results from a hereditary background and external circumstances. Families sometimes bear its imprint, and identical twins reveal its mystery: one may be affected, the other not. Thus, genetics opens the door, but the environment decides to enter."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "The first gene: HLA-B27"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "This gene is like a key attracting disease. Present in 90% of patients and absent in most controls, it is the strongest sign. But it is not uniform: its variants tell different stories. Some favor the disease; others seem to repel it. In African populations, a particular variant explains the almost total absence of AS."
+    },
+    {
+      "type": "paragraph",
+      "text": "Researchers have proposed several hypotheses:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "A cross-reaction between an intestinal bacterium, Klebsiella, and the B27 molecule.",
+        "Alteration of B27 by a microscopic parasite, making it autoantigenic.",
+        "A change in bacterial antigen penetration into cells."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "All these hypotheses converge on one idea: a foreign peptide bound to B27 triggers an immune response that strikes joints."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "The arthritogenic peptide"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Clones of CD8 T lymphocytes have been observed in patients' synovial fluid. Some attack cells infected with Yersinia or Salmonella; others strike healthy cells. The common denominator is a peptide coupled to B27 that becomes the enemy. This peptide, called arthritogenic, is the disease's messenger."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "The role of bacteria"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The intestine is an open door. Several bacteria live there, sometimes silent, sometimes culpable. In reactive arthritis, Yersinia, Salmonella, Shigella, or Campylobacter are the instigators."
+    },
+    {
+      "type": "paragraph",
+      "text": "In AS, Klebsiella pneumoniae is the main suspect. It is found in the stools of patients with active disease, rarely in controls. Anti-Klebsiella antibodies are elevated, like a trace left by the battle."
+    },
+    {
+      "type": "paragraph",
+      "text": "The joints themselves remain sterile. But bacterial fragments, peptides, travel through the blood and reach synoviocytes. There, they become invisible intruders, triggering inflammation."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Modern diets"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Today's food is not neutral. It shapes intestinal flora, favors certain bacteria, and weakens the mucosa. In AS, this diet can be an indirect factor: it increases small-intestinal permeability, allows dangerous peptides through, and sustains inflammation."
+    },
+    {
+      "type": "paragraph",
+      "text": "A diet without milk and dairy products has shown improvement in some patients. But beyond this attempt, more comprehensive dietary measures promise more lasting results."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Intestinal hyperpermeability"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The small intestine becomes porous. Laboratory probes cross more rapidly, and IgA increases, a sign of chronic stimulation. Endoscopy reveals frequent lesions. AS is thus linked to a vulnerable intestine that allows through what should remain contained."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "The role of male sex"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "AS favors men. Perhaps because male hormones promote certain cytokines that increase B27 expression. Perhaps because an unknown sex-related factor amplifies the immune response. The mystery remains, but male predominance is undeniable."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Intestinal enzymes and mucins"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Every person has a unique repertoire of enzymes and mucins. Some are well equipped; others have weaknesses. These weaknesses explain why some intestines resist bacteria and aggressive foods, while others become permeable and fragile."
+    },
+    {
+      "type": "paragraph",
+      "text": "Thus, the medical reasoning takes shape: a disease born from a gene, amplified by bacteria, promoted by modern diets, revealed by intestinal hyperpermeability, and modulated by sex and enzymes."
+    },
+    {
+      "type": "paragraph",
+      "text": "AS is a mosaic of factors, a polyphony in which every voice contributes to pain."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "A theory of pathogenesis"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ankylosing spondylitis is a mystery unfolding between intestine and joints, between invisible bacteria and silent genes. To understand its mechanism, we must imagine a journey: that of tiny fragments crossing the body's barriers and awakening an overly ardent immune response."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "The role of diet and intestinal flora."
+    },
+    {
+      "type": "paragraph",
+      "text": "Modern diets, rich in processed products, nourish putrefactive flora. Dangerous bacteria proliferate in this environment: Klebsiella, Yersinia, Salmonella, Shigella, Campylobacter. They do more than live in the intestine: they attack the mucosa, weaken its defenses, and open gaps."
+    },
+    {
+      "type": "paragraph",
+      "text": "When intestinal enzymes and mucins no longer provide enough protection, enterocytes separate. The small-intestinal wall becomes permeable, allowing bacterial fragments, lipopolysaccharides, and above all a mysterious peptide designated Y to pass through."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Passage toward the joints"
+    },
+    {
+      "type": "paragraph",
+      "text": "This bacterial waste crosses the intestinal barrier and reaches joints. There, it encounters HLA-B27 molecules, expressed in excess, particularly in men. Peptide Y binds to B27, forming a formidable pair."
+    },
+    {
+      "type": "paragraph",
+      "text": "This pair is presented to cytotoxic CD8 T lymphocytes. If their number is sufficient, peptide Y is recognized as foreign. The battle then opens: CD8 T cells destroy joint cells, triggering an inflammatory cascade. Pain appears, stiffness develops, and the disease takes root."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "The immune response"
+    },
+    {
+      "type": "paragraph",
+      "text": "The reaction is more than an attack. It comes with release of cytokines, the messengers of inflammation. They amplify pain, sustain the silent fever of joints, and sometimes extend to the eye, causing uveitis."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Thus, according to the frequency of peptide Y arrivals:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "If brief, transient reactive arthritis is observed.",
+        "If repeated, AS becomes chronic.",
+        "If they reach the eye, acute anterior uveitis develops."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Variants of the theory"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Two other hypotheses complete this picture:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "The autoantigen: the bacterial peptide triggers a cross-reaction against a self peptide bound to B27. The body mistakes its enemy and attacks itself.",
+        "The superantigen: certain intestinal bacteria, such as Yersinia, carry superantigens capable of massively activating lymphocytes. But this polyclonal activation has never been observed in AS, weakening the hypothesis."
+      ],
+      "levels": [
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Practical consequences"
+    },
+    {
+      "type": "paragraph",
+      "text": "An evident conclusion follows from this theory: danger comes from the intestine. Anti-inflammatory medications intervene too late, at the end of the chain. It is logical to modify diet because it lies at the beginning of the process. It influences flora, acts on small-intestinal permeability, and can reduce the arrival of peptide Y."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Thus, AS pathogenesis takes shape like a fresco:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "An intestine attacked by modern diets.",
+        "Hostile bacterial flora releasing dangerous fragments.",
+        "An HLA-B27 gene accommodating peptide Y.",
+        "An immune response destroying joints."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The disease results from an encounter between the inner and outer worlds, genetics and diet, the body's memory and invisible intruders."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Practical consequences of the theory"
+    },
+    {
+      "type": "paragraph",
+      "text": "The theory of ankylosing spondylitis leads us toward an evident conclusion: the problem does not arise solely in joints; it takes root in the intestine. There, the first battle unfolds; there, the door opens to bacterial fragments, foreign peptides, and signals triggering inflammation."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "The intestinal danger"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Everything begins in the gut. The intestine, this long path of life, becomes a fragile boundary. When the mucosa develops cracks and flora changes, intruders cross the barrier. They are invisible, but their presence is felt in joints, eyes, and breathing. AS is therefore a disease linking two poles: intestine and joint."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Limitations of conventional treatments"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Anti-inflammatory medications, so valuable for easing pain, intervene too late in the chain of events. They calm flames but do not close the door through which they enter. They relieve without curing and sometimes leave gastric scars, ulcers, and new vulnerabilities behind."
+    },
+    {
+      "type": "paragraph",
+      "text": "Thus, current medicine resembles a gardener trimming burned branches without tending to the diseased root."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "The importance of diet"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Modifying diet means acting at the beginning of the story. It means influencing intestinal flora, reducing small-intestinal permeability, and limiting arrival of dangerous peptides. Diet becomes a therapeutic tool, essential rather than incidental."
+    },
+    {
+      "type": "paragraph",
+      "text": "It is a key that can transform the underlying state, calm inflammation, and sometimes lead to remission. It is not a magical promise but a logical, coherent path rooted in understanding the mechanism."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Toward an integrated approach"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The theory invites us to rethink management:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Care for the intestine to protect joints.",
+        "Combine dietary measures with conventional treatments to reduce medications and their side effects.",
+        "Support the body with physiotherapy, exercise, and restored breathing."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "AS then becomes a disease that can be brought under control by understanding it and acting on its roots, rather than denying it."
+    },
+    {
+      "type": "paragraph",
+      "text": "The practical consequences of this theory are clear: we must look beyond joints, toward the intestine, diet, and everyday life."
+    },
+    {
+      "type": "paragraph",
+      "text": "AS is more than a matter of medications: it is a matter of lifestyle, food choices, and respect for the body."
+    },
+    {
+      "type": "paragraph",
+      "text": "Thus, science meets wisdom: to ease pain, we must nourish differently, breathe differently, and live differently."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Dietary measures and their results"
+    },
+    {
+      "type": "paragraph",
+      "text": "Despite its genetic roots and immune mysteries, ankylosing spondylitis reveals a simple truth: diet can transform its course. This chapter is an ode to food as medicine and the table as a place of healing."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "The dietary regimen"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The instructions are clear, almost austere, but carry a promise:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Exclude grains except rice and buckwheat, which remain faithful companions.",
+        "Ban animal milks and their derivatives, which sustain inflammation.",
+        "Reject excessively high cooking temperatures above 110°C, which denature food.",
+        "Choose organic, living products close to the earth.",
+        "Favor uncooked virgin oils, which nourish without attacking.",
+        "Add minerals and vitamins, like precious stones serving the body."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "This diet is not deprivation but reconciliation with a more ancestral way of eating, more respectful of the intestine."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Patients treated"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Patients following this path with discipline and patience — men and women, younger and older, carriers or noncarriers of HLA-B27 — all had definite, active AS resistant to conventional medications. Their disease had lasted an average of eleven years, like a long companionship with pain."
+    },
+    {
+      "type": "paragraph",
+      "text": "Every patient was observed rigorously:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Number of swollen joints.",
+        "Daytime and nighttime pain, its intensity and duration.",
+        "Nighttime awakenings and morning stiffness.",
+        "Spinal and chest stiffness.",
+        "Erythrocyte sedimentation rate, that silent marker of inflammation.",
+        "Medication consumption, recorded and gradually reduced."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Every three months, assessment was repeated, like regular music measuring progress."
+    },
+    {
+      "type": "paragraph",
+      "text": "Time is an ally. Some followed the diet for more than a year, others for more than nine years. Adherence to these dietary measures is a condition of success. Stopping, even briefly, causes relapse. Resuming, conversely, brings back remission."
+    },
+    {
+      "type": "paragraph",
+      "text": "95.1% of patients responded favorably."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Men and women alike.",
+        "Mild and severe forms alike.",
+        "B27 carriers and noncarriers alike."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Improvements are rapid, sometimes within weeks."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pain lessens, nighttime awakenings become less frequent, and stiffness eases."
+    },
+    {
+      "type": "paragraph",
+      "text": "Some patients stopped medications completely; others now take only low doses. Improvement does not occur immediately after consultation but after a few weeks of the diet. Above all, it is lasting. Stopping the diet causes relapse; resuming it brings back remission."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "How the diet works"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Three mechanisms emerge:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Changes in intestinal flora, with fewer implicated Gram-negative bacteria.",
+        "Correction of intestinal mucosal damage, restoring its strength and barrier function.",
+        "Calming of inflammation, which gradually subsides."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Thus, dietary measures are more than a simple recommendation. They are a gentle but powerful weapon against AS. They act where medications cannot reach: at the beginning of the disease, in the intestine. They transform patients' lives, restore freedom of movement, and sometimes the joy of complete remission."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Appendices"
+    },
+    {
+      "type": "paragraph",
+      "text": "Appendices are like stones placed beside the path: they do not tell the whole story but provide reference points, numbers, and images illuminating the journey. They complement the narrative, make it more concrete, and allow readers to gauge what the words describe."
+    },
+    {
+      "type": "heading",
+      "text": "Appendix 1 — Rome criteria for AS diagnosis",
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "A chart bringing together the essential signs:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Persistent lower back pain and stiffness, not relieved by rest.",
+        "Thoracic stiffness.",
+        "Reduced lumbar mobility.",
+        "Reduced chest expansion.",
+        "History of iritis.",
+        "Radiological signs of bilateral sacroiliac arthritis."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Diagnosis is definite when four clinical criteria are present or when the radiological finding is accompanied by a clinical sign."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Appendix 2 — Frequency of the HLA-B27 antigen in spondyloarthropathies"
+    },
+    {
+      "type": "paragraph",
+      "text": "A chart revealing the strength of the link between this gene and disease:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "AS: 90%",
+        "Reactive arthritis: 75%",
+        "AS linked to intestinal inflammation: 77%",
+        "Arthropathies associated with pustular psoriasis: 78%",
+        "Juvenile arthritis of the AS type: 90%",
+        "Acute anterior uveitis: 55%",
+        "Normal controls: 6%"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "These figures are like genetic fingerprints showing the close relationship between diseases and their common root."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Appendix 3 — Diagram of the pathogenic theory (Figure 35)"
+    },
+    {
+      "type": "paragraph",
+      "text": "An image linking two poles:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Intestinal pole: modern diet, altered flora, small-intestinal permeability, passage of peptides and lipopolysaccharides.",
+        "Joint pole: binding of peptide Y to HLA-B27, activation of CD8 T lymphocytes, inflammation, and pain."
+      ],
+      "levels": [
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "This diagram is a map, a visual representation of bacterial fragments' journey toward the joints."
+    }
+  ],
+  "translation": {
+    "from": "fr",
+    "method": "AI-assisted translation",
+    "reviewStatus": "not-clinically-reviewed"
+  }
+}

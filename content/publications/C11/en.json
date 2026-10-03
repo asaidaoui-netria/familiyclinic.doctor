@@ -1,0 +1,793 @@
+{
+  "language": "en",
+  "status": "published",
+  "title": "Understanding cancer and prevention",
+  "summary": "An introduction to cancer genetics, hereditary and acquired disease, tumour formation and metastasis, explaining the author’s account of molecular mechanisms and environmental risks while exploring dietary choices, lifestyle and prevention within the Family Clinic approach.",
+  "sourceHash": "647744a970096442e4fb679ecee1927601ce705c753559af8c11739e556dee40",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Foreword"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cancer remains one of the most feared diseases of our time, both for its frequency and its severity. Yet, as Professor Henri Joyeux reminds us, “cancer is not inevitable”. Far from being a reassuring formula, this statement expresses a scientific reality: cancer development results from a combination of genetic, biological and environmental factors, a significant proportion of which can be influenced by lifestyle choices, particularly food choices."
+    },
+    {
+      "type": "paragraph",
+      "text": "Current knowledge shows that cancer is above all a disease of DNA. Over time, normal cells can undergo successive mutations that transform them into malignant cells. These genetic abnormalities may be inherited, but most often are acquired during life through carcinogenic substances, radiation, viruses or metabolic imbalances. The process is long and progressive, involving several stages before a cell becomes uncontrollable and escapes regulatory mechanisms."
+    },
+    {
+      "type": "paragraph",
+      "text": "From this perspective, it is essential to understand that cancer does not appear suddenly: it builds silently, often over several years, through successive mutations and disturbances. Prevention therefore rests on the ability to limit DNA injury and strengthen natural protective mechanisms."
+    },
+    {
+      "type": "paragraph",
+      "text": "Food occupies a central place in this prevention. Excess cooked fats, refined sugars and industrial products favour cellular accumulation and free-radical production, damaging DNA. Conversely, a diet rich in fruit, vegetables, virgin oils and gentle cooking helps protect cells and reduce malignant transformation risk."
+    },
+    {
+      "type": "paragraph",
+      "text": "In this document, Family Clinic offers a faithful overview of scientific knowledge about cancers: definition, genes' role, genetic abnormalities, distinction between hereditary and acquired cancers, cancer formation and environmental influences. It highlights the coherence of an integrative approach, where understanding biological mechanisms accompanies reflection on prevention and lifestyle."
+    },
+    {
+      "type": "paragraph",
+      "text": "The message is clear: although cancer remains serious, it is not unavoidable. Knowledge, vigilance and nutritional reform offer powerful means to reduce its incidence and improve quality of life."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Definition of cancers"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cancer is defined as uncontrolled proliferation of so-called malignant cells, characterised by genetic abnormalities distinguishing them from normal cells. This proliferation may remain localised, forming a tumour, or spread to distant sites through lymphatic pathways (lymph-node invasion) or the blood (metastases). Leukaemias constitute a particular form of cancer affecting cell lineages responsible for producing blood cells."
+    },
+    {
+      "type": "paragraph",
+      "text": "Cancers and leukaemias are above all diseases of DNA. In rare cases, genetic abnormalities are present from the initial fertilised egg and transmitted hereditarily: these are hereditary cancers. But in the great majority of cases, abnormalities appear during life through environmental, dietary or toxic factors: these are acquired cancers."
+    },
+    {
+      "type": "paragraph",
+      "text": "Cancer development is progressive. A normal cell can undergo several successive mutations before becoming malignant. Studies show that at least two, and often four genetic modifications are needed to transform a healthy cell into a cancer cell. These mutations affect key genes:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Some favour proliferation (oncogenes).",
+        "Others prevent regulation (tumour suppressor genes).",
+        "Others disrupt apoptosis (programmed cellular suicide) or DNA repair."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "A cancer cell is distinguished by several characteristics:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "It loses its specific shape and functional role.",
+        "It escapes growth-inhibitory signals.",
+        "It becomes insensitive to regulatory mechanisms.",
+        "It multiplies chaotically, producing identical clones."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "A single malignant cell may suffice to initiate a cancer or leukaemia. This feature explains the disease's severity: just one cell escaping immune surveillance can begin a tumour process."
+    },
+    {
+      "type": "paragraph",
+      "text": "Cancer is therefore a disease of cellular regulation. Where normal cells obey precise signals (growth, differentiation, programmed death), cancer cells behave as autonomous entities escaping the body's rules. This loss of control is the key to malignant transformation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Finally, it must be remembered that cancer is multifactorial. Genetic abnormalities are necessary but not sufficient: they must be favoured or triggered by external factors (radiation, chemicals, viruses, food). This interaction between genetic constitution and environment explains cancers' diversity and increasing frequency in modern societies."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Cancer genes"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cancer is above all a genetic disease: it results from alteration of genes controlling cellular growth, differentiation and programmed death. These genes fall into two main categories: those directly responsible for malignant transformation and those acting indirectly by favouring or modulating it."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Directly responsible genes"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Oncogenes"
+    },
+    {
+      "type": "paragraph",
+      "text": "Oncogenes are normal genes involved in cellular proliferation and differentiation. When mutated or abnormally activated, they become factors in cancer development."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Examples: myc, ras, jun, fos, mdm2, Rb, β-catenin.",
+        "Function: they encode proteins transmitting growth signals from the cell membrane to the nucleus.",
+        "Consequence: excessive activation causes uncontrolled proliferation."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Tumour suppressor genes"
+    },
+    {
+      "type": "paragraph",
+      "text": "These genes act as brakes opposing malignant transformation. Their inactivation or loss favours cancer."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Examples:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "BRCA1 and BRCA2 (protection against breast cancer).",
+        "APC and DCC (protection against colon cancer).",
+        "RB1 (protection against retinoblastoma).",
+        "p15, p16, p18, p21, p27 (control of Rb protein phosphorylation)."
+      ],
+      "levels": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Consequence: losing these genes removes regulatory mechanisms and leaves the cell free to proliferate."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Apoptosis genes"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Apoptosis is programmed cellular suicide, allowing useless or dangerous cells to be eliminated."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Inducing genes: Fas, Apo-1, c-myc, c-fos, c-jun, p53.",
+        "Inhibiting genes: bcl-2, bcl-XL.",
+        "Importance: the p53 gene is altered in nearly 50% of cancers.",
+        "Consequence: a cell that should die survives and may progress towards malignancy."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "DNA repair genes"
+    },
+    {
+      "type": "paragraph",
+      "text": "During replication, errors may occur (point mutations). Repair genes encode enzymes capable of correcting these errors."
+    },
+    {
+      "type": "paragraph",
+      "text": "Examples: Mut S, Mut I, Mut U, Mut H."
+    },
+    {
+      "type": "paragraph",
+      "text": "Consequence: their alteration prevents correction of abnormalities, favouring accumulation of carcinogenic mutations."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Telomerase genes"
+    },
+    {
+      "type": "paragraph",
+      "text": "Telomeres, the ends of chromosomes, shorten with every cell division. This shortening limits cells' lifespan."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Telomerase is the enzyme capable of lengthening telomeres.",
+        "In normal cells, it is inactive.",
+        "In cancer cells, it remains active, allowing unlimited proliferation."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Genes acting indirectly"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Carcinogen metabolism"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Certain genes encode enzymes neutralising exogenous carcinogenic substances."
+    },
+    {
+      "type": "paragraph",
+      "text": "Examples: cytochromes P450, glutathione S-transferases, N-acetyltransferases."
+    },
+    {
+      "type": "paragraph",
+      "text": "Consequence: deficiency or abnormality favours toxic accumulation and increases cancer risk."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Growth factors"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Genes encoding growth factors stimulate cellular proliferation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Examples: EGF (epidermal growth factor), FGF (fibroblast growth factor), PDGF (platelet-derived growth factor), TGFβ (transforming growth factor β)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Consequence: excessive production or abnormal activation favours tumour growth."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Hormones"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Sex hormones play an important role in certain cancers."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Oestrogens stimulate endometrial and mammary gland cells. They do not create cancer alone, but favour oncogene activity and accelerate existing tumours' growth.",
+        "Androgens have a similar role in prostate cancer."
+      ],
+      "levels": [
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Cancer genes thus illustrate the disease's complexity. A single gene does not cause malignant transformation; several abnormalities interact: oncogene activation, loss of suppressors, deficient apoptosis, defective DNA repair, telomerase activation. Added to these are indirect factors (toxin metabolism, hormones, growth factors) modulating risk. Cancer therefore appears as a disease of genetic regulation, where control mechanisms are progressively disabled, leaving the cell free to proliferate and escape the body's rules."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Genetic abnormalities and malignant transformation"
+    },
+    {
+      "type": "paragraph",
+      "text": "The transition from normal to cancerous cell is a complex process marked by a series of genetic abnormalities accumulating over time. These abnormalities affect different key genes and disrupt cellular regulatory mechanisms. They do not all occur simultaneously: the cell passes through several stages before becoming truly malignant."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Analysis of genetic modifications"
+    },
+    {
+      "type": "paragraph",
+      "text": "Several types of abnormality are observed:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Deletion: disappearance of a chromosome fragment containing an essential gene. Example: loss of p53, which normally triggers apoptosis when DNA is damaged. Without it, the dangerous cell survives.",
+        "Point mutation: replacement of one DNA base by another. This can inactivate a protective gene or, conversely, activate a dangerous one. Example: abnormal telomerase activation, permitting unlimited proliferation.",
+        "Chromosomal rearrangement: translocations or inversions moving genes and creating new combinations. An emblematic example: the Philadelphia chromosome in certain leukaemias, where bcr/abl fusion produces a carcinogenic tyrosine kinase.",
+        "Excessive amplification: multiplication into tens or hundreds of copies of a gene, causing massive production of proteins favouring proliferation.",
+        "Genetic instability: observed in certain cancers such as colon cancer. It can manifest as microsatellite instability (repeated DNA sequences) or poor chromosome segregation, leading to abnormal chromosome numbers."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "These abnormalities are not isolated: they follow and reinforce one another, creating conditions favourable to malignant transformation."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Consequences of genetic modifications"
+    },
+    {
+      "type": "paragraph",
+      "text": "Genetic abnormalities cause major disturbances:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Oncogene activation: the cell receives permanent growth signals.",
+        "Loss of tumour suppressors: natural brakes disappear.",
+        "Deficient apoptosis: abnormal cells survive rather than die.",
+        "Defective DNA repair: mutations accumulate without correction.",
+        "Telomerase activation: the cell becomes immortal."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "These disturbances result in abnormal or excessive protein production. Some block protective gene expression (hypermethylation of tumour suppressors); others excessively activate transcription factors such as NF-κB, causing chaotic cell multiplication."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Initial destabilisation process"
+    },
+    {
+      "type": "paragraph",
+      "text": "Researchers have shown that the first stage could be destabilisation of double-stranded DNA. Carcinogenic substances and free radicals break hydrogen bonds between the two strands, exposing sensitive sites. These sites then become targets for new mutations or toxin binding. Gradually, DNA fragments, loses bases and essential genes are altered."
+    },
+    {
+      "type": "paragraph",
+      "text": "This process explains why cancer is often linked to repeated exposures: tobacco, chemicals, radiation, unbalanced nutrition. Each injury weakens DNA and increases the probability of a critical mutation."
+    },
+    {
+      "type": "paragraph",
+      "text": "A cell's malignant transformation therefore results from a chain of genetic abnormalities. An isolated mutation is insufficient; a sequence of events is needed: loss of protective genes, activation of dangerous genes, defective repair, survival of abnormal cells. Cancer thus appears as a disease of genetic regulation, where control mechanisms are progressively disabled. The cell becomes autonomous, escapes the body's rules and multiplies without limits."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Hereditary and acquired cancers"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cancer is a genetic disease, but hereditary and acquired cancers must not be confused. This distinction is essential to understanding disease mechanisms and prevention strategies."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Hereditary cancers"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cancer is termed hereditary when predisposition is written into the genetic inheritance transmitted by parents. In this case, a pathological mutation is present from conception in all the body's cells. The risk of developing cancer is then greatly increased, although disease does not invariably occur."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Frequency: hereditary cancers represent around 5 to 10% of all cancers.",
+        "Examples:",
+        "Retinoblastoma: 35% of cases are hereditary.",
+        "Medullary thyroid cancer: 35% of cases.",
+        "Breast cancer: around 7% of cases.",
+        "Colon cancer: around 4% of cases."
+      ],
+      "levels": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The responsible pathological genes are now well identified. For example, BRCA1 and BRCA2 mutations considerably increase breast and ovarian cancer risk. Normally protective, these genes lose their DNA-repair function and leave cells vulnerable to mutations."
+    },
+    {
+      "type": "paragraph",
+      "text": "Inheritance may be dominant (one mutated gene suffices to increase risk) or recessive (both gene copies must be mutated). In all cases, heredity creates favourable conditions, but other factors (environment, food, lifestyle) intervene to trigger disease."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Acquired cancers"
+    },
+    {
+      "type": "paragraph",
+      "text": "Acquired cancers constitute the great majority: 90 to 95% of cases. Unlike hereditary cancers, they are not linked to a mutation present from birth, but to genetic abnormalities appearing during life."
+    },
+    {
+      "type": "paragraph",
+      "text": "These abnormalities often result from exposure to environmental factors:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Radiation (X-rays, nuclear radiation, sunlight).",
+        "Chemicals (benzene, asbestos, arsenic, tobacco).",
+        "Oncogenic viruses (papillomavirus, hepatitis viruses, Epstein-Barr).",
+        "Bacteria such as Helicobacter pylori.",
+        "Modern food rich in cooked fats, refined sugars and industrial products."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Acquired cancers do not involve a single pathological gene, but a combination of several abnormalities. Certain susceptibility genes contribute, but do not suffice alone: they simply make the body more vulnerable to external injury."
+    },
+    {
+      "type": "paragraph",
+      "text": "Free radicals provide a typical example. These unstable molecules, produced in excess by tobacco, pollution or unbalanced nutrition, damage DNA. If protective enzymes (superoxide dismutase, catalase, glutathione peroxidase) are deficient, lesions accumulate and favour cancer development."
+    },
+    {
+      "type": "paragraph",
+      "text": "From the foregoing, the distinction between hereditary and acquired cancers shows that cancer is both a disease of genetic inheritance and a disease of environment."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "In hereditary cancers, mutation is present from birth and requires enhanced monitoring.",
+        "In acquired cancers, mutations appear progressively through external factors and can be prevented through an appropriate lifestyle."
+      ],
+      "levels": [
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "This understanding opens the way to integrative medicine: combining genetics (screening, identifying susceptibility genes) with environmental prevention (reducing harmful exposures, nutritional reform)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Cancer formation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cancer does not form in an instant: it results from a developing process marked by successive stages. Subjected to genetic and environmental injury, a normal cell progressively crosses thresholds leading towards malignancy. Cancer formation can be divided into three major phases: formation of the initial malignant cell, formation of the primary tumour and, finally, metastatic dissemination."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Formation of the initial malignant cell"
+    },
+    {
+      "type": "paragraph",
+      "text": "Genetic abnormalities appear successively. The cell does not become cancerous immediately:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "First mutation: the cell remains apparently normal, but tends towards excessive proliferation.",
+        "Second mutation: proliferation becomes more pronounced.",
+        "Third mutation: the cell changes shape and divides more rapidly.",
+        "Fourth mutation: the cell becomes truly malignant, escaping all control."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "This process can extend over several years. Two examples illustrate this progression:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Colon cancer: normal tissue → loss of APC → small benign polyp → mutation of the ras oncogene → large benign polyp → loss of p53 and DCC → invasive cancer.",
+        "Cerebral astrocytoma: normal tissue → loss of p53 → initial tumour → loss of genes on chromosome 9 → activation of genes encoding epidermal growth factor on chromosome 7 → loss of one copy of chromosome 10 → malignant astrocytoma."
+      ],
+      "levels": [
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Malignant cells probably appear frequently in the body, but are generally eliminated by the immune system (NK cells and CD8 T lymphocytes). Cancer arises when these surveillance mechanisms fail."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Formation of the primary tumour"
+    },
+    {
+      "type": "paragraph",
+      "text": "A cancer cell escaping immune surveillance multiplies to form a tumour. Several mechanisms explain this proliferation:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Alterations of protein tyrosine kinases (PTKs): they disrupt intracellular signal transmission.",
+        "Insensitivity to inhibitory signals: the cancer cell no longer responds to growth-stop signals.",
+        "Production of autocrine signals: it manufactures its own growth factors, stimulating proliferation.",
+        "Chaotic multiplication of mitoses: APC mutations causing multiple centrosomes and excess microtubules."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The tumour grows slowly at first, over several months or years, before becoming detectable by clinical examination, imaging or tumour-marker measurement. To exceed a few cubic millimetres, it must induce neoangiogenesis, meaning creation of new blood vessels supplying oxygen and nutrients."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Metastases"
+    },
+    {
+      "type": "paragraph",
+      "text": "Metastases represent cancer's main danger. They are secondary tumours formed at a distance from the primary tumour. Their formation involves several stages:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Loss of anchorage: cancer cells no longer need attachment to the extracellular matrix to survive.",
+        "Basement-membrane degradation: through proteolytic enzymes (metalloproteases, plasmin, cathepsin D).",
+        "Migration into connective tissue: facilitated by adhesion molecules (cadherins, integrins, selectins).",
+        "Local proliferation: accompanied by a stromal reaction and neoangiogenesis.",
+        "Entry into blood or lymphatic circulation: by breaching the vascular wall or through new capillaries.",
+        "Survival in the blood: fewer than one cell in 10,000 withstands immune defences.",
+        "Exit from circulation: adhesion to capillaries and implantation in new tissues (liver, lungs, bone).",
+        "Formation of a metastatic nodule: growth stimulated by growth factors and local vascularisation."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Breast cancer provides a striking example: malignant cells strongly express the CXCR4 receptor, which binds to CXCL12 chemokines produced abundantly by the lungs, bone marrow and liver. This is why breast cancer metastases preferentially locate in these organs."
+    },
+    {
+      "type": "paragraph",
+      "text": "As an overview: cancer formation is a dynamic, progressive process. It illustrates some cells' ability to escape control mechanisms, divert biological signals and colonise new territories. The primary tumour is already dangerous, but metastases represent the main cause of mortality."
+    },
+    {
+      "type": "paragraph",
+      "text": "Understanding these stages guides research towards targeted strategies: prevent malignant-cell formation, block tumour proliferation, inhibit neoangiogenesis and limit metastatic dissemination."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Environmental factors and cancers"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cancer is not solely the product of internal genetic mutations: it is also largely influenced by environmental factors. These external agents, whether physical, chemical, biological or dietary, play a decisive role in acquired cancers, representing nearly 90 to 95% of cases."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Radiation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ionising radiation is among the best-established causes of cancer."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Historical examples: survivors of the Hiroshima and Nagasaki atomic bombings showed a high incidence of leukaemias and solid cancers.",
+        "Occupational exposure: before protection improved, radiologists were more exposed to X-rays and developed more cancers.",
+        "Solar radiation: excessive ultraviolet exposure favours malignant melanoma, particularly in fair-skinned people."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Radiation directly damages DNA, causing strand breaks and irreversible mutations."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Chemicals"
+    },
+    {
+      "type": "paragraph",
+      "text": "Many chemical substances are recognised as carcinogenic:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Benzene: associated with haematological malignancies.",
+        "Asbestos: responsible for bronchopulmonary cancers and mesotheliomas of the pleura and peritoneum.",
+        "Arsenic: linked to skin, lung and liver cancers.",
+        "Tars and aromatic hydrocarbons: implicated in skin, lung and bladder cancers.",
+        "Nickel, iron oxide, vinyl chloride monomer: associated with various respiratory and liver cancers.",
+        "Tobacco: a true carcinogenic cocktail containing nitrosamines, benzopyrene and tars. It causes most lung cancers and also favours digestive tract cancers."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "These substances act by producing free radicals, altering DNA or disrupting enzymatic detoxification mechanisms."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Oncogenic viruses"
+    },
+    {
+      "type": "paragraph",
+      "text": "Certain viruses play a direct role in cancer development:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Epstein-Barr virus (EBV): implicated in Burkitt lymphoma and nasopharyngeal cancer.",
+        "Papillomaviruses (HPV 16 and 18): greatly increase cervical cancer risk.",
+        "Hepatitis B and C viruses: favour liver cancer.",
+        "HTLV-1: responsible for adult T-cell leukaemia.",
+        "Herpesvirus HHV8: implicated in Kaposi sarcoma and certain lymphomas.",
+        "HIV: indirectly carcinogenic through immunosuppression, favouring Kaposi sarcoma and lymphomas."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "These viruses insert their genetic material into host cells, disrupting regulatory genes and favouring proliferation."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Bacteria"
+    },
+    {
+      "type": "paragraph",
+      "text": "Certain bacteria are also implicated: Helicobacter pylori, able to survive in gastric mucus, causes chronic gastritis, ulcers and stomach cancers."
+    },
+    {
+      "type": "paragraph",
+      "text": "Radiation, chemicals, viruses and bacteria thus explain around one third of acquired cancers. The remaining two thirds are linked to more diffuse factors, notably modern food and metabolic waste accumulation. Cancer thus appears as a multifactorial disease in which environment plays as important a role as genetics."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prevention rests on reducing harmful exposures:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Limit tobacco and alcohol.",
+        "Protect the skin from sunlight.",
+        "Reduce occupational exposure to toxic substances.",
+        "Prevent and treat viral and bacterial infections.",
+        "Adopt protective nutrition."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "General conclusion"
+    },
+    {
+      "type": "paragraph",
+      "text": "Far from being inevitable, cancer now appears as a multifactorial disease combining genetic abnormalities and environmental factors. Contemporary research has improved understanding of cancer development's underlying mechanisms: oncogene activation, loss of suppressor genes, defective DNA repair, survival of abnormal cells through apoptosis inhibition, and telomerase activation conferring immortality on malignant cells. These processes, long mysterious, are now precisely described, offering avenues for diagnosis and treatment."
+    },
+    {
+      "type": "paragraph",
+      "text": "The distinction between hereditary and acquired cancers is fundamental. The former, rare, involve mutations transmitted from birth and require particular genetic monitoring. The latter, predominant, result from mutation accumulation during life, favoured by harmful exposures: radiation, chemicals, viruses, bacteria, but also modern food. This understanding highlights prevention's importance: it cannot be confined to genetics, but must incorporate lifestyle and reduced environmental injury."
+    },
+    {
+      "type": "paragraph",
+      "text": "Cancer formation illustrates a normal cell's slow drift towards malignancy: successive mutations, chaotic proliferation, primary tumour formation, then metastatic dissemination. Metastases represent the main cause of mortality because they colonise vital organs and often escape treatment. Research therefore pursues targeted strategies: block neoangiogenesis, inhibit growth signals, restore apoptosis, strengthen immune surveillance."
+    },
+    {
+      "type": "paragraph",
+      "text": "Finally, environmental factors remind us that cancer is also a disease of civilisation. Radiation, chemical substances, viral and bacterial infections explain a significant proportion of acquired cancers. But modern food, rich in cooked fats, refined sugars and industrial products, plays a major role in cellular accumulation and DNA weakening. Conversely, protective nutrition rich in fresh plant foods, virgin oils and gentle cooking helps reduce risk."
+    },
+    {
+      "type": "paragraph",
+      "text": "Family Clinic's central message is therefore twofold: understand to prevent and act to protect. Cancer is not inevitable: it results from a long process influenced by lifestyle choices on which everyone can act. Scientific knowledge combined with nutritional and environmental reform constitutes a powerful weapon for reducing cancer incidence and improving quality of life."
+    }
+  ],
+  "translation": {
+    "from": "fr",
+    "method": "AI-assisted translation",
+    "reviewStatus": "not-clinically-reviewed"
+  }
+}

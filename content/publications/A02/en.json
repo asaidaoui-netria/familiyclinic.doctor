@@ -1,0 +1,324 @@
+{
+  "language": "en",
+  "status": "published",
+  "title": "Traditional and modern diets",
+  "summary": "This booklet traces the author's account of dietary change from prehistory to modern food production. It examines domesticated grains, animal milk, cooking, refined oils and pollution as foundations of the Family Clinic approach to chronic disease.",
+  "sourceHash": "161da51ef99effafdde271e0e3e653980cc627f686844dcacb520223a5eac84c",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Foreword"
+    },
+    {
+      "type": "paragraph",
+      "text": "“Prehistoric humans cooking their food is a myth,” wrote Bruno Comby. Guy-Claude Burger added: “Under the pretext of survival, we destroy humus, the irreplaceable source of all plant and animal life.” Finally, H. P. Rusch warned: “Humanity will enter the biological era or cease to exist.” These three quotations sum up the spirit of this chapter: understanding the evolution of our diet to grasp the underlying causes of modern diseases."
+    },
+    {
+      "type": "paragraph",
+      "text": "For millions of years, humans consumed natural food similar to that of wild animals. Meat, fish, eggs, fruit, vegetables and wild seeds formed the bulk of their diet. Milk was exclusively breast milk and limited to childhood. Fire, invented 400,000 years ago, was not used for cooking until a recent period, around 10,000 years ago. Paleontological analyses show that Mesolithic people ate raw food. Their diet was rich in animal proteins, fiber, vitamins, potassium and calcium, but low in sodium and free of industrial sugars. This original nutrition was perfectly adapted to digestive enzymes and mucins, shaped by millions of years of natural selection."
+    },
+    {
+      "type": "paragraph",
+      "text": "The transition to the Neolithic overturned this balance. The domestication of grains, the raising of dairy animals and the cooking of food introduced new molecules, poorly recognized by our enzymes. Settled populations grew rapidly in number, supplanting nomadic gatherer-hunters. Wheat, barley, rice, corn and other domesticated grains took a central place in the diet. Animal milk, previously marginal, became commonplace. Cooking changed the structure of proteins and carbohydrates, generating isomers unknown in nature. These changes paved the way for new diseases linked to enzymatic and immune maladaptation."
+    },
+    {
+      "type": "paragraph",
+      "text": "The modern era has intensified these departures. The food industry introduced refined oils, chemical additives, pollutants and intensive livestock and crop farming methods. Globalization standardized diets, removing local adaptations. Vitamin and mineral deficiencies multiplied. Chronic diseases—allergies, Crohn's disease, polyarthritis, multiple sclerosis, depression and schizophrenia—spread, often correlated with wheat and corn consumption. Rice, closer to its original state, remains better tolerated, but other grains and animal milks pose major problems."
+    },
+    {
+      "type": "paragraph",
+      "text": "This chapter reminds us that the human body cannot safely assimilate every kind of food. Enzymatic adaptation is slow, sometimes impossible. Wheat and corn proteins, modified by selection and cooking, become harmful. Animal milk proteins differ profoundly from those in breast milk, causing intolerances and conditions. Darwinian logic requires a return to original nutrition, the only nutrition suitable for our enzymes and mucins."
+    },
+    {
+      "type": "paragraph",
+      "text": "This foreword opens the discussion: understanding dietary evolution means understanding the origin of modern diseases. Restoring an adapted diet means reconnecting with the biological balance that enabled the human species to survive."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Changes in diet through the ages"
+    },
+    {
+      "type": "paragraph",
+      "text": "The history of human food is a panorama that directly illuminates the origin of modern diseases. Understanding this journey, from prehistory to the contemporary era, helps explain why our body, shaped by millions of years of evolution, is now out of step with industrial foods."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Prehistory: the original balance"
+    },
+    {
+      "type": "paragraph",
+      "text": "For nearly five million years, from Homo habilis to Homo sapiens, humans lived as gatherer-hunters. Nomadic, they ate meat, fish, eggs, honey, fruit, vegetables and wild grains. The only milk consumed was the mother's, limited to childhood. Fire, invented around 400,000 years ago, was not used to cook food until a recent period, around 10,000 years ago. Paleontological analyses show that Mesolithic people ate raw food."
+    },
+    {
+      "type": "paragraph",
+      "text": "The distribution of nutrients differed profoundly from today's: three times as much protein, predominantly animal; fewer lipids, especially fewer saturated fats; carbohydrates without industrial sugars. Fiber was abundant and vitamins plentiful, particularly vitamin C, four times higher than in the twentieth century. Alcohol was unknown. This original diet was perfectly adapted to digestive enzymes selected through millions of years of evolution."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "The Neolithic: the break"
+    },
+    {
+      "type": "paragraph",
+      "text": "Around 9,000 years ago, a major upheaval occurred: settlement. Humans domesticated grains (wheat and barley), raised dairy animals and began cooking their food. This change brought a population explosion and the rapid spread of farming populations in Europe and elsewhere. Gatherer-hunters were pushed into marginal areas before adopting this way of life themselves."
+    },
+    {
+      "type": "paragraph",
+      "text": "The domestication of grains and introduction of animal milk brought new proteins, poorly recognized by our enzymes. Cooking generates new, sometimes toxic molecules, such as certain carbohydrate isomers. The ancestral balance was broken. Diseases linked to enzymatic maladaptation began to appear, although they remained rare in ancient societies."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "The modern era: industrialization"
+    },
+    {
+      "type": "paragraph",
+      "text": "For centuries, diet remained relatively stable. But the twentieth century marked a radical break with the rise of the food industry. Oils are refined, farm animals receive chemicals, and plants are grown with fertilizers and pesticides. Globalization standardizes diets, removing local adaptations. Vitamin and mineral deficiencies multiply."
+    },
+    {
+      "type": "paragraph",
+      "text": "Chronic diseases soar: allergies, autoimmune diseases, Crohn's disease, polyarthritis, multiple sclerosis, depression and schizophrenia. All are correlated with the consumption of wheat and corn, grains profoundly modified by selection and cooking. Rice, closer to its original state, remains better tolerated, but other grains and animal milks become major sources of disorders."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "The six major differences"
+    },
+    {
+      "type": "paragraph",
+      "text": "In summary, six changes distinguish modern diets from ancient diets:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "The massive consumption of domesticated grains.",
+        "The introduction of animal milks and their derivatives.",
+        "The widespread cooking of foods.",
+        "Oil refining.",
+        "Food pollution by additives and chemical residues.",
+        "Vitamin and mineral deficiencies."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "These differences explain why our enzymes, adapted to natural food, are now unable to metabolize many new molecules properly. Some genetic adaptations could occur over thousands of years, but for other molecules, too far removed from nature, no adaptation is possible."
+    },
+    {
+      "type": "paragraph",
+      "text": "The evolution of human diet thus shows a progressive break between original and modern nutrition. This discrepancy is at the origin of many chronic diseases. Darwinian logic requires a return to a diet adapted to our physiology, the only one capable of preserving health."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The problem of domesticated grains"
+    },
+    {
+      "type": "paragraph",
+      "text": "Grains now occupy a central place in the human diet. Yet their history and transformation reveal unsuspected dangers. Understanding their evolution, from the wild grasses our ancestors ate raw to modern varieties that are selected, hybridized and cooked, helps explain a large proportion of contemporary chronic diseases."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Definition and importance of grains"
+    },
+    {
+      "type": "paragraph",
+      "text": "The term “cereal” comes from Ceres, the Roman goddess of harvests. It refers to plants whose grains feed humans and animals. Wheat, barley, rye, oats, rice, millet, sorghum and corn are the main species. Most are grasses, with the exception of buckwheat. In prehistory, gatherer-hunters already consumed wild seeds rich in fiber and protein. Today, grains account for two thirds of the calories and half the proteins consumed by humanity. In nineteenth-century France, bread still supplied the bulk of caloric intake, with 600 g per person per day. Today, average consumption has fallen to 144 g."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "From wild grain to modern grain"
+    },
+    {
+      "type": "paragraph",
+      "text": "Grains have undergone profound transformations:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Initial selection: choosing varieties suitable for cultivation, such as those with sturdy ears.",
+        "Mass selection: sowing the largest grains, often carrying genetic mutations.",
+        "Hybridization: creating more vigorous and productive plants.",
+        "Transplantation: adaptation to new environments, leading to further selection."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Consumption methods have also changed. Prehistoric people ate grains whole and raw, with a cellulose-rich outer layer. Today, the bran is removed and given to animals, while humans eat the cooked grain. The result: much more starch, much less fiber, useful protein, vitamins and minerals. Cooking further changes the structure of the constituents, creating molecules foreign to our physiology."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Wheat"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wheat appeared 10,000 years ago in the Fertile Crescent. Its phylogenetic evolution led to complex polyploid varieties, such as common wheat (Triticum aestivum), hexaploid with 21 pairs of chromosomes. Bread, an emblematic food, combines starch and proteins forming gluten. Prolamins (gliadins and glutenins) are particularly problematic: insoluble, they escape complete digestion and become antigenic. Wheat is now the most widely cultivated grain in the world, ubiquitous in bread, pasta, pastries and biscuits."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Rice"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rice, of Asian and African origin, remains close to its wild state. It has a remarkable ability to return to its original form after agricultural manipulation. A staple food of Asians, it is better tolerated than wheat or corn. Its proteins, even when altered by cooking, provoke fewer immune reactions. Rice is the world's second most widely cultivated grain, after wheat."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Corn"
+    },
+    {
+      "type": "paragraph",
+      "text": "Corn, originating in Mexico, descends from teosinte. Its tiny ears were transformed through selection and hybridization into giant plants with large grains. A staple food of Indigenous peoples of the Americas, it led to deficiencies and increased vulnerability to infections. Today, it is used mainly for animal feed, but remains part of the human diet as flour, flakes, popcorn or sweet corn."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "The harmful effects of grains"
+    },
+    {
+      "type": "paragraph",
+      "text": "Many studies show the dangers of wheat and corn:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Reactivation of joint inflammation in rheumatoid arthritis.",
+        "Correlation between multiple sclerosis and grain consumption.",
+        "Celiac disease and dermatitis herpetiformis linked to gluten peptides.",
+        "Migraines triggered by wheat.",
+        "Involvement in juvenile diabetes.",
+        "A role in certain depressive disorders.",
+        "Correlation between schizophrenia and the consumption of wheat, barley and rye.",
+        "Crohn's relapses after reintroducing wheat or corn.",
+        "Decline of Indigenous American civilizations aggravated by a diet consisting almost exclusively of corn."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The danger comes from the structure of wheat and corn proteins, modified by selection and cooking. Our enzymes and mucins are not adapted to these molecules. Rice, by contrast, remains better tolerated."
+    },
+    {
+      "type": "paragraph",
+      "text": "As a result: Domesticated grains, far from being innocuous foods, constitute a major source of chronic disorders. Their genetic transformation and cooking make them incompatible with our physiology. Wheat and corn are particularly harmful, while rice retains relative harmlessness. Returning to an original diet low in domesticated grains is an essential condition for preventing and treating modern diseases."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Cooking and other modern departures"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Cooking: a radical transformation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cooking food, which appeared around 10,000 years ago, is one of the major upheavals in dietary history. Prehistoric people consumed their foods raw and whole, rich in fiber, vitamins and natural enzymes. By altering the structure of proteins, carbohydrates and lipids, cooking introduced new molecules foreign to our physiology. Carbohydrate isomers created by heat, such as “L” carbohydrates that are mirror images of natural “D” carbohydrates, cannot be properly metabolized by our enzymes. Denatured proteins become antigenic, triggering immune reactions. Heated fats produce oxidized compounds, promoting waste accumulation and cardiovascular diseases. Cooking also destroys some vitamins and enzymes, depriving the body of its natural aids to digestion and protection."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Oil refining"
+    },
+    {
+      "type": "paragraph",
+      "text": "In the past, oils were obtained by mechanical pressing, preserving their essential fatty acids and antioxidants. Modern industry refines them at high temperatures, deodorizes them, bleaches them and turns them into hydrogenated margarines. These processes alter their structure, create trans fatty acids and reduce their biological value. Refined oils become sources of metabolic disorders, promoting atherosclerosis, chronic inflammation and immune disorders."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Food pollution"
+    },
+    {
+      "type": "paragraph",
+      "text": "Intensive crop and livestock farming introduces chemical residues into our food: pesticides, herbicides, fertilizers, antibiotics and growth hormones. Farm animals receive artificial feeds enriched with chemicals that end up in their flesh and milk. Plants grown on depleted soils lose some of their minerals and vitamins. Food pollution has become a daily reality, invisible but omnipresent, contributing to the rise in chronic diseases."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Vitamin and mineral deficiencies"
+    },
+    {
+      "type": "paragraph",
+      "text": "Modern food, refined and industrialized, is paradoxically rich in calories but poor in micronutrients. Fiber has been reduced by 90% compared with wild grains. Calcium, iron, magnesium and phosphorus are greatly diminished. Vitamins A, C and E are destroyed by cooking and refining. Micronutrient deficiencies weaken immunity and promote osteoporosis, neurological disorders and degenerative diseases. The illusion of abundant food conceals a worrying biological poverty."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Food globalization"
+    },
+    {
+      "type": "paragraph",
+      "text": "In the past, each region had a specific diet adapted to its environment. Today, globalization standardizes diets, removing local adaptations. Populations consume foods from every continent for which they have no enzymatic or immune adaptation. This phenomenon explains the explosion of allergies, autoimmune diseases and digestive disorders. The human body cannot safely assimilate every kind of food. Some genetic adaptations could occur over thousands of years, but for other molecules, too far removed from nature, no adaptation is possible."
+    },
+    {
+      "type": "paragraph",
+      "text": "In conclusion: Cooking, refining, pollution and globalization have profoundly transformed our diet. Modern foods, depleted and altered, have become sources of chronic disorders. The body, shaped by millions of years of natural nutrition, is out of step with these artificial foods. Returning to an original diet, raw or lightly cooked, rich in fiber, vitamins and minerals, and free of pollutants, is an essential condition for preserving health and preventing modern diseases."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "General conclusion"
+    },
+    {
+      "type": "paragraph",
+      "text": "The evolution of human diet reveals a progressive break between original and modern nutrition. For millions of years, humans consumed natural, raw food, rich in fiber, vitamins and minerals, perfectly adapted to their enzymes and immune system. The Neolithic introduced domesticated grains, animal milks and cooking, overturning this balance. The modern era, with industrialization and globalization, worsened these departures: oil refining, food pollution and micronutrient deficiencies."
+    },
+    {
+      "type": "paragraph",
+      "text": "The consequences are visible: soaring chronic, autoimmune, waste-accumulation and elimination diseases. Profoundly transformed wheat and corn emerge as major sources of disorders. Animal milk, foreign to our physiology, promotes allergies and digestive conditions. Cooking and refining destroy essential nutrients and create harmful molecules."
+    },
+    {
+      "type": "paragraph",
+      "text": "Darwinian logic requires a return to original nutrition, the only nutrition suitable for our enzymes and mucins. This return is not an archaism, but a biological and medical necessity. Restoring an adapted diet, raw or lightly cooked, rich in natural products and free of pollutants, means restoring the body's balance and preventing modern diseases."
+    },
+    {
+      "type": "paragraph",
+      "text": "This booklet from Éditions Family Clinic shows that human health is inseparable from the health of the planet. Original nutrition is a medicine of the terrain, active prevention and shared responsibility. It opens the way to lasting health and a more aware society."
+    },
+    {
+      "type": "paragraph",
+      "text": "This document is part of the Family Clinic protocol and complements the book Cuisiner pour guérir (Cooking to Heal, 2026). Together, they offer a scientific, preventive and curative approach capable of transforming health sustainably."
+    }
+  ],
+  "translation": {
+    "from": "fr",
+    "method": "AI-assisted translation",
+    "reviewStatus": "not-clinically-reviewed"
+  }
+}

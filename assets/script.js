@@ -27,7 +27,9 @@ document.addEventListener('DOMContentLoaded', function () {
     const anchorLinks = document.querySelectorAll('a[href^="#"]');
     anchorLinks.forEach(link => {
         link.addEventListener('click', function (e) {
-            if (this.classList.contains('skip-link')) return;
+            // Article contents use native fragment navigation for shareable URLs,
+            // keyboard focus, and IDs that cannot be used as CSS selectors.
+            if (this.classList.contains('skip-link') || this.closest('.publication-wrap')) return;
             const href = this.getAttribute('href');
             if (href !== '#') {
                 const target = document.querySelector(href);

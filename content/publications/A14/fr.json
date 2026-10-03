@@ -1,0 +1,424 @@
+{
+  "language": "fr",
+  "status": "published",
+  "title": "Alimentation Hypotoxique du Nourrisson (0–12 mois)",
+  "summary": "Ce fascicule propose une approche nutritionnelle hypotoxique adaptée aux nourrissons de 0 à 12 mois. Inspiré des savoirs traditionnels et des données médicales modernes, il accompagne les parents et les professionnels de santé dans la mise en place d’une alimentation protectrice, locale et naturelle. Les recettes, conseils pratiques et schémas visuels permettent d’intégrer progressivement une alimentation saine, respectueuse du microbiote et des besoins spécifiques du bébé.",
+  "sourceHash": "b5dc608a3746f0ad4c2168b50868dcbe80f7fe00f9616be78c92493967a3fd3a",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Avant-propos"
+    },
+    {
+      "type": "paragraph",
+      "text": "Au commencement de la vie, chaque souffle est promesse, chaque regard est découverte. Le nourrisson, fragile et lumineux, s’ouvre au monde par le premier langage qu’il reçoit : celui de la nourriture."
+    },
+    {
+      "type": "paragraph",
+      "text": "L’alimentation hypotoxique n’est pas seulement une science, elle est une caresse donnée au corps en croissance, une protection douce pour l’intestin qui s’éveille, une lumière vers l’avenir."
+    },
+    {
+      "type": "paragraph",
+      "text": "Elle invite à choisir des aliments purs, simples et locaux, à respecter les étapes naturelles de la diversification, à offrir des saveurs qui éveillent sans brusquer."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dans la couleur des légumes, dans la fluidité de l’eau, dans la tendresse des premiers repas, se dessine une pédagogie de l’amour : apprendre au nourrisson à goûter, à mastiquer, à grandir en harmonie."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ainsi, chaque assiette devient une petite œuvre d’art, chaque repas un poème silencieux où la santé se construit et où la vie célèbre son élan."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Principes de l’alimentation hypotoxique"
+    },
+    {
+      "type": "paragraph",
+      "text": "L’alimentation hypotoxique repose sur une idée simple : alléger le corps pour libérer la vitalité. Chez le nourrisson, elle consiste à privilégier les aliments naturels, non transformés, sans gluten ni produits laitiers, et à respecter le rythme digestif propre à chaque âge."
+    },
+    {
+      "type": "paragraph",
+      "text": "Cette approche favorise la tolérance intestinale, la croissance harmonieuse et la prévention des troubles inflammatoires précoces."
+    },
+    {
+      "type": "paragraph",
+      "text": "Principes de base :"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Introduire les aliments un par un.",
+        "Éviter les mélanges complexes avant 12 mois.",
+        "Préférer les cuissons douces et les textures lisses.",
+        "Observer les réactions digestives et cutanées."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Étapes clés de l’alimentation du nourrisson"
+    },
+    {
+      "type": "paragraph",
+      "text": "L’introduction alimentaire doit suivre le rythme biologique du bébé, en respectant la maturité de son système digestif et immunitaire. Chaque étape est une découverte : du lait maternel aux premières purées, puis aux textures plus variées. L’objectif est d’accompagner la tolérance et la curiosité gustative sans brusquer le corps."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Repères essentiels :"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "De 0 à 6 mois : allaitement exclusif, ou lait infantile adapté.",
+        "De 6 à 8 mois : introduction progressive des légumes doux et des fruits cuits.",
+        "De 8 à 12 mois : diversification élargie, textures plus épaisses, protéines végétales.",
+        "Après 12 mois : repas familiaux adaptés, sans gluten ni produits laitiers industriels"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Chaque cuillère est un pas vers l’autonomie."
+    },
+    {
+      "type": "paragraph",
+      "text": "L’alimentation devient un langage entre le corps et la nature."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Aliments à éviter"
+    },
+    {
+      "type": "paragraph",
+      "text": "Certains aliments peuvent perturber l’équilibre fragile du nourrisson et provoquer des réactions nocives."
+    },
+    {
+      "type": "paragraph",
+      "text": "Il est essentiel de les identifier pour préserver la santé digestive et immunitaire."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "À éviter absolument :"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Produits laitiers : lait de vache, yaourts, fromages.",
+        "Gluten : pain, biscuits, céréales à base de blé.",
+        "Sucres raffinés : bonbons, gâteaux, sodas.",
+        "Aliments ultra‑transformés : plats industriels, charcuteries.",
+        "Fruits secs et noix : risque d’étouffement."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Écarter l’inutile pour protéger l’essentiel."
+    },
+    {
+      "type": "paragraph",
+      "text": "Chaque choix d’aliment est une promesse de bienveillance."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Les premiers repas équilibrés"
+    },
+    {
+      "type": "paragraph",
+      "text": "Les premiers repas du nourrisson sont une étape clé : ils marquent le passage du lait à la découverte des saveurs. L’équilibre se construit autour de la simplicité : des aliments frais, des cuissons douces, et des associations naturelles qui respectent la physiologie digestive."
+    },
+    {
+      "type": "paragraph",
+      "text": "Principes de base :"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Introduire les aliments un par un, en observant la tolérance.",
+        "Privilégier les légumes racines et les fruits cuits.",
+        "Éviter le sel, le sucre et les mélanges complexes.",
+        "Favoriser les textures lisses et tièdes.",
+        "Servir les repas dans une ambiance calme et bienveillante."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Exemples de repas équilibrés :"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Purée de patate douce et carotte.",
+        "Compote de pomme et poire.",
+        "Crème de quinoa et courgette."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Soupe légère de légumes verts."
+    },
+    {
+      "type": "paragraph",
+      "text": "L’équilibre naît de la douceur et du respect du rythme."
+    },
+    {
+      "type": "paragraph",
+      "text": "Chaque repas est une rencontre entre la nature et la croissance."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "L’eau et les boissons adaptées"
+    },
+    {
+      "type": "paragraph",
+      "text": "L’eau est le premier aliment vital du nourrisson après le lait. Elle participe à la régulation de la température, à la digestion et à l’élimination des toxines. Choisir une eau pure et adaptée à l’âge est essentiel pour préserver l’équilibre minéral."
+    },
+    {
+      "type": "paragraph",
+      "text": "Principes à respecter :"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Utiliser une eau faiblement minéralisée, adaptée aux nourrissons.",
+        "Éviter les eaux gazeuses et les eaux riches en sodium.",
+        "Ne jamais sucrer l’eau ni y ajouter de sirops.",
+        "Proposer de petites quantités entre les repas, selon la soif.",
+        "En cas de chaleur ou de fièvre, augmenter légèrement les apports."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Boissons à éviter :"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Jus de fruits industriels.",
+        "Lait de vache ou boissons lactées.",
+        "Sodas et boissons sucrées.",
+        "Infusions non adaptées aux bébés."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "L’eau pure est le premier geste de bienveillance."
+    },
+    {
+      "type": "paragraph",
+      "text": "Elle relie la nature au corps en toute simplicité."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Les textures et les couleurs de l’assiette"
+    },
+    {
+      "type": "paragraph",
+      "text": "L’éveil alimentaire du nourrisson passe aussi par les sens : la vue, le toucher, l’odorat et le goût."
+    },
+    {
+      "type": "paragraph",
+      "text": "Varier les textures et les couleurs permet de stimuler la curiosité et de renforcer l’acceptation des aliments sains."
+    },
+    {
+      "type": "paragraph",
+      "text": "Principes à suivre :"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Introduire progressivement les textures : lisse, moulinée, puis écrasée.",
+        "Mélanger les couleurs naturelles : orange des carottes, vert des courgettes, jaune du maïs, rouge des pommes.",
+        "Éviter les colorants et les présentations artificielles.",
+        "Servir les repas dans des bols clairs pour valoriser les teintes naturelles.",
+        "Laisser l’enfant explorer avec les doigts : c’est une étape d’apprentissage sensoriel."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Exemples d’assiettes colorées :"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Purée de patate douce et brocoli.",
+        "Compote de pomme et fraise.",
+        "Crème de courgette et quinoa.",
+        "Écrasé de carotte et pois chiches."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "La couleur nourrit l’œil avant de nourrir le corps."
+    },
+    {
+      "type": "paragraph",
+      "text": "Chaque nuance est une promesse de vitalité."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "L’apprentissage du goût et de la mastication"
+    },
+    {
+      "type": "paragraph",
+      "text": "Manger est un acte sensoriel et affectif. Le nourrisson apprend à reconnaître les saveurs, à mastiquer, à savourer."
+    },
+    {
+      "type": "paragraph",
+      "text": "Chaque bouchée est une découverte qui prépare l’autonomie alimentaire."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Principes à respecter :"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Introduire les morceaux tendres dès que l’enfant tient bien assis.",
+        "Laisser le bébé toucher, sentir, goûter à son rythme.",
+        "Proposer des aliments variés : légumes cuits, fruits mûrs, céréales douces.",
+        "Éviter les pressions : la confiance et la curiosité guident l’apprentissage.",
+        "Encourager la mastication lente pour une digestion harmonieuse."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Exemples de repas d’apprentissage :"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Petits morceaux de carotte vapeur et de pomme fondante.",
+        "Boulettes de quinoa et courgette.",
+        "Purée épaisse de patate douce et pois chiches.",
+        "Compote tiède de fruits locaux."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Le goût s’éduque dans la tendresse et la patience."
+    },
+    {
+      "type": "paragraph",
+      "text": "Chaque repas est une rencontre entre la nature et la confiance."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Conclusion"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ce fascicule a voulu offrir aux parents et aux soignants une voie simple et protectrice : celle d’une alimentation hypotoxique, respectueuse du rythme naturel du nourrisson et de son microbiote en formation."
+    },
+    {
+      "type": "paragraph",
+      "text": "En privilégiant les saveurs locales, les textures douces et les gestes de transmission, nous posons les bases d’une santé durable, enracinée dans la confiance et la lumière du quotidien."
+    },
+    {
+      "type": "paragraph",
+      "text": "La nutrition du tout‑petit n’est pas seulement un acte biologique : elle est un langage d’amour, un héritage culturel et une promesse de vitalité."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ainsi, chaque repas devient une rencontre entre science et tradition, entre soin et tendresse."
+    },
+    {
+      "type": "paragraph",
+      "text": "Et dans le sourire d’un enfant rassasié, c’est la vie elle‑même qui célèbre la guérison, la paix et l’espérance."
+    }
+  ]
+}

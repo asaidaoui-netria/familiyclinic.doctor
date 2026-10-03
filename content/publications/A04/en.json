@@ -1,0 +1,846 @@
+{
+  "language": "en",
+  "status": "published",
+  "title": "Principles of the hypotoxic diet",
+  "summary": "A food-by-food guide to the author's hypotoxic diet, covering exclusions, cooking methods and alternatives. It discusses dairy, grains, meats, fish, fats, plant foods and drinks, with practical adaptations for Moroccan shopping, preparation and everyday meals.",
+  "sourceHash": "dfe47167f4e4c8edd0b51fade132bd69c025bdd3938f76f9eed768978bcfa6f5",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Foreword"
+    },
+    {
+      "type": "paragraph",
+      "text": "Since the dawn of humanity, humans have eaten what nature offered: fruit, vegetables, meat, fish, seeds and roots, consumed in their original state. This diet, adapted to our enzymes and biology, enabled entire generations to live in harmony with their environment."
+    },
+    {
+      "type": "paragraph",
+      "text": "The agricultural revolution, followed by industrialization, overturned this age-old balance. Mutated grains, animal milks, high-temperature cooking, refined oils and products polluted by additives and pesticides took over our plates. Far from being innocuous, these transformations introduced new molecules, often poorly tolerated by our body, and promoted the emergence of so-called diseases of civilization: allergies, digestive disorders, autoimmune diseases and metabolic conditions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Eating is more than feeding oneself: it is an act of life, a gesture of health, a way of caring for oneself. The hypotoxic diet—also called ancestral or original—is not a fad, but a recovered memory. It invites us to return to food that respects our physiology: raw or gently cooked foods, virgin oils, abundant fruit and vegetables, and non-mutated grains. Nutrition that protects, regenerates and accompanies life."
+    },
+    {
+      "type": "paragraph",
+      "text": "This booklet proposes a return to the principles of original, hypotoxic nutrition, based on simple, living, protective foods. It is a health-oriented approach: understanding the history of our diet, identifying the breaks that have taken us away from our biological needs, and rediscovering a path more respectful of our physiology."
+    },
+    {
+      "type": "paragraph",
+      "text": "Continuing the book Cuisiner pour guérir (Cooking to Heal, 2026), this Family Clinic guide offers a practical, educational approach: it illuminates the dangers of modern foods, proposes alternatives suited to the Moroccan context and invites everyone to reconnect with food that heals as much as it nourishes, enlightens as much as it satisfies. An invitation to rediscover the simple taste of things and restore the meal's primary value: an act of health and balance."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The foundations of the diet"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Exclusion of animal milks and their derivatives."
+    },
+    {
+      "type": "paragraph",
+      "text": "Cow's, goat's or sheep's milk was never designed for humans. Intended to nourish the young of each species, it becomes a source of imbalance for us: too rich in complex proteins, too laden with poorly assimilated calcium. The human body prefers to obtain calcium from green vegetables, dried fruit and nuts, or legumes, where it occurs in a gentle, bioavailable form."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Exclusion of mutated grains (wheat, corn)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Modern wheat and industrial corn are “artificial giants,” swollen with chromosomes and transformed by human hands. Their gluten and modified proteins tire the intestine, inflame the mucous membranes and disrupt immune balance. In contrast, rice, buckwheat and sesame retain their original simplicity and nourish without causing harm."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Exclusion of cooking above 110°C"
+    },
+    {
+      "type": "paragraph",
+      "text": "Excessive heat denatures food: it breaks down proteins, oxidizes fats and creates Maillard molecules toxic to our cells. Gentle cooking—steaming, covered cooking, poaching—respects the life of foods and preserves their vitamins. Eating raw or lightly cooked food means offering the body intact nutrients close to their natural state."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Exclusion of refined oils"
+    },
+    {
+      "type": "paragraph",
+      "text": "Industrial oils, heated and mistreated, lose their soul. They become opaque, depleted and sometimes dangerous liquids. By contrast, cold-pressed virgin oils retain the light of the seed: olive, walnut and rapeseed oils provide essential fatty acids that protect the heart and cells."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Limiting polluted products (preference for organic)"
+    },
+    {
+      "type": "paragraph",
+      "text": "The earth is generous, but our practices have burdened it with pesticides and heavy metals. Choosing organic foods means reducing exposure to toxic substances and reconnecting with respectful agriculture. It is a gesture of health as much as an ecological act."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Food-by-food analysis"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Animal milks"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cow's, goat's or sheep's milk is not intended for humans. Each milk is designed for the young of its species, but for us it becomes heavy, poorly digested and a source of imbalance. Derivatives (butter, cheeses, cream, ice cream and yogurts) must be prohibited without exception."
+    },
+    {
+      "type": "paragraph",
+      "text": "Some patients have tried replacing cow's milk with other animal milks (goat, sheep or mare), but no benefit was observed. All must be excluded, whatever their origin."
+    },
+    {
+      "type": "paragraph",
+      "text": "Contrary to widespread belief, eliminating dairy products does not cause calcium deficiency. Two major reasons explain this:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Calcium in cow's milk is abundant but poorly absorbed. The small intestine rejects most of it in insoluble form, eliminated in the stools. This phenomenon is even beneficial, because the quantities of calcium in cow's milk are too high for human needs.",
+        "Plant calcium is widely available in the soil and passed on through green vegetables, legumes, raw vegetables and fruit. These natural sources provide bioavailable calcium, assimilated gently and effectively by the body."
+      ],
+      "levels": [
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Eliminating animal milks thus frees the body from an unnecessary burden and avoids digestive, inflammatory and immune disorders. Plant calcium becomes the true ally of our bones and balance."
+    },
+    {
+      "type": "paragraph",
+      "text": "The original diet therefore recommends eating without animal milks, favoring plant sources of calcium that respect human physiology and strengthen vitality. This nutritional direction follows a logic of lasting health: it prevents metabolic imbalances, reduces chronic disease risks and promotes better everyday energy."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Grains"
+    },
+    {
+      "type": "paragraph",
+      "text": "Modern wheat has become a true monster. Its proteins, profoundly modified by centuries of selection and mutation, cause inflammation and tire the body. Gluten overloads the digestive system, and high-temperature cooking generates invisible toxic molecules. Bread, pasta, biscuits, pizzas, semolina and all wheat-based preparations must be removed. Wholegrain bread, often perceived as healthier, is actually worse: cooked more and richer in Maillard molecules, it intensifies imbalances."
+    },
+    {
+      "type": "paragraph",
+      "text": "Einkorn, a true ancient wheat, might be tolerated raw, but spelt bread baked at high temperatures is as harmful as wheat bread. Barley, rye and oats, although less transformed, belong to the same family and pose the same problems when eaten cooked. Beer, made from barley, has shown negative effects in some patients."
+    },
+    {
+      "type": "paragraph",
+      "text": "Corn, the second industrial colossus, has undergone major genetic changes. Its proteins have become dangerous, and its derivatives (cornflakes, popcorn and corn flour) must be banned."
+    },
+    {
+      "type": "paragraph",
+      "text": "By contrast, some grains remain faithful to their origins:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Rice, still close to its wild form, is almost always well tolerated. Whether white or wholegrain, it nourishes without harm.",
+        "Buckwheat, simple and robust, is widely permitted.",
+        "Sesame, rich and ancient, is a valuable ally."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "For African grains such as pearl millet, millet or sorghum, the danger lies mainly in mutated and cooked proteins, while their carbohydrates remain harmless."
+    },
+    {
+      "type": "paragraph",
+      "text": "The original diet thus recommends banning modern and processed grains and favoring ancient, simple, natural seeds. Rice, buckwheat and sesame become the grain pillars of a hypotoxic diet respectful of the body and its balance."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Meat"
+    },
+    {
+      "type": "paragraph",
+      "text": "Meat is an ambivalent food: it can be beneficial when eaten raw, but becomes harmful when cooked too long or too intensely. High heat generates Maillard molecules, mutagens and lipophilic toxins that disrupt the body."
+    },
+    {
+      "type": "paragraph",
+      "text": "These substances accumulate in fatty tissues and inhibit certain essential enzymes, particularly those involved in synthesizing omega-3 fatty acids, which protect against atherosclerosis and infections."
+    },
+    {
+      "type": "paragraph",
+      "text": "Eating raw meat (as tartare or carpaccio) respects the vitality of the flesh and preserves its nutritional qualities. For people unable to eat it raw, brief, gentle cooking may be tolerated, but grilling and frying should always be avoided."
+    },
+    {
+      "type": "paragraph",
+      "text": "The choice of meat is crucial. It must be of impeccable quality, purchased from a trusted seller. Lean meats are preferred to fatty ones because fats concentrate lipophilic waste and pollutants. The most suitable species are beef, veal, mutton and horse, which lend themselves readily to raw consumption. Lamb and pork, often from artificial farming systems, are discouraged. Poultry and rabbit, unappetizing raw, should be avoided."
+    },
+    {
+      "type": "paragraph",
+      "text": "Game, difficult to eat raw, may exceptionally be tolerated when rare, such as hare or wild boar. Organ meats pose the same problem: liver and kidneys are acceptable only with very brief cooking, blue-rare or rare."
+    },
+    {
+      "type": "paragraph",
+      "text": "In the original diet, meat is therefore not banned, but must be chosen with discernment and prepared respectfully. Raw or very lightly cooked, lean and of high quality, it becomes a source of pure energy adapted to the body. Intensely cooked, it becomes a toxic burden."
+    },
+    {
+      "type": "paragraph",
+      "text": "Returning to simple, natural consumption preserves health and reduces risks linked to modern excesses."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Charcuterie"
+    },
+    {
+      "type": "paragraph",
+      "text": "Charcuterie occupies a particular place in the original diet. Not all of it is banned: some products may be tolerated, others must be excluded. The distinction rests on preparation methods and quality."
+    },
+    {
+      "type": "paragraph",
+      "text": "Raw charcuterie (cured ham, dried sausage, chorizo, salami and figatelli) is allowed, provided it is made from quality products. Its preparation better respects the vitality of foods and limits the formation of toxic molecules. It must nevertheless be chosen with discernment: an artisanal product, carefully prepared, is preferable to industrial charcuterie saturated with additives."
+    },
+    {
+      "type": "paragraph",
+      "text": "By contrast, cooked charcuterie (cooked ham, pâté, rillettes, blood sausage and andouillette) is discouraged. Its prolonged cooking and high animal-fat content promote harmful substances. It becomes heavy, difficult to digest and a source of imbalance."
+    },
+    {
+      "type": "paragraph",
+      "text": "One exception deserves emphasis: foie gras. Goose and duck fat, renowned for its nutritional qualities, is considered beneficial. It contains protective fatty acids and appears to play a favorable role in preventing cardiovascular diseases. In some regions, such as the Gers, its consumption is associated with remarkable longevity, particularly among women who live to a hundred."
+    },
+    {
+      "type": "paragraph",
+      "text": "The hypotoxic diet thus does not condemn all charcuterie, but invites informed choices. Carefully selected raw products may be included in moderation. Cooked charcuterie, however, should be excluded to preserve health. Foie gras, consumed in moderation, remains a valuable exception, symbolizing a balance between pleasure and benefits."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Eggs"
+    },
+    {
+      "type": "paragraph",
+      "text": "The egg is a complete food, carrying life and vitality. But its value depends closely on how it is consumed. Raw, it retains all its nutritional richness; cooked too long, it loses much of its benefit and becomes laden with unwanted molecules."
+    },
+    {
+      "type": "paragraph",
+      "text": "The yolk, a concentration of essential nutrients, is considered a true nutritional pearl. It contains quality fatty acids, fat-soluble vitamins and essential minerals. Swallowed raw, it remains intact and perfectly assimilable. The white, composed mainly of albumin, is less interesting nutritionally and may be discarded by those who find it unappealing."
+    },
+    {
+      "type": "paragraph",
+      "text": "For those who do not wish to eat eggs raw, there are alternatives that respect their vitality:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Soft-boiled at a moderate temperature, an egg retains a supple texture and intact nutritional value.",
+        "In a runny omelet, lightly seared, it still retains some of its qualities."
+      ],
+      "levels": [
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Overcooked eggs (hard-boiled, fried or prepared at high temperatures), however, become heavy and oxidized and lose their original value. They turn into denatured foods that generate toxins."
+    },
+    {
+      "type": "paragraph",
+      "text": "The hypotoxic diet therefore recommends favoring organic eggs from naturally raised hens and eating them raw or very lightly cooked. In this form, they provide pure energy, support growth, strengthen immunity and contribute to the body's overall balance."
+    },
+    {
+      "type": "paragraph",
+      "text": "The egg, a symbol of life, thus remains a valuable food when its simplicity is respected. Raw or lightly cooked, it becomes a major ally of the original diet, offering the body an authentic, lasting source of vitality."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Fish"
+    },
+    {
+      "type": "paragraph",
+      "text": "Like meat, fish reveals its full value when eaten raw or very lightly cooked. Its delicate, nutrient-rich flesh retains its original freshness and protective qualities as long as it is not altered by excessive cooking."
+    },
+    {
+      "type": "paragraph",
+      "text": "Raw fish can seem unappetizing when presented without preparation. Yet it becomes a refined dish when carefully prepared. Japanese and Tahitian culinary traditions offer magnificent examples: thin slices of salmon or tuna marinated in lemon juice, enhanced with olive oil and scented with coriander, dill or basil. This simple, natural preparation preserves the benefits of fish while making it delicious."
+    },
+    {
+      "type": "paragraph",
+      "text": "When cooking is necessary, it should remain gentle and respectful. Light steaming is ideal: it softens the flesh without denaturing it, preserving essential fatty acids and proteins. Grilling, frying or high-temperature cooking, however, generates toxins and destroys some nutrients."
+    },
+    {
+      "type": "paragraph",
+      "text": "The choice of fish is also decisive. In a world where industrial pollution affects seas and rivers, finding fish entirely free of contaminants is an illusion. However, certain criteria bring us closer to the original state:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Favor sea fish rather than river fish, which are more exposed to local pollution.",
+        "Choose wild fish rather than farmed fish, which are often artificially fed and less rich in natural nutrients.",
+        "Ensure freshness by buying from reliable sellers attentive to quality."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Fish thus occupies an essential place in the hypotoxic diet. Raw or lightly cooked, simply prepared and chosen with discernment, it becomes a protective food rich in omega-3, light proteins and essential minerals. It supports cardiovascular health, strengthens immunity and provides pure energy."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Seafood"
+    },
+    {
+      "type": "paragraph",
+      "text": "Seafood (crustaceans, mollusks and shellfish) occupies a privileged place in the original diet. It is considered pure food, rich in minerals and trace elements, and perfectly adapted to the human body. Its consumption, especially raw, brings vitality and balance."
+    },
+    {
+      "type": "paragraph",
+      "text": "Shellfish such as oysters, mussels, clams and scallops are particularly recommended. Their tender flesh and richness in zinc, iron, calcium and iodine make them nutritional treasures. Eaten raw, they preserve all their qualities and stimulate the immune system. They are also a valuable source of light proteins, easy to digest and perfectly assimilable."
+    },
+    {
+      "type": "paragraph",
+      "text": "Crustaceans (shrimp, langoustines and crabs) provide a variety of essential nutrients. Eating them raw or lightly cooked preserves their freshness and nutritional value. Mollusks such as squid or octopus can be included in moderation, preferably prepared simply without excessive cooking."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vigilance remains necessary: seafood quality and freshness must be impeccable. Suspect shellfish or spoiled products must be avoided because they can carry bacteria or parasites. Choosing a reliable, attentive seller is therefore essential to ensure food safety."
+    },
+    {
+      "type": "paragraph",
+      "text": "Within the hypotoxic diet, seafood represents a valuable alternative to meats and modern grains. It provides protective fatty acids, light proteins and minerals essential to proper bodily function. Regular consumption, respecting rules of freshness and preparation, helps strengthen vitality and maintain nutritional balance."
+    },
+    {
+      "type": "paragraph",
+      "text": "Seafood, consumed raw or very lightly cooked, thus becomes a major ally of the ancestral diet. It embodies simple, natural, protective nutrition faithful to the original spirit of the hypotoxic method."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Green vegetables"
+    },
+    {
+      "type": "paragraph",
+      "text": "Green vegetables form one of the pillars of the original diet. All are allowed and recommended: artichoke, asparagus, eggplant, avocado, beetroot, broccoli, mushrooms, cauliflower, green cabbage, red cabbage, zucchini, spinach, fennel, green beans, turnip, leek, salsify and exotic vegetables. Their diversity offers a palette of flavors and colors enriching everyday meals."
+    },
+    {
+      "type": "paragraph",
+      "text": "However, their often hard texture makes it difficult to eat them entirely raw. To preserve nutritional qualities while making them digestible, gentle steaming, covered cooking or a pressure cooker is advised. These cooking methods respect vegetable vitality, avoid vitamin destruction and limit the formation of harmful molecules. Unlike grilling or high-temperature cooking, gentle steaming preserves freshness and color while making vegetables tender and enjoyable to eat."
+    },
+    {
+      "type": "paragraph",
+      "text": "Green vegetables are rich in fiber, minerals and antioxidants. They help maintain the body's acid-base balance, promote digestion and strengthen the immune system. Regular consumption helps prevent chronic diseases, protect the heart and support overall vitality."
+    },
+    {
+      "type": "paragraph",
+      "text": "Within the hypotoxic diet, they should occupy a central place in every meal. Combined with raw vegetables, fresh fruit and legumes, they form a solid nutritional base respectful of human physiology. Their abundance and variety make it possible to create balanced, colorful, flavorful menus while remaining faithful to the ancestral spirit."
+    },
+    {
+      "type": "paragraph",
+      "text": "Green vegetables, carefully prepared and eaten daily, thus become indispensable allies of health. They embody nature's simplicity and strength, offering the body pure, lasting energy."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Dried pulses"
+    },
+    {
+      "type": "paragraph",
+      "text": "Legumes form an essential family of foods in the original diet. They include chickpeas, lentils, white or red beans, broad beans, peas, sweet potato, quinoa, soy and cassava (tapioca). These seeds, rich in plant proteins, fiber and minerals, offer a source of deep, lasting nutrition."
+    },
+    {
+      "type": "paragraph",
+      "text": "Regular consumption provides natural satiety and supports the body in its vital functions. They are particularly suited to replacing modern grains, often harmful, and balancing daily energy intake. Legumes also help maintain acid-base balance because they are less acidifying than meats or dairy products."
+    },
+    {
+      "type": "paragraph",
+      "text": "Cooking plays a decisive role. Too hard to eat raw, they must be gently steamed or cooked covered, like green vegetables. This cooking method respects their vitality, preserves nutrients and makes them digestible. Unlike harsh cooking, it avoids toxic molecules and retains the seeds' natural richness."
+    },
+    {
+      "type": "paragraph",
+      "text": "Soy occupies a particular place. Soy milk and soy yogurts are good substitutes for dairy products, replacing prohibited cow's milk and its derivatives. However, consumption should remain moderate because soy has certain drawbacks when consumed in excess."
+    },
+    {
+      "type": "paragraph",
+      "text": "Legumes are also a valuable source of slow-release carbohydrates, essential for athletes and active people. They release energy gradually, supporting effort and avoiding blood sugar spikes. Combined with green and raw vegetables, they form a solid base for balanced, protective meals."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dried pulses or legumes, carefully prepared and eaten regularly, thus become pillars of the hypotoxic diet."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Raw vegetables"
+    },
+    {
+      "type": "paragraph",
+      "text": "Raw vegetables represent the very essence of the original diet: biting into raw food means biting into life. They are simple, fresh, colorful and full of vitality. Carrot, tomato, cucumber, radish, green salad, celery, bell pepper, watercress, endive, lamb's lettuce, onion and melon: each raw vegetable is a direct offering from nature, consumed without processing or cooking, and therefore without nutrient loss."
+    },
+    {
+      "type": "paragraph",
+      "text": "Their richness in vitamins, minerals and fiber makes them protective foods. They support digestion, strengthen immunity and help maintain the body's acid-base balance. Raw vegetables are also a valuable source of antioxidants that fight free radicals and prevent cellular aging."
+    },
+    {
+      "type": "paragraph",
+      "text": "In the hypotoxic diet, they should occupy a central place at every meal. They bring freshness and lightness, balance the richer contribution of legumes or animal proteins, and encourage varied, colorful eating. Regular consumption helps prevent chronic diseases and maintain lasting energy."
+    },
+    {
+      "type": "paragraph",
+      "text": "Their simple preparation is a major asset: carefully wash them and eat them as they are, or season lightly with cold-pressed virgin oils, lemon or aromatic herbs. This approach respects their vitality and natural flavor."
+    },
+    {
+      "type": "paragraph",
+      "text": "Raw vegetables thus embody the purity and strength of the ancestral diet. They are pillars of healthy, living, protective nutrition, offering the body immediate energy and incomparable freshness."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Fresh fruit"
+    },
+    {
+      "type": "paragraph",
+      "text": "Fresh fruit is at the heart of the original diet. It represents nature's purest expression: colorful, fragrant, rich in slow-release sugars and vitamins, it brings energy and joy to every meal. Apricots, apples, pears, oranges, grapes, strawberries, raspberries, cherries, peaches, mangoes, pomegranates, blueberries, watermelons and pineapples: fruit diversity allows varied pleasures while gently nourishing the body."
+    },
+    {
+      "type": "paragraph",
+      "text": "Its richness in fructose, a slowly metabolized sugar, makes it an ideal energy source. Unlike fast-release sugars from refined products, fruit fructose is assimilated gradually, avoiding blood sugar spikes and supporting physical effort. Athletes find in fruit a natural reserve that improves performance and endurance."
+    },
+    {
+      "type": "paragraph",
+      "text": "Fresh fruit is also a valuable source of fiber, which facilitates digestion and regulates bowel transit. It provides powerful antioxidants capable of neutralizing free radicals and protecting cells against premature aging. Regular consumption contributes to preventing cardiovascular diseases, cancer and metabolic imbalances."
+    },
+    {
+      "type": "paragraph",
+      "text": "In the hypotoxic diet, fruit should be consumed daily, ideally at every meal. It can be combined with raw vegetables, green vegetables or legumes to create balanced, colorful menus. Its abundance and variety meet nutritional needs while providing pleasure and lightness."
+    },
+    {
+      "type": "paragraph",
+      "text": "Chestnuts are an exception: although eaten cooked, they remain permitted, as does chestnut flour, because they retain interesting nutritional value and fit harmoniously into the diet."
+    },
+    {
+      "type": "paragraph",
+      "text": "Fresh fruit thus embodies the vitality and simplicity of the ancestral diet. It is an indispensable ally for maintaining balance, strengthening immunity and offering the body pure, lasting energy. Regular consumption invites us to reconnect with nature and rediscover living, protective, joyful nutrition."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Dried fruit and nuts"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dried fruit and nuts occupy an important place in the original diet. They concentrate nature's energy and offer exceptional nutritional richness. Almonds, walnuts, hazelnuts, figs, dates, olives, raw peanuts, pine nuts and prunes: each of these foods is a reserve of vitality, provided it is consumed raw and unroasted."
+    },
+    {
+      "type": "paragraph",
+      "text": "Their value lies in their nutritional density. They provide quality fatty acids, plant proteins, fiber and a wide variety of minerals: magnesium, potassium, calcium and iron. These elements contribute to proper nervous system function, strengthen bones and support energy balance. Dried fruit and nuts are also rich in antioxidants, which protect cells against aging and external stresses."
+    },
+    {
+      "type": "paragraph",
+      "text": "In the hypotoxic diet, they are considered valuable allies, capable of replacing modern snacks that are often too sweet or processed. Regular consumption provides natural satiety and prevents cravings. They are an ideal energy source for athletes, growing children or active people."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vigilance is nevertheless necessary: dried fruit and nuts must be consumed in their most natural form. Roasted peanuts, for example, should be excluded in favor of raw peanuts because cooking destroys some nutrients and generates harmful molecules. Similarly, dried fruit and nuts coated in flour or refined sugar should be avoided."
+    },
+    {
+      "type": "paragraph",
+      "text": "Preserved fruit, such as prunes or dried dates, retains interesting nutritional value, but attention must be paid to its quality and preparation. It should remain simple, without artificial additions, to retain its protective role."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dried fruit, nuts and preserved fruit thus embody nature's concentrated strength. Consumed raw, carefully chosen and regularly included in the diet, they become pillars of the ancestral diet. They offer the body lasting energy, protection against modern imbalances and a natural sweetness that nourishes body and mind alike."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Sugars"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sugar is one of the most insidious enemies of our modern age. Refined, whitened and transformed, it invades our tables in many forms: confectionery, pastries, sodas, biscuits, industrial chocolates, ice cream, jams and syrups. Appealing in taste, these products are actually sweet poisons that tire the body and disrupt its balance."
+    },
+    {
+      "type": "paragraph",
+      "text": "White sugar, from beet or cane, is devoid of fiber, minerals and vitamins. It provides only sudden, rapidly assimilated energy, causing blood sugar spikes followed by sharp drops. This cycle of stimulation and fatigue exhausts the pancreas, promotes insulin resistance and opens the way to diabetes, obesity and cardiovascular diseases."
+    },
+    {
+      "type": "paragraph",
+      "text": "Refined sugars are also acidifying: they unbalance the internal environment, weaken bones and promote chronic inflammation. Regular consumption is associated with increased risks of cancer, digestive disorders and premature aging."
+    },
+    {
+      "type": "paragraph",
+      "text": "The original diet therefore recommends total exclusion of refined sugar and its derivatives. Confectionery, pastries and industrial desserts must be banned. Artificial sweeteners, often presented as alternatives, are not a solution: they disrupt metabolism and maintain dependence on sweetness."
+    },
+    {
+      "type": "paragraph",
+      "text": "However, certain natural sugars may be tolerated in moderation. Honey, consumed raw and unheated, retains its enzymes and antiseptic properties. Fresh fruit, rich in fructose, provides natural sweetness and gradual energy perfectly adapted to the body. Dried fruit such as dates or figs also offers a healthy alternative, concentrated in nutrients and fiber."
+    },
+    {
+      "type": "paragraph",
+      "text": "Refined sugar should thus be considered an intruder, foreign to the original human diet. Returning to natural sweetness (fruit, raw honey and dried fruit) satisfies the palate while respecting physiology. It is a way of rediscovering the simplicity, vitality and protection nature offers."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Oils"
+    },
+    {
+      "type": "paragraph",
+      "text": "Fats are a fundamental part of the diet, but their quality and mode of consumption determine their impact on health. In the original diet, they are not banned: on the contrary, some are indispensable, while others must be avoided."
+    },
+    {
+      "type": "paragraph",
+      "text": "Animal fats from fatty meats or cooked charcuterie concentrate lipophilic toxins and harmful molecules arising from high-temperature cooking. They become heavy, difficult to digest and promote chronic inflammation. Regular consumption is associated with cardiovascular and metabolic risks."
+    },
+    {
+      "type": "paragraph",
+      "text": "Conversely, some animal fats are considered beneficial. Goose and duck fat, for example, is rich in protective fatty acids. It appears to play a favorable role in preventing cardiovascular diseases and contributes to the longevity observed in some regions, such as the Gers, where foie gras is consumed in moderation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Plant fats occupy a central place in the hypotoxic diet. Cold-pressed virgin oils retain their essential fatty acids and vitamins. Olive, rapeseed, walnut and sesame oils are particularly recommended. They provide omega-3 and omega-6, essential for proper nervous system function, cardiovascular protection and inflammation regulation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Cooking must be monitored: virgin oils should not be heated to high temperatures because they lose their qualities and generate toxic molecules. They should be used raw, as dressings, or added after cooking to preserve their vitality."
+    },
+    {
+      "type": "paragraph",
+      "text": "Fats are therefore not enemies, but allies when chosen with discernment. Quality animal fats, consumed in moderation, and virgin plant oils, used raw, become pillars of the original diet. They provide energy, protection and balance while respecting human physiology."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Miscellaneous foods"
+    },
+    {
+      "type": "paragraph",
+      "text": "Miscellaneous foods include natural treasures that do not fit into the main conventional families but play an essential role in the hypotoxic diet."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Raw honey, a true nectar, is rich in enzymes, trace elements and antiseptic properties. It supports immunity, soothes mucous membranes and advantageously replaces refined sugar. It must be consumed without cooking because heat destroys its virtues.",
+        "Pollens are concentrates of life. They provide proteins, B vitamins, minerals and antioxidants. Regular consumption strengthens vitality, stimulates hormonal balance and supports the body's natural resistance.",
+        "Sprouted seeds embody life in motion. Sprouted wheat, alfalfa, lentils or chickpeas concentrate vitamins, enzymes and chlorophyll. They bring incomparable freshness to salads and energize everyday nutrition.",
+        "Finally, dark chocolate (at least 70% cocoa), consumed in moderation, remains a tolerated pleasure. Rich in magnesium and polyphenols, it stimulates the nervous system, improves mood and protects the heart."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "These miscellaneous foods complement the original diet by providing vitality, pleasure and balance while respecting human physiology."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Condiments"
+    },
+    {
+      "type": "paragraph",
+      "text": "Condiments are the discreet companions of meals. They enhance dishes and bring flavor and diversity without denaturing them."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Unrefined or sea salt, rich in minerals and trace elements, is recommended.",
+        "By contrast, refined salt, devoid of vitality, must be avoided because it tires the body and promotes water retention.",
+        "Pepper stimulates digestion and adds a spicy note.",
+        "Aromatic herbs (parsley, coriander, basil, thyme and rosemary) enrich dishes with their fragrances and medicinal virtues.",
+        "Spices such as cumin, ginger, turmeric or cinnamon provide warmth and protection: they are anti-inflammatory, digestive and sometimes antiseptic."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Used in moderation, these condiments allow varied flavors, avoid monotony and add a sensory dimension to food. They embody the simplicity and richness of the original diet."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Drinks"
+    },
+    {
+      "type": "paragraph",
+      "text": "Drinks are a fundamental aspect of the hypotoxic diet."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Water remains the queen of drinks. Pure, clear and still, it hydrates the body, supports vital functions and promotes toxin elimination.",
+        "Chicory, tea or coffee can accompany meals, but should be consumed in moderation. Chicory is gentle and digestive; tea, especially green tea, provides antioxidants; coffee stimulates but should not become an excessive habit.",
+        "Red wine, taken in small quantities, is recognized for its heart-protective virtues thanks to its polyphenols. It should remain an occasional pleasure, included with discernment.",
+        "Beer, however, is banned. Made from barley, it contains problematic proteins and produces negative effects on the body."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The original diet thus recommends restraint and discernment: favor water, tolerate certain drinks in moderation and ban those that harm balance."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Other dietary recommendations"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Avoid cooked food as much as possible"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cooking is a major chemical transformation of foods. The higher the temperature, the more it breaks molecular structures and generates invisible, sometimes harmful compounds."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Above 110°C: meats and fish become laden with toxins, oils oxidize and flavors are denatured. Maillard molecules, polycyclic aromatic hydrocarbons and isomers appear, increasing the risk of cancers and inflammatory diseases.",
+        "Extreme cooking (grilling, frying, barbecuing) reaches 300 to 700°C and produces powerful mutagenic substances.",
+        "Gentle cooking—light steaming, covered cooking, poaching—is a caress that respects the life of foods. It preserves vitamins, colors, enzymes and vital energy."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Eating raw or lightly cooked food means staying close to nature, reducing chronic inflammation and protecting the body."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Are there dangers in eating raw food?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Since Pasteur, fear of bacteria and parasites has taken hold. Yet our body already lives in a universe populated by billions of microorganisms."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "The stomach: its powerful acid destroys most intruders.",
+        "The healthy intestine: the few survivors struggle to find a place in balanced flora.",
+        "Parasites: rare, but there are two exceptions: liver fluke (in some wild watercress) and Trichinella (in pork or horse meat)."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The risk exists, but it is minimal. Choosing fresh, organic, quality foods further reduces this possibility."
+    },
+    {
+      "type": "paragraph",
+      "text": "The benefit is immense: eating raw reduces the risk of cancer or cardiovascular disease tenfold. It is a winning bet on life."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "The balance between alkaline and acidic"
+    },
+    {
+      "type": "paragraph",
+      "text": "Our body likes balance: its pH is slightly alkaline, around 7.4."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Excess acidic foods: fatigue, demineralization and chronic inflammation.",
+        "Alkalizing foods: green vegetables, raw vegetables and ripe fruit.",
+        "Acidifying foods: meats, fish, eggs, refined sugar, coffee, tea, alcohol, chocolate and mutated grains."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The hypotoxic diet favors alkalizing foods and limits acidifying ones. Balance is thus maintained naturally, without effort, and the body remains soothed. This acid-base balance is a key to longevity and prevention of modern diseases."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Other practical advice"
+    },
+    {
+      "type": "paragraph",
+      "text": "Canned foods: avoid them, because they often conceal industrial fats and oils."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Smoked products: consume sparingly because smoke generates carcinogenic substances (benzopyrenes).",
+        "Frozen foods: harmless if the food is compatible with the original diet. Freezing preserves the life of molecules.",
+        "Organic foods: favor them to reduce invisible pollution and rediscover true flavor.",
+        "Vigilance: check product ingredients because wheat and refined sugar slip in everywhere."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "This practical advice helps us remain faithful to the spirit of the original diet and avoid the traps of the modern food industry."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Meal composition"
+    },
+    {
+      "type": "paragraph",
+      "text": "A meal need not be heavy to be complete. Frugality is a key: eating little but well lightens the body's work and prolongs life."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Breakfast: raw honey, a moderate amount of dark chocolate, fresh fruit, dried fruit and nuts, chicory or tea.",
+        "Lunch: varied raw vegetables, green vegetables, nuts and oilseeds, colorful fruit.",
+        "Dinner: raw vegetables, legumes, a portion of raw or lightly cooked animal protein, fresh fruit."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "This simple organization respects biological rhythms, promotes light digestion and prevents metabolic overload."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Quantity of food"
+    },
+    {
+      "type": "paragraph",
+      "text": "Quality takes precedence over quantity."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Excessive meals: tire enzymes, overload the liver and accelerate aging.",
+        "Frugality: protects and regenerates. Animal experiments show that eating in moderation sometimes doubles lifespan."
+      ],
+      "levels": [
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "In humans: caloric restriction improves longevity, reduces inflammation and protects against chronic diseases. Eating less but better means offering the body rest, regeneration and increased longevity."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Measures complementing the diet"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Eliminate tobacco"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tobacco smoke is a toxic mist: it contains thousands of substances, dozens of which are carcinogenic. Every puff is a silent assault on the lungs, heart and blood vessels. It weakens, clogs and destroys. Giving up tobacco means offering the body a fresh breath. It restores purity to breathing and clarity to life."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Other lifestyle measures"
+    },
+    {
+      "type": "paragraph",
+      "text": "The hypotoxic diet is not an isolated island: it comes with an art of living."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Move every day, walk, breathe and feel your body in motion.",
+        "Sleep regularly, because rest is an invisible medicine.",
+        "Enjoy meals in peace, because digestion begins in serenity.",
+        "Share the table, because food is also a social bond, a shared joy.",
+        "Moderate alcohol, preferring red wine in small quantities, a discreet companion to the heart."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "In summary"
+    },
+    {
+      "type": "paragraph",
+      "text": "The hypotoxic diet is a path to overall health. It is not limited to what we put on our plates: it extends to our actions, choices and everyday life. Eliminating tobacco, favoring frugality and respecting sleep and movement complete the work begun through food. It is an invitation to live longer, but above all to live better: with a lighter body, a calmer mind and a life reconciled with nature."
+    }
+  ],
+  "translation": {
+    "from": "fr",
+    "method": "AI-assisted translation",
+    "reviewStatus": "not-clinically-reviewed"
+  }
+}

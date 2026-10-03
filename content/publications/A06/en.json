@@ -1,0 +1,504 @@
+{
+  "language": "en",
+  "status": "published",
+  "title": "Genetics explained simply",
+  "summary": "An accessible introduction to genes, DNA, RNA, protein production and mutations, using culinary and musical metaphors. The booklet connects inheritance, gene regulation and epigenetics with everyday habits and the Family Clinic approach to nutrition and health.",
+  "sourceHash": "85cf87a2c60e42193af557a028f49248651b6c132f13a527912f9238631b39dd",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Foreword"
+    },
+    {
+      "type": "paragraph",
+      "text": "Genetics is often seen as an abstract science, reserved for laboratories and researchers. Yet it concerns us all, every day, in our health, food and way of life. This booklet was designed to make this knowledge accessible to everyone, without jargon or unnecessary complexity—like a clear conversation between science and everyday life."
+    },
+    {
+      "type": "paragraph",
+      "text": "Our genetic makeup is a living inheritance. It is not limited to what we receive from our parents: it interacts with our environment, food, emotions and habits."
+    },
+    {
+      "type": "paragraph",
+      "text": "Within the hypotoxic diet, this understanding takes on its full meaning. Knowing our genes better means learning to respect them, nourish them healthily and protect them from stresses that alter their natural balance."
+    },
+    {
+      "type": "paragraph",
+      "text": "This guide continues the Family Clinic booklets: a humane, rational and physiological approach to health. It connects biology to real life, the cell to the table, and science to awareness."
+    },
+    {
+      "type": "paragraph",
+      "text": "Each chapter invites you to discover, step by step, how genetics shapes our body and how our choices can positively influence its expression."
+    },
+    {
+      "type": "paragraph",
+      "text": "May these pages awaken curiosity, strengthen trust in nature and remind us that health begins with knowledge—knowledge of ourselves, right into the heart of our cells."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Why talk about genetics?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Genetics is the science that explores the very foundations of life: it explains why we resemble our parents, why we have unique characteristics and how some diseases pass from one generation to another. Every cell in our body contains a true instruction book, written in the language of DNA. This code determines our eye color, the shape of our hands, our metabolism and even our sensitivity to certain substances or foods."
+    },
+    {
+      "type": "paragraph",
+      "text": "Darwin spoke of natural selection: useful variations are retained; others disappear. This idea, still relevant today, has been enriched by modern discoveries: we now know that our genes are not fixed. They interact with our environment, diet, lifestyle and even emotions. Genetics is therefore not limited to heredity: it is also living and dynamic. It adapts, regulates itself and responds to what we eat, breathe and feel."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "A concrete example"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Some people digest milk well; others do not. This difference comes down to a single gene: the one for lactase, the enzyme that breaks down lactose. In people whose gene is active, milk digestion is easy; in others, it has “switched off” over time because their ancestors no longer needed it. This simple example shows how evolution, culture and nutrition intertwine to shape our health."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Key points"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Our genes are a biological inheritance passed on by our parents.",
+        "They influence our health, differences and ability to adapt.",
+        "The environment and diet interact with them: they can activate or inhibit certain genes.",
+        "Understanding this interaction means regaining power over our health by acting on what we can control: our lifestyle."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The building blocks of life: DNA and RNA"
+    },
+    {
+      "type": "paragraph",
+      "text": "Imagine a giant library: every book contains the secrets of life. DNA (deoxyribonucleic acid) is this fundamental book: it contains all the recipes needed to build and operate our body. Every page corresponds to a precise instruction, a code determining our eye color, the shape of our cells or how our body responds to its environment."
+    },
+    {
+      "type": "paragraph",
+      "text": "But a book, however complete, cannot act alone. This is where RNA (ribonucleic acid), the messenger, comes in. It copies a recipe from the great book of DNA and takes it to the cell's workshops, where manufacturing begins. These workshops, called ribosomes, turn instructions into proteins, the true workers of life: they build, repair, transport and regulate everything happening in our body."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "A culinary metaphor"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "DNA is the chef: it holds all the recipes.",
+        "RNA is the waiter: it conveys the order.",
+        "The cell is the kitchen: it prepares the dish, the protein, according to the recipe received."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Every protein thus results from perfect collaboration between these three participants: knowledge, transmission and creation."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "A constant dialogue"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "DNA and RNA are not fixed: they communicate with the environment. Stress, food, light and emotions can influence how genes are expressed. This phenomenon, called epigenetics, shows that our lifestyle can activate or inhibit certain recipes in the great book of life. It is a subtle symphony between biology and behavior, between nature and nurture."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Did you know?"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "DNA is present in the cell nucleus, but also in mitochondria, the body's power plants."
+    },
+    {
+      "type": "paragraph",
+      "text": "RNA exists in three main forms:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Messenger (mRNA): carries instructions from DNA.",
+        "Ribosomal (rRNA): makes up ribosomes, the manufacturing workshops.",
+        "Transfer (tRNA): brings the ingredients needed to create proteins."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Together, they form the universal language of life, connecting all species on Earth."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Genes: our internal instructions"
+    },
+    {
+      "type": "paragraph",
+      "text": "A gene is a precise recipe in the great book of DNA. Each gene contains the instructions needed to make a protein or regulate a biological function. Some are active: they are expressed and produce proteins; others remain silent, waiting for a signal from the environment or body to become active. Thanks to them, we have blue or brown eyes, blond or brown hair, or a predisposition to certain metabolic reactions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Genes are the invisible architects of our body: they define structure, color, resistance and even how we respond to food, stress or medicines. But their expression is not fixed: it also depends on epigenetics, meaning the influence of our lifestyle, diet and environment on gene activity."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "A concrete example"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Blood groups depend on a gene on chromosome 9. Depending on the version (or allele) we carry (A, B or O), our blood expresses a different antigen on the surface of red blood cells. This small genetic variation is enough to determine compatibility between donor and recipient during a transfusion. A simple difference in a DNA sequence can thus have vital consequences."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "How genes work"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Every gene occupies a fixed position on a chromosome, called a locus. At this locus, we inherit two copies: one from our mother and one from our father."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "If both copies are identical, we are said to be homozygous.",
+        "If they are different, we are heterozygous. These combinations explain human diversity: no person has exactly the same set of active genes."
+      ],
+      "levels": [
+        0,
+        0
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Key points"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Each gene occupies a fixed position: the locus.",
+        "Homozygous = two identical copies of the same gene.",
+        "Heterozygous = two different versions of the gene.",
+        "Active genes produce proteins; silent genes wait for a signal to be expressed.",
+        "Epigenetics connects our genes to our lifestyle: what we eat, breathe and feel can influence their activity."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "From gene to protein: the recipe of life"
+    },
+    {
+      "type": "paragraph",
+      "text": "Genes are the invisible architects of our body: they contain instructions for making proteins, the true workers of life. Each protein plays an essential role: building tissues, transporting oxygen, defending against infections or regulating the body's chemical reactions. But how do we go from a gene to a protein? It is a fascinating, precise and orderly process, comparable to a molecular cooking recipe."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "The three main stages",
+        "Transcription. DNA, guardian of the genetic code, is copied into a temporary version called precursor messenger RNA. It is as if the chef (DNA) wrote a recipe on a piece of paper so assistants could follow it without touching the original book.",
+        "Processing. The message is cleaned up and corrected: unnecessary parts (introns) are removed and useful instructions (exons) joined together. The result is messenger RNA ready to be read. This stage ensures that the recipe is clear, without errors or repetitions.",
+        "Translation. Ribosomes, the cell's true workshops, read the message and assemble amino acids one by one, like beads on a thread, to form a protein. Every amino acid corresponds to a word in the code; together, they form a coherent sentence: the functional protein.",
+        "A metaphor"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Making a protein is like assembling a necklace of beads according to a precise pattern. Every bead represents an amino acid, and the order in which they are threaded determines the protein's shape and function. A single error in the sequence can change the color or size, or even break the necklace. This is how some genetic diseases arise."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Did you know?"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "A cell can make a protein in a few minutes, proof of the efficiency of life.",
+        "The central dogma of biology (DNA → RNA → Protein) has exceptions:",
+        "Some viruses use RNA as genetic material.",
+        "Prions are proteins capable of reproducing without DNA or RNA.",
+        "Cloning and gene therapy show that this dogma can be modulated by modern science."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Regulatory genes: the conductors"
+    },
+    {
+      "type": "paragraph",
+      "text": "Not all genes are expressed at the same time. Some are like conductors: they coordinate other genes' activity and decide when and how each gene should play its part. These regulatory genes activate or slow down the so-called structural genes, those that make proteins. Without them, there would be chaos: all proteins would be produced at once, without order or logic."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "A musical metaphor"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Imagine a symphony orchestra:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Violins play a gentle melody while trumpets remain silent.",
+        "Then, at the conductor's signal, brass instruments enter and strings fade away. Similarly, regulatory genes orchestrate cellular life: they activate some genes and let others rest according to the needs of the moment. Thanks to them, every cell knows what to do and when to do it."
+      ],
+      "levels": [
+        0,
+        0
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "An essential role in specialization"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "In our body, all cells contain the same DNA but do not use the same genes. A neuron and a liver cell have the same genetic makeup, yet their functions are entirely different. Why?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Because regulatory genes allow only the genes needed for each cell type to be expressed. They are the architects of silence and action, responsible for cellular specialization and the body's balance."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Key points"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Regulatory genes control the expression of other genes.",
+        "They explain cell differentiation: a liver cell does not express the same genes as a neuron.",
+        "They allow the body to adapt: activating certain genes in response to stress, infection or growth.",
+        "This regulatory system is comparable to a living score, played precisely at every moment."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "When genes change: mutations and errors"
+    },
+    {
+      "type": "paragraph",
+      "text": "Our genes are not fixed: they can change over time, sometimes by chance, sometimes under environmental influences (radiation, chemicals, oxidative stress and copying errors). These changes, called mutations, are both a source of diversity and the origin of some diseases. They are part of the great game of life: without mutation, there would be neither evolution nor adaptation; but some errors can disrupt biological balance."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "The main types of mutation",
+        "Point mutation. A single letter of the genetic code changes: for example, an A becomes a G. This can be enough to alter a protein's shape, like a typing error in a recipe that changes the dish's taste.",
+        "Deletion. A piece of DNA disappears. It is as if an entire line were missing from a recipe: the dish can no longer be prepared correctly.",
+        "Translocation. DNA fragments are mixed between chromosomes. Imagine two cookbooks exchanging pages: some recipes become incoherent, while others produce unexpected dishes.",
+        "Biological consequences"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "A mutation can make a protein ineffective, overly active or absent. Some are benign: they have no visible effect. Others are beneficial: they improve resistance to disease or a hostile environment. But some can be dangerous, disrupting cell growth or communication between cells."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Did you know?"
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Abnormalities in reproductive cells (eggs, sperm) can be passed on to children: they become hereditary.",
+        "In body cells, they are not passed on, but can cause cancers or metabolic disorders.",
+        "Some mutations are naturally repaired by specialized enzymes; others persist and lastingly alter the genetic code.",
+        "Mutations are both a risk and a driving force: they allow life to renew itself, but require a delicate balance between stability and change."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Conclusion:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Our genes are our biological inheritance: they tell the story of our ancestors and shape our identity. They make us unique, but also vulnerable: sensitive to errors, outside influences and our lifestyle choices."
+    },
+    {
+      "type": "paragraph",
+      "text": "Every cell carries a living memory within it, a constant dialogue between biology and the environment."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Understanding genetics means better understanding:"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "why we are different,"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "why certain diseases appear,"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "and how our habits (food, environment, emotions) can influence this inheritance."
+    },
+    {
+      "type": "paragraph",
+      "text": "Genetics is not an abstract science: it is a key to understanding our health and future. It reminds us that life is a delicate balance between stability and change, between inheritance and adaptation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Every gene, every mutation, every repair is a note in the great symphony of life."
+    }
+  ],
+  "translation": {
+    "from": "fr",
+    "method": "AI-assisted translation",
+    "reviewStatus": "not-clinically-reviewed"
+  }
+}

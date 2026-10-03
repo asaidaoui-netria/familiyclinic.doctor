@@ -1,0 +1,841 @@
+{
+  "language": "fr",
+  "status": "published",
+  "title": "Les principes du régime hypotoxique",
+  "summary": "Pendant des millions d’années, l’homme a vécu en harmonie avec une alimentation naturelle, adaptée à ses enzymes et à son environnement. La révolution agricole, puis l’industrialisation, ont bouleversé cet équilibre. Ce fascicule retrace l’histoire de notre nutrition et met en lumière les principes du régime hypotoxique : l’exclusion des laits animaux et des céréales mutées, la limitation des cuissons à haute température, le choix d’huiles vierges et d’aliments vivants, la recherche d’un équilibre acido‑basique respectueux de la physiologie humaine. Un guide clair, destiné à tous ceux qui souhaitent réconcilier santé, plaisir et alimentation.",
+  "sourceHash": "dfe47167f4e4c8edd0b51fade132bd69c025bdd3938f76f9eed768978bcfa6f5",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Avant‑propos"
+    },
+    {
+      "type": "paragraph",
+      "text": "Depuis l’aube de l’humanité, l’homme s’est nourri de ce que la nature lui offrait : fruits, légumes, viandes, poissons, graines et racines, consommés dans leur état originel. Cette alimentation, adaptée à nos enzymes et à notre biologie, a permis à des générations entières de vivre en harmonie avec leur environnement."
+    },
+    {
+      "type": "paragraph",
+      "text": "La révolution agricole, puis l’industrialisation, ont bouleversé cet équilibre millénaire. Les céréales mutées, les laits animaux, les cuissons à haute température, les huiles raffinées et les produits pollués par additifs et pesticides se sont imposés dans nos assiettes. Ces transformations, loin d’être anodines, ont introduit des molécules nouvelles, souvent mal tolérées par notre organisme, et favorisé l’émergence de maladies dites de civilisation : allergies, troubles digestifs, maladies auto‑immunes, pathologies métaboliques."
+    },
+    {
+      "type": "paragraph",
+      "text": "Manger n’est pas seulement se nourrir : c’est un acte de vie, un geste de santé, une manière de prendre soin de soi. Le régime hypotoxique – qu’on appelle aussi ancestral ou originel – n’est pas une mode, mais une mémoire retrouvée. Il nous invite à revenir vers une alimentation qui respecte notre physiologie : aliments crus ou doucement cuits, huiles vierges, fruits et légumes abondants, céréales non mutées. Une nutrition qui protège, qui régénère, qui accompagne la vie."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ce fascicule propose un retour aux principes d’une nutrition originelle et hypotoxique, fondée sur des aliments simples, vivants et protecteurs. Il s’agit d’une démarche de santé : comprendre l’histoire de notre alimentation, identifier les ruptures qui nous ont éloignés de nos besoins biologiques, et retrouver une voie plus respectueuse de notre physiologie."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dans la continuité du livre Cuisiner pour guérir (2026), ce guide Family Clinic offre une approche pratique et pédagogique : il éclaire les dangers des aliments modernes, propose des alternatives adaptées au contexte marocain, et invite chacun à renouer avec une alimentation qui soigne autant qu’elle nourrit, qui éclaire autant qu’elle rassasie. Une invitation à retrouver le goût simple des choses et à redonner au repas sa valeur première : celle d’un acte de santé et d’équilibre."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Les bases du régime"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Exclusion des laits animaux et dérivés."
+    },
+    {
+      "type": "paragraph",
+      "text": "Le lait de vache, de chèvre ou de brebis n’a jamais été conçu pour l’homme. Destiné à nourrir le petit de chaque espèce, il devient pour nous une source de déséquilibre : trop riche en protéines complexes, trop chargé en calcium mal assimilé. Le corps humain préfère puiser son calcium dans les légumes verts, les fruits secs ou les légumineuses, où il se présente sous une forme douce et biodisponible."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Exclusion des céréales mutées (blé, maïs)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Le blé moderne et le maïs industriel sont des « géants artificiels », gonflés de chromosomes et transformés par la main de l’homme. Leur gluten et leurs protéines modifiées fatiguent l’intestin, enflamment les muqueuses et perturbent l’équilibre immunitaire. À l’inverse, le riz, le sarrasin ou le sésame conservent leur simplicité originelle et nourrissent sans nuire."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Exclusion des cuissons au‑delà de 110 °C"
+    },
+    {
+      "type": "paragraph",
+      "text": "La chaleur excessive dénature les aliments : elle brise les protéines, oxyde les graisses et engendre des molécules de Maillard, toxiques pour nos cellules. La cuisson douce – vapeur, étouffée, pochée – respecte la vie des aliments et préserve leurs vitamines. Manger cru ou légèrement cuit, c’est offrir au corps des nutriments intacts, proches de leur état naturel."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Exclusion des huiles raffinées"
+    },
+    {
+      "type": "paragraph",
+      "text": "Les huiles industrielles, chauffées et malmenées, perdent leur âme. Elles deviennent des liquides opaques, appauvris, parfois dangereux. À l’inverse, les huiles vierges, pressées à froid, gardent la lumière de la graine : l’huile d’olive, de noix ou de colza apportent des acides gras essentiels, protecteurs du cœur et des cellules."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Limitation des produits pollués (préférence bio)"
+    },
+    {
+      "type": "paragraph",
+      "text": "La terre est généreuse, mais nos pratiques l’ont chargée de pesticides et de métaux lourds. Choisir des aliments biologiques, c’est réduire l’exposition aux toxiques, mais aussi renouer avec une agriculture respectueuse. C’est un geste de santé autant qu’un acte écologique."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Analyse aliment par aliment"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les laits animaux"
+    },
+    {
+      "type": "paragraph",
+      "text": "Le lait de vache, de chèvre ou de brebis n’est pas destiné à l’homme. Chaque lait est conçu pour le petit de son espèce, mais chez nous il devient lourd, mal digéré et source de déséquilibres. Les dérivés (beurre, fromages, crème, glaces, yaourts) doivent être proscrits sans exception."
+    },
+    {
+      "type": "paragraph",
+      "text": "Certains malades ont tenté de remplacer le lait de vache par d’autres laits animaux (chèvre, brebis, jument), mais aucun bénéfice n’a été constaté. Tous doivent être exclus, quelle que soit leur origine."
+    },
+    {
+      "type": "paragraph",
+      "text": "Contrairement à une croyance répandue, la suppression des produits laitiers n’entraîne pas de carence en calcium. Deux raisons majeures expliquent cela :"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Le calcium du lait de vache est abondant mais mal absorbé. L’intestin grêle en rejette la majorité sous forme insoluble, éliminée dans les selles. Ce phénomène est même bénéfique, car les quantités de calcium contenues dans le lait de vache sont trop fortes pour les besoins humains.",
+        "Le calcium végétal est largement disponible dans le sol et transmis par les légumes verts, les légumineuses, les crudités et les fruits. Ces sources naturelles apportent un calcium biodisponible, assimilé avec douceur et efficacité par l’organisme."
+      ],
+      "levels": [
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Ainsi, supprimer les laits animaux libère le corps d’un fardeau inutile et évite les troubles digestifs, inflammatoires et immunitaires. Le calcium végétal devient le véritable allié de nos os et de notre équilibre."
+    },
+    {
+      "type": "paragraph",
+      "text": "Le régime originel recommande donc une alimentation sans laits animaux, privilégiant les sources végétales de calcium, qui respectent la physiologie humaine et renforcent la vitalité. Cette orientation nutritionnelle s’inscrit dans une logique de santé durable : elle prévient les déséquilibres métaboliques, réduit les risques de maladies chroniques et favorise une meilleure énergie au quotidien."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les céréales"
+    },
+    {
+      "type": "paragraph",
+      "text": "Le blé moderne est devenu un véritable monstre. Ses protéines, profondément modifiées par des siècles de sélections et de mutations, provoquent des inflammations et fatiguent l’organisme. Le gluten surcharge le système digestif, et les cuissons à haute température génèrent des molécules toxiques invisibles. Le pain, les pâtes, les biscuits, les pizzas, les semoules et toutes les préparations à base de blé doivent être supprimés. Le pain complet, souvent perçu comme plus sain, est en réalité pire : plus cuit, plus riche en molécules de Maillard, il accentue les déséquilibres."
+    },
+    {
+      "type": "paragraph",
+      "text": "Le petit épeautre, véritable blé ancien, pourrait être toléré cru, mais le pain d’épeautre cuit à haute température est aussi nocif que le pain de blé. L’orge, le seigle et l’avoine, bien que moins transformés, appartiennent à la même famille et posent les mêmes problèmes lorsqu’ils sont consommés cuits. La bière, issue de l’orge, a montré des effets négatifs chez certains patients."
+    },
+    {
+      "type": "paragraph",
+      "text": "Le maïs, deuxième colosse industriel, a subi de grandes modifications génétiques. Ses protéines sont devenues dangereuses, et ses dérivés (corn flakes, pop corn, farine de maïs) doivent être bannis."
+    },
+    {
+      "type": "paragraph",
+      "text": "À l’inverse, certaines céréales demeurent fidèles à leur origine :"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Le riz, resté proche de sa forme sauvage, est presque toujours bien toléré. Qu’il soit blanc ou complet, il nourrit sans nuire.",
+        "Le sarrasin, simple et robuste, est largement permis.",
+        "Le sésame, riche et ancien, est un allié précieux."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Les céréales africaines comme le mil, le millet ou le sorgho, leur danger réside surtout dans les protéines mutées et cuites, tandis que leurs glucides restent inoffensifs."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ainsi, le régime originel recommande de bannir les céréales modernes et transformées, et de privilégier les graines anciennes, simples et naturelles. Le riz, le sarrasin et le sésame deviennent les piliers céréaliers d’une alimentation hypotoxique, respectueuse de l’organisme et de son équilibre."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les viandes"
+    },
+    {
+      "type": "paragraph",
+      "text": "La viande est un aliment ambivalent : elle peut être bénéfique lorsqu’elle est consommée crue, mais devient nocive lorsqu’elle est soumise à des cuissons trop longues ou trop intenses. En effet, la chaleur élevée génère des molécules de Maillard, des mutagènes et des toxines lipophiles qui perturbent l’organisme."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ces substances s’accumulent dans les tissus adipeux et inhibent certaines enzymes essentielles, notamment celles qui participent à la synthèse des acides gras oméga‑3, protecteurs contre l’athérosclérose et les infections."
+    },
+    {
+      "type": "paragraph",
+      "text": "La consommation de viande crue (sous forme de tartare ou de carpaccio) respecte la vitalité de la chair et permet de préserver ses qualités nutritives. Pour les personnes incapables de manger cru, une cuisson brève et douce peut être tolérée, mais toujours en évitant les grillades et les fritures."
+    },
+    {
+      "type": "paragraph",
+      "text": "Le choix de la viande est primordial. Elle doit être de qualité irréprochable, achetée chez un commerçant de confiance. Les viandes maigres sont préférées aux viandes grasses, car les graisses concentrent les déchets lipophiles et les polluants. Les espèces les plus adaptées sont le bœuf, le veau, le mouton et le cheval, qui se prêtent facilement à une consommation crue. L’agneau et le porc, souvent issus d’élevages artificiels, sont déconseillés. Les volailles et le lapin, peu appétissants crus, doivent être évités."
+    },
+    {
+      "type": "paragraph",
+      "text": "Les gibiers, difficiles à consommer crus, peuvent être tolérés exceptionnellement lorsqu’ils sont saignants, comme le lièvre ou le sanglier. Les abats posent le même problème : foie et rognons ne sont acceptables qu’à cuisson très brève, bleue ou saignante."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ainsi, dans le régime originel, la viande n’est pas bannie mais doit être choisie avec discernement et préparée avec respect. Crue ou très peu cuite, maigre et de qualité, elle devient une source d’énergie pure, adaptée à l’organisme. Cuite intensément, elle se transforme en fardeau toxique."
+    },
+    {
+      "type": "paragraph",
+      "text": "Le retour à une consommation simple et naturelle permet de préserver la santé et de réduire les risques liés aux excès modernes."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les charcuteries"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dans le régime originel, les charcuteries occupent une place particulière. Elles ne sont pas toutes bannies : certaines peuvent être tolérées, d’autres doivent être exclues. La distinction repose sur leur mode de préparation et leur qualité."
+    },
+    {
+      "type": "paragraph",
+      "text": "Les charcuteries crues (jambon cru, saucisson, chorizo, salami, figatelli) sont autorisées, à condition qu’elles soient issues de produits de qualité. Leur préparation respecte davantage la vitalité des aliments et limite la formation de molécules toxiques. Elles doivent cependant être choisies avec discernement : un produit artisanal, préparé avec soin, est préférable à une charcuterie industrielle saturée d’additifs."
+    },
+    {
+      "type": "paragraph",
+      "text": "À l’inverse, les charcuteries cuites (jambon cuit, pâté, rillettes, boudin, andouillette) sont déconseillées. Leur cuisson prolongée et leur forte teneur en graisses animales favorisent l’apparition de substances nocives. Elles deviennent lourdes, difficiles à digérer et sources de déséquilibres."
+    },
+    {
+      "type": "paragraph",
+      "text": "Une exception mérite d’être soulignée : le foie gras. La graisse d’oie et de canard, réputée pour ses qualités nutritives, est considérée comme bénéfique. Elle contient des acides gras protecteurs et semble jouer un rôle favorable dans la prévention des maladies cardiovasculaires. Dans certaines régions, comme le Gers, cette consommation est associée à une longévité remarquable, notamment chez les femmes centenaires."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ainsi, le régime hypotoxique ne condamne pas toutes les charcuteries, mais invite à un choix éclairé. Les produits crus, sélectionnés avec soin, peuvent être intégrés avec modération. Les charcuteries cuites, en revanche, doivent être écartées pour préserver la santé. Le foie gras, consommé avec mesure, reste une exception précieuse, symbole d’un équilibre entre plaisir et bienfaits."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les œufs"
+    },
+    {
+      "type": "paragraph",
+      "text": "L’œuf est un aliment complet, porteur de vie et de vitalité. Mais sa valeur dépend étroitement de la manière dont il est consommé. Cru, il conserve toute sa richesse nutritive ; cuit trop longtemps, il perd une grande partie de ses bienfaits et se charge de molécules indésirables."
+    },
+    {
+      "type": "paragraph",
+      "text": "Le jaune, concentré de nutriments essentiels, est considéré comme une véritable perle alimentaire. Il contient des acides gras de qualité, des vitamines liposolubles et des minéraux indispensables. Gobé cru, il reste intact et parfaitement assimilable. Le blanc, composé essentiellement d’albumine, est moins intéressant sur le plan nutritionnel et peut être écarté par ceux qui le trouvent peu ragoûtant."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pour ceux qui ne souhaitent pas consommer l’œuf cru, il existe des alternatives respectueuses de sa vitalité :"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "À la coque, cuit à température modérée, il garde une texture souple et une valeur nutritive intacte.",
+        "En omelette « baveuse », légèrement saisie, il conserve encore une partie de ses qualités."
+      ],
+      "levels": [
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "En revanche, les œufs trop cuits (durs, frits ou préparés à haute température) deviennent lourds, oxydés et perdent leur valeur originelle. Ils se transforment en aliments dénaturés, générateurs de toxines."
+    },
+    {
+      "type": "paragraph",
+      "text": "Le régime hypotoxique recommande donc de privilégier les œufs biologiques, issus de poules élevées naturellement, et de les consommer crus ou très peu cuits. Dans cette forme, ils apportent une énergie pure, soutiennent la croissance, renforcent l’immunité et participent à l’équilibre général de l’organisme."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ainsi, l’œuf, symbole de vie, demeure un aliment précieux lorsqu’il est respecté dans sa simplicité. Cru ou légèrement cuit, il devient un allié majeur du régime originel, offrant au corps une source de vitalité authentique et durable."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les poissons"
+    },
+    {
+      "type": "paragraph",
+      "text": "Le poisson, comme la viande, révèle toute sa valeur lorsqu’il est consommé cru ou très peu cuit. Sa chair, délicate et riche en nutriments, conserve sa fraîcheur originelle et ses qualités protectrices tant qu’elle n’est pas altérée par une cuisson trop forte."
+    },
+    {
+      "type": "paragraph",
+      "text": "Le poisson cru peut sembler peu appétissant lorsqu’il est présenté sans préparation. Pourtant, il devient un mets raffiné lorsqu’il est accommodé avec soin. Les traditions culinaires japonaises ou tahitiennes en offrent de magnifiques exemples : fines tranches de saumon ou de thon marinées dans du jus de citron, relevées d’huile d’olive et parfumées de coriandre, d’aneth ou de basilic. Ce type de préparation, simple et naturelle, conserve les bienfaits du poisson tout en le rendant savoureux."
+    },
+    {
+      "type": "paragraph",
+      "text": "Lorsqu’une cuisson est nécessaire, elle doit rester douce et respectueuse. La vapeur légère est idéale : elle ramollit la chair sans la dénaturer, préservant ses acides gras essentiels et ses protéines. Les grillades, fritures ou cuissons à haute température, en revanche, génèrent des toxines et détruisent une partie des nutriments."
+    },
+    {
+      "type": "paragraph",
+      "text": "Le choix du poisson est également déterminant. Dans un monde où la pollution industrielle affecte les mers et les rivières, il est illusoire de trouver des poissons totalement exempts de contaminants. Toutefois, certains critères permettent de se rapprocher de l’état originel :"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Privilégier les poissons de mer plutôt que ceux de rivière, plus exposés aux pollutions locales.",
+        "Choisir les poissons sauvages plutôt que ceux d’élevage, souvent nourris artificiellement et moins riches en nutriments naturels.",
+        "Veiller à la fraîcheur, en s’adressant à des commerçants fiables et attentifs à la qualité."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Ainsi, le poisson occupe une place essentielle dans le régime hypotoxique. Cru ou légèrement cuit, préparé avec simplicité et choisi avec discernement, il devient un aliment protecteur, riche en oméga‑3, en protéines légères et en minéraux indispensables. Il soutient la santé cardiovasculaire, renforce l’immunité et apporte une énergie pure."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les produits de mer"
+    },
+    {
+      "type": "paragraph",
+      "text": "Les produits de mer (crustacés, mollusques et coquillages) occupent une place privilégiée dans le régime originel. Ils sont considérés comme des aliments purs, riches en minéraux et en oligo‑éléments, et parfaitement adaptés à l’organisme humain. Leur consommation, surtout lorsqu’ils sont crus, apporte vitalité et équilibre."
+    },
+    {
+      "type": "paragraph",
+      "text": "Les coquillages tels que l’huître, la moule, la palourde ou encore la coquille Saint‑Jacques sont particulièrement recommandés. Leur chair tendre et leur richesse en zinc, fer, calcium et iode en font des trésors nutritionnels. Consommés crus, ils préservent toutes leurs qualités et stimulent le système immunitaire. Ils sont également une source précieuse de protéines légères, faciles à digérer et parfaitement assimilables."
+    },
+    {
+      "type": "paragraph",
+      "text": "Les crustacés (crevettes, langoustines, crabes) apportent une variété de nutriments essentiels. Leur consommation crue ou légèrement cuite conserve leur fraîcheur et leur valeur nutritive. Les mollusques, comme les calamars ou les poulpes, peuvent être intégrés avec modération, de préférence préparés simplement, sans cuisson excessive."
+    },
+    {
+      "type": "paragraph",
+      "text": "La vigilance reste nécessaire : la qualité et la fraîcheur des produits de mer doivent être irréprochables. Les coquillages douteux ou les produits avariés doivent être évités, car ils peuvent être vecteurs de bactéries ou de parasites. Le choix d’un commerçant fiable et attentif est donc essentiel pour garantir la sécurité alimentaire."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dans le cadre du régime hypotoxique, les produits de mer représentent une alternative précieuse aux viandes et aux céréales modernes. Ils apportent des acides gras protecteurs, des protéines légères et des minéraux indispensables au bon fonctionnement de l’organisme. Leur consommation régulière, en respectant les règles de fraîcheur et de préparation, contribue à renforcer la vitalité et à maintenir l’équilibre nutritionnel."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ainsi, les produits de mer, consommés crus ou très peu cuits, deviennent des alliés majeurs du régime ancestral. Ils incarnent une alimentation simple, naturelle et protectrice, fidèle à l’esprit originel de la méthode hypotoxique."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les légumes verts"
+    },
+    {
+      "type": "paragraph",
+      "text": "Les légumes verts constituent l’un des piliers du régime originel. Ils sont tous autorisés et recommandés : artichaut, asperge, aubergine, avocat, betterave, brocoli, champignons, chou‑fleur, chou vert, chou rouge, courgette, épinard, fenouil, haricot vert, navet, poireau, salsifis, ainsi que les légumes exotiques. Leur diversité offre une palette de saveurs et de couleurs qui enrichissent l’alimentation quotidienne."
+    },
+    {
+      "type": "paragraph",
+      "text": "Cependant, leur texture souvent dure rend difficile une consommation intégralement crue. Pour préserver leurs qualités nutritives tout en les rendant digestes, il est conseillé de les cuire à la vapeur douce, à l’étouffée ou dans une cocotte-minute. Ces modes de cuisson respectent la vitalité des légumes, évitent la destruction des vitamines et limitent la formation de molécules nocives. Contrairement aux grillades ou aux cuissons à haute température, la vapeur douce conserve la fraîcheur et la couleur des légumes, tout en les rendant tendres et agréables à consommer."
+    },
+    {
+      "type": "paragraph",
+      "text": "Les légumes verts sont riches en fibres, en minéraux et en antioxydants. Ils participent au maintien de l’équilibre acido‑basique de l’organisme, favorisent la digestion et renforcent le système immunitaire. Leur consommation régulière contribue à prévenir les maladies chroniques, à protéger le cœur et à soutenir la vitalité générale."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dans le cadre du régime hypotoxique, ils doivent occuper une place centrale dans chaque repas. Associés aux crudités, aux fruits frais et aux légumineuses, ils forment une base nutritionnelle solide, respectueuse de la physiologie humaine. Leur abondance et leur variété permettent de composer des menus équilibrés, colorés et savoureux, tout en restant fidèles à l’esprit ancestral."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ainsi, les légumes verts, préparés avec soin et consommés quotidiennement, deviennent des alliés indispensables de la santé. Ils incarnent la simplicité et la force de la nature, offrant au corps une énergie pure et durable."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les légumes secs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Les légumineuses constituent une famille d’aliments essentiels dans le régime originel. Elles regroupent les pois chiches, les lentilles, les haricots blancs ou rouges, les fèves, les pois, la patate douce, le quinoa, le soja et le manioc (tapioca). Ces graines, riches en protéines végétales, en fibres et en minéraux, offrent une source de nutrition profonde et durable."
+    },
+    {
+      "type": "paragraph",
+      "text": "Leur consommation régulière apporte une satiété naturelle et soutient l’organisme dans ses fonctions vitales. Elles sont particulièrement adaptées pour remplacer les céréales modernes, souvent nocives, et pour équilibrer l’apport énergétique quotidien. Les légumineuses participent aussi au maintien de l’équilibre acido‑basique, car elles sont moins acidifiantes que les viandes ou les produits laitiers."
+    },
+    {
+      "type": "paragraph",
+      "text": "La cuisson joue un rôle déterminant. Trop dures pour être consommées crues, elles doivent être préparées à la vapeur douce ou à l’étouffée, comme les légumes verts. Ce mode de cuisson respecte leur vitalité, préserve leurs nutriments et les rend digestes. Contrairement aux cuissons agressives, il évite la formation de molécules toxiques et conserve la richesse naturelle des graines."
+    },
+    {
+      "type": "paragraph",
+      "text": "Le soja occupe une place particulière. Le lait de soja et les yaourts de soja sont de bons substituts aux produits laitiers, permettant de remplacer le lait de vache et ses dérivés interdits. Toutefois, leur consommation doit rester modérée, car le soja présente certains inconvénients lorsqu’il est consommé en excès."
+    },
+    {
+      "type": "paragraph",
+      "text": "Les légumineuses sont également une source précieuse de sucres lents, indispensables pour les sportifs et les personnes actives. Elles libèrent leur énergie progressivement, soutenant l’effort et évitant les pics glycémiques. Associées aux légumes verts et aux crudités, elles forment une base solide pour des repas équilibrés et protecteurs."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ainsi, les légumes secs ou légumineuses, préparés avec soin et consommés régulièrement, deviennent des piliers du régime hypotoxique."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les crudités"
+    },
+    {
+      "type": "paragraph",
+      "text": "Les crudités représentent l’essence même du régime originel : croquer cru, c’est croquer la vie. Elles sont simples, fraîches, colorées et pleines de vitalité. Carotte, tomate, concombre, radis, salade verte, céleri, poivron, cresson, endive, mâche, oignon ou encore melon : chaque crudité est une offrande directe de la nature, consommée sans transformation, sans cuisson, et donc sans perte de nutriments."
+    },
+    {
+      "type": "paragraph",
+      "text": "Leur richesse en vitamines, minéraux et fibres en fait des aliments protecteurs. Elles soutiennent la digestion, renforcent l’immunité et participent au maintien de l’équilibre acido‑basique de l’organisme. Les crudités sont également une source précieuse d’antioxydants, qui luttent contre les radicaux libres et préviennent le vieillissement cellulaire."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dans le régime hypotoxique, elles doivent occuper une place centrale à chaque repas. Elles apportent fraîcheur et légèreté, équilibrent les apports plus riches des légumineuses ou des protéines animales, et favorisent une alimentation variée et colorée. Leur consommation régulière contribue à prévenir les maladies chroniques et à maintenir une énergie durable."
+    },
+    {
+      "type": "paragraph",
+      "text": "La simplicité de leur préparation est un atout majeur : il suffit de les laver soigneusement et de les consommer telles quelles, ou de les assaisonner légèrement avec des huiles vierges pressées à froid, du citron ou des herbes aromatiques. Cette approche respecte leur vitalité et leur saveur naturelle."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ainsi, les crudités incarnent la pureté et la force du régime ancestral. Elles sont les piliers d’une alimentation saine, vivante et protectrice, offrant au corps une énergie immédiate et une fraîcheur incomparable."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les fruits frais"
+    },
+    {
+      "type": "paragraph",
+      "text": "Les fruits frais sont au cœur du régime originel. Ils représentent l’expression la plus pure de la nature : colorés, parfumés, riches en sucres lents et en vitamines, ils apportent énergie et joie à chaque repas. Abricots, pommes, poires, oranges, raisins, fraises, framboises, cerises, pêches, mangues, grenades, myrtilles, pastèques ou encore ananas : la diversité des fruits permet de varier les plaisirs tout en nourrissant le corps avec douceur."
+    },
+    {
+      "type": "paragraph",
+      "text": "Leur richesse en fructose, sucre au métabolisme lent, en fait une source d’énergie idéale. Contrairement aux sucres rapides issus des produits raffinés, le fructose des fruits est assimilé progressivement, évitant les pics glycémiques et soutenant l’effort physique. Les sportifs trouvent dans les fruits une réserve naturelle qui améliore leurs performances et leur endurance."
+    },
+    {
+      "type": "paragraph",
+      "text": "Les fruits frais sont également une source précieuse de fibres, qui facilitent la digestion et régulent le transit intestinal. Ils apportent des antioxydants puissants, capables de neutraliser les radicaux libres et de protéger les cellules contre le vieillissement prématuré. Leur consommation régulière contribue à la prévention des maladies cardiovasculaires, des cancers et des déséquilibres métaboliques."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dans le régime hypotoxique, les fruits doivent être consommés quotidiennement, idéalement à chaque repas. Ils peuvent être associés aux crudités, aux légumes verts ou aux légumineuses pour composer des menus équilibrés et colorés. Leur abondance et leur variété permettent de satisfaire les besoins nutritionnels tout en apportant plaisir et légèreté."
+    },
+    {
+      "type": "paragraph",
+      "text": "La châtaigne constitue une exception : bien qu’elle soit consommée cuite, elle reste admise, tout comme sa farine, car elle conserve une valeur nutritive intéressante et s’intègre harmonieusement dans le régime."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ainsi, les fruits frais incarnent la vitalité et la simplicité du régime ancestral. Ils sont des alliés indispensables pour maintenir l’équilibre, renforcer l’immunité et offrir au corps une énergie pure et durable. Leur consommation régulière est une invitation à renouer avec la nature et à retrouver une alimentation vivante, protectrice et joyeuse."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les fruits secs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Les fruits secs occupent une place importante dans le régime originel. Ils concentrent l’énergie de la nature et offrent une richesse nutritive exceptionnelle. Amandes, noix, noisettes, figues, dattes, olives, arachides crues, pignons ou pruneaux : chacun de ces aliments est une réserve de vitalité, à condition d’être consommé cru et non grillé."
+    },
+    {
+      "type": "paragraph",
+      "text": "Leur valeur réside dans leur densité nutritionnelle. Ils apportent des acides gras de qualité, des protéines végétales, des fibres et une grande variété de minéraux : magnésium, potassium, calcium, fer. Ces éléments participent au bon fonctionnement du système nerveux, renforcent les os et soutiennent l’équilibre énergétique. Les fruits secs sont également riches en antioxydants, qui protègent les cellules contre le vieillissement et les agressions extérieures."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dans le régime hypotoxique, ils sont considérés comme des alliés précieux, capables de remplacer les collations modernes souvent trop sucrées ou transformées. Leur consommation régulière apporte une satiété naturelle et évite les fringales. Ils constituent une source d’énergie idéale pour les sportifs, les enfants en croissance ou les personnes actives."
+    },
+    {
+      "type": "paragraph",
+      "text": "La vigilance est toutefois nécessaire : les fruits secs doivent être consommés dans leur forme la plus naturelle. Les arachides grillées, par exemple, doivent être écartées au profit des arachides crues, car la cuisson détruit une partie des nutriments et génère des molécules nocives. De même, les fruits secs enrobés de farine ou de sucre raffiné doivent être évités."
+    },
+    {
+      "type": "paragraph",
+      "text": "Les fruits conservés, comme les pruneaux ou les dattes séchées, gardent une valeur nutritive intéressante, mais il faut veiller à leur qualité et à leur mode de préparation. Ils doivent rester simples, sans ajout artificiel, pour conserver leur rôle protecteur."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ainsi, les fruits secs et conservés incarnent la force concentrée de la nature. Consommés crus, choisis avec soin et intégrés régulièrement dans l’alimentation, ils deviennent des piliers du régime ancestral. Ils offrent au corps une énergie durable, une protection contre les déséquilibres modernes et une douceur naturelle qui nourrit autant le corps que l’esprit."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les sucres"
+    },
+    {
+      "type": "paragraph",
+      "text": "Le sucre est l’un des ennemis les plus insidieux de notre époque moderne. Raffiné, blanchi, transformé, il envahit nos tables sous des formes multiples : confiseries, pâtisseries, sodas, biscuits, chocolats industriels, glaces, confitures, sirops. Ces produits, séduisants par leur goût, sont en réalité des poisons doux qui fatiguent l’organisme et perturbent son équilibre."
+    },
+    {
+      "type": "paragraph",
+      "text": "Le sucre blanc, issu de la betterave ou de la canne, est dépourvu de fibres, de minéraux et de vitamines. Il n’apporte qu’une énergie brutale, rapidement assimilée, qui provoque des pics glycémiques suivis de chutes brutales. Ce cycle d’excitation et de fatigue épuise le pancréas, favorise la résistance à l’insuline et ouvre la voie au diabète, à l’obésité et aux maladies cardiovasculaires."
+    },
+    {
+      "type": "paragraph",
+      "text": "Les sucres raffinés sont également acidifiants : ils déséquilibrent le milieu intérieur, fragilisent les os et favorisent l’inflammation chronique. Leur consommation régulière est associée à une augmentation des risques de cancer, de troubles digestifs et de vieillissement prématuré."
+    },
+    {
+      "type": "paragraph",
+      "text": "Le régime originel recommande donc l’exclusion totale du sucre raffiné et de ses dérivés. Les confiseries, pâtisseries et desserts industriels doivent être bannis. Les édulcorants artificiels, souvent présentés comme des alternatives, ne sont pas une solution : ils perturbent le métabolisme et entretiennent la dépendance au goût sucré."
+    },
+    {
+      "type": "paragraph",
+      "text": "En revanche, certains sucres naturels peuvent être tolérés avec modération. Le miel, consommé cru et non chauffé, conserve ses enzymes et ses propriétés antiseptiques. Les fruits frais, riches en fructose, apportent une douceur naturelle et une énergie progressive, parfaitement adaptée à l’organisme. Les fruits secs, comme les dattes ou les figues, offrent également une alternative saine, concentrée en nutriments et en fibres."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ainsi, le sucre raffiné doit être considéré comme un intrus, étranger à l’alimentation humaine originelle. Le retour aux douceurs naturelles (fruits, miel cru, fruits secs) permet de satisfaire le palais tout en respectant la physiologie. C’est une manière de retrouver la simplicité, la vitalité et la protection qu’offre la nature."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les huiles"
+    },
+    {
+      "type": "paragraph",
+      "text": "Les graisses constituent un élément fondamental de l’alimentation, mais leur qualité et leur mode de consommation déterminent leur impact sur la santé. Dans le régime originel, elles ne sont pas bannies : au contraire, certaines sont indispensables, tandis que d’autres doivent être évitées."
+    },
+    {
+      "type": "paragraph",
+      "text": "Les graisses animales, lorsqu’elles proviennent de viandes grasses ou de charcuteries cuites, concentrent des toxines lipophiles et des molécules nocives issues des cuissons à haute température. Elles deviennent lourdes, difficiles à digérer et favorisent l’inflammation chronique. Leur consommation régulière est associée à des risques cardiovasculaires et métaboliques."
+    },
+    {
+      "type": "paragraph",
+      "text": "À l’inverse, certaines graisses animales sont considérées comme bénéfiques. La graisse d’oie et de canard, par exemple, est riche en acides gras protecteurs. Elle semble jouer un rôle favorable dans la prévention des maladies cardiovasculaires et contribue à la longévité observée dans certaines régions, comme le Gers, où le foie gras est consommé avec modération."
+    },
+    {
+      "type": "paragraph",
+      "text": "Les graisses végétales occupent une place centrale dans le régime hypotoxique. Les huiles vierges, pressées à froid, conservent leurs acides gras essentiels et leurs vitamines. L’huile d’olive, l’huile de colza, l’huile de noix ou encore l’huile de sésame sont particulièrement recommandées. Elles apportent des oméga‑3 et des oméga‑6, indispensables au bon fonctionnement du système nerveux, à la protection cardiovasculaire et à la régulation de l’inflammation."
+    },
+    {
+      "type": "paragraph",
+      "text": "La cuisson doit être surveillée : les huiles vierges ne doivent pas être chauffées à haute température, car elles perdent leurs qualités et génèrent des molécules toxiques. Elles doivent être utilisées crues, en assaisonnement, ou ajoutées après cuisson pour préserver leur vitalité."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ainsi, les graisses ne sont pas des ennemies, mais des alliées lorsqu’elles sont choisies avec discernement. Les graisses animales de qualité, consommées avec mesure, et les huiles végétales vierges, utilisées crues, deviennent des piliers du régime originel. Elles apportent énergie, protection et équilibre, tout en respectant la physiologie humaine."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Aliments divers"
+    },
+    {
+      "type": "paragraph",
+      "text": "Les aliments divers regroupent des trésors naturels qui ne se classent pas dans les grandes familles classiques, mais qui jouent un rôle essentiel dans le régime hypotoxique."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Le miel cru, véritable nectar, est riche en enzymes, oligo‑éléments et propriétés antiseptiques. Il soutient l’immunité, apaise les muqueuses et remplace avantageusement le sucre raffiné. Il doit être consommé sans cuisson, car la chaleur détruit ses vertus.",
+        "Les pollens sont des concentrés de vie. Ils apportent protéines, vitamines du groupe B, minéraux et antioxydants. Leur consommation régulière renforce la vitalité, stimule l’équilibre hormonal et soutient la résistance naturelle de l’organisme.",
+        "Les graines germées incarnent la vie en mouvement. Blé, luzerne, lentilles ou pois chiches germés concentrent vitamines, enzymes et chlorophylle. Elles apportent une fraîcheur incomparable aux salades et dynamisent l’alimentation quotidienne.",
+        "Enfin, le chocolat noir (minimum 70 % de cacao), consommé avec modération, reste un plaisir toléré. Riche en magnésium et en polyphénols, il stimule le système nerveux, améliore l’humeur et protège le cœur."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Ces aliments divers complètent le régime originel en apportant vitalité, plaisir et équilibre, tout en respectant la physiologie humaine."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les condiments"
+    },
+    {
+      "type": "paragraph",
+      "text": "Les condiments sont les compagnons discrets des repas. Ils relèvent les plats, apportent saveur et diversité, sans les dénaturer."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Le sel complet ou marin, riche en minéraux et oligo‑éléments, est recommandé.",
+        "À l’inverse, le sel raffiné, dépourvu de vitalité, doit être évité car il fatigue l’organisme et favorise la rétention d’eau.",
+        "Le poivre stimule la digestion et apporte une note piquante.",
+        "Les herbes aromatiques (persil, coriandre, basilic, thym, romarin) enrichissent les plats de leurs parfums et de leurs vertus médicinales.",
+        "Les épices comme le cumin, le gingembre, le curcuma ou la cannelle apportent chaleur et protection : elles sont anti‑inflammatoires, digestives et parfois antiseptiques."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Utilisés avec mesure, ces condiments permettent de varier les saveurs, d’éviter la monotonie et d’apporter une dimension sensorielle à l’alimentation. Ils incarnent la simplicité et la richesse du régime originel."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Les boissons"
+    },
+    {
+      "type": "paragraph",
+      "text": "Les boissons sont un aspect fondamental du régime hypotoxique."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "L’eau demeure la reine des boissons. Pure, claire et non gazéifiée, elle hydrate l’organisme, soutient les fonctions vitales et favorise l’élimination des toxines.",
+        "La chicorée, le thé ou le café peuvent accompagner les repas, mais doivent être consommés avec mesure. La chicorée est douce et digestive ; le thé, surtout vert, apporte des antioxydants ; le café stimule mais ne doit pas devenir une habitude excessive.",
+        "Le vin rouge, pris en petite quantité, est reconnu pour ses vertus protectrices sur le cœur grâce à ses polyphénols. Il doit rester un plaisir occasionnel, intégré avec discernement.",
+        "En revanche, la bière est bannie. Issue de l’orge, elle contient des protéines problématiques et génère des effets négatifs sur l’organisme."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Ainsi, le régime originel recommande sobriété et discernement : privilégier l’eau, tolérer certaines boissons avec modération, et bannir celles qui nuisent à l’équilibre."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Autres recommandations diététiques"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Éviter au maximum le cuit"
+    },
+    {
+      "type": "paragraph",
+      "text": "La cuisson est une transformation chimique majeure des aliments. Plus la température est élevée, plus elle brise les structures moléculaires et engendre des composés invisibles, parfois nocifs."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Au‑delà de 110 °C : les viandes et poissons se chargent de toxines, les huiles s’oxydent, les saveurs se dénaturent. Les molécules de Maillard, les hydrocarbures aromatiques polycycliques et les isomères apparaissent, augmentant le risque de cancers et de maladies inflammatoires.",
+        "Les cuissons extrêmes (grillades, fritures, barbecues) atteignent 300 à 700 °C et produisent des substances mutagènes puissantes.",
+        "La cuisson douce – vapeur légère, étouffée, pochée – est une caresse qui respecte la vie des aliments. Elle préserve les vitamines, les couleurs, les enzymes et l’énergie vitale."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Manger cru ou légèrement cuit, c’est rester proche de la nature, réduire l’inflammation chronique et protéger son organisme."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Existe‑t‑il des dangers à manger cru ?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Depuis Pasteur, la peur des bactéries et des parasites s’est installée. Pourtant, notre corps vit déjà dans un univers peuplé de milliards de micro‑organismes."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "L’estomac : son acide puissant détruit la majorité des intrus.",
+        "L’intestin sain : les rares survivants trouvent difficilement leur place dans une flore équilibrée.",
+        "Parasites: rares, mais deux exceptions existent : la douve du foie (dans certains cressons sauvages) et la trichine (dans le porc ou le cheval)."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Le risque existe, mais il est minime. En choisissant des aliments frais, biologiques et de qualité, on réduit encore cette possibilité."
+    },
+    {
+      "type": "paragraph",
+      "text": "Le bénéfice est immense : manger cru réduit de dix fois le risque de cancer ou de maladie cardiovasculaire. C’est un pari gagnant sur la vie."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "L’équilibre entre alcalins et acides"
+    },
+    {
+      "type": "paragraph",
+      "text": "Notre corps aime l’équilibre : son pH est légèrement alcalin, autour de 7,4."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Excès d’aliments acides : fatigue, déminéralisation, inflammation chronique.",
+        "Aliments alcalinisants : légumes verts, crudités, fruits mûrs.",
+        "Aliments acidifiants : viandes, poissons, œufs, sucre raffiné, café, thé, alcool, chocolat, céréales mutées."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Le régime hypotoxique favorise les aliments alcalinisants et limite les acidifiants. Ainsi, l’équilibre se maintient naturellement, sans effort, et le corps reste apaisé. Cet équilibre acido‑basique est une clé de la longévité et de la prévention des maladies modernes."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Autres conseils pratiques"
+    },
+    {
+      "type": "paragraph",
+      "text": "Conserves : à éviter, car elles cachent souvent des graisses et des huiles industrielles."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Produits fumés : à consommer avec parcimonie, car la fumée engendre des substances cancérigènes (benzopyrènes).",
+        "Surgelés : sans danger, si l’aliment est compatible avec le régime originel. La congélation préserve la vie des molécules.",
+        "Aliments biologiques : à privilégier, pour réduire la pollution invisible et retrouver le goût vrai.",
+        "Vigilance : vérifier la composition des produits, car le blé et le sucre raffiné se glissent partout."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Ces conseils pratiques permettent de rester fidèle à l’esprit du régime originel et d’éviter les pièges de l’industrie alimentaire moderne."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Composition des repas"
+    },
+    {
+      "type": "paragraph",
+      "text": "Un repas n’a pas besoin d’être lourd pour être complet. La frugalité est une clé : manger peu, mais bien, c’est alléger le travail du corps et prolonger la vie."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Petit déjeuner : miel cru, chocolat noir modéré, fruits frais et secs, chicorée ou thé.",
+        "Déjeuner : crudités variées, légumes verts, oléagineux, fruits colorés.",
+        "Dîner : crudités, légumineuses, une portion de protéines animales crues ou légèrement cuites, fruits frais."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Cette organisation simple respecte les rythmes biologiques, favorise une digestion légère et prévient les surcharges métaboliques."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Quantité de victuailles"
+    },
+    {
+      "type": "paragraph",
+      "text": "La qualité prime sur la quantité."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Repas excessifs : fatiguent les enzymes, saturent le foie, accélèrent le vieillissement.",
+        "Frugalité : protège et régénère. Les expériences sur les animaux montrent que manger avec mesure double parfois la durée de vie."
+      ],
+      "levels": [
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Chez l’homme : la restriction calorique améliore la longévité, réduit l’inflammation et protège contre les maladies chroniques. Manger moins, mais mieux, c’est offrir au corps un repos, une régénération et une longévité accrue."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Mesures complémentaires du régime"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Supprimer le tabac"
+    },
+    {
+      "type": "paragraph",
+      "text": "La fumée du tabac est une brume toxique : elle contient des milliers de substances, dont des dizaines sont cancérigènes. Chaque bouffée est une agression silencieuse contre les poumons, le cœur, les vaisseaux. Elle fragilise, elle encrasse, elle détruit. Renoncer au tabac, c’est offrir au corps un souffle nouveau. C’est redonner à la respiration sa pureté, à la vie sa clarté."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Autres mesures d’hygiène de vie"
+    },
+    {
+      "type": "paragraph",
+      "text": "Le régime hypotoxique n’est pas une île isolée : il s’accompagne d’un art de vivre."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Bouger chaque jour, marcher, respirer, sentir son corps en mouvement.",
+        "Dormir avec régularité, car le repos est une médecine invisible.",
+        "Savourer ses repas dans la paix, car la digestion commence dans la sérénité.",
+        "Partager la table, car l’alimentation est aussi un lien social, une joie commune.",
+        "Modérer l’alcool, préférer le vin rouge en petite quantité, compagnon discret du cœur."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "En résumé"
+    },
+    {
+      "type": "paragraph",
+      "text": "Le régime hypotoxique est une voie de santé globale. Il ne se limite pas à ce que l’on met dans l’assiette : il s’étend à nos gestes, à nos choix, à notre quotidien. Supprimer le tabac, privilégier la frugalité, respecter le sommeil et le mouvement, c’est compléter l’œuvre commencée par l’alimentation. C’est une invitation à vivre plus longtemps, mais surtout à vivre mieux : avec un corps allégé, un esprit apaisé, et une vie réconciliée avec la nature."
+    }
+  ]
+}
