@@ -10,7 +10,7 @@ const frenchBook=JSON.parse(fs.readFileSync('content/publications/book-fr.json',
 const frenchBookImage='.playwright-mcp/publications-source/Publications family clinic/Extrait du livre cuisiner pour guérir/Livre cuisiner pour guérir FR/Livre cuisiner pour guérir FR-image.jpg';
 const figures=JSON.parse(fs.readFileSync('content/publications/figures.json','utf8'));
 fs.mkdirSync('assets/images/publications',{recursive:true});
-for(const [id,path,record] of [...catalog.articles.map(a=>[a.code,a.imagePath,manifest.find(r=>r.id===a.code)]),['book',catalog.book.imagePath,book],['book-fr',frenchBookImage,frenchBook],['book-ar',arabicBookImage,arabicBook]]){
+for(const [id,path,record] of [...catalog.articles.filter(a=>a.imagePath).map(a=>[a.code,a.imagePath,manifest.find(r=>r.id===a.code)]),['book',catalog.book.imagePath,book],['book-fr',frenchBookImage,frenchBook],['book-ar',arabicBookImage,arabicBook]]){
   const source=await loadImage(path);
   for(const width of [240,640]){
     const height=Math.round(source.height*width/source.width);
@@ -33,4 +33,4 @@ fs.writeFileSync('content/publications/manifest.json',JSON.stringify(manifest,nu
 fs.writeFileSync('content/publications/book.json',JSON.stringify(book,null,2)+'\n');
 fs.writeFileSync('content/publications/book-ar.json',JSON.stringify(arabicBook,null,2)+'\n');
 fs.writeFileSync('content/publications/book-fr.json',JSON.stringify(frenchBook,null,2)+'\n');
-console.log('Optimized 59 cover illustrations and the explanatory body figure.');
+console.log(`Optimized ${catalog.articles.filter(a=>a.imagePath).length+3} cover illustrations and the explanatory body figure.`);

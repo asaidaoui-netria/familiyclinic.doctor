@@ -1,0 +1,388 @@
+{
+  "language": "en",
+  "status": "published",
+  "title": "Sleep well to live better",
+  "summary": "Regaining restorative sleep through healthy lifestyle habits and diet.",
+  "sourceHash": "f3e11343c43e0510662eee897c86bead364d8c565b2c4fbf7d0ff68aa432a72e",
+  "translation": {
+    "from": "fr",
+    "method": "AI-assisted translation",
+    "reviewStatus": "not-clinically-reviewed"
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Foreword"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sleep is a fundamental need of the body. Yet in our modern societies, it is often sacrificed to work demands, screens, social activities or everyday worries. Many people regard fatigue as a normal consequence of modern life, when it is often the sign of a deep imbalance."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sleeping is not simply a pause in daily activity. During the night, the brain sorts the information accumulated during the day, tissues repair themselves, hormones are regulated and the body’s defense mechanisms are strengthened. Insufficient or poor-quality sleep can disrupt all biological functions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Scientific studies show that chronic sleep deficiency promotes inflammation, excess weight, mood disorders and difficulty concentrating, as well as many chronic diseases. Conversely, restorative sleep helps preserve vitality, memory, immunity and emotional balance."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Family Clinic approach regards sleep as one of the fundamental pillars of health, on a par with diet, physical activity and stress management."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Understanding sleep"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sleep is organized into several successive cycles that repeat over the course of the night."
+    },
+    {
+      "type": "paragraph",
+      "text": "Each cycle includes:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Light sleep",
+        "Deep sleep",
+        "REM sleep"
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Deep sleep promotes physical recovery, tissue repair and the strengthening of the immune system."
+    },
+    {
+      "type": "paragraph",
+      "text": "REM sleep contributes more to memory consolidation, learning and emotional balance."
+    },
+    {
+      "type": "paragraph",
+      "text": "A night disrupted by frequent awakenings or one that is too short does not allow these mechanisms to work properly."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Why are we sleeping less well?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Many factors can impair sleep quality:"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Screens"
+    },
+    {
+      "type": "paragraph",
+      "text": "The blue light from phones, tablets and computers reduces the secretion of melatonin, a hormone essential for falling asleep."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Stress"
+    },
+    {
+      "type": "paragraph",
+      "text": "When the body remains on alert, the brain stays active and prevents the relaxation needed for sleep."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Overly heavy meals"
+    },
+    {
+      "type": "paragraph",
+      "text": "Meals rich in fast sugars, fats or stimulants disrupt digestion and delay falling asleep."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "A sedentary lifestyle"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lack of physical activity reduces the quality of deep sleep."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Irregular schedules"
+    },
+    {
+      "type": "paragraph",
+      "text": "Going to bed and getting up at varying times disrupts the biological clock."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The consequences of sleep deprivation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sleep deficiency does not only cause fatigue."
+    },
+    {
+      "type": "paragraph",
+      "text": "It can also lead to:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Reduced attention",
+        "Memory problems",
+        "Irritability",
+        "Anxiety",
+        "Lower motivation",
+        "Increased appetite",
+        "Weight gain",
+        "Insulin resistance",
+        "Weakened immunity",
+        "Increased chronic inflammation"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Over the long term, cardiovascular and metabolic risks may also increase."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Nutrition in the service of sleep"
+    },
+    {
+      "type": "paragraph",
+      "text": "Certain nutrients naturally promote nighttime rest."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Foods to favor"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "A variety of vegetables",
+        "Fresh fruit",
+        "Fatty fish",
+        "Legumes",
+        "Walnuts and almonds",
+        "Bananas",
+        "Non-stimulating herbal teas"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Foods to limit in the evening"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Coffee",
+        "Strong tea",
+        "Energy drinks",
+        "Alcohol",
+        "Excess sugar",
+        "Very fatty meals"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "A light dinner eaten two to three hours before bedtime often makes for a better night."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Good habits for better sleep"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Keep regular hours"
+    },
+    {
+      "type": "paragraph",
+      "text": "The body appreciates regularity. Going to bed and getting up at the same time makes it easier to fall asleep."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Cut down on screens"
+    },
+    {
+      "type": "paragraph",
+      "text": "Avoid screens for at least one hour before bedtime."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Create a favorable environment"
+    },
+    {
+      "type": "paragraph",
+      "text": "The bedroom should be:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Quiet",
+        "Dark",
+        "Well ventilated",
+        "At a moderate temperature"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Move every day"
+    },
+    {
+      "type": "paragraph",
+      "text": "Regular physical activity improves sleep quality."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Learn to relax"
+    },
+    {
+      "type": "paragraph",
+      "text": "Deep breathing, meditation or calm reading can ease the transition to rest."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The Family Clinic protocol for better sleep"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Exposure to natural light first thing in the morning.",
+        "Suitable daily physical activity.",
+        "A health-promoting, minimally processed diet.",
+        "Cutting back on stimulants after 4 p.m.",
+        "A light dinner.",
+        "Turning off screens before bedtime.",
+        "A relaxation ritual every evening.",
+        "Regular sleep hours."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Applied consistently, these measures often make it possible to gradually improve sleep quality."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Conclusion"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sleep is one of the most powerful natural tools for prevention. Each night gives the body the opportunity to recover, repair itself and prepare for the next day’s challenges. Investing in the quality of your sleep means investing in your physical, mental and emotional health."
+    },
+    {
+      "type": "paragraph",
+      "text": "In the Family Clinic approach, sleeping better is often the first step toward lasting well-being."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Further reading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Also discover the booklets:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Managing stress naturally",
+        "Restoring your energy naturally",
+        "Nutrition and mood",
+        "A complete guide to well-being: the Family Clinic approach"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "links": {
+        "Managing stress naturally": "E03",
+        "Restoring your energy naturally": "E04",
+        "Nutrition and mood": "E06",
+        "A complete guide to well-being: the Family Clinic approach": "E01"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "and the book “Cooking to Heal” (2026) from Family Clinic Editions.",
+      "links": {
+        "Cooking to Heal": "book"
+      }
+    }
+  ]
+}

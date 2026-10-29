@@ -1,0 +1,605 @@
+{
+  "language": "en",
+  "status": "published",
+  "title": "A complete guide to well-being: the Family Clinic approach",
+  "summary": "A synthesis of the fundamental principles: diet, sleep, physical activity, stress management and emotional balance.",
+  "sourceHash": "902cf61176a923e708b31b362902f4f729b550c596bed620e386b3b52f6270b2",
+  "translation": {
+    "from": "fr",
+    "method": "AI-assisted translation",
+    "reviewStatus": "not-clinically-reviewed"
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Foreword"
+    },
+    {
+      "type": "paragraph",
+      "text": "Well-being is not simply the absence of illness. It is a state of balance in which the body, the mind and the environment interact harmoniously. In our modern societies, many factors can compromise this balance: an unsuitable diet, lack of sleep, a sedentary lifestyle, chronic stress, mental overload or social isolation."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Family Clinic approach rests on a holistic view of health. It holds that lasting well-being does not depend on a single solution but on combining several complementary pillars that act in synergy. A health-promoting diet, appropriate physical activity, restorative sleep, good emotional balance and a satisfying social life are the foundations of lasting health."
+    },
+    {
+      "type": "paragraph",
+      "text": "This booklet brings together the main lessons of the Family Clinic Well-Being collection and offers simple guideposts for gradually building a protective lifestyle."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What is well-being?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Well-being is a state in which a person feels able:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "To carry out their daily activities.",
+        "To maintain their energy.",
+        "To cope with life’s difficulties.",
+        "To maintain satisfying relationships.",
+        "To preserve their physical and mental health."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Well-being does not mean a life without constraints, but the ability to adapt to change while maintaining an overall balance."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "First pillar: a health-promoting diet"
+    },
+    {
+      "type": "paragraph",
+      "text": "The quality of the diet directly influences:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Energy.",
+        "Mood.",
+        "Immunity.",
+        "Sleep.",
+        "Aging.",
+        "Inflammatory mechanisms."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Family Clinic dietary basics"
+    },
+    {
+      "type": "paragraph",
+      "text": "Favor:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "A variety of vegetables.",
+        "Fresh fruit.",
+        "Legumes.",
+        "Fish.",
+        "Eggs.",
+        "Nuts and seeds.",
+        "Good-quality olive oils.",
+        "Minimally processed foods."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Limit:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ultra-processed products.",
+        "Excess refined sugars.",
+        "Sugary drinks.",
+        "Excess alcohol."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The goal is not perfection but the gradual improvement of eating habits."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Second pillar: restorative sleep"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sleep is one of the body’s most powerful natural recovery mechanisms."
+    },
+    {
+      "type": "paragraph",
+      "text": "During the night:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "The brain reorganizes itself.",
+        "Cells repair themselves.",
+        "Hormones rebalance.",
+        "The immune system grows stronger."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "To preserve sleep quality:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Keep regular hours.",
+        "Cut back on screens in the evening.",
+        "Avoid stimulants late in the day.",
+        "Create a calm, dark environment."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Third pillar: physical activity"
+    },
+    {
+      "type": "paragraph",
+      "text": "The human body is designed to move."
+    },
+    {
+      "type": "paragraph",
+      "text": "Regular physical activity helps to:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Strengthen the cardiovascular system.",
+        "Preserve the muscles.",
+        "Maintain mobility.",
+        "Reduce stress.",
+        "Improve sleep.",
+        "Promote healthy aging."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Regularity matters more than intensity."
+    },
+    {
+      "type": "paragraph",
+      "text": "Walking every day is already an excellent foundation."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Fourth pillar: stress management"
+    },
+    {
+      "type": "paragraph",
+      "text": "Occasional stress is normal."
+    },
+    {
+      "type": "paragraph",
+      "text": "Chronic stress becomes a problem when it no longer leaves the body time to recover."
+    },
+    {
+      "type": "paragraph",
+      "text": "The most effective measures include:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Deep breathing.",
+        "Physical activity.",
+        "Sufficient sleep.",
+        "Leisure activities.",
+        "Social contact.",
+        "Time spent in nature."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Learning to slow down is sometimes the best treatment."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Fifth pillar: digestive well-being"
+    },
+    {
+      "type": "paragraph",
+      "text": "Good digestion influences:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Nutrient absorption.",
+        "Immunity.",
+        "Energy.",
+        "Emotional balance."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The gut microbiota plays a major role in this relationship."
+    },
+    {
+      "type": "paragraph",
+      "text": "To preserve digestive health:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Eat slowly.",
+        "Chew well.",
+        "Eat enough fiber.",
+        "Drink regularly.",
+        "Move every day."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Sixth pillar: emotional balance"
+    },
+    {
+      "type": "paragraph",
+      "text": "Emotions are part of life."
+    },
+    {
+      "type": "paragraph",
+      "text": "The goal is not to suppress unpleasant emotions but to learn to understand and manage them."
+    },
+    {
+      "type": "paragraph",
+      "text": "Factors that promote emotional balance include:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Sufficient sleep.",
+        "A balanced diet.",
+        "Physical activity.",
+        "Positive relationships.",
+        "Meaningful activities."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Seventh pillar: human relationships"
+    },
+    {
+      "type": "paragraph",
+      "text": "Social ties strongly influence health."
+    },
+    {
+      "type": "paragraph",
+      "text": "People who maintain positive relationships often show:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Better psychological well-being.",
+        "A greater ability to adapt.",
+        "A better quality of life."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Taking care of one’s relationships is a genuine health practice."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Eighth pillar: contact with nature"
+    },
+    {
+      "type": "paragraph",
+      "text": "Regular contact with natural spaces makes it possible:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "To reduce stress.",
+        "To improve mood.",
+        "To promote mental recovery.",
+        "To encourage physical activity."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Walking in a park or a forest is a simple habit with considerable benefits."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Ninth pillar: giving meaning to one’s life"
+    },
+    {
+      "type": "paragraph",
+      "text": "Well-being also depends on a sense of usefulness and personal coherence."
+    },
+    {
+      "type": "paragraph",
+      "text": "Having:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Projects.",
+        "Goals.",
+        "Passions.",
+        "Commitments."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "promotes motivation and life satisfaction."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Tenth pillar: prevent rather than have to cure"
+    },
+    {
+      "type": "paragraph",
+      "text": "Prevention rests on small actions repeated every day."
+    },
+    {
+      "type": "paragraph",
+      "text": "It is better:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "To improve one’s habits gradually.",
+        "To act before problems appear.",
+        "To preserve one’s physical and mental resources."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Health is built day by day."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The Family Clinic program for lasting well-being"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Every day"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Get enough sleep.",
+        "Move for at least 30 minutes.",
+        "Eat a variety of vegetables.",
+        "Drink enough water.",
+        "Breathe deeply for a few minutes.",
+        "Set aside a moment to relax."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Every week"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Spend time in nature.",
+        "Nurture positive relationships.",
+        "Discover or learn something new.",
+        "Do an activity that brings you pleasure."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Every month"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Assess your lifestyle habits.",
+        "Identify sources of stress.",
+        "Set a new realistic goal."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The 10 Family Clinic golden rules"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Eat real food.",
+        "Move every day.",
+        "Get enough sleep.",
+        "Breathe calmly.",
+        "Manage your stress.",
+        "Take care of your digestion.",
+        "Nurture your relationships.",
+        "Slow down when necessary.",
+        "Keep having projects.",
+        "Prevent rather than have to cure."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Conclusion"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lasting well-being rests on the balance of many interdependent factors. No single food, medication or method can guarantee good health on its own. On the other hand, combining a health-promoting diet, regular physical activity, restorative sleep, good stress management and a positive social environment makes it possible to gradually build up genuine health capital."
+    },
+    {
+      "type": "paragraph",
+      "text": "According to the Family Clinic approach, every person has the means to improve their well-being through simple, realistic choices repeated every day. The path to better health begins with small actions, but their benefits can last a lifetime."
+    }
+  ]
+}

@@ -39,10 +39,27 @@ function renderList(block, text) {
   return render(roots);
 }
 
-export function renderBlocks(blocks, locale) {
+// `links` maps exact text in a paragraph or list to an article ID or 'book'; a null href renders plain text.
+function linker(block, text, href) {
+  const links = Object.entries(block.links || {}).map(([key, target]) => {
+    if (!blockText(block).includes(key)) throw new Error(`Publication link text not found: ${key}`);
+    return [key, href(target)];
+  });
+  const link = value => {
+    for (const [key, url] of links) {
+      const at = url ? value.indexOf(key) : -1;
+      if (at >= 0) return text(value.slice(0, at)) + `<a href="${escapeHtml(url)}">${text(key)}</a>` + link(value.slice(at + key.length));
+    }
+    return text(value);
+  };
+  return link;
+}
+
+export function renderBlocks(blocks, locale, href = target => { throw new Error(`No link resolver for ${target}`); }) {
   const toc = [], anchors = new Set(['publication-source', 'publication-source-title', 'publication-related-title', 'main-content']);
   const text = value => renderPublicationText(value, locale);
   const html = blocks.map(block => {
+    const linked = linker(block, text, href);
     if (block.type === 'heading') {
       const base = block.text.normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9\u0600-\u06ff]+/g,'-').replace(/^-|-$/g,'') || 'section';
       let id = base, count = 2;
@@ -53,7 +70,7 @@ export function renderBlocks(blocks, locale) {
       return `<h${level} id="${id}">${text(block.text)}</h${level}>`;
     }
     if (block.type === 'list') {
-      return renderList(block, text);
+      return renderList(block, linked);
     }
     if (block.type === 'figure') {
       if (!/^\/assets\/images\/publications\/[a-zA-Z0-9-]+\.(?:webp|png|jpg)$/.test(block.src)) throw new Error('Invalid publication figure asset');
@@ -65,7 +82,7 @@ export function renderBlocks(blocks, locale) {
       return `<div class="publication-table" tabindex="0" role="region" aria-label="${escapeHtml(head.join(' / '))}"><table><thead><tr>${head.map(cell=>`<th scope="col">${text(cell)}</th>`).join('')}</tr></thead><tbody>${rows.map(row=>`<tr>${row.map(cell=>`<td>${text(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
     }
     if (block.type !== 'paragraph') throw new Error(`Unsupported publication block: ${block.type}`);
-    return `<p>${text(block.text)}</p>`;
+    return `<p>${linked(block.text)}</p>`;
   }).join('\n');
   const wordCount = blocks.map(blockText).join(' ').trim().split(/\s+/u).filter(Boolean).length;
   return {html,toc,wordCount,readingMinutes:Math.max(1,Math.ceil(wordCount/220))};

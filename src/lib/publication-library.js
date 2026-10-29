@@ -7,6 +7,7 @@ import arabicBook from '../../content/publications/book-ar.json' with {type: 'js
 
 const BOOKS = {en: englishBook, fr: frenchBook, ar: arabicBook};
 
+// Order follows the author's PUBLICATIONS plan; the cookbook sits between F and B.
 export const CATEGORIES = [
   {
     id: 'A', slug: 'nutrition', en: 'Nutrition fundamentals', fr: 'Nutrition — Notions fondamentales', ar: 'أساسيات التغذية',
@@ -14,6 +15,22 @@ export const CATEGORIES = [
       en: 'Explore how food, digestion, genes and everyday habits relate to health.',
       fr: 'Explorez les liens entre alimentation, digestion, génétique et santé.',
       ar: 'اكتشف العلاقة بين الغذاء والهضم والجينات والعادات اليومية والصحة.',
+    },
+  },
+  {
+    id: 'E', slug: 'well-being', en: 'Well-being', fr: 'Bien-être', ar: 'العافية',
+    description: {
+      en: 'Practical guidance on sleep, stress, energy, digestion and mood.',
+      fr: 'Des repères pratiques pour le sommeil, le stress, l’énergie, la digestion et l’humeur.',
+      ar: 'إرشادات عملية حول النوم والتوتر والطاقة والهضم والمزاج.',
+    },
+  },
+  {
+    id: 'F', slug: 'longevity', en: 'Longevity and healthy aging', fr: 'Longévité — Les clés pour vieillir en bonne santé', ar: 'طول العمر والشيخوخة الصحية',
+    description: {
+      en: 'The keys to aging well: movement, nutrients, the brain, relationships and daily habits.',
+      fr: 'Les clés pour bien vieillir : mouvement, nutriments, cerveau, relations et habitudes du quotidien.',
+      ar: 'مفاتيح الشيخوخة الصحية: الحركة والمغذيات والدماغ والعلاقات والعادات اليومية.',
     },
   },
   {
@@ -38,6 +55,14 @@ export const CATEGORIES = [
       en: 'Explore the author’s elimination model through digestive, respiratory and skin conditions.',
       fr: 'Explorez la théorie de l’élimination à travers les troubles digestifs, respiratoires et cutanés.',
       ar: 'استكشف نظرية الإطراح التي يعرضها المؤلف من خلال اضطرابات الجهاز الهضمي والجهاز التنفسي والجلد.',
+    },
+  },
+  {
+    id: 'H', slug: 'further-articles', en: 'Further articles', fr: 'Articles divers', ar: 'مقالات متنوعة',
+    description: {
+      en: 'Standalone articles on insulin, fasting, creatine and brain health.',
+      fr: 'Des articles indépendants sur l’insuline, le jeûne, la créatine et la santé du cerveau.',
+      ar: 'مقالات مستقلة حول الإنسولين والصيام والكرياتين وصحة الدماغ.',
     },
   },
 ];
@@ -121,12 +146,18 @@ function schema(page) {
 
 export function buildLibrary(records) {
   validate(records);
-  const pages = [], catalogs = {}, editions = new Map();
+  const pages = [], catalogs = {}, editions = new Map(), byId = new Map(records.map(record => [record.id, record]));
+  const href = locale => target => {
+    if (target === 'book') return (BOOKS[locale] || englishBook).url;
+    const record = byId.get(target);
+    if (!record) throw new Error(`Unknown publication link target: ${target}`);
+    return record.editions[locale]?.status === 'published' ? articleUrl(locale, record.slug) : null;
+  };
   for (const record of records) {
     const published = Object.entries(record.editions).filter(([, edition]) => edition.status === 'published');
     const localizedRoutes = Object.fromEntries(published.map(([locale]) => [locale, articleUrl(locale, record.slug)]));
     for (const [locale, edition] of published) {
-      const rendered = renderBlocks(edition.blocks, locale);
+      const rendered = renderBlocks(edition.blocks, locale, href(locale));
       editions.set(`${record.id}/${locale}`, {
         id: record.id, slug: record.slug, title: edition.title, summary: compact(edition.summary),
         url: articleUrl(locale, record.slug), image: record.image, readingMinutes: rendered.readingMinutes,

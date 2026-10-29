@@ -1300,5 +1300,782 @@
       "D03",
       "D04"
     ]
+  },
+  {
+    "id": "C25",
+    "categoryId": "C",
+    "slug": "parkinsons-disease-and-hypotoxic-nutrition",
+    "proposedEnglishTitle": "Parkinson’s disease and hypotoxic nutrition",
+    "legacy": false,
+    "source": {
+      "body": "C 25 Maladie de Parkinson et nutrition hypotoxique-word.docx",
+      "teaser": "C 25 Maladie de Parkinson et nutrition hypotoxique-vignette.docx",
+      "sha256": "2c6df57c9a1878e9f688a9d818f8cc61771c995501d2e1b2975ad23dee386025"
+    },
+    "image": {
+      "src": "/assets/images/publications/C25-640.webp",
+      "small": "/assets/images/publications/C25-240.webp",
+      "width": 640,
+      "height": 910
+    },
+    "relatedIds": [
+      "C16",
+      "H04",
+      "H03"
+    ]
+  },
+  {
+    "id": "E01",
+    "categoryId": "E",
+    "slug": "family-clinic-guide-to-well-being",
+    "proposedEnglishTitle": "A complete guide to well-being: the Family Clinic approach",
+    "legacy": false,
+    "source": {
+      "body": "E 01 Guide complet du bien-être selon l'approche Family Clinic.docx",
+      "sha256": "902cf61176a923e708b31b362902f4f729b550c596bed620e386b3b52f6270b2"
+    },
+    "image": {
+      "src": "/assets/images/publications/E01-640.webp",
+      "small": "/assets/images/publications/E01-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "E02",
+      "E03",
+      "E06"
+    ]
+  },
+  {
+    "id": "E02",
+    "categoryId": "E",
+    "slug": "sleep-well-live-better",
+    "proposedEnglishTitle": "Sleep well to live better",
+    "legacy": false,
+    "source": {
+      "body": "E 02  Bien dormir pour mieux vivre.docx",
+      "sha256": "f3e11343c43e0510662eee897c86bead364d8c565b2c4fbf7d0ff68aa432a72e"
+    },
+    "image": {
+      "src": "/assets/images/publications/E02-640.webp",
+      "small": "/assets/images/publications/E02-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "E03",
+      "E08",
+      "E04"
+    ]
+  },
+  {
+    "id": "E03",
+    "categoryId": "E",
+    "slug": "managing-stress-naturally",
+    "proposedEnglishTitle": "Managing stress naturally",
+    "legacy": false,
+    "source": {
+      "body": "E 03 Gérer son stress naturellement.docx",
+      "sha256": "25db2de995e3ccb6d4937c0b7321ab8ecfc7c7b5bf739aa2a1d879e23f04aae6"
+    },
+    "image": {
+      "src": "/assets/images/publications/E03-640.webp",
+      "small": "/assets/images/publications/E03-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "F12",
+      "E07",
+      "E08"
+    ]
+  },
+  {
+    "id": "E04",
+    "categoryId": "E",
+    "slug": "restoring-your-energy-naturally",
+    "proposedEnglishTitle": "Restoring your energy naturally",
+    "legacy": false,
+    "source": {
+      "body": "E 04 Retrouver son énergie naturellement.docx",
+      "sha256": "ec5d344164a8902fefad0089d4cbb55a56dcd636ebb1bceca3a354d3468be1c8"
+    },
+    "image": {
+      "src": "/assets/images/publications/E04-640.webp",
+      "small": "/assets/images/publications/E04-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "E02",
+      "E06",
+      "E05"
+    ]
+  },
+  {
+    "id": "E05",
+    "categoryId": "E",
+    "slug": "everyday-digestive-well-being",
+    "proposedEnglishTitle": "Everyday digestive well-being",
+    "legacy": false,
+    "source": {
+      "body": "E 05 Le bien-être digestif au quotidien.docx",
+      "sha256": "c403c2c1ee0e4faee54e107479deb3358618c97ccc0fe431cce5e5bf4e2730c8"
+    },
+    "image": {
+      "src": "/assets/images/publications/E05-640.webp",
+      "small": "/assets/images/publications/E05-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "F11",
+      "E06",
+      "A05"
+    ]
+  },
+  {
+    "id": "E06",
+    "categoryId": "E",
+    "slug": "nutrition-and-mood",
+    "proposedEnglishTitle": "Nutrition and mood",
+    "legacy": false,
+    "source": {
+      "body": "E 06 Nutrition et humeur.docx",
+      "sha256": "926e7e2e8723da956fd609c3571d12d13e4e64f79eb517472c4d240bfa77026f"
+    },
+    "image": {
+      "src": "/assets/images/publications/E06-640.webp",
+      "small": "/assets/images/publications/E06-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "E05",
+      "E03",
+      "F09"
+    ]
+  },
+  {
+    "id": "E07",
+    "categoryId": "E",
+    "slug": "preventing-burnout",
+    "proposedEnglishTitle": "Preventing burnout",
+    "legacy": false,
+    "source": {
+      "body": "E 07 Prévenir le burn-out.docx",
+      "sha256": "5cfe2ee30d7de695f06add6d295feb2a7f43e2ba42f7fcd93f97d9390695af43"
+    },
+    "image": {
+      "src": "/assets/images/publications/E07-640.webp",
+      "small": "/assets/images/publications/E07-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "E03",
+      "E08",
+      "F12"
+    ]
+  },
+  {
+    "id": "E08",
+    "categoryId": "E",
+    "slug": "the-art-of-slowing-down",
+    "proposedEnglishTitle": "The art of slowing down",
+    "legacy": false,
+    "source": {
+      "body": "E 08 L'art de ralentir.docx",
+      "sha256": "78af42824d40ec1b2ef16dde0d16939a7d1392714cb2b92ee208d9d1acf68947"
+    },
+    "image": {
+      "src": "/assets/images/publications/E08-640.webp",
+      "small": "/assets/images/publications/E08-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "E07",
+      "E03",
+      "E09"
+    ]
+  },
+  {
+    "id": "E09",
+    "categoryId": "E",
+    "slug": "everyday-happiness",
+    "proposedEnglishTitle": "Everyday happiness",
+    "legacy": false,
+    "source": {
+      "body": "E 09 Le bonheur au quotidien.docx",
+      "sha256": "4c56f001d927c7aed2903616ad9fa6c50e0e0a65bdf72ffcff8f4b4bb0c19418"
+    },
+    "image": {
+      "src": "/assets/images/publications/E09-640.webp",
+      "small": "/assets/images/publications/E09-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "F13",
+      "E08",
+      "E01"
+    ]
+  },
+  {
+    "id": "E10",
+    "categoryId": "E",
+    "slug": "pillars-of-healthy-aging",
+    "proposedEnglishTitle": "The pillars of healthy aging",
+    "legacy": false,
+    "source": {
+      "body": "E 10 Les piliers du vieillissement en bonne santé.docx",
+      "sha256": "48bf9e17f36f235f766b7ab876f21df2686b991773655abde4b1b063077bb7a3"
+    },
+    "image": {
+      "src": "/assets/images/publications/E10-640.webp",
+      "small": "/assets/images/publications/E10-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "F18",
+      "F16",
+      "F07"
+    ]
+  },
+  {
+    "id": "F01",
+    "categoryId": "F",
+    "slug": "exercise-the-most-powerful-anti-aging-medicine",
+    "proposedEnglishTitle": "Exercise: the most powerful anti-aging medicine",
+    "legacy": false,
+    "source": {
+      "body": "F 01 L’EXERCICE PHYSIQUE - LE PLUS PUISSANT DES MÉDICAMENTS ANTI-ÂGE.docx",
+      "sha256": "b31658e96e6d44d12774c0d0872498b8758974f93be8220cd120db8cdd3d0a1f"
+    },
+    "image": {
+      "src": "/assets/images/publications/F01-640.webp",
+      "small": "/assets/images/publications/F01-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "F07",
+      "F02",
+      "F16"
+    ]
+  },
+  {
+    "id": "F02",
+    "categoryId": "F",
+    "slug": "heart-and-lungs-engines-of-longevity",
+    "proposedEnglishTitle": "The heart and lungs: the true engines of longevity",
+    "legacy": false,
+    "source": {
+      "body": "F 02 LE CŒUR ET LES POUMONS - LES VÉRITABLES MOTEURS DE LA LONGÉVITÉ.docx",
+      "sha256": "ebb385c3bbf46ae6cfc988778497b104a4a3faf38b1447ad56767e0023f6e905"
+    },
+    "image": {
+      "src": "/assets/images/publications/F02-640.webp",
+      "small": "/assets/images/publications/F02-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "F01",
+      "F05",
+      "F10"
+    ]
+  },
+  {
+    "id": "F03",
+    "categoryId": "F",
+    "slug": "protecting-your-brain-and-memory",
+    "proposedEnglishTitle": "Protecting your brain and memory: a major challenge of aging",
+    "legacy": false,
+    "source": {
+      "body": "F 03 PROTÉGER SON CERVEAU ET SA MÉMOIRE - UN ENJEU MAJEUR DU VIEILLISSEMENT.docx",
+      "sha256": "fe0098f8b4f9a8d82b925d612ba3969561f7368ae1b91ba606cce6ebc4290563"
+    },
+    "image": {
+      "src": "/assets/images/publications/F03-640.webp",
+      "small": "/assets/images/publications/F03-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "F14",
+      "H03",
+      "F05"
+    ]
+  },
+  {
+    "id": "F04",
+    "categoryId": "F",
+    "slug": "vitamin-d-the-sunshine-hormone",
+    "proposedEnglishTitle": "Vitamin D: the sunshine hormone that influences the whole body",
+    "legacy": false,
+    "source": {
+      "body": "F 04 LA VITAMINE D - L’HORMONE DU SOLEIL QUI INFLUENCE TOUT L’ORGANISME.docx",
+      "sha256": "39839d9b48e1ad69cf33ff72f923b2f8fc8f26ff467d97c1a5dd4b51c7e4b87b"
+    },
+    "image": {
+      "src": "/assets/images/publications/F04-640.webp",
+      "small": "/assets/images/publications/F04-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "F06",
+      "F07",
+      "F05"
+    ]
+  },
+  {
+    "id": "F05",
+    "categoryId": "F",
+    "slug": "omega-3-fats-brain-heart-longevity",
+    "proposedEnglishTitle": "Omega-3s: the fats that nourish the brain, the heart and longevity",
+    "legacy": false,
+    "source": {
+      "body": "F 05 LES OMÉGA-3 - LES GRAISSES QUI NOURRISSENT LE CERVEAU, LE CŒUR ET LA LONGÉVITÉ.docx",
+      "sha256": "2e722a99584f9af3f677a81c1848de62d2b6cec3ea882fb48cd11516b00ecc6d"
+    },
+    "image": {
+      "src": "/assets/images/publications/F05-640.webp",
+      "small": "/assets/images/publications/F05-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "F03",
+      "F02",
+      "F09"
+    ]
+  },
+  {
+    "id": "F06",
+    "categoryId": "F",
+    "slug": "magnesium-the-forgotten-mineral",
+    "proposedEnglishTitle": "Magnesium: the forgotten mineral that supports energy, muscles and the brain",
+    "legacy": false,
+    "source": {
+      "body": "F 06 LE MAGNÉSIUM - LE MINÉRAL OUBLIÉ QUI SOUTIENT L'ÉNERGIE, LES MUSCLES ET LE CERVEAU.docx",
+      "sha256": "d01b82c28b90384cc9d5f7e541f82e2881f3d98e409e4f70bf418e0aa5cea602"
+    },
+    "image": {
+      "src": "/assets/images/publications/F06-640.webp",
+      "small": "/assets/images/publications/F06-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "F04",
+      "E02",
+      "F08"
+    ]
+  },
+  {
+    "id": "F07",
+    "categoryId": "F",
+    "slug": "preserving-muscle-after-50",
+    "proposedEnglishTitle": "Preserving your muscles: the key to independence after 50",
+    "legacy": false,
+    "source": {
+      "body": "F 07 PRÉSERVER SES MUSCLES - LA CLÉ DE L’AUTONOMIE APRÈS 50 ANS.docx",
+      "sha256": "717f3c5fa6036fa90ff52b5a56684446365b1e2da458eed31771afe87922b146"
+    },
+    "image": {
+      "src": "/assets/images/publications/F07-640.webp",
+      "small": "/assets/images/publications/F07-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "F08",
+      "F01",
+      "F16"
+    ]
+  },
+  {
+    "id": "F08",
+    "categoryId": "F",
+    "slug": "creatine-muscles-brain-and-healthy-aging",
+    "proposedEnglishTitle": "Creatine: an overlooked ally for muscles, the brain and healthy aging",
+    "legacy": false,
+    "source": {
+      "body": "F 08 LA CRÉATINE - UN ALLIÉ MÉCONNU POUR LES MUSCLES, LE CERVEAU ET LE VIEILLISSEMENT EN BONNE SANTÉ..docx",
+      "sha256": "87d62fe2baf7618e1d0968ba79c0eae2cb8d3dd033d4ed9c482cc06cfa5b03c6"
+    },
+    "image": {
+      "src": "/assets/images/publications/F08-640.webp",
+      "small": "/assets/images/publications/F08-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "H06",
+      "F07",
+      "F03"
+    ]
+  },
+  {
+    "id": "F09",
+    "categoryId": "F",
+    "slug": "the-anti-aging-diet",
+    "proposedEnglishTitle": "The anti-aging diet: every meal is a message to your cells",
+    "legacy": false,
+    "source": {
+      "body": "F 09 L’ALIMENTATION ANTI-ÂGE - CHAQUE REPAS EST UN MESSAGE ADRESSÉ À VOS CELLULES.docx",
+      "sha256": "ef9ed7204af5acd7a9b1548d7e8c7c65e6f5d4a9c2369d7269c8a07163bdbbf5"
+    },
+    "image": {
+      "src": "/assets/images/publications/F09-640.webp",
+      "small": "/assets/images/publications/F09-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "F10",
+      "F11",
+      "F15"
+    ]
+  },
+  {
+    "id": "F10",
+    "categoryId": "F",
+    "slug": "chronic-inflammation-and-aging",
+    "proposedEnglishTitle": "Chronic inflammation: the silent fire that accelerates aging",
+    "legacy": false,
+    "source": {
+      "body": "F 10 L’INFLAMMATION CHRONIQUE - LE FEU SILENCIEUX QUI ACCÉLÈRE LE VIEILLISSEMENT.docx",
+      "sha256": "ff581d1d49a9b4a443f63b4e3000bd977fe09a5b3ab34892fb0d567635b80c10"
+    },
+    "image": {
+      "src": "/assets/images/publications/F10-640.webp",
+      "small": "/assets/images/publications/F10-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "A08",
+      "F09",
+      "F11"
+    ]
+  },
+  {
+    "id": "F11",
+    "categoryId": "F",
+    "slug": "gut-microbiota-and-healthy-aging",
+    "proposedEnglishTitle": "The gut microbiota: our hidden ally for healthy aging",
+    "legacy": false,
+    "source": {
+      "body": "F 11 LE MICROBIOTE INTESTINAL - NOTRE ALLIÉ CACHÉ POUR VIEILLIR EN BONNE SANTÉ.docx",
+      "sha256": "9cefe0f5a37b5d060c0f0202fbc11e7bfa6b80cbb1b4335bc8e6d213d6e38ea9"
+    },
+    "image": {
+      "src": "/assets/images/publications/F11-640.webp",
+      "small": "/assets/images/publications/F11-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "E05",
+      "F10",
+      "F09"
+    ]
+  },
+  {
+    "id": "F12",
+    "categoryId": "F",
+    "slug": "stress-cortisol-and-premature-aging",
+    "proposedEnglishTitle": "Stress and cortisol: protecting the body from premature wear",
+    "legacy": false,
+    "source": {
+      "body": "F 12 LE STRESS ET LE CORTISOL - COMMENT PROTÉGER SON ORGANISME DE L’USURE PRÉMATURÉE..docx",
+      "sha256": "d91b471b727ee135711fd3fa0749d3bc1fdf179a14cd9441c2cba3b133dde1af"
+    },
+    "image": {
+      "src": "/assets/images/publications/F12-640.webp",
+      "small": "/assets/images/publications/F12-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "E03",
+      "E07",
+      "F10"
+    ]
+  },
+  {
+    "id": "F13",
+    "categoryId": "F",
+    "slug": "relationships-and-longevity",
+    "proposedEnglishTitle": "Human relationships: an often underestimated longevity factor",
+    "legacy": false,
+    "source": {
+      "body": "F 13 LES RELATIONS HUMAINES - UN FACTEUR DE LONGÉVITÉ SOUVENT SOUS-ESTIMÉ.docx",
+      "sha256": "6d59f830838c0c8e0a4d4f285e7bca5de9063d2ac3619d7683494199a1c1f532"
+    },
+    "image": {
+      "src": "/assets/images/publications/F13-640.webp",
+      "small": "/assets/images/publications/F13-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "E09",
+      "F14",
+      "F16"
+    ]
+  },
+  {
+    "id": "F14",
+    "categoryId": "F",
+    "slug": "mental-activity-and-cognitive-reserve",
+    "proposedEnglishTitle": "Mental activity and cognitive reserve: maintaining your brain throughout life",
+    "legacy": false,
+    "source": {
+      "body": "F 14 L’ACTIVITÉ MENTALE ET LA RÉSERVE COGNITIVE - ENTRETENIR SON CERVEAU TOUT AU LONG DE LA VIE.docx",
+      "sha256": "8261069b20e325e492cc9f8c1ff1f26be8427712e618eb78259890e726a51b64"
+    },
+    "image": {
+      "src": "/assets/images/publications/F14-640.webp",
+      "small": "/assets/images/publications/F14-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "F03",
+      "H03",
+      "F13"
+    ]
+  },
+  {
+    "id": "F15",
+    "categoryId": "F",
+    "slug": "fasting-and-cellular-repair",
+    "proposedEnglishTitle": "Fasting and cellular repair: letting the body do its maintenance work",
+    "legacy": false,
+    "source": {
+      "body": "F 15 LE JEÛNE ET LES MÉCANISMES DE RÉPARATION CELLULAIRE - LAISER LE CORPS FAIRE SON TRAVAIL D’ENTRETIEN..docx",
+      "sha256": "0f5a8f2826ac27f6d59160bda4ad9027b4402c3121d4e3f7ba77c37a286d6235"
+    },
+    "image": {
+      "src": "/assets/images/publications/F15-640.webp",
+      "small": "/assets/images/publications/F15-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "H02",
+      "F09",
+      "H01"
+    ]
+  },
+  {
+    "id": "F16",
+    "categoryId": "F",
+    "slug": "an-active-life-after-60",
+    "proposedEnglishTitle": "An active life after 60: preserving your independence and freedom",
+    "legacy": false,
+    "source": {
+      "body": "F 16 LA VIE ACTIVE APRÈS 60 ANS - COMMENT PRÉSERVER SON AUTONOMIE ET SA LIBERTÉ DE VIVRE.docx",
+      "sha256": "eea6a02a17ee647fd242d8654d5436329334d3d12f7138a16186e218734c1c1f"
+    },
+    "image": {
+      "src": "/assets/images/publications/F16-640.webp",
+      "small": "/assets/images/publications/F16-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "F07",
+      "F01",
+      "F13"
+    ]
+  },
+  {
+    "id": "F17",
+    "categoryId": "F",
+    "slug": "habits-that-accelerate-aging",
+    "proposedEnglishTitle": "Habits that accelerate aging: mistakes to avoid to protect your health",
+    "legacy": false,
+    "source": {
+      "body": "F 17 LES HABITUDES QUI ACCÉLÈRENT LE VIEILLISSEMENT - LES ERREURS À ÉVITER POUR PRÉSERVER SA SANTÉ..docx",
+      "sha256": "285548a5849dd2316bb917eef628306959df92c712836ad316808a0bbbc90712"
+    },
+    "image": {
+      "src": "/assets/images/publications/F17-640.webp",
+      "small": "/assets/images/publications/F17-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "F18",
+      "F09",
+      "F12"
+    ]
+  },
+  {
+    "id": "F18",
+    "categoryId": "F",
+    "slug": "family-clinic-pillars-of-longevity",
+    "proposedEnglishTitle": "The pillars of longevity according to Family Clinic: ten keys to adding life to your years",
+    "legacy": false,
+    "source": {
+      "body": "F 18 LES PILIERS DE LA LONGÉVITÉ SELON FAMILY CLINIC - LES DIX CLÉS POUR AJOUTER DE LA VIE AUX ANNÉES.docx",
+      "sha256": "ae9488c7937af4d4c0dac6bb773140e26c500b3b79431782ec40d0fdd2fba0d8"
+    },
+    "image": {
+      "src": "/assets/images/publications/F18-640.webp",
+      "small": "/assets/images/publications/F18-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "E10",
+      "F17",
+      "F01"
+    ]
+  },
+  {
+    "id": "H01",
+    "categoryId": "H",
+    "slug": "insulin-and-metabolism",
+    "proposedEnglishTitle": "Insulin and metabolism",
+    "legacy": false,
+    "source": {
+      "body": "H 01 Insuline et métabolisme-word.docx",
+      "teaser": "H 01 Insuline et métabolisme-vignette.docx",
+      "sha256": "20eead923d30ce4351b239519a0affa81b6f2f6f463698ce4679968a794ddbc4"
+    },
+    "image": {
+      "src": "/assets/images/publications/H01-640.webp",
+      "small": "/assets/images/publications/H01-240.webp",
+      "width": 640,
+      "height": 911
+    },
+    "relatedIds": [
+      "H05",
+      "C08",
+      "H02"
+    ]
+  },
+  {
+    "id": "H02",
+    "categoryId": "H",
+    "slug": "prolonged-fasting-and-its-benefits",
+    "proposedEnglishTitle": "Prolonged fasting and its benefits",
+    "legacy": false,
+    "source": {
+      "body": "H 02 Le Jeûne prolongé et ses bienfaits-word.docx",
+      "teaser": "H 02 Le Jeûne prolongé et ses bienfaits-vignette.docx",
+      "sha256": "db845a7e0aa6cc76b8390ec1053ab6e17084f1abd759fc7b54be0813bad4f72f"
+    },
+    "image": {
+      "src": "/assets/images/publications/H02-640.webp",
+      "small": "/assets/images/publications/H02-240.webp",
+      "width": 640,
+      "height": 910
+    },
+    "relatedIds": [
+      "F15",
+      "H01",
+      "H05"
+    ]
+  },
+  {
+    "id": "H03",
+    "categoryId": "H",
+    "slug": "preventing-cognitive-decline",
+    "proposedEnglishTitle": "Preventing cognitive decline: the role of metabolism and ketones",
+    "legacy": false,
+    "source": {
+      "body": "H 03 Prévenir le déclin cognitif-word.docx",
+      "teaser": "H 03 Prévenir le déclin cognitif-vignette.docx",
+      "sha256": "b478416ea58d7683362874f15b8075d79dba77856769b5a6f06b530d8d792d59"
+    },
+    "image": {
+      "src": "/assets/images/publications/H03-640.webp",
+      "small": "/assets/images/publications/H03-240.webp",
+      "width": 640,
+      "height": 909
+    },
+    "relatedIds": [
+      "F03",
+      "F14",
+      "H04"
+    ]
+  },
+  {
+    "id": "H04",
+    "categoryId": "H",
+    "slug": "neurodegenerative-diseases-and-brain-cancers",
+    "proposedEnglishTitle": "Neurodegenerative diseases and brain cancers",
+    "legacy": false,
+    "source": {
+      "body": "H 04 Maladies neurodégénératives et cancers cérébraux-word.docx",
+      "teaser": "H 04 Maladies neurodégénératives et cancers cérébraux-vignette.docx",
+      "sha256": "9f44c0d0192a59a947ad9002142c9fa0f301d955a2a1caf36df528124cd28dfa"
+    },
+    "image": {
+      "src": "/assets/images/publications/H04-640.webp",
+      "small": "/assets/images/publications/H04-240.webp",
+      "width": 640,
+      "height": 909
+    },
+    "relatedIds": [
+      "C25",
+      "H03",
+      "C16"
+    ]
+  },
+  {
+    "id": "H05",
+    "categoryId": "H",
+    "slug": "insulin-resistance-root-of-chronic-disease",
+    "proposedEnglishTitle": "Insulin resistance: the root of chronic disease",
+    "legacy": false,
+    "source": {
+      "body": "H 05 Insulinorésistance  la racine des maladies chroniques-word.docx",
+      "teaser": "H 05 Insulinorésistance  la racine des maladies chroniques-vignette.docx",
+      "sha256": "b4331d59c851252a23f8ff02aefd1e709909e5ec9b4d380136865d5f810b69f6"
+    },
+    "image": {
+      "src": "/assets/images/publications/H05-640.webp",
+      "small": "/assets/images/publications/H05-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "H01",
+      "C08",
+      "F09"
+    ]
+  },
+  {
+    "id": "H06",
+    "categoryId": "H",
+    "slug": "should-everyone-take-creatine",
+    "proposedEnglishTitle": "Should everyone take creatine?",
+    "legacy": false,
+    "source": {
+      "body": "H 06 DOIT-ON TOUS PRENDRE DE LA CRÉATINE.word.docx",
+      "teaser": "H 06 DOIT-ON TOUS PRENDRE DE LA CRÉATINE-vignette.docx",
+      "sha256": "92df2c899781ece78ab90f450035c52a4b8265ac1caa5233cc79f00b5bb657ee"
+    },
+    "image": {
+      "src": "/assets/images/publications/H06-640.webp",
+      "small": "/assets/images/publications/H06-240.webp",
+      "width": 640,
+      "height": 960
+    },
+    "relatedIds": [
+      "F08",
+      "F07",
+      "F03"
+    ]
   }
 ]
