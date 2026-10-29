@@ -4,14 +4,16 @@
 <section class="publication-directory" aria-labelledby="publication-browse">
 <div class="publication-section-heading"><h2 id="publication-browse">{{ pc.browse }}</h2></div>
 {% for c in p.categories %}
-<div class="publication-category-row">
-<div><h2><a href="{{ c.url }}">{{ c.title | publicationText(p.locale) | safe }}</a></h2><p>{{ c.description | publicationText(p.locale) | safe }}</p><a class="publication-action" href="{{ c.url }}">{{ pc.explore }} <span aria-hidden="true">{{ pc.forwardArrow }}</span></a></div>
-<ul>{% for a in c.articles.slice(0,3) %}<li><a href="{{ a.url }}">{{ a.title | publicationText(p.locale) | safe }}</a></li>{% endfor %}</ul>
-{% if c.articles[0] %}{{ illustration(c.articles[0].image) }}{% endif %}
-</div>
-{% endfor %}
-</section>
+{% if c.id == 'B' %}
 <section class="publication-book-feature">
 {{ illustration(p.book.image,'',false,p.book.title) }}
 <div><p class="publication-eyebrow">{{ pc.bookLabel }}</p><h2>{{ pc.bookTitle }}</h2><p>{{ pc.bookDescription }}</p><a class="publication-action" href="{{ p.book.url }}">{{ pc.bookAction }} <span aria-hidden="true">{{ pc.forwardArrow }}</span></a></div>
+</section>
+{% endif %}
+<div class="publication-category-row">
+<div><h2><a href="{{ c.url }}">{{ c.title | publicationText(p.locale) | safe }}</a></h2><p>{{ c.description | publicationText(p.locale) | safe }}</p><a class="publication-action" href="{{ c.url }}">{{ pc.explore }} <span aria-hidden="true">{{ pc.forwardArrow }}</span></a></div>
+<ul>{% for a in c.articles.slice(0,3) %}<li><a href="{{ a.url }}">{{ a.title | publicationText(p.locale) | safe }}</a></li>{% endfor %}</ul>
+{% if c.articles[0].image %}{{ illustration(c.articles[0].image) }}{% endif %}
+</div>
+{% endfor %}
 </section>

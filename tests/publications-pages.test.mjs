@@ -6,9 +6,18 @@ import {buildLibrary} from '../src/lib/publication-library.js';
 import {outputPath,readOutput} from './helpers/site.mjs';
 const library=buildLibrary(publicationData());
 
-test('the complete collection has all 56 full articles in English, French and Arabic',()=>{
-  for(const locale of ['en','fr','ar'])assert.equal(library.pages.filter(p=>p.kind==='article'&&p.locale===locale).length,56,locale);
+test('the complete collection has all 91 full articles in English, French and Arabic',()=>{
+  for(const locale of ['en','fr','ar'])assert.equal(library.pages.filter(p=>p.kind==='article'&&p.locale===locale).length,91,locale);
   assert.equal(library.pages.filter(p=>p.kind==='transition').length,0,'Complete Arabic editions replace every legacy transition');
+});
+
+test('well-being booklets link their further reading to the other booklets and the cookbook',()=>{
+  const article=(locale,id)=>library.pages.find(p=>p.kind==='article'&&p.locale===locale&&p.publication.id===id);
+  for(const locale of ['en','fr','ar']){
+    const page=article(locale,'E03');
+    for(const id of ['E02','E04','E07','E08','E01'])assert.ok(page.body.includes(`<li><a href="${article(locale,id).permalink}">`),`${locale} ${id}`);
+    assert.ok(page.body.includes(`<a href="${page.book.url}">`),`${locale} cookbook`);
+  }
 });
 
 test('the directory and categories expose ordinary links in architecture order',async()=>{
@@ -22,6 +31,8 @@ test('the directory and categories expose ordinary links in architecture order',
       const categoryPage=await readOutput(category.url.slice(1)+'index.html');
       for(const a of category.articles)assert.ok(categoryPage.includes(`href="${a.url}"`));
     }
+    const at=id=>html.indexOf(`href="${catalog.categories.find(c=>c.id===id).url}"`), book=html.indexOf(`href="${catalog.book.url}"`);
+    assert.ok(at('F')<book&&book<at('B'),'The cookbook sits between Longevity and the disease groups');
     assert.doesNotMatch(html,/type="search"|data-publication-filter/);
   }
 });
@@ -53,7 +64,7 @@ test('all recipes have real ingredients, full instructions, and book navigation'
 });
 
 test('French remains available across the directory, all articles, book and recipe pages',async()=>{
-  assert.equal(library.pages.filter(page=>page.kind==='article'&&page.locale==='fr').length,56);
+  assert.equal(library.pages.filter(page=>page.kind==='article'&&page.locale==='fr').length,91);
   const book=library.pages.find(page=>page.kind==='book'&&page.locale==='fr');
   assert.ok(book,'The French cookbook has its own route');
   assert.equal(book.permalink,'/fr/publications/cooking-to-heal/');

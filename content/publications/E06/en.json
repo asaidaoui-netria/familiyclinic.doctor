@@ -1,0 +1,661 @@
+{
+  "language": "en",
+  "status": "published",
+  "title": "Nutrition and mood",
+  "summary": "Understanding the links between diet, the brain and emotional balance.",
+  "sourceHash": "926e7e2e8723da956fd609c3571d12d13e4e64f79eb517472c4d240bfa77026f",
+  "translation": {
+    "from": "fr",
+    "method": "AI-assisted translation",
+    "reviewStatus": "not-clinically-reviewed"
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Foreword"
+    },
+    {
+      "type": "paragraph",
+      "text": "Long regarded as two separate fields, nutrition and mental health now appear to be closely linked. Scientific research shows that what we eat influences not only our body, but also our brain, our emotions and our ability to cope with the difficulties of daily life."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mental fatigue, irritability, anxiety, reduced motivation or mood swings can sometimes be worsened by nutritional imbalances. Conversely, an appropriate diet helps support cognitive functions, emotional balance and the general sense of well-being."
+    },
+    {
+      "type": "paragraph",
+      "text": "The brain accounts for barely 2% of body weight, but it consumes nearly 20% of the available energy. To function properly, it depends on a regular supply of high-quality nutrients. Vitamins, minerals, proteins, essential fatty acids and a balanced gut microbiota contribute directly to its proper functioning."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Family Clinic approach regards diet as a major lever for prevention and for supporting psychological well-being."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The brain: a very demanding organ"
+    },
+    {
+      "type": "paragraph",
+      "text": "The brain works continuously."
+    },
+    {
+      "type": "paragraph",
+      "text": "To carry out its many functions, it needs:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Stable energy",
+        "Essential fatty acids",
+        "Vitamins",
+        "Minerals",
+        "Amino acids",
+        "Good oxygenation"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "When these needs are not met, certain functions can be disrupted:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Concentration",
+        "Memory",
+        "Motivation",
+        "Emotional regulation",
+        "Sleep quality"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "An unbalanced diet can therefore directly affect mental well-being."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Neurotransmitters: the messengers of mood"
+    },
+    {
+      "type": "paragraph",
+      "text": "Emotions and psychological state are largely influenced by substances produced by the brain called neurotransmitters."
+    },
+    {
+      "type": "paragraph",
+      "text": "Among the most important:"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Serotonin"
+    },
+    {
+      "type": "paragraph",
+      "text": "Often called the well-being hormone, it contributes to:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Emotional balance",
+        "Serenity",
+        "Sleep",
+        "Stress management"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Dopamine"
+    },
+    {
+      "type": "paragraph",
+      "text": "It is involved in:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Motivation",
+        "Pleasure",
+        "Concentration",
+        "The drive to act"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Norepinephrine"
+    },
+    {
+      "type": "paragraph",
+      "text": "It contributes to:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Alertness",
+        "Attention",
+        "Mental responsiveness"
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The production of these substances depends directly on the nutrients supplied by food."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The central role of the gut microbiota"
+    },
+    {
+      "type": "paragraph",
+      "text": "The gut is sometimes called the “second brain.”"
+    },
+    {
+      "type": "paragraph",
+      "text": "This expression reflects the existence of constant communication between the digestive system and the nervous system."
+    },
+    {
+      "type": "paragraph",
+      "text": "The gut microbiota influences:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Mood",
+        "Stress",
+        "Sleep",
+        "Cognitive abilities",
+        "Inflammatory mechanisms"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "A disruption of this balance can contribute to certain emotional and digestive disorders."
+    },
+    {
+      "type": "paragraph",
+      "text": "Promoting a diverse microbiota is therefore an important goal for overall health."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Foods that support emotional well-being"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Vegetables"
+    },
+    {
+      "type": "paragraph",
+      "text": "They provide:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Fiber",
+        "Vitamins",
+        "Antioxidants",
+        "Minerals"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Essential for brain function."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Fruit"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sources of vitamins and many protective compounds."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Oily fish"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rich in omega-3s."
+    },
+    {
+      "type": "paragraph",
+      "text": "These fatty acids contribute to the proper functioning of the brain's cell membranes."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Legumes"
+    },
+    {
+      "type": "paragraph",
+      "text": "They provide:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Slow-release energy",
+        "Fiber",
+        "Magnesium",
+        "B vitamins"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Nuts"
+    },
+    {
+      "type": "paragraph",
+      "text": "Walnuts, almonds and hazelnuts provide nutrients essential to the nervous system."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Particularly important nutrients"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Magnesium"
+    },
+    {
+      "type": "paragraph",
+      "text": "It contributes to:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Muscle relaxation",
+        "Stress management",
+        "Nervous balance"
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "B vitamins"
+    },
+    {
+      "type": "paragraph",
+      "text": "They take part in energy production and brain function."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Omega-3s"
+    },
+    {
+      "type": "paragraph",
+      "text": "They support:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Memory",
+        "Concentration",
+        "Emotional balance"
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Zinc"
+    },
+    {
+      "type": "paragraph",
+      "text": "It is involved in many biological reactions related to brain function."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The enemies of emotional balance"
+    },
+    {
+      "type": "paragraph",
+      "text": "Certain habits can disturb mood:"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Excess sugar"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rapid swings in blood sugar promote:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Fatigue",
+        "Irritability",
+        "Cravings",
+        "Energy dips"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Ultra-processed products"
+    },
+    {
+      "type": "paragraph",
+      "text": "Often low in protective nutrients."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Excess alcohol"
+    },
+    {
+      "type": "paragraph",
+      "text": "It disrupts:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Sleep",
+        "Emotional balance",
+        "Cognitive performance"
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Excess caffeine"
+    },
+    {
+      "type": "paragraph",
+      "text": "In some people, it can heighten:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Nervousness",
+        "Restlessness",
+        "Sleep disorders"
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Stress, inflammation and diet"
+    },
+    {
+      "type": "paragraph",
+      "text": "Chronic stress promotes certain inflammatory mechanisms."
+    },
+    {
+      "type": "paragraph",
+      "text": "Persistent inflammation can influence:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Mood",
+        "Energy levels",
+        "Sleep quality",
+        "Cognitive abilities"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "A diet rich in plant foods, omega-3s and minimally processed foods helps limit these phenomena."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Habits that improve mood"
+    },
+    {
+      "type": "paragraph",
+      "text": "Diet is only one element of psychological balance."
+    },
+    {
+      "type": "paragraph",
+      "text": "Its effectiveness is reinforced when it is combined with:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Sufficient sleep",
+        "Regular physical activity",
+        "Good exposure to natural light",
+        "Positive social relationships",
+        "Appropriate stress management"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "These factors work in synergy."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The Family Clinic Nutrition and Well-being protocol"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Eat vegetables at every meal.",
+        "Eat fruit every day.",
+        "Favor natural, minimally processed foods.",
+        "Include regular sources of omega-3s.",
+        "Limit refined sugars.",
+        "Cut down on excess alcohol.",
+        "Stay well hydrated.",
+        "Engage in regular physical activity.",
+        "Get enough sleep.",
+        "Preserve the health of your gut microbiota."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Practical everyday tips"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Start the day with a balanced breakfast.",
+        "Avoid repeated sugary snacking.",
+        "Include a variety of vegetables every day.",
+        "Eat walnuts or almonds regularly.",
+        "Walk at least thirty minutes a day.",
+        "Eat your meals in a calm setting.",
+        "Keep regular sleep hours."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "These simple habits can gradually improve mental energy and emotional well-being."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Conclusion"
+    },
+    {
+      "type": "paragraph",
+      "text": "Diet influences far more than weight or cardiovascular health. It plays an active part in brain function, in the production of neurotransmitters and in emotional balance. Appropriate nutrition helps support concentration, motivation, resilience to stress and quality of life."
+    },
+    {
+      "type": "paragraph",
+      "text": "According to the Family Clinic approach, taking care of one's diet is one of the most natural and accessible ways to promote lasting psychological well-being."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Further reading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Also discover the booklets:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Sleep well to live better",
+        "Managing stress naturally",
+        "Restoring your energy naturally",
+        "Everyday digestive well-being",
+        "Preventing burnout"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "links": {
+        "Sleep well to live better": "E02",
+        "Managing stress naturally": "E03",
+        "Restoring your energy naturally": "E04",
+        "Everyday digestive well-being": "E05",
+        "Preventing burnout": "E07"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "and the book “Cooking to Heal” (2026) from Family Clinic Editions.",
+      "links": {
+        "Cooking to Heal": "book"
+      }
+    }
+  ]
+}

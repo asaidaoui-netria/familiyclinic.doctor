@@ -1,0 +1,446 @@
+{
+  "language": "en",
+  "status": "published",
+  "title": "Should everyone take creatine?",
+  "summary": "Is creatine only for athletes? Is it dangerous for the kidneys? Can it help preserve muscle with age? Should you really take it? Drawing on an analysis of the most solid scientific data, this booklet answers the main questions about creatine in a simple, accessible way. You will discover its real role in energy production, its effects on strength and muscle mass, its potential value during aging, as well as its limitations and precautions for use. A clear, practical guide for telling scientific facts apart from preconceived ideas and understanding whether creatine can really find a place in your health strategy.",
+  "sourceHash": "92df2c899781ece78ab90f450035c52a4b8265ac1caa5233cc79f00b5bb657ee",
+  "translation": {
+    "from": "fr",
+    "method": "AI-assisted translation",
+    "reviewStatus": "not-clinically-reviewed"
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Foreword"
+    },
+    {
+      "type": "paragraph",
+      "text": "Creatine is probably one of the best-known dietary supplements in the world. Long associated with bodybuilding, it is now being studied in much broader areas: aging, muscle health, rehabilitation, cognitive performance and metabolic health. Yet despite several decades of research, few subjects generate as much confusion."
+    },
+    {
+      "type": "paragraph",
+      "text": "For some, creatine is a doping product. For others, it is dangerous for the kidneys. Some consider it indispensable for all athletes, while others think it has no value at all. The reality is more nuanced."
+    },
+    {
+      "type": "paragraph",
+      "text": "Creatine is not a stimulant. Nor is it a medication. It is part of the natural energy-production mechanisms used every day by the muscles, the brain and several other organs."
+    },
+    {
+      "type": "paragraph",
+      "text": "So the question is not simply, “Is creatine effective?” but rather, “Who is it useful for? In what situations? At what doses? And should we really all take it?”"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What is creatine?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Creatine is an amino acid derivative made naturally by the body. Its synthesis begins with two amino acids, glycine and arginine, mainly in the kidney. A second step takes place in the liver through a methylation mechanism that depends in particular on methionine. The end product is creatine."
+    },
+    {
+      "type": "paragraph",
+      "text": "This natural production covers most of the body’s needs. The brain and the pancreas also have their own local capacity for synthesis"
+    },
+    {
+      "type": "paragraph",
+      "text": "Some creatine also comes from food, mainly meat and fish. However, the creatine used in dietary supplements is produced industrially and then purified."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nearly 95% of the body’s stores are found in the muscles. The rest is distributed among the brain, the heart and several other tissues."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How does it work?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The main function of creatine is to take part in the rapid production of ATP, the universal energy currency of cells."
+    },
+    {
+      "type": "paragraph",
+      "text": "In muscle, it is stored as phosphocreatine. When an intense effort begins, this phosphocreatine is used immediately to produce ATP. This mechanism supplies energy in just a few seconds."
+    },
+    {
+      "type": "paragraph",
+      "text": "This is the energy system used during:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "the start of a sprint;",
+        "a jump;",
+        "lifting a heavy load;",
+        "a sudden change of direction;",
+        "an explosive movement."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "However, this reserve is limited. Peak energy production lasts a few seconds, and the system remains dominant for about twenty seconds before other mechanisms take over."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Why do athletes use creatine?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The best-demonstrated benefits concern muscle performance."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Supplementation makes it possible to:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "increase phosphocreatine stores;",
+        "improve maximal strength;",
+        "increase strength endurance;",
+        "make intense training easier;",
+        "indirectly improve muscle gain."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The main mechanism is simple: the person trains more effectively. They complete more repetitions, sustain high intensities for longer and thus accumulate more muscular work. Over the long term, this promotes the development of strength and muscle mass."
+    },
+    {
+      "type": "paragraph",
+      "text": "Creatine therefore does not directly build muscle. Above all, it improves the conditions that make better training possible."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Does creatine make you gain weight?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Yes and no."
+    },
+    {
+      "type": "paragraph",
+      "text": "The weight gain seen after starting supplementation is often linked to an increase in the water inside the muscle fibers. Some of the extracellular water moves into the muscle cells."
+    },
+    {
+      "type": "paragraph",
+      "text": "This intracellular hydration:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "improves the functioning of muscle fibers;",
+        "optimizes muscle contraction;",
+        "contributes to the increase in apparent muscle volume."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "It is not fat gain."
+    },
+    {
+      "type": "paragraph",
+      "text": "Moreover, if training becomes more effective thanks to creatine, a genuine increase in muscle mass may follow as a secondary effect."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Does the brain use creatine too?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Yes."
+    },
+    {
+      "type": "paragraph",
+      "text": "The brain has the same creatine-synthesis enzymes as certain other organs and also uses the creatine–phosphocreatine system."
+    },
+    {
+      "type": "paragraph",
+      "text": "Creatine mainly acts as an energy buffer that can make up for very brief energy shortfalls in neurons."
+    },
+    {
+      "type": "paragraph",
+      "text": "Recent research suggests several potential benefits:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "better resistance to mental fatigue;",
+        "support for cognitive functions in some people;",
+        "possible value in brain aging;",
+        "potential value in certain forms of depression."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "However, the evidence remains less solid than for muscle. Creatine should not be considered a classic nootropic or a brain stimulant."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What about older people?"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "As we age, several changes appear:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "a decrease in muscle mass;",
+        "a loss of strength;",
+        "a decline in certain cognitive functions;",
+        "aging of the pancreas."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "In this context, creatine could help maintain muscle function and potentially certain aspects of brain health, provided it is combined with:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "adequate protein intake;",
+        "regular physical activity;",
+        "an appropriate diet."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What dose should be used?"
+    },
+    {
+      "type": "paragraph",
+      "text": "There are two strategies."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Maintenance dose: 3 to 5 g per day."
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "This approach gradually saturates the muscle stores in about 3 to 4 weeks."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Loading phase: 20 g per day for about a week, then 3 to 5 g per day."
+      ],
+      "levels": [
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "This strategy reaches muscle saturation much more quickly. The final benefit is similar; only the speed at which it is achieved differs."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Which form should you choose?"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The answer is simple: creatine monohydrate."
+    },
+    {
+      "type": "paragraph",
+      "text": "All the benefits documented in the scientific literature rest essentially on this form."
+    },
+    {
+      "type": "paragraph",
+      "text": "The main criterion is not the marketing form but the purity of the raw material. Potential contaminants may include:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "industrial residues;",
+        "chemical by-products;",
+        "heavy metals."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Choosing a highly purified raw material is therefore essential."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Side effects and contraindications"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "In healthy adults, creatine is generally considered safe."
+    },
+    {
+      "type": "paragraph",
+      "text": "The main situations that call for caution or medical advice are:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "kidney failure;",
+        "severe liver failure;",
+        "pregnancy;",
+        "breastfeeding;",
+        "children and adolescents."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The kidney caution threshold mentioned applies in particular to a GFR below 60 mL/min."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "So, should everyone take creatine?"
+    },
+    {
+      "type": "paragraph",
+      "text": "No, it is not a universal recommendation."
+    },
+    {
+      "type": "paragraph",
+      "text": "The people who probably stand to benefit most from using it are:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "athletes doing resistance training;",
+        "people seeking to build or preserve their muscle mass;",
+        "older people looking to prevent muscle loss;",
+        "certain functional rehabilitation situations."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Conversely, for a young, healthy, completely sedentary person with no particular goal, the value is much less obvious."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The Family Clinic conclusion"
+    },
+    {
+      "type": "paragraph",
+      "text": "Creatine is now one of the best-studied dietary supplements in the world. Its effectiveness is particularly well established for:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "muscle strength;",
+        "power;",
+        "strength endurance;",
+        "the indirect improvement of muscle mass."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Applications concerning the brain, cognitive aging, depression or metabolism are promising but still less scientifically established."
+    },
+    {
+      "type": "paragraph",
+      "text": "So the real question is not, “Should everyone take creatine?”"
+    },
+    {
+      "type": "paragraph",
+      "text": "The real question is, “Does my personal situation justify using it?”"
+    },
+    {
+      "type": "paragraph",
+      "text": "For athletes, active seniors and certain people engaged in a muscle-strengthening program, the answer is often yes. For others, improving diet, physical activity, sleep and lifestyle will bring far greater benefits than supplementation on its own."
+    },
+    {
+      "type": "paragraph",
+      "text": "In the Family Clinic approach, creatine is a useful tool, but it never replaces the foundations of health: diet, movement, sleep and the prevention of the body’s progressive cellular accumulation."
+    }
+  ]
+}

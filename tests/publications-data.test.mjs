@@ -2,11 +2,11 @@ import assert from 'node:assert/strict';
 import test from 'node:test';
 import publicationData from '../src/_data/publications.js';
 
-test('the publication library follows all 56 source IDs and four architecture categories', () => {
+test('the publication library follows all 91 source IDs and seven architecture categories', () => {
   const records = publicationData();
-  assert.equal(records.length, 56);
-  assert.equal(new Set(records.map(r => r.id)).size, 56);
-  assert.deepEqual(['A','B','C','D'].map(id=>records.filter(r=>r.categoryId===id).length), [16,9,25,6]);
+  assert.equal(records.length, 91);
+  assert.equal(new Set(records.map(r => r.id)).size, 91);
+  assert.deepEqual(['A','E','F','B','C','D','H'].map(id=>records.filter(r=>r.categoryId===id).length), [16,10,18,9,26,6,6]);
 });
 
 test('draft editions never create public articles or language alternates', async () => {
@@ -129,6 +129,18 @@ test('source list hierarchy and explanatory figures remain readable in HTML',asy
   ]);
   assert.match(rendered.html,/<li>Mechanisms<ul><li>First mechanism<\/li><li>Second mechanism<\/li><\/ul><\/li><li>Results<\/li>/);
   assert.match(rendered.html,/<figure[^>]*>[\s\S]*<img[^>]+width="498"[^>]+height="693"[\s\S]*<figcaption>Illustration from the original article\.<\/figcaption>/);
+});
+
+test('block links wrap their exact text, skip unpublished targets and reject missing text',async()=>{
+  const {renderBlocks}=await import('../src/lib/publication-content.js');
+  const href=id=>({E02:'/publications/sleep/',book:'/publications/cooking-to-heal/'})[id]??null;
+  const {html}=renderBlocks([
+    {type:'list',ordered:false,items:['Sleep','Draft'],levels:[0,0],links:{Sleep:'E02',Draft:'E09'}},
+    {type:'paragraph',text:'and the book “Cooking to Heal” (2026).',links:{'Cooking to Heal':'book'}},
+  ],'en',href);
+  assert.match(html,/<li><a href="\/publications\/sleep\/">Sleep<\/a><\/li><li>Draft<\/li>/);
+  assert.match(html,/<p>and the book “<a href="\/publications\/cooking-to-heal\/">Cooking to Heal<\/a>” \(2026\)\.<\/p>/);
+  assert.throws(()=>renderBlocks([{type:'paragraph',text:'Other text',links:{Missing:'E02'}}],'en',href),/link text not found/);
 });
 
 

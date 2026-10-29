@@ -68,23 +68,47 @@ def read_word(path):
         if first:first['level']=2
         return title,blocks
 
+def link_further_reading(blocks,titles):
+    # The E booklets end with the titles of related booklets (promoted to headings) and the cookbook line.
+    for i,b in enumerate(blocks):
+        if b['type']!='paragraph' or not b['text'].startswith('Découvrez également les fascicules'):continue
+        j=i+1
+        while j<len(blocks) and blocks[j]['type']=='heading' and blocks[j]['text'] in titles:j+=1
+        items=[x['text'] for x in blocks[i+1:j]]
+        if not items:continue
+        blocks[i+1:j]=[{'type':'list','ordered':False,'items':items,'levels':[0]*len(items),'links':{t:titles[t] for t in items}}]
+        if i+2<len(blocks) and 'Cuisiner pour guérir' in blocks[i+2].get('text',''):blocks[i+2]['links']={'Cuisiner pour guérir':'book'}
+
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--catalog',default='docs/design/publications-2026-10-03/catalog.json');args=parser.parse_args()
     catalog=json.loads(Path(args.catalog).read_text());out=Path('content/publications');out.mkdir(parents=True,exist_ok=True)
     existing={r["id"]:r for r in json.loads((out/"manifest.json").read_text())} if (out/"manifest.json").exists() else {}
     figures=json.loads((out/'figures.json').read_text()) if (out/'figures.json').exists() else {}
-    manifest=[]
+    manifest=[];editions={}
     for row in catalog['articles']:
         source=Path(row['bodyPath']);title,blocks=read_word(source)
         for figure in figures.get(row['code'],[]):
             anchor=next(i for i,b in enumerate(blocks) if b.get('text')==figure['afterSourceText'])
             blocks.insert(anchor+1,{'type':'figure',**{key:figure[key] for key in ['src','width','height']},'alt':figure['alt']['fr'],'caption':figure['caption']['fr']})
-        _,teaser=read_word(Path(row['teaserPath']))
-        summary=' '.join(b.get('text','') for b in teaser).strip()
+        title=row.get('title',title)
+        # Later batches have no vignette: E uses its subtitle, F an editorial summary.
+        if 'teaserPath' in row:
+            _,teaser=read_word(Path(row['teaserPath']))
+            summary=' '.join(b.get('text','') for b in teaser).strip()
+        elif row.get('subtitleSummary'):summary=blocks.pop(0)['text']
+        else:summary=row['summary']
         edition={'language':'fr','status':'published','title':title,'summary':summary,'sourceHash':hashlib.sha256(source.read_bytes()).hexdigest(),'blocks':blocks}
-        folder=out/row['code'];folder.mkdir(exist_ok=True)
+        if 'summary' in row:edition['summarySource']='editorial'
+        editions[row['code']]=edition
+        record={'id':row['code'],'categoryId':row['categoryId'],'slug':row['slug'],'proposedEnglishTitle':row['proposedEnglishTitle'],'legacy':row['existingEnglishUrl'],'source':{'body':source.name,'sha256':edition['sourceHash']}}
+        if 'teaserPath' in row:record['source']={'body':source.name,'teaser':Path(row['teaserPath']).name,'sha256':edition['sourceHash']}
+        if 'imagePath' in row:record['image']={'src':f'/assets/images/publications/{row["code"]}-640.webp','small':f'/assets/images/publications/{row["code"]}-240.webp','width':640,'height':960}
+        manifest.append(record)
+    titles={edition['title']:code for code,edition in editions.items()}
+    for code,edition in editions.items():
+        link_further_reading(edition['blocks'],titles)
+        folder=out/code;folder.mkdir(exist_ok=True)
         (folder/'fr.json').write_text(json.dumps(edition,ensure_ascii=False,indent=2)+'\n')
-        manifest.append({'id':row['code'],'categoryId':row['categoryId'],'slug':row['slug'],'proposedEnglishTitle':row['proposedEnglishTitle'],'legacy':row['existingEnglishUrl'],'source':{'body':source.name,'teaser':Path(row['teaserPath']).name,'sha256':edition['sourceHash']},'image':{'src':f'/assets/images/publications/{row["code"]}-640.webp','small':f'/assets/images/publications/{row["code"]}-240.webp','width':640,'height':960}})
     for record in manifest:
         previous=existing.get(record['id'],{})
         if 'image' in previous:record['image']=previous['image']

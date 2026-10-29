@@ -1,6 +1,6 @@
 # Publications HTML migration
 
-The collection contains 56 article IDs in the client's four architecture branches: A (16), B (9), C (25), D (6). The English, French, and Arabic editions share stable article slugs. The English, French, and Arabic cookbook branches each contain the 20 complete recipes present in their supplied edition.
+The collection contains 91 article IDs in the client's seven architecture branches, ordered as in the author's PUBLICATIONS plan with the cookbook between F and B: A (16), E (10), F (18), B (9), C (26), D (6), H (6). The 2026-10-24 batch (C25, E, F, H) has no summary cards for E and F: E summaries are the author's subtitles, and F summaries are editorial (`summarySource: "editorial"`). E and F came without covers; theirs are AI-generated (`openai/gpt-image-2.5-sunburst` via OpenRouter, with the A01, C16 and H01 covers as style references) and stored in `FC web site files/generated-covers/`. The English, French, and Arabic editions share stable article slugs. The English, French, and Arabic cookbook branches each contain the 20 complete recipes present in their supplied edition.
 
 `content/publications/manifest.json` defines article identity, category, source filenames, original-file SHA-256 and optimized illustrations. Each ID has a French original and English and Arabic translations in separate JSON files. `book.json`, `book-fr.json`, and `book-ar.json` contain the supplied recipe text and complete preface in each language. The Arabic book uses its own cover and original recipe quantities and timings, which sometimes differ from the English edition. Its PDF filename, SHA-256, and source page numbers are retained in the data. The manifest also defines curated related articles and the cross-category autoimmune link. These files are the build inputs; the build does not need Drive, WhatsApp, Word, PDF tools or remote publication storage.
 
@@ -20,7 +20,7 @@ Each indexable page has a canonical URL and Open Graph metadata. Articles and re
 
 ## Updating content
 
-Edit the relevant locale JSON; the supported body blocks are `heading` (levels 2/3), `paragraph`, `list` (with source nesting levels), `table`, and `figure`. Text is escaped before HTML rendering. Source hash mismatches stop the build so changes to the original manuscript cannot silently retain a stale translation. Set an edition to `draft` to remove its article route and language alternates; published category counts update automatically.
+Edit the relevant locale JSON; the supported body blocks are `heading` (levels 2/3), `paragraph`, `list` (with source nesting levels), `table`, and `figure`. Text is escaped before HTML rendering. A paragraph or list may carry `links`, mapping exact text in the block to an article ID or `book`. Missing text or an unknown ID stops the build, and a target with no published edition in that language renders as plain text. The importer builds these for the "Découvrez également les fascicules" lists at the end of E02–E10. Source hash mismatches stop the build so changes to the original manuscript cannot silently retain a stale translation. Set an edition to `draft` to remove its article route and language alternates; published category counts update automatically.
 
 Offline source import is reproducible from the downloaded collection and the design catalog:
 

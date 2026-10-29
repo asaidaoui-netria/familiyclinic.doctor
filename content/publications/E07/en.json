@@ -1,0 +1,609 @@
+{
+  "language": "en",
+  "status": "published",
+  "title": "Preventing burnout",
+  "summary": "Recognizing the signs of exhaustion and putting prevention strategies in place.",
+  "sourceHash": "5cfe2ee30d7de695f06add6d295feb2a7f43e2ba42f7fcd93f97d9390695af43",
+  "translation": {
+    "from": "fr",
+    "method": "AI-assisted translation",
+    "reviewStatus": "not-clinically-reviewed"
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Foreword"
+    },
+    {
+      "type": "paragraph",
+      "text": "Burnout, or exhaustion syndrome, has become one of the major health challenges of our time. In a world where performance, constant availability and speed are often valued, many people gradually exceed their capacity to adapt without being fully aware of it."
+    },
+    {
+      "type": "paragraph",
+      "text": "Unlike simple passing fatigue, burnout results from prolonged exposure to excessive stress combined with insufficient recovery. It usually sets in gradually, sometimes over several months or several years, until it leads to deep physical, emotional and mental exhaustion."
+    },
+    {
+      "type": "paragraph",
+      "text": "Burnout does not affect only working life. It can also occur within the family, in voluntary work or when daily responsibilities become too heavy. Its consequences then affect every aspect of personal, social and relational life."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Family Clinic approach favors early prevention, based on a balance between activity and recovery, respect for fundamental biological needs and the adoption of a protective lifestyle."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What is burnout?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Burnout is a state of overall exhaustion resulting from prolonged stress."
+    },
+    {
+      "type": "paragraph",
+      "text": "It is characterized in particular by:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Intense fatigue",
+        "Emotional exhaustion",
+        "Loss of motivation",
+        "Reduced effectiveness",
+        "A feeling of constant overload"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The person often feels that they no longer have the resources needed to meet the demands of their daily life."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How does burnout set in?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Burnout rarely appears suddenly."
+    },
+    {
+      "type": "paragraph",
+      "text": "It generally develops in several stages:"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Overcommitment phase"
+    },
+    {
+      "type": "paragraph",
+      "text": "The person invests a great deal of energy in their responsibilities."
+    },
+    {
+      "type": "paragraph",
+      "text": "They take on more tasks and constantly try to meet the expectations of those around them."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Compensation phase"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rest is gradually cut back."
+    },
+    {
+      "type": "paragraph",
+      "text": "Leisure, physical activity and moments of relaxation take a back seat."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Chronic fatigue phase"
+    },
+    {
+      "type": "paragraph",
+      "text": "Exhaustion becomes more frequent."
+    },
+    {
+      "type": "paragraph",
+      "text": "Recovery is less and less effective."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Exhaustion phase"
+    },
+    {
+      "type": "paragraph",
+      "text": "Day-to-day functioning becomes difficult."
+    },
+    {
+      "type": "paragraph",
+      "text": "Physical and psychological capacities decline significantly."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Risk factors"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Work overload"
+    },
+    {
+      "type": "paragraph",
+      "text": "The accumulation of responsibilities is one of the most frequent causes."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Lack of recovery"
+    },
+    {
+      "type": "paragraph",
+      "text": "The absence of sufficient rest prevents the body from replenishing its reserves."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Perfectionism"
+    },
+    {
+      "type": "paragraph",
+      "text": "People who are very demanding of themselves are often more exposed."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Difficulty saying no"
+    },
+    {
+      "type": "paragraph",
+      "text": "Systematically agreeing to requests gradually increases the mental load."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Chronic stress"
+    },
+    {
+      "type": "paragraph",
+      "text": "The constant activation of the adaptive systems gradually wears the body out."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Warning signs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Detecting the first symptoms often makes it possible to act before full-blown burnout sets in."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Physical signs"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Persistent fatigue",
+        "Sleep disorders",
+        "Headaches",
+        "Muscle pain",
+        "Digestive problems",
+        "Feeling exhausted as soon as you wake up"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Emotional signs"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Irritability",
+        "Loss of motivation",
+        "Anxiety",
+        "Discouragement",
+        "A sense of helplessness"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Cognitive signs"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Difficulty concentrating",
+        "Memory problems",
+        "Reduced effectiveness",
+        "Unusual mistakes"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Behavioral signs"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Isolation",
+        "Disengagement",
+        "Reduced involvement",
+        "Increased use of stimulants"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The role of sleep"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sleep is the main natural mechanism of recovery."
+    },
+    {
+      "type": "paragraph",
+      "text": "When stress becomes significant:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Falling asleep becomes more difficult.",
+        "Waking during the night increases.",
+        "Sleep becomes less restorative."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "This deterioration in turn worsens fatigue and the risk of exhaustion."
+    },
+    {
+      "type": "paragraph",
+      "text": "Protecting sleep is therefore a priority."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "A protective diet"
+    },
+    {
+      "type": "paragraph",
+      "text": "A balanced diet helps support the capacity to adapt."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Foods to favor"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "A variety of vegetables",
+        "Fresh fruit",
+        "Legumes",
+        "Fish",
+        "Eggs",
+        "Nuts",
+        "Seeds",
+        "Good-quality olive oil"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "These foods provide the nutrients the nervous system needs."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Foods to limit"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ultra-processed products",
+        "Excess sugar",
+        "Energy drinks",
+        "Excess coffee",
+        "Excess alcohol"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "These products can heighten fatigue in the medium term."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Moving to prevent exhaustion"
+    },
+    {
+      "type": "paragraph",
+      "text": "Regular physical activity:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Reduces stress",
+        "Improves sleep",
+        "Promotes the production of endorphins",
+        "Strengthens the capacity to adapt"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Even when moderate, it is a powerful prevention tool."
+    },
+    {
+      "type": "paragraph",
+      "text": "Regularity matters more than intensity."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Learning to recover again"
+    },
+    {
+      "type": "paragraph",
+      "text": "Recovery should be regarded as a biological necessity."
+    },
+    {
+      "type": "paragraph",
+      "text": "It includes:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Sleep",
+        "Breaks during the day",
+        "Leisure",
+        "Enjoyable activities",
+        "Social contact",
+        "Time spent in nature"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "These periods allow the body to restore its physical and mental resources."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Developing healthy boundaries"
+    },
+    {
+      "type": "paragraph",
+      "text": "Preventing burnout often means learning to:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Say no when necessary",
+        "Prioritize",
+        "Delegate certain tasks",
+        "Respect your real capacities",
+        "Accept imperfection"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "These skills are major protective factors."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The Family Clinic burnout prevention protocol"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Keep regular sleep hours.",
+        "Plan daily breaks.",
+        "Maintain appropriate physical activity.",
+        "Adopt a health-promoting diet.",
+        "Limit stimulants.",
+        "Keep time for leisure.",
+        "Reduce excessive screen exposure.",
+        "Nurture positive social relationships.",
+        "Recognize the first signs of fatigue.",
+        "Consult a health professional in case of persistent exhaustion."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Quick self-assessment"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ask yourself the following questions regularly:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Do I feel tired as soon as I wake up?",
+        "Have I lost the enjoyment of certain activities?",
+        "Do I feel that I am constantly short of time?",
+        "Has my sleep become less restorative?",
+        "Am I more irritable than before?",
+        "Has my concentration declined?"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Several “yes” answers should prompt you to slow down and reassess your lifestyle."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Conclusion"
+    },
+    {
+      "type": "paragraph",
+      "text": "Burnout is not a sign of weakness but the consequence of a prolonged imbalance between the demands placed on the body and its capacity to recover. Early prevention often makes it possible to avoid the onset of severe exhaustion."
+    },
+    {
+      "type": "paragraph",
+      "text": "According to the Family Clinic approach, preserving your energy, respecting your biological limits and giving rest enough room are essential conditions for lasting health."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Further reading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Also discover the booklets:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Managing stress naturally",
+        "Sleep well to live better",
+        "Restoring your energy naturally",
+        "The art of slowing down",
+        "Everyday happiness"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "links": {
+        "Managing stress naturally": "E03",
+        "Sleep well to live better": "E02",
+        "Restoring your energy naturally": "E04",
+        "The art of slowing down": "E08",
+        "Everyday happiness": "E09"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "and the book “Cooking to Heal” (2026) from Family Clinic Editions.",
+      "links": {
+        "Cooking to Heal": "book"
+      }
+    }
+  ]
+}

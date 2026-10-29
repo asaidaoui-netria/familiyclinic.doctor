@@ -3,7 +3,7 @@
 <div class="publication-article-title"><a class="publication-eyebrow" href="{{ p.category.url }}">{{ p.category.title | publicationText(p.locale) | safe }}</a><h1>{{ p.title | publicationText(p.locale) | safe }}</h1></div>
 <div class="publication-article-summary"><p class="publication-intro">{{ p.summary | publicationText(p.locale) | safe }}</p>{{ author(p) }}<p class="publication-meta">{{ p.readingMinutes }} {{ pc.read }}{% if p.edition.translation %}<span>{{ pc.translatedLabel }}</span>{% endif %}</p></div>
 </div>
-{{ illustration(p.image,'publication-article-image',true,'','(max-width: 768px) 190px, (max-width: 1040px) 260px, (max-width: 1200px) 25vw, 300px') }}
+{% if p.image %}{{ illustration(p.image,'publication-article-image',true,'','(max-width: 768px) 190px, (max-width: 1040px) 260px, (max-width: 1200px) 25vw, 300px') }}{% endif %}
 </header>
 <div class="publication-reading-layout">
 {{ contents(p) }}

@@ -1,0 +1,320 @@
+{
+  "language": "en",
+  "status": "published",
+  "title": "Preventing cognitive decline: the role of metabolism and ketones",
+  "summary": "Preventing cognitive decline is not a utopian dream. Since the 1980s, medical research has revealed a silent but decisive mechanism: insulin resistance in the brain. This energy deficit, which deprives neurons of their main fuel, precedes the onset of symptoms of Alzheimer’s disease and other neurodegenerative disorders by several decades. This Family Clinic booklet offers a clear and thorough exploration of the brain’s metabolic mechanisms, the consequences of insulin resistance and the prospects offered by the ketogenic diet. It is a reminder that prevention rests on everyday choices: cutting back on refined sugars, favoring natural foods, choosing quality fats and adopting a balanced lifestyle.",
+  "sourceHash": "b478416ea58d7683362874f15b8075d79dba77856769b5a6f06b530d8d792d59",
+  "translation": {
+    "from": "fr",
+    "method": "AI-assisted translation",
+    "reviewStatus": "not-clinically-reviewed"
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Foreword"
+    },
+    {
+      "type": "paragraph",
+      "text": "For more than forty years, medical research has highlighted a silent but decisive metabolic phenomenon: insulin resistance in the brain. This disorder, which prevents neurons from using glucose properly, is one of the major factors in Alzheimer’s disease and several other neurodegenerative conditions. It is not a sudden process, but an insidious development that sets in gradually, often 10 to 20 years before the first clinical symptoms appear. Thus, long before memory begins to fail or cognitive abilities deteriorate, nerve cells are already suffering from a chronic energy deficit."
+    },
+    {
+      "type": "paragraph",
+      "text": "Glucose is the brain’s main fuel. It enters neurons thanks to specific transporters and to the action of insulin, which acts as a key that opens the door of the cells. But in Alzheimer’s disease, these transporters are reduced and the effectiveness of insulin is compromised. The result: glucose no longer enters neurons properly, and the energy they need to function becomes scarce. This energy deficit affects not only memory and learning, but also communication between nerve cells, the regulation of inflammation and protection against external attacks."
+    },
+    {
+      "type": "paragraph",
+      "text": "Faced with this shortage, the body has an alternative: ketones. These molecules, produced by the breakdown of fats, readily cross the blood-brain barrier and provide neurons with a source of energy that does not depend on insulin. They are a primitive, universal fuel, capable of sustaining brain function when glucose becomes insufficient. Unlike fatty acids, which cannot cross the brain’s barrier, ketones are small molecules that diffuse into it easily and directly feed the mitochondria, the true power plants of neurons."
+    },
+    {
+      "type": "paragraph",
+      "text": "The value of ketones is not limited to Alzheimer’s disease. Studies have shown their beneficial role in autism, schizophrenia, bipolar disorder, Down syndrome and epilepsy. In all these cases, a reduction in glucose use by certain brain regions is observed. Ketones then appear as a natural solution to make up for this deficit and restore some of the impaired functions."
+    },
+    {
+      "type": "paragraph",
+      "text": "This booklet continues the work of Family Clinic: providing clear, accurate and practical information for understanding the mechanisms of health and the means of preserving it. It offers an exploration of the brain’s metabolic foundations, the consequences of insulin resistance and the prospects offered by the ketogenic diet. The aim is twofold: to inform in order to prevent, and to offer concrete avenues for supporting people already affected by cognitive decline."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prevention rests on an appropriate diet, low in refined sugars and rich in quality fats, as well as on early screening for insulin resistance. Simple tests such as fasting blood glucose, hemoglobin A1C or the HOMA-IR index can detect the first signs of metabolic imbalance. The earlier the diagnosis, the greater the chances of slowing or avoiding cognitive decline."
+    },
+    {
+      "type": "paragraph",
+      "text": "This booklet thus invites a new awareness: cognitive decline is not inevitable. By understanding the brain’s energy mechanisms and making informed nutritional choices, everyone can take action to preserve their memory, concentration and intellectual vitality. Ketones, long regarded as a mere by-product of fat breakdown, now appear as a valuable ally in the fight against neurodegenerative diseases."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Normal brain metabolism"
+    },
+    {
+      "type": "paragraph",
+      "text": "The human brain is an exceptional organ in its complexity and its energy needs. Although it accounts for only about 2% of body weight, it consumes nearly 20% of the total energy produced by the body. This energy is essential for transmitting nerve signals, memory, learning, emotional regulation and all the higher functions that define our intellectual life."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under normal conditions, the brain’s main fuel is glucose. This simple sugar, which comes from food, circulates in the blood and must pass through several stages to reach the neurons. The first barrier is the blood-brain barrier, a protective structure that filters the substances entering the brain. Glucose passes through it thanks to specific transporters, notably GLUT1, which allow it to enter brain tissue."
+    },
+    {
+      "type": "paragraph",
+      "text": "Once in the brain, glucose must enter the nerve cells. Here again, specialized transporters such as GLUT3 facilitate its passage across the neuronal membrane. Insulin plays a key role: it acts like a key that opens the door of the cells, allowing glucose to enter and be used. Without this fine regulation, neurons cannot access their fuel."
+    },
+    {
+      "type": "paragraph",
+      "text": "Inside the cells, glucose is transformed through a series of biochemical reactions. It is first converted into pyruvate, then brought into the mitochondria, the true power plants of neurons. In these organelles, pyruvate feeds the tricarboxylic acid cycle (or Krebs cycle), which produces ATP (adenosine triphosphate), the universal energy molecule. ATP is then used for all vital functions: transmission of electrical signals, synthesis of neurotransmitters, maintenance of cell structure and communication between neurons."
+    },
+    {
+      "type": "paragraph",
+      "text": "This system is remarkably efficient in young, healthy people. Glucose is abundant, the transporters work properly, insulin acts optimally, and the mitochondria produce the necessary energy without difficulty. The brain can then carry out its functions smoothly, without interruption."
+    },
+    {
+      "type": "paragraph",
+      "text": "However, this almost exclusive dependence on glucose makes the brain vulnerable. Unlike the heart or the muscles, which can use fatty acids as well as glucose, the brain cannot directly use fatty acids. These are too large to cross the blood-brain barrier. The brain therefore relies on only two fuels: glucose and, when it is lacking, ketones."
+    },
+    {
+      "type": "paragraph",
+      "text": "In everyday life, most people eat a diet rich in carbohydrates. Glucose is therefore constantly available, and the brain remains supplied. But this abundance can mask a problem: when insulin becomes less effective, or when the glucose transporters malfunction, the brain’s energy supply becomes fragile. This phenomenon, called insulin resistance, lies at the heart of many diseases."
+    },
+    {
+      "type": "paragraph",
+      "text": "It is important to understand that normal brain metabolism depends on a delicate balance:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "A regular supply of glucose from food.",
+        "Effective hormonal regulation by insulin.",
+        "Functional transporters to cross biological barriers.",
+        "Active mitochondria to convert glucose into ATP."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "When this balance is maintained, the brain works to its full potential. But as soon as one link in the chain weakens, energy becomes scarce and cognitive functions begin to suffer."
+    },
+    {
+      "type": "paragraph",
+      "text": "Brain metabolism is thus both robust and fragile: robust in its efficiency, fragile in its dependence on a single fuel. This understanding is essential for approaching the following chapters, which describe what happens when insulin resistance sets in and glucose is no longer enough to fuel the brain."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Insulin resistance and energy deficit"
+    },
+    {
+      "type": "paragraph",
+      "text": "Brain metabolism rests on a delicate balance: a regular supply of glucose, effective insulin action, functional transporters and active mitochondria. When one of these links weakens, the energy available to neurons decreases. This is what is called insulin resistance, a central phenomenon in Alzheimer’s disease and in many chronic diseases."
+    },
+    {
+      "type": "paragraph",
+      "text": "Insulin resistance is a loss of the cells’ sensitivity to this hormone. Insulin normally acts as a key that opens the door of the cells to let glucose in. But when this key is no longer recognized, glucose remains locked outside. In the brain, this defect is made worse by a reduction in the GLUT1 and GLUT3 transporters, which respectively ensure the passage of glucose across the blood-brain barrier and its entry into neurons. The result: the brain’s main fuel no longer reaches its destination."
+    },
+    {
+      "type": "paragraph",
+      "text": "Inside the cells, another obstacle appears: the pyruvate dehydrogenase complex, essential for turning glucose into usable energy, is deficient. Even when glucose manages to enter the neurons, it cannot be properly converted into ATP. This chronic energy deficit weakens neurons, disrupts their communication and promotes their degeneration."
+    },
+    {
+      "type": "paragraph",
+      "text": "This process is not limited to Alzheimer’s disease. Studies have shown that similar abnormalities in glucose use are present in autism, schizophrenia, bipolar disorder, Down syndrome and epilepsy. In all these cases, certain brain regions show glucose hypometabolism, observable with imaging tests such as positron emission tomography (PET scan)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Insulin resistance does not affect only the brain. It also affects the liver, muscles, heart and kidneys. But the brain is particularly vulnerable because it cannot directly use fatty acids as fuel. When glucose becomes insufficient, it has no choice but to turn to ketones. Without this alternative, neurons become exhausted and die."
+    },
+    {
+      "type": "paragraph",
+      "text": "This energy deficit is accompanied by chronic inflammation. The glial cells, which are responsible for protecting and nourishing neurons, become dysregulated. They produce inflammatory substances in excess, but can no longer regulate this reaction. The brain then remains in a state of permanent inflammation, which accelerates the destruction of neurons and promotes the formation of the amyloid plaques and neurofibrillary tangles characteristic of Alzheimer’s disease."
+    },
+    {
+      "type": "paragraph",
+      "text": "Brain insulin resistance is a silent process. It can begin very early, sometimes as early as age 20 in people with a genetic predisposition. Clinical symptoms, by contrast, appear only several decades later. This time lag explains why prevention must be considered well before the first signs of cognitive decline appear."
+    },
+    {
+      "type": "paragraph",
+      "text": "The risk factors are many:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "A diet rich in refined sugars and processed foods.",
+        "Excessive consumption of fructose, especially in the form of high-fructose corn syrup.",
+        "Excess weight and obesity, which worsen insulin resistance.",
+        "A sedentary lifestyle, which reduces the cells’ sensitivity to insulin.",
+        "Chronic stress and certain environmental factors."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Insulin resistance thus stands at the crossroads of nutrition, lifestyle and genetics. It illustrates the brain’s fragility in the face of metabolic disturbances. Understanding this mechanism is essential for putting prevention and treatment strategies in place."
+    },
+    {
+      "type": "paragraph",
+      "text": "This chapter shows that cognitive decline is not linked only to age or genetics. It is also the consequence of an energy deficit in the brain, itself caused by insulin resistance. This realization opens the way to concrete solutions: changing the diet, promoting ketone production and restoring the brain’s metabolic balance."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Ketones: an alternative fuel"
+    },
+    {
+      "type": "paragraph",
+      "text": "When glucose becomes insufficient to fuel the brain, another metabolic pathway opens up: that of ketones. These molecules, produced by the breakdown of fats, are a primitive and universal fuel, capable of sustaining neuronal energy independently of insulin. Their role is essential because, unlike fatty acids, which are too large to cross the blood-brain barrier, ketones are small molecules that diffuse easily into the brain."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ketones are produced mainly by the liver, from fatty acids released during fasting or a low-carbohydrate diet. This process, called ketogenesis, literally cuts fatty acids into smaller fragments, which are transformed into ketone bodies: acetoacetate, beta-hydroxybutyrate and acetone. These molecules cross the blood-brain barrier and enter the neurons directly, where they feed the mitochondria to produce ATP. Unlike glucose, they do not need insulin to enter the cells."
+    },
+    {
+      "type": "paragraph",
+      "text": "The role of ketones is not limited to energy. They also take part in the synthesis of brain lipids, which are essential for the development of the brain of the fetus and the newborn. From the twelfth week of gestation, ketones are present in the fetus’s blood. After birth, breast milk, rich in medium-chain triglycerides, promotes ketone production in the infant. Thus, from the very first moments of life, the human brain is accustomed to using this alternative fuel."
+    },
+    {
+      "type": "paragraph",
+      "text": "In adults, ketones appear during prolonged fasting, intense physical exercise or a ketogenic diet. They help preserve glucose reserves and prevent excessive breakdown of muscle proteins. They are therefore a survival strategy inherited from our ancestors, who faced periods of famine. Without ketones, the body would quickly exhaust its glucose and protein reserves, leading to fatal failure."
+    },
+    {
+      "type": "paragraph",
+      "text": "The brain benefits particularly from this fuel. In insulin resistance, when glucose can no longer be used efficiently, ketones take over. They feed the neurons, restore part of their activity and improve communication between cells. Studies have shown that raising blood ketone levels increases cerebral blood flow and promotes their uptake by neurons. The brain therefore seems to have a preferential mechanism for using ketones when they are available."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ketones are not only useful to the brain. The heart, kidneys and muscles also use them efficiently. But it is in the neurological field that their role is most spectacular. They have been used since the early twentieth century to treat epilepsy, by mimicking the effects of fasting. Today, they are attracting growing interest for the prevention and treatment of neurodegenerative diseases, particularly Alzheimer’s."
+    },
+    {
+      "type": "paragraph",
+      "text": "It is important to distinguish physiological ketones, which are beneficial, from the pathological ketones produced in excess during diabetic ketosis. In that case, the complete absence of insulin prevents glucose from being used, and fat breakdown becomes uncontrollable. Ketones accumulate massively, acidify the blood and cause a medical emergency. But under normal conditions, ketones are produced at moderate levels that are perfectly well tolerated and even essential to the proper functioning of the brain."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ketone production can be encouraged through dietary choices. Medium-chain triglycerides (MCTs), found in coconut oil and in whole-fat dairy products, are particularly effective at generating ketones. Unlike long-chain fatty acids, they are rapidly absorbed and processed by the liver. Eating them regularly, as part of a balanced diet, can support ketone production and provide the brain with a complementary source of energy."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ketones thus appear as an alternative fuel, but also as a therapeutic tool. They make it possible to compensate for the energy deficit linked to insulin resistance, preserve neuronal function and slow cognitive decline. Their role, long underestimated, is now recognized as essential in the prevention and management of neurodegenerative diseases."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Ketones and brain health"
+    },
+    {
+      "type": "paragraph",
+      "text": "The brain is unique in its energy dependence. Unlike the muscles or the heart, which can use glucose and fatty acids interchangeably, the brain cannot directly use fatty acids. These are too large to cross the blood-brain barrier. So when glucose becomes insufficient, neurons find themselves deprived of fuel. It is in this context that ketones play a vital role: they are an alternative source of energy, capable of sustaining brain function even in the presence of insulin resistance."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ketones readily cross the blood-brain barrier and enter neurons without requiring insulin. They directly feed the mitochondria, where they are converted into ATP, the universal energy molecule. This mechanism makes it possible to get around the obstacles associated with glucose: deficient transporters, ineffective insulin, impaired enzymes. Ketones thus offer a simple and efficient metabolic pathway for maintaining neuronal activity."
+    },
+    {
+      "type": "paragraph",
+      "text": "Research shows that raising blood ketone levels increases cerebral blood flow. This phenomenon promotes their uptake by neurons and improves communication between cells. The brain seems to have a preferential mechanism for using ketones when they are available. This observation explains why ketogenic diets or ketone supplements can improve certain cognitive functions in patients with Alzheimer’s disease."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ketones do more than provide energy. They also have protective effects:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "They reduce brain inflammation by modulating the activity of glial cells.",
+        "They promote the production of neurotransmitters essential for memory and learning.",
+        "They protect neurons against oxidative stress, which is responsible for their degeneration.",
+        "They stimulate neurogenesis, that is, the formation of new neurons, in certain regions of the brain."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "These effects explain why ketones are being studied in many neurological conditions. In epilepsy, they reduce the frequency of seizures by stabilizing the electrical activity of neurons. In Alzheimer’s disease, they compensate for the glucose-related energy deficit and improve certain cognitive functions. In autism and schizophrenia, they partially restore the metabolic balance of deficient brain regions."
+    },
+    {
+      "type": "paragraph",
+      "text": "The heart, kidneys and muscles also use ketones efficiently. But it is in the neurological field that their role is most spectacular. The brain, limited to just two fuels—glucose and ketones—benefits particularly from this alternative. Without ketones, it would be condemned to exhaustion in the event of insulin resistance."
+    },
+    {
+      "type": "paragraph",
+      "text": "It is important to remember that physiological ketones, produced at moderate levels during fasting or a ketogenic diet, are beneficial. They must not be confused with diabetic ketosis, a pathological situation in which their massive accumulation acidifies the blood and endangers the patient’s life. Under normal conditions, ketones are essential to the survival and proper functioning of the brain."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ketone production can be encouraged through dietary choices. Medium-chain triglycerides (MCTs), found in coconut oil and whole-fat dairy products, are rapidly converted into ketones by the liver. Eating them regularly, as part of a balanced diet, can provide the brain with a complementary and protective source of energy."
+    },
+    {
+      "type": "paragraph",
+      "text": "In short, ketones are not just a backup fuel. They represent a genuine strategy for protecting and regenerating the brain. They make it possible to compensate for the energy deficit linked to insulin resistance, reduce inflammation, protect neurons and stimulate their renewal. Their role, long underestimated, is now recognized as essential in the prevention and management of neurodegenerative diseases."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "General conclusion"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cognitive decline, long perceived as an inevitable consequence of age, now appears to be the result of a silent metabolic imbalance. Insulin resistance in the brain, documented since the 1980s, is one of the central mechanisms of Alzheimer’s disease and many other neurodegenerative conditions. This energy deficit, which deprives neurons of their main fuel, sets in well before clinical symptoms appear, sometimes as early as youth, and progresses slowly until it compromises memory, learning and intellectual functions."
+    },
+    {
+      "type": "paragraph",
+      "text": "In light of this, ketones prove to be a valuable alternative source of energy. Derived from the breakdown of fats, they readily cross the blood-brain barrier and directly fuel the mitochondria of neurons, without depending on insulin. They thus make it possible to get around the obstacles associated with glucose and to restore part of the brain’s activity. Their role is not limited to energy: they reduce inflammation, protect neurons against oxidative stress and promote neurogenesis. These effects explain the growing interest in them for the prevention and management of neurodegenerative diseases."
+    },
+    {
+      "type": "paragraph",
+      "text": "Understanding these mechanisms opens up new perspectives. It shows that cognitive decline is not linked solely to genetics or age, but can be influenced by diet and lifestyle. The explosion in the consumption of refined sugars and processed foods during the twentieth century fostered insulin resistance and weakened the brain. Conversely, a natural diet, low in simple carbohydrates and rich in quality fats, supports ketone production and preserves energy balance."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prevention rests on simple but powerful measures:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Cut back on refined sugars and industrial products, which are responsible for hyperinsulinemia and inflammation.",
+        "Favor natural, whole foods, rich in essential nutrients and quality fats.",
+        "Include sources of medium-chain triglycerides (MCTs), such as coconut oil or whole-fat dairy products, which stimulate ketone production.",
+        "Get regular physical activity, which improves insulin sensitivity and promotes the use of fats as fuel.",
+        "Pay attention to sleep and stress management, as these factors directly influence metabolism and brain health."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Early detection of insulin resistance is also essential. Simple tests such as fasting blood glucose, hemoglobin A1C, fasting insulin and the HOMA-IR index can identify the first signs of metabolic imbalance. The earlier the diagnosis is made, the greater the chances of preventing or slowing cognitive decline."
+    },
+    {
+      "type": "paragraph",
+      "text": "This booklet is a reminder that brain health depends on daily choices. Diet, physical activity, sleep and stress management are all levers within everyone’s reach. Ketones, long regarded as a mere by-product of fat breakdown, now appear as a valuable ally for preserving memory, concentration and intellectual vitality."
+    },
+    {
+      "type": "paragraph",
+      "text": "In conclusion, cognitive decline is not inevitable. By understanding the brain’s energy mechanisms and making informed nutritional choices, it is possible to prevent, slow and sometimes even improve cognitive functions. Ketones offer an alternative metabolic pathway, capable of supporting the brain when glucose becomes insufficient. They represent a natural, effective and promising strategy for supporting the aging process and preserving quality of life."
+    }
+  ]
+}

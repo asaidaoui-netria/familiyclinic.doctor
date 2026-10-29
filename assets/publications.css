@@ -63,6 +63,7 @@
 .publication-reading-main { min-width: 0; }
 .publication-prose { min-width: 0; font-size: 1.125rem; line-height: 1.8; color: var(--ink); }
 .publication-prose p { color: var(--ink); margin-bottom: 22px; }
+.publication-prose a { text-decoration: underline; text-underline-offset: 4px; }
 .publication-prose h2 { font-size: 1.75rem; margin: 42px 0 18px; scroll-margin-top: calc(var(--header-height) + 24px); }
 .publication-prose h3 { font-size: 1.3rem; margin: 28px 0 14px; scroll-margin-top: calc(var(--header-height) + 24px); }
 .publication-prose > :first-child, .publication-prose section:first-child > h2:first-child { margin-top: 0; }

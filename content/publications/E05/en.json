@@ -1,0 +1,530 @@
+{
+  "language": "en",
+  "status": "published",
+  "title": "Everyday digestive well-being",
+  "summary": "Taking care of your digestive system to improve your overall health.",
+  "sourceHash": "c403c2c1ee0e4faee54e107479deb3358618c97ccc0fe431cce5e5bf4e2730c8",
+  "translation": {
+    "from": "fr",
+    "method": "AI-assisted translation",
+    "reviewStatus": "not-clinically-reviewed"
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Foreword"
+    },
+    {
+      "type": "paragraph",
+      "text": "The digestive system plays a central role in how the body functions. Far more than a simple organ responsible for breaking down food, it takes part in nutrient assimilation, immune protection, metabolic balance and even psychological health."
+    },
+    {
+      "type": "paragraph",
+      "text": "Many people regularly suffer from bloating, a feeling of heaviness after meals, abdominal pain, reflux, constipation or irregular bowel movements. These discomforts are often considered benign, yet they can considerably impair quality of life."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Family Clinic approach considers digestive health to be one of the foundations of general well-being. Harmonious digestion promotes better energy, better immunity, better emotional balance and better assimilation of the nutrients essential to health."
+    },
+    {
+      "type": "paragraph",
+      "text": "Taking care of your digestive system is therefore not just a matter of comfort, but an essential step in prevention."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Why is digestion so important?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The digestive system performs several vital functions:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Transforming food into absorbable nutrients",
+        "Absorbing vitamins and minerals",
+        "Eliminating waste",
+        "Protecting against pathogens",
+        "Regulating certain hormones",
+        "Communicating with the brain"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Disrupted digestion can have repercussions throughout the body."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The role of the gut microbiota"
+    },
+    {
+      "type": "paragraph",
+      "text": "The intestine is home to several billion microorganisms that make up the gut microbiota."
+    },
+    {
+      "type": "paragraph",
+      "text": "This true ecosystem takes part in:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Digestion",
+        "The production of certain vitamins",
+        "Immune regulation",
+        "Protection against unwanted microbes",
+        "Communication with the brain"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "When the balance of the microbiota is disrupted, various problems can appear:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Bloating",
+        "Bowel irregularity",
+        "Fatigue",
+        "Chronic inflammation",
+        "Increased digestive sensitivity"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Preserving a diverse microbiota is one of the major goals of digestive health."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The main everyday digestive problems"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Bloating"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bloating corresponds to an excessive buildup of digestive gas that can cause a feeling of abdominal swelling."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Constipation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Slow transit promotes digestive discomfort and can disrupt the natural elimination of waste."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Gastroesophageal reflux"
+    },
+    {
+      "type": "paragraph",
+      "text": "The backflow of stomach contents into the esophagus can cause burning and discomfort after meals."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Slow digestion"
+    },
+    {
+      "type": "paragraph",
+      "text": "It shows up as a feeling of heaviness after meals, sometimes accompanied by fatigue."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Irregular bowel movements"
+    },
+    {
+      "type": "paragraph",
+      "text": "Alternating between constipation and loose stools often reflects a functional digestive imbalance."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Factors that disrupt digestion"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Eating too fast"
+    },
+    {
+      "type": "paragraph",
+      "text": "Eating quickly reduces the effectiveness of chewing and makes the work of digestion harder."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Stress"
+    },
+    {
+      "type": "paragraph",
+      "text": "The digestive system is particularly sensitive to emotions and psychological tension."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Ultra-processed foods"
+    },
+    {
+      "type": "paragraph",
+      "text": "They are often low in fiber and high in additives that can disturb intestinal balance."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Insufficient hydration"
+    },
+    {
+      "type": "paragraph",
+      "text": "Inadequate hydration frequently slows transit."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "A sedentary lifestyle"
+    },
+    {
+      "type": "paragraph",
+      "text": "Physical activity contributes to good digestive function."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Eating well to digest better"
+    },
+    {
+      "type": "paragraph",
+      "text": "A diet that supports digestive health is based on simple, minimally processed foods."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Foods to favor"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "A variety of vegetables",
+        "Fresh fruit",
+        "Well-tolerated legumes",
+        "Aromatic herbs",
+        "Good-quality olive oil",
+        "Nuts",
+        "Seeds"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "These foods provide fiber that is essential for the microbiota and for transit."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Foods to limit"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ultra-processed products",
+        "Excess refined sugars",
+        "Excess fried foods",
+        "Excess alcohol",
+        "Large amounts of carbonated drinks"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The importance of chewing"
+    },
+    {
+      "type": "paragraph",
+      "text": "Digestion begins in the mouth."
+    },
+    {
+      "type": "paragraph",
+      "text": "Chewing slowly helps:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ease the work of the stomach",
+        "Improve digestion",
+        "Reduce bloating",
+        "Increase the feeling of fullness"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Taking the time to eat is one of the simplest ways to improve digestion."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Water: an ally for transit"
+    },
+    {
+      "type": "paragraph",
+      "text": "Water is involved in many digestive mechanisms:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Formation of digestive secretions",
+        "Softening of stools",
+        "Transport of nutrients",
+        "Elimination of waste"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "It is generally recommended to drink regularly throughout the day."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Moving to digest better"
+    },
+    {
+      "type": "paragraph",
+      "text": "Physical activity promotes:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Intestinal transit",
+        "Blood circulation to the digestive organs",
+        "Weight control",
+        "Stress reduction"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Walking after meals is a particularly beneficial habit."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The link between the gut and the brain"
+    },
+    {
+      "type": "paragraph",
+      "text": "Scientists now speak of the gut–brain axis."
+    },
+    {
+      "type": "paragraph",
+      "text": "The gut and the brain are in constant communication."
+    },
+    {
+      "type": "paragraph",
+      "text": "This relationship explains why:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Stress can cause digestive problems.",
+        "Digestive problems can influence mood.",
+        "The balance of the microbiota contributes to psychological well-being."
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Taking care of your digestion also helps preserve your emotional balance."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The Family Clinic protocol for good digestive health"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Eat slowly and in a calm setting.",
+        "Chew your food thoroughly.",
+        "Eat vegetables and fruit every day.",
+        "Favor minimally processed foods.",
+        "Stay sufficiently hydrated.",
+        "Move every day.",
+        "Reduce chronic stress.",
+        "Respect your natural hunger and fullness signals.",
+        "Avoid overeating.",
+        "Get enough sleep."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Practical tips to apply starting today"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Start meals with a salad or well-tolerated raw vegetables.",
+        "Avoid screens during meals.",
+        "Take a 15- to 20-minute walk after lunch or dinner.",
+        "Drink water regularly.",
+        "Keep mealtimes as regular as possible.",
+        "Gradually cut down on ultra-processed foods."
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "These simple measures often bring a rapid improvement in digestive comfort."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Conclusion"
+    },
+    {
+      "type": "paragraph",
+      "text": "Good digestion is one of the foundations of health and well-being. It promotes better assimilation of nutrients, a better-balanced microbiota and a better quality of life. Eating habits, physical activity, stress management and respect for biological rhythms play an essential role in this balance."
+    },
+    {
+      "type": "paragraph",
+      "text": "According to the Family Clinic approach, improving your digestive health is often one of the first steps toward more harmonious overall health."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Further reading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Also discover the booklets:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Sleep well to live better",
+        "Managing stress naturally",
+        "Restoring your energy naturally",
+        "Nutrition and mood",
+        "A complete guide to well-being: the Family Clinic approach"
+      ],
+      "levels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "links": {
+        "Sleep well to live better": "E02",
+        "Managing stress naturally": "E03",
+        "Restoring your energy naturally": "E04",
+        "Nutrition and mood": "E06",
+        "A complete guide to well-being: the Family Clinic approach": "E01"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "and the book “Cooking to Heal” (2026) from Family Clinic Editions.",
+      "links": {
+        "Cooking to Heal": "book"
+      }
+    }
+  ]
+}
